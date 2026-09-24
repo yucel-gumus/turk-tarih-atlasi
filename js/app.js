@@ -356,17 +356,31 @@
     ixBody.innerHTML = parts.join("");
   }
 
+  const bgElements = [
+    document.getElementById("hud"),
+    viewport,
+    timebar,
+    yearRead,
+    rail,
+    labelsEl,
+    minimap,
+    document.getElementById("legend"),
+    hint,
+  ].filter(Boolean);
+
   function toggleIndex(open) {
     const next = typeof open === "boolean" ? open : indexPanel.hidden;
     if (next) {
       buildIndex();
       indexPanel.hidden = false;
       indexBtn.setAttribute("aria-expanded", "true");
+      bgElements.forEach((el) => el.setAttribute("inert", ""));
       const closeBtn = document.getElementById("ixClose");
       if (closeBtn) closeBtn.focus();
     } else {
       indexPanel.hidden = true;
       indexBtn.setAttribute("aria-expanded", "false");
+      bgElements.forEach((el) => el.removeAttribute("inert"));
       indexBtn.focus();
     }
   }
@@ -439,6 +453,7 @@
       const b = document.createElement("button");
       b.type = "button";
       b.className = "tick";
+      b.tabIndex = -1;
       b.dataset.year = String(year);
       b.style.left = `${sx}px`;
       b.textContent = yearLabel(year);
@@ -729,6 +744,9 @@
   }, { passive: false });
 
   window.addEventListener("keydown", (e) => {
+    const isInput = e.target.closest("input, textarea, select, [contenteditable='true']");
+    const isButton = e.target.closest("button, [role='button']");
+    const inPanel = e.target.closest("#indexPanel");
     const typing = document.activeElement === q;
     if (e.key === "Escape") {
       if (!indexPanel.hidden) {
@@ -756,8 +774,9 @@
       }
       return;
     }
+    if (isInput || isButton || inPanel) return;
     const step = e.shiftKey ? 180 : 90;
-    if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", " ", "+", "=", "-", "_", "0"].includes(e.key)) e.preventDefault();
+    if (["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "+", "=", "-", "_", "0"].includes(e.key)) e.preventDefault();
     if (e.key === "ArrowLeft") { anim++; x += step; apply(); }
     if (e.key === "ArrowRight") { anim++; x -= step; apply(); }
     if (e.key === "ArrowUp") { anim++; y += step; apply(); }

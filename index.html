@@ -28,7 +28,7 @@
       <button id="zoomIn" type="button" aria-label="Yakınlaş">+</button>
       <button id="fit" type="button">Tümü</button>
       <button id="indexBtn" type="button" aria-expanded="false" aria-controls="indexPanel">Dizin</button>
-      <span id="zlabel">en uzak</span>
+      <span id="zlabel" aria-live="polite" aria-atomic="true">en uzak</span>
     </div>
   </header>
   <aside id="indexPanel" hidden role="dialog" aria-modal="true" aria-label="Devlet ve hükümdar dizini">
@@ -40,7 +40,7 @@
     <div id="ixBody"></div>
   </aside>
   <div id="timebar" aria-hidden="true"></div>
-  <div id="yearRead" class="range-read"></div>
+  <div id="yearRead" class="range-read" aria-live="polite" aria-atomic="true"></div>
   <nav id="rail" aria-label="Bölgeler"></nav>
   <div id="labels"></div>
   <main id="viewport">

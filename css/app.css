@@ -544,8 +544,8 @@ button:hover, button:focus-visible { border-color: var(--gold); outline: none; }
 #viewport .milestone { transition: opacity 0.25s ease, visibility 0.25s ease; }
 #viewport:not(.milestone-on) .milestone { opacity: 0; pointer-events: none; visibility: hidden; }
 
-/* Detay seviyesinde değilken şeffaf hükümdar kartları tıklama etkileşimini kilitler */
-#viewport:not(.detail-on) .ruler { pointer-events: none; }
+/* Detay seviyesinde değilken şeffaf hükümdar kartları tıklama etkileşimini kilitler ve a11y ağacından çıkarılır */
+#viewport:not(.detail-on) .ruler { pointer-events: none; visibility: hidden; }
 
 /* Çok sayıda devlet ve hükümdar kartı için çizim ve yerleşim maliyetini düşürür */
 .state, .ruler { contain: layout style; }
