@@ -68,14 +68,27 @@ def main():
     states.sort(key=key)
     total_rulers = sum(len(s.get("rulers", [])) for s in states)
     out = OUT
+
+    import hashlib
+    import sys
+    from datetime import datetime, timezone
+
+    payload = json.dumps({"milestones": MILESTONES, "states": states}, ensure_ascii=False)
+    payload_hash = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+    latest_mtime = max(p.stat().st_mtime for p in sources) if sources else 0
+    build_date = datetime.fromtimestamp(latest_mtime, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     out.write_text(
         "/* data/raw/*.json dosyalarından tools/build.py ile üretildi. Elle düzenlemeyin. */\n"
-        "window.ATLAS = " + json.dumps({"milestones": MILESTONES, "states": states}, ensure_ascii=False) + ";\n",
+        f"/* SHA256: {payload_hash} | Veri: {build_date} */\n"
+        "window.ATLAS = " + payload + ";\n",
         encoding="utf-8",
     )
     print(f"{len(states)} devlet, {total_rulers} hükümdar -> {out} ({out.stat().st_size/1024:.0f} KB)")
-    for w in warnings:
-        print("UYARI:", w)
+    if warnings:
+        for w in warnings:
+            print("HATA/UYARI:", w)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -416,6 +416,6 @@ data = [
   }
 ]
 
-out = Path("/Users/hayabusa/turk-tarih-atlasi/data/raw/h-timur-ortaasya.json")
+out = Path(__file__).resolve().parent.parent / "data" / "raw" / "h-timur-ortaasya.json"
 out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"Wrote {len(data)} states to {out}")

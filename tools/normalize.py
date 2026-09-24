@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 CERT = {
-    "kesin": "kesin", "yuksek": "kesin", "yüksek": "kesin", "high": "kesin",
+    "kesin": "kesin", "yuksek": "muhtemel", "yüksek": "muhtemel", "high": "muhtemel",
     "orta": "olasi", "olasi": "olasi", "olası": "olasi", "medium": "olasi",
     "muhtemel": "muhtemel",
     "dusuk": "tartismali", "düşük": "tartismali", "low": "tartismali",

@@ -3,9 +3,20 @@
 import json
 from pathlib import Path
 
-ROOT = Path("/Users/hayabusa/turk-tarih-atlasi")
-ilhanli_raw = json.loads((ROOT / "data" / "states" / "ilhanli.json").read_text(encoding="utf-8"))
-memluk_raw = json.loads((ROOT / "data" / "states" / "memluk.json").read_text(encoding="utf-8"))
+ROOT = Path(__file__).resolve().parent.parent
+ilhanli_file = ROOT / "data" / "states" / "ilhanli.json"
+memluk_file = ROOT / "data" / "states" / "memluk.json"
+raw_k = ROOT / "data" / "raw" / "k-ilhanli-memluk.json"
+
+if ilhanli_file.exists() and memluk_file.exists():
+    ilhanli_raw = json.loads(ilhanli_file.read_text(encoding="utf-8"))
+    memluk_raw = json.loads(memluk_file.read_text(encoding="utf-8"))
+elif raw_k.exists():
+    existing = json.loads(raw_k.read_text(encoding="utf-8"))
+    ilhanli_raw = [s for s in existing if s.get("id") == "ilhanli"]
+    memluk_raw = [s for s in existing if s.get("id") == "memluk"]
+else:
+    raise FileNotFoundError("Neither states/ nor raw/k-ilhanli-memluk.json found")
 
 zengi_state = {
   "id": "zengi",
