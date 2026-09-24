@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Türk Devletleri Atlası</title>
+  <meta name="description" content="Teoman'dan Vahdettin'e Türk devletleri, hükümdarları, aileleri ve savaşları. Kaydırmasız, yakınlaştırılan tek sayfa.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230c1014' width='32' height='32'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23e0c48a' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div id="boot">Atlas açılıyor</div>
+  <header id="hud">
+    <div class="brand">
+      <h1>Türk Devletleri Atlası</h1>
+      <p>Teoman’dan Vahdettin’e · yakınlaş, sürükle</p>
+    </div>
+    <form id="search" role="search" autocomplete="off" onsubmit="return false">
+      <input id="q" type="search" placeholder="Devlet, hükümdar, eş, savaş ara" aria-label="Ara" enterkeyhint="search" aria-autocomplete="list" aria-controls="suggest">
+      <div id="suggest" role="listbox" aria-label="Arama önerileri"></div>
+    </form>
+    <div class="zoomctl">
+      <button id="zoomOut" type="button" aria-label="Uzaklaş">−</button>
+      <input id="zoomSlider" type="range" min="0" max="1000" value="0" aria-label="Yakınlık">
+      <button id="zoomIn" type="button" aria-label="Yakınlaş">+</button>
+      <button id="fit" type="button">Tümü</button>
+      <button id="indexBtn" type="button" aria-expanded="false" aria-controls="indexPanel">Dizin</button>
+      <span id="zlabel">en uzak</span>
+    </div>
+  </header>
+  <aside id="indexPanel" hidden role="dialog" aria-modal="true" aria-label="Devlet ve hükümdar dizini">
+    <div class="ix-head">
+      <h2>Dizin</h2>
+      <button id="ixClose" type="button" aria-label="Dizini kapat">Kapat</button>
+    </div>
+    <p class="ix-note">Bir ada dokun, oraya gider. Kaydırma yalnız bu listede.</p>
+    <div id="ixBody"></div>
+  </aside>
+  <div id="timebar" aria-hidden="true"></div>
+  <div id="yearRead" class="range-read"></div>
+  <nav id="rail" aria-label="Bölgeler"></nav>
+  <div id="labels"></div>
+  <main id="viewport">
+    <div id="world">
+      <div id="bands"></div>
+      <div id="grid"></div>
+      <div id="flags"></div>
+      <div id="states"></div>
+    </div>
+  </main>
+  <canvas id="minimap" width="200" height="120" aria-label="Küçük harita"></canvas>
+  <div id="legend">
+    <span><b>Zafer</b> yeşil</span>
+    <span><b>Yenilgi</b> kızıl</span>
+    <span><b>Tartışmalı</b> kesik çerçeve</span>
+    <span><b>Rivayet</b> kartın içinde ayrı</span>
+    <span>Tekerlek yakınlaştırır · sürüklemek gezdirir · Esc geri alır</span>
+  </div>
+  <p id="hint">Tekerlek veya çimdik yakınlaştırır · sürüklemek gezdirir · çift tık içeri girer · sayfa kaymaz</p>
+  <script src="data/atlas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

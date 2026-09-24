@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "asya-hun",
+    "name": "Asya Hun Devleti",
+    "short": "Asya Hun",
+    "aliases": [
+      "Büyük Hun Devleti",
+      "Xiongnu",
+      "Hsiung-nu",
+      "Asya Hun İmparatorluğu"
+    ],
+    "region": "bozkir",
+    "start": -220,
+    "end": 216,
+    "startNote": "Teoman'ın MÖ 220 civarında tahta çıktığı kabulü Türk tarih yazımının geleneksel başlangıcıdır. Çin kayıtları Touman'ı MÖ 3. yüzyılın sonuna yerleştirir.",
+    "endNote": "MS 48'de kuzey ve güney olarak ikiye ayrıldı. Kuzey kolu 2. yüzyılda dağıldı; güney kolu Han vasalı olarak sürdü ve 216 yılında Cao Cao tarafından şanyülük makamı kaldırılarak beş idari bölgeye bağlandı.",
+    "capital": "Orhun ve Selenge havzası, mevsimlik yaylak ve kışlaklar; dinî merkez Longcheng (Ejder Kenti)",
+    "religion": "Gök Tanrı inancı, atalar kültü, kamlık",
+    "confidence": "tartismali",
+    "confidenceNote": "Siyasi varlığı Çin ve bozkır arkeolojisiyle kesindir. Yönetici hanedanın ve tebaanın konuştuğu dil konusunda Türk, Yenisey, İrani veya çok dilli karma yapı tezleri tartışmalıdır.",
+    "summary": "MÖ 3. yüzyıl sonunda Moğolistan bozkırında boylar konfederasyonu olarak kurulan ve Mete döneminde Çin'e denk bir imparatorluğa dönüşen ilk büyük bozkır devleti. MÖ 200 Baideng kuşatmasıyla Han hanedanını vergiye bağladılar; onlu askerî teşkilat ve şanyü idaresi Avrasya göçebe devletlerine model oldu. İç taht kavgaları, iklim felaketleri ve Han baskısıyla önce MÖ 54'te doğu-batı, MS 48'de ise kuzey-güney olarak parçalandılar.",
+    "legacy": "Onlu askerî teşkilat, şanyü unvanı, ıslıklı ok ve Çin ile heqin (barış ve akrabalık) antlaşması modeli bozkır devlet geleneğinin temelini oluşturdu. Göktürkler ve sonraki Türk devletleri kendilerini bu siyasi mirasın devamı saydı.",
+    "essay": [
+      "Asya Hun Devleti (Xiongnu), İç Asya bozkırlarında merkezi bir konfederasyon halinde ortaya çıkan ve Çin kaynaklarında ayrıntılı biçimde belgelenen ilk büyük göçebe imparatorluktur. MÖ 3. yüzyıl sonlarında Sarı Irmak kıvrımındaki (Ordos) kışlaklar ile Moğolistan'ın kuzeyindeki yaylaklar arasında hareket eden boylar, Qin hanedanı generali Meng Tian'ın MÖ 215 seferiyle kuzeye püskürtülmüştü. Bu dış baskı, dağınık bozkır kabilelerinin şanyü Teoman etrafında toplanmasını hızlandırdı.",
+      "Teoman'ın ardından MÖ 209'da tahta geçen oğlu Mete (Modu), doğudaki Donghu (Doğu Hu) birliğini imha edip güneydeki Yüeçileri Kansu'dan batıya sürdü. Baykal gölünden Tibet yaylalarına, Mançurya'dan Aral gölüne kadar uzanan sahada yirmi altı kavim ve şehir devletini tek bir çatı altında topladı. MÖ 200'de Baideng Muharebesi'nde Han imparatoru Gaozu'yu kuşatan Mete, Çin'i doğrudan ilhak etmek yerine ipek, tahıl, altın ve prenses karşılığında vergiye bağlayan 'heqin' (barış ve akrabalık) sistemini kurdu. Bu diplomatik düzenleme sonraki yüzyıllarda bozkır ile yerleşik dünya arasındaki temel ilişki biçimi haline geldi.",
+      "Hun idari yapısı boylar konfederasyonunun hiyerarşik bir askeri teşkilata dönüştürülmesine dayanıyordu. Şanyü (Chengli Gutu Chanyu / Göğün Oğlu Ulu Hükümdar) en üst otoriteydi; ülke Sol (Doğu) ve Sağ (Batı) olmak üzere ikili teşkilatla yönetilirdi. Sol ve Sağ Bilge Krallar (Tuki / Tuqi) genellikle şanyünün en büyük oğulları veya kardeşleri arasından seçilir, Sol Bilge Kral veliaht sayılırdı. Ordu tümen, bin, yüz ve on sistemine göre teşkilatlandırılmıştı. Her yılın ilk, beşinci ve dokuzuncu aylarında Longcheng'de (Ejder Kenti) toplanan kurultaylarda boy beyleri sayım yapar, kurbanlar sunar ve savaş kararları alırdı.",
+      "MÖ 2. yüzyılın ikinci yarısında Han hanedanı imparatoru Wu (Wu Di), savunma siyasetini terk ederek Hunlara karşı kapsamlı bir taarruz başlattı. MÖ 119'daki Mobei Muharebesi'nde Çin orduları Gobi çölünü geçerek Hun merkezini sarstı. Savaşlar, salgın hastalıklar ve süregelen kuraklıklar konfederasyonun ekonomik omurgasını zayıflattı. MÖ 60'larda başlayan taht mücadeleleri sonucunda imparatorluk MÖ 54 civarında ikiye bölündü: Çin'e tabi olmayı savunan Huhanye güneye indi; bağımsızlığı savunan ağabeyi Çi-çi (Zhizhi) ise batıya, Isık Göl ve Talas boylarına çekilerek burada müstahkem bir şehir kurdu. Çi-çi'nin MÖ 36'da Çin ordusunca kuşatılarak öldürülmesiyle Hunlar yeniden Huhanye soyunda birleşti.",
+      "MS 1. yüzyılın başlarında Wang Mang'ın Çin tahtını gasp etmesi ve Hun unvanlarını düşürmeye çalışmasıyla ilişkiler yeniden savaşa dönüştü. Huduershidaogao döneminde Hunlar Çin iç savaşından faydalanarak kuzey sınırlarını yeniden yağmaladılar. Ancak 46 yılındaki şiddetli kuraklık, çekirge istilası ve sürü ölümleri devleti derinden sarstı. Veraset kavgasında dışlanan Bi'nin (Sutuhu) sekiz güney boyunu alarak 48'de Han hanedanına sığınmasıyla imparatorluk kesin ve kalıcı olarak Kuzey Hunları ve Güney Hunları olmak üzere ikiye parçalandı."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, TÜRK",
+        "url": "https://islamansiklopedisi.org.tr/turk"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, HAN",
+        "url": "https://islamansiklopedisi.org.tr/han--hukumdar"
+      },
+      {
+        "title": "Britannica, Xiongnu",
+        "url": "https://www.britannica.com/topic/Xiongnu"
+      },
+      {
+        "title": "Wikipedia, Chanyu",
+        "url": "https://en.wikipedia.org/wiki/Chanyu"
+      },
+      {
+        "title": "Wikipedia, Han–Xiongnu Wars",
+        "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "asya-hun-teoman",
+        "name": "Teoman",
+        "aliases": [
+          "Touman",
+          "T'ou-man"
+        ],
+        "title": "Şanyü (Tanhu)",
+        "birth": null,
+        "birthNote": "Doğum yılı Çin kayıtlarında yok",
+        "death": -209,
+        "deathNote": "Oğlu Mete'nin (Modu) emriyle öldürüldü",
+        "reign": [
+          -220,
+          -209
+        ],
+        "reignNote": "MÖ 220 geleneksel yıldır. Çin kaynakları MÖ 3. yüzyıl sonunu işaret eder.",
+        "summary": "Çin kaynaklarındaki Touman, Xiongnu konfederasyonunun bilinen ilk şanyüsüdür. Doğu Hu ve Yüeçi baskısı altındaki boyları bir arada tuttu. Veliahtı Mete'yi Yüeçilere rehin verip ardından tahtı diğer eşinin oğluna bırakmak istemesi darbeyle sonuçlandı.",
+        "traits": [
+          "Konfederasyonu derleyip toplayan ilk bilinen şanyü"
+        ],
+        "contribution": "Dağınık boyları tek şanyü otoritesi altında anılan siyasi bir gövdeye çevirdi.",
+        "harm": "Veliaht krizini oğlunun darbesine kadar büyüttü. Rehine siyaseti hanedan içi kanlı tasfiyeyle bitti.",
+        "wives": [
+          {
+            "name": "Adı Çin kayıtlarında geçmeyen bir eş",
+            "note": "Mete'den olmayan küçük oğlunu veliaht yapmak istediği söylenir.",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Mete (Modu)",
+            "mother": "",
+            "note": "Veliahtken babasını devirip tahtı ele geçirdi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Adı geçmeyen küçük oğul",
+            "mother": "",
+            "note": "Veliaht yapılmak istendiği anlatılır, MÖ 209 darbesinde öldürüldü.",
+            "certainty": "olasi"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Yüeçi ve Doğu Hu baskısı",
+            "when": "MÖ 3. yüzyıl sonu",
+            "foe": "Yüeçiler, Donghu",
+            "result": "belirsiz",
+            "note": "Teoman'ın bu komşular karşısında gerilediği ve Ordos'tan çekildiği ima edilir."
+          }
+        ],
+        "legends": [
+          "Türk ders kitaplarındaki 'Çin Seddi Teoman'dan korunmak için yapıldı' cümlesi aşırı sadedir. Qin surları MÖ 3. yüzyılda, Xiongnu baskısıyla birlikte ama daha geniş bir sınır siyasetinin parçası olarak birleştirilmiştir.",
+          "Bazı popüler metinler Teoman'ı Oğuz Kağan'ın babası Kara Han ile bir tutar. Bu özdeşleştirme destansıdır, tarih kaydı değildir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Britannica, Xiongnu",
+            "url": "https://www.britannica.com/topic/Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-mete",
+        "name": "Mete",
+        "aliases": [
+          "Modu",
+          "Mao-tun",
+          "Mòdú Chānyú",
+          "Batur"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "Yaklaşık MÖ 234 önerilir, kesin değildir",
+        "death": -174,
+        "deathNote": "Britannica saltanatı yaklaşık MÖ 209-174 verir",
+        "reign": [
+          -209,
+          -174
+        ],
+        "reignNote": "MÖ 209'da babasını devirerek tahta çıktı.",
+        "summary": "Modu, babasını öldürterek şanyü oldu. Doğu Hu'yu dağıttı, Yüeçileri batıya sürdü, Dingling ve diğer 26 boyu bağladı. MÖ 200'de Baideng'de Han imparatoru Gaozu'yu kuşattı. Ardından heqin antlaşmasıyla Çin, Hunlara yıllık vergi ve prenses gönderdi.",
+        "traits": [
+          "Onlu teşkilat kurucusu olarak anılır",
+          "Merkezi bozkır otoritesini fiilen kuran hükümdar"
+        ],
+        "contribution": "Xiongnu'yu Çin'e denk bir imparatorluk haline getirdi. Onlu birlik düzeni bozkır ordularının klasik modeli oldu.",
+        "harm": "Babasını ve üvey kardeşini öldürterek taht aldı. Çin'e kesintisiz akın, sınır boylarında sürekli tahribat yarattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Laoshang (Jiyu / Ki-ok)",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Doğu Hu seferi",
+            "when": "MÖ 209 civarı",
+            "foe": "Donghu",
+            "result": "zafer",
+            "note": "Shiji anlatır; Donghu konfederasyonu tamamen ezildi."
+          },
+          {
+            "name": "Yüeçi seferi",
+            "when": "MÖ 209-177 arası",
+            "foe": "Yüeçiler",
+            "result": "zafer",
+            "note": "Yüeçiler Kansu bölgesinden batıya çekilmek zorunda kaldı."
+          },
+          {
+            "name": "Baideng kuşatması",
+            "when": "MÖ 200",
+            "foe": "Han imparatoru Gaozu",
+            "result": "zafer",
+            "note": "İmparator yedi gün kuşatıldı, ardından heqin antlaşması yapıldı."
+          }
+        ],
+        "legends": [
+          "Islık çalan ok talimi Sima Qian'ın Shiji eserindedir. Önce atını, sonra karısını, sonra babasının atını vurmayanları öldürdüğü sahne öğretici bir kurgu gibi okunmalıdır. Çekirdek, mutlak itaatle darbeyi anlattığı için tamamen atılmaz ama ayrıntı rivayettir.",
+          "“Toprak milletindir, onu kimse veremez” cümlesi modern Türkçe ders anlatısıdır. Shiji'de Modu, Doğu Hu elçisine toprak talebini reddederken toprağın devletin temeli olduğunu söyler. Ders kitabındaki vecize birebir alıntı değildir.",
+          "Türk Kara Kuvvetleri'nin kuruluşunu MÖ 209'a bağlamak modern bir simgedir, o yıl kurulmuş bir kurum kaydı değildir.",
+          "Modu ile destandaki Oğuz Kağan arasında kurulan özdeşlik, hayat hikâyelerinin benzerliğinden türetilmiş bir yorumdur, kanıtlanmış kimlik değildir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Britannica, Xiongnu",
+            "url": "https://www.britannica.com/topic/Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-laoshang",
+        "name": "Laoshang",
+        "aliases": [
+          "Jiyu",
+          "Ki-ok",
+          "Kiyok",
+          "Lao-shang",
+          "Chi-yü"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -161,
+        "deathNote": "MÖ 161'de öldü.",
+        "reign": [
+          -174,
+          -161
+        ],
+        "reignNote": "Mete'nin ardından tahta geçti.",
+        "summary": "Mete'nin oğlu ve halefidir. Yüeçileri kesin hezimete uğratıp krallarının kafatasından kadeh yaptırmış, Kansu ve Tarım havzasını tamamen Hun kontrolüne almıştır. Çin ile heqin antlaşmasını yenilemiş, Çin sarayından gelen hadım Zhonghang Yue'nin danışmanlığında Hun geleneklerini korumaya çalışmıştır.",
+        "traits": [
+          "Yüeçilere karşı kesin zafer",
+          "Gelenekçi bozkır siyaseti"
+        ],
+        "contribution": "Tarım havzasını ve İpek Yolu güzergâhını Hun hâkimiyetine aldı.",
+        "harm": "MÖ 166 ve 165'te Han başkenti Chang'an yakınlarına kadar uzanan yıkıcı akınlar açtı.",
+        "wives": [
+          {
+            "name": "Çin imparatorluk prensesi",
+            "note": "Han İmparatoru Wen tarafından gönderilen gelin.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Junchen",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Yüeçi kesin imha seferi",
+            "when": "MÖ 174-162 arası",
+            "foe": "Yüeçiler",
+            "result": "zafer",
+            "note": "Yüeçi kralı öldürüldü, kafatası kadeh yapıldı; Yüeçiler Baktriya'ya sürüldü."
+          },
+          {
+            "name": "Chang'an akınları",
+            "when": "MÖ 166-165",
+            "foe": "Han hanedanı (İmparator Wen)",
+            "result": "zafer",
+            "note": "Hun süvarileri başkente birkaç mil mesafeye kadar indi, saray yazlıklarını yaktı."
+          }
+        ],
+        "legends": [
+          "Yüeçi kralının kafatasından kadeh yapılması Shiji'de yer alan ve sonraki Çin heyetlerince teyit edilen bozkır ritüelidir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Britannica, Xiongnu",
+            "url": "https://www.britannica.com/topic/Xiongnu"
+          },
+          {
+            "title": "Wikipedia, Laoshang Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Laoshang_Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-junchen",
+        "name": "Junchen",
+        "aliases": [
+          "Chün-ch'en",
+          "Kün-çin",
+          "Jun-chen"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -126,
+        "deathNote": "MÖ 126'da öldü.",
+        "reign": [
+          -161,
+          -126
+        ],
+        "reignNote": "Laoshang'ın ardından tahta geçti.",
+        "summary": "Laoshang'ın oğlu. 35 yılı aşan saltanatında Han İmparatorları Wen, Jing ve Wu dönemlerini gördü. Başlangıçta heqin barışı sürse de Han İmparatoru Wu'nun MÖ 133'te Mayi'de kurduğu 300.000 kişilik tuzaktan kurtulmasının ardından Han-Hun savaşları fiilen yeniden başladı.",
+        "traits": [
+          "Uzun saltanat",
+          "Mayi pususunu fark eden dikkat"
+        ],
+        "contribution": "Mayi tuzağını zamanında anlayıp ordusunu imhadan kurtardı.",
+        "harm": "MÖ 129'dan itibaren Wei Qing komutasındaki Han ordularının Ordos ve Longcheng akınları Hun kayıplarını başlattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Yudan",
+            "mother": "",
+            "note": "Sol Bilge Kral iken amcası Yizhixie tarafından tahttan uzaklaştırıldı, Çin'e sığındı.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Mayi tuzağı",
+            "when": "MÖ 133",
+            "foe": "Han hanedanı",
+            "result": "zafer",
+            "note": "Junchen yakalanan bir Han muhafızından pusuyu öğrenip ordusunu geri çekti."
+          },
+          {
+            "name": "Ordos ve sınır muharebeleri",
+            "when": "MÖ 129-127",
+            "foe": "Han generali Wei Qing",
+            "result": "yenilgi",
+            "note": "Han ordusu Ordos bölgesindeki Loufan ve Bayan boylarını sürdü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Junchen Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Junchen_Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-yizhixie",
+        "name": "Yizhixie",
+        "aliases": [
+          "İ-çih-sie",
+          "Ichisye"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -114,
+        "deathNote": "MÖ 114'te öldü.",
+        "reign": [
+          -126,
+          -114
+        ],
+        "reignNote": "Junchen'in kardeşi. Yeğeni Yudan'ı devre dışı bırakarak tahta çıktı.",
+        "summary": "Junchen'in kardeşi. Han İmparatoru Wu'nun en sert askeri taarruzları döneminde hükümdarlık yaptı. MÖ 119'daki Mobei Muharebesi'nde Wei Qing ve Huo Qubing ordularına karşı büyük bir meydan savaşı verdi; ağır kayıplar üzerine Hun merkezini Gobi çölünün kuzeyine taşımak zorunda kaldı.",
+        "traits": [
+          "Savaşçı direnç",
+          "Çöl ötesi çekilme stratejisi"
+        ],
+        "contribution": "MÖ 119 Mobei hezimetine rağmen ordusunun çekirdeğini kurtarıp devleti ayakta tuttu.",
+        "harm": "Mobei'de on binlerce savaşçı ve yüz binlerce binek hayvanı kaybedildi; Gobi'nin güneyi tamamen elden çıktı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Wuwei",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Xulihu",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Qiedihou",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Mobei Muharebesi",
+            "when": "MÖ 119",
+            "foe": "Han generalleri Wei Qing ve Huo Qubing",
+            "result": "yenilgi",
+            "note": "Hun ordusu kuşatmayı yarıp kaçtı ancak Gobi güneyindeki hâkimiyet çöktü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Yizhixie Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Yizhixie_Chanyu"
+          },
+          {
+            "title": "Wikipedia, Battle of Mobei",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_Mobei"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-wuwei",
+        "name": "Wuwei",
+        "aliases": [
+          "Wu-wei"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -105,
+        "deathNote": "MÖ 105'te öldü.",
+        "reign": [
+          -114,
+          -105
+        ],
+        "reignNote": "Yizhixie'nin ardından tahta geçti.",
+        "summary": "Yizhixie'nin oğlu. Han sarayının tabi olma ve veliaht gönderme baskılarını kararlılıkla reddetti. MÖ 119 sonrasının yorgunluğu nedeniyle iki taraf da büyük bir meydan savaşına girmese de sınır boylarında yıpratma akınları sürdü.",
+        "traits": [
+          "Bağımsızlıkta ısrar"
+        ],
+        "contribution": "Çin'in vasallık şartlarını reddederek egemenliği korudu.",
+        "harm": "Ticaret yollarının kapalı kalması ekonomik sıkıntıları artırdı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Er (Wushilu)",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Sınır yıpratma çatışmaları",
+            "when": "MÖ 112-107",
+            "foe": "Han hanedanı",
+            "result": "belirsiz",
+            "note": "İki taraf da büyük çaplı harekâttan kaçındı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-er",
+        "name": "Er",
+        "aliases": [
+          "Wushilu",
+          "Çocuk Şanyü"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -102,
+        "deathNote": "Genç yaşta hastalıktan öldü.",
+        "reign": [
+          -105,
+          -102
+        ],
+        "reignNote": "Çocuk yaşta tahta çıktığı için Çin yıllıklarında Er (Çocuk) Şanyü olarak kaydedilmiştir.",
+        "summary": "Wuwei'nin oğlu. Küçük yaşta tahta geçti. Han generali Zhao Ponu'nun inşa ettiği Shouxiang Kalesi üzerine yürüdü ve MÖ 103'te Zhao Ponu'nun 20.000 kişilik kuvvetini kuşatarak generali esir aldı. Erken ölümü tahtı amcalarına geçirdi.",
+        "traits": [
+          "Genç yaşta atılganlık"
+        ],
+        "contribution": "MÖ 103'te Han ordusunu kuşatarak kumandanını esir aldı.",
+        "harm": "Erken ölümü hanedan içi taht kaymalarına yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Shouxiang Kalesi Kuşatması",
+            "when": "MÖ 103",
+            "foe": "Han generali Zhao Ponu",
+            "result": "zafer",
+            "note": "Zhao Ponu esir alındı, Han ordusu dağıtıldı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-xulihu",
+        "name": "Xulihu",
+        "aliases": [
+          "Goulihu"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -101,
+        "deathNote": "MÖ 101'de hastalıktan öldü.",
+        "reign": [
+          -102,
+          -101
+        ],
+        "reignNote": "Er Şanyü'nün amcası, Wuwei'nin kardeşi.",
+        "summary": "Er Şanyü'nün amcası. Tahta geçtikten sonra Han sınır kalelerine taarruz etti, ancak bir yıl içinde hastalanarak hayatını kaybetti.",
+        "traits": [],
+        "contribution": "Han sınır tahkimatlarını yıprattı.",
+        "harm": "Çok kısa saltanatı istikrar sağlamaya yetmedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Dingxiang akını",
+            "when": "MÖ 102",
+            "foe": "Han hanedanı",
+            "result": "zafer",
+            "note": "Sınır garnizonları tahrip edildi."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-qiedihou",
+        "name": "Qiedihou",
+        "aliases": [
+          "Chedihou"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -96,
+        "deathNote": "MÖ 96'da öldü.",
+        "reign": [
+          -101,
+          -96
+        ],
+        "reignNote": "Xulihu'nun kardeşi.",
+        "summary": "Xulihu'nun kardeşi. Han elçisi Su Wu'yu Hun geleneklerine uymadığı ve saray darbesi tertibine karıştığı gerekçesiyle Baykal gölü civarında gözaltında tuttu. MÖ 99'da Han generali Li Ling'in 5.000 kişilik seçkin piyade birliğini Tanrı Dağları eteklerinde imha etti ve teslim olan Li Ling'i kızlarından biriyle evlendirip hizmetine aldı.",
+        "traits": [
+          "Diplomatik kararlılık",
+          "Düşman komutanlarını bünyesine katma"
+        ],
+        "contribution": "MÖ 99'da Li Ling ordusunu imha etti ve Çin'in sınır baskısını hafifletti.",
+        "harm": "Su Wu'nun alıkonulması Han ile diplomatik köprüleri uzun süre kopardı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Hulugu",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Tian Shan (Tanrı Dağları) Muharebesi",
+            "when": "MÖ 99",
+            "foe": "Han generali Li Ling",
+            "result": "zafer",
+            "note": "Okları tükenen Li Ling teslim oldu ve Hun hizmetine girdi."
+          }
+        ],
+        "legends": [
+          "Su Wu'nun Baykal gölünde koyun güderken 19 yıl boyunca imparatorluk asasını bırakmaması Çin edebiyatında sadakat simgesi olmuştur."
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-hulugu",
+        "name": "Hulugu",
+        "aliases": [
+          "Hu-lu-ku"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -85,
+        "deathNote": "MÖ 85'te öldü.",
+        "reign": [
+          -96,
+          -85
+        ],
+        "reignNote": "Qiedihou'nun oğlu.",
+        "summary": "Qiedihou'nun oğlu. MÖ 90'da 70.000 kişilik ordusuyla saldıran ünlü Han başkumandanı Li Guangli'yi (İmparator Wu'nun kayınbiraderi) tuzağa düşürerek esir aldı. Saraydaki entrikalar ve şaman kehanetleri sonucunda Li Guangli'yi kurban ettirdi.",
+        "traits": [
+          "Büyük meydan zaferi",
+          "Şamanik inançlara bağlılık"
+        ],
+        "contribution": "Li Guangli'nin 70.000 kişilik ordusunu imha ederek Han hanedanına ağır bir darbe vurdu.",
+        "harm": "Li Guangli'nin kurban edilmesi Hun sarayında huzursuzluğa yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Huyandi",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Xulüquanqu",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Yanzhishan Muharebesi",
+            "when": "MÖ 90",
+            "foe": "Han başkumandanı Li Guangli",
+            "result": "zafer",
+            "note": "Li Guangli teslim oldu, 70.000 kişilik ordu imha edildi."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-huyandi",
+        "name": "Huyandi",
+        "aliases": [
+          "Hu-yen-ti"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -68,
+        "deathNote": "MÖ 68'de öldü.",
+        "reign": [
+          -85,
+          -68
+        ],
+        "reignNote": "Hulugu'nun ardından tahta geçti.",
+        "summary": "Hulugu'nun oğlu. Han hanedanının Usunlar ile kurduğu ittifak karşısında zorlandı. MÖ 71'de Han ve Usun müşterek ordusunun saldırısına uğradı; ardından gelen şiddetli kış ve tipi sonucu nüfusunun ve sürülerinin önemli bir kısmını kaybetti.",
+        "traits": [],
+        "contribution": "Han diplomasisine karşı direnmeye çalıştı.",
+        "harm": "MÖ 71-70 afetleri ve Usun yenilgisi Hun ekonomik gücünü çökertti, boylar isyana başladı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Usun ve Han ortak taarruzu",
+            "when": "MÖ 71",
+            "foe": "Usunlar ve Han ordusu",
+            "result": "yenilgi",
+            "note": "Hunlar 40.000 esir ve 700.000 baş hayvan kaybetti."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-xuluquanqu",
+        "name": "Xulüquanqu",
+        "aliases": [
+          "Hsu-lü-ch'üan-ch'ü"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -60,
+        "deathNote": "MÖ 60'ta hastalıktan öldü.",
+        "reign": [
+          -68,
+          -60
+        ],
+        "reignNote": "Huyandi'nin kardeşi.",
+        "summary": "Huyandi'nin kardeşi. Çin ile bozulan ilişkileri onarmak ve barış yapmak istedi, ancak resmi anlaşma sağlanamadan hastalanarak öldü. Ölümü boy beyleri arasında iktidar kavgasını tetikledi.",
+        "traits": [
+          "Barışçı diplomasi arayışı"
+        ],
+        "contribution": "Bozkırda iç çekişmeleri yatıştırmaya çalıştı.",
+        "harm": "Veraseti netleştiremeden ölmesi iç savaşı başlattı.",
+        "wives": [
+          {
+            "name": "Zhuanqu Yanzhi",
+            "note": "Kocasının ölümünden sonra sevgilisi Tuqitang'ı (Woyanqudi) tahta çıkardı.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Huhanye (Jihoushan)",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Zhizhi (Hutuwusi)",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-woyanqudi",
+        "name": "Woyanqudi",
+        "aliases": [
+          "Tuqitang"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -58,
+        "deathNote": "MÖ 58'de yenilgi üzerine intihar etti.",
+        "reign": [
+          -60,
+          -58
+        ],
+        "reignNote": "Yizhixie'nin torun çocuğu. Saray darbesiyle tahta geçti.",
+        "summary": "Xulüquanqu'nun dul eşinin desteğiyle usulsüz biçimde tahta geçti. Eski şanyünün yakınlarını ve soylu beyleri idam ettirerek terör estirdi. Wushanmu ve boy beylerinin desteğini alan Jihoushan (Huhanye) karşısında yenilerek intihar etti.",
+        "traits": [
+          "Baskıcı ve zalim yönetim"
+        ],
+        "contribution": "",
+        "harm": "Hanedan içi tasfiyeleriyle boyları isyana sürükledi, Hun birliğini paramparça etti.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Huhanye ayaklanması",
+            "when": "MÖ 58",
+            "foe": "Huhanye ve Wushanmu",
+            "result": "yenilgi",
+            "note": "Ordusu dağıldı, Woyanqudi intihar etti."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-huhanye",
+        "name": "Huhanye",
+        "aliases": [
+          "Ho-han-ye",
+          "Jihoushan",
+          "I. Huhanye"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -31,
+        "deathNote": "MÖ 31'de öldü.",
+        "reign": [
+          -58,
+          -31
+        ],
+        "reignNote": "MÖ 58'de Woyanqudi'yi devirdi; MÖ 54'ten sonra güneyde Han himayesinde hüküm sürdü.",
+        "summary": "Woyanqudi'yi devirerek tahta çıktı ancak kardeşi Çi-çi ile taht kavgasına girdi. Yenilince güneye inerek MÖ 53'te Han İmparatoru Xuan'a tabi oldu. Çin desteğiyle toparlanıp MÖ 43'te tekrar kuzeye döndü. MÖ 33'te Chang'an'ı ziyaret ederek ünlü saray nedimesi Wang Zhaojun ile evlendi.",
+        "traits": [
+          "Çin diplomasisiyle tahtı koruma",
+          "Pragmatizm"
+        ],
+        "contribution": "Çin yardımı ve heqin bağıyla halkını kıtlıktan kurtardı, parçalanmış güney boylarını toparladı.",
+        "harm": "Bozkır bağımsızlık geleneğini terk edip Han hanedanına vassallık sundu; kardeşiyle çatışması ülkeyi böldü.",
+        "wives": [
+          {
+            "name": "Wang Zhaojun (Ninghu Yanzhi)",
+            "note": "Çin'in 'Dört Güzeli'nden biri; imparatorun sarayından gönderilen nedime.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Da Yanzhi",
+            "note": "Fuzhulei ve Souxie'nin annesi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Zhuanqu Yanzhi",
+            "note": "Juya ve Wuzhuliu'nun annesi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Diwu Yanzhi",
+            "note": "Huduershidaogao'nun annesi.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Fuzhulei Ruodi",
+            "mother": "Da Yanzhi",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Souxie",
+            "mother": "Da Yanzhi",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Juya",
+            "mother": "Zhuanqu Yanzhi",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Wuzhuliu",
+            "mother": "Zhuanqu Yanzhi",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Wulei",
+            "mother": "Da Yanzhi",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Huduershidaogao",
+            "mother": "Diwu Yanzhi",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yituzhiyashi",
+            "mother": "Wang Zhaojun",
+            "note": "Wang Zhaojun'dan doğan oğlu.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Hun İç Savaşı (Çi-çi ile mücadele)",
+            "when": "MÖ 56-51",
+            "foe": "Çi-çi (Zhizhi)",
+            "result": "yenilgi",
+            "note": "Huhanye yenilerek güneye çekildi ve Han'a tabi oldu."
+          }
+        ],
+        "legends": [
+          "Wang Zhaojun'un saray ressamı Mao Yanshou'ya rüşvet vermediği için çirkin çizildiği ve bu yüzden Hun hükümdarına gönderildiği hikâyesi Çin edebiyatında yaygın bir anlatıdır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Huhanye",
+            "url": "https://en.wikipedia.org/wiki/Huhanye"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-zhizhi",
+        "name": "Çi-çi",
+        "aliases": [
+          "Zhizhi",
+          "Chih-chih",
+          "Hutuwusi"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -36,
+        "deathNote": "MÖ 36'da Han ordusunca kuşatıldığı Talas'taki kalesinde öldürüldü.",
+        "reign": [
+          -56,
+          -36
+        ],
+        "reignNote": "Huhanye'ye rakip şanyü; bağımsızlığı savunup batıya çekildi.",
+        "claim": true,
+        "summary": "Huhanye'nin ağabeyi; kardeşinin Çin'e tabi olmasına karşı çıkarak bağımsızlık bayrağını açtı. Dingling ve Yenisey Kırgızlarını (Jiankun) bağladı, ardından Kangju (Kanglı) hükümdarıyla ittifak yaparak Talas havzasına göç etti. Burada kurduğu tahkimli şehir MÖ 36'da Han generali Chen Tang tarafından kuşatıldı; savaşarak öldü.",
+        "traits": [
+          "Tavizsiz bağımsızlık anlayışı",
+          "Batıya göç stratejisi",
+          "Müstahkem kale savunması"
+        ],
+        "contribution": "Bozkır egemenliğini ve bağımsızlık bilincini Orta Asya içlerine taşıdı; Kırgızları ve Dinglingleri bağladı.",
+        "harm": "Kangju ile arasını bozup müttefiklerini kaybetti; göçebe hareketliliğini terk edip surlu kalede kuşatılmaya düşerek hayatını ve ordusunu kaybetti.",
+        "wives": [
+          {
+            "name": "Kangju prensesi",
+            "note": "Kangju kralının kızı.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Juqu Liushou",
+            "mother": "",
+            "note": "Çin'e rehin gönderilmiş, MÖ 44'te geri verilmişti.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kuzey seferleri (Dingling ve Kırgız)",
+            "when": "MÖ 49-48",
+            "foe": "Dinglingler, Usunlar, Jiankun (Kırgızlar)",
+            "result": "zafer",
+            "note": "Tüm bu boyları kendine bağladı ve merkezini Kırgız yurduna taşıdı."
+          },
+          {
+            "name": "Zhizhi Muharebesi (Talas Kuşatması)",
+            "when": "MÖ 36",
+            "foe": "Han generalleri Chen Tang ve Gan Yanshou",
+            "result": "yenilgi",
+            "note": "Surlarla çevrili kale düşürüldü, Çi-çi başı kesilerek öldürüldü."
+          }
+        ],
+        "legends": [
+          "Çi-çi'nin kalesini savunan askerlerin 'balık pulu şeklinde kalkan düzeni' kullanması sebebiyle bunların Carrhae Muharebesi'nden kaçan Romalı lejyonerler olduğu tezi ileri sürülmüş, ancak bu iddia tarihçiler arasında tartışmalı kalmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Zhizhi Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Zhizhi_Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-fuzhulei",
+        "name": "Fuzhulei Ruodi",
+        "aliases": [
+          "Diaotaomogao",
+          "Fu-chu-lei"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -20,
+        "deathNote": "MÖ 20'de öldü.",
+        "reign": [
+          -31,
+          -20
+        ],
+        "reignNote": "Huhanye'nin ardından tahta geçti.",
+        "summary": "Huhanye'nin oğlu. Bozkır levirat geleneği gereği üvey annesi Wang Zhaojun ile evlendi. Han hanedanı ile barış ve ticaret ilişkilerini devam ettirdi.",
+        "traits": [
+          "Barışçı politika"
+        ],
+        "contribution": "Çin ile barış ve sınır pazarlarını koruyarak refah sağladı.",
+        "harm": "",
+        "wives": [
+          {
+            "name": "Wang Zhaojun",
+            "note": "Babasının dul eşi; levirat geleneğiyle evlendi.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Yun (Prenses Yimuo)",
+            "mother": "Wang Zhaojun",
+            "note": "Sonraki dönemde Hun-Çin diplomasisinde etkili oldu.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Dangyu",
+            "mother": "Wang Zhaojun",
+            "note": "Kızı.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          },
+          {
+            "title": "Wikipedia, Wang Zhaojun",
+            "url": "https://en.wikipedia.org/wiki/Wang_Zhaojun"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-souxie",
+        "name": "Souxie",
+        "aliases": [
+          "Jumixu"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -12,
+        "deathNote": "MÖ 12'de hastalıktan öldü.",
+        "reign": [
+          -20,
+          -12
+        ],
+        "reignNote": "Fuzhulei'nin kardeşi.",
+        "summary": "Fuzhulei'nin kardeşi. Han sarayına elçi gönderip dostluğu sürdürdü. Chang'an'a giderken yolda hastalanarak öldü.",
+        "traits": [],
+        "contribution": "Han ile barışı korudu.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-juya",
+        "name": "Juya",
+        "aliases": [
+          "Jumoju"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": -8,
+        "deathNote": "MÖ 8'de öldü.",
+        "reign": [
+          -12,
+          -8
+        ],
+        "reignNote": "Souxie'nin kardeşi.",
+        "summary": "Souxie'nin kardeşi. Dört yıllık saltanatında barışçıl ilişkiler devam etti.",
+        "traits": [],
+        "contribution": "Sınır sükûnetini sürdürdü.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-wuzhuliu",
+        "name": "Wuzhuliu",
+        "aliases": [
+          "Nangzhiyasi",
+          "Wu-chu-liu"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 13,
+        "deathNote": "MS 13'te öldü.",
+        "reign": [
+          -8,
+          13
+        ],
+        "reignNote": "Huhanye'nin oğlu, Juya'nın kardeşi.",
+        "summary": "Huhanye'nin oğlu. 21 yıl hüküm sürdü. MS 9'da Çin tahtını gasp eden Wang Mang'ın Hun mührünü değiştirmesi ve devleti 15 şanyüye bölme girişimleri üzerine ilişkileri kesti. Kuzey Çin'e büyük akınlar düzenleyerek Wang Mang ordularını hezimete uğrattı.",
+        "traits": [
+          "Milli haysiyete bağlılık",
+          "Askerî karşılık"
+        ],
+        "contribution": "Wang Mang'ın Hunları 15 küçük parçaya bölme tuzağını boşa çıkardı ve askeri üstünlüğü yeniden kurdu.",
+        "harm": "Uzun süren sınır savaşları kuzey halklarını yıprattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Sutuhu (Bi)",
+            "mother": "",
+            "note": "Güney Hun Devleti'nin kurucusu.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Mo (Qiufu Youdi)",
+            "mother": "",
+            "note": "Sonraki Güney şanyüsü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Wang Mang sınır savaşları",
+            "when": "MS 10-13",
+            "foe": "Xin hanedanı (Wang Mang)",
+            "result": "zafer",
+            "note": "Kuzey Çin garnizonları tahrip edildi, Wang Mang barış aramak zorunda kaldı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-wulei",
+        "name": "Wulei",
+        "aliases": [
+          "Xian",
+          "Wu-lei"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 18,
+        "deathNote": "MS 18'de öldü.",
+        "reign": [
+          13,
+          18
+        ],
+        "reignNote": "Wuzhuliu'nun kardeşi.",
+        "summary": "Wuzhuliu'nun kardeşi. Wang Mang ile diplomatik manevralar yaptı ancak sınır çatışmaları durmadı. Beş yıl hüküm sürdükten sonra öldü.",
+        "traits": [],
+        "contribution": "Wang Mang'a karşı denge siyaseti güttü.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-huduershi",
+        "name": "Huduershidaogao",
+        "aliases": [
+          "Yu",
+          "Hu-du-er-şi"
+        ],
+        "title": "Şanyü",
+        "birth": -34,
+        "birthNote": "Yaklaşık MÖ 34 doğumlu olduğu tahmin edilir.",
+        "death": 46,
+        "deathNote": "MS 46'da yaklaşık 80 yaşında öldü.",
+        "reign": [
+          18,
+          46
+        ],
+        "reignNote": "Wulei'nin ardından tahta geçti.",
+        "summary": "28 yıl süren saltanatında Çin'deki iç savaştan faydalanarak Hun askeri gücünü en üst noktaya çıkardı. Sarı Irmak kıyılarını ve Kuzey Çin eyaletlerini yağmaladı. Doğu Han imparatoru Guangwu'ya denk hükümdar muamelesi dayattı. Ölümüne yakın veliahtlığı kendi oğullarına geçirerek Bi'yi dışladı.",
+        "traits": [
+          "Otoriter ve saldırgan yönetim",
+          "Hanedan verasetini değiştirme"
+        ],
+        "contribution": "Hun askeri üstünlüğünü ve bağımsızlığını Çin'e yeniden kabul ettirdi.",
+        "harm": "Ağabeylerinin oğullarını verasetten dışlayarak MS 48'deki büyük bölünmenin tohumlarını attı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Wudadihou",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Punu",
+            "mother": "",
+            "note": "Kuzey Hun şanyüsü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kuzey Çin akınları",
+            "when": "MS 28-45",
+            "foe": "Doğu Han hanedanı (İmparator Guangwu)",
+            "result": "zafer",
+            "note": "Han ordusu sınır komutanlıklarından çekilmek zorunda kaldı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Huduershidaogao Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Huduershidaogao_Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-wudadihou",
+        "name": "Wudadihou",
+        "aliases": [
+          "Wu-da-ti-hou"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 46,
+        "deathNote": "MS 46'da tahta çıktıktan birkaç ay sonra öldü.",
+        "reign": [
+          46,
+          46
+        ],
+        "reignNote": "Huduershidaogao'nun oğlu.",
+        "summary": "Huduershidaogao'nun oğlu. Tahta çıktıktan birkaç ay sonra öldü. Yerine kardeşi Punu geçti.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "asya-hun-punu",
+        "name": "Punu",
+        "aliases": [
+          "P'u-nu"
+        ],
+        "title": "Şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 75,
+        "deathNote": "Ölüm yılı yaklaşık MS 75 olarak tahmin edilir.",
+        "reign": [
+          46,
+          48
+        ],
+        "reignNote": "MS 46'da birleşik devletin başına geçti; MS 48'de bölünmeden sonra Kuzey Hun şanyüsü olarak devam etti.",
+        "summary": "Wudadihou'nun kardeşi. Saltanatının başında bozkırda büyük bir kuraklık ve çekirge afeti baş gösterdi, hayvanların çoğu kırıldı. Yeğeni/kuzeni Bi'nin Çin ile yakınlaşmasını cezalandırmak istedi ancak Bi 48'de sekiz güney boyuyla ayrılarak Güney Hun Devleti'ni kurdu.",
+        "traits": [],
+        "contribution": "Kuzey bozkırındaki boyların bağımsızlığını korumaya çalıştı.",
+        "harm": "Kriz yönetiminde başarısız kalarak imparatorluğun bölünmesini engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Bi ile taht çekişmesi",
+            "when": "MS 47-48",
+            "foe": "Bi (Sutuhu)",
+            "result": "yenilgi",
+            "note": "Punu'nun gönderdiği birlikler Bi'nin ordusu karşısında çekildi; devlet ikiye bölündü."
+          }
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Punu Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Punu_Chanyu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guney-hun",
+    "name": "Güney Hun Devleti",
+    "short": "Güney Hun",
+    "aliases": [
+      "Güney Hiung-nu",
+      "Nan Xiongnu",
+      "Güneyli Hunlar",
+      "Güney Hunları"
+    ],
+    "region": "bozkir",
+    "start": 48,
+    "end": 216,
+    "startNote": "MS 48'de sekiz güney boyunun reisleri Bi'yi (Sutuhu) şanyü ilan edip Han hanedanına sığındı.",
+    "endNote": "216'da Cao Cao, son şanyü Huchuquan'ı Ye şehrinde alıkoyup şanyülük makamını resmen lağvetti; Hunları beş kola (Wu Bu) ayırdı.",
+    "capital": "Meiji (Xihe bölgesi, bugünkü İç Moğolistan ve Shanxi sınırı)",
+    "religion": "Gök Tanrı inancı, atalar kültü; zamanla Çin kültürel ve dinî etkileri",
+    "confidence": "kayit",
+    "confidenceNote": "Doğu Han ve Üç Krallık dönemi Çin yıllıklarıyla (Hou Hanshu, Sanguozhi) teyit edilmiştir.",
+    "summary": "MS 48'de taht çekişmesi ve kıtlık sonucu Han hanedanına bağlanan sekiz boyun kurduğu güney birliğidir. Çin Seddi boyunca tampon güç ve sınır muhafızı olarak yerleştirildiler. Kuzey Hunlarına karşı Han ordusuyla birlikte seferlere katıldılar; 216 yılında Cao Cao tarafından şanyülük unvanı kaldırılarak beş idari bölgeye bölündüler.",
+    "legacy": "Çin içine yerleşen Güney Hun zümreleri, IV. yüzyıldaki 'Beş Barbar' (Wu Hu) ayaklanmasında Liu Yuan önderliğinde Han-Zhao (Önceki Zhao) devletini kurarak Çin tarihinde kalıcı iz bıraktı.",
+    "essay": [
+      "Güney Hun Devleti, Asya Hun İmparatorluğu'nun MS 48'deki nihai bölünmesiyle ortaya çıktı. Huduershidaogao'nun veraset sırasını bozarak tahtı kendi oğullarına bırakması ve ardından bozkırı kasıp kavuran ağır kuraklık, boylar arasındaki çatlağı büyüttü. Wuzhuliu'nun oğlu olan ve güney sınır boylarını yöneten Bi (Sutuhu), sekiz boyun desteğiyle büyük dedesi Huhanye'nin unvanını (II. Huhanye) alarak kendini şanyü ilan etti ve Doğu Han imparatoru Guangwu'ya bağlandı.",
+      "Han sarayı, Güney Hunlarını Ordos bozkırı ile Çin Seddi arasındaki Xihe bölgesine (Meiji merkezli) yerleştirdi. Bu yerleşimle Hunlar hem Çin'in tahıl ve ipek yardımlarıyla geçinen bir sınır muhafızı hem de Kuzey Hunlarına karşı ileri bir askerî tampon haline geldiler. Çin sarayı şanyünün yanına bir 'şanyü koruyucusu' (Da Sima / Wu-huan Xiaowei) atayarak bozkır aristokrasisini sıkı bir bürokratik gözetim altında tuttu.",
+      "Güney Hun orduları, Han generalleriyle birlikte Kuzey Hunlarına karşı düzenlenen büyük seferlerde öncü süvari gücü olarak savaştı. Özellikle 89 yılındaki İh Bayan (Altay Dağları) Seferi'nde şanyü Tuntuhe, Han generali Dou Xian ile birlikte Kuzey Hunlarını ezerek kuzeydeki siyasi birliğin çökmesinde belirleyici rol oynadı.",
+      "Ancak Çin'in artan idari tahakkümü, zorunlu asker toplama talepleri ve yerel Çinli memurların suiistimalleri zaman zaman büyük isyanlara yol açtı. 94'te Anguo'nun isyanı, 140'ta Juqu Wusi ayaklanması ve şanyü Xiuli'nin intiharı, ardından 188'de Xiuchuge boyunun isyanı bu gerilimlerin sonucuydu. 188'de şanyü Qiangqu'nun öldürülmesi üzerine tahta çıkan oğlu Yufuluo, kabile isyancılarınca kovularak Çin'in merkez ovalarında savaş ağaları (Cao Cao, Yuan Shao) arasındaki mücadeleye süvari birliğiyle katıldı.",
+      "216 yılında dönemin Çin naibi ve fiili yöneticisi Cao Cao, son şanyü Huchuquan'ı Ye şehrinde nezaret altında tuttu ve şanyülük makamını resmen lağvetti. Güney Hunları sol, sağ, güney, kuzey ve orta olmak üzere beş tümenliğe (Wu Bu) ayrılarak Çinli sivil memurların ve soylu Hun beylerinin (Shuai) ortak yönetimine bağlandı. Böylece bağımsız Hun hükümdarlık çizgisi kapandı, ancak bu kabileler IV. yüzyılın başlarında Çin'de Han-Zhao devletini kuracak olan Liu Yuan gibi liderleri yetiştirdi."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, TÜRK",
+        "url": "https://islamansiklopedisi.org.tr/turk"
+      },
+      {
+        "title": "Britannica, Xiongnu",
+        "url": "https://www.britannica.com/topic/Xiongnu"
+      },
+      {
+        "title": "Wikipedia, Southern Xiongnu",
+        "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+      },
+      {
+        "title": "Wikipedia, Battle of the Altai Mountains",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Altai_Mountains"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "guney-hun-bi",
+        "name": "Bi",
+        "aliases": [
+          "Sutuhu",
+          "II. Huhanye",
+          "Huhanxie II"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 56,
+        "deathNote": "MS 56'da öldü.",
+        "reign": [
+          48,
+          56
+        ],
+        "reignNote": "MS 48'de sekiz güney boyunun desteğiyle şanyü ilan edildi.",
+        "summary": "Wuzhuliu'nun oğlu. Huduershi'nin veraset düzenini bozması üzerine güney boylarının desteğiyle ayrıldı. 48'de dedesi Huhanye'nin unvanını alarak şanyü oldu; 50'de Doğu Han imparatoru Guangwu'ya resmen tabi olarak Güney Hun Devleti'ni kurdu. Xihe bölgesindeki Meiji'ye yerleşti.",
+        "traits": [
+          "Pragmatik diplomasi",
+          "Han vasallığını kabul"
+        ],
+        "contribution": "Güney boylarını açlık ve kırımdan kurtararak Çin Seddi boyunca güvenli bir yurt sağladı.",
+        "harm": "Hun birliğini kalıcı olarak parçaladı ve Han kontrolüne girdi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Xitong",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Huxie",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kuzey Hunlarına karşı ilk taarruz",
+            "when": "49",
+            "foe": "Kuzey Hunları (Punu)",
+            "result": "zafer",
+            "note": "Kardeşi Mo komutasındaki birlikler Punu'nun kardeşini esir aldı, binlerce hayvan ele geçirdi."
+          }
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Sutuhu",
+            "url": "https://en.wikipedia.org/wiki/Sutuhu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-qiufu-youdi",
+        "name": "Qiufu Youdi",
+        "aliases": [
+          "Mo"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 57,
+        "deathNote": "MS 57'de öldü.",
+        "reign": [
+          56,
+          57
+        ],
+        "reignNote": "Bi'nin kardeşi.",
+        "summary": "Bi'nin kardeşi. Tahta geçtikten yaklaşık bir yıl sonra öldü. Kısa saltanatında Han ile uyumlu ilişkiler sürdü.",
+        "traits": [],
+        "contribution": "Han himayesindeki güney düzenini korudu.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Qiuchu",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Qiufu Youdi",
+            "url": "https://en.wikipedia.org/wiki/Qiufu_Youdi"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-yifa-yuluti",
+        "name": "Yifa Yulüti",
+        "aliases": [
+          "Han"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 59,
+        "deathNote": "MS 59'da öldü.",
+        "reign": [
+          57,
+          59
+        ],
+        "reignNote": "Qiufu Youdi'nin kardeşi.",
+        "summary": "Qiufu Youdi'nin kardeşi. Kuzey Hunlarının sınır akınlarına karşı Han kuvvetleriyle ortak savunma tedbirleri aldı.",
+        "traits": [],
+        "contribution": "Sınır savunmasını güçlendirdi.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Yitu",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kuzey Hun sınır savunması",
+            "when": "58",
+            "foe": "Kuzey Hunları",
+            "result": "zafer",
+            "note": "Kuzeyden gelen yağma akınları püskürtüldü."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-xitong",
+        "name": "Xitong Shizhu Houti",
+        "aliases": [
+          "Shi"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 63,
+        "deathNote": "MS 63'te öldü.",
+        "reign": [
+          59,
+          63
+        ],
+        "reignNote": "Bi'nin oğlu.",
+        "summary": "Bi'nin oğlu. Dört yıl süren saltanatında Han hanedanına bağlılık sürdürüldü; sınır boylarına yeni Hun göçmenleri yerleştirildi.",
+        "traits": [],
+        "contribution": "Güney Hun nüfusunu Han sınırında konsolide etti.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-qiuchu",
+        "name": "Qiuchu Julinti",
+        "aliases": [
+          "Su"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 63,
+        "deathNote": "MS 63'te tahta çıktıktan birkaç ay sonra öldü.",
+        "reign": [
+          63,
+          63
+        ],
+        "reignNote": "Qiufu Youdi'nin oğlu.",
+        "summary": "Qiufu Youdi'nin oğlu. 63 yılında tahta çıktı ve birkaç ay içinde öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-huxie",
+        "name": "Huxie Shizhu Houti",
+        "aliases": [
+          "Zhang"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 85,
+        "deathNote": "MS 85'te öldü.",
+        "reign": [
+          63,
+          85
+        ],
+        "reignNote": "Bi'nin oğlu.",
+        "summary": "Bi'nin oğlu. 22 yıllık uzun saltanatında Güney Hunlarını istikrarlı bir sınır gücü haline getirdi. 73 yılında Han generali Dou Gu'nun Kuzey Hunlarına karşı düzenlediği büyük sefere süvari birlikleriyle katıldı.",
+        "traits": [
+          "Uzun ve istikrarlı idare",
+          "Han ile askerî iş birliği"
+        ],
+        "contribution": "Güney Hun boylarının Çin Seddi boyunca kurumsallaşmasını sağladı.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Tuntuhe",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Anguo",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Wanshishizhudi",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Yiwu (Hami) Seferi",
+            "when": "73",
+            "foe": "Kuzey Hunları",
+            "result": "zafer",
+            "note": "Han generali Dou Gu ve Güney Hun süvarileri Yiwu vahasını ele geçirdi."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-yitu",
+        "name": "Yitu Yulüti",
+        "aliases": [
+          "Xuan"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 88,
+        "deathNote": "MS 88'de öldü.",
+        "reign": [
+          85,
+          88
+        ],
+        "reignNote": "Yifa Yulüti'nin oğlu.",
+        "summary": "Yifa Yulüti'nin oğlu. Üç yıllık hükümdarlığında Kuzey Hunlarına karşı taarruz siyasetini savundu; kuzeydeki kıtlık ve iç karışıklıkları yakından izledi.",
+        "traits": [],
+        "contribution": "Kuzey Hunlarına nihai darbenin hazırlık zeminini oluşturdu.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Shizi",
+            "mother": "",
+            "note": "Sonraki şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-tuntuhe",
+        "name": "Tuntuhe",
+        "aliases": [
+          "Xiulan Shizhu Houti",
+          "Shulan"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 93,
+        "deathNote": "MS 93'te öldü.",
+        "reign": [
+          88,
+          93
+        ],
+        "reignNote": "Huxie'nin oğlu.",
+        "summary": "Huxie'nin oğlu. Han başkumandanı Dou Xian ile birlikte Kuzey Hunlarını ezmek üzere büyük bir sefer başlattı. 89'da İh Bayan (Altay Dağları) Muharebesi'nde Kuzey Hun ordusunu imha etti, 200.000 kuzeyliyi teslim aldı. Bu zaferle Kuzey Hun gücü kalıcı olarak kırıldı.",
+        "traits": [
+          "Büyük askeri liderlik",
+          "Stratejik ittifak kurma"
+        ],
+        "contribution": "89 zaferiyle Kuzey Hun tehdidini ortadan kaldırdı, on binlerce boydaşını güneye kattı.",
+        "harm": "Kuzey Hunlarının yıkılmasıyla doğudan Siyenpilerin yükselmesine zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Feng-hou",
+            "mother": "",
+            "note": "Sonradan Han'a isyan eden prens.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "İh Bayan (Altay Dağları) Muharebesi",
+            "when": "89",
+            "foe": "Kuzey Hunları",
+            "result": "zafer",
+            "note": "Dou Xian ve Tuntuhe komutasındaki ordu 13.000 Kuzey Hun askerini öldürdü, 81 kabile teslim oldu."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Battle of the Altai Mountains",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_the_Altai_Mountains"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-anguo",
+        "name": "Anguo",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 94,
+        "deathNote": "94 yılında Han ordusunun müdahalesi sırasında öldürüldü.",
+        "reign": [
+          93,
+          94
+        ],
+        "reignNote": "Tuntuhe'nin kardeşi.",
+        "summary": "Tuntuhe'nin kardeşi. Tahta çıktığında Çin yanlısı yeğeni Sol Bilge Kral Shizi'yi kıskandı ve ortadan kaldırmak istedi. Han sarayı Shizi'yi destekleyince Anguo isyan başlattı; Han birliklerinin müdahalesiyle öldürüldü.",
+        "traits": [
+          "Çin nüfuzuna tepkili",
+          "İhtiraslı"
+        ],
+        "contribution": "",
+        "harm": "Güney Hun sarayında kanlı bir iç çatışma çıkardı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Anguo İsyanı",
+            "when": "94",
+            "foe": "Han hanedanı ve Shizi",
+            "result": "yenilgi",
+            "note": "İsyan bastırıldı, Anguo öldürüldü."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-shizi",
+        "name": "Shizi",
+        "aliases": [
+          "Tingdu Shizhu Houti"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 98,
+        "deathNote": "MS 98'de öldü.",
+        "reign": [
+          94,
+          98
+        ],
+        "reignNote": "Yitu'nun oğlu.",
+        "summary": "Yitu'nun oğlu. Anguo'nun tasfiyesinden sonra Han sarayının desteğiyle tahta geçti. 94'te Anguo taraftarlarının ve prens Feng-hou'nun 200.000 kişiyle kuzeye kaçarak başlattığı büyük ayaklanmayla mücadele etti.",
+        "traits": [
+          "Han yanlısı sadakat"
+        ],
+        "contribution": "Han desteğiyle tahtı korudu.",
+        "harm": "Feng-hou'nun 200.000 kişilik kitleyle kuzeye kopmasını engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Feng-hou isyanı bastırma harekâtı",
+            "when": "94-96",
+            "foe": "Feng-hou ve isyancı Hunlar",
+            "result": "belirsiz",
+            "note": "İsyancılar kuzeye kaçtı ancak sınır boylarındaki hâkimiyet korundu."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-wanshishizhudi",
+        "name": "Wanshishizhudi",
+        "aliases": [
+          "Tan"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 124,
+        "deathNote": "MS 124'te öldü.",
+        "reign": [
+          98,
+          124
+        ],
+        "reignNote": "Huxie'nin oğlu.",
+        "summary": "Huxie'nin oğlu. 26 yıl tahtta kaldı. Kuzeyde direnen Feng-hou kuvvetlerinin yıpranmasını Han ordusuyla birlikte takip etti. 118'de Feng-hou'nun teslim olmasıyla güneyin üstünlüğü pekişti.",
+        "traits": [
+          "Uzun saltanat",
+          "İstikrar"
+        ],
+        "contribution": "Feng-hou isyanının nihai olarak sönümlenmesinde rol oynadı.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-wujihoushizhudi",
+        "name": "Wujihoushizhudi",
+        "aliases": [
+          "Ba"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 128,
+        "deathNote": "MS 128'de öldü.",
+        "reign": [
+          124,
+          128
+        ],
+        "reignNote": "Wanshishizhudi'nin kardeşi.",
+        "summary": "Wanshishizhudi'nin kardeşi. Dört yıllık hükümdarlığı sakin geçti.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-xiuli",
+        "name": "Xiuli",
+        "aliases": [
+          "Qute Ruoshi Zhujiu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 140,
+        "deathNote": "Han müfettişinin baskısı üzerine intihar etti.",
+        "reign": [
+          128,
+          140
+        ],
+        "reignNote": "Wujihoushizhudi'nin kardeşi.",
+        "summary": "Wujihoushizhudi'nin kardeşi. 140 yılında bazı Güney Hun beylerinin (Juqu Wusi) Han yönetimine karşı isyan etmesi üzerine Han müfettişi Chen Gui tarafından suçlandı. Ağır hakaret ve tehditler karşısında kardeşiyle birlikte intihar etti.",
+        "traits": [
+          "Çin baskısı altında ezilen hükümdar"
+        ],
+        "contribution": "",
+        "harm": "İntiharı güney boylarında derin bir öfkeye ve üç yıl süren büyük bir kaosa yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "140 Güney Hun İsyanı",
+            "when": "140",
+            "foe": "İsyancı Hun beyleri (Juqu Wusi)",
+            "result": "yenilgi",
+            "note": "İsyanı bastıramayınca Han sarayının baskısıyla intihar etti."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-cheniu",
+        "name": "Cheniu",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 143,
+        "deathNote": "143'te Han ordusuna teslim olduktan sonra akıbeti meçhuldür.",
+        "reign": [
+          140,
+          143
+        ],
+        "reignNote": "İsyancı boylar tarafından Han'dan bağımsız olarak şanyü seçildi.",
+        "claim": true,
+        "summary": "Xiuli'nin intiharından sonra ayaklanan Hun kabileleri ve Qiang müttefikleri tarafından şanyü seçildi. Çin sınır kasabalarını yağmaladı. 143'te Han generali Ma Rong ve Dou Yong tarafından mağlup edilince teslim oldu.",
+        "traits": [
+          "İsyancı lider"
+        ],
+        "contribution": "Han tahakkümüne karşı bozkır direnişini canlandırdı.",
+        "harm": "Yenilgiyle sonuçlanan isyan Güney Hunlarının askeri gücünü daha da kırdı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Cheniu İsyanı Muharebeleri",
+            "when": "140-143",
+            "foe": "Han hanedanı (Ma Rong)",
+            "result": "yenilgi",
+            "note": "Ağır kayıplar veren Cheniu teslim olmak zorunda kaldı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-toulouchu",
+        "name": "Toulouchu",
+        "aliases": [
+          "Hulan Ruoshi Zhujiu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 147,
+        "deathNote": "MS 147'de öldü.",
+        "reign": [
+          143,
+          147
+        ],
+        "reignNote": "Han sarayı tarafından kukla hükümdar olarak atandı.",
+        "summary": "Hanedanın uzak bir kolundan gelip Luoyang'da yaşayan bir prensti. Cheniu isyanının bastırılmasının ardından Han sarayı tarafından şanyü ilan edilip Meiji'ye gönderildi.",
+        "traits": [
+          "Çin sarayına tam bağımlılık"
+        ],
+        "contribution": "İsyan sonrası asayişin yeniden kurulmasına aracılık etti.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-jucheer",
+        "name": "Jucheer",
+        "aliases": [
+          "Yiling Ruoshi Zhujiu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 172,
+        "deathNote": "158'de hapsedildikten sonra 172'de öldü.",
+        "reign": [
+          147,
+          158
+        ],
+        "reignNote": "Han sarayınca atandı; 158'de azledilip hapsedildi.",
+        "summary": "Toulouchu'nun ardından Han sarayı tarafından atandı. Zamanla Çin memurlarının aşırı baskısından rahatsız olarak bağımsız hareket etmeye çalıştı. 158'de Han generali Zhang Huan tarafından tutuklanarak hapse atıldı ve unvanı elinden alındı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "Çin generalleriyle anlaşmazlığı makamından olmasına yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-tute",
+        "name": "Tute Ruoshi Zhujiu",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 178,
+        "deathNote": "MS 178'de öldü.",
+        "reign": [
+          158,
+          178
+        ],
+        "reignNote": "Jucheer'in hapsedilmesinin ardından fiilen başa geçti; 172'de Han sarayı tarafından resmiyete bağlandı.",
+        "summary": "158'den itibaren fiilen yönetti, 172'de Han sarayınca resmi şanyü olarak onaylandı. Siyenpi lideri Tanshihuai'nin bozkırda yükseldiği dönemde Han sınırlarını korumaya çalıştı.",
+        "traits": [],
+        "contribution": "Siyenpi akınlarına karşı Han sınırında savunma sağladı.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Huzheng",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-huzheng",
+        "name": "Huzheng",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 179,
+        "deathNote": "Han müfettişi Zang Min tarafından yetkisizce idam edildi.",
+        "reign": [
+          178,
+          179
+        ],
+        "reignNote": "Tute'nin oğlu.",
+        "summary": "Tute'nin oğlu. 179 yılında Han müfettişi Zang Min ile anlaşmazlığa düştü; Zang Min imparatordan izin almaksızın Huzheng'i öldürttü. Olay üzerine Han sarayı Zang Min'i cezalandırdı ve Qiangqu'yu şanyü yaptı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "Öldürülmesi Hun kabilelerinde Han memurlarına karşı nefreti derinleştirdi.",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-qiangqu",
+        "name": "Qiangqu",
+        "aliases": [
+          "Jiangqu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 188,
+        "deathNote": "188'de ayaklanan Xiuchuge klanı tarafından öldürüldü.",
+        "reign": [
+          179,
+          188
+        ],
+        "reignNote": "Huzheng'in öldürülmesinin ardından Han sarayınca atandı.",
+        "summary": "Han hanedanına sadık bir hükümdardı. Sarı Sarıklılar İsyanı ve Zhang Chun ayaklanmasını bastırmak üzere Han ordusuna Hun süvarisi gönderdi. Sürekli savaşa sürülmekten bıkan Xiuchuge boyunun isyanı sırasında 188'de öldürüldü.",
+        "traits": [
+          "Han sarayına bağlılık"
+        ],
+        "contribution": "Çin'deki kargaşada sınır garnizonlarının korunmasına destek verdi.",
+        "harm": "Kendi boylarının çıkarlarını gözetmeyip sürekli savaşa sürmesi kanlı bir isyanla canına mal oldu.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Yufuluo",
+            "mother": "",
+            "note": "Halefi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Huchuquan",
+            "mother": "",
+            "note": "Son şanyü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Xiuchuge İsyanı",
+            "when": "188",
+            "foe": "Xiuchuge Hun boyu",
+            "result": "yenilgi",
+            "note": "İsyancılar şanyü ordugâhını basarak Qiangqu'yu öldürdü."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-yufuluo",
+        "name": "Yufuluo",
+        "aliases": [
+          "Chizhi Shizhu Houti"
+        ],
+        "title": "şanyü",
+        "birth": 150,
+        "birthNote": "Yaklaşık 150 doğumlu.",
+        "death": 195,
+        "deathNote": "MS 195'te öldü.",
+        "reign": [
+          188,
+          195
+        ],
+        "reignNote": "Babasının öldürülmesinden sonra tahta çıktı ancak kendi yurdundan kovuldu.",
+        "summary": "Qiangqu'nun oğlu. Tahta çıktığında isyancı Xiuchuge boyu onu tanımadı ve Ordos'tan kovdu. Luoyang'a sığındı. Han hanedanının çöküşü sırasında süvarileriyle Yuan Shao ve Cao Cao gibi savaş ağalarıyla ittifaklar kurup Merkez Ovalarında savaştı. Yurduna dönemeden Pingyang'da (Shanxi) öldü.",
+        "traits": [
+          "Sürgünde mücadele",
+          "Bozkır süvarisi kumandanı"
+        ],
+        "contribution": "Çin iç savaşında Hun askeri varlığını güçlü bir aktör olarak korudu.",
+        "harm": "Kendi topraklarına hâkim olamayarak sürgünde bir kabile reisine dönüştü.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Liu Bao",
+            "mother": "",
+            "note": "Sol Bilge Kral; Han-Zhao kurucusu Liu Yuan'ın babası.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Merkez Ovaları Savaş Ağaları Çarpışmaları",
+            "when": "188-195",
+            "foe": "Çeşitli Çin savaş ağaları",
+            "result": "belirsiz",
+            "note": "Yuan Shao ve Cao Cao ile birlikte veya onlara karşı savaştı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          },
+          {
+            "title": "Wikipedia, Yufuluo",
+            "url": "https://en.wikipedia.org/wiki/Yufuluo"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-xubu-guduhou",
+        "name": "Xubu Gudu Hou",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 189,
+        "deathNote": "MS 189'da öldü.",
+        "reign": [
+          188,
+          189
+        ],
+        "reignNote": "İsyancılar tarafından Ordos'ta tahta çıkarıldı.",
+        "claim": true,
+        "summary": "Qiangqu'yu öldürüp Yufuluo'yu kovan Xiuchuge isyancıları tarafından şanyü ilan edildi. Bir yıl sonra öldü. Ölümünden sonra isyancılar yeni bir şanyü seçmeyip boy beyleri idaresini sürdürdü.",
+        "traits": [
+          "İsyancı aristokrat"
+        ],
+        "contribution": "",
+        "harm": "Şanyülük makamının meşruiyetini aşındırdı.",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      },
+      {
+        "id": "guney-hun-huchuquan",
+        "name": "Huchuquan",
+        "aliases": [
+          "Hu-ch'u-ch'üan"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 216,
+        "deathNote": "216'da unvanı kaldırılıp Ye şehrinde alıkonuldu; ölüm yılı kesin değildir.",
+        "reign": [
+          195,
+          216
+        ],
+        "reignNote": "Yufuluo'nun ardından Pingyang'da şanyü oldu; 216'da Cao Cao makamı lağvetti.",
+        "summary": "Yufuluo'nun kardeşi. Ağabeyinin ardından Shanxi bölgesindeki Hunların başına geçti. 216'da Wei prensi Cao Cao'nun sarayına gittiğinde Ye şehrinde gözaltında tutuldu. Cao Cao şanyülük makamını resmen kaldırdı ve Güney Hunlarını beş idari bölgeye ayırdı.",
+        "traits": [
+          "Son resmi şanyü"
+        ],
+        "contribution": "Güney Hun boylarının Shanxi'de yerleşik düzene geçişini yönetti.",
+        "harm": "Şanyülük unvanının ve bağımsız siyasi kimliğin tasfiyesine engel olamadı.",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Huchuquan",
+            "url": "https://en.wikipedia.org/wiki/Huchuquan"
+          },
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kuzey-hun",
+    "name": "Kuzey Hun Devleti",
+    "short": "Kuzey Hun",
+    "aliases": [
+      "Kuzey Hiung-nu",
+      "Bei Xiongnu",
+      "Kuzeyli Hunlar",
+      "Kuzey Hunları"
+    ],
+    "region": "bozkir",
+    "start": 48,
+    "end": 155,
+    "startNote": "MS 48'de şanyü Bi'nin güneye ayrılmasıyla Punu yönetiminde Moğolistan bozkırında kalan bağımsız Hun birliği.",
+    "endNote": "89 ve 91'deki ağır yenilgilerin ardından 93'te Yuchujian'ın ölümüyle siyasi birlik çöktü; 155 civarında Siyenpilerin (Xianbei) önderi Tanshihuai son Hun kalıntılarını Moğolistan'dan tamamen sürdü.",
+    "capital": "Orhun-Selenge havzası, Hangay ve Altay dağları etekleri",
+    "religion": "Gök Tanrı inancı, kamlık, atalar kültü",
+    "confidence": "kayit",
+    "confidenceNote": "Hou Hanshu ve 2017'de Moğolistan'da Dundgovi ilinde keşfedilen Yanran Yazıtı ile belgelenmiştir.",
+    "summary": "MS 48 bölünmesinden sonra Moğolistan bozkırında bağımsızlığını sürdüren Hun koludur. Çin'in heqin antlaşması vermemesi, ağır kuraklıklar, çekirge istilaları ve güneyden Han-Güney Hun, doğudan Siyenpi, batıdan Dingling ve Usun saldırılarıyla kuşatıldılar. 89 İh Bayan (Altay) ve 91 Tanrı Dağları muharebelerinde ağır darbeler alarak batıya Cungarya ve Kazakistan bozkırlarına çekildiler; 155'te Siyenpi lideri Tanşihoay tarafından Moğolistan'daki varlıkları tamamen tasfiye edildi.",
+    "legacy": "Kuzey Hunlarının batıya (Cungarya, Yedisu ve Aral-Hazar ötesine) göç eden kitlelerinin, yüzyıllar sonra ortaya çıkan Avrupa Hunlarının ve Ak Hunların (Eftalitler) etnogenezinde rol oynadığı kabul edilir veya tartışılır.",
+    "essay": [
+      "Kuzey Hun Devleti, MS 48'de sekiz güney boyunun Bi önderliğinde Çin Seddi'ne inerek Doğu Han hanedanına tabi olmasıyla, Moğolistan platosunda kalan boyların bağımsız çizgisidir. Punu'nun şanyülüğünde devam eden bu kuzey kolu, atalarının 'bağımsız bozkır egemenliği' mirasını sürdürmeyi hedefledi. Ancak güneyin kopuşu, konfederasyonu en verimli kışlaklarından, zengin nüfus kaynağından ve Çin ile yapılan kârlı sınır ticaretinden mahrum bıraktı.",
+      "Kuzey Hunları ekonomik açıdan ağır bir krize girdi. 46 yılında başlayan ve aralıklarla süren kuraklıklar, çekirge sürüleri ve hayvan kırımları bozkır ekonomisini felç etti. Han sarayına elçiler göndererek heqin antlaşması ve sınır pazarları talep ettiler; ancak Han hanedanı Güney Hunlarını korumak amacıyla bu talepleri reddetti. Bu tecrit karşısında Kuzey Hunları yeniden akın siyasetine yöneldi, ancak çevrelerindeki güç dengesi aleyhlerine dönmüştü.",
+      "Doğuda güçlenen Moğol kökenli Siyenpiler (Xianbei), batıda Dinglingler ve Usunlar, güneyde ise Han ve Güney Hun müşterek orduları Kuzey Hunlarını dört taraftan kuşattı. 87 yılında Siyenpiler kuzey ordugâhına baskın düzenleyerek şanyü Youliu'yu öldürdüler ve cesedinin derisini yüzdüler. Bu dehşet verici darbe Kuzey Hunları arasında büyük bir panik ve çözülme başlattı.",
+      "Nihai askerî darbe 89 yılında geldi. Han generali Dou Xian ve Güney Hun şanyüsü Tuntuhe komutasındaki birleşik ordu, Altay Dağları eteklerinde gerçekleşen İh Bayan Muharebesi'nde Kuzey Hun ordusunu darmadağın etti. 13.000 kuzey askeri öldürüldü, 81 kabileden 200.000 kişi teslim oldu. Dou Xian, Hangay Dağları'nda meşhur Yanran Yazıtı'nı kazıtarak zaferini ilan etti. 91 yılında Tanrı Dağları Muharebesi'nde ikinci bir darbe alan Kuzey Şanyüsü bilinmeyen bir yöne (Cungarya ve İli havzasına) kaçtı.",
+      "93 yılında son şanyü Yuchujian'ın ölümüyle merkezi şanyülük kurumu kuzeyde fiilen çöktü. 94-118 arasında güneyden kaçan Feng-hou'nun çevresinde toplanan son direnç odakları da açlık ve Siyenpi baskısıyla tükendi. 155 civarında büyük Siyenpi kağanı Tanşihoay (Tanshihuai), Moğolistan'daki son Hun bakiyelerini tamamen sürdü; kalan yüz bin çadır Siyenpi adını benimseyerek eridi. Batıya çekilen Kuzey Hun kitleleri ise Cungarya, Yedisu ve Kazakistan üzerinden batı yönlü göç dalgasını başlatarak Avrasya tarihinin akışını değiştirdi."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, TÜRK",
+        "url": "https://islamansiklopedisi.org.tr/turk"
+      },
+      {
+        "title": "Britannica, Xiongnu",
+        "url": "https://www.britannica.com/topic/Xiongnu"
+      },
+      {
+        "title": "Wikipedia, Han–Xiongnu Wars",
+        "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+      },
+      {
+        "title": "Wikipedia, Battle of the Altai Mountains",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Altai_Mountains"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kuzey-hun-punu",
+        "name": "Punu",
+        "aliases": [
+          "P'u-nu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 75,
+        "deathNote": "Yaklaşık MS 75'te öldüğü tahmin edilir.",
+        "reign": [
+          48,
+          75
+        ],
+        "reignNote": "MS 48'de Güney Hunlarının ayrılmasıyla Kuzey Hun Devleti'nin ilk bağımsız şanyüsü olarak hüküm sürdü.",
+        "summary": "Huduershi'nin oğlu. 48 bölünmesinden sonra Moğolistan bozkırında bağımsız kalan Hun boylarını yönetti. Han hanedanına elçiler gönderip heqin antlaşması ve sınır pazarları istedi; talepleri reddedilince sınırları taciz etti. Çevre boyların ve kuraklığın baskısı altında bozkır egemenliğini korumaya çalıştı.",
+        "traits": [
+          "Bağımsızlıkta kararlılık",
+          "Çetin koşullara göğüs germe"
+        ],
+        "contribution": "Bölünme sonrası bozkırda bağımsız Hun varlığını sürdürdü.",
+        "harm": "Çin ile ekonomik barış kuramayarak tecrit edildi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Güney Hun sınır çatışmaları",
+            "when": "49-52",
+            "foe": "Güney Hunları (Bi) ve Han sınır garnizonları",
+            "result": "yenilgi",
+            "note": "Bi'nin gönderdiği birlikler kuzey sınırlarını yağmaladı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Wikipedia, Punu Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Punu_Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "kuzey-hun-youliu",
+        "name": "Youliu",
+        "aliases": [
+          "Yu-liu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 87,
+        "deathNote": "MS 87'de Siyenpiler tarafından baskında öldürüldü ve derisi yüzüldü.",
+        "reign": [
+          75,
+          87
+        ],
+        "reignNote": "Punu'nun ardından tahta geçtiği kabul edilir.",
+        "summary": "Punu'dan sonraki Kuzey Hun şanyüsü. Doğu sınırlarında hızla güçlenen Siyenpilerin baskısı altında kaldı. 87 yılında Siyenpilerin ordugâhına düzenlediği ani baskında öldürüldü ve cesedinin derisi yüzüldü. Bu felaket Kuzey Hun boylarında kitlesel paniğe ve çözülmeye yol açtı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "Siyenpi tehlikesini zamanında engelleyemeyerek devletin savunma hattını çökertti.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Siyenpi Baskını",
+            "when": "87",
+            "foe": "Siyenpiler (Xianbei)",
+            "result": "yenilgi",
+            "note": "Şanyü Youliu öldürüldü, ordugâh yağmalandı ve binlerce Hun boyu güneye kaçtı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          },
+          {
+            "title": "Wikipedia, Han–Xiongnu Wars",
+            "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+          }
+        ]
+      },
+      {
+        "id": "kuzey-hun-adsiz",
+        "name": "Adı kayıtlarda geçmeyen Kuzey Şanyüsü",
+        "aliases": [
+          "Kuzey Şanyüsü",
+          "Northern Chanyu"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": null,
+        "deathNote": "91 Tanrı Dağları hezimetinden sonra batıya kaçtı; nerede ve ne zaman öldüğü kayıtlarda yoktur.",
+        "reign": [
+          88,
+          91
+        ],
+        "reignNote": "Youliu'nun kardeşi. Çin yıllıklarında özel adı verilmez, sadece 'Kuzey Şanyüsü' diye anılır.",
+        "summary": "Youliu'nun kardeşi. 89'da Han generali Dou Xian ve Güney Hun şanyüsü Tuntuhe'nin İh Bayan'daki (Altay Dağları) büyük taarruzunda ağır hezimete uğradı. 91'de Tanrı Dağları eteklerinde Han generali Geng Kui tarafından ikinci kez kuşatılıp yaralanınca ordusunu bırakıp batıya (Cungarya ve İli havzasına) kaçtı.",
+        "traits": [
+          "Trajik çekiliş"
+        ],
+        "contribution": "Çemberi yararak batıya çekilmeyi başardı.",
+        "harm": "89 ve 91 hezimetleriyle Moğolistan platosundaki Hun siyasi hâkimiyeti fiilen sona erdi.",
+        "wives": [
+          {
+            "name": "Yanzhi (Hatun)",
+            "note": "89 İh Bayan Muharebesi'nde Han birliklerince esir alındı.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "wars": [
+          {
+            "name": "İh Bayan (Altay Dağları) Muharebesi",
+            "when": "89",
+            "foe": "Han hanedanı (Dou Xian) ve Güney Hunları (Tuntuhe)",
+            "result": "yenilgi",
+            "note": "13.000 Hun askeri öldürüldü, yüz binlerce kabile teslim oldu; şanyü batıya kaçtı."
+          },
+          {
+            "name": "Tanrı Dağları (Tian Shan) Muharebesi",
+            "when": "91",
+            "foe": "Han generali Geng Kui",
+            "result": "yenilgi",
+            "note": "Kuzey ordugâhı tamamen ele geçirildi; şanyü yaralı halde batıya kaçtı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Battle of the Altai Mountains",
+            "url": "https://en.wikipedia.org/wiki/Battle_of_the_Altai_Mountains"
+          },
+          {
+            "title": "Wikipedia, Han–Xiongnu Wars",
+            "url": "https://en.wikipedia.org/wiki/Han%E2%80%93Xiongnu_wars"
+          }
+        ]
+      },
+      {
+        "id": "kuzey-hun-yuchujian",
+        "name": "Yuchujian",
+        "aliases": [
+          "Yü-ch'u-chien"
+        ],
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 93,
+        "deathNote": "MS 93'te Han birliklerince takip edilirken yolda öldü/öldürüldü.",
+        "reign": [
+          91,
+          93
+        ],
+        "reignNote": "Ağabeyinin batıya kaçmasının ardından Yiwu'da tahta çıktı.",
+        "summary": "Kuzey Şanyüsü'nün kardeşi. Ağabeyinin 91'de batıya kaçmasından sonra Yiwu (Hami) civarında kalan boyların başına geçti ve Han hanedanına teslim oldu. 93'te Han memurlarının denetiminden kurtulup kuzeye kaçmaya çalışırken Çin kuvvetleri tarafından yakalandı ve hayatını kaybetti.",
+        "traits": [],
+        "contribution": "Kısa bir süre boyların dağılmasını geciktirdi.",
+        "harm": "Ölümüyle birlikte Moğolistan'daki hanedan idaresi tamamen dağıldı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "93 Kuzeye Kaçış ve Çatışma",
+            "when": "93",
+            "foe": "Han generalleri Ren Shang ve Wang Fu",
+            "result": "yenilgi",
+            "note": "Yuchujian takip edilip öldürüldü."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Yuchujian",
+            "url": "https://en.wikipedia.org/wiki/Yuchujian"
+          },
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      },
+      {
+        "id": "kuzey-hun-fenghou",
+        "name": "Feng-hou",
+        "title": "şanyü",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 118,
+        "deathNote": "118'de Han hanedanına teslim olduktan sonra akıbeti kayıtlarda yoktur.",
+        "reign": [
+          94,
+          118
+        ],
+        "reignNote": "Güney Hun prensi iken isyan edip kuzeye geçti; 24 yıl boyunca kuzey kalıntılarını yönetti.",
+        "claim": true,
+        "summary": "Güney Hun şanyüsü Tuntuhe'nin oğlu. 94'te Shizi'nin şanyülüğüne isyan eden 200.000 kişilik kitleyi alarak kuzeye kaçtı ve Kuzey Hunlarının kalıntılarıyla birleşerek şanyü unvanını aldı. Çölün kuzeyinde 24 yıl boyunca Han ve Siyenpi saldırılarına direndi. Açlık, tipi ve kabilelerin Han'a sığınması üzerine 118'de teslim oldu.",
+        "traits": [
+          "Çeyrek asırlık direniş",
+          "Bozkır bağımsızlık inadı"
+        ],
+        "contribution": "Kuzey Hun direnişini 24 yıl boyunca sürdürdü.",
+        "harm": "Açlık ve tecrit yüzünden maiyetindeki kabilelerin tükenmesini engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Feng-hou Direnişi Savaşları",
+            "when": "94-118",
+            "foe": "Han hanedanı ve Siyenpiler",
+            "result": "yenilgi",
+            "note": "Siyenpi darbeleri ve açlık sonucu kuvvetleri eridi, 118'de teslim oldu."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Wikipedia, Southern Xiongnu",
+            "url": "https://en.wikipedia.org/wiki/Southern_Xiongnu"
+          },
+          {
+            "title": "Wikipedia, Chanyu",
+            "url": "https://en.wikipedia.org/wiki/Chanyu"
+          }
+        ]
+      }
+    ]
+  }
+]

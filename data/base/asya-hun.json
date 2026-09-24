@@ -1,0 +1,159 @@
+[
+ {
+  "id": "asya-hun",
+  "name": "Asya Hun Devleti",
+  "short": "Asya Hun",
+  "aliases": [
+   "Xiongnu",
+   "Hsiung-nu",
+   "Büyük Hun"
+  ],
+  "region": "bozkir",
+  "start": -220,
+  "end": 216,
+  "startNote": "Teoman’ın MÖ 220’de tahta çıktığı kabulü Türk tarih yazımının geleneksel eşiğidir. Çin kayıtları Touman’ı MÖ 3. yüzyılın sonuna yerleştirir.",
+  "endNote": "MS 48’de kuzey ve güney olarak bölündü. Güney Hunları Han vasallığına girdi. Kuzey kolu 2. yüzyılda dağıldı. 216 civarında güneydeki şanyü makamı Çin’de lağvedildi.",
+  "capital": "Ötüken ve Orhun yöresi, mevsimlik otlaklar",
+  "religion": "Gök Tanrı inancı, Şamanlık",
+  "confidence": "tartismali",
+  "confidenceNote": "Siyasi varlığı kesindir. Yönetici çekirdeğin Türkçe konuştuğu ise kanıtlanmış değildir.",
+  "summary": "Çin kaynaklarının Xiongnu dediği konfederasyon, MÖ 3. yüzyıl sonunda şanyü yönetiminde bozkırın ilk büyük imparatorluğunu kurdu. Türk tarih yazımı bunu ilk Türk devleti sayar. Dil tartışması ayrı bir maddedir.",
+  "legacy": "Onlu ordu düzeni, şanyü unvanı ve Çin ile heqin antlaşması modeli sonraki bozkır devletlerine örnek oldu. Göktürkler kendilerini bu geleneğin içine yerleştirdi.",
+  "sources": [
+   {
+    "title": "Britannica, Xiongnu",
+    "url": "https://www.britannica.com/topic/Xiongnu"
+   },
+   {
+    "title": "TDV, Han",
+    "url": "https://islamansiklopedisi.org.tr/han--hukumdar"
+   }
+  ],
+  "rulers": [
+   {
+    "id": "teoman",
+    "name": "Teoman",
+    "title": "Şanyü (Tanhu)",
+    "birth": null,
+    "birthNote": "Doğum yılı Çin kayıtlarında yok",
+    "death": -209,
+    "deathNote": "Oğlu Modu’nun emriyle öldürüldü",
+    "reign": [
+     -220,
+     -209
+    ],
+    "reignNote": "MÖ 220 geleneksel yıldır. Britannica kurucuyu Touman diye anar ve oğul tarafından öldürüldüğünü yazar.",
+    "summary": "Çin kaynaklarındaki Touman, Xiongnu konfederasyonunun bilinen ilk şanyüsüdür. Doğu Hu ve Yüeçi baskısı altındaki boyları bir arada tuttu. Veliahtı Modu’yu Yüeçilere rehin verdiği ve ardından tahtı başka bir eşin oğluna bırakmak istediği anlatılır.",
+    "traits": [
+     "Konfederasyonu derleyip toplayan ilk bilinen şanyü"
+    ],
+    "contribution": "Dağınık boyları tek şanyü otoritesi altında anılan siyasi bir gövdeye çevirdi.",
+    "harm": "Veliaht krizini oğlunun darbesine kadar büyüttü. Rehine politikası kendi hanedanını parçaladı.",
+    "wives": [
+     {
+      "name": "Adı Çin kayıtlarında geçmeyen bir eş",
+      "note": "Modu’dan olmayan oğlunu veliaht yapmak istediği söylenir. Kişisel adı güvenilir Türkçe kaynakta sabit değildir.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mete (Modu)",
+      "mother": "",
+      "note": "Veliahtken tahtı ele geçirdi",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Adı geçmeyen küçük oğul",
+      "mother": "",
+      "note": "Veliaht yapılmak istendiği anlatılır, MÖ 209’da öldürüldü",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Yüeçi ve Doğu Hu baskısı",
+      "when": "MÖ 3. yüzyıl sonu",
+      "foe": "Yüeçi, Donghu",
+      "result": "belirsiz",
+      "note": "Teoman’ın bu komşular karşısında gerilediği, Çin yıllığının Modu bahsinde ima edilir."
+     }
+    ],
+    "legends": [
+     "Türk ders kitaplarındaki “Çin Seddi Teoman’dan korunmak için yapıldı” cümlesi aşırı sadedir. Qin surları MÖ 3. yüzyılda, Xiongnu baskısıyla birlikte ama ondan daha geniş bir sınır politikasının parçası olarak örülmüştür.",
+     "Bazı popüler metinler Teoman’ı Oğuz Kağan’ın babası Kara Han ile bir tutar. Bu özdeşleştirme destansıdır, tarih kaydı değildir."
+    ],
+    "sources": [
+     {
+      "title": "Britannica, Xiongnu",
+      "url": "https://www.britannica.com/topic/Xiongnu"
+     }
+    ]
+   },
+   {
+    "id": "mete",
+    "name": "Mete",
+    "title": "Şanyü",
+    "birth": null,
+    "birthNote": "Yaklaşık MÖ 234 önerilir, kesin değildir",
+    "death": -174,
+    "deathNote": "Britannica saltanatı yaklaşık MÖ 209-174 verir",
+    "reign": [
+     -209,
+     -174
+    ],
+    "summary": "Modu, babasını öldürterek şanyü oldu. Doğu Hu’yu dağıttı, Yüeçileri batıya sürdü, Dingling ve diğer boyları bağladı. MÖ 200’de Baideng’de Han imparatoru Gaozu’yu kuşattı. Ardından heqin antlaşmasıyla Çin, ipek ve prenses gönderdi.",
+    "traits": [
+     "Onlu teşkilat kurucusu olarak anılır",
+     "Merkezi bozkır otoritesini fiilen kuran hükümdar"
+    ],
+    "contribution": "Xiongnu’yu Çin’e denk bir imparatorluk haline getirdi. Onlu birlik düzeni bozkır ordularının klasik modeli oldu.",
+    "harm": "Babasını ve üvey kardeşini öldürterek taht aldı. Çin’e kesintisiz akın, sınır halkı için sürekli yağmaydı. Heqin, Hun hazinesini büyütürken Han maliyesini de zorladı.",
+    "wives": [],
+    "children": [
+     {
+      "name": "Laoshang (Kiyok / Ciyü)",
+      "mother": "",
+      "note": "Halefi. Ad Türkçede farklı çevrilir",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Doğu Hu seferi",
+      "when": "MÖ 209 civarı",
+      "foe": "Donghu",
+      "result": "zafer",
+      "note": "Shiji anlatır. Ayrıntılardaki ok talimi sahnesi didaktiktir."
+     },
+     {
+      "name": "Yüeçi seferi",
+      "when": "MÖ 209-177 arası",
+      "foe": "Yüeçi",
+      "result": "zafer",
+      "note": "Yüeçiler batıya çekildi."
+     },
+     {
+      "name": "Baideng kuşatması",
+      "when": "MÖ 200",
+      "foe": "Han imparatoru Gaozu",
+      "result": "zafer",
+      "note": "İmparator yedi gün kuşatıldı, ardından heqin antlaşması yapıldı."
+     }
+    ],
+    "legends": [
+     "Islık çalan ok talimi Sima Qian’ın Shiji eserindedir. Önce atını, sonra karısını, sonra babasının atını vurmayanları öldürdüğü sahne öğretici bir kurgu gibi okunmalıdır. Çekirdek, mutlak itaatle darbeyi anlattığı için tamamen atılmaz ama ayrıntı rivayettir.",
+     "“Toprak milletindir, onu kimse veremez” cümlesi modern Türkçe ders anlatısıdır. Shiji’de Modu, Doğu Hu elçisine toprak talebini reddederken toprağın devletin temeli olduğunu söyler. Ders kitabındaki vecize birebir alıntı değildir.",
+     "Türk Kara Kuvvetleri’nin kuruluşunu MÖ 209’a bağlamak modern bir simgedir, o yıl kurulmuş bir kurum kaydı değildir.",
+     "Modu ile destandaki Oğuz Kağan arasında kurulan özdeşlik, hayat hikâyelerinin benzerliğinden türetilmiş bir yorumdur, kanıtlanmış kimlik değildir."
+    ],
+    "sources": [
+     {
+      "title": "Britannica, Xiongnu",
+      "url": "https://www.britannica.com/topic/Xiongnu"
+     }
+    ]
+   }
+  ]
+ }
+]

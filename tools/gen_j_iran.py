@@ -1,0 +1,398 @@
+#!/usr/bin/env python3
+"""Build j-iran-gec.json."""
+import json
+from pathlib import Path
+
+data = [
+  {
+    "id": "akkoyunlu",
+    "name": "Akkoyunlu Devleti",
+    "short": "Akkoyunlular",
+    "aliases": ["Bayındıriyye", "Ak Koyunlular", "Bayandurids"],
+    "region": "iran",
+    "start": 1378,
+    "end": 1508,
+    "startNote": "Oğuzların Bayındır boyundan Kara Yülük Osman Bey'in Diyarbekir merkezli bağımsızlık kazanmasıyla temellendi.",
+    "endNote": "1501 Şerûr yenilgisinden sonra 1508'de Şah İsmail'in Bağdat ve Diyarbekir'i almasıyla sona erdi.",
+    "capital": "Diyarbekir (ilk merkez), ardından Tebriz",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Ebû Bekr-i Tahrânî'nin Kitâb-ı Diyârbekriyye'si, Âşıkpaşazâde ve Venedik sefaretnâmeleriyle sabittir.",
+    "summary": "Oğuzların Bayındır boyuna mensup Türkmenler tarafından Doğu Anadolu, Azerbaycan, İran ve Irak'ta kurulan büyük imparatorluk. Uzun Hasan devrinde Karakoyunluları ve Timurluları mağlup ederek başkenti Tebriz'e taşıdılar; Venedik ve Avrupa krallıklarıyla diplomatik ittifaklar kurdular. Fatih Sultan Mehmed ile 1473 Otlukbeli Meydan Muharebesi'nde karşılaştılar. İlim ve kanunlaştırmaya büyük önem verip 'Hasan Padişah Kanunları'nı uyguladılar. 1501-1508 yıllarında Safevîler tarafından yıkıldılar.",
+    "legacy": "Diyarbekir ve Tebriz'i Türk-İslam mimarisinin şaheserleriyle donattı; Hasan Padişah Kanunnâmesi Osmanlı fethinden sonra dahi bölgede asırlarca yürürlükte kaldı.",
+    "essay": [
+      "Akkoyunlular, Moğol istilasından sonra Diyarbekir yöresine yerleşen Oğuzların Bayındır boyuna dayanır. Beyliğin gerçek kurucusu Kara Yülük Osman Bey, Timur'un Anadolu seferinde onun yanında yer alarak Diyarbekir vilayetini taltif olarak aldı.",
+      "Devlet en şanlı devrini Uzun Hasan (1453-1478) zamanında yaşadı. Uzun Hasan 1467'de Karakoyunlu Cihan Şah'ı ve 1469'da Timur hükümdarı Ebû Said'i mağlup edip öldürerek imparatorluk sınırlarını Horasan'dan Fırat'a kadar genişletti ve başkenti Tebriz yaptı. Trabzon Rum İmparatoru'nun kızı Theodora (Despina Hatun) ile evlenerek Venedik ile Osmanlı aleyhine ittifak kurdu. 11 Ağustos 1473'te Otlukbeli Meydan Muharebesi'nde Fatih Sultan Mehmed'in ateşli silahlarla donatılmış ordusuna yenildi.",
+      "Uzun Hasan'ın ardından Sultan Yakub (1478-1490) devrinde kültür, şiir ve mimari gelişti. Ancak hanedan içi kavgalar devleti zayıflattı; 1501'de Şah İsmail Nahçıvan yakınlarında Şerûr Muharebesi'nde Elvend Bey'i yenerek Tebriz'e girdi ve Akkoyunlu mirası üzerinde Safevî Devleti'ni kurdu."
+    ],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR", "url": "https://islamansiklopedisi.org.tr/akkoyunlular"},
+      {"title": "TDV İslâm Ansiklopedisi, UZUN HASAN", "url": "https://islamansiklopedisi.org.tr/uzun-hasan"}
+    ],
+    "rulers": [
+      {
+        "id": "akkoyunlu-uzun-hasan",
+        "name": "Uzun Hasan",
+        "aliases": ["Hasan Padişah", "Ebû'n-Nasr Uzun Hasan"],
+        "title": "Padişah / Sultan",
+        "birth": 1423,
+        "birthNote": "Diyarbekir'de 1423'te doğdu",
+        "death": 1478,
+        "deathNote": "Tebriz'de vefat etti, Nasriyye Külliyesi'ndeki türbesindedir",
+        "reign": [1453, 1478],
+        "reignNote": "25 yıllık büyük imparatorluk dönemi.",
+        "summary": "Akkoyunluların en büyük hükümdarı. Cihan Şah'ı ve Timur Sultanı Ebû Said'i yenerek imparatorluğunu Fırat'tan Horasan'a ulaştırdı. Kur'an-ı Kerim'i Türkçeye tercüme ettirdi, Hasan Padişah Kanunları ile adil vergi nizamı kurdu. Fatih ile Otlukbeli'nde karşılaştı.",
+        "traits": ["Cihangir hükümdar", "Adil kanun koyucu", "Usta diplomat"],
+        "contribution": "İran, Azerbaycan ve Doğu Anadolu'yu birleştirerek büyük bir Türk imparatorluğu kurdu; adil vergi kanunnameleri hazırlattı.",
+        "harm": "Venedik kışkırtmasıyla Osmanlı'ya karşı savaşa girmesi Otlukbeli hezimetine yol açtı.",
+        "wives": [
+          {"name": "Theodora Komnene (Despina Hatun)", "note": "Trabzon Rum İmparatoru IV. İoannes'in kızı, Şah İsmail'in anneannesi", "certainty": "kesin"},
+          {"name": "Selçukşah Begüm", "note": "Karakoyunlu prensesi", "certainty": "kesin"}
+        ],
+        "children": [
+          {"name": "Sultan Halil", "mother": "", "note": "Babasından sonra tahta oturdu", "certainty": "kesin"},
+          {"name": "Sultan Yakub", "mother": "Selçukşah Begüm", "note": "İlim ve sanat hamisi padişah", "certainty": "kesin"},
+          {"name": "Uğurlu Mehmed", "mother": "", "note": "Fatih'in kızı Gevherhan Hatun ile evlendi", "certainty": "kesin"},
+          {"name": "Halime Begüm (Âlemşah)", "mother": "Despina Hatun", "note": "Şeyh Haydar ile evlendi, Şah İsmail'in annesi", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Çapakçur Muharebesi", "when": "1467", "foe": "Karakoyunlular (Cihan Şah)", "result": "zafer", "note": "Cihan Şah öldürüldü, Karakoyunlu devleti yıkılıp toprakları ilhak edildi."},
+          {"name": "Otlukbeli Meydan Muharebesi", "when": "1473", "foe": "Osmanlı Devleti (Fatih Sultan Mehmed)", "result": "yenilgi", "note": "Osmanlı top ve tüfek ateşi karşısında Türkmen süvarileri tutunamadı, Uzun Hasan çekildi."}
+        ],
+        "legends": ["Kur'an-ı Kerim'i Türkçe mealiyle beraber okuttuğu ve huzurunda Türkçe tefsir meclisleri kurdurduğu kaydedilir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, UZUN HASAN", "url": "https://islamansiklopedisi.org.tr/uzun-hasan"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karakoyunlu",
+    "name": "Karakoyunlu Devleti",
+    "short": "Karakoyunlular",
+    "aliases": ["Baraniler", "Kara Koyunlular", "Qara Qoyunlu"],
+    "region": "iran",
+    "start": 1380,
+    "end": 1469,
+    "startNote": "Bayram Hoca ve Kara Mehmed'in Erciş ve Van çevresinde beylik kurmasıyla başladı.",
+    "endNote": "1468-1469'da Uzun Hasan'ın Cihan Şah ve oğullarını mağlup edip Tebriz'i almasıyla sona erdi.",
+    "capital": "Erciş ve Tebriz",
+    "religion": "İslamiyet (Şiî-Sünnî geçişli)",
+    "confidence": "kayit",
+    "confidenceNote": "Târîh-i Kızılbaşân, İbn Arabşah ve Tebriz Gök Mescid kitabeleriyle sabittir.",
+    "summary": "Oğuzların Yıva boyuna mensup Baranlu oymağı tarafından Doğu Anadolu, Azerbaycan, Ermenistan, Gürcistan ve Irak sahasında kurulan büyük devlet. Kara Yusuf devrinde Timur istilasına karşı Osmanlılarla (Yıldırım Bayezid) ittifak yaptılar; Timur'un ölümünden sonra Tebriz ve Bağdat'ı zaptettiler. Cihan Şah devrinde Tebriz'de 'İslam'ın Turkuvazı' denilen muazzam Gök Mescid'i inşa ettiler. 1468'de Akkoyunlular tarafından yıkıldılar.",
+    "legacy": "Tebriz Gök Mescid (Mescid-i Kebûd) gibi çini ve mozaik sanatının dünyadaki zirve eserlerini bıraktı; Türkçe şiir ve edebiyat muhitini geliştirdi.",
+    "essay": [
+      "Karakoyunlular, Moğol hakimiyetinin sarsılmasıyla Van Gölü'nün kuzeyindeki Erciş merkezli olarak Bayram Hoca ve oğlu Kara Mehmed tarafından kuruldu.",
+      "Kara Yusuf (1389-1420), Timur'un gazabına uğrayıp Osmanlı Sultanı Yıldırım Bayezid'e sığındı; bu sığınma 1402 Ankara Savaşı'nın başlıca sebeplerinden biri oldu. Timur'un ölümünden sonra Tebriz'e dönen Kara Yusuf, Şehzade Miranşah'ı mağlup edip öldürerek Azerbaycan ve Irak'ın tek hakimi oldu.",
+      "Cihan Şah (1438-1467) devri beyliğin en parlak ve kültürel zirve dönemi oldu. Cihan Şah, 'Hakîkî' mahlasıyla Türkçe ve Farsça muazzam divanlar yazdı; Tebriz'de çinileriyle meşhur Gök Mescid'i yaptırdı. Ancak 1467'de Akkoyunlu Uzun Hasan'ın ani sabah baskınında (Çapakçur) öldürüldü ve devlet Akkoyunlulara katıldı."
+    ],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR", "url": "https://islamansiklopedisi.org.tr/karakoyunlular"},
+      {"title": "TDV İslâm Ansiklopedisi, CİHAN ŞAH", "url": "https://islamansiklopedisi.org.tr/cihansah"}
+    ],
+    "rulers": [
+      {
+        "id": "karakoyunlu-kara-yusuf",
+        "name": "Kara Yusuf",
+        "aliases": ["Ebû Nasr Kara Yusuf Bey"],
+        "title": "Bey / Sultan",
+        "birth": 1357,
+        "birthNote": "Yaklaşık 1357 doğumlu",
+        "death": 1420,
+        "deathNote": "Şahruh'a karşı sefere giderken Uçan mevkiinde hastalanarak vefat etti",
+        "reign": [1389, 1420],
+        "reignNote": "31 yıllık fırtınalı hükümdarlık.",
+        "summary": "Karakoyunluların en savaşçı hükümdarı. Timur'a asla boyun eğmedi, Osmanlı'ya sığınarak Ankara Savaşı kıvılcımını ateşledi. Timur ölünce dönüp Tebriz ve Bağdat'ı fethetti; Timurlu ordularını defalarca mağlup etti.",
+        "traits": ["Yılmayan cengaver", "Özgürlük aşığı", "Stratejist"],
+        "contribution": "Azerbaycan ve Irak'ı Türkmen hakimiyetine kazandırdı, Tebriz'i başkent yaptı.",
+        "harm": "Timur ile giriştiği amansız kavga Anadolu'nun istilasına ve Yıldırım'ın esaretine zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {"name": "İskender", "mother": "", "note": "Hükümdar oldu", "certainty": "kesin"},
+          {"name": "Cihan Şah", "mother": "", "note": "Büyük şair ve hükümdar", "certainty": "kesin"},
+          {"name": "İsbend", "mother": "", "note": "Bağdat valisi", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Serdrûd Muharebesi", "when": "1408", "foe": "Timurlular (Miranşah ve Ebû Bekir)", "result": "zafer", "note": "Timurlu ordusu imha edildi, Timur'un oğlu Miranşah savaşta öldürüldü."}
+        ],
+        "legends": ["Ölüm döşeğinde bile Şahruh'un ordusuna meydan okuyup sedyede savaşa yürümek istediği rivayet edilir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR", "url": "https://islamansiklopedisi.org.tr/karakoyunlular"}
+        ]
+      },
+      {
+        "id": "karakoyunlu-cihan-sah",
+        "name": "Cihan Şah",
+        "aliases": ["Cihânşah", "Hakîkî"],
+        "title": "Sultan / Hakîkî",
+        "birth": 1397,
+        "birthNote": "Mardin civarında 1397'de doğdu",
+        "death": 1467,
+        "deathNote": "Çapakçur ovasında Uzun Hasan'ın baskınında şehit edildi",
+        "reign": [1438, 1467],
+        "reignNote": "29 yıllık medeniyet ve şiir çağı.",
+        "summary": "Kara Yusuf'un oğlu. Karakoyunluların en parlak hükümdarı ve büyük divan şairi. Gürcistan'ı, Fars'ı ve Bağdat'ı fethetti; Herat'a kadar girerek Timurluları haraca bağladı. Tebriz'de Gök Mescid'i yaptırdı. 1467'de Uzun Hasan'ın sabah baskınında şehit oldu.",
+        "traits": ["Büyük divan şairi", "Sanat ve mimari hamisi", "Cihangir"],
+        "contribution": "Tebriz Gök Mescid'i inşa ettirdi; Azerbaycan Türkçesini saray ve edebiyat dili yaptı.",
+        "harm": "Akkoyunluların gücünü küçümseyip kış şartlarında tedbirsiz ordugâh kurması felaketine yol açtı.",
+        "wives": [
+          {"name": "Can Begüm Hatun", "note": "Gök Mescid vakfiyesini tanzim eden eşi", "certainty": "kesin"}
+        ],
+        "children": [
+          {"name": "Hasan Ali", "mother": "", "note": "Son hükümdar", "certainty": "kesin"},
+          {"name": "Pir Budak", "mother": "", "note": "Bağdat valisi, babasına isyan etti", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Bağdat Seferi", "when": "1446", "foe": "Kardeşi İsbend'in varisleri", "result": "zafer", "note": "Bağdat zaptedildi."},
+          {"name": "Çapakçur Muharebesi", "when": "1467", "foe": "Akkoyunlular (Uzun Hasan)", "result": "yenilgi", "note": "Kar örtüsü altında yapılan baskında ordusu dağıldı, Cihan Şah öldürüldü."}
+        ],
+        "legends": ["'Hakîkî' mahlasıyla yazdığı Türkçe gazeller Azerbaycan ve Türk edebiyatının en lirik örnekleri arasında yer alır."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, CİHAN ŞAH", "url": "https://islamansiklopedisi.org.tr/cihansah"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "safevi",
+    "name": "Safevî Devleti",
+    "short": "Safevîler",
+    "aliases": ["Safevî İmparatorluğu", "Devlet-i Kızılbaş"],
+    "region": "iran",
+    "start": 1501,
+    "end": 1736,
+    "startNote": "Şah İsmail'in 1501'de Şerûr zaferinden sonra Tebriz'de tahta çıkıp On İki İmam Şiiliğini ilan etmesiyle kuruldu.",
+    "endNote": "1736 yılında Avşar Hanı Nâdir Şah'ın III. Abbas'ı tahttan indirip şahlığını ilan etmesiyle sona erdi.",
+    "capital": "Tebriz (1501-1555), Kazvin (1555-1598) ve İsfahan (1598-1736)",
+    "religion": "İslamiyet (Şiî-İsnâaşeriyye)",
+    "confidence": "kayit",
+    "confidenceNote": "Hasan-ı Rûmlû (Ahsenü't-Tevârîh), İskender Bey Türkmen (Âlem-ârâ-yı Abbâsî) ve Osmanlı mühimme kayıtlarıyla sabittir.",
+    "summary": "Erdebil tekkesi şeyhi Şah İsmail tarafından Anadolu ve Azerbaycan Türkmen boylarının (Ustaclu, Şamlu, Avşar, Kaçar, Tekelü, Rumlu, Dulkadır) desteğiyle kurulan ve İran'ı Şiileştiren büyük imparatorluk. Şah İsmail 'Hatâî' mahlasıyla Türkçe divanlar yazdı. 1514 Çaldıran'da Yavuz Sultan Selim'e mağlup oldu. I. Abbas devrinde başkent İsfahan'a taşındı, 'Nısf-ı Cihan' (Cihanın Yarısı) denilen Nakş-ı Cihan Meydanı inşa edildi. 1639 Kasr-ı Şîrîn Antlaşması ile bugünkü Türkiye-İran sınırı çizildi. 1736'da Nâdir Şah tarafından yıkıldı.",
+    "legacy": "İran'ın bugünkü Şii dini ve milli kimliğini kurdu. İsfahan Nakş-ı Cihan Meydanı, Şeyh Lütfullah Camii ve Şah Camii gibi dünya çapında anıtlar miras bıraktı. Şah İsmail'in Türkçe şiirleri Alevi-Bektaşi nefeslerinin omurgası oldu.",
+    "essay": [
+      "Safevîler, kökleri Erdebil tekkesi pîri Şeyh Safiyyüddin'e uzanan tasavvufi bir tarikatın Şeyh Cüneyd ve Şeyh Haydar dönemlerinde siyasallaşmasıyla doğdu. Müridlerine on iki dilimli kırmızı başlık giydirdikleri için 'Kızılbaş' adını aldılar.",
+      "Şeyh Haydar'ın oğlu Şah İsmail, henüz 14 yaşında Erzincan'da toplanan Türkmen aşiretlerinin başına geçerek 1501'de Akkoyunluları yendi ve Tebriz'de şahlığını ilan etti. On İki İmam Şiiliğini devletin resmi mezhebi yaptı. Ancak Anadolu'ya yönelik Şii-Kızılbaş propagandası Osmanlı ile kaçınılmaz bir savaşa yol açtı; 23 Ağustos 1514'te Çaldıran Meydan Muharebesi'nde Yavuz Sultan Selim'e karşı ağır bir hezimete uğradı.",
+      "Devlet en parlak devrini Şah I. Abbas (1587-1629) zamanında yaşadı. Abbas, başkenti İsfahan'a taşıdı; Nakş-ı Cihan Meydanı, Ali Kapu sarayı ve Çehil Sütun'u inşa ettirdi. Osmanlılardan Tebriz, Bağdat ve Kafkasları geri aldı; Hürmüz'den Portekizlileri çıkardı. 1639'da IV. Murad ile imzalanan Kasr-ı Şîrîn Antlaşması iki devlet arasındaki asırlık savaşı barışa bağladı. 1722'de Afgan istilasıyla çöken devlete 1736'da Nâdir Şah Avşar son verdi."
+    ],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, SAFEVÎLER", "url": "https://islamansiklopedisi.org.tr/safeviler"},
+      {"title": "TDV İslâm Ansiklopedisi, İSMÂİL I", "url": "https://islamansiklopedisi.org.tr/ismail-i"},
+      {"title": "TDV İslâm Ansiklopedisi, ABBAS I", "url": "https://islamansiklopedisi.org.tr/abbas-i"}
+    ],
+    "rulers": [
+      {
+        "id": "safevi-sah-ismail",
+        "name": "Şah I. İsmail",
+        "aliases": ["Şah İsmail", "Hatâî", "İsmail-i Safevî"],
+        "title": "Şah / Hatâî",
+        "birth": 1487,
+        "birthNote": "1487'de Erdebil'de doğdu",
+        "death": 1524,
+        "deathNote": "Serab yakınlarında 37 yaşında kederinden vefat etti, Erdebil'e defnedildi",
+        "reign": [1501, 1524],
+        "reignNote": "23 yıllık devrimci ve fırtınalı hükümdarlık.",
+        "summary": "Safevî Devleti'nin kurucusu. 14 yaşında Tebriz tahtına oturup İran'ı Şiileştirdi. Özbek Hanı Şeybânî'yi Merv'de mağlup etti. 'Hatâî' mahlasıyla hece ve aruzla yazdığı Türkçe şiirlerle edebiyat tarihine geçti. 1514 Çaldıran'da Yavuz'a yenildikten sonra matem tuttu.",
+        "traits": ["Karizmatik mürşid-i kâmil", "Büyük Türk şairi", "Gözü pek süvari"],
+        "contribution": "İran'da 235 yıl sürecek Safevî İmparatorluğu'nu kurdu; Türkçe divanıyla halk edebiyatını derinden etkiledi.",
+        "harm": "Sünnî halka ve Akkoyunlu hanedan mezarlarına yönelik katliamları ve mezhep taassubu İslam dünyasında asırlarca sürecek kanlı bir ayrışma başlattı.",
+        "wives": [
+          {"name": "Taclı Bégüm", "note": "Çaldıran'da esir düşen ünlü baş hatunu", "certainty": "kesin"},
+          {"name": "Behrûze Hanım", "note": "Eşi", "certainty": "kesin"}
+        ],
+        "children": [
+          {"name": "I. Tahmasb", "mother": "Taclı Bégüm", "note": "İkinci şah, 52 yıl tahtta kaldı", "certainty": "kesin"},
+          {"name": "Elkas Mirza", "mother": "", "note": "Osmanlı'ya sığınan şehzade", "certainty": "kesin"},
+          {"name": "Sâm Mirza", "mother": "", "note": "Şair şehzade", "certainty": "kesin"},
+          {"name": "Behmen Mirza", "mother": "", "note": "Şehzade", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Şerûr Muharebesi", "when": "1501", "foe": "Akkoyunlular (Elvend Bey)", "result": "zafer", "note": "Tebriz fethedildi, şahlık ilan edildi."},
+          {"name": "Merv Meydan Muharebesi", "when": "1510", "foe": "Özbek Hanlığı (Şeybânî Han)", "result": "zafer", "note": "Şeybânî Han öldürüldü, Horasan fethedildi."},
+          {"name": "Çaldıran Meydan Muharebesi", "when": "1514", "foe": "Osmanlı Devleti (Yavuz Sultan Selim)", "result": "yenilgi", "note": "Osmanlı topçu ve tüfek ateşiyle Kızılbaş süvarileri kırıldı, Tebriz Osmanlı eline geçti."}
+        ],
+        "legends": ["Kılıcıyla tek vuruşta bir düşman askerinin zırhını ve atını ikiye böldüğü, Çaldıran'da Osmanlı topunun namlusunu kestiği rivayet edilir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, İSMÂİL I", "url": "https://islamansiklopedisi.org.tr/ismail-i"}
+        ]
+      },
+      {
+        "id": "safevi-sah-abbas",
+        "name": "Şah I. Abbas",
+        "aliases": ["Büyük Abbas", "Şah Abbas"],
+        "title": "Şah / Şehinşah",
+        "birth": 1571,
+        "birthNote": "Herat'ta 1571'de doğdu",
+        "death": 1629,
+        "deathNote": "Mazenderan'da Behşehr sarayında vefat etti",
+        "reign": [1587, 1629],
+        "reignNote": "42 yıllık muhteşem altın çağ.",
+        "summary": "Safevîlerin en büyük şahı. Ordusunu ateşli silahlarla modernleştirdi, başkenti İsfahan'a taşıyarak Nakş-ı Cihan Meydanı'nı kurdu. Osmanlılardan Tebriz ve Bağdat'ı geri aldı; İngilizlerin yardımıyla Portekizlileri Hürmüz Boğazı'ndan kovdu. İpek ticaretini devlet tekeline alıp Avrupa ile doğrudan ticaret başlattı.",
+        "traits": ["Büyük reformcu", "Askerî dahi", "İmar hamisi", "Şüpheci ve acımasız"],
+        "contribution": "İsfahan'ı dünyanın en gözde sanat ve ticaret metropolü yaptı; Safevî devletini zirveye taşıdı.",
+        "harm": "Aşırı şüpheciliği yüzünden kendi oğullarını idam ettirdi ve kör etti; tahtı tecrübesiz torununa bırakarak çöküşü hazırladı.",
+        "wives": [],
+        "children": [
+          {"name": "Safî Mirza", "mother": "", "note": "Babası tarafından öldürtülen veliaht", "certainty": "kesin"},
+          {"name": "İmam Kulu Mirza", "mother": "", "note": "Gözleri kör edildi", "certainty": "kesin"},
+          {"name": "Rıza Kulu Mirza", "mother": "", "note": "Gözleri kör edildi", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Tebriz ve Azerbaycan Seferi", "when": "1603", "foe": "Osmanlı Devleti (Cigalazâde Sinan Paşa)", "result": "zafer", "note": "Tebriz, Nahçıvan ve Erivan geri alındı."},
+          {"name": "Bağdat'ın Zaptı", "when": "1624", "foe": "Osmanlı Bağdat garnizonu", "result": "zafer", "note": "Irak ve kutsal türbeler Safevî eline geçti."},
+          {"name": "Hürmüz Seferi", "when": "1622", "foe": "Portekiz Krallığı", "result": "zafer", "note": "İngiliz donanması desteğiyle Portekiz kalesi fethedildi, Benderabbas limanı kuruldu."}
+        ],
+        "legends": ["'İsfahan nısf-ı cihanest' (İsfahan cihanın yarısıdır) darb-ı meseli onun inşa ettirdiği muazzam meydan ve saraylar için söylenmiştir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, ABBAS I", "url": "https://islamansiklopedisi.org.tr/abbas-i"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "avsar",
+    "name": "Avşar Hanedanı",
+    "short": "Avşarlar",
+    "aliases": ["Avşar Devleti", "Nâdir Şah İmparatorluğu"],
+    "region": "iran",
+    "start": 1736,
+    "end": 1796,
+    "startNote": "Oğuzların Avşar boyundan Nâdir Şah'ın Mugan kurultayında şah ilan edilmesiyle kuruldu.",
+    "endNote": "1796'da Kaçar hükümdarı Ağa Muhammed Şah'ın son Avşar hükümdarı Şahruh'u işkenceyle öldürmesiyle sona erdi.",
+    "capital": "Meşhed",
+    "religion": "İslamiyet (Ca'ferî-Sünnî uzlaşması arayışı)",
+    "confidence": "kayit",
+    "confidenceNote": "Mirza Mehmed Mehdî-i Esterâbâdî'nin Târîh-i Cihângüşâ-yı Nâdirî eseriyle sabittir.",
+    "summary": "Oğuzların Avşar boyu Kırklu obasına mensup Nâdir Şah tarafından kurulan ve Asya'yı titreten askeri imparatorluk. Nâdir Şah, Osmanlı ve Rusları İran topraklarından çıkardıktan sonra 1739'da Karnal Meydan Muharebesi'nde Bâbürlü ordusunu ezerek Delhi'yi fethetti; Tavus Kuşu Tahtı ve Koh-i Noor elmasını İran'a getirdi. Mezhep ayrılıklarını bitirmek için Ca'ferîliği beşinci hak mezhep olarak kabul ettirmeye çalıştı. 1747'de ordugâhında suikastla öldürüldü.",
+    "legacy": "Askeri dehâsıyla 'Doğunun Napolyon'u' unvanını aldı; Hindistan'dan getirdiği hazineler Meşhed İmam Rıza Türbesi'ni ve hazinelerini zenginleştirdi.",
+    "essay": [
+      "Avşarlar hanedanı, Horasan'da yaşayan Avşar boyunun Kırklu obasından Nâdir Kulu Han'ın askeri dehâsıyla tarih sahnesine çıktı. 1722'de çöken Safevî Devleti'ni Afgan işgalcilerden temizleyen Nâdir, 1736'da Mugan Ovası'nda topladığı büyük kurultayda kendisini şah ilan etti.",
+      "1738'de Kandahar'ı fetheden Nâdir Şah, Hayber Geçidi'ni aşarak Hindistan'a girdi. 1739 Karnal Muharebesi'nde 300 bin kişilik devasa Bâbürlü ordusunu üç saatte bozguna uğratıp Delhi'ye girdi. Dünyanın en büyük hazinelerini, efsanevi Koh-i Noor ve Derya-yı Nûr elmasları ile Tavus Kuşu Tahtı'nı alarak İran'a döndü ve halkından üç yıl vergi almadı.",
+      "Ancak son yıllarında aşırı şüphecilik ve öfke krizleriyle kendi oğlu Rıza Kulu Mirza'nın gözlerini kör ettirdi; etrafındaki Türkmen ve Kürt beylerine zulmetmeye başladı. 1747 yılında Fethâbâd ordugâhında kendi muhafızları tarafından çadırında katledildi. Ardından Meşhed merkezli torunu Şahruh'un kör hükümdarlığı 1796'da Kaçarlar tarafından sonlandırıldı."
+    ],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, AVŞARLAR", "url": "https://islamansiklopedisi.org.tr/avsarlar"},
+      {"title": "TDV İslâm Ansiklopedisi, NÂDİR ŞAH", "url": "https://islamansiklopedisi.org.tr/nadir-sah"}
+    ],
+    "rulers": [
+      {
+        "id": "avsar-nadir-sah",
+        "name": "Nâdir Şah",
+        "aliases": ["Nâdir Kulu Han", "Tahmasb Kulu Han", "Doğunun Napolyonu"],
+        "title": "Şah / Şehinşah",
+        "birth": 1688,
+        "birthNote": "Horasan'da Dergaz yakınlarında 1688'de doğdu",
+        "death": 1747,
+        "deathNote": "Koçan yakınındaki Fethâbâd ordugâhında suikastla çadırında katledildi",
+        "reign": [1736, 1747],
+        "reignNote": "11 yıllık fetih fırtınası.",
+        "summary": "Avşar hanedanının kurucusu ve dünyanın en büyük askeri dahilerinden biri. İran'ı Afgan, Rus ve Osmanlı işgalinden kurtardı. Hindistan Seferi ile Delhi'yi fethetti, Buhara ve Hive hanlıklarını dize getirdi. Ca'ferîliği beşinci mezhep yapıp mezhep barışı kurmak istedi. Son yıllarındaki zulümleri yüzünden suikastla öldürüldü.",
+        "traits": ["Askerî dehâ", "Korkusuz fatih", "Sert ve şüpheci"],
+        "contribution": "İran'ın bağımsızlığını kurtardı ve sınırlarını Delhi'den Bağdat'a kadar genişletti.",
+        "harm": "Kendi veliahtını kör ettirdi, son yıllarındaki aşırı vergi ve kafa kuleleri diktirmesi devleti kan gölüne çevirdi.",
+        "wives": [],
+        "children": [
+          {"name": "Rıza Kulu Mirza", "mother": "", "note": "Babası tarafından gözleri kör edilen veliaht", "certainty": "kesin"},
+          {"name": "Nasrullah Mirza", "mother": "", "note": "Karnal kahramanı şehzade", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Karnal Meydan Muharebesi", "when": "1739", "foe": "Bâbür İmparatorluğu (Muhammed Şah)", "result": "zafer", "note": "300 bin kişilik Hint ordusu darmadağın edildi, Delhi fethedildi, devasa hazineler alındı."},
+          {"name": "Muradtepe Muharebesi", "when": "1735", "foe": "Osmanlı Ordusu (Köprülüzâde Abdullah Paşa)", "result": "zafer", "note": "Revan yakınlarında Osmanlı ordusu mağlup edildi, Kafkaslar geri alındı."}
+        ],
+        "legends": ["Delhi fethinde getirilen Koh-i Noor (Işık Dağı) elmasını görünce hayretle 'Koh-i Noor!' diye haykırdığı rivayet edilir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, NÂDİR ŞAH", "url": "https://islamansiklopedisi.org.tr/nadir-sah"}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kacar",
+    "name": "Kaçar Hanedanı",
+    "short": "Kaçarlar",
+    "aliases": ["Kaçar Devleti", "Devlet-i Aliyye-i İran"],
+    "region": "iran",
+    "start": 1796,
+    "end": 1925,
+    "startNote": "Ağa Muhammed Şah'ın Tahran'ı başkent yaparak taç giymesiyle kuruldu.",
+    "endNote": "1925 yılında Rıza Pehlevî'nin meclis kararıyla Kaçar hanedanına son verip Pehlevî rejimini kurmasıyla sona erdi.",
+    "capital": "Tahran",
+    "religion": "İslamiyet (Şiî-İsnâaşeriyye)",
+    "confidence": "kayit",
+    "confidenceNote": "Rızâ Kulı Han Hidâyet (Ravzatü's-Safâ-yı Nâsırî), sefaretnâmeler ve resmi devlet arşivleriyle sabittir.",
+    "summary": "Oğuzların Bozok koluna mensup Kaçar Türkmenleri tarafından kurulan ve İran'ı 130 yıl yöneten son Türk hanedanı. Ağa Muhammed Şah Tahran'ı ilk kez başkent yaptı. Feth Ali Şah ve Nasreddin Şah devirlerinde Rusya ile yapılan kanlı savaşlar sonucu Kafkaslar (Gülistan 1813 ve Türkmençay 1828 antlaşmalarıyla) kaybedildi ve Azerbaycan ikiye bölündü. 1906 yılında Muzafferüddin Şah devrinde Meşrutiyet ilan edilerek anayasal monarşiye geçildi. 1925'te Rıza Şah Pehlevî tarafından yıkıldı.",
+    "legacy": "Tahran'ı modern İran'ın başkenti yaptı; Gülistan Sarayı ve Kaçar saray resim sanatını miras bıraktı. 1906 Meşrutiyet Devrimi ile Orta Doğu'nun ilk anayasalarından birini hayata geçirdi.",
+    "essay": [
+      "Kaçarlar, Safevîler devrinden beri Gence, Karabağ ve Esterâbâd bölgesinde yaşayan köklü bir Türk boyudur. Zend hanedanının çöküşüyle harekete geçen Kaçar reisi Ağa Muhammed Han, olağanüstü bir acımasızlık ve askeri disiplinle bütün İran'ı birleştirdi; Tahran'ı başkent yaparak 1796'da şahlık tacını giydi.",
+      "Feth Ali Şah (1797-1834) devrinde Çarlık Rusyası'nın Kafkaslara yayılmasına karşı veliaht Abbas Mirza kahramanca direndiyse de 1813 Gülistan ve 1828 Türkmençay antlaşmalarıyla Aras nehrinin kuzeyi (Bakü, Gence, Erivan, Nahçıvan) Rusya'ya bırakıldı; Azerbaycan Türk yurdu kalıcı olarak bölündü.",
+      "Nasreddin Şah'ın 48 yıllık saltanatında (1848-1896) telgraf, posta ve Dârü'l-Fünûn gibi modern kurumlar kuruldu; ancak İngiliz ve Rus tütün ve demiryolu imtiyazları halkı ayaklandırdı (Tütün İsyanı). 1906 Meşrutiyet devrimiyle meclis açıldı. I. Dünya Savaşı'nda yabancı işgallerle sarsılan hanedan, 1925'te son hükümdar Ahmed Şah'ın yurt dışındayken tahttan indirilmesiyle sona erdi."
+    ],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, KAÇARLAR", "url": "https://islamansiklopedisi.org.tr/kacarlar"},
+      {"title": "TDV İslâm Ansiklopedisi, AĞA MUHAMMED ŞAH", "url": "https://islamansiklopedisi.org.tr/aga-muhammed-sah"},
+      {"title": "TDV İslâm Ansiklopedisi, NASREDDİN ŞAH", "url": "https://islamansiklopedisi.org.tr/nasreddin-sah"}
+    ],
+    "rulers": [
+      {
+        "id": "kacar-aga-muhammed",
+        "name": "Ağa Muhammed Şah",
+        "aliases": ["Ağa Muhammed Han Kaçar"],
+        "title": "Şah / Han",
+        "birth": 1742,
+        "birthNote": "1742'de Esterâbâd'da doğdu",
+        "death": 1797,
+        "deathNote": "Şuşa kalesinde iki hizmetkârı tarafından hançerlenerek öldürüldü",
+        "reign": [1796, 1797],
+        "reignNote": "1789'dan itibaren fiili lider, 1796'da taç giydi.",
+        "summary": "Kaçar hanedanının kurucusu. Çocukken hadım edilmesine rağmen demir bir iradeyle Zendleri ve Avşarları ezerek İran birliğini kurdu; Tahran'ı başkent yaptı. Tiflis'i zaptetti. Şuşa kalesinde kendi uşakları tarafından öldürüldü.",
+        "traits": ["Çelik iradeli", "Acımasız disiplinli", "Askerî teşkilatçı"],
+        "contribution": "İran'da yüzyıllık hanedan birliğini kurdu; Tahran'ı ebedi başkent yaptı.",
+        "harm": "Tiflis ve Kirman'daki aşırı intikamcı katliamları dehşet yarattı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Krktsanisi (Tiflis) Muharebesi", "when": "1795", "foe": "Gürcistan Krallığı (II. Erekle)", "result": "zafer", "note": "Tiflis fethedildi, Gürcistan itaate alındı."}
+        ],
+        "legends": ["Kavun dilimini izinsiz yiyen iki hizmetkarını sabah idam ettireceğini söyleyip gece onları nöbette bırakması kendi ölümüne yol açmıştır."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, AĞA MUHAMMED ŞAH", "url": "https://islamansiklopedisi.org.tr/aga-muhammed-sah"}
+        ]
+      },
+      {
+        "id": "kacar-feth-ali-sah",
+        "name": "Feth Ali Şah",
+        "aliases": ["Baba Han"],
+        "title": "Şah / Şehinşah",
+        "birth": 1772,
+        "birthNote": "Damgan'da 1772'de doğdu",
+        "death": 1834,
+        "deathNote": "İsfahan yolunda 1834'te vefat etti",
+        "reign": [1797, 1834],
+        "reignNote": "37 yıllık görkemli ve hüzünlü saltanat.",
+        "summary": "Ağa Muhammed Şah'ın yeğeni. Meşhur upuzun sakalı, mücevherli tahtı ve saray debdebesiyle tanındı. Rusya ile iki büyük savaş yaşadı; Türkmençay Antlaşması ile Kafkasya elden çıktı. Çok sayıda şehzade babası oldu.",
+        "traits": ["Görkem ve sanat aşığı", "Şair", "Geleneksel hükümdar"],
+        "contribution": "Gülistan Sarayı'nı inşa ettirdi; Kaçar saray resim ve portre sanatının zirvesini yaşattı.",
+        "harm": "Rusya karşısında Kafkasların ve Kuzey Azerbaycan'ın ebediyen kaybedilmesine engel olamadı.",
+        "wives": [
+          {"name": "Tâvûs Hanım (Tâcü'd-Devle)", "note": "En sevdiği eşi, Gürcü asıllı", "certainty": "kesin"}
+        ],
+        "children": [
+          {"name": "Abbas Mirza", "mother": "", "note": "Kafkasya savaşlarının kahraman veliahtı, babasından önce öldü", "certainty": "kesin"},
+          {"name": "Muhammed Ali Mirza", "mother": "", "note": "Kudretli şehzade", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Birinci Rus-Kaçar Savaşı", "when": "1804-1813", "foe": "Çarlık Rusyası", "result": "yenilgi", "note": "Gülistan Antlaşması ile Karabağ, Gence, Şirvan, Şeki, Bakü ve Dağıstan Rusya'ya bırakıldı."},
+          {"name": "İkinci Rus-Kaçar Savaşı", "when": "1826-1828", "foe": "Çarlık Rusyası (Paskeviç)", "result": "yenilgi", "note": "Türkmençay Antlaşması imzalandı, Erivan ve Nahçıvan kaybedildi, Aras sınırı çizildi."}
+        ],
+        "legends": ["Yüzü aşkın oğlu ve kızı olduğu, her vilayete bir şehzadesini vali atadığı saray vekayinamelerinde geçer."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, FETH ALİ ŞAH", "url": "https://islamansiklopedisi.org.tr/feth-ali-sah"}
+        ]
+      }
+    ]
+  }
+]
+
+out = Path("/Users/hayabusa/turk-tarih-atlasi/data/raw/j-iran-gec.json")
+out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"Wrote {len(data)} states to {out}")

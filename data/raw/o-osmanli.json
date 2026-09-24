@@ -1,0 +1,3445 @@
+[
+ {
+  "id": "osmanli",
+  "name": "Osmanlı Devleti",
+  "short": "Osmanlı",
+  "aliases": [
+   "Âl-i Osmân",
+   "Devlet-i Aliyye",
+   "Osmanlı İmparatorluğu"
+  ],
+  "region": "anadolu",
+  "start": 1299,
+  "end": 1922,
+  "startNote": "1299, kendi adına hutbe okutulduğu yolundaki geç kronik anlatısının geleneksel ve simgesel yılıdır. Halil İnalcık TDV Osman maddesinde bu hutbe-bağımsızlık hikâyesinin sonradan eklendiğini, hukukî sultanlığın hutbe ve sikkeyle ancak İlhanlı çizgisinin çözülmesinden sonra yaygınlaştığını yazar; beyliğin daha erken bir uç süreci olduğunu ve çağdaş Pachymeres'e dayanan Bapheus/Koyunhisar zaferini (1302-07-27) hânedanın fiilî kuruluş eşiği sayar. TDV Osmanlılar maddesi siyasî tarihi 1300-1922 aralığıyla verir. Beylik, Söğüt-Yenişehir hattında Osman'dan önce Ertuğrul'un uç beyliği olarak şekillenmeye başlamıştır.",
+  "endNote": "Saltanat, Türkiye Büyük Millet Meclisi'nce 1922-11-01 kaldırıldı. VI. Mehmed 1922-11-17 İstanbul'dan ayrıldı. Hilâfet 1922-11-19 Abdülmecid Efendi'ye geçirildi, 1924'te ilga edildi. Devlet kaydının sonu saltanatın kaldırıldığı 1922'dir; padişahın ölümü (1926) devlet sonu değildir.",
+  "capital": [
+   "Söğüt",
+   "Bursa",
+   "Edirne",
+   "İstanbul"
+  ],
+  "religion": "İslâm (Sünnî fıkıh ve gazâ ideolojisi; erken uçta tasavvuf ve istimâlet, 16. yüzyıldan itibaren Sünnîlik daha belirgin devlet siyaseti)",
+  "confidence": "kayit",
+  "confidenceNote": "14. yüzyıl ortasından 1922'ye kadarki padişah dizisi, saltanat yılları ve büyük savaşların sonuçları TDV maddelerinde yüksektir. Kuruluş (Ertuğrul'un babası, Osman'ın doğumu, 1299'un hukuki anlamı, Mal Hatun'un kimliği) düşüktür; çatışmada İnalcık'ın TDV Osman ve Orhan maddeleri esas alındı. I. Selim'in 1517'de hilâfeti bir törenle devraldığı anlatısı TDV Selim maddesinde şüpheli bulunur, olay diye yazılmadı. 17.-19. yüzyıl 'gerileme' diye tek yönlü bir okul evresine bölünmedi; dönüşüm, savaş sonucu ve mali kriz olarak yazıldı. Fâtih Kanunnâmesi'ne bağlanan kardeş katli hükmünün metin tarihi TDV'de kesinlenmez.",
+  "summary": "Batı Anadolu'nun kuzeyindeki Türkmen uçundan çıkan Osmanlılar, Orhan'dan itibaren Bursa-İznik-İzmit hattını ve 1354'ten sonra Gelibolu köprübaşını tuttular. I. Murad ve I. Bayezid devrinde Balkanlar'da ve Anadolu beylikleri üzerinde merkezîleşme hızlandı; 1402 Ankara bozgunu devleti fetret'e düşürdü, I. Mehmed 1413'te tek hükümdar oldu. II. Mehmed'in İstanbul'u alması (1453) Anadolu-Rumeli topraklarını bir pâyitahtta birleştirdi. I. Selim doğuda Safevî ve Memlük savaşlarıyla Suriye, Mısır ve Haremeyn koruyuculuğunu üstlendi; I. Süleyman Macaristan, Akdeniz ve Irak'ta klasik idareyi pekiştirdi. 17. yüzyıldan itibaren ekberiyet, saray ve bürokrasi ortaklığı, uzun savaşlar ve mali uyum arayışı öne çıktı. 1699 Karlofça ve 1774 Küçük Kaynarca toprak ve statü kaybı getirdi; 19. yüzyıl ıslahat, borç ve milliyetçi isyanlarla, 1908-1922 meşrutiyet, savaş ve saltanatın kaldırılmasıyla kapandı.",
+  "legacy": "Tek hânedanın altı yüzyılı aşan sürekliliği, istimâlet ve zimmet hukukuyla Balkan ve Arap topraklarında çok dinli idare, timar-tahrir düzeni, klasik çağda İstanbul'un imparatorluk başkenti oluşu. Bedeli: veraset savaşları ve kardeş katli, fetret, 1402'de merkezî yapının çöküşü, 17.-18. yüzyıl savaşlarının maliyeti ve Büyük Kaçgun, 19. yüzyıl borç ve toprak kaybı, I. Dünya Savaşı ve işgaller. Hilâfet, klasik dönemde gazâ ve Haremeyn hizmeti olarak yorumlandı; Kureyş soyuna bağlanan ve siyaseten öne çıkarılan hilâfet iddiası TDV'ye göre daha çok 18. yüzyılda, 19. yüzyılda ise siyasî sebeplerle güçlendi. Kardeş katli Fâtih'ten önce de vardı (I. Bayezid'in Yâkub'u); I. Ahmed'den sonra 1617'de ekberiyete geçildi.",
+  "sources": [
+   {
+    "title": "TDV İslâm Ansiklopedisi, Osmanlılar",
+    "url": "https://islamansiklopedisi.org.tr/osmanlilar"
+   },
+   {
+    "title": "TDV İslâm Ansiklopedisi, Mehmed VI",
+    "url": "https://islamansiklopedisi.org.tr/mehmed-vi"
+   }
+  ],
+  "rulers": [
+   {
+    "id": "ertugrul",
+    "name": "Ertuğrul Gazi",
+    "title": "Uç beyi, Osman'ın babası; padişah sayılmaz",
+    "claim": false,
+    "birth": null,
+    "birthNote": "Doğum yılı bilinmez. Geç kronikler doksan yaşını aşmış öldüğünü söyler; bu, doğumu 1190'lara çeken menkıbevî bir hesaptır.",
+    "death": 1281,
+    "deathNote": "TDV (Fahameddin Başar): muhtemelen 680/1281-82. Aynı maddede ölüm yılı olarak 1288 veya 1289 da verilir. Çağdaş Bizans ve İslâm kaynakları adını anmaz; bilgiler XV. yüzyıl kroniklerindendir.",
+    "reign": [
+     null,
+     1281
+    ],
+    "reignNote": "Padişah sayımına girmez; predecessor. Söğüt-Domaniç hattında uç beyi. 1279'da III. Gıyâseddin Keyhusrev'i karşılayıp bağlılık bildirdiği kroniklerde geçer; ardından idareyi Osman'a bıraktığı anlaşılır. Saltanat yılı yoktur.",
+    "summary": "Osman Bey'in babasıdır. Erken Osmanlı kronikleri onu Kayı boyuna bağlar; nesebi Oğuz Han'a ve Nûh'a kadar götüren şecerelerin tarihî değeri yoktur. Ahmedî, Enverî ve Karamânî Mehmed Paşa babasını Gündüz Alp yazar; Oruç, Âşıkpaşazâde ve Neşrî Süleyman Şah der. TDV ikinci grubu güvenilmez sayar; Osman'a ait bir sikkedeki 'Osman b. Ertuğrul b. Gündüz Alp' ibaresi Gündüz Alp lehinedir. Süleyman Şah'ın Fırat'ta boğulması bu geç ve reddedilen şecerenin rivayetidir.",
+    "traits": [
+     "Çağdaş tasvir yoktur. Kroniklerde gazâ ve Selçuklu sultanına bağlılık vurgulanır; bunlar kuruluştan 100-150 yıl sonra yazılmıştır."
+    ],
+    "contribution": "Söğüt ve çevresinin Osmanlı öncesi uç merkezi olarak yerleşmesi; oğlu Osman'ın devraldığı gazi çevresi (Akça Koca, Samsa Çavuş, Konuralp gibi adlar kroniklerde onun etrafında anılır).",
+    "harm": "Doğrudan belgelenmiş bir zulüm veya bozgun kaydı yoktur. Menkıbevî fetih listesi (Karacahisar 1231 gibi) Selçuklu seferlerinin Ertuğrul'a mal edilmesi olabilir; abartılı kuruluş kahramanlığı sonraki meşruiyet metnidir.",
+    "wives": [
+     {
+      "name": "Halime Hatun",
+      "note": "TDV Ertuğrul biyografisi anne veya eş adı vermez. Söğüt türbe bahçesinde doğudaki kabir geleneği onu Ertuğrul'un eşi diye gösterir (TDV Ertuğrul Gazi Camii ve Türbesi); türbe defalarca yenilenmiştir. Osman'ın annesi olduğu iddiası bu geç ziyaret geleneğine dayanır, biyografi maddesinde doğrulanmaz.",
+      "certainty": "rivayet"
+     }
+    ],
+    "children": [
+     {
+      "name": "Osman",
+      "mother": null,
+      "note": "Beyliğin kurucusu. Babalığı sikke ve kroniklerle en sağlam bağdır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Saru Yatı (Savcı)",
+      "mother": null,
+      "note": "Kroniklerde Ertuğrul'un oğlu; 1286 İkizce/Domaniç çatışmasında öldüğü Osman maddesinde geçer. Türbe bahçesinde Savcı Bey kabri geleneği vardır.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Gündüz",
+      "mother": null,
+      "note": "Neşrî'de Ertuğrul'un oğlu diye geçer. Osman'ın kardeşi Gündüz Alp ile amcası/dedesi Gündüz Alp kroniklerde karışır.",
+      "certainty": "tartismali"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Ermeni Derbendi / Sultanönü uç çatışması",
+      "when": "1231?",
+      "foe": "İznik Laskaris kuvvetleri",
+      "result": "belirsiz",
+      "note": "Kronik geleneği Ertuğrul'u I. Alâeddin Keykubad'ın Bitinya seferine bağlar. İnalcık bunu 1225-1231 uç savaşlarının bulanık hâtırası sayar; Ertuğrul'un kişisel komutanlığı çağdaş kaynakla doğrulanmaz."
+     },
+     {
+      "name": "Karacahisar",
+      "when": "1231-32?",
+      "foe": "Bizans tekfuru",
+      "result": "belirsiz",
+      "note": "Başar maddesi kronik fetihini aktarır. İnalcık, Karacahisar'ın o dönemde alınıp sonra terkedildiğini, Osman'ın 1288 civarı yeniden aldığını yazar."
+     }
+    ],
+    "legends": [
+     "Babasının Süleyman Şah olduğu ve Fırat'ta (Caber) boğulduğu anlatısı Neşrî-Âşıkpaşazâde kolundadır; TDV bunu güvenilmez sayar. Daha eski kol babayı Gündüz Alp verir.",
+     "Halime Hatun'un Osman'ın annesi olduğu halk ve türbe geleneğidir; TDV biyografisi bunu olgu diye yazmaz.",
+     "Yassıçimen'de (1230) Selçuklu ordusuna yetişip savaşı çevirdiği yalnızca Neşrî'de geçer ve tarihî özdeşlik tartışmalıdır.",
+     "Oğuz Han'a ve Nûh'a çıkan soy kütüğü kuruluştan çok sonra yazılmıştır."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Ertuğrul Gazi",
+      "url": "https://islamansiklopedisi.org.tr/ertugrul-gazi"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "osman-i",
+    "name": "Osman Gazi",
+    "title": "Bey, hânedan kurucusu",
+    "claim": false,
+    "birth": null,
+    "birthNote": "Osmanlı rivayeti, 1324'te 69 yaşında ve 27 yıl hükümdar öldüğünü söyler; buna göre doğum 1257 olur. İnalcık bunu rivayet hesabı olarak aktarır, müstakil doğum belgesi yoktur.",
+    "death": 1324,
+    "deathNote": "TDV İnalcık: Asporça Hatun vakfiyesinde 723 Ramazan başları (1323 Eylül) Osman hayattadır; Orhan'ın beyliği Rebîülevvel 724 (1324 Mart) başlar. Ölüm bu aralıktadır, yani 1324. Mekece vakfiyesi (1324 Mart ortası) onu ölmüş gösterir. Geleneksel 1326, Bursa'nın alınışına (1326-04-06) bağlanan sonraki anlatıdır; vakfiye tarihini yutmaz. 1324 ile 1326 çatışması not edilir, tek yıl seçilip diğeri silinmez: belge kolu 1324, popüler fetih kolu 1326.",
+    "reign": [
+     1299,
+     1324
+    ],
+    "reignNote": "Geleneksel başlangıç 1299 (Bilecik-Yenişehir'e kayış ve hutbe iddiası). İnalcık fiilî eşiği 1302-07-27 Bapheus sayar. Beylik fiilen 1324 Mart'ta Orhan'a geçti. Nikris yüzünden son yıllarda işleri Orhan yürüttü (Âşıkpaşazâde, Neşrî).",
+    "summary": "Ertuğrul'un oğlu, Söğüt uç gazisi. İbn Battûta ona Osmancık da der. Pachymeres onu Kastamonu Çobanoğulları'na bağlı ileri hat savaşçısı diye tanıtır. Karacahisar (yaklaşık 1288), Bilecik-Yenişehir (1299 geleneksel) ve Bapheus (1302) ile Bitinya'da karizmatik bey oldu. Amcası Dündar'ı, Bilecik tekfuruna mudârâyı sürdürme görüşüne karşı 1299 civarı okla öldürdüğü Neşrî'de vardır. Bursa'yı alamadı; kuşatma havale kuleleriyle oğluna kaldı. Bursa'da vasiyeti üzere Tophane'de gömüldü; bugünkü türbe 1863'te Abdülaziz döneminde yapıldı.",
+    "traits": [
+     "Pachymeres: uçtaki en atılgan akıncı önderi. Kroniklerde alp yoldaşlarını timar/yurtlukla tutan, fakih ve ahîlere danışan bir bey. Son yıllarda nikris ve yaşlılık."
+    ],
+    "contribution": "Söğüt'ten Yenişehir'e kayan çekirdek beyliğin kurulması; Bapheus ile gazilerin onun sancağı altında toplanması; kadı, subaşı ve pazar düzeninin ilk uygulaması; Edebâli ve Dursun Fakih gibi fakihlerle şer'î meşruiyet arayışı. İstimâlet: itaat eden tekfurlara yerinde bırakma (Lefke, Mekece örnekleri).",
+    "harm": "Amcası Dündar'ın öldürülmesi. Akınların Bitinya köylüsünü İstanbul'a kaçırdığı Pachymeres'te dramatik anlatılır; Bapheus sonrası yağma ve esir. Kite tekfurunun teslim sonrası idamı (1303) kroniklerde geçer.",
+    "wives": [
+     {
+      "name": "Mal Hatun bint Ömer Bey",
+      "note": "Mekece vakfiyesi (8-18 Mart 1324) şahitleri arasında. TDV Mal Hatun: Osman'ın çocuğu olan hanımı olması akla yakındır; Şeyh Edebâli'nin kızı değildir. Orhan'ın annesi olup olmadığı kesinlik taşımaz. Âşıkpaşazâde onu Edebâli'nin kızı ve Orhan'ın annesi yapar; bu, vakfiyeyle ve 'kızının adı Râbia' diyen Oruç'la çatışır. Bâlâ Hatun yazımı Mal Hatun istinsahı sayılır.",
+      "certainty": "tartismali"
+     },
+     {
+      "name": "Şeyh Edebâli'nin kızı (Râbia / menkıbedeki Mal)",
+      "note": "Evlilik ve rüya menkıbesi beyliği kutsar. TDV, Mal Hatun ile Edebâli'nin kızını ayırır. Ayrı bir eş mi, yoksa aynı kadının karıştırılması mı olduğu çözülmüş değildir.",
+      "certainty": "rivayet"
+     }
+    ],
+    "children": [
+     {
+      "name": "Orhan",
+      "mother": "Mal Hatun?",
+      "note": "Halef. Annesinin Mal Hatun olduğu kroniklerde kesindir, TDV Mal Hatun maddesi bunu ihtimal sayar.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Çoban",
+      "mother": null,
+      "note": "1324 Mekece vakfiyesi şahidi. İnalcık adın İlhanlı emîr Çoban ile ilişkili olabileceğini not eder.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Melik",
+      "mother": null,
+      "note": "Aynı vakfiye şahidi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hamid",
+      "mother": null,
+      "note": "Aynı vakfiye şahidi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Pazarlı (Pazarlu)",
+      "mother": null,
+      "note": "Aynı vakfiye. Orhan maddesinde Pelekanon'da bir kısım kuvveti kardeşi Pazarlu'nun yönettiği yazar.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Fatma",
+      "mother": null,
+      "note": "Mekece vakfiyesinde kız olarak adı geçer. İnalcık 'Fatma Melek' diye birleştirir; Mal Hatun maddesi Fatma'yı kız, Melek'i Melik'in kızı diye ayırır. İkinci okuma esas alındı.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Alâeddin Ali (Alâeddin Paşa)",
+      "mother": null,
+      "note": "Kroniklerde vezir-oğul diye geçer; 1324 şahit listesinde adı yoktur. Asporça vakfiyesinde Orhan'ın eşi onu vekil tayin eder. Varlığı güçlü gelenektir, vakfiye şahitliği kadar kesin değildir.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Kulaca baskını",
+      "when": "1285",
+      "foe": "İnegöl tekfuru",
+      "result": "zafer",
+      "note": "Yağma ve hisarın yakılması. Küçük uç çatışması."
+     },
+     {
+      "name": "İkizce / Domaniç beli",
+      "when": "1286",
+      "foe": "Karacahisar ve İnegöl tekfurları",
+      "result": "zafer",
+      "note": "Kardeşi Saru Yatı öldü. Osman'ın ilk gerçek savaşı sayılır."
+     },
+     {
+      "name": "Karacahisar",
+      "when": "1288",
+      "foe": "Karacahisar tekfuru",
+      "result": "zafer",
+      "note": "Bölgenin hâkim kalesi. Sancak beyliği iddiası bu fetihe bağlanır."
+     },
+     {
+      "name": "Bapheus (Koyunhisar)",
+      "when": "1302-07-27",
+      "foe": "Bizans (Muzalon kumandasında)",
+      "result": "zafer",
+      "note": "İznik'i kurtarmaya gelen imparatorluk kuvveti yenildi. İnalcık bu zaferi hânedan kuruluş eşiği sayar."
+     },
+     {
+      "name": "Dimboz (Dinboz)",
+      "when": "1303",
+      "foe": "Bursa ovası tekfurları ittifakı",
+      "result": "zafer",
+      "note": "Ulubat'a kadar ova açıldı. Bursa abluka altına alındı, şehir düşmedi."
+     },
+     {
+      "name": "Sakarya seferi",
+      "when": "1304",
+      "foe": "Lefke, Mekece, Geyve tekfurları",
+      "result": "zafer",
+      "note": "Bir kısmı ahidle itaat etti. İznik yolu daraldı."
+     }
+    ],
+    "legends": [
+     "Edebâli rüyası ve kılıç kuşanma menkıbesi beyliği kutsar; tarihî evlilik belgesi değildir.",
+     "1299'da kendi adına hutbe okutup Selçuklu'dan koptuğu iddiası sonraki meşruiyet metnidir.",
+     "Kayı'dan Oğuz Han'a inen soy, İnalcık'a göre özellikle Timur-Şâhruh baskısı döneminde (II. Murad çağında) siyasî teoridir. Kayı damgasının kullanılması ayrı bir olgudur; Wittek hânedanın Kayı olmadığı tezini savunur, Köprülü etnik çekirdek der."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Osman Gazi",
+      "url": "https://islamansiklopedisi.org.tr/osman-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "orhan",
+    "name": "Orhan Gazi",
+    "title": "Bey, ikinci Osmanlı hükümdarı",
+    "claim": false,
+    "birth": null,
+    "birthNote": "TDV: doğum tartışmalıdır. 1299'da Nilüfer'le evlendiğinde 'yiğit' denmesinden hareketle o tarihte yaklaşık on sekiz yaşında olabileceği tahmin edilir; bu tahmin evlilik tarihinin kendisi de kronik olduğundan zayıftır.",
+    "death": 1362,
+    "deathNote": "Cemâziyelevvel 763 / Mart 1362, Bursa, veba. 1354'te karaciğer rahatsızlığı ve Rum hekim Taronites kaydı vardır. Türbesi Bursa'da Osman Gazi'nin yanındadır.",
+    "reign": [
+     1324,
+     1362
+    ],
+    "reignNote": "Beyliğe geliş Rebîülevvel 724 / Mart 1324. Ölüm Mart 1362. Edirne'yi oğlu Murad şehzade iken 1361'de aldı; pâyitahtın Edirne'ye yerleşmesi Murad'ın saltanatındadır.",
+    "summary": "Osman'ın oğlu. Bursa'yı 1326'da ahidle aldı, Pelekanon'da (1329) III. Andronikos'u yendi, İznik (1331) ve İzmit'i (1337) teslim aldı. Karesi'yi ilhak etti, Bizans iç savaşında Kantakuzenos'un müttefiki oldu, kızı Theodora ile evlendi. Oğlu Süleyman Paşa Gelibolu yarımadasında tutundu (1352-1354). Ankara ve Sivrihisar 1354'te Osmanlı'ya geçti. 1357'de Süleyman'ın ölümü ve oğlu Halil'in Foça'da tutsaklığı Rumeli'yi bir süre durdurdu.",
+    "traits": [
+     "İbn Battûta: sürekli kaleleri dolaşan, gazâda olan bir bey. İnalcık onu istimâlet ve gazi uç örgütlenmesini birlikte yürüten hükümdar diye anlatır. Oğlu Halil için ağır taviz verecek kadar baba kaygısı taşıdığı Bizans kaynağından çıkar."
+    ],
+    "contribution": "Bursa'nın pâyitaht olması, ilk medrese (İznik, Dâvûd-i Kayserî), yaya-müsellem çekirdeği, Karesi donanma geleneğinin devralınması, Rumeli'de kalıcı köprübaşı, Ceneviz'le 1352 kapitülasyonu. Teslim ahidlerinde yağmasız girişi şart koşması (Bursa).",
+    "harm": "Halil'i kurtarmak için Trakya akınlarını durduran 1357-59 antlaşması gazileri zorda bıraktı. Bizans'tan haraç ve toprak tavizi. Theodora evliliği Kantakuzenos'un askerî yardımı içindi; Trakya'nın iç savaşta tahribi her iki tarafın bedelidir. Karesi ilhakında Tursun'un ölümü ve beyliğin sonu.",
+    "wives": [
+     {
+      "name": "Nilüfer (Lülüfer) Hatun",
+      "note": "Kroniklerde Yarhisar tekfurunun kızı, Murad ve Süleyman'ın annesi. TDV Nilüfer maddesi düğün baskını hikâyesini ve 1299 tarihini Bizans kaynağıyla doğrulanmamış sayar; Murad'ın 1326 doğumu bu erken evlilik hikâyesiyle çatışır. İznik'te imareti ve Bursa'da türbede kabri vardır.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Asporça Hatun",
+      "note": "1323 tarihli vakfiyesi Osman hayattayken düzenlendi. Oğulları Şerefullah ve İbrahim vakfiyede anılır. III. Andronikos'un kızı olduğu iddiası Nilüfer maddesinde ihtiyatla anılır, kesin değildir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Theodora Kantakuzenos",
+      "note": "1346'da VI. Ioannes Kantakuzenos'un kızı olarak Silivri dışında nikâhlandı. Babası onun Hıristiyan kaldığını ve esir fidyelediğini yazar. Oğlu Halil.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Süleyman Paşa",
+      "mother": "Nilüfer?",
+      "note": "Rumeli geçişinin kumandanı. 1357'de kaza veya suikast sonucu öldü; Bolayır'da gömülmek istediği rivayettir. Oğulları İshak, Melik Nâsır, İsmâil Düstûrnâme'de anılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Murad",
+      "mother": "Nilüfer",
+      "note": "Halef, I. Murad. TDV Murad maddesi annesini Nilüfer diye yazar.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "İbrahim",
+      "mother": "Asporça?",
+      "note": "1362'de hayattaydı. Asporça vakfiyesindeki İbrahim ile aynı kişi olması muhtemeldir, kesin özdeşlik not edilir.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Halil",
+      "mother": "Theodora",
+      "note": "1357'de Foça'da tutsak edildi, 1359'da fidye ve siyasî tavizle kurtuldu. Bizans, Orhan'dan sonra onu tahta geçirme vaadi aldı; veliahtlık uygulanmadı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Kasım",
+      "mother": null,
+      "note": "Altı oğul listesinde adı geçer.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Sultan",
+      "mother": null,
+      "note": "Altı oğul listesinde (Süleyman, Sultan, Murad, İbrahim, Halil, Kasım). 1362'de hayatta olanlar Murad, İbrahim ve Halil'dir.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Şerefullah",
+      "mother": "Asporça",
+      "note": "Asporça vakfiyesinde oğul.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Bursa teslimi",
+      "when": "1326-04-06",
+      "foe": "Bursa tekfuru",
+      "result": "zafer",
+      "note": "Ahid: yağma ve esir yok, gidecek olan serbest, 30.000 altın. 2 Cemâziyelevvel 726."
+     },
+     {
+      "name": "Pelekanon",
+      "when": "1329-06",
+      "foe": "Bizans, III. Andronikos",
+      "result": "zafer",
+      "note": "İmparator yaralandı, İstanbul'a çekildi. Kocaeli Osmanlı'da kaldı."
+     },
+     {
+      "name": "İznik",
+      "when": "1331-03-02",
+      "foe": "Bizans",
+      "result": "zafer",
+      "note": "İbn Kemal 1333 der; İnalcık 2 Mart 1331'i esas alır."
+     },
+     {
+      "name": "İzmit",
+      "when": "1337",
+      "foe": "Bizans",
+      "result": "antlasma",
+      "note": "1333'te haraç karşılığı kuşatma kalkmıştı; 1337'de şehir teslim oldu."
+     },
+     {
+      "name": "Karesi ilhakı",
+      "when": "1334-1345",
+      "foe": "Karesi Beyliği",
+      "result": "zafer",
+      "note": "Tursun'un davetiyle. Bergama ve Balıkesir hattı. Tam yıl tartışmalıdır; Osmanlılar maddesi 1334-1345 der."
+     },
+     {
+      "name": "Gelibolu ve Çimbi",
+      "when": "1352-1354",
+      "foe": "Bizans",
+      "result": "zafer",
+      "note": "1354 depremiyle Gelibolu düştü. Kantakuzenos'un Tzympe'yi geçici verdiği anlatısı eksiktir; Bolayır köprübaşı belirleyicidir."
+     },
+     {
+      "name": "Sırp-Bulgar kuvvetleri (Empithion)",
+      "when": "1352",
+      "foe": "Sırp ve Bulgar yardımcıları",
+      "result": "zafer",
+      "note": "Süleyman Paşa, Kantakuzenos'un oğlu lehine Meriç'te yendi."
+     }
+    ],
+    "legends": [
+     "Rumeli'ye öküz derisi ve sal hikâyesi Âşıkpaşazâde'dedir; İnalcık bunu Düstûrnâme'deki tarihî geçişin folklorik biçimi sayar.",
+     "Nilüfer'in Bilecik düğününden kaçırılması kuruluş menkıbesidir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Orhan Gazi",
+      "url": "https://islamansiklopedisi.org.tr/orhan"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "murad-i",
+    "name": "I. Murad",
+    "title": "Sultan, Hüdâvendigâr",
+    "claim": false,
+    "birth": 1326,
+    "birthNote": "TDV: 726 (1326). Bazı kayıtlar 1326-1327. Annesi Nilüfer. Gün-ay verilmez.",
+    "death": 1389,
+    "deathNote": "Kosova meydanında 1389. Savaş 15 Haziran 1389'da kazanıldı (Bayezid maddesi bu tarihi şehzadenin rolü için verir). Gazânâme'ye göre Murad birkaç hasekisiyle dolaşırken öldürüldü. Haber İstanbul'da sevinçle karşılandı.",
+    "reign": [
+     1362,
+     1389
+    ],
+    "reignNote": "Babasının ölümü 1362. Edirne'yi şehzadeyken 1361'de Lala Şâhin ile aldığı İnalcık tezidir; literatürde 1363-1371 tarihleri de öne sürülür. Pâyitaht Edirne'ye kaydı.",
+    "summary": "Orhan'ın oğlu, annesi Nilüfer. Rumeli'de üç koldan yayılma, Edirne, Çirmen (1371) ve Kosova (1389) ile Balkan vasallığını kurdu. Anadolu'da Hamîdoğulları, Germiyan çeyizi ve Karamanoğlu ile mücadele etti. Kosova'da zafer kazanıldığı gün öldürüldü. Kardeşi değil oğlu Yâkub, Bayezid tarafından öldürtüldü.",
+    "traits": [
+     "Seferi bizzat yöneten gazi hükümdar tipi. İnalcık onu devletleşme (beylerbeyilik, timar, pençik) eşiği sayar."
+    ],
+    "contribution": "Edirne'nin başkentleşmesi, Rumeli beylerbeyiliği (Lala Şâhin), Çirmen sonrası Bizans, Bulgar ve Makedon Sırp beylerinin bağlanması, istimâletle iskân. Kapıkulu çekirdeğinin gelişmesi.",
+    "harm": "Kosova'da Sırp knezi Lazar'ın idamı ve Balkan ittifakının kanlı dağılışı. Anadolu beylik topraklarının ilhakı yerel hânedanlarda Timur'a kadar sürecek intikam biriktirdi. Oğlu Yâkub'un katli sonraki kardeş katlinin erken örneğidir (babasının emri değil, Bayezid ve erkân).",
+    "wives": [
+     {
+      "name": "Nilüfer Hatun",
+      "note": "Annesi değil eşi sanılmasın: Nilüfer annesidir. Eş olarak Gülçiçek Hatun Bayezid'in annesi diye Bayezid maddesinde geçer.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gülçiçek Hatun",
+      "note": "I. Bayezid'in annesi. TDV Bayezid maddesi.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Bayezid",
+      "mother": "Gülçiçek Hatun",
+      "note": "Halef. Kosova'da sağ kolu tuttu, Yıldırım lakabını daha önce Frenk Yazısı'nda almıştı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Yâkub",
+      "mother": null,
+      "note": "Kosova sonrası, iç savaşı önlemek gerekçesiyle Bayezid tarafından öldürtüldü. Hayattaki tek kardeş diye anılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Savcı",
+      "mother": null,
+      "note": "Bizans'la birlikte isyan ettiği ve gözlerine mil çekildiği kroniklerde geçer. Bu okumada Murad maddesinin özeti ismi ayrıntılandırmadı; oğul listesine ihtiyatla kondu, ayrı savaş anlatısı şişirilmedi.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Çirmen (Meriç)",
+      "when": "1371",
+      "foe": "Sırp despotları Vukaşin ve Ugljeşa",
+      "result": "zafer",
+      "note": "TDV Osmanlılar: Makedonya'daki Sırp beyleri, Bizans ve Bulgar kralı bağlandı."
+     },
+     {
+      "name": "Frenk Yazısı",
+      "when": "1386",
+      "foe": "Karamanoğlu Alâeddin",
+      "result": "zafer",
+      "note": "Şehzade Bayezid'in Yıldırım lakabı bu savaştaki atılganlığına bağlanır."
+     },
+     {
+      "name": "Kosova",
+      "when": "1389-06-15",
+      "foe": "Lazar önderliğinde Sırp-Boşnak-yardımcı ittifakı",
+      "result": "zafer",
+      "note": "Osmanlı zaferi, sultan savaş alanında öldü. Lazar idam edildi. Kuzey Sırbistan yolu açıldı, Sırp despotluğu vasal oldu."
+     }
+    ],
+    "legends": [
+     "Miloş Obiliç'in çadırda hançerlemesi popüler anlatıdır. TDV Murad maddesi Gazânâme'ye dayanarak meydanda öldürüldüğünü yazar; suikastçının adı bu okunan pasajda kesinlenmedi.",
+     "Edirne fetih yılı (1361 mi, daha geç mi) literatürde çatışmalıdır; İnalcık 1361'i şehzadelik fethi sayar."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "bayezid-i",
+    "name": "I. Bayezid",
+    "title": "Sultan, Yıldırım",
+    "claim": false,
+    "birth": 1354,
+    "birthNote": "755 (1354). Gün verilmez. Annesi Gülçiçek Hatun. Babası I. Murad.",
+    "death": 1403,
+    "deathNote": "Ankara'da 1402'de esir edildi. TDV Bayezid maddesi: esaret altında Akşehir'de 8 Mart 1403 vefat. 1402 esaret ile 1403 Mart ölümü ayrı tutulur.",
+    "reign": [
+     1389,
+     1402
+    ],
+    "reignNote": "Kosova'da babasının ölümüyle 1389'da tahta çıktı. Fiilî saltanat Ankara bozgunu 28 Temmuz 1402'de bitti. Ölüm 1403'tür; bazı listeler saltanatı 1403'e kadar uzatır. Burada saltanat sonu esaret, ölüm yılı ayrıca yazıldı.",
+    "summary": "I. Murad'ın büyük oğlu. 1381 dolayında Germiyanoğlu Süleyman Şah'ın kızı Sultan Hatun ile evlendi, çeyiz topraklarına Kütahya sancakbeyi oldu. Anadolu beyliklerini sancaklaştırdı, Niğbolu'da Haçlı ordusunu yendi, İstanbul'u abluka etti. Timur'la 28 Temmuz 1402 Çubuk ovasında yenildi, esir düştü, 8 Mart 1403'te Akşehir'de öldü. Anadolu birliği dağıldı, oğulları fetret'e girdi.",
+    "traits": [
+     "TDV: son derece cesur, faal, yetenekli ve âdil; sert mizaç. Hayatı savaşla geçmiş bir merkezîleştirici."
+    ],
+    "contribution": "Anadolu'da beyliklerin Osmanlı sancağına çevrilmesi, Niğbolu ile Haçlı akınının kırılması, Bursa Ulucamii (1400), Anadoluhisarı (1396-97), imaret ve dârüşşifâlar. Rumeli bütünlüğü bozulmadığı için fetretten dönüş mümkün oldu.",
+    "harm": "Ankara bozgunu merkezî devleti çökertti; beylikler Timur yarlığıyla geri geldi. Kardeşi Yâkub'u saltanat başında öldürttü. İstanbul ablukası ve vasallere sertlik, Timur'a karşı Anadolu beylerinin düşmanlığını büyüttü. Esaret devletin itibarını sarstı.",
+    "wives": [
+     {
+      "name": "Sultan Hatun",
+      "note": "Germiyan Beyi Süleyman Şah'ın kızı. Yaklaşık 1381 evlilik. İsa Çelebi'nin annesi TDV İsa maddesinde odur.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Olivera (Maria Despina)",
+      "note": "Sırp knezi Lazar'ın kızı. Kosova sonrası Stefan Lazareviç ile yapılan antlaşmanın evlilik bağı. Sırp yardımcı kuvveti bu bağa dayanır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Devlet Hatun",
+      "note": "I. Mehmed'in annesi. TDV Mehmed maddesi onu câriye diye anar.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Ertuğrul",
+      "mother": null,
+      "note": "Süleyman Çelebi'den önce doğan büyük oğul diye anılır. Ankara'dan önce ölmüştür (yaklaşık 1400).",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Süleyman",
+      "mother": null,
+      "note": "Fetret'te Rumeli'de hükümdarlık ilan etti. Padişah sayımına girmez.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "İsa",
+      "mother": "Sultan Hatun",
+      "note": "Fetret talibi. Germiyan prensesinden.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Musa",
+      "mother": null,
+      "note": "En küçük oğul diye Musa maddesi. Fetret talibi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": "Devlet Hatun",
+      "note": "Dördüncü oğul. Fetret talibi ve sonra I. Mehmed.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mustafa",
+      "mother": null,
+      "note": "Ankara'da Timur'a esir düşüp Semerkant'a götürüldüğü Enverî'de vardır. Sonra 'Düzmece' tartışmasıyla ortaya çıktı. Bu kartta ayrı hükümdar değildir.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Kasım",
+      "mother": null,
+      "note": "En küçük oğul. Süleyman onu Bizans'a rehin bıraktı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Fatma Sultan",
+      "mother": null,
+      "note": "Fetret maddesi: Süleyman onu Kasım ile İstanbul'da rehin bıraktı.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Kosova",
+      "when": "1389-06-15",
+      "foe": "Sırp ittifakı",
+      "result": "zafer",
+      "note": "Şehzade olarak sağ kol. Babasının ölümü üzerine taht."
+     },
+     {
+      "name": "Anadolu beylikleri seferi",
+      "when": "1390",
+      "foe": "Germiyan, Aydın, Saruhan, Menteşe, ardından Karamanoğlu",
+      "result": "antlasma",
+      "note": "Batı beylikleri ilhak. Karamanoğlu ile Çarşamba suyu sınır, Beyşehir Osmanlı'da kaldı."
+     },
+     {
+      "name": "Niğbolu",
+      "when": "1396",
+      "foe": "Macar kralı Sigismund önderliğinde Haçlı ordusu",
+      "result": "zafer",
+      "note": "TDV Osmanlılar: son Haçlılar ağır yenilgi. Bulgar krallığı ortadan kalktı."
+     },
+     {
+      "name": "Ankara (Çubuk ovası)",
+      "when": "1402-07-28",
+      "foe": "Timur",
+      "result": "yenilgi",
+      "note": "Bayezid esir. Anadolu beylikleri iade edildi. TDV Ankara Savaşı ve Bayezid maddeleri."
+     }
+    ],
+    "legends": [
+     "Timur'un onu kafeste gezdirmesi popüler anlatıdır; TDV Bayezid maddesinin okunan kısmı esaret ve 8 Mart 1403 Akşehir ölümünü verir, kafes ayrıntısını olgu diye kurmaz."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Bayezid",
+      "url": "https://islamansiklopedisi.org.tr/bayezid-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "suleyman-celebi",
+    "name": "Süleyman Çelebi (Emîr)",
+    "title": "Fetret talibi; bazı Batı kaynaklarında I. Süleyman",
+    "claim": true,
+    "birth": null,
+    "birthNote": "Doğum yılı verilmez. Yıldırım'ın Ertuğrul'dan sonraki oğlu. İlk kayıt 1389-90 Batı Anadolu seferi sonrası Aydın ilinin idarecisidir.",
+    "death": 1411,
+    "deathNote": "22 Şevval 813 / 17 Şubat 1411. Musa Edirne'yi bastı. Kaçan Süleyman Düğüncü köyünde yakalanıp katledildi. Naaşı Bursa'da I. Murad türbesi yanına gönderildi.",
+    "reign": [
+     1403,
+     1411
+    ],
+    "reignNote": "Padişah sayımına girmez (36'nın dışındadır). Ankara sonrası hazneyi alıp Rumeli'ye geçti. Gelibolu Antlaşması Şubat 1403; ardından Edirne'de hükümdarlığını ilan etti. TDV: modern literatür onu padişahlar arasına koymaz; bazı Osmanlı, Bizans ve Batı kaynakları meşrû hükümdar sayar.",
+    "summary": "Rumeli'yi ve Edirne'yi elinde tuttu. Bizans'a Selânik, Tesalya ve Anadolu yakasında bazı yerleri bırakıp vergiyi kaldırdı (1403). Venedik ve Ceneviz'e imtiyaz verdi. Anadolu'da İsa ve Mehmed ile mücadele etti. 1410'da Musa'yı iki kez yendi, 17 Şubat 1411'de Edirne baskınında öldürüldü.",
+    "traits": [
+     "TDV, Venediklilerin 1406'da onu 'Türkler'in sultanı' diye andığını nakleder. Fetret hükümdarlığı toprak tavizi ve ittifak üzerine kuruludur."
+    ],
+    "contribution": "Rumeli'nin dağılmaması fetretten dönüşün maddi şartıdır. Edirne Eski Cami'nin yapımını başlattı, I. Mehmed tamamladı.",
+    "harm": "1403 Gelibolu Antlaşmasıyla Bizans'a geniş toprak ve vergi muafiyeti verdi. Kardeş kavgası Anadolu'yu parçaladı.",
+    "wives": [],
+    "children": [
+     {
+      "name": "Orhan",
+      "mother": null,
+      "note": "TDV: 1395-1429 arasında yaşadı. Musa ve sonra Bizans onu rakip şehzade olarak kullandı. I. Mehmed döneminde kör edilip zindana konduğu Mehmed maddesinde geçer.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Gelibolu Antlaşması",
+      "when": "1403-02",
+      "foe": "Bizans",
+      "result": "antlasma",
+      "note": "Toprak ve vergi tavizi karşılığı Rumeli'de tanınma."
+     },
+     {
+      "name": "Yanbolu",
+      "when": "1410-02-13",
+      "foe": "Musa Çelebi",
+      "result": "yenilgi",
+      "note": "İlk karşılaşma."
+     },
+     {
+      "name": "Musa'ya karşı iki savaş",
+      "when": "1410-06",
+      "foe": "Musa Çelebi",
+      "result": "zafer",
+      "note": "Haziran 1410'a kadar iki yenilgi verdirdi."
+     },
+     {
+      "name": "Edirne baskını",
+      "when": "1411-02-17",
+      "foe": "Musa Çelebi",
+      "result": "yenilgi",
+      "note": "Öldürüldü."
+     }
+    ],
+    "legends": [
+     "Batı literatüründe I. Süleyman sayılması, klasik 36 padişah sayımına aykırıdır. Bu atlas da onu talip (claim true) sayar, 36'ya katmaz."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Süleyman Çelebi (Emîr)",
+      "url": "https://islamansiklopedisi.org.tr/suleyman-celebi"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "isa-celebi",
+    "name": "İsa Çelebi",
+    "title": "Fetret talibi",
+    "claim": true,
+    "birth": null,
+    "birthNote": "Doğum ve ilk yıllar bilinmez. Yıldırım'ın adı bilinen yedi erkek çocuğunun üçüncüsü. Annesi Germiyan prensesi Sultan Hatun.",
+    "death": 1404,
+    "deathNote": "TDV (Nezihi Aykut, kronik kolu): Mehmed Çelebi'nin adamları onu Eskişehir'de bir hamamda yakalayıp yay kirişiyle boğdurttu. Yıl 806/1403-1404. Elizabeth Zachariadou ise 1403'te Süleyman tarafından öldürüldüğünü yazar. TDV İsa maddesi her iki ihtimali de anar; tek yıl yutulmaz.",
+    "reign": [
+     1403,
+     1404
+    ],
+    "reignNote": "Padişah sayımına girmez. Timur'dan Karesi menşuru aldı, Bursa'yı tutup 1403 Ocak'ta Anadolu'da saltanat ilan etti, Venedik ve Bizans'la antlaştı. Mehmed Bursa'yı alınca Kastamonu ve İzmir'e sığındı.",
+    "summary": "Ankara sonrası Anadolu'da ilk saltanat iddiasını Mehmed ile paylaşan şehzade. Bursa'da tutunamadı. Bizanslı Ioannes Tonteres'in kızıyla evlendiği Hammer üzerinden nakledilir.",
+    "traits": [
+     "Kısa süreli talip. Siyasî portresi kronik düşmanlığıyla çizilir."
+    ],
+    "contribution": "Müstakil kurum veya imar bırakmadı. Fetretin Anadolu safhasının parçasıdır.",
+    "harm": "Kardeş savaşı Bursa ve Batı Anadolu'yu tahrip etti. Yenilgileri müttefik beyleri Mehmed'e mecbur bıraktı.",
+    "wives": [
+     {
+      "name": "Ioannes Tonteres'in kızı",
+      "note": "Hammer, II, 93 üzerinden TDV'de geçer. Bizans ailesiyle antlaşma evliliği.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [],
+    "wars": [
+     {
+      "name": "Bursa mücadelesi",
+      "when": "1403",
+      "foe": "Mehmed Çelebi",
+      "result": "yenilgi",
+      "note": "Sarı Timurtaş Paşa Mehmed tarafından öldürüldü."
+     },
+     {
+      "name": "Gerede",
+      "when": "1403-1404",
+      "foe": "Mehmed Çelebi",
+      "result": "yenilgi",
+      "note": "İsfendiyar ile birlikte tutunamadı."
+     },
+     {
+      "name": "Eskişehir'de yakalanma",
+      "when": "1403 veya 1404",
+      "foe": "Mehmed Çelebi",
+      "result": "yenilgi",
+      "note": "Boğduruldu. Katilin kim olduğu (Mehmed'in adamları mı, Süleyman mı) çatışmalıdır."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, İsa Çelebi",
+      "url": "https://islamansiklopedisi.org.tr/isa-celebi"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "musa-celebi",
+    "name": "Musa Çelebi",
+    "title": "Fetret talibi",
+    "claim": true,
+    "birth": null,
+    "birthNote": "Doğum yılı yok. TDV: Yıldırım'ın en küçük oğlu.",
+    "death": 1413,
+    "deathNote": "5 Rebîülâhir 816 / 5 Temmuz 1413. Çamurlu/Sofya civarında yenildi, Eflak'a kaçarken yakalanıp boğduruldu. Naaşı Bursa'da babasının türbesine kondu.",
+    "reign": [
+     1411,
+     1413
+    ],
+    "reignNote": "Padişah sayımına girmez. Timur esaretinden dönüp önce Anadolu'da İsa ile uğraştı. Mehmed onu Süleyman'a karşı Rumeli'ye gönderdi. 17 Şubat 1411'de Edirne'yi alıp hükümdarlığını ilan etti. 5 Temmuz 1413'te Mehmed'e yenildi.",
+    "summary": "Edirne'de Şeyh Bedreddin'i kazasker, Mihaloğlu Mehmed'i beylerbeyi yaptı. Sırp despotu ve Bizans'a karşı sertleşince uç beyleri Mehmed tarafına geçti. 1413'te son savaşı kaybetti.",
+    "traits": [
+     "Akıncı kökenli, Rumeli beylerini önce toplayıp sonra kaçıran sert bir talip."
+    ],
+    "contribution": "Süleyman'ın Bizans'a bıraktığı bazı tavizleri geri çevirme teşebbüsü. Bedreddin'in kazaskerliği fetret siyasetinin dinî kanadını görünür kılar.",
+    "harm": "Edirne baskını ve Süleyman'ın öldürülmesi. Sırp topraklarının yağmalanması. Beylerin kaçışı Rumeli'yi Mehmed'e açtı.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "Ankara",
+      "when": "1402-07-28",
+      "foe": "Timur",
+      "result": "yenilgi",
+      "note": "Babasıyla esir düştü, sonra serbest bırakıldı."
+     },
+     {
+      "name": "Edirne'nin alınması",
+      "when": "1411-02-17",
+      "foe": "Süleyman Çelebi",
+      "result": "zafer",
+      "note": "Hükümdarlığını ilan etti."
+     },
+     {
+      "name": "Çamurlu",
+      "when": "1413-07-05",
+      "foe": "Mehmed Çelebi",
+      "result": "yenilgi",
+      "note": "Yakalanıp boğduruldu. Fetret fiilen kapandı."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Musa Çelebi",
+      "url": "https://islamansiklopedisi.org.tr/musa-celebi"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-i",
+    "name": "I. Mehmed",
+    "title": "Sultan, Çelebi",
+    "claim": false,
+    "birth": 1386,
+    "birthNote": "788 (1386) veya 789 (1387). Gün yok. I. Bayezid'in Devlet Hatun adlı câriyesinden dördüncü oğlu. 'Çelebi' ve 'Kirişçi' lakapları.",
+    "death": 1421,
+    "deathNote": "23 Cemâziyelâhir 824 / 25 Haziran 1421, Edirne. Oğlu Murad Bursa'da tahta çıktı.",
+    "reign": [
+     1413,
+     1421
+    ],
+    "reignNote": "Fetret talibi olarak 1402-1413'te Tokat, Amasya ve zaman zaman Bursa'ya hâkimdi. Tek hükümdarlık 5 Temmuz 1413'te Musa'nın ölümünden 25 Haziran 1421'e kadardır. 36 sayımında bir kez yazılır; ayrı talip kartı açılmaz. Klasik sırada I. Mehmed odur.",
+    "summary": "Amasya valisiyken Ankara'dan sonra Anadolu'da tutundu, İsa'yı ve sonunda Musa'yı eledi. Timurlulara karşı ihtiyatlıydı, Bizans ve Venedik'e yumuşak davrandı. Şeyh Bedreddin ve Börklüce isyanları, Düzmece Mustafa'nın ortaya çıkışı saltanatının son buhranıdır. Ölürken Murad'ın sorunsuz geçmesini istedi; küçük oğulları Yûsuf ve Mahmud'u Bizans'a rehin verme tasarısı Murad tarafından uygulanmadı.",
+    "traits": [
+     "İnalcık onu toparlayıcı, timarı yaygınlaştıran, vasallere ölçülü bir sultan diye anlatır. Hastalığında veraseti oğlunun lehine kilitlemeye çalıştı."
+    ],
+    "contribution": "Fetretin kapanması, timar ve tahririn geliştirilmesi, Bursa'da cami (1419), medrese, imaret ve türbe, Edirne Eski Cami'nin tamamlanması (1414) ve bedesten.",
+    "harm": "Kardeşlerin boğdurulması fetretin bedelidir. Mustafa'yı 'düzmece' diye damgalayan propaganda sonraki iç savaşı çözmedi. Rehin şehzade tasarısı Bizans'a koz bırakıyordu.",
+    "wives": [
+     {
+      "name": "Adı belirtilmeyen câriye",
+      "note": "II. Murad'ın annesi TDV'de 'bir câriyeden olma' diye geçer. Hüseyin Hüsâmeddin Amasya Tarihi onu Divitdâr Ahmed Paşa'nın kızı Şehzade Hatun diye yazar. Çatışma not edilir, tek ad yutulmaz.",
+      "certainty": "tartismali"
+     }
+    ],
+    "children": [
+     {
+      "name": "Murad",
+      "mother": "câriye veya Şehzade Hatun",
+      "note": "Halef. Amasya'da Haziran 1404 doğumu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mustafa",
+      "mother": null,
+      "note": "Anadolu'da bırakılması tasarlanan oğul. Sonra II. Murad'a rakip oldu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Kasım",
+      "mother": null,
+      "note": "Altı oğul listesinde.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": null,
+      "note": "Aynı liste.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Yûsuf",
+      "mother": null,
+      "note": "1421'de sekiz yaşında. Bizans'a rehin tasarısı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": null,
+      "note": "1421'de yedi yaşında. Aynı tasarının parçası.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Yedi kız",
+      "mother": null,
+      "note": "TDV: yedi kızı olduğu bilinir, adları bu maddede sayılmaz. Adsız yedi isim uydurulmadı.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "İsa Çelebi mücadelesi",
+      "when": "1403-1404",
+      "foe": "İsa Çelebi",
+      "result": "zafer",
+      "note": "Bursa ve Anadolu'da üstünlük."
+     },
+     {
+      "name": "Musa'ya karşı son sefer",
+      "when": "1413",
+      "foe": "Musa Çelebi",
+      "result": "zafer",
+      "note": "5 Temmuz 1413 Musa boğduruldu. Edirne'de tek hükümdarlığını ilan etti."
+     },
+     {
+      "name": "Şeyh Bedreddin ve Börklüce",
+      "when": "1416",
+      "foe": "Bedreddinîler",
+      "result": "zafer",
+      "note": "Osmanlılar maddesi ve Murad biyografisi bu isyanı I. Mehmed sonuna koyar."
+     },
+     {
+      "name": "Düzmece Mustafa",
+      "when": "1416-1421",
+      "foe": "Mustafa Çelebi",
+      "result": "sonucsuz",
+      "note": "Bizans Mustafa'yı tuttu. Mehmed ölünce sorun Murad'a kaldı."
+     }
+    ],
+    "legends": [
+     "Kirişçi lakabının Yunanca krytsez'den geldiği İnalcık'ın etimoloji notudur."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Mehmed",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "murad-ii",
+    "name": "II. Murad",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1404,
+    "birthNote": "Zilhicce 806 / Haziran 1404, Amasya. Gün yok. Annesi: TDV ana metin bir câriye der; Hüseyin Hüsâmeddin, Amasya âyanından Divitdâr Ahmed Paşa'nın kızı Şehzade Hatun der.",
+    "death": 1451,
+    "deathNote": "1 Muharrem 855 / 3 Şubat 1451, hastalık. Edirne. Vasiyetinde Bursa'da oğlu Ali'nin yanına gömülmeyi istedi.",
+    "reign": [
+     1421,
+     1451
+    ],
+    "reignNote": "İki saltanat, tek kart. Babasının ölümüyle 1421. 1444'te tahtı oğlu Mehmed'e bıraktı. Varna buhranında geri çağrıldı, 1446'da tekrar tahta çıktı, 1451'e kadar oturdu. Oğlu Mehmed'in ilk saltanatı 1444-1446'dır.",
+    "summary": "Fetret artığı Mustafa tehlikesini, İstanbul kuşatması teşebbüsünü ve Anadolu beylerini yönetti. 1444 Varna ve 1448 II. Kosova, Osmanlılar'ın Balkanlar'dan atılamayacağını gösterdi. 1440 Belgrad kuşatması başarısızdı. Tahttan çekilip dönmesi oğluyla gerilim yarattı. Türkçe kültüre ve Oğuz töresine ağırlık verilen bir toparlanma padişahıdır.",
+    "traits": [
+     "İnalcık ve Emecen: dedesi ve oğlu kadar fütuhatçı olmayan, denge arayan bir sultan. Tahtı oğluna bırakıp geri alması kararsızlık değil, Haçlı buhranına tepkidir."
+    ],
+    "contribution": "Varna ve II. Kosova ile Balkan tutunuşunun kesinleşmesi, Selânik'in 1430'da yeniden alınması, Edirne'de imar ve Türkî kültür hamlesi. Şâhruh karşısında Oğuz-Kayı meşruiyetinin siyaseten öne çıkarılması.",
+    "harm": "1444 Segedin-Edirne barışının hemen bozulması Haçlı seferini geri getirdi. Belgrad 1440 başarısızlığı. Oğlunu 1446'da fiilen ikinci plana itmesi II. Mehmed'in ilk saltanatını gölgeledi. Kardeşleri konusunda I. Mehmed'in koruma tasarısını uygulamadı.",
+    "wives": [
+     {
+      "name": "Adı bu okumada tek tek sayılmayan hasekiler",
+      "note": "Oğlu Mehmed'in Dulkadıroğlu Süleyman Bey'in kızı Sitti Hatun ile 1450 evliliği şehzade düğünüdür, Murad'ın eşi değildir.",
+      "certainty": "tartismali"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mehmed",
+      "mother": "Hümâ Hatun",
+      "note": "Halef, II. Mehmed. Doğum 30 Mart 1432 Edirne. Annesi TDV vâlide sultan listesinde Hümâ Hatun'dur.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Alâeddin Ali",
+      "mother": null,
+      "note": "Amasya valisi. 1443'te öldü. Murad vasiyetinde onun kabrinin yanını ister.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": null,
+      "note": "II. Mehmed tahta çıkınca henüz memede olan kardeşini boğdurdu. Murad'ın küçük oğludur.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer kardeşler",
+      "mother": null,
+      "note": "Murad, Çelebi Mehmed'in en büyük oğlu olup dört erkek ve yedi kız kardeşi vardı; bunlar Murad'ın kardeşleridir, çocukları değildir.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Düzmece Mustafa",
+      "when": "1421-1422",
+      "foe": "Mustafa Çelebi ve Bizans desteği",
+      "result": "zafer",
+      "note": "Mustafa bertaraf edildi. Ardından İstanbul kuşatması sonuçsuz kaldı."
+     },
+     {
+      "name": "Belgrad kuşatması",
+      "when": "1440",
+      "foe": "Macaristan",
+      "result": "yenilgi",
+      "note": "TDV Osmanlılar: mağlûbiyet ve geri çekilme."
+     },
+     {
+      "name": "Varna",
+      "when": "1444",
+      "foe": "Macar kralı, Hunyadi",
+      "result": "zafer",
+      "note": "Haçlı ordusu dağıldı. Murad sefere oğlu tahttayken çağrıldı."
+     },
+     {
+      "name": "II. Kosova",
+      "when": "1448",
+      "foe": "Hunyadi",
+      "result": "zafer",
+      "note": "Balkanlar'dan atılma ihtimali kapandı."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-ii",
+    "name": "II. Mehmed",
+    "title": "Sultan, Fâtih, Ebü'l-feth",
+    "claim": false,
+    "birth": 1432,
+    "birthNote": "27 Receb 835 / 30 Mart 1432, Edirne. II. Murad'ın oğlu. Annesi TDV vâlide sultan listesinde Hümâ Hatun'dur. Altı yaşında Amasya valiliği iddiası şüphelidir; 1443'te Manisa'ya gönderildiği bilinir.",
+    "death": 1481,
+    "deathNote": "4 Rebîülevvel 886 / 3 Mayıs 1481, Üsküdar-Gebze arasında Hünkârçayırı (Maltepe civarı), yeni sefere çıkarken. Ani ölüm. Otranto köprübaşı bu ölümle sonuçsuz kaldı.",
+    "reign": [
+     1444,
+     1481
+    ],
+    "reignNote": "İki saltanat, tek kart. İlki: babasının 1444 çekilmesi, Varna buhranı, 1446'da babasının dönüşü. İkincisi: 3 Şubat 1451'den 3 Mayıs 1481'e. Klasik 36 sayımında bir kişidir.",
+    "summary": "İstanbul'u 1453'te aldı, pâyitaht yaptı. Sırbistan, Mora, Bosna, Trabzon ve Karamanoğulları'nı ortadan kaldırdı; Kırım'ı himayeye aldı; Otlukbeli'nde Uzun Hasan'ı yendi. 1480'de Otranto'ya çıkıldı. Merkezî kapıkulu, kanunname ve İstanbul imarı onun saltanatına bağlanır. Tahta çıkar çıkmaz küçük kardeşi Ahmed'i boğdurdu. 'Nizâm-ı âlem için karındaşlarını katletmek câizdir' hükmü Fâtih Kanunnâmesi'ne atfedilir; metnin yazılış tarihi tartışmalıdır.",
+    "traits": [
+     "Cihanşümul unvanlar: han, sultan, kayser. İtalyan hümanistlerini sarayında tuttu, Batlamyus haritası yaptırdı. Sert, merkezî, fütuhatçı. İlk saltanatında Çandarlı çevresi onu çocuk hükümdar gibi gördü."
+    ],
+    "contribution": "İstanbul'un fethi ve iskânı, Ayasofya'nın camiye çevrilmesi, yeni saray, kanunname ile merkezî teşrifat, Kapalıçarşı ve külliyeler, Karadeniz'in güney kapısının kapanması, Otlukbeli ile Akkoyunlu tehdidinin kırılması.",
+    "harm": "Kardeş Ahmed'in bebekken boğdurulması ve kardeş katlinin kanunnâme hükmü haline gelmesi. Belgrad 1456 başarısızlığı. Savaş finansmanı, tağşiş ve yeni vergiler ulemâ ile halkta muhalefet biriktirdi; bu tepki II. Bayezid devrinde geri alındı. Otranto çıkarması ölümle birlikte boş kaldı. Oğulları Bayezid-Cem kavgası devleti dış şantaja açtı.",
+    "wives": [
+     {
+      "name": "Sitti Hatun",
+      "note": "Dulkadıroğlu Süleyman Bey'in kızı. Şevval-Zilkade 854 / Kasım-Aralık 1450 Edirne düğünü. Mehmed henüz şehzadeydi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gülbahar Hatun",
+      "note": "II. Bayezid'in annesi. TDV Bayezid maddesi. Haseki/hatun statüsü valide sultan listesiyle uyumludur.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer eşler",
+      "note": "Alderson 17 hanım sayar. TDV Mehmed maddesi bu listeyi tekrarlamaz. Adı açılmayan eşler buraya yazılmadı.",
+      "certainty": "tartismali"
+     }
+    ],
+    "children": [
+     {
+      "name": "Bayezid",
+      "mother": "Gülbahar Hatun",
+      "note": "Halef. 1448 Dimetoka doğumu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mustafa",
+      "mother": null,
+      "note": "879/1474'te babasından önce öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Cem",
+      "mother": null,
+      "note": "1481'de taht iddiası, yenilgi, Rodos ve Avrupa esareti, 1495'te muhtemelen zehirlenerek öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ayşe",
+      "mother": null,
+      "note": "TDV'nin adını verdiği iki kızdan biri.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gevherhan",
+      "mother": null,
+      "note": "TDV'nin adını verdiği ikinci kız. Alderson dört kız der; diğer iki ad bu okumada geçmedi.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Varna",
+      "when": "1444",
+      "foe": "Haçlı / Hunyadi",
+      "result": "zafer",
+      "note": "İlk saltanatında baba seferi yönetti. Sonuç Osmanlı lehine."
+     },
+     {
+      "name": "İstanbul",
+      "when": "1453",
+      "foe": "Bizans",
+      "result": "zafer",
+      "note": "Şehir savaşla alındı. Pâyitaht oldu."
+     },
+     {
+      "name": "Belgrad",
+      "when": "1456",
+      "foe": "Macaristan (Hunyadi)",
+      "result": "yenilgi",
+      "note": "Şahsî kahramanlığına rağmen çekildi."
+     },
+     {
+      "name": "Trabzon",
+      "when": "1461",
+      "foe": "Trabzon Rum İmparatorluğu",
+      "result": "zafer",
+      "note": "Devlet sona erdi."
+     },
+     {
+      "name": "Otlukbeli",
+      "when": "1473",
+      "foe": "Akkoyunlu Uzun Hasan",
+      "result": "zafer",
+      "note": "Anadolu'da Timur artığı rakip kırıldı."
+     },
+     {
+      "name": "Otranto",
+      "when": "1480-1481",
+      "foe": "Napoli krallığı",
+      "result": "sonucsuz",
+      "note": "Köprübaşı tutuldu, padişahın ölümüyle boşaltıldı."
+     }
+    ],
+    "legends": [
+     "Fâtih Kanunnâmesi'ndeki kardeş katli maddesinin bizzat Fâtih elinden ve hangi yılda çıktığı tartışmalıdır. TDV katl maddesi hükmü anar ve fıkha uygunluğunun geniş tartışma konusu olduğunu söyler. Uygulama kanunnâmeden öncedir: I. Bayezid Yâkub'u, II. Mehmed kardeşi Ahmed'i öldürttü.",
+     "Ayasofya'da ezan ve kehanet menkıbeleri fetih edebiyatıdır; fetihin kendisi tartışmasızdır."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Mehmed",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "bayezid-ii",
+    "name": "II. Bayezid",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1448,
+    "birthNote": "1448, Dimetoka. Gün yok. Fâtih'in Gülbahar Hatun'dan büyük oğlu.",
+    "death": 1512,
+    "deathNote": "25 Rebîülevvel 918 / 10 Haziran 1512, Çorlu yakınında Abalar köyü, tahttan çekildikten sonra Dimetoka'ya giderken. 24 Nisan 1512'de yeniçeri baskısıyla çekilmişti.",
+    "reign": [
+     1481,
+     1512
+    ],
+    "reignNote": "Babasının 3 Mayıs 1481 ölümü üzerine taht. Oğlu Korkut vekâleten oturtulmuştu. 24 Nisan 1512 feragat, 10 Haziran 1512 ölüm.",
+    "summary": "Cem meselesi yüzünden dış siyasette ihtiyatlı kaldı. Fâtih'in sert örfî uygulamalarını yumuşattı. Kili ve Akkirman (1484), Modon-Koron-İnebahtı alındı. Memlük savaşı (1485-1491) yıpratıcıydı. Son yıllarda oğulları Ahmed, Korkut ve Selim arasında taht kavgası çıktı; yeniçeriler Selim'i çıkardı.",
+    "traits": [
+     "TDV: nikris, çok kadınla evlenen ve çok çocuklu bir padişah. Şehzadeliğinde afyon kullandığı, babasıyla arasının açıldığı, sonra vazgeçtiğini bildirdiği kayıtlıdır (TSMA). Ahmed'i kendine benzettiği için veliaht görmek istedi."
+    ],
+    "contribution": "Şer'î çerçevenin örfî tasarrufa karşı güçlenmesi, Karadeniz'in kuzey kapısında Kili-Akkirman, Mora'da Venedik kaleleri, Endülüs muhacirlerinin getirilmesi, imar ve vakıf. Cem buhranını devleti parçalamadan kapattı.",
+    "harm": "Cem'in Avrupa'da rehin tutulması Haçlı şantajına yol açtı; 1495'te muhtemel zehirlenme bu bedelin parçasıdır. Oğullar arası savaş 1511-12'de Anadolu'yu karıştırdı. Memlük savaşı Karaman ve Dulkadır siyasetini bozdu. Tahttan yeniçeri zoruyla indirilmesi kapıkulu müdahalesini büyüttü.",
+    "wives": [
+     {
+      "name": "Ayşe Hatun",
+      "note": "Dulkadıroğlu Alâüddevle'nin kızı, I. Selim'in annesi. TDV Selim maddesi Cenâbî'ye dayanır. Gülbahar bint Abdüssamed annelik iddiasını yakıştırma sayar.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer hanımlar",
+      "note": "TDV: hanımlarının sayısı sekizdir; sekiz oğul ve on bir kız. Sekiz hanımın adları bu okumada tek tek dökülmedi, uydurulmadı.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Abdullah",
+      "mother": null,
+      "note": "Büyük oğul. Selim maddesinde Fâtih'in onu Şehzade Mustafa'nın kızıyla evlendirdiği geçer. Babasından önce öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": null,
+      "note": "Amasya. Babasının tercih ettiği oğul. Selim mücadelesinde saf dışı kaldı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Korkut",
+      "mother": null,
+      "note": "1481'de vekâleten tahta oturtuldu. Son mücadelede de adaydı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": null,
+      "note": "Selim'in kardeşleri arasında sayılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Âlemşah",
+      "mother": null,
+      "note": "Aynı kardeş listesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Selim",
+      "mother": "Ayşe Hatun",
+      "note": "Halef. Trabzon sancakbeyi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "İki oğul daha ve on bir kız",
+      "mother": null,
+      "note": "TDV sekiz oğul ve on bir kız der. Adı bu okumada geçmeyen iki oğul ve kızlar tek tek yazılmadı. İbn Kemal çocuk ve torun sayısını 300'ü aşmış gösterir; bu mübalağalı bir toplamdır.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Yenişehir",
+      "when": "1481-06-22",
+      "foe": "Cem Sultan",
+      "result": "zafer",
+      "note": "Cem Mısır'a, sonra Rodos'a gitti."
+     },
+     {
+      "name": "Kili ve Akkirman",
+      "when": "1484",
+      "foe": "Boğdan / Karadeniz kıyısı",
+      "result": "zafer",
+      "note": "TDV Osmanlılar."
+     },
+     {
+      "name": "Osmanlı-Memlük savaşı",
+      "when": "1485-1491",
+      "foe": "Memlükler",
+      "result": "sonucsuz",
+      "note": "Çukurova ve Dulkadır üzerinde yıpratıcı mücadele. Kalıcı ilhak Yavuz'a kaldı."
+     },
+     {
+      "name": "Modon, Koron, İnebahtı",
+      "when": "1500",
+      "foe": "Venedik",
+      "result": "zafer",
+      "note": "Mora istihkâmları."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Bayezid",
+      "url": "https://islamansiklopedisi.org.tr/bayezid-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "selim-i",
+    "name": "I. Selim",
+    "title": "Sultan, Yavuz",
+    "claim": false,
+    "birth": 1470,
+    "birthNote": "Bir rivayet 872 (1467-68), daha kuvvetli ihtimal 875 (1470), Amasya. Gün yok. Annesi Ayşe Hatun (Dulkadır). Gülbahar bint Abdüssamed anneliği TDV'de yakıştırma sayılır. İki yıl da not edilir, tek yıl yutulmaz: kartta 1470, nota 1467-68.",
+    "death": 1520,
+    "deathNote": "8-9 Şevval 926 / 21-22 Eylül 1520 gecesi, Çorlu civarı, sırtındaki ur (muhtemelen veba yumrusu). Ölüm, oğlu Süleyman Manisa'dan gelene kadar gizlendi. Türbesini oğlu Fatih Camii yanında yaptırdı.",
+    "reign": [
+     1512,
+     1520
+    ],
+    "reignNote": "24 Nisan 1512'de babasının çekilmesiyle fiilen padişah. Ölüm 21-22 Eylül 1520.",
+    "summary": "Trabzon sancakbeyiyken Gürcistan ve Safevî sınırında gazâ şöhreti kazandı. Kardeşleri ve babasıyla taht kavgasını göze aldı. 1514 Çaldıran'da Şah İsmail'i yendi, Tebriz'e girdi, kalıcı yerleşmedi. 1516 Mercidâbık ve 1517 Ridâniye ile Memlükler yıkıldı; Suriye, Mısır ve Haremeyn hizmeti Osmanlı'ya geçti. Mukaddes emanetler ve Halife Mütevekkil İstanbul'a gönderildi. Hilâfeti Ayasofya'da bir törenle devraldığı rivayetinin tarihî değeri TDV'ye göre yoktur.",
+    "traits": [
+     "TDV: orta boy, çatık kaş, sert bakış, sakalsız, gür ve uzun bıyık. Kendi çağında Yavuz lakabı sertlik ve ataklıktan gelir. Resmî belgelerde hâdimü'l-Haremeyn."
+    ],
+    "contribution": "Doğu Anadolu'nun kontrolü, Memlük topraklarının ve Haremeyn koruyuculuğunun devralınması, donanmayla emanetlerin İstanbul'a gelişi, Safevî propagandasına karşı Sünnî siyasetin sertleşmesi. Mısır gelirinin hazineye eklenmesi.",
+    "harm": "Kardeş ve yeğen katli veraset savaşının bedelidir. Anadolu'da Kızılbaş takibatı: TDV, idam edilenlerin daha çok Safevî halifeleri ve tekke mensupları olduğunu, bir kısmının sürgün edildiğini yazar; toptan katliam anlatısını doğrulamaz, yine de takibat ağırdır. Vezir Yunus Paşa'nın Mısır dönüşü idamı. Çaldıran sonrası Tebriz'i tutamama.",
+    "wives": [
+     {
+      "name": "Hafsa Sultan",
+      "note": "I. Süleyman'ın annesi. Kırım hanının kızı veya Dulkadırlı olduğu iddiası TDV Süleyman maddesinde yanlıştır.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Süleyman",
+      "mother": "Hafsa Sultan",
+      "note": "Tek hayatta kalan oğul. Trabzon'da 6 Kasım 1494 (başka kayıtlar 1496).",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Sâlih",
+      "mother": null,
+      "note": "Trabzon'da doğdu, 1499'da küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Kamerşah Sultan",
+      "mother": null,
+      "note": "Trabzon'da doğdu, 1503'te küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Üveys Paşa (rivayet)",
+      "mother": "adı verilmeyen câriye",
+      "note": "Âlî Mustafa, Selim'in şehzadeliğinde gizlediği bir oğlu olduğunu ve bunun Üveys Paşa olduğunu, Süleyman'ın bildiğini aktarır. TDV bunu rivayet diye verir.",
+      "certainty": "rivayet"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Çaldıran",
+      "when": "1514",
+      "foe": "Safevî Şah İsmail",
+      "result": "zafer",
+      "note": "Tebriz'e girildi, kalıcı olunmadı. Doğu Anadolu Osmanlı kontrolüne geçti."
+     },
+     {
+      "name": "Mercidâbık",
+      "when": "1516",
+      "foe": "Memlükler (Kansu Gavri)",
+      "result": "zafer",
+      "note": "Halep. Abbâsî halifesi Mütevekkil esir düştü, Selim ona saygı gösterdi."
+     },
+     {
+      "name": "Ridâniye",
+      "when": "1517",
+      "foe": "Memlükler (Tomanbay)",
+      "result": "zafer",
+      "note": "Mısır alındı. Mekke statüsü korundu. Hilâfet devri bu seferin efsanesidir, ayrı maddeye bakınız."
+     }
+    ],
+    "legends": [
+     "1517'de hilâfeti Mütevekkil'den Ayasofya töreniyle devraldığı ve oğullarına miras bıraktığı anlatısının doğruluğu TDV Selim maddesinde şüphelidir; törene tarihî değer biçilmez. Dönem kaynakları onu 'hilâfet tahtının sultanı' diye anabilir; resmî unvan hâdimü'l-Haremeyn'dir. Hilâfet maddesi, Osmanlı hilâfetinin klasik şekliyle değil gazâ ve Haremeyn hizmetiyle okunduğunu, Kureyş'e bağlanan canlandırmanın XVIII. yüzyılda çıktığını yazar.",
+     "Mukaddes emanetlerin İstanbul'a gönderilmesi tarihîdir; bu, hukukî hilâfet devri değildir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Selim",
+      "url": "https://islamansiklopedisi.org.tr/selim-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "suleyman-i",
+    "name": "I. Süleyman",
+    "title": "Sultan; sonradan Kanûnî, Batı'da Muhteşem",
+    "claim": false,
+    "birth": 1494,
+    "birthNote": "6 Safer 900 / 6 Kasım 1494, Trabzon (Lokman, Hünernâme). Mecdî Şâban 901 / Nisan-Mayıs 1496 der. TDV Hünernâme tarihini başa alır, farkı not eder. Annesi Hafsa Sultan. Kırım veya Dulkadır soy iddiası yanlıştır.",
+    "death": 1566,
+    "deathNote": "20-21 Safer 974 / 6-7 Eylül 1566 gecesi, Sigetvar kuşatması sırasında, kale düşmeden. Ölüm gizlendi. 'Kanûnî' lakabı XVIII. yüzyılda Cantemir'de geçer, XIX. yüzyılda Osmanlı tarihçilerince yaygınlaşır.",
+    "reign": [
+     1520,
+     1566
+    ],
+    "reignNote": "Babasının Eylül 1520 ölümü üzerine Manisa'dan gelip tahta çıktı. Ölüm 6-7 Eylül 1566.",
+    "summary": "Belgrad (1521), Rodos (1522), Mohaç (1526) ve 1541'de Budin beylerbeyiliği ile Orta Avrupa'da tutundu. 1529 Viyana kuşatması ve 1532 Alman seferi Habsburg'a gözdağıydı, şehir alınmadı. Preveze (1538) Doğu Akdeniz'de üstünlük getirdi. Irakeyn (1534) ile Bağdat, 1555 Amasya Antlaşması ile İran savaşı durdu. İçeride İbrahim Paşa'nın idamı (1536), Mustafa'nın öldürülmesi (1553) ve Bayezid'in isyanı hânedan buhranıdır. Malta (1565) alınamadı.",
+    "traits": [
+     "1542 Fransız tasviri: uzun, ince, esmer, geniş alın, iri siyah göz, kemerli burun, kızılımsı bıyık. Gazâya bizzat çıkan son klasik padişah kuşağındandır. Hürrem, Mihrimah ve Rüstem hizbine gittikçe daha açık yaslandı."
+    ],
+    "contribution": "Klasik teşrifat ve kanun uygulamasının olgunlaşması, Budin ve Tımışvar hattı, Barbaros ile Cezayir'in bağlanması, Bağdat-Basra, Habeş beylerbeyiliği (1555), Süleymaniye. Fransa ile Habsburg dengesinde Osmanlı'nın Avrupa siyasetine girmesi.",
+    "harm": "Şehzade Mustafa'nın 1553'te öldürülmesi ordu ve kamuoyunda ağır bir meşruiyet yarasıdır; TDV, Hürrem, Mihrimah ve Rüstem'in rolünden şüphe olmadığını yazar. Şehzade Bayezid'in isyanı ve oğullarıyla birlikte öldürülmesi. İbrahim Paşa'nın ansızın idamı. Viyana ve Malta başarısızlıkları, Macaristan'ın sürekli savaş maliyeti. Kıbrıs ve İnebahtı oğluna kaldı.",
+    "wives": [
+     {
+      "name": "Mâhidevran",
+      "note": "İlk yılların hasekisi, Mustafa'nın annesi. Hafsa'nın 1534 ölümünden sonra Manisa'da Mustafa'nın yanına gönderildi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hürrem Sultan",
+      "note": "Haseki. 1521'de Mehmed'i doğurduktan sonra haseki unvanı. Hafsa'nın ölümünden sonra nikâhlandı. Mihrimah, Abdullah, Selim, Bayezid, Cihangir onun çocuklarıdır. Batı'da Roxelane. Ukrayna/Rogatin kökeni muhtemeldir.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mustafa",
+      "mother": "Mâhidevran",
+      "note": "Tahtın güçlü adayı. 1553 İran seferinde öldürüldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": "Mâhidevran?",
+      "note": "Cülusta Manisa'dan getirilen üç oğuldan biri. TDV bunların büyük ihtimalle Mâhidevran'dan olduğunu söyler. Küçük yaşta öldü.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Murad",
+      "mother": "Mâhidevran?",
+      "note": "Aynı üçlü. Küçük yaşta öldü. III. Murad ile karıştırılmamalı.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Mehmed",
+      "mother": "Hürrem",
+      "note": "1521 doğum. 5-6 Kasım 1543 Manisa'da öldü. Şehzade Camii onun içindir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mihrimah",
+      "mother": "Hürrem",
+      "note": "1522 civarı. Rüstem Paşa ile evlendi. Babasının üzerinde geç dönemde etkili.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Abdullah",
+      "mother": "Hürrem",
+      "note": "Hürrem maddesinde oğullar arasında sayılır. Küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Selim",
+      "mother": "Hürrem",
+      "note": "30 Mayıs 1524, Topkapı. Halef.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Bayezid",
+      "mother": "Hürrem",
+      "note": "Kardeşi Selim'e karşı isyan etti, yenildi, oğullarıyla birlikte öldürüldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Cihangir",
+      "mother": "Hürrem",
+      "note": "Küçük oğul. Mustafa'nın ölümünden sonra kederden öldüğü anlatılır; bu okumada ölüm sebebi kesinlenmedi. Cihangir Camii onun adınadır.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Adı bilinmeyen bir kız",
+      "mother": null,
+      "note": "Hammer'in 'on çocuk' sözü TDV'de Hurûfî yakıştırma sayılır. Adsız çocuk çoğaltılmadı.",
+      "certainty": "tartismali"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Belgrad",
+      "when": "1521",
+      "foe": "Macaristan",
+      "result": "zafer",
+      "note": "Orta Avrupa kapısı."
+     },
+     {
+      "name": "Rodos",
+      "when": "1522",
+      "foe": "Hospitalier şövalyeleri",
+      "result": "zafer",
+      "note": "Şövalyeler Malta'ya geçti."
+     },
+     {
+      "name": "Mohaç",
+      "when": "1526",
+      "foe": "Macaristan",
+      "result": "zafer",
+      "note": "Müstakil Macar krallığı sona erdi. Osmanlı'ya bağlı krallık denendi."
+     },
+     {
+      "name": "Viyana kuşatması",
+      "when": "1529",
+      "foe": "Habsburg",
+      "result": "sonucsuz",
+      "note": "On yedi gün. Şehir doğrudan hedef değildi, kuşatma kaldırıldı."
+     },
+     {
+      "name": "Preveze",
+      "when": "1538",
+      "foe": "Haçlı donanması (Andrea Doria)",
+      "result": "zafer",
+      "note": "Barbaros kumandasında. Doğu Akdeniz kontrolü."
+     },
+     {
+      "name": "Irakeyn",
+      "when": "1534",
+      "foe": "Safevîler",
+      "result": "zafer",
+      "note": "Tebriz ve Bağdat. Tebriz kalıcı olmadı, Bağdat kaldı."
+     },
+     {
+      "name": "Amasya Antlaşması",
+      "when": "1555",
+      "foe": "Safevîler",
+      "result": "antlasma",
+      "note": "Nahcıvan seferi sonrası. Sınır çizgisi uzun süre esas kaldı."
+     },
+     {
+      "name": "Malta",
+      "when": "1565",
+      "foe": "Hospitalier",
+      "result": "yenilgi",
+      "note": "Ada alınamadı."
+     },
+     {
+      "name": "Sigetvar",
+      "when": "1566",
+      "foe": "Habsburg Macaristan'ı",
+      "result": "zafer",
+      "note": "Kale düştü, padişah düşüşü göremeden 6-7 Eylül gecesi öldü."
+     }
+    ],
+    "legends": [
+     "Hürrem'in büyü yaptığı anlatısı rakip hizip edebiyatıdır. Siyasî etkisi belgelenir, büyü iddiası rivayettir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Süleyman",
+      "url": "https://islamansiklopedisi.org.tr/suleyman-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "selim-ii",
+    "name": "II. Selim",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1524,
+    "birthNote": "26 Receb 930 / 30 Mayıs 1524, Topkapı Sarayı. Kanûnî ile Hürrem'in oğlu. İstanbul'da doğup tahta çıkan ilk padişah.",
+    "death": 1574,
+    "deathNote": "28 Şâban 982 / 13 Aralık 1574 Pazartesi akşamı. TDV: hamamda düştükten sonra iki ay divana çıkamadı. On iki gün sarayda bekletildi. Cenâbî aynı tarihi verir. İlk kez sefere çıkmadan İstanbul'da ölen padişah diye Osmanlılar maddesi anar.",
+    "reign": [
+     1566,
+     1574
+    ],
+    "reignNote": "Babasının 1566 ölümü üzerine taht. Ölüm 13 Aralık 1574.",
+    "summary": "Kıbrıs 1570-71'de Venedik'ten alındı. İnebahtı'nda (1571) donanma ağır yenildi; ertesi yıl donanma yenilendi, 1574'te Tunus alındı. Sokullu'nun Don-Volga, Süveyş ve Endülüs tasarıları gerçekleşmedi. Yemen ve Basra'da isyanlar bastırıldı. Taht kavgasında kardeşi Bayezid saf dışı kalmıştı.",
+    "traits": [
+     "Uysal ve mütevazı diye babasının takdirini kazandığı Nahcıvan seferinde yazılır. Nurbânû, Mihrimah ve musâhib Hubbî Hatun'un tesirinde kaldığı belirtilir. 'Sarhoş' lakabı popülerdir; TDV ölümünü hamam düşmesine bağlar, lakabı olgu diye kurmaz."
+    ],
+    "contribution": "Kıbrıs'ın alınması Doğu Akdeniz ada denetimini tamamladı. İnebahtı sonrası donanmanın bir yılda yenilenmesi deniz kapasitesinin sürdüğünü gösterdi. Tunus ile Kuzey Afrika'da İspanyol iddiası kırıldı.",
+    "harm": "İnebahtı deniz gücüne ve itibara ağır darbe vurdu. Padişahın sefere çıkmaması gazâ şahsından ordu başarısına kaydı. Sokullu projelerinin terk edilmesi kuzey ve Hint siyasetini kapattı. Kıbrıs savaşı maliyeti ve Müslüman-Hıristiyan ada nüfusunun yer değiştirmesi.",
+    "wives": [
+     {
+      "name": "Nurbânû Sultan",
+      "note": "Venedik asıllı, asıl adı Cecilia Baffo. III. Murad'ın annesi. TDV, Safiye ile karıştırılmamasını özellikle yazar.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Murad",
+      "mother": "Nurbânû",
+      "note": "4 Temmuz 1546, Manisa Bozdağ. Halef.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": null,
+      "note": "Küçük yaşta, babasından yaklaşık iki yıl önce öldü.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "İsmihan",
+      "mother": "Nurbânû?",
+      "note": "Manisa/Uşak civarında doğdu. Sokullu Mehmed Paşa ile evlendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gevherhan",
+      "mother": null,
+      "note": "Piyâle Paşa ile evlendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Şah Sultan",
+      "mother": null,
+      "note": "Önce Hasan Paşa, sonra Zal Mahmud Paşa.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Fatma Sultan",
+      "mother": null,
+      "note": "1560 Konya doğumu. III. Murad dönemine kalır.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Kıbrıs",
+      "when": "1570-1571",
+      "foe": "Venedik",
+      "result": "zafer",
+      "note": "Ada alındı."
+     },
+     {
+      "name": "İnebahtı",
+      "when": "1571",
+      "foe": "Haçlı donanması",
+      "result": "yenilgi",
+      "note": "Osmanlı donanması ağır kayıp verdi."
+     },
+     {
+      "name": "Tunus",
+      "when": "1574",
+      "foe": "İspanya",
+      "result": "zafer",
+      "note": "İnebahtı'nın siyasî cevabı. Kuzey Afrika'da İspanyol emeli kırıldı."
+     }
+    ],
+    "legends": [
+     "Sürekli sarhoşluk portresi rakip ve Batı edebiyatında abartılmıştır. TDV ölümü hamam kazasına bağlar."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Selim",
+      "url": "https://islamansiklopedisi.org.tr/selim-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "murad-iii",
+    "name": "III. Murad",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1546,
+    "birthNote": "5 Cemâziyelevvel 953 / 4 Temmuz 1546, Manisa Bozdağ yaylası. Babası II. Selim, annesi Nurbânû (Cecilia Baffo).",
+    "death": 1595,
+    "deathNote": "6 Cemâziyelevvel 1003 / 17 Ocak 1595. Ayasofya hazîresine defnedildi. Selânikî mesane rahatsızlığı ve ölüm söylentisini yazar. Ölüm yaklaşık yirmi gün önce başlayan soğuk algınlığıyla ilişkilendirilir.",
+    "reign": [
+     1574,
+     1595
+    ],
+    "reignNote": "Babasının Aralık 1574 ölümü üzerine Manisa'dan çağrıldı. Ölüm 17 Ocak 1595.",
+    "summary": "1578'de İran savaşı başladı, 1590 Ferhat Paşa Antlaşması ile geniş doğu toprakları alındı; kalıcılığı I. Abbas döneminde bozuldu. 1593'te Habsburg savaşı açıldı. İngiliz ticarî imtiyazı ve Fas'ta 1578 nüfuzu bu devirdedir. Haremde Safiye ve Canfedâ Hatun nüfuzu, tağşiş ve kapıkulu isyanı mali bunalımın işaretidir. Ölümünde çok sayıda şehzade vardı; oğlu III. Mehmed bunların on dokuzunu öldürttü.",
+    "traits": [
+     "TDV: kumral, orta boy, iyi silah kullanır, ata biner. Servet ve mücevher meraklısı. Sevdiği kadınlara, çocuklara ve hocalarına cömert; kan dökmekten çekinen, ağzından nadiren 'hayır' çıkan bir mizaç diye dönem kaynakları yazar. Schweigger onu soluk yüzlü ve sağlıksız görür."
+    ],
+    "contribution": "1590'a kadar Kafkas ve Azerbaycan hattında genişleme, İngiliz kapitülasyonları, Fas üzerinden Atlantik eşiğine nüfuz denemesi. Medrese ve hayrat.",
+    "harm": "Uzun İran savaşı maliyeyi ve tımarı sarstı. Tağşiş 1589'da kapıkulu isyanı çıkardı (Beylerbeyi Vakası). Harem fraksiyonları sadrazamları yıprattı. Çok sayıda şehzadenin büyütülmesi III. Mehmed'in toplu kardeş katlinin zeminidir. 1593 Habsburg savaşı oğluna on dört yıllık bir yük olarak kaldı.",
+    "wives": [
+     {
+      "name": "Safiye Sultan",
+      "note": "Arnavut asıllı, Dukakin'de Rezi köyünden. Uzun süre tek haseki. III. Mehmed'in annesi. Venedikli Baffo olduğu iddiası yanlıştır; Baffo, Nurbânû'dur.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Çok sayıda câriye",
+      "note": "Nurbânû ve İsmihan'ın teşvikiyle Safiye'den sonra câriyelere rağbet ettiği Venedik raporları ve Schweigger'de vardır. Adları tek tek yazılmaz.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mehmed",
+      "mother": "Safiye",
+      "note": "26 Mayıs 1566 Manisa. Halef.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": "Safiye?",
+      "note": "Manisa'da doğduğu TDV'de geçer. III. Mehmed'in öldürttüğü yetişkin kardeşlerden ayrı bir Mahmud'dur; karışmaması için not.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Ayşe",
+      "mother": "Safiye?",
+      "note": "Manisa'da doğdu.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Fatma",
+      "mother": "Safiye?",
+      "note": "Manisa'da doğdu.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Adı geçmeyen çok sayıda çocuk",
+      "mother": null,
+      "note": "TDV: haseki, câriye ve çocuk sayısı hakkında mübalağalı rivayet vardır. Vefatında 49 çocuğu hayattaydı, yedi câriye gebeydi. Bu sayı dönem kaynaklarına dayanır. Adı verilmeyen onlarca çocuk tek tek uydurulmadı. III. Mehmed tahta çıkınca dördü yetişkin (Mustafa, Bayezid, Osman, Abdullah) olmak üzere on dokuz şehzadeyi boğdurdu; yirmi yedi kız Eski Saray'a gönderildi.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "İran savaşı ve Ferhat Paşa Antlaşması",
+      "when": "1578-1590",
+      "foe": "Safevîler",
+      "result": "antlasma",
+      "note": "Geniş toprak alındı. Kalıcılığı zayıftı."
+     },
+     {
+      "name": "Habsburg savaşı",
+      "when": "1593-1606",
+      "foe": "Avusturya",
+      "result": "sonucsuz",
+      "note": "Onun ölümünden sonra da sürdü. 1596 Haçova oğlu devrindedir. 1606 Zitvatorok eşitlik ilkesini getirdi."
+     }
+    ],
+    "legends": [
+     "Yüzlerce çocuk rivayeti mübalağalıdır. TDV'nin tuttuğu somut rakam vefatta 49 hayatta çocuk ve 7 gebeliktir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-iii",
+    "name": "III. Mehmed",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1566,
+    "birthNote": "7 Zilkade 973 / 26 Mayıs 1566, Manisa Sart ovası. Babası III. Murad, annesi Safiye. Adını Sigetvar seferindeyken Kanûnî'nin koyduğu rivayettir.",
+    "death": 1603,
+    "deathNote": "18 Receb 1012 / 22 Aralık 1603. Oğlu I. Ahmed 28 Nisan 1590 doğumluydu ve bu ölüm üzerine tahta çıktı.",
+    "reign": [
+     1595,
+     1603
+    ],
+    "reignNote": "16-17 Ocak 1595'te babasının ölüm haberi, 27 Ocak İstanbul. Cülus 1595. Ölüm 22 Aralık 1603.",
+    "summary": "Tahta çıkınca on dokuz kardeşini boğdurdu. 1596'da Eğri ve Haçova seferine bizzat çıktı; Haçova kritik bir anda döndü ve zafer sayıldı. Celâlî isyanları ve İran cephesi aynı yıllara bindi. 1603'te büyük oğlu Mahmud'u taht şüphesiyle boğdurdu, annesini ve yaklaşık otuz hizmetçisini denize attırdı. Annesi Safiye devlet işlerine karıştı.",
+    "traits": [
+     "TDV: mülâyim, etki altında kalan, kardeş katlinin ağırlığını üzerinden atamayan, son yıllarda içine kapanan bir padişah. Safiye onu kontrol altında tuttu."
+    ],
+    "contribution": "Haçova, uzun savaşın ortasında dağılmayı önleyen bir meydan başarısıdır. Eğri'nin alınması sınırda tutunma sağladı.",
+    "harm": "On dokuz kardeşin katli kardeş katlinin en geniş uygulamasıdır ve tepki, I. Ahmed'in Mustafa'yı sağ bırakmasının gerekçelerinden biri oldu. Şehzade Mahmud'un ve annesinin öldürülmesi. Celâlî ve uzun savaş maliyesi. Safiye'nin müdahalesi kapıkulu ve ulemâda nefret biriktirdi.",
+    "wives": [
+     {
+      "name": "Handan Sultan",
+      "note": "I. Ahmed'in annesi. TDV Ahmed maddesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Adı bilinmeyen Abaza câriye",
+      "note": "I. Mustafa'nın annesi. TDV Mustafa maddesi adını bilmez, Abaza asıllı der.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Şehzade Mahmud'un annesi",
+      "note": "Adı bu okumada geçmez. 7 Haziran 1603'te oğluyla birlikte ortadan kaldırıldı, denize atıldı.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mahmud",
+      "mother": "adı bu okumada yok",
+      "note": "Büyük oğul. 27 Zilhicce 1011 / 7 Haziran 1603 boğuldu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": "Handan Sultan",
+      "note": "28 Nisan 1590 Manisa. Halef.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mustafa",
+      "mother": "adı bilinmeyen Abaza kadın",
+      "note": "Yaklaşık 1591-92 Manisa. Sonraki padişah. Kardeş katlinden Ahmed'in henüz oğlu olmadığı için kurtuldu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer çocuklar",
+      "mother": null,
+      "note": "Sancağa çıkamadan İstanbul'da büyüyen kuşak. Adları bu maddede dökülmeyenler yazılmadı.",
+      "certainty": "tartismali"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Eğri",
+      "when": "1596",
+      "foe": "Habsburg",
+      "result": "zafer",
+      "note": "Sefer-i hümâyun."
+     },
+     {
+      "name": "Haçova",
+      "when": "1596",
+      "foe": "Habsburg ve müttefikler",
+      "result": "zafer",
+      "note": "Ordu bir ara bozuldu, sonra toparlandı. Uzun savaşın en bilinen meydanı."
+     },
+     {
+      "name": "İran cephesi",
+      "when": "1603",
+      "foe": "Safevî Şah Abbas",
+      "result": "yenilgi",
+      "note": "1590 kazançları bu yıldan itibaren geri alınmaya başladı. Savaş oğluna kaldı."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Mehmed",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "ahmed-i",
+    "name": "I. Ahmed",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1590,
+    "birthNote": "28 Nisan 1590, Manisa. Babası III. Mehmed, annesi Handan Sultan. Celâlî yüzünden sancağa çıkamadı.",
+    "death": 1617,
+    "deathNote": "22 Kasım 1617, yirmi sekiz yaşında, elli bir gün süren mide hastalığı. Sultan Ahmed Camii yanına defnedildi.",
+    "reign": [
+     1603,
+     1617
+    ],
+    "reignNote": "22 Aralık 1603'te babasının ölümü üzerine on dört yaşında tahta çıktı. Ölüm 22 Kasım 1617. Yerine oğlu Osman değil amcası Mustafa çıkarıldı; ekberiyet uygulamasının başlangıcı.",
+    "summary": "Safiye Sultan'ı Eski Saray'a gönderdi. 1606 Zitvatorok, Habsburg ile eşitlik esasını getirdi ve uzun savaşı kapattı. Celâlîler Kuyucu Murad Paşa eliyle bastırıldı. İran savaşı sürdü. Sultan Ahmed Camii onun eseridir. Çocukları küçükken ölürse hânedan Mustafa'ya kalacağı için kardeşini öldürtmedi.",
+    "traits": [
+     "Genç yaşta tahta çıkan, av ve hayır işlerine düşkün bir padişah. Kardeş katlini uygulamaması hem zaruret hem tepkinin sonucudur."
+    ],
+    "contribution": "Zitvatorok ile batı cephesinin kapanması, Sultan Ahmed Camii, ekberiyete giden uygulamanın fiilî başlaması. Celâlî şiddetinin bir süre için durulması.",
+    "harm": "Zitvatorok, yıllık haracı ve protokol üstünlüğünü zayıflattı. Celâlî tenkili Anadolu'yu daha da kırdı. İran cephesinde kayıplar. 1617 veraset kararı (Mustafa) kısa sürede darbelere yol açtı.",
+    "wives": [
+     {
+      "name": "Mahfiruz Sultan",
+      "note": "II. Osman'ın annesi. TDV Osman maddesi Mahfîrûz yazar. Kösem maddesi Mahfirûz Hatice der.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Kösem Mahpeyker Sultan",
+      "note": "IV. Murad ve İbrahim'in annesi. Saraya nasıl girdiği bilinmez; Ortodoks papaz kızı ve Bosna kökeni ileri sürülür, kesin değildir. I. Ahmed'in önde gelen hasekisi.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Osman",
+      "mother": "Mahfiruz",
+      "note": "3 Kasım 1604. Sonraki II. Osman. Ahmed'in ilk oğlu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": null,
+      "note": "8 Mart 1605 doğumu Osman maddesinde anılır. II. Osman tarafından, taht sırasında kendisine rakip görüldüğü için öldürtüldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Murad",
+      "mother": "Kösem",
+      "note": "27 Temmuz 1612. Sonraki IV. Murad.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "İbrahim",
+      "mother": "Kösem",
+      "note": "4 Kasım 1615. Sonraki sultan.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Bayezid ve Süleyman",
+      "mother": null,
+      "note": "IV. Murad 1635'te boğdurdu. İbrahim maddesi onları kendi kardeşleri diye anar.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Kasım",
+      "mother": "Kösem?",
+      "note": "IV. Murad 1638'de Bağdat seferi öncesi idam ettirdi. İbrahim ile ana-baba bir kardeşler arasında sayılır.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Zitvatorok",
+      "when": "1606",
+      "foe": "Habsburg",
+      "result": "antlasma",
+      "note": "Yirmi üç gün müzakere, on yedi madde. İki hükümdar eşit sayıldı. Uzun savaş bitti. Büyümenin durduğu yorumu tarihçilerde yaygındır; bu, tek yönlü gerileme etiketi değildir."
+     },
+     {
+      "name": "Celâlî tenkili",
+      "when": "1606-1610",
+      "foe": "Celâlî grupları",
+      "result": "zafer",
+      "note": "Canbolatoğlu, Kalenderoğlu ve diğerleri. Bastırma ağır tahribatla geldi."
+     },
+     {
+      "name": "İran seferleri",
+      "when": "1603-1617",
+      "foe": "Safevîler",
+      "result": "yenilgi",
+      "note": "Şah Abbas Revân ve başka kaleleri geri aldı. Savaş kapanmadı."
+     }
+    ],
+    "legends": [
+     "Kösem'in, Osman'ın yerine Mustafa'yı çıkarmak için 1617 komplosunun içinde olduğu rivayettir. TDV bunu rivayet diye yazar."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Ahmed",
+      "url": "https://islamansiklopedisi.org.tr/ahmed-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mustafa-i",
+    "name": "I. Mustafa",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1591,
+    "birthNote": "Muhtemelen 1000 (1591-92), Manisa. Gün yok. Babası III. Mehmed. Annesi Abaza asıllı, adı bilinmiyor.",
+    "death": 1639,
+    "deathNote": "15 Ramazan 1048 / 20 Ocak 1639. İkinci saltanattan uzun yıllar sonra, kafes hayatı içinde öldü. TDV cümlesi kardeşleri Süleyman ve Bayezid'i öldürten IV. Murad bağlamında kesilir; tarih aktarılır.",
+    "reign": [
+     1617,
+     1623
+    ],
+    "reignNote": "İki saltanat, tek kart. Birinci: I. Ahmed'in 22 Kasım 1617 ölümünden II. Osman'ın 26 Şubat 1618 cülusuna (yaklaşık doksan altı gün). İkinci: II. Osman'ın 20 Mayıs 1622 katlinden IV. Murad'ın 10 Eylül 1623 cülusuna. Klasik sayımda bir padişahtır.",
+    "summary": "Ahmed'in oğlu Osman dururken, henüz padişahın erkek vârisi yokken ve III. Mehmed'in katliamı nefretle hatırlanırken tahta çıkarıldı. Aklî dengesi yerinde değildi. İlk saltanatı kısa sürdü. İkincisi yeniçeri darbesinin eseridir; annesi ve damadı Dâvud Paşa fiilen iş gördü. 1623'te indirilip yerine çocuk Murad çıkarıldı.",
+    "traits": [
+     "TDV ve Peçuylu: aklî melekeleri zayıf, ikinci saltanatında daha da kötüleşmiş. Saray dedikodusu ve 'Deli' lakabı bu gözleme dayanır; klinik teşhis yoktur."
+    ],
+    "contribution": "Kendisinin kurumsal eseri yoktur. Tahta çıkışı, kardeş katli yerine hânedanın en büyüğünün geçmesi uygulamasını başlattı. Bu, sonraki padişahların kafes hayatı pahasına hânedanın tükenmemesini sağladı.",
+    "harm": "İkinci saltanatında II. Osman'ın katli meşrulaştırıldı. Dâvud Paşa ve vâlide etrafında rüşvet ve tevcih. Devletin fiilen sahipsiz kaldığı aylar Kapıkulu'nun darbesini normalleştirdi.",
+    "wives": [],
+    "children": [],
+    "wars": [],
+    "legends": [
+     "Tahttayken denizlere altın atması gibi hikâyeler aklî zafiyet edebiyatıdır. TDV siyasi anlatıyı esas alır, bu hikâyeleri olgu diye kurmaz."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Mustafa",
+      "url": "https://islamansiklopedisi.org.tr/mustafa-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "osman-ii",
+    "name": "II. Osman",
+    "title": "Sultan, Genç Osman",
+    "claim": false,
+    "birth": 1604,
+    "birthNote": "10 Cemâziyelâhir 1013 / 3 Kasım 1604 Çarşamba, İstanbul. Babası I. Ahmed, annesi Mahfiruz. Ahmed'in ilk oğlu olduğu için Osman Gazi'nin adı verildi.",
+    "death": 1622,
+    "deathNote": "20 Mayıs 1622'de yeniçeriler yakaladı. Yedikule'de boğuldu. Kulak ve burnunun kesilip vâlideye gösterildiği bazı tarihçilerde vardır. Ceset gizlice Topkapı'ya getirildi.",
+    "reign": [
+     1618,
+     1622
+    ],
+    "reignNote": "1 Rebîülevvel 1027 / 26 Şubat 1618'de amcasının indirilmesiyle tahta çıktı. 20 Mayıs 1622'de katledildi.",
+    "summary": "Hotin seferine (1621) bizzat çıktı, kaleyi alamadı, Lehistan ile ağır şartlarda döndü. Yeniçeriye güveni sarsılınca hac ve Anadolu askeri toplama söylentisi isyanı büyüttü. Kardeşi Mehmed'i öldürttü. Yakalanıp Yedikule'de boğulması, padişah katlinin kapıkulu eliyle meşrulaştığı eşiktir.",
+    "traits": [
+     "Genç, hırslı, kapıkuluna karşı alternatif ordu arayan bir padişah. Amcasının kendisi dururken tahta çıkarılmasından kırgındı. TDV onu gazi hükümdar tipini canlandırmaya çalışan son örneklerden sayar."
+    ],
+    "contribution": "Hotin seferi sonuçsuz olsa da padişahın sefere çıkma iradesini gösterdi. Yeniçeri disiplinini düzeltme teşebbüsü, başarısız da olsa sorunu görünür kıldı.",
+    "harm": "Kardeşi Mehmed'in katli. Hotin'in başarısızlığı ve dönüşte asker ücretine müdahale isyanı besledi. Öldürülmesi padişah kanının dökülmesini siyaset aracı yaptı. Oğlu Ömer'in 1622'de kaza kurşunuyla ölmesi hânedan umudunu kısalttı.",
+    "wives": [
+     {
+      "name": "Ayşe",
+      "note": "Venedik kaynakları: Rus/Ukrayna asıllı, Kızlarağası Mustafa Ağa'nın yetiştirdiği, nikâhlı hanım. Şehzade Ömer'in annesi diye anılır.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Pertev Paşa ailesinden bir kız",
+      "note": "1622'de, Ömer'in ölümünden sonra nikâh.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Âkıle",
+      "note": "Şeyhülislâm Esad Efendi'nin kızı. Ulemâyı yanına çekmek için nikâhlandığı düşünülür.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Ömer",
+      "mother": "Ayşe?",
+      "note": "Edirne'de doğum müjdesi. 1622 Şubat'ında Hotin temsilî gösterisinde seken kurşunla öldü.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Hotin",
+      "when": "1621",
+      "foe": "Lehistan",
+      "result": "sonucsuz",
+      "note": "Kale alınamadı. Antlaşmayla dönüldü. Padişah ordunun başındaydı."
+     }
+    ],
+    "legends": [
+     "Genç Osman menkıbeleri şehadet edebiyatına dönüşmüştür. Katlin kendisi görgü şahitli tarihçilerle sabittir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Osman",
+      "url": "https://islamansiklopedisi.org.tr/osman-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "murad-iv",
+    "name": "IV. Murad",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1612,
+    "birthNote": "28 Cemâziyelevvel 1021 / 27 Temmuz 1612, İstanbul. Babası I. Ahmed, annesi Kösem.",
+    "death": 1640,
+    "deathNote": "15 Şevval 1049 / 8 Şubat 1640 Perşembe, yatsıdan sonra. Şehzade Kasım'ı boğdurduğu odada öldü. Sultan Ahmed Camii yanında babasının türbesine gömüldü. Son günlerde ara sıra şuurunu kaybettiği nakledilir.",
+    "reign": [
+     1623,
+     1640
+    ],
+    "reignNote": "15 Zilkade 1032 / 10 Eylül 1623'te, amcası Mustafa indirilerek, annesinin de tesiriyle çocuk yaşta tahta çıktı. 1632'ye kadar valide ve ocak nüfuzu güçlüdür. Ölüm 8 Şubat 1640.",
+    "summary": "İlk yıllar isyanlar ve valide naipliğiyle geçti. 1632'den sonra bizzat idare etti. Revan (1635) ve Bağdat (1638) seferleri, 1639 Kasr-ı Şirin ile İran sınırını uzun süre sabitledi. İçki, tütün ve gece sokağa çıkma yasakları ve sık idamlarla düzen kurdu. Kardeşleri Bayezid, Süleyman ve Kasım'ı öldürttü; tek erkek vârisi İbrahim kaldı.",
+    "traits": [
+     "Sert, bizzat kılıç kullanan, yasağı önce kendisi çiğneyebilen bir padişah. Kösem'in onu eğlenceyle oyaladığı, sonra oğlunun sertleşmesinden çekindiği yazılır. Gazi hükümdar tipini XVII. yüzyılda yeniden deneyen örneklerdendir."
+    ],
+    "contribution": "Kasr-ı Şirin (1639) ile Bağdat, Van, Kars ve Kuzey Irak çizgisinin tasdiki. Revan ve Bağdat seferleri doğu cephesini kapattı. İstanbul'da asayişin sert tedbirle sağlanması kısa vadede düzen getirdi.",
+    "harm": "Kardeş katli hânedanı tek kişiye, İbrahim'e indirdi. Keyfî idamlar (Şeyhülislâm Ahîzâde dahil) ulemâyı sindirdi. Yasaklar ve içki düşkünlüğü aynı kişide çelişti. Anadolu'da isyan tenkili köylüyü de vurdu.",
+    "wives": [
+     {
+      "name": "Adları bu okumada dökülmeyen hasekiler",
+      "note": "Kızı Kaya Sultan Silâhdar Mustafa Paşa ile evlendirilmek istendi. Anne adı bu pasajda geçmez.",
+      "certainty": "tartismali"
+     }
+    ],
+    "children": [
+     {
+      "name": "Kaya Sultan",
+      "mother": null,
+      "note": "Kösem'in torunu olarak evlilik siyasetinde adı geçer. Babası IV. Murad.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Küçük yaşta ölen oğullar",
+      "mother": null,
+      "note": "İbrahim maddesi: IV. Murad'ın oğulları çok küçük yaşta öldü; bu yüzden İbrahim tek vârisi kaldı. Adlar uydurulmadı.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Revan",
+      "when": "1635",
+      "foe": "Safevîler",
+      "result": "zafer",
+      "note": "Kale alındı. Kalıcılığı sınırlı kaldı."
+     },
+     {
+      "name": "Bağdat",
+      "when": "1638",
+      "foe": "Safevîler",
+      "result": "zafer",
+      "note": "Bağdat geri alındı."
+     },
+     {
+      "name": "Kasr-ı Şirin",
+      "when": "1639",
+      "foe": "Safevîler",
+      "result": "antlasma",
+      "note": "Sınır uzun süre esas kaldı. TDV Osmanlılar."
+     }
+    ],
+    "legends": [
+     "Gece tebdili ve anında idam hikâyelerinin bir kısmı gözlem, bir kısmı abartıdır. Sertlik politikasının kendisi belgelidir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, IV. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-iv"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "ibrahim",
+    "name": "İbrahim",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1615,
+    "birthNote": "12 Şevval 1024 / 4 Kasım 1615. Babası I. Ahmed, annesi Kösem. Tahta çıktığında yirmi beş yaşındaydı.",
+    "death": 1648,
+    "deathNote": "Hal' 18 Receb 1058 / 8 Ağustos 1648. Öldürülme: Kâtib Çelebi'nin 8 Şâban tarihi TDV yazarı tarafından 28 Receb / 18 Ağustos 1648 diye düzeltilir. Cellât Kara Ali. Gılmânî, sadrazam, şeyhülislâm ve nakîbüleşrafın boğdurduğunu yazar.",
+    "reign": [
+     1640,
+     1648
+    ],
+    "reignNote": "8 Şubat 1640'ta ağabeyinin ölümüyle, hânedanın tek erkeği olarak tahta çıktı. 8 Ağustos 1648'de indirildi, 18 Ağustos 1648'de öldürüldü.",
+    "summary": "Yıllarca öldürüleceği korkusuyla yaşadı. İlk yıllar Kemankeş Kara Mustafa Paşa idaresinde sakin, onun 1644 idamından sonra saray musahipleri ve câriye rekabeti belirleyici oldu. 1645'te Girit savaşı başladı. 1648'de yeniçeri ve Kösem'in de dahil olduğu darbe ile indirildi, yerine yedi yaşındaki oğlu IV. Mehmed çıkarıldı.",
+    "traits": [
+     "TDV: çocukluk ve kardeş katli travması sinirlerini bozmuştu. Kapris, kürk ve koku düşkünlüğü, musahiplere açıklık dönem kaynaklarında vardır. 'Deli' lakabı klinik teşhis değildir; siyasî literatürdür."
+    ],
+    "contribution": "Sekiz oğlu hânedanın sürmesini sağladı; sonraki bütün padişahlar onun soyundandır (TDV Osmanlılar). Girit savaşını başlatması adanın 1669'da alınmasına giden yolu açtı, bedeli uzundu.",
+    "harm": "Girit savaşı maliyesi ve Venedik'in Çanakkale ablukası. Sadrazamların sık idamı. Kaprisli tevcihler. Hal' ve boğulma padişah katlini tekrarladı. Küçük yaştaki oğlunun tahta çıkması valide nüfuzunu kurumsallaştırdı.",
+    "wives": [
+     {
+      "name": "Hatice Turhan",
+      "note": "IV. Mehmed'in annesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Sâliha Dilâşub",
+      "note": "II. Süleyman'ın annesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hatice Muazzez",
+      "note": "II. Ahmed'in annesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ayşe",
+      "note": "TDV'nin saydığı zevcelerdendir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mâhenver",
+      "note": "Aynı liste.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Şîvekâr",
+      "note": "Aynı liste.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hümâşah",
+      "note": "Aynı liste. Telli Haseki diye de anılır; bu okumada lakap ayrıca doğrulanmadı, ad TDV listesindedir.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mehmed",
+      "mother": "Hatice Turhan",
+      "note": "2 Ocak 1642. IV. Mehmed.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Süleyman",
+      "mother": "Sâliha Dilâşub",
+      "note": "15 Nisan 1642. II. Süleyman.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": "Hatice Muazzez",
+      "note": "25 Şubat 1643. II. Ahmed.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Murad",
+      "mother": null,
+      "note": "TDV iki ayrı Murad sayar. Küçük yaşta öldüler.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Orhan",
+      "mother": null,
+      "note": "Küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Bayezid",
+      "mother": null,
+      "note": "Küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Cihangir",
+      "mother": null,
+      "note": "Küçük yaşta öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Selim",
+      "mother": null,
+      "note": "Küçük yaşta öldü.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Girit savaşı",
+      "when": "1645-1648",
+      "foe": "Venedik",
+      "result": "sonucsuz",
+      "note": "Onun döneminde başladı. Hanya alındı, Kandiye 1669'a kadar düşmedi. Sonuç oğlunun saltanatına kaldı."
+     }
+    ],
+    "legends": [
+     "Samur ve amber düşkünlüğü abartılı fıkralara bağlanır. Siyasî istikrarsızlık ve Girit savaşı belgedir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, İbrahim",
+      "url": "https://islamansiklopedisi.org.tr/ibrahim"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-iv",
+    "name": "IV. Mehmed",
+    "title": "Sultan, Avcı",
+    "claim": false,
+    "birth": 1642,
+    "birthNote": "30 Ramazan 1051 / 2 Ocak 1642, İstanbul. Babası İbrahim, annesi Hatice Turhan.",
+    "death": 1693,
+    "deathNote": "28 Rebîülâhir 1104 / 6 Ocak 1693, Edirne. Naaşı İstanbul'da Turhan Sultan'ın Yenicami civarındaki türbesine kondu. Tahttan indirilişi 1687'dedir; ölüm indirildikten sonradır.",
+    "reign": [
+     1648,
+     1687
+    ],
+    "reignNote": "18 Receb 1058 / 8 Ağustos 1648'de yedi yaşında tahta çıktı. 1687'de hal' edildi. Yerine oğlu değil kardeşi II. Süleyman geçti. Ölüm 1693.",
+    "summary": "Çocukluğu Kösem ile Turhan çekişmesi ve 1651'de Kösem'in öldürülmesiyle geçti. Köprülü Mehmed (1656) ve Fâzıl Ahmed paşalar döneminde Girit tamamlandı (1669), Uyvar (1663) ve Kamaniçe (1672) alındı. 1683 Viyana bozgunu çok cepheli savaşa döndü. 1687'de ordu onu indirip Süleyman'ı çıkardı. Av merakı 'Avcı' lakabını doğurdu.",
+    "traits": [
+     "Ava tutkulu. Seferde bulundu ama Viyana kararını Merzifonlu Kara Mustafa'ya bıraktı. Oğlu Mustafa'nın geçmesini istedi, erkân Süleyman'ı seçti."
+    ],
+    "contribution": "Köprülü restorasyonu: Boğaz ablukasının kalkması, Kandiye'nin düşmesi, Uyvar ve Podolya'da batının en geniş sınırına yaklaşma. Turhan Sultan'ın Yenicami'yi tamamlaması bu saltanatın imar yüzüdür.",
+    "harm": "1683 Viyana bozgunu ve ardından Budin (1686), Uyvar ve Macaristan hattının kaybı. Çocuk padişah yıllarında valide ve ocak cinayetleri. Av partilerinin devlet işini ikinci plana atması çağdaş eleştiridir.",
+    "wives": [
+     {
+      "name": "Gülnûş Emetullah (Râbia Gülnûş)",
+      "note": "II. Mustafa ve III. Ahmed'in annesi. TDV Mustafa ve Ahmed maddeleri.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mustafa",
+      "mother": "Gülnûş Emetullah",
+      "note": "2 Haziran 1664 Edirne. Sonraki II. Mustafa.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": "Gülnûş Emetullah",
+      "note": "31 Aralık 1673. Sonraki III. Ahmed.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Bir kız",
+      "mother": null,
+      "note": "1675 Edirne şenliğinde oğullarıyla birlikte evlilik ve sünnet düğünü yapılan kızın adı bu pasajda geçmez.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Kandiye",
+      "when": "1669",
+      "foe": "Venedik",
+      "result": "zafer",
+      "note": "Girit'in tamamlanması. Savaş 1645'te başlamıştı."
+     },
+     {
+      "name": "Uyvar",
+      "when": "1663",
+      "foe": "Habsburg",
+      "result": "zafer",
+      "note": "Batıda en ileri hattlardan biri. 1685'te kaybedildi."
+     },
+     {
+      "name": "Kamaniçe",
+      "when": "1672",
+      "foe": "Lehistan",
+      "result": "zafer",
+      "note": "Podolya. 1676 Zuravno ve 1681 Rus antlaşması bu genişlemeyi bir süre tasdik etti."
+     },
+     {
+      "name": "II. Viyana",
+      "when": "1683",
+      "foe": "Habsburg ve müttefikler",
+      "result": "yenilgi",
+      "note": "Kuşatma başarısız. Ardından çok cepheli savaş ve 1699 Karlofça."
+     },
+     {
+      "name": "Budin'in kaybı",
+      "when": "1686",
+      "foe": "Habsburg",
+      "result": "yenilgi",
+      "note": "1541'den beri tutulan merkez elden çıktı. Onun hal'inden hemen önce ve hal' sürecinde."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, IV. Mehmed",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-iv"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "suleyman-ii",
+    "name": "II. Süleyman",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1642,
+    "birthNote": "15 Muharrem 1052 / 15 Nisan 1642 (bazı kaynaklar 14, bir belge 16 Muharrem), İstanbul. Babası İbrahim, annesi Sâliha Dilâşub.",
+    "death": 1691,
+    "deathNote": "25 Ramazan 1102 / 22 Haziran 1691 Cuma, öğleye doğru, Edirne civarı sefer hazırlığında. Yerine kardeşi II. Ahmed'in geçmesini vasiyet etti.",
+    "reign": [
+     1687,
+     1691
+    ],
+    "reignNote": "1687'de IV. Mehmed indirilerek, kırk yıldan uzun kafes hayatından çıkarıldı. 22 Haziran 1691'de öldü.",
+    "summary": "Karlofça öncesi buhranın padişahı. Cülus bahşişi ve Sancak Vakası ile başladı. Köprülüzâde Fâzıl Mustafa Paşa'yı cephede tuttu. 1691'de ordunun başında gibi sefere niyetlendi, yolda öldü. Aynı yıl Salankamen'de Fâzıl Mustafa şehid düştü.",
+    "traits": [
+     "Uzun hapis yüzünden zayıf eğitim, kırılgan mizaç. Saray odaklarının etkisinde kaldı. Annesinin ölümünden sonra Kethüdâ Kadın'a has tayini gibi alışılmadık bir uygulama yaptı."
+    ],
+    "contribution": "Orduyu tamamen dağıtmadan savaşı sürdürme iradesi. Kardeşi Ahmed'e düzenli geçiş vasiyeti ekberiyeti işletti.",
+    "harm": "Saltanatı kayıplarla geçti. Cülus isyanı İstanbul'u karıştırdı. Kısa sürede siyasî inisiyatif sadrazama kaldı.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "Sancak Vakası",
+      "when": "1687-1688",
+      "foe": "Kapıkulu",
+      "result": "sonucsuz",
+      "note": "İç isyan. Padişah indirilmek istendi, dört ay süren karışıklık kapandı."
+     },
+     {
+      "name": "Salankamen",
+      "when": "1691",
+      "foe": "Habsburg",
+      "result": "yenilgi",
+      "note": "Fâzıl Mustafa Paşa şehid, ordu dağıldı. Padişah sonucu göremeden ölmüştü; savaş onun sefer kararının devamıdır."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Süleyman",
+      "url": "https://islamansiklopedisi.org.tr/suleyman-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "ahmed-ii",
+    "name": "II. Ahmed",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1643,
+    "birthNote": "6 Zilhicce 1052 / 25 Şubat 1643. Babası İbrahim, annesi Muazzez Sultan.",
+    "death": 1695,
+    "deathNote": "6 Şubat 1695, Edirne, istiska (ödem), elli iki yaşında.",
+    "reign": [
+     1691,
+     1695
+    ],
+    "reignNote": "23 Haziran 1691'de Edirne'de, kırk dokuz yaşında tahta çıktı. 6 Şubat 1695'te öldü.",
+    "summary": "Avusturya savaşı sürerken tahta çıktı. Salankamen sonrası ordu dağılmıştı. Sadrazamlar sık değişti. Sakız Venedik tarafından basıldı; kurtarma hazırlığı ölümüne yetişmedi. Yerine yeğeni II. Mustafa geçti.",
+    "traits": [
+     "Kısa saltanat. Siyasî portresi savaş haberleri ve azillerle doludur; kişisel huy üzerine TDV az konuşur."
+    ],
+    "contribution": "Hânedan geçişini sürdürdü. Müstakil bir ıslahat hamlesi bu okumada yoktur.",
+    "harm": "Varad'ın kaybı ve Sakız baskını moral bozdu. Savaş maliyeti sürdü. Kısa saltanat cepheye istikrar vermedi.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "Salankamen sonrası",
+      "when": "1691",
+      "foe": "Habsburg",
+      "result": "yenilgi",
+      "note": "Tahta çıktığında bozgun olmuştu. Fâzıl Mustafa ölmüştü."
+     },
+     {
+      "name": "Sakız",
+      "when": "1694-1695",
+      "foe": "Venedik",
+      "result": "yenilgi",
+      "note": "Ada basıldı. Kurtarma emri verdi, tamamlayamadan öldü. Ada sonra geri alındı."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Ahmed",
+      "url": "https://islamansiklopedisi.org.tr/ahmed-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mustafa-ii",
+    "name": "II. Mustafa",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1664,
+    "birthNote": "8 Zilkade 1074 / 2 Haziran 1664, Edirne. Babası IV. Mehmed, annesi Gülnûş Emetullah. Doğumda yedi gün şenlik.",
+    "death": 1703,
+    "deathNote": "Muhtemelen 20 Şâban 1115 / 29 Aralık 1703, Edirne. İstiska ve mesane hastalığı, tahttan indirilmenin üzüntüsü. Bazı Batı kaynakları zehir söylentisini halk kanaati diye yazar; TDV bunu kanaat diye aktarır, olgu diye kesinlemez. Hal' 1703 Edirne Vakası.",
+    "reign": [
+     1695,
+     1703
+    ],
+    "reignNote": "Amcası II. Ahmed'in 6 Şubat 1695 ölümünden sonra tahta çıktı. 1703'te Edirne Vakası ile indirildi. Ölüm aynı yıl Aralık.",
+    "summary": "Bizzat üç Avusturya seferine çıktı. 1697 Zenta bozgunu 1699 Karlofça'ya giden yolu açtı. Macaristan hattı, Mora'nın bir kısmı ve Podolya bırakıldı. Hocası Feyzullah Efendi'nin nüfuzu Edirne Vakası'nın hedefi oldu. Yerine kardeşi III. Ahmed çıktı.",
+    "traits": [
+     "Seferde zırh ve sorguçla görünen, gazi tipini deneyen son örneklerden. Edirne'yi İstanbul'a tercih etmesi payitaht gerilimi yarattı."
+    ],
+    "contribution": "Kişisel seferleri orduyu bir süre toparladı. Karlofça, ağır da olsa çok cepheli savaşı kapattı ve diplomasi dönemini açtı.",
+    "harm": "Zenta ve Karlofça, 1526'dan beri tutulan Macaristan'ın elden çıkışının belgesidir. Feyzullah nüfuzu merkezî meşruiyeti yıprattı. Edirne'de oturması İstanbul ocaklarını isyana itti.",
+    "wives": [
+     {
+      "name": "Sâliha Sultan",
+      "note": "I. Mahmud'un annesi. 1680 doğumlu ve Rum asıllı olduğu ileri sürülür. 2 Ağustos 1696'da Edirne'de Mahmud'u doğurdu.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Şehsuvar Vâlide Sultan",
+      "note": "III. Osman'ın annesi.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mahmud",
+      "mother": "Sâliha Sultan",
+      "note": "2 Ağustos 1696 Edirne. I. Mahmud.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Osman",
+      "mother": "Şehsuvar",
+      "note": "3 Ocak 1699 Edirne. III. Osman.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer şehzadeler",
+      "mother": null,
+      "note": "Edirne Vakası sonrası kardeşleriyle İstanbul'a getirildiler. Adları bu okumada dökülmedi.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Avusturya seferleri",
+      "when": "1695-1697",
+      "foe": "Habsburg",
+      "result": "sonucsuz",
+      "note": "1695'te bizzat çıktı. Kalıcı dönüş olmadı."
+     },
+     {
+      "name": "Zenta",
+      "when": "1697",
+      "foe": "Habsburg (Eugen)",
+      "result": "yenilgi",
+      "note": "Ağır bozgun."
+     },
+     {
+      "name": "Karlofça",
+      "when": "1699",
+      "foe": "Habsburg, Venedik, Lehistan, (Ruslarla İstanbul antlaşması ayrı)",
+      "result": "antlasma",
+      "note": "Macaristan hattı ve başka topraklar bırakıldı. TDV Osmanlılar."
+     }
+    ],
+    "legends": [
+     "Zehirlenerek öldürüldüğü halk söylentisidir; TDV hastalık ve üzüntüyü esas alır."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Mustafa",
+      "url": "https://islamansiklopedisi.org.tr/mustafa-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "ahmed-iii",
+    "name": "III. Ahmed",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1673,
+    "birthNote": "22 Ramazan 1084 / 31 Aralık 1673 Pazar. Babası IV. Mehmed, annesi Râbia Emetullah Gülnûş. İlk hoca Şeyh-i Sultânî Mehmed Efendi, sonra Feyzullah Efendi.",
+    "death": 1736,
+    "deathNote": "14 Safer 1149 / 24 Haziran 1736, altmış üç yaşında. Saltanatı 1730'da bitti; ölüm indirildikten sonradır.",
+    "reign": [
+     1703,
+     1730
+    ],
+    "reignNote": "Edirne Vakası: 17 Ağustos 1703'te tahta çıkarılmasına karar verildi, 18 Ağustos'ta Çorlu'da hutbe okundu. 2 Ekim 1730 Patrona Halil isyanıyla feragat etti. Ölüm 1736.",
+    "summary": "Prut (1711) Rus seferini durdurdu. Mora Venedik'ten geri alındı (1715). 1716 Petervaradin ve 1718 Pasarofça ile Tımışvar, Belgrad ve Küçük Eflak Avusturya'ya geçti. 1718-1730 görece sakin yıllar sonradan Lale Devri diye anıldı. 1723'te İran savaşı açıldı. 1730'da Patrona isyanı damadı İbrahim Paşa'yı ve kendi saltanatını bitirdi.",
+    "traits": [
+     "Teşrifata ve İstanbul mesiresine düşkün. İsyan başında damatlarını feda ederek tahtı korumaya çalıştı, yetmedi."
+    ],
+    "contribution": "Prut ile Rusya'nın bir süre durdurulması, Mora'nın geri alınması, matbaanın (İbrahim Müteferrika, 1727) şeyhülislâm fetvasıyla açılması, çeşme ve yalı mimarisi. Diplomasinin savaş kadar gerekli görüldüğü bir eşik.",
+    "harm": "Pasarofça ile Belgrad ve Tımışvar kaybı. Lale Devri harcamaları ve İran savaşı Patrona isyanının bahanesi oldu. Damatlarının boğdurulması isyanı durdurmadı. Birçok oğlu küçük yaşta öldü; hânedan daraldı.",
+    "wives": [
+     {
+      "name": "Adları bu okumada tek tek dökülmeyen kadınlar",
+      "note": "TDV: hanımlarından birçok oğlu oldu, çoğu küçük yaşta öldü. I. Mahmud'un annesi Sâliha, II. Mustafa'nın kadınıdır, III. Ahmed'in eşi değildir.",
+      "certainty": "tartismali"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mustafa",
+      "mother": "Mihrişah Emine Sultan",
+      "note": "28 Ocak 1717 Edirne. Sonraki III. Mustafa. Annesi Mihrişah Emine; bazı yerlerde yanlışlıkla Mihrimah yazılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Abdülhamid",
+      "mother": "Râbia Şermi Sultan",
+      "note": "20 Mart 1725 İstanbul. Sonraki I. Abdülhamid.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Küçük yaşta ölen oğullar",
+      "mother": null,
+      "note": "TDV çoğunun küçük öldüğünü söyler. Adlar uydurulmadı. 1730-1757 arasında erkek şehzade doğmaması III. Selim'in doğumunu bayram yaptırdı; bu, Ahmed'in hayatta kalan oğullarının kendi çocuklarının geç gelmesindendir.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Prut",
+      "when": "1711",
+      "foe": "Rusya (Petro)",
+      "result": "antlasma",
+      "note": "Baltacı Mehmed Paşa. Rus ordusu kuşatıldı, antlaşmayla çıkarıldı. Tam yok etme olmadı."
+     },
+     {
+      "name": "Mora",
+      "when": "1715",
+      "foe": "Venedik",
+      "result": "zafer",
+      "note": "Yarımada geri alındı."
+     },
+     {
+      "name": "Petervaradin",
+      "when": "1716",
+      "foe": "Avusturya",
+      "result": "yenilgi",
+      "note": "Belgrad'ın kaybına giden bozgun."
+     },
+     {
+      "name": "Pasarofça",
+      "when": "1718",
+      "foe": "Avusturya ve Venedik",
+      "result": "antlasma",
+      "note": "Tımışvar, Küçük Eflak ve Belgrad Avusturya'da. Mora Osmanlı'da kaldı."
+     },
+     {
+      "name": "İran savaşı",
+      "when": "1723-1730",
+      "foe": "Safevî / Afgan karmaşası",
+      "result": "sonucsuz",
+      "note": "Onun feragatına kadar kapanmadı. I. Mahmud devrine sarktı."
+     }
+    ],
+    "legends": [
+     "Lale Devri adı sonraki edebiyatın etiketidir. TDV dönemi müreffeh ve Batı'ya ilgili bir ara sayar; isyan bu ara dönemi kesti."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Ahmed",
+      "url": "https://islamansiklopedisi.org.tr/ahmed-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mahmud-i",
+    "name": "I. Mahmud",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1696,
+    "birthNote": "3 Muharrem 1108 / 2 Ağustos 1696, Edirne. Babası II. Mustafa, annesi Sâliha Sultan. Yirmi yedi yıl kafes hayatı. Kuyumculukla uğraştığı yazılır.",
+    "death": 1754,
+    "deathNote": "27 Safer 1168 / 13 Aralık 1754, cuma namazından dönerken Topkapı Demirkapı'da.",
+    "reign": [
+     1730,
+     1754
+    ],
+    "reignNote": "19 Rebîülevvel 1143 / 2 Ekim 1730 Patrona isyanıyla tahta çıktı. 13 Aralık 1754'te öldü.",
+    "summary": "Patrona artığı isyanı dağıttı. İran savaşları Nadir Şah ile gidip geldi, 1746'da Kasr-ı Şirin sınırına dönüldü. 1736-39'da Avusturya ve Rusya ile savaştı; 1739 Belgrad Antlaşması Pasarofça kayıplarının bir kısmını geri aldı. Ülkeye uzun bir barış bıraktı. Çocuğu olmadı; yerine kardeşi III. Osman geçti.",
+    "traits": [
+     "Kafeste kuyumculuk öğrenmiş, sefere bizzat çıkmayan, sadrazam ve Beşir Ağa dengesiyle idare eden bir padişah. TDV onu haleflerine barış bırakan son parlak dönem hükümdarı diye anar; bu övgü 1739'a göredir, sonrasız bir altın çağ iddiası değildir."
+    ],
+    "contribution": "Belgrad'ın 1739'da geri alınması, Nadir Şah savaşının sınır değiştirmeden kapanması, İstanbul suyu (bentler, Tophane çeşmesi), Cağaloğlu Hamamı ve Ayasofya kütüphanesine gelir. Barış yılları mali nefesi genişletti.",
+    "harm": "İran savaşları 1730-46 arasında hazineyi yordu. Nadir'in Caferîliği beşinci mezhep saydırma teklifi ulemâca reddedildi; mezhep düşmanlığı sürdü. Çocuksuzluk hânedanı kardeş koluna mecbur etti. Patrona artıklarının temizliği kanlı oldu.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "Patrona artığı",
+      "when": "1730-1731",
+      "foe": "İstanbul isyancıları",
+      "result": "zafer",
+      "note": "İsyan bastırıldı, saltanat kaldı."
+     },
+     {
+      "name": "Belgrad savaşı ve antlaşması",
+      "when": "1739",
+      "foe": "Avusturya ve Rusya",
+      "result": "antlasma",
+      "note": "Belgrad ve Pasarofça'da kaybedilen bir kısım yer geri geldi. Azak yıkılıp tampon oldu."
+     },
+     {
+      "name": "Nadir Şah savaşları",
+      "when": "1730-1746",
+      "foe": "İran",
+      "result": "antlasma",
+      "note": "1746'da Kasr-ı Şirin sınırına dönüldü. Kalıcı fetih yok."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Mahmud",
+      "url": "https://islamansiklopedisi.org.tr/mahmud-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "osman-iii",
+    "name": "III. Osman",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1699,
+    "birthNote": "1 Receb 1110 / 3 Ocak 1699, Edirne Sarayı. Babası II. Mustafa, annesi Şehsuvar Vâlide Sultan.",
+    "death": 1757,
+    "deathNote": "16 Safer 1171 / 30 Ekim 1757.",
+    "reign": [
+     1754,
+     1757
+    ],
+    "reignNote": "13 Aralık 1754'te, elli sekiz yaşında, elli üç yıl kafesten sonra tahta çıktı. 30 Ekim 1757'de öldü.",
+    "summary": "Kısa ve çocuksuz bir saltanat. Kadınların giyimi ve sokağa çıkmasına dair yasaklar sürdü. Sadrazamlar sık değişti. Karaosmanoğlu Hacı Mustafa Ağa idam edildi. Veliaht Mehmed 1756'da öldü; zehir iddiası çağdaş eserlerde Köse Mustafa Paşa'ya bağlanır, TDV iki farklı yorum bulunduğunu söyler. Yerine III. Mustafa geçti.",
+    "traits": [
+     "Tebdilde ulemâ kıyafeti ve 'Edirneli Osman Ağa' diye tanıtılması nakledilir. Piştahta ve çekmece yaptığı kafes yıllarından gelir. Kadınlara karşı mesafe ve yasak siyaseti öne çıkar."
+    ],
+    "contribution": "Müstakil bir dış zaferi yoktur. Hânedan geçişini sürdürdü. Nüfuzlu âyan örneği Karaosmanoğlu'nun idamı merkezî iddianın devamıdır, kalıcı çözüm değildir.",
+    "harm": "Kısa saltanat ve sık azil istikrarsızlık getirdi. Kadın dolaşım yasakları sosyal hayatı sıkıştırdı. Çocuksuzluk III. Mustafa'nın şehzadeliğini tehlikeli kıldı.",
+    "wives": [
+     {
+      "name": "Leylâ",
+      "note": "Başkadınefendi. Cülusun ilk aylarından itibaren adı bilinir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Zevki",
+      "note": "Üçüncü kadınefendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ferhunde Emine",
+      "note": "Dördüncü kadınefendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Dördüncü bir kadın ve ikballer",
+      "note": "TDV: adı bilinen üçü olmak üzere dört kadın ve sayısı dörde varan ikbal. Dördüncü kadının adı bu cümlede ayrılmaz.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Osman",
+      "url": "https://islamansiklopedisi.org.tr/osman-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mustafa-iii",
+    "name": "III. Mustafa",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1717,
+    "birthNote": "14 Safer 1129 / 28 Ocak 1717, Edirne. Babası III. Ahmed, annesi Mihrişah Emine Sultan. Mihrimah yazımı yanlıştır.",
+    "death": 1774,
+    "deathNote": "Oğlu III. Selim'in değil, kardeşi I. Abdülhamid'in cülusu 21 Ocak 1774'tür; III. Mustafa bu tarihte öldü. TDV Abdülhamid maddesi 'III. Mustafa'nın ölümü üzerine' der. Gün, halefin cülus günüyle aynı kaydedilir.",
+    "reign": [
+     1757,
+     1774
+    ],
+    "reignNote": "16 Safer 1171 / 30 Ekim 1757'de tahta çıktı. 21 Ocak 1774'te öldü. Küçük Kaynarca antlaşması ölümünden sonra, 1774 yazında imzalandı.",
+    "summary": "1768'de Rusya ile savaş açıldı. 1770 Çeşme'de donanma yakıldı. Mali birikim ilk yıllarda tükendi; oğlu Selim ve kızı Şah Sultan'dan borç aldığı TDV'de yazar. Topçuluğa meraklıydı, oğlu Selim'i bu işle yetiştirdi. Yerine kardeşi Abdülhamid geçti. Selim'i veliaht vasiyet ettiği söylenir, uygulanmadı.",
+    "traits": [
+     "Müneccimliğe düşkün; oğlu Selim'in 'kıran vakti'nde doğması için müdahale ettirdiği anlatılır. Askerî teknikle şahsen ilgilendi."
+    ],
+    "contribution": "Topçu ve istihkâm ilgisi, Selim'in ileride Nizam-ı Cedid'e bağlanacak eğitiminin başlaması. Savaş öncesi birikimi seferin ilk yükünü taşıdı.",
+    "harm": "1768 savaşı Kırım'ın elden çıkışına giden bozgundur. Çeşme donanmayı yok etti. Ölümü antlaşmayı halefine bıraktı. İç ve dış hazine boşaldı.",
+    "wives": [
+     {
+      "name": "Mihrişah Sultan",
+      "note": "III. Selim'in annesi. Gürcü veya Çerkez olduğu söylenir. Şeyhülislâm Veliyyüddin Efendi tarafından III. Mustafa'ya hediye edildiği rivayettir.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Selim",
+      "mother": "Mihrişah",
+      "note": "24 Aralık 1761. Sonraki III. Selim. Kırk yıl aradan sonra doğan erkek şehzade diye kutlandı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Şah Sultan",
+      "mother": null,
+      "note": "Babası savaş masrafı için ondan ve Selim'den borç aldı. III. Osman'ın kızı Şah Sultan ile karıştırılmamalı; bu Şah, III. Mustafa'nın kızıdır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Toplam sekiz kız ve iki erkek",
+      "mother": null,
+      "note": "TDV cümlesi 'toplam sekiz kız ve iki erkek oğlu (III.' diye kesilir. İkinci erkek I. Abdülhamid değildir; o kardeşidir. İkinci oğulun adı bu kesik cümlede tamamlanmadı, uydurulmadı.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "1768 Osmanlı-Rus savaşı",
+      "when": "1768-1774",
+      "foe": "Rusya",
+      "result": "yenilgi",
+      "note": "Onun ölümüne kadar sürdü. Küçük Kaynarca halefinin imzasıdır."
+     },
+     {
+      "name": "Çeşme",
+      "when": "1770",
+      "foe": "Rus donanması",
+      "result": "yenilgi",
+      "note": "Osmanlı donanması yakıldı."
+     }
+    ],
+    "legends": [
+     "Selim'in kıran vaktinde doğması için saat ibresine müdahale edildiği anlatısı müneccim edebiyatıdır."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Mustafa",
+      "url": "https://islamansiklopedisi.org.tr/mustafa-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "abdulhamid-i",
+    "name": "I. Abdülhamid",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1725,
+    "birthNote": "5 Receb 1137 / 20 Mart 1725, İstanbul. Babası III. Ahmed, annesi Râbia Şermi Sultan.",
+    "death": 1789,
+    "deathNote": "11 Receb 1203 / 7 Nisan 1789. Özü Kalesi'nin düştüğünü bildiren sadrazam kâğıdını okurken felç. Kırk dokuz yaşında 21 Ocak 1774'te tahta çıkmıştı.",
+    "reign": [
+     1774,
+     1789
+    ],
+    "reignNote": "21 Ocak 1774 cülus. 7 Nisan 1789 ölüm. Küçük Kaynarca onun saltanatının başında imzalandı.",
+    "summary": "1774 Küçük Kaynarca Kırım'ı bağımsız hanlık yaptı; bu, 1783 ilhakının eşiğiydi. İlhak 1784'te bir senetle tanındı. 1787'de Avusturya ve Rusya ile savaş başladı. 1789'da Özü haberini alırken öldü. On iki kızı ve yedi oğlu oldu, çoğu küçük yaşta öldü. Padişah olan oğulları IV. Mustafa ve II. Mahmud'dur.",
+    "traits": [
+     "Kırk dokuz yılın çoğunu kafeste geçirmiş, buhran içinde tahta çıkan bir padişah. Savaş haberine dayanamayıp felç geçirmesi TDV'de dramatik biçimde yazılır."
+    ],
+    "contribution": "Kırım'ın kaybını hemen yeni bir büyük savaşla büyütmeme ihtiyatı (1787'ye kadar). Emirgân'da cami, çeşme, hamam; Beylerbeyi Camii onarımı. Halifelik sıfatı, Kırım müslümanlarının dinî bağlılığı gerekçesiyle bu dönemde siyasî dile daha çok girdi (TDV Osmanlılar, Beydilli).",
+    "harm": "Küçük Kaynarca: Kırım'ın bağımsızlığı, Karadeniz'in Rus gemilerine açılması, Ortodoks tebaa üzerinde Rus himaye iddiasının dayanağı. 1783 ilhakının tanınması. 1787 savaşı bozgunla sürdü. Özü katliamı ölüm haberinin parçasıdır.",
+    "wives": [
+     {
+      "name": "Nakşidil Sultan",
+      "note": "II. Mahmud'un annesi. Fransız asıllı olduğu iddiası TDV Mahmud maddesinde yanlıştır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ayşe Sîneperver Sultan",
+      "note": "IV. Mustafa'nın annesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hümâşah Sultan",
+      "note": "TDV, 1783'te Emirgân'da eşi Hümâşah ve oğlu Mehmed için çeşme yaptırdığını yazar. Bu Hümâşah, İbrahim'in hasekisi değildir.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Mustafa",
+      "mother": "Ayşe Sîneperver",
+      "note": "8 Eylül 1779. IV. Mustafa.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": "Nakşidil",
+      "note": "20 Temmuz 1785. II. Mahmud.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": "Hümâşah?",
+      "note": "Çeşme kaydında adı geçer. Padişah olmadı.",
+      "certainty": "olasi"
+     },
+     {
+      "name": "Diğerleri",
+      "mother": null,
+      "note": "On iki kız ve yedi oğulun çoğu küçük öldü. Adı geçmeyenler yazılmadı.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Küçük Kaynarca",
+      "when": "1774",
+      "foe": "Rusya",
+      "result": "antlasma",
+      "note": "Savaş III. Mustafa döneminde açıldı. Antlaşma Abdülhamid saltanatındadır. Kırım bağımsız hanlık oldu."
+     },
+     {
+      "name": "1787-1792 savaşı",
+      "when": "1787-1789",
+      "foe": "Rusya ve Avusturya",
+      "result": "yenilgi",
+      "note": "Onun ölümüne kadar bozgun. Yaş ve Ziştovi antlaşmaları halefi III. Selim döneminde kapandı."
+     }
+    ],
+    "legends": [
+     "Nakşidil'in Aimée du Buc de Rivéry olduğu anlatısı popülerdir. TDV Mahmud maddesi Fransız asıllı iddiayı doğru bulmaz."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Abdülhamid",
+      "url": "https://islamansiklopedisi.org.tr/abdulhamid-i"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "selim-iii",
+    "name": "III. Selim",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1761,
+    "birthNote": "27 Cemâziyelevvel 1175 / 24 Aralık 1761 (Vâsıf). Babası III. Mustafa, annesi Mihrişah. Kırk yıl aradan sonra doğan erkek şehzade.",
+    "death": 1808,
+    "deathNote": "Tahttan indiriliş 29 Mayıs 1807 (Kabakçı). Öldürülüş 28 Temmuz 1808: Alemdar Mustafa Paşa saraya yürüyünce IV. Mustafa'nın emriyle boğuldu. TDV Mustafa IV maddesi.",
+    "reign": [
+     1789,
+     1807
+    ],
+    "reignNote": "11 Receb 1203 / 7 Nisan 1789 cülus. 29 Mayıs 1807 hal'. Öldürülme 28 Temmuz 1808.",
+    "summary": "Nizam-ı Cedid ordusunu ve irad-ı cedidi kurdu. 1791 Ziştovi ve 1792 Yaş antlaşmaları 1787 savaşını kapattı. 1798'de Fransa Mısır'a girdi. Âyanlar (Pazvandoğlu, Tepedelenli) ile yaşamak zorunda kaldı. 1807'de Kabakçı isyanıyla indirildi. Ertesi yıl kurtarılmak istenirken öldürüldü. Tahta çıktıktan sonra doğan Ahmed adlı oğlu yaşamadı.",
+    "traits": [
+     "Bestekâr, Fransız kralıyla yazışacak kadar Avrupa siyasetini izleyen, ıslahatı baba mirası sayan bir padişah. Şehzadeliğinde tahta çıkma özlemini gizlemediği TDV'de yazar."
+    ],
+    "contribution": "Nizam-ı Cedid, sürekli elçiliklerin başlaması, ordu ve maliyede yeni usul denemesi. Sonraki II. Mahmud reformlarının zeminidir.",
+    "harm": "Islahat yeniçeri ve ulemâ koalisyonunu isyana götürdü. Mısır'ın Fransız işgali ve Napoléon savaşlarının Osmanlı'yı Rusya-İngiltere ile karşı karşıya bırakması. Âyanlara tahammül merkezî otoriteyi böldü. Öldürülmesi 1808 buhranını kanlı açtı.",
+    "wives": [],
+    "children": [
+     {
+      "name": "Ahmed",
+      "mother": null,
+      "note": "Tahttan sonra doğdu, fazla yaşamadı. Karal, Selim'in hatt-ı hümâyunları. Başka oğlu olmadı; bu yüzden Mustafa ve Mahmud şefkat gördü.",
+      "certainty": "olasi"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Yaş ve Ziştovi",
+      "when": "1791-1792",
+      "foe": "Avusturya ve Rusya",
+      "result": "antlasma",
+      "note": "1787 savaşının kapanışı. Kırım geri gelmedi."
+     },
+     {
+      "name": "Fransa'nın Mısır seferi",
+      "when": "1798-1801",
+      "foe": "Fransa",
+      "result": "zafer",
+      "note": "İşgal oldu, sonra Fransızlar çıktı. Osmanlı açısından ağır sarsıntı, sonunda toprak geri geldi."
+     },
+     {
+      "name": "Kabakçı isyanı",
+      "when": "1807",
+      "foe": "Yeniçeri ve yamaklar",
+      "result": "yenilgi",
+      "note": "Nizam-ı Cedid dağıtıldı, padişah indirildi."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, III. Selim",
+      "url": "https://islamansiklopedisi.org.tr/selim-iii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mustafa-iv",
+    "name": "IV. Mustafa",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1779,
+    "birthNote": "26 Şâban 1193 / 8 Eylül 1779. Babası I. Abdülhamid, annesi Ayşe Sîneperver.",
+    "death": 1808,
+    "deathNote": "28 Ramazan 1223 / 17 Kasım 1808. Alemdar'ın öldürülmesi ve isyancıların saraya yürümesi üzerine II. Mahmud'un emriyle, belindeki kuşakla boğuldu.",
+    "reign": [
+     1807,
+     1808
+    ],
+    "reignNote": "29 Mayıs 1807 Kabakçı isyanıyla tahta çıktı. 28 Temmuz 1808'de Alemdar tarafından indirildi, yerine II. Mahmud geçti. Öldürülme 17 Kasım 1808.",
+    "summary": "III. Selim'in indirilmesi üzerine çıktı. Nizam-ı Cedid'i tasfiye etti. Alemdar İstanbul'a gelince Selim'i öldürtüp tahtı kurtarmak istedi; Selim ölünce hânedanın son erkeği Mahmud tahta geçti. Kasım 1808'de kendisi de boğuldu.",
+    "traits": [
+     "Selim'e muhalefetin içindeydi. Kız kardeşi Esmâ Sultan dahil yakınları yeniçeriler arasında taht çalışması yaptı. Kısa saltanatı darbe ve karşı darbeyle doludur."
+    ],
+    "contribution": "Kurumsal bir ıslahatı yoktur. Hânedanın Mahmud'da sürmesi, onun Selim'i öldürtmesinin istenmeyen sonucudur.",
+    "harm": "III. Selim'in katli. Nizam-ı Cedid'in dağıtılması. 1808'de İstanbul'un iki darbe arasında harap olması.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "1806 Rus ve İngiliz savaşı",
+      "when": "1807-1808",
+      "foe": "Rusya ve İngiltere",
+      "result": "sonucsuz",
+      "note": "Savaş II. Mahmud'a kaldı. Onun kısa saltanatında cephe kapanmadı."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, IV. Mustafa",
+      "url": "https://islamansiklopedisi.org.tr/mustafa-iv"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mahmud-ii",
+    "name": "II. Mahmud",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1785,
+    "birthNote": "13 Ramazan 1199 / 20 Temmuz 1785. Babası I. Abdülhamid, annesi Nakşidil. Fransız asıllı anne iddiası TDV'de yanlıştır. Mahlası Adlî.",
+    "death": 1839,
+    "deathNote": "TDV Mahmud maddesi: 26 Haziran'da oğlu Abdülmecid ve eşi Bezmiâlem ile vedalaştı, 28 Haziran'da öldü (Münch). Abdülmecid maddesi babasının ölümünü 1 Temmuz 1839 diye yazar. İki tarih çatışır; yıl 1839'tur, gün yutulmaz.",
+    "reign": [
+     1808,
+     1839
+    ],
+    "reignNote": "4 Cemâziyelâhir 1223 / 28 Temmuz 1808 cülus. Ölüm Haziran sonu veya 1 Temmuz 1839.",
+    "summary": "Alemdar'ın kısa sadareti ve Sened-i İttifak ile başladı. 1826'da Yeniçeri Ocağı'nı kaldırdı (Vaka-i Hayriye) ve Asakir-i Mansure'yi kurdu. Sırp ve Yunan isyanları, Navarin (1827), 1829 Edirne Antlaşması ve Mısır valisi Mehmed Ali'nin isyanı (Nizip, 1839) saltanatını doldurdu. Ölürken oğluna reformu sürdürmesini vasiyet etti.",
+    "traits": [
+     "Yabancı dil bilmez, çocuklarının bilmesini isterdi. Darbelerle başlayan saltanatı aynı yoğunlukta sürdü. Merkezîleştirici ve ıslahatçı."
+    ],
+    "contribution": "Yeniçeri Ocağı'nın kaldırılması modern ordu ve bürokrasinin kapısıdır. Âyanların te'dibi merkezî idareyi kısmen topladı. Bektaşi tekkelerinin kapatılması ve ulemâ üzerinden meşruiyet arayışı 1826'nın parçasıdır. Eğitim ve kıyafet düzenlemeleri Tanzimat'ın eşiğidir.",
+    "harm": "Yunanistan'ın bağımsızlığa giden yolu ve Navarin'de donanmanın yanması. Edirne 1829 ile toprak ve tazminat. Mehmed Ali'ye karşı Nizip bozgunu ve ölüm döşeğinde Kütahya-Londra buhranı. Yeniçeri kıyımı İstanbul'da kanlı bir iç savaştır. Sırp özerkliği genişledi.",
+    "wives": [
+     {
+      "name": "Bezmiâlem Sultan",
+      "note": "Abdülmecid'in annesi. 1839'da yaklaşık otuz dört yaşındaydı. Vâlide sultan oldu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Pertevniyal Vâlide Sultan",
+      "note": "Abdülaziz'in annesi.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Abdülmecid",
+      "mother": "Bezmiâlem",
+      "note": "25 Nisan 1823. Halef.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Abdülaziz",
+      "mother": "Pertevniyal",
+      "note": "7-8 Şubat 1830 gecesi. Sonraki sultan.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Sâliha",
+      "mother": null,
+      "note": "Ölümünde hayatta olan dört kızdan biri.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Atiyye",
+      "mother": null,
+      "note": "Aynı liste.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hatice",
+      "mother": null,
+      "note": "Aynı liste.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Âdile",
+      "mother": null,
+      "note": "Aynı liste. TDV: geride iki erkek ve bu dört kız kaldı.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Navarin",
+      "when": "1827",
+      "foe": "İngiliz, Fransız ve Rus donanmaları",
+      "result": "yenilgi",
+      "note": "Osmanlı-Mısır donanması yakıldı. Yunan isyanının dönüm noktası."
+     },
+     {
+      "name": "Edirne Antlaşması",
+      "when": "1829",
+      "foe": "Rusya",
+      "result": "antlasma",
+      "note": "1828-29 savaşının kapanışı. Ağır şartlar."
+     },
+     {
+      "name": "Nizip",
+      "when": "1839",
+      "foe": "Mısır, İbrahim Paşa",
+      "result": "yenilgi",
+      "note": "Ölümünden hemen önce. Ordu dağıldı. Kaptan-ı derya Ahmet Fevzi Paşa'nın donanmayı Mısır'a götürmesi aynı buhrandadır."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Mahmud",
+      "url": "https://islamansiklopedisi.org.tr/mahmud-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "abdulmecid",
+    "name": "Abdülmecid",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1823,
+    "birthNote": "25 Nisan 1823, İstanbul. Babası II. Mahmud, annesi Bezmiâlem. Fransızca öğrendi.",
+    "death": 1861,
+    "deathNote": "25 Haziran 1861, otuz dokuz yaşında, Ihlamur Köşkü, tüberküloz. Yavuz Selim Türbesi yanına defnedildi.",
+    "reign": [
+     1839,
+     1861
+    ],
+    "reignNote": "1 Temmuz 1839'da, on yedi yaşında tahta çıktı. 25 Haziran 1861'de öldü.",
+    "summary": "Gülhane Hatt-ı Hümâyunu (1839) ve Islahat Fermanı (1856) onun saltanatındadır. Mısır buhranı Londra mukaveleleriyle durduruldu. Kırım Savaşı'nda (1853-56) İngiltere ve Fransa ile Rusya'ya karşı duruldu, Paris Antlaşması imzalandı. Borç ve sarraf senedi seksen milyon altın lirayı aştı. Dört oğlu sonradan padişah oldu: Murad, Abdülhamid, Reşad, Vahdeddin.",
+    "traits": [
+     "Batı müziği ve yaşayışına hayran, çevresinin ve kadınlarının telkiniyle hareket eden, tecrübesiz başlayıp ıslahatı bürokrasiye bırakan bir padişah. Babası gibi tüberkülozdan öldü."
+    ],
+    "contribution": "Tanzimat'ın hukukî çerçevesi: can, mal, ırz güvencesi ve gayrimüslimlere yeni statü iddiası. Kırım Savaşı'nın ittifakla kazanılması imparatorluğun Avrupa dengesine bir süre daha girmesini sağladı. Bezmiâlem Gureba Hastanesi, Galata Köprüsü, Dolmabahçe'nin yükselişi bu devirdedir.",
+    "harm": "Dış borç ve sarraf senedi mali bağımlılığı büyüttü. Islahat Fermanı büyük devlet müdahalesine kapı araladı. Lübnan-Şam olaylarında (1860) konsolosların öldürülmesi dış baskıyı arttırdı. Saray harcaması borçla birlikte anılır.",
+    "wives": [
+     {
+      "name": "Şevkefza (Şevkiefser) Kadın",
+      "note": "V. Murad'ın annesi. TDV Murad V: Şevkiefser Kadıefendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Tirimüjgan Kadın",
+      "note": "II. Abdülhamid'in annesi. Oğlu on bir yaşındayken öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gülcemal Kadın",
+      "note": "V. Mehmed Reşad'ın annesi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Gülistü Kadın",
+      "note": "VI. Mehmed'in annesi. Yazımı Gülistü / Gülüstü değişir. TDV Mehmed VI: Gülistü Kadınefendi.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Şâyeste Hanım",
+      "note": "Vahdeddin'in üvey annesi. Öz anne dört yaşında ölünce onu büyüttü. Eş statüsü kadınefendi olarak anılır.",
+      "certainty": "olasi"
+     }
+    ],
+    "children": [
+     {
+      "name": "Murad",
+      "mother": "Şevkefza",
+      "note": "22 Eylül 1840. V. Murad.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Abdülhamid",
+      "mother": "Tirimüjgan",
+      "note": "21 Eylül 1842. II. Abdülhamid.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed Reşad",
+      "mother": "Gülcemal",
+      "note": "2 Kasım 1844. V. Mehmed.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed Vahdeddin",
+      "mother": "Gülistü",
+      "note": "4 Ocak 1861. VI. Mehmed. Babası altı aylıkken öldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer çocuklar",
+      "mother": null,
+      "note": "TDV Abdülmecid maddesi padişah olan dört oğlu sayar. Kızlar ve diğer şehzadeler bu okumada tek tek dökülmedi.",
+      "certainty": "tartismali"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Londra Mukavelesi / Mısır",
+      "when": "1840-1841",
+      "foe": "Mısır, Mehmed Ali",
+      "result": "antlasma",
+      "note": "Mısır Osmanlı'ya bağlı hidivliğe çekildi. Suriye geri geldi."
+     },
+     {
+      "name": "Kırım Savaşı",
+      "when": "1853-1856",
+      "foe": "Rusya",
+      "result": "zafer",
+      "note": "İngiltere, Fransa ve Piyemonte ile. Paris Antlaşması 1856. Karadeniz tarafsızlığı geçiciydi."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Abdülmecid",
+      "url": "https://islamansiklopedisi.org.tr/abdulmecid"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "abdulaziz",
+    "name": "Abdülaziz",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1830,
+    "birthNote": "7-8 Şubat 1830 gecesi. Babası II. Mahmud, annesi Pertevniyal.",
+    "death": 1876,
+    "deathNote": "30 Mayıs 1876'da hal' edildi, Fer'iye'ye nakledildi. 4 Haziran 1876'da odasında bilek damarları kesilmiş bulundu. Resmî ilan intihar (Ceride-i Havadis, 6 Haziran 1876). 1881 Yıldız mahkemesi cinayet kanaatine vardı. TDV meseleyi günümüze kadar süren bir tartışma diye yazar: intihar mı, öldürülme mi tek hükümle kapanmış değildir.",
+    "reign": [
+     1861,
+     1876
+    ],
+    "reignNote": "25 Haziran 1861'de tahta çıktı. 30 Mayıs 1876'da hal'. Ölüm 4 Haziran 1876.",
+    "summary": "İlk yıllar Âlî ve Fuad paşalarla Tanzimat çizgisini sürdürdü. Donanma ve eğitim (Galatasaray, Darüşşafaka, ıslahhaneler) genişledi. 1867'de Avrupa'ya giden ilk padişahtır. 1875 mali iflas, Hersek ve Bulgar isyanları, 1876 medrese gösterileri hal' ile bitti. Yerine yeğeni V. Murad çıkarıldı.",
+    "traits": [
+     "Şehzadeliğinde içki ve sefahatten uzak, güreş, av ve cirit meraklısı diye sevildi. TDV saltanatında istibdad ve israfa meylettiğini, ilk dönemde Âlî ve Fuad'ın bunu frenlediğini yazar. Ney ve musiki dersi almıştı."
+    ],
+    "contribution": "Donanmanın büyütülmesi, rüşdiye ve Galatasaray, Darüşşafaka, ıslahhaneler, demiryolu ve bayındırlık hamlesi. Avrupa seyahati diplomatik görünürlük sağladı.",
+    "harm": "Borç ve 1875 iflası. Hersek-Bulgar isyanlarının bastırılmasındaki şiddet Avrupa müdahalesini hızlandırdı. Hal' ve şüpheli ölüm meşrutiyet darbesinin kanlı eşiğidir. İstibdad eğilimi meşvereti daralttı.",
+    "wives": [],
+    "children": [
+     {
+      "name": "Yusuf İzzeddin",
+      "mother": null,
+      "note": "Veliaht şehzade. 1 Şubat 1916'da intihar ettiği TDV Mehmed VI maddesinde geçer. Annesinin adı bu okumada Abdülaziz maddesinden çıkarılmadı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Diğer çocuklar",
+      "mother": null,
+      "note": "Abdülaziz maddesinin okunan kısmı çocuk listesini tamamlamaz. Ad uydurulmadı.",
+      "certainty": "tartismali"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Hersek ve Bulgar isyanları",
+      "when": "1875-1876",
+      "foe": "İsyancı gruplar, büyük devlet diplomasisi",
+      "result": "sonucsuz",
+      "note": "1876'da Bulgaristan'a sıçradı. Selânik'te iki konsolosun öldürülmesi Berlin Memorandumu hazırlığına yol açtı. Savaş hali hal' ile iç siyasete döndü."
+     }
+    ],
+    "legends": [
+     "İntihar ile cinayet tartışması kapanmamıştır. 1876 resmî ilan intihar, 1881 mahkemesi katil dedi. TDV ikisini de hükme bağlamaz."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, Abdülaziz",
+      "url": "https://islamansiklopedisi.org.tr/abdulaziz"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "murad-v",
+    "name": "V. Murad",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1840,
+    "birthNote": "25 Receb 1256 / 22 Eylül 1840. Asıl adı Mehmed. Babası Abdülmecid, annesi Şevkiefser Kadınefendi.",
+    "death": 1904,
+    "deathNote": "29 Ağustos 1904, şeker hastalığı. Çırağan'da uzun mahpusluktan sonra. Yenicami Cedid Havatin Türbesi'nde annesinin yanına defnedildi.",
+    "reign": [
+     1876,
+     1876
+    ],
+    "reignNote": "30 Mayıs 1876'da amcasının hal'iyle tahta çıktı. 31 Ağustos 1876'da hal' edildi, yerine kardeşi II. Abdülhamid geçti. Saltanat yaklaşık doksan üç gündür. Ölüm 1904.",
+    "summary": "Yeni Osmanlılar ve Namık Kemal çevresiyle teması vardı. Tahta çıkınca sinir buhranı geçirdi, cülus töreni alışılmış altın taht usulüyle tamamlanamadı. 31 Ağustos 1876'da akıl sağlığı gerekçesiyle indirildi. Çırağan'da Ali Suavi'nin 1878 kaçırma teşebbüsü ve başka planlar başarısız kaldı.",
+    "traits": [
+     "Yumuşak tabiatlı, piyano ve Batı müziği öğrenmiş, meşrutiyetçi çevreyle konuşmuş bir şehzade. Tahtta en kısa kalan padişahlardandır. Hal' sonrası teşhis siyasîdir; TDV buhranı anlatır, tek klinik etiket koymaz."
+    ],
+    "contribution": "Meşrutiyet fikrinin saray içine sızmış ilk padişah adayı olması. Fiilî reform yapacak süresi olmadı.",
+    "harm": "Hal' süreci Kanun-ı Esasî'yi II. Abdülhamid'in pazarlığına bıraktı. Kaçırma teşebbüsleri Çırağan'ı sürekli kriz odağı yaptı.",
+    "wives": [],
+    "children": [],
+    "wars": [],
+    "legends": [
+     "Mason locasıyla ilişkisi ve tahta masonlarca çıkarılacağı iddiası dönem dedikodusudur. TDV, Cleanti Scalieri-Aziz Bey komitesinin 1876 sonrası kaçırma planını anar."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, V. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-v"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "abdulhamid-ii",
+    "name": "II. Abdülhamid",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1842,
+    "birthNote": "21 Eylül 1842. Babası Abdülmecid, annesi Tirimüjgan. Annesi on bir yaşındayken öldü. Piristû Kadın analık etti. Pertevniyal'in yardımıyla Abdülaziz'e yaklaşabildi.",
+    "death": 1918,
+    "deathNote": "10 Şubat 1918 Pazar. Topkapı'da techiz. Beylerbeyi'nde göz hapsinden sonra. Saltanatı 1909'da bitti.",
+    "reign": [
+     1876,
+     1909
+    ],
+    "reignNote": "31 Ağustos 1876 cülus. 27 Nisan 1909'da 31 Mart Vakası ardından Meclis-i Umumi tarafından hal'. Ölüm 10 Şubat 1918.",
+    "summary": "1876 Kanun-ı Esasî ve I. Meşrutiyet, 1877-78 Osmanlı-Rus savaşı, Ayastefanos ve Berlin antlaşmalarıyla geniş Balkan ve Kafkas kaybı. 1878'de meclisi tatil etti. 1908'de II. Meşrutiyet ilan edildi. 31 Mart 1909'da indirildi. Eğitim, demiryolu (Hicaz) ve merkezî istihbarat bu uzun saltanatın araçlarıdır. 'Kızıl Sultan' yaftası muhalif edebiyattır; TDV hem istibdadı hem modernleştirici yüzü anlatır.",
+    "traits": [
+     "Çocukluğundan yalnız, kuşkucu, kurnaza karşı kurnaz hareket edeceğini kendisi söyleyen bir padişah. Çalışkan, teferruata boğulan, merkezî."
+    ],
+    "contribution": "Mülkî idare, maarif, telgraf, Hicaz demiryolu, Ziraat Bankası ve aşiret mektebi gibi kurumlar. 1878 sonrası büyük bir dağılmayı yavaşlattı. Meşrutiyeti 1908'de, baskı altında da olsa, yeniden açtı.",
+    "harm": "1877-78 savaşının toprak kaybı ve muhacir dalgası. 1878 meclis tatili ve sürgünler (Midhat Paşa dahil) siyaseti kapattı. Ermeni olayları ve dış basındaki katliam anlatıları meşruiyeti yıprattı; ayrıntılı yargı bu kartın okuduğu pasajda tek cümleyle kapanmaz. 31 Mart'ın bastırılması ve hal', meşrutiyetçi subayların fiilî iktidarını başlattı.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "1877-78 Osmanlı-Rus savaşı",
+      "when": "1877-1878",
+      "foe": "Rusya",
+      "result": "yenilgi",
+      "note": "Ayastefanos ardından Berlin Antlaşması. Balkanlar'da büyük kayıp, Kars-Ardahan elden çıktı."
+     },
+     {
+      "name": "31 Mart Vakası",
+      "when": "1909-04",
+      "foe": "İstanbul ayaklanması / Hareket Ordusu",
+      "result": "yenilgi",
+      "note": "Hareket Ordusu bastırdı. 27 Nisan 1909 hal'."
+     }
+    ],
+    "legends": [
+     "Ermeni kökenli olduğu veya sarayda gizli bir ikinci hayatı olduğu iddiaları siyasî karalamadır. TDV soyunu Abdülmecid ve Tirimüjgan diye verir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, II. Abdülhamid",
+      "url": "https://islamansiklopedisi.org.tr/abdulhamid-ii"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-v",
+    "name": "V. Mehmed Reşad",
+    "title": "Sultan",
+    "claim": false,
+    "birth": 1844,
+    "birthNote": "2 Kasım 1844, Çırağan Sarayı. Babası Abdülmecid, annesi Gülcemal Kadınefendi.",
+    "death": 1918,
+    "deathNote": "3 Temmuz 1918. Mondros'u göremeden öldü. Eyüp'te sağlığında yaptırdığı türbeye defnedildi.",
+    "reign": [
+     1909,
+     1918
+    ],
+    "reignNote": "27 Nisan 1909 cülus. Beşinci Mehmed unvanı, halk arasında Sultan Reşad. Ölüm 3 Temmuz 1918. Fiilî iktidar İttihat ve Terakki'dedir.",
+    "summary": "31 Mart sonrası çıkarıldı. Trablusgarp (1911), Balkan savaşları (1912-13) ve I. Dünya Savaşı onun adına yürütüldü. Çanakkale savunması bu saltanattadır. Kendisi halim, yaşlı ve siyaseten zayıftı; sadrazamlar ve İttihatçı liderler karar verdi. 1918'de öldü, yerine kardeşi Vahdeddin geçti.",
+    "traits": [
+     "TDV: halim selim, merhametli, dindar, nazik. Abdülhamid döneminde göz hapsi onu korkulu ve çekingen kılmıştı. Son yıllarda evrakı yatağında imzaladı."
+    ],
+    "contribution": "Çanakkale'nin tutulması başkentin düşmesini önledi. Meşrutiyet kurumları kâğıt üzerinde sürdü. Kişisel bir ıslahat liderliği yoktur.",
+    "harm": "Balkan savaşlarında Rumeli'nin büyük kısmı kaybedildi. I. Dünya Savaşı'na giriş milyonlarca insanın ölümü, açlık ve imparatorluğun dağılmasıyla bitti. Padişah bu kararların sembolik sorumlusudur; operasyonel karar Enver, Talat ve Cemal çevresindedir. Ermeni tehciri bu savaşın içindedir; TDV Mehmed V maddesinin okunan kısmı tehciri ayrıca hükme bağlamaz, savaşın buhranı kayıtlıdır.",
+    "wives": [],
+    "children": [],
+    "wars": [
+     {
+      "name": "Trablusgarp",
+      "when": "1911-1912",
+      "foe": "İtalya",
+      "result": "yenilgi",
+      "note": "Kuzey Afrika fiilen elden çıktı. Uşi/Lozan 1912."
+     },
+     {
+      "name": "Balkan savaşları",
+      "when": "1912-1913",
+      "foe": "Balkan ittifakı",
+      "result": "yenilgi",
+      "note": "Edirne 1913'te geri alındı, Makedonya ve Arnavutluk hattı gitti."
+     },
+     {
+      "name": "I. Dünya Savaşı",
+      "when": "1914-1918",
+      "foe": "İtilaf devletleri",
+      "result": "yenilgi",
+      "note": "Çanakkale tutuldu (1915). Genel sonuç 1918 bozgunudur. Mondros padişahın ölümünden sonradır."
+     },
+     {
+      "name": "Çanakkale",
+      "when": "1915",
+      "foe": "İngiliz ve Fransız donanma ve orduları",
+      "result": "zafer",
+      "note": "Boğaz geçilemedi."
+     }
+    ],
+    "legends": [],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, V. Mehmed Reşad",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-v"
+     }
+    ],
+    "aliases": []
+   },
+   {
+    "id": "mehmed-vi",
+    "name": "VI. Mehmed Vahdeddin",
+    "title": "Son Osmanlı padişahı",
+    "claim": false,
+    "birth": 1861,
+    "birthNote": "4 Ocak 1861, Dolmabahçe. Babası Abdülmecid, annesi Gülistü Kadınefendi. Gülüstü yazılışı da kullanılır; TDV Gülistü yazar. Altı aylıkken babası, dört yaşında annesi öldü. Üvey annesi Şâyeste Hanım büyüttü.",
+    "death": 1926,
+    "deathNote": "16 Mayıs 1926, San Remo, Villa Magnolia / Mamolya. Borç ve haciz yüzünden cenaze alıkondu. 15 Haziran'da Trieste'ye, oradan Beyrut ve Şam'a götürüldü, 3 Temmuz 1926'da defnedildi. Şam Süleymaniye/Selimiye külliyesi haziresi.",
+    "reign": [
+     1918,
+     1922
+    ],
+    "reignNote": "Reşad 3 Temmuz 1918'de öldü. TDV, VI. Mehmed'in bunun üzerine tahta çıkarıldığını yazar, cümlede '4 Temmuz' gününü ayrıca söylemez. Yaygın kayıt cülusu 4 Temmuz 1918 diye verir; gün, ölümün ertesi günüdür. Saltanat 1 Kasım 1922'de kaldırıldı. İstanbul'dan ayrılış 17 Kasım 1922 Cuma, Malaya gemisi. Hilâfet iddiasını bırakmadığını Malta'da ve sonrasında tekrarladı. TBMM 19 Kasım 1922'de Abdülmecid Efendi'yi halife seçti.",
+    "summary": "Veliaht Yusuf İzzeddin'in 1 Şubat 1916 intiharından sonra veliaht oldu. 1918'de tahta çıktı, Mondros ve Sevr sürecinde Damad Ferid hükümetleriyle İstanbul'un işgaline (16 Mart 1920) tanık oldu. Millî Mücadele'ye mesafeli ve zaman zaman karşı durdu; hilâfet ve saltanatı İngiliz desteğiyle koruyacağını sandı. 1 Kasım 1922'de saltanat kalkınca saltanatsız hilâfeti reddetti. 16 Kasım 1922'de General Harington'a sığınma mektubu yazdı, 17 Kasım'da ayrıldı. 16 Mayıs 1926'da San Remo'da öldü.",
+    "traits": [
+     "TDV, yakınlarının tanıklığıyla: iyimser, sabırlı, sarayda müşfik; törenlerde soğuk ve çatık kaşlı. Dinî geleneğe önem verir, saray dedikodusundan hoşlanmaz. İleri derecede edebiyat, musiki ve hat. Besteleri vatan hasretini anlatır. Hattı: Allah, Muhammed, Ali, Fatıma, Hasan, Hüseyin müsenna."
+    ],
+    "contribution": "Mukaddes emanetleri götürmeyi reddedip Türk milletine ecdat armağanı sayması. Çanakkale sonrası dağılmış devlette hilâfet makamını 1922'ye kadar hukuken ayakta tutması. Şahsî musiki ve hat. Siyasî kurtuluş onun eseri değildir.",
+    "harm": "Damad Ferid hükümetlerinin Kuva-yı Milliye aleyhine tutumu, Sevr'i görüşmeye razı saltanat şûrası (22 Temmuz 1920), Mustafa Kemal'in âsi ilanına giden hükümet kararları (Temmuz 1919). İngiliz savaş gemisiyle ayrılışı saltanatı fiilen boşalttı. TBMM onu vatan haini saydı. TDV, kaçmadığını hicret saydığını kendi hâtıratı üzerinden aktarır; bu, meclisin hükmünü değiştirmez.",
+    "wives": [
+     {
+      "name": "Emine Nazikeda Kadın",
+      "note": "Başkadın. Abhaz, Emine Marşania. 1885'te evlendiği, yirmi yıl tek eşi olduğu ve Ulviye ile Sabiha'nın annesi olduğu Uluçay ve Sakaoğlu'na dayanan soy kütüğü literatüründe ortaktır; İngilizce Vikipedi bu kitapları kaynak gösterir (Uluçay 2011, Sakaoğlu 2015). TDV Mehmed VI maddesi adını anmaz. Çapraz kabul.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "İnşirah Hanım",
+      "note": "1905 evlilik, 1909 boşanma. Çocuğu yok. Tahttan önce ayrıldığı için saltanat kadını sayılmayabilir. Aynı soy kütüğü literatürü. TDV maddesinde adı geçmez.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Müveddet Kadın",
+      "note": "Şadiye Çıhçı. 1911 evlilik. Tek oğul Mehmed Ertuğrul'un annesi. TDV maddesi adı vermez; 'on yaşındaki oğlu' ifadesi 1922-23'te hayatta bir oğul bulunduğunu doğrular, ad vermez.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Nevvare Hanım",
+      "note": "1918 evlilik, 1924 boşanma. Çocuğu yok. TDV maddesinde adı geçmez. Soy kütüğü literatürü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Nevzad Hanım",
+      "note": "TDV: saltanatın kaldırılması arefesinde, kimseye haber vermeden, câriyelerden on dokuz yaşındaki Çerkez asıllı Nevzad Hanım'la evlendi. Vikipedi/Uluçay doğum adını Nimet Bargu, evliliği 1921 diye verir. Çocuğu yok. TDV'nin bizzat andığı tek eş odur.",
+      "certainty": "kesin"
+     }
+    ],
+    "children": [
+     {
+      "name": "Münire Fenire Sultan (veya Fenire)",
+      "mother": "Nazikeda",
+      "note": "1888'de doğup haftalar içinde öldü. Bazı listeler Münire ve Fenire diye iki bebek ayırır; güncel soy kütüğü çoğu zaman tek bebek (Münire Fenire) sayar. TDV adı vermez. İki ayrı bebek yazılmadı; çatışma not edildi.",
+      "certainty": "tartismali"
+     },
+     {
+      "name": "Fatma Ulviye Sultan",
+      "mother": "Nazikeda",
+      "note": "1892-1967. İki evlilik. Uluçay/Sakaoğlu çizgisi ve Vikipedi çaprazı. TDV Mehmed VI maddesi adı vermez.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Rukiye Sabiha Sultan",
+      "mother": "Nazikeda",
+      "note": "1894-1971. Ömer Faruk Efendi ile evlendi. Neslişah, Hanzade ve Necla'nın annesi. TDV cenaze naklini Şehzade Ömer Faruk'un nezaretinde anlatır; Sabiha'nın adını bu maddede anmaz.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Şehzade Mehmed Ertuğrul",
+      "mother": "Müveddet",
+      "note": "1912 doğum, 1944 Kahire'de öldü, evlenmedi. Gün çatışması: 5 Eylül, 5 Ekim veya 5 Kasım 1912 kayıtları vardır; gün uydurulmadı, yıl 1912. TDV 'on yaşındaki oğlu' der, ad koymaz. Tek erkek evlat olduğu soy kütüğünde ortaktır.",
+      "certainty": "kesin"
+     }
+    ],
+    "wars": [
+     {
+      "name": "Mondros Mütarekesi",
+      "when": "1918-10-30",
+      "foe": "İtilaf devletleri",
+      "result": "antlasma",
+      "note": "Onun saltanatının başında imzalandı. Fiilen teslimiyet."
+     },
+     {
+      "name": "İstanbul'un işgali",
+      "when": "1920-03-16",
+      "foe": "İtilaf",
+      "result": "yenilgi",
+      "note": "Meclis basıldı, milliyetçiler Malta'ya sürüldü. Padişah İstanbul'da kaldı."
+     },
+     {
+      "name": "Sevr",
+      "when": "1920-08-10",
+      "foe": "İtilaf",
+      "result": "antlasma",
+      "note": "Saltanat şûrası 22 Temmuz 1920'de şartları görüştü. Antlaşma Ankara tarafından reddedildi, uygulanmadı."
+     },
+     {
+      "name": "Millî Mücadele ve saltanatın kaldırılması",
+      "when": "1919-1922",
+      "foe": "TBMM ile İstanbul hükümeti arasında siyasî mücadele",
+      "result": "yenilgi",
+      "note": "1 Kasım 1922 saltanat kalktı. Büyük Taarruz ve Mudanya padişahın seferi değildir."
+     }
+    ],
+    "legends": [
+     "İngiliz casusu olduğu yaftası siyasî hükümdür. TDV, İngiliz desteği aradığını ve Millî Mücadele'ye karşı durduğunu belgeler; casusluk kimliği kurmaz.",
+     "Hicret ile kaçış tartışması: kendi hâtıratı hicret der, TBMM firar ve hıyanet der. Olayın tarihi 17 Kasım 1922'dir."
+    ],
+    "sources": [
+     {
+      "title": "TDV İslâm Ansiklopedisi, VI. Mehmed Vahdeddin",
+      "url": "https://islamansiklopedisi.org.tr/mehmed-vi"
+     }
+    ],
+    "aliases": []
+   }
+  ]
+ }
+]

@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "kirim-hanligi",
+    "name": "Kırım Hanlığı",
+    "short": "Kırım Hanlığı (Qırım Yurtı)",
+    "aliases": [
+      "Crimean Khanate",
+      "Kırım Yurdu",
+      "Qırım Hanlığı",
+      "Giray Hanedanı"
+    ],
+    "region": "kuzey",
+    "start": 1441,
+    "end": 1783,
+    "startNote": "1441'de Hacı Giray Han'ın Altın Orda'dan ayrılarak Bahçesaray merkezli bağımsız hanlığını kurmasıyla başladı.",
+    "endNote": "1783 yılında Rus Çariçesi II. Katerina tarafından Kırım'ın resmen ilhak edilmesiyle sona erdi.",
+    "capital": "Bahçesaray (Çufutkale ve Hansaray)",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Kırım Hanlığı mahkeme sicilleri (şer'iyye sicilleri), Osmanlı mühimme defterleri ve sefaretnâmelerle sabittir.",
+    "summary": "Hacı Giray Han tarafından kurulan, yaklaşık 350 yıl boyunca Karadeniz'in kuzeyine, Kırım yarımadasına ve Ukrayna bozkırlarına hükmeden ulu hanlık. 1475'te Fatih Sultan Mehmed devrinde Osmanlı himayesine girdi; Osmanlı ordusunun en seçkin ve korkusuz süvari kanadını teşkil etti. 1502'de Altın Orda'yı yıktı; 1571'de I. Devlet Giray Moskova'yı ateşe verdi. Bahçesaray Hansarayı ve zengin medreseleriyle İslami kültürün kuzeydeki kalesi oldu. 1774 Küçük Kaynarca Antlaşması sonrası 1783'te Çarlık Rusyası tarafından ilhak edildi.",
+    "legacy": "Bahçesaray Hansaray'ı, Gözleve Cuma Cami, Zincirli Medrese ve Tarak Tamga sembolüyle Kırım Tatar milli kimliğinin ebedi timsalidir.",
+    "essay": [
+      "Kırım Hanlığı, Altın Orda'nın çöküş devrinde Cuci soyundan gelen Hacı Giray Han'ın Bahçesaray'da bağımsızlığını ilan etmesiyle tarih sahnesine çıktı. Hacı Giray, sülalenin arması olarak 'Tarak Tamga'yı seçti.",
+      "1475 yılında Fatih Sultan Mehmed'in veziri Gedik Ahmed Paşa Kefe'deki Ceneviz kolonilerini fethettiğinde, I. Mengli Giray Osmanlı Devleti'nin yüksek himayesini kabul etti. Bu ittifak Kırım Hanlarına özel bir statü kazandırdı; Giraylar protokolde sadrazam ile denk tutuldu, Osmanlı hanedanının tükenmesi halinde tahta geçecek yegâne soy kabul edildi. 1502'de Mengli Giray Saray şehrini zaptederek Altın Orda Devleti'ne nihai darbeyi indirdi.",
+      "1571'de I. Devlet Giray, Korkunç İvan'ın yayılmacılığına son vermek üzere 120 bin süvariyle Moskova'yı kuşatarak yaktı ve 'Taht Algan' (Taht Alan) unvanını kazandı. Ancak 18. yüzyılda Rus Çarlığı'nın Karadeniz'e inme siyaseti neticesinde 1774 Küçük Kaynarca Antlaşması ile hanlık Osmanlı'dan koparıldı; son han Şahin Giray'ın basiretsizliği sonucu 1783'te Rusya tarafından ilhak edildi."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, KIRIM HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/kirim-hanligi"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, HACI GİRAY I",
+        "url": "https://islamansiklopedisi.org.tr/haci-giray-i"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, DEVLET GİRAY I",
+        "url": "https://islamansiklopedisi.org.tr/devlet-giray-i"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, MENGLİ GİRAY I",
+        "url": "https://islamansiklopedisi.org.tr/mengli-giray-i"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kirim-haci-giray",
+        "name": "I. Hacı Giray Han",
+        "aliases": [
+          "Melek Hacı Giray",
+          "Haji Giray"
+        ],
+        "title": "Han / Kurucu",
+        "birth": 1397,
+        "birthNote": "Litvanya'da sürgünde (Troki) doğdu",
+        "death": 1466,
+        "deathNote": "Bahçesaray yakınlarında Çufutkale'de vefat etti",
+        "reign": [
+          1441,
+          1466
+        ],
+        "reignNote": "Kırım Hanlığı ve Giray Hanedanı'nın kurucusu.",
+        "summary": "Kırım Tatarlarının ve Giray Hanedanı'nın atası. Kırım beylerinin ve Şirin kabilesinin davetiyle Kırım'a gelerek Altın Orda valilerini kovdu ve bağımsızlığını ilan etti. Litvanya Büyük Dükalığı ile ittifak kurdu. Bahçesaray ve Salaçık'ta Zincirli Medrese ve türbesini inşa ettirdi.",
+        "traits": [
+          "Kurucu lider",
+          "Mutedil ve adil",
+          "Halk tarafından sevilen ('Melek')"
+        ],
+        "contribution": "350 yıl sürecek bağımsız Kırım Hanlığı'nı kurdu; Tarak Tamga'yı hanedan arması yaptı.",
+        "harm": "Vefatından sonra oğulları arasında 10 yıl süren taht kavgası baş gösterdi.",
+        "wives": [
+          {
+            "name": "Asiye Hatun",
+            "note": "Baş hatun",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Nur Devlet",
+            "mother": "",
+            "note": "Kısa süre hanlık yaptı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Haydar Han",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "I. Mengli Giray",
+            "mother": "",
+            "note": "Devleti kurumsallaştıran kudretli hükümdar",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Altın Orda Kuşatması Püskürtmesi",
+            "when": "1455",
+            "foe": "Altın Orda Hanlığı (Seyyid Ahmed Han)",
+            "result": "zafer",
+            "note": "Kırım'ı istilaya gelen Seyyid Ahmed Han mağlup edilerek esir alındı."
+          }
+        ],
+        "legends": [
+          "Adaleti ve dindarlığı sebebiyle Kırım halkı tarafından kendisine 'Melek' lakabının verildiği kaydedilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HACI GİRAY I",
+            "url": "https://islamansiklopedisi.org.tr/haci-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-mengli-giray",
+        "name": "I. Mengli Giray Han",
+        "aliases": [
+          "Mengli I Giray"
+        ],
+        "title": "Uluğ Han / Padişah",
+        "birth": 1445,
+        "birthNote": "Kırım'da doğdu",
+        "death": 1515,
+        "deathNote": "Bahçesaray'da vefat etti, Salaçık Türbesi'ndedir",
+        "reign": [
+          1467,
+          1515
+        ],
+        "reignNote": "Fatih Sultan Mehmed ile ittifak kuran ve Altın Orda'yı yıkan büyük hükümdar.",
+        "summary": "Hacı Giray'ın oğlu. 1475'te Gedik Ahmed Paşa'nın Kefe fethinden sonra Fatih Sultan Mehmed ile ebedi ittifak kurarak Osmanlı himayesini kabul etti. 1502'de Saray şehrini yerle bir ederek 300 yıllık Altın Orda Hanlığı'na son verdi. Kızı Ayşe Hafsa Sultan'ı Şehzade Selim (Yavuz Sultan Selim) ile evlendirdi; Kanunî Sultan Süleyman'ın dedesidir.",
+        "traits": [
+          "Büyük siyasetçi",
+          "Stratejist",
+          "İmar hamisi",
+          "Sadık müttefik"
+        ],
+        "contribution": "Kırım Hanlığı'nı kurumsallaştırdı; Zincirli Medrese'yi tamamladı; Altın Orda'ya son vererek Kırım'ı kuzeyin tek meşru gücü yaptı.",
+        "harm": "Altın Orda'nın yıkılması ilerleyen asırlarda Rus knezliklerinin doğuya doğru yayılmasının önündeki en büyük engeli kaldırmış oldu.",
+        "wives": [
+          {
+            "name": "Nursultan Hatun",
+            "note": "Kazan Hanı Halil ve İbrâhim'in eski eşi, diplomatik evlilik",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "I. Mehmed Giray",
+            "mother": "",
+            "note": "Babasından sonra tahta geçen fatih han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "I. Saadet Giray",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "I. Sahib Giray",
+            "mother": "",
+            "note": "Kazan ve Kırım Hanı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ayşe Hafsa Sultan",
+            "mother": "",
+            "note": "Yavuz Sultan Selim'in eşi, Kanunî Sultan Süleyman'ın annesi (Valide Sultan)",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Saray Kuşatması ve Fethi",
+            "when": "1502",
+            "foe": "Altın Orda Devleti (Şeyh Ahmed Han)",
+            "result": "zafer",
+            "note": "Başkent Saray yerle bir edildi, Altın Orda Devleti tarihe karıştı."
+          }
+        ],
+        "legends": [
+          "Kızı Ayşe Hafsa Sultan'ın Manisa'da şifa kaynağı Mesir Macunu geleneğini başlatan muhterem valide sultan olması aile bağlarının canlı timsalidir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MENGLİ GİRAY I",
+            "url": "https://islamansiklopedisi.org.tr/mengli-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-devlet-giray",
+        "name": "I. Devlet Giray Han",
+        "aliases": [
+          "Taht Algan Devlet Giray",
+          "Devlet I Giray"
+        ],
+        "title": "Han / Gazi / Taht Algan",
+        "birth": 1512,
+        "birthNote": "Bahçesaray'da doğdu",
+        "death": 1577,
+        "deathNote": "Bahçesaray'da veba sebebiyle vefat etti",
+        "reign": [
+          1551,
+          1577
+        ],
+        "reignNote": "26 yıl saltanat sürdü; Moskova'yı yakan ünlü gazi han.",
+        "summary": "Kırım Hanlığı'nın en muzaffer hükümdarı. Kanunî Sultan Süleyman devrinde Kırım tahtına oturdu. Çar Korkunç İvan'ın Kazan ve Astrahan'ı işgal etmesine karşı 1571'de 120 bin süvariyle Moskova Seferi'ne çıktı; şehri ve Kremlin varoşlarını ateşe vererek Çarı kaçmaya mecbur etti. 'Taht Algan' (Moskova Tahtını Alan) unvanını aldı.",
+        "traits": [
+          "Yenilmez akıncı",
+          "Sert mareşal",
+          "Gözü pek gazî",
+          "Osmanlı'nın en sadık müttefiki"
+        ],
+        "contribution": "Korkunç İvan'ın güneye ve Kırım'a sarkmasını 20 yıl geciktirdi; Kırım süvarisinin yenilmezliğini dünyaya kanıtladı.",
+        "harm": "1572 Molodi Muharebesi'nde aşırı özgüven sonucu pusuya düşerek ağır süvari zayiatı verdi.",
+        "wives": [
+          {
+            "name": "Ayşe Fâtıma Hatun",
+            "note": "Baş hatun",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "II. Mehmed Giray (Semiz)",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "II. İslâm Giray",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "II. Gazi Giray (Bora)",
+            "mother": "",
+            "note": "Meşhur şair ve bestekâr kahraman han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "I. Fetih Giray",
+            "mother": "",
+            "note": "Haçova fatihi han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "I. Selâmet Giray",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Moskova Seferi ve Yangını",
+            "when": "1571",
+            "foe": "Rus Çarlığı (Korkunç İvan)",
+            "result": "zafer",
+            "note": "Moskova surlarına girildi, şehir tamamen yakıldı; Çar İvan şehirden kaçtı."
+          },
+          {
+            "name": "Molodi Muharebesi",
+            "when": "1572",
+            "foe": "Rus Çarlığı (Prens Mihail Vorotınski)",
+            "result": "yenilgi",
+            "note": "Gulyay-gorod tahkimatına çarpan Kırım ordusu geri çekildi."
+          }
+        ],
+        "legends": [
+          "Korkunç İvan'a gönderdiği mektupta 'Moskova'yı yaktım, tacını ve tahtını çiğnedim; gururundan vazgeçip Kazan ve Astrahan'ı geri ver' diye meydan okuduğu meşhurdur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DEVLET GİRAY I",
+            "url": "https://islamansiklopedisi.org.tr/devlet-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-sahin-giray",
+        "name": "Şahin Giray Han",
+        "aliases": [
+          "Shahin Giray",
+          "Son Kırım Hanı"
+        ],
+        "title": "Son Han",
+        "birth": 1745,
+        "birthNote": "Edirne'de sürgünde doğdu",
+        "death": 1787,
+        "deathNote": "Osmanlı'ya sığındıktan sonra Rodos'ta idam edildi",
+        "reign": [
+          1777,
+          1783
+        ],
+        "reignNote": "Kırım Hanlığı'nın son hükümdarı.",
+        "summary": "Kırım'ın son hanı. Petersburg ve Avrupa'da eğitim gördü. Rus Çariçesi II. Katerina'nın desteğiyle tahta çıktı. Kırım'da orduyu ve idareyi Batı tarzında modernize etmeye çalıştı; ancak halk bu reformları ve Rus kuklalığını reddederek isyan etti. 1783'te Katerina'nın Kırım'ı ilhak fermanına boyun eğdi. Pişman olarak Osmanlı'ya sığındıysa da vatanı Ruslara teslim ettiği gerekçesiyle Rodos'ta idam edildi.",
+        "traits": [
+          "Batı hayranı",
+          "Halkından kopuk",
+          "Trajik reformcu",
+          "Basiretsiz siyasetçi"
+        ],
+        "contribution": "Bahçesaray'da modern matbaa ve darphane kurmaya çalıştı.",
+        "harm": "Rus politikalarına alet olarak 350 yıllık bağımsız Kırım Hanlığı'nın haritadan silinmesine ve Kırım Tatarlarının yüzyıllar sürecek sürgün ve trajedilerine sebep oldu.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Kırım Halk İsyanı Bastırması",
+            "when": "1781-1782",
+            "foe": "Kırım Tatar Halkı ve Ulema",
+            "result": "yenilgi",
+            "note": "Halk isyan etti, Şahin Giray Rus süngüleriyle tahtta kalabildi."
+          }
+        ],
+        "legends": [
+          "Tahttan feragat ettikten sonra Rusya'da ev hapsine alındığında Çariçe Katerina'nın kendisine verdiği sözleri tutmadığını anlayıp Osmanlı'ya kaçtığı bilinir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞÂHİN GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/sahin-giray"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kazan-hanligi",
+    "name": "Kazan Hanlığı",
+    "short": "Kazan Hanlığı (Qazan Yurtı)",
+    "aliases": [
+      "Kazan Khanate",
+      "Qazan Hanlığı",
+      "Kazan Krallığı"
+    ],
+    "region": "kuzey",
+    "start": 1438,
+    "end": 1552,
+    "startNote": "Altın Orda hanlarından Uluğ Muhammed Han'ın İdil (Volga) kıyısında Kazan merkezli kurmasıyla başladı.",
+    "endNote": "1552 yılında Korkunç İvan komutasındaki 150 bin kişilik Rus ordusunun Kazan Kalesi'ni zaptetmesiyle yıkıldı.",
+    "capital": "Kazan",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Kazan Kroniği (Kazanskaya Istoriya), Rus vakayinâmeleri ve kitabelerle sabittir.",
+    "summary": "İdil Bulgar mirası üzerine Altın Orda hanı Uluğ Muhammed Han tarafından kurulan zengin ve medeni Türk-Tatar devleti. Volga nehir ticaretini elinde tuttu. 1445 Suzdal zaferiyle Moskova Büyük Knezini esir aldı. Sarayları, camileri (Kul Şerif Camii) ve zengin kütüphaneleriyle tanındı. 1552'de Korkunç İvan'ın aylar süren kanlı kuşatması sonrası düşerek Rus Çarlığı tarafından ilhak edildi.",
+    "legacy": "Kazan Tatarlarının yüksek şehir kültürünü, Kul Şerif destanını ve Süyümbike Minaresi efsanesini tarihe emanet etti.",
+    "essay": [
+      "Kazan Hanlığı, eski İdil Bulgar Devleti'nin verimli topraklarında ve Altın Orda'nın çöküş boşluğunda Uluğ Muhammed Han tarafından 1438'de kuruldu.",
+      "Uluğ Muhammed Han, 1445'te Suzdal Meydan Muharebesi'nde Moskova Büyük Knezi II. Vasili'yi ordusuyla birlikte esir alarak Rusları ağır haraca bağladı ve Kasım Hanlığı'nın kurulmasına zemin hazırladı.",
+      "Hanlık içindeki Rus yanlısı ve Kırım-Osmanlı yanlısı hizipler devleti zayıflattı. Safa Giray Han devrinde bağımsızlık korunduysa da onun ölümünden sonra tahta çıkan küçük yaştaki oğlu adına devleti yöneten kahraman naibe Süyümbike Hatun, Moskova entrikalarına direndi. 1552 sonbaharında Korkunç İvan 150 bin asker ve yüzlerce topla Kazan'ı kuşattı; Seyyid Kul Şerif ve talebeleri cami önünde son nefeslerine kadar dövüşerek şehit düştü ve hanlık yıkıldı."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, ULUĞ MUHAMMED HAN",
+        "url": "https://islamansiklopedisi.org.tr/ulug-muhammed-han"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, SÜYÜMBİKE",
+        "url": "https://islamansiklopedisi.org.tr/suyumbike"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kazan-ulug-muhammed",
+        "name": "Uluğ Muhammed Han",
+        "aliases": [
+          "Oluğ Muhammed",
+          "Ulan Han"
+        ],
+        "title": "Han / Kurucu",
+        "birth": 1405,
+        "birthNote": "Deşt-i Kıpçak sahasında doğdu",
+        "death": 1445,
+        "deathNote": "Kazan'da vefat etti",
+        "reign": [
+          1438,
+          1445
+        ],
+        "reignNote": "Kazan Hanlığı ve Kasım Hanlığı'nın kurucu atası.",
+        "summary": "Altın Orda tahtından ayrıldıktan sonra İdil boyuna gelerek Kazan Hanlığı'nı kuran tecrübeli hükümdar. 1445 Suzdal Muharebesi'nde Moskova ordusunu bozguna uğratıp Rus Büyük Knezi II. Vasili'yi esir aldı; Rusları ağır tazminata bağladı.",
+        "traits": [
+          "Dirayetli lider",
+          "Usta komutan",
+          "Teşkilatçı"
+        ],
+        "contribution": "Kazan Hanlığı'nı kurdu; Rus knezliklerine karşı Tatar askeri üstünlüğünü sürdürdü.",
+        "harm": "Vefatından sonra oğlu Mahmud ile kardeşi Kasım arasında başlayan çekişme hanlığın bölünmesine yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Mahmud Han",
+            "mother": "",
+            "note": "Kazan tahtına geçen oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kasım Han",
+            "mother": "",
+            "note": "Kasım Hanlığı'nı kuran oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yakup Bey",
+            "mother": "",
+            "note": "Kazan prensi",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Belyov Muharebesi",
+            "when": "1437",
+            "foe": "Moskova Knezliği (II. Vasili)",
+            "result": "zafer",
+            "note": "40 bin kişilik Rus ordusu 3 bin kişilik Tatar süvarisi tarafından darmadağın edildi."
+          },
+          {
+            "name": "Suzdal Meydan Muharebesi",
+            "when": "1445",
+            "foe": "Moskova Büyük Knezliği (II. Vasili)",
+            "result": "zafer",
+            "note": "Büyük Knez esir alındı, ağır fidye ve vergi anlaşması imzalandı."
+          }
+        ],
+        "legends": [
+          "Rus Büyük Knezini bizzat çadırında esir tutup ayağına diz çöktürmesi Rus vakayinâmelerinde asırlarca utançla anılmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ULUĞ MUHAMMED HAN",
+            "url": "https://islamansiklopedisi.org.tr/ulug-muhammed-han"
+          }
+        ]
+      },
+      {
+        "id": "kazan-suyumbike",
+        "name": "Süyümbike Hatun",
+        "aliases": [
+          "Soyembika",
+          "Melike Süyümbike"
+        ],
+        "title": "Naibe Hanım / Han Bike",
+        "birth": 1516,
+        "birthNote": "Nogay Ordası'nda başkent Saraycık'ta doğdu",
+        "death": 1554,
+        "deathNote": "Kasimov'da sürgünde vefat etti",
+        "reign": [
+          1549,
+          1551
+        ],
+        "reignNote": "Kazan Hanlığı'nın efsanevi kadın naibesi ve hükümdarı.",
+        "summary": "Nogay Beyi Yusuf'un kızı, Kazan Hanı Safa Giray'ın eşi. Eşinin vefatından sonra 2 yaşındaki oğlu Ötemiş Giray adına taht naibesi olarak devleti yönetti. Moskova'nın tehditlerine karşı Kazan Kalesi'ni savundu. Rus işbirlikçisi hain beyler tarafından hileyle esir alınıp Ruslara teslim edildi. Moskova'da vaftiz edilmeye zorlandı, zorla Şah Ali ile evlendirildi. Tatar bağımsızlık mücadelesinin en kutsal sembolüdür.",
+        "traits": [
+          "Milli kahraman",
+          "Fedakar anne",
+          "Bağımsızlık sembolü",
+          "Asil melike"
+        ],
+        "contribution": "Kazan halkının bağımsızlık ruhunu diri tuttu; adaletli ve dirayetli bir naibelik yürüttü.",
+        "harm": "İçteki Rus taraftarı aristokratların entrikalarını ve hanlığın teslim edilmesini engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Ötemiş Giray",
+            "mother": "",
+            "note": "Kazan'ın küçük hanı, annesiyle birlikte Moskova'ya esir götürüldü",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kazan Kalesi Savunması",
+            "when": "1550",
+            "foe": "Moskova Çarlığı (Korkunç İvan)",
+            "result": "zafer",
+            "note": "Korkunç İvan'ın şehri kuşatan ordusu ağır kış şartları ve Tatar taarruzuyla püskürtüldü."
+          }
+        ],
+        "legends": [
+          "Kazan Kremlin'indeki meşhur 'Süyümbike Minaresi' efsanesine göre, Korkunç İvan onunla evlenmek istemiş, o da 7 günde 7 katlı minare yapılması şartını koşmuş, minare bitince kendisini minarenin tepesinden atarak can vermiştir (tarihte ise esir edilip sürülmüştür)."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SÜYÜMBİKE",
+            "url": "https://islamansiklopedisi.org.tr/suyumbike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "astrahan-hanligi",
+    "name": "Astrahan Hanlığı",
+    "short": "Astrahan (Hacı Tarhan)",
+    "aliases": [
+      "Astrakhan Khanate",
+      "Hacı Tarhan Hanlığı",
+      "Ejderhan Hanlığı"
+    ],
+    "region": "kuzey",
+    "start": 1465,
+    "end": 1556,
+    "startNote": "Altın Orda'nın dağılmasıyla Mahmud Han tarafından İdil deltasındaki Hacı Tarhan merkezli kuruldu.",
+    "endNote": "1556 yılında Korkunç İvan komutasındaki Rus donanması ve ordusu tarafından zaptedilerek ilhak edildi.",
+    "capital": "Hacı Tarhan (Astrahan)",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Osmanlı Don-Volga kanalı layiha vesikaları ve Rus arşivleriyle sabittir.",
+    "summary": "İdil Irmağı'nın Hazar Denizi'ne döküldüğü stratejik delta üzerinde kurulan ticaret hanlığı. Hazar deniz ticareti, ipek, tuz ve kürk yollarını denetledi. 1556'da Korkunç İvan tarafından ilhak edilerek Rusların Hazar Denizi'ne inmesine yol açtı. 1569'da Osmanlı Sadrazamı Sokullu Mehmed Paşa burayı geri almak ve Rus yayılmasını kesmek için Don-Volga Kanalı Seferi'ni başlattı.",
+    "legacy": "Don-Volga Kanal projesine ilham kaynağı oldu; Hazar-İdil ticaret havzasını asırlarca canlandırdı.",
+    "essay": [
+      "Astrahan Hanlığı, Altın Orda Hanı Küçük Muhammed'in oğlu Mahmud Han tarafından İdil deltasındaki Hacı Tarhan şehrinde kuruldu. Coğrafi konumu sebebiyle Asya, Rusya, Kafkasya ve İran ticaretinin kilit düğüm noktasıydı.",
+      "Hanlık, Kırım Hanlığı ve Nogay Ordası'nın sürekli siyasi çekişmelerine sahne oldu. 1556'da Korkunç İvan'ın nehir donanması şehri işgal etti. Osmanlı Devleti 1569'da Kırım Hanı Devlet Giray ve Kasım Paşa komutasında Don-Volga Kanalı Projesi ile Astrahan'ı geri almayı hedeflediyse de kış şartları ve Kırım Hanı'nın isteksizliği sebebiyle sefer tamamlanamadı."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, ASTRAHAN HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/astrahan-hanligi"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "astrahan-mahmud-han",
+        "name": "Mahmud Han",
+        "aliases": [
+          "Mahmud bin Küçük"
+        ],
+        "title": "Han / Kurucu",
+        "birth": 1430,
+        "birthNote": "Saray şehrinde doğdu",
+        "death": 1476,
+        "deathNote": "Hacı Tarhan'da vefat etti",
+        "reign": [
+          1465,
+          1476
+        ],
+        "reignNote": "Astrahan Hanlığı'nın kurucusu.",
+        "summary": "Altın Orda Hanı Küçük Muhammed'in oğlu. Kardeşi Ahmed Han ile anlaşamayarak Hacı Tarhan'a çekildi ve bağımsız Astrahan Hanlığı'nı kurdu. Hazar ticaretini organize etti.",
+        "traits": [
+          "Ticaret ehli",
+          "Diplomat",
+          "Mutedil lider"
+        ],
+        "contribution": "Hacı Tarhan'ı Doğu ile Batı arasında uluslararası ticaret limanına dönüştürdü.",
+        "harm": "Askeri kuvvetini zayıf tutarak hanlığı komşu güçlerin nüfuz mücadelesine açık bıraktı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Kasım Han",
+            "mother": "",
+            "note": "Babasından sonra tahta geçen han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Hacı Tarhan Savunması",
+            "when": "1468",
+            "foe": "Altın Orda Ordusu (Ahmed Han)",
+            "result": "zafer",
+            "note": "Kardeşinin şehri alma girişimi püskürtüldü."
+          }
+        ],
+        "legends": [
+          "Hacı Tarhan şehrinin adının buraya yerleşip vergiden muaf tutulan kutlu bir derviş olan 'Hacı Tarhan'dan geldiği anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ASTRAHAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/astrahan-hanligi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sibir-hanligi",
+    "name": "Sibir Hanlığı",
+    "short": "Sibir Hanlığı (Tümen Yurdu)",
+    "aliases": [
+      "Sibir Khanate",
+      "Tümen Hanlığı",
+      "İsker Hanlığı",
+      "Sibir Yurtı"
+    ],
+    "region": "kuzey",
+    "start": 1468,
+    "end": 1598,
+    "startNote": "Batı Sibirya'da İrtiş ve Tobol nehirleri havzasında İbak Han ve Taibuga sülalesi tarafından kuruldu.",
+    "endNote": "1598 Irmak Muharebesi sonrası son han Küçüm Han'ın çekilmesi ve Rus Çarlığı ilhakıyla sona erdi.",
+    "capital": "Çingi-Tura (Tümen) ve İsker (Kaşlık)",
+    "religion": "İslamiyet (Sünnî-Hanefî) ve Şamanizm",
+    "confidence": "kayit",
+    "confidenceNote": "Stroganov ve Remezov Sibirya kronikleri ve Buhara elçilik kayıtlarıyla sabittir.",
+    "summary": "Tarihte 'Sibirya' coğrafyasına adını veren tek Müslüman-Türk devleti. Batı Sibirya düzlüklerinde, İrtiş ve Tobol ırmakları boyunda hüküm sürdü. Küçüm Han devrinde Buhara'dan din âlimleri ve şeyhler getirtilerek bölge halkları (Tatarlar, Hantılar, Mansiler) arasında İslamiyet hızla yayıldı. 1581'de Rus Kazak atamanı Yermak'ın istilasına karşı Küçüm Han 17 yıl boyunca amansız bir gerilla ve meydan savaşı verdi; Yermak'ı İrtiş Nehri'nde boğdurarak intikam aldı. 1598'de yıkıldı.",
+    "legacy": "Uçsuz bucaksız Sibirya kıtasına adını mühürledi; kutup dairesine yakın topraklarda İslam medeniyetinin meşalesini yaktı.",
+    "essay": [
+      "Sibir Hanlığı, Altın Orda'nın dağılmasıyla Batı Sibirya'nın orman ve tayga kuşağında kuruldu. Hanlık başkenti önce Çingi-Tura (bugünkü Tümen), ardından İrtiş kıyısındaki korunaklı İsker (Kaşlık / Sibir) şehri oldu.",
+      "Hanlığın en büyük hükümdarı Şeybânî soyundan gelen Küçüm Han (1563-1598) oldu. Küçüm Han, tebaası arasında İslamiyeti samimiyetle yaydı. Ancak Çar Korkunç İvan'ın fermanı ve zengin Stroganov tüccarlarının finansmanıyla donatılan Kazak Atamanı Yermak Timofeyeviç, 1581'de ateşli silahlarla Sibirya'yı istila etti.",
+      "Küçüm Han, başkenti İsker'i kaybetmesine rağmen teslim olmadı; taygalarda 17 yıl süren destansı bir direniş örgütledi. 1585'te gece baskınıyla Yermak'ın birliğini kılıçtan geçirdi; zırhıyla İrtiş'e atlayan Yermak boğuldu. Ancak Rus takviye orduları karşısında 1598'de son savaşını kaybeden ihtiyar Küçüm Han bozkıra çekildi ve hanlık çöktü."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, SİBİR HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/sibir-hanligi"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN",
+        "url": "https://islamansiklopedisi.org.tr/kucum-han"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "sibir-kucum-han",
+        "name": "Küçüm Han",
+        "aliases": [
+          "Kuchum Khan",
+          "Kocum Han"
+        ],
+        "title": "Han / Gazi / Sibirya Mücahidi",
+        "birth": 1515,
+        "birthNote": "Aral bozkırında doğdu",
+        "death": 1605,
+        "deathNote": "Buhara bozkırında Nogaylar arasında vefat etti",
+        "reign": [
+          1563,
+          1598
+        ],
+        "reignNote": "35 yıl saltanat sürdü; Yermak'a karşı Sibirya'yı savunan efsanevi han.",
+        "summary": "Sibir Hanlığı'nın en şanlı hükümdarı. Buhara Emiri Abdullah Han'ın desteğiyle tahta çıktı; Sibirya'da camiler ve medreseler açtı. Rus Çarlığı'nın paralı atamanı Yermak'ın ateşli silahlı Kazak ordusuna karşı 17 yıl savaştı. 1585'te Vagay Nehri baskınında Yermak'ı nehirde boğdurdu. Gözleri kör olana ve son askeri şehit düşene kadar Çarlığa boyun eğmedi.",
+        "traits": [
+          "Yılmayan mücahid",
+          "Dindar hami",
+          "Cesur başbuğ",
+          "Vatanperver"
+        ],
+        "contribution": "Sibirya'da İslamiyet'in kök salmasını sağladı; Rus istilasına karşı eşsiz bir direniş destanı bıraktı.",
+        "harm": "Ateşli silahlara karşı ordusunun geleneksel ok ve kılıç taktiğinde geç kalması mağlubiyeti kaçınılmaz kıldı.",
+        "wives": [
+          {
+            "name": "Süzenge Hatun",
+            "note": "İsker savunmasında kahramanca direnen ve esir düşmemek için canına kıyan baş hatun",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Ali Han",
+            "mother": "",
+            "note": "Babasından sonra direnişi sürdüren oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kanay Han",
+            "mother": "",
+            "note": "Sibirya şehzadesi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İşim Sultan",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Çuvaş Burnu Muharebesi",
+            "when": "1582",
+            "foe": "Rus Çarlığı Kazakları (Ataman Yermak)",
+            "result": "yenilgi",
+            "note": "Ateşli tüfeklerin gürültüsü ve etkisi karşısında İsker tahliye edildi."
+          },
+          {
+            "name": "Vagay Irmağı Gece Baskını",
+            "when": "1585",
+            "foe": "Rus Çarlığı Kazak Birliği (Ataman Yermak)",
+            "result": "zafer",
+            "note": "Yermak'ın kampı gece basıldı; Çarın hediye ettiği çifte ağır zırhı taşıyan Yermak nehre atlayıp boğuldu."
+          },
+          {
+            "name": "Irmak Muharebesi",
+            "when": "1598",
+            "foe": "Rus Çarlığı Ordusu (Voyvoda Voyeykov)",
+            "result": "yenilgi",
+            "note": "Küçüm Han'ın son ordusu dağıldı, ailesi esir alındı, kendisi bozkıra çekildi."
+          }
+        ],
+        "legends": [
+          "Çar Boris Godunov'un kendisine teslim olması halinde sarayında hürmet göreceği teklifini 'Ben hür doğdum, bir kula kul olarak ölemem; gözlerim görmez oldu ama kalbim hürdür' diyerek reddetmesi destanlaşmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN",
+            "url": "https://islamansiklopedisi.org.tr/kucum-han"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kasim-hanligi",
+    "name": "Kasım Hanlığı",
+    "short": "Kasım Hanlığı (Mişer Yurdu)",
+    "aliases": [
+      "Kasimov Khanate",
+      "Mişer Yurdu",
+      "Gorodets Hanlığı"
+    ],
+    "region": "kuzey",
+    "start": 1452,
+    "end": 1681,
+    "startNote": "Kazan Hanı Uluğ Muhammed'in oğlu Kasım Han'a Oka Nehri boyundaki Gorodets kentinin yurtluk verilmesiyle kuruldu.",
+    "endNote": "1681 yılında son naibe Fâtıma Sultan Bikem'in vefatıyla özerklik tamamen kaldırılarak Rusya'ya bağlandı.",
+    "capital": "Kasimov (Gorodets Meşçerskiy)",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Velyaminov-Zernov'un dört ciltlik Kasimov Hanlığı tetkikatı ve Rus elçilik defterleriyle sabittir.",
+    "summary": "Moskova Knezliği sınırları içinde, Oka Irmağı üzerinde 230 yıl boyunca varlığını sürdüren özerk Müslüman-Türk hanlığı. Kurucusu Kasım Han'ın adıyla anılan başkent Kasimov'da camiler ve han türbeleri inşa edildi. Rusya'nın Kazan, Astrahan, Kırım ve Livonya ile diplomatik ve askeri ilişkilerinde kilit köprü rolü oynadı. 1681'de Rusya tarafından ilhak edildi.",
+    "legacy": "Moskova'nın göbeğinde iki asır boyunca İslam sancağını dalgalandırdı; Kasimov Han Camii minaresi günümüze kadar ayakta kaldı.",
+    "essay": [
+      "Kasım Hanlığı, 1445 Suzdal zaferinden sonra Uluğ Muhammed Han'ın oğlu Kasım Han'ın Moskova Büyük Knezi II. Vasili ile yaptığı anlaşma neticesinde Oka boyunda bir tampon Türk beyliği olarak 1452'de kuruldu.",
+      "Hanlığın ahalisini Mişer Tatarları oluşturuyordu. Kasım Hanları Rusya'nın dış ilişkilerinde ordu komutanı, elçi ve arabulucu olarak en yüksek mertebede görev yaptılar. Şah Ali Han ve Seyyid Burhan gibi hanlar döneminde hanlık Rusya içi siyasetin odak noktası oldu. 1681'de son naibe Fâtıma Sultan Bikem'in vefatıyla lağvedildi."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, KASIM HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kasim-kasim-han",
+        "name": "Kasım Han",
+        "aliases": [
+          "Qasim Khan"
+        ],
+        "title": "Han / Kurucu",
+        "birth": 1425,
+        "birthNote": "Altın Orda bozkırında doğdu",
+        "death": 1469,
+        "deathNote": "Kasimov'da vefat etti",
+        "reign": [
+          1452,
+          1469
+        ],
+        "reignNote": "Kasım Hanlığı'nın kurucusu ve isim babası.",
+        "summary": "Uluğ Muhammed Han'ın oğlu. 1445'te Suzdal zaferinden sonra Moskova knezine yardım etti; Oka Irmağı boyundaki Gorodets şehri kendisine bağışlandı. Burada bağımsız bir Müslüman idare kurdu; şehir 'Kasimov' adını aldı.",
+        "traits": [
+          "Diplomat",
+          "Usta kumandan",
+          "Mutedil siyasetçi"
+        ],
+        "contribution": "Rus topraklarında 230 yıl sürecek Müslüman Türk yurdunu ve hanlığını kurdu.",
+        "harm": "Moskova ile kurduğu bağımlılık ilişkisi hanlığın tam bağımsız bir devlet olmasını engelledi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Danyal Han",
+            "mother": "",
+            "note": "Babasından sonra han olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Moskova Taht Kavgası Müdahalesi",
+            "when": "1449-1450",
+            "foe": "Dmitriy Şemyaka Birlikleri",
+            "result": "zafer",
+            "note": "II. Vasili'nin tahtını kurtararak Oka boyunu yurtluk olarak kazandı."
+          }
+        ],
+        "legends": [
+          "Kasimov kentinde 1467 yılında inşa ettirdiği taş minarenin bugün dahi Rusya Federasyonu'nda ayakta duran en eski İslam anıtlarından biri olması onun mirasıdır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KASIM HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "delhi-turk-sultanligi",
+    "name": "Delhi Türk Sultanlığı",
+    "short": "Delhi Sultanlığı (Memlûk-Halacî)",
+    "aliases": [
+      "Delhi Sultanate",
+      "Saltanat-ı Dehlî",
+      "Hindistan Türk Devleti"
+    ],
+    "region": "turkistan",
+    "start": 1206,
+    "end": 1526,
+    "startNote": "1206'da Kutbüddin Aybeg'in bağımsızlığını ilan etmesiyle kurulan; Memlûk, Halacî ve Tuğluk Türk hanedanlarının yönettiği büyük imparatorluk.",
+    "endNote": "1526 Panipat Meydan Muharebesi'nde Bâbür Şah'ın İbrâhim Lûdî'yi yenmesiyle yerini Bâbür İmparatorluğu'na bıraktı.",
+    "capital": "Delhi (Lâl Kot, Tughlakabad)",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Minhâc-ı Sirâc (Tabakât-ı Nâsırî), Ziyâeddin Berenî (Târîh-i Fîrûzşâhî) ve İbn Battûta seyahatnamesiyle sabittir.",
+    "summary": "Hindistan alt kıtasında İslam hakimiyetini kalıcı kılan, 320 yıl boyunca Delhi merkezli hüküm süren kudretli Türk imparatorluğu. Kutbüddin Aybeg, Şemseddin İltutmuş, Türk ve İslam tarihinin ilk kadın hükümdarı Raziyye Sultan, Alâeddin Halacî ve Muhammed bin Tuğluk gibi büyük hükümdarlar yönetti. Kutub Minar gibi abidevi eserler inşa edildi. Moğol istilalarını defalarca püskürterek Hindistan'ı tahripten kurtardı. 1526'da Bâbür İmparatorluğu'na devroldu.",
+    "legacy": "Dünyanın en yüksek tuğla minaresi olan Kutub Minar'ı insanlığa kazandırdı; Hint alt kıtasını Türk-İslam mimarisi ve sanatıyla yoğurdu.",
+    "essay": [
+      "Delhi Türk Sultanlığı, Gurlu kumandanı Kıpçak asıllı Kutbüddin Aybeg'in 1206'da bağımsızlığını ilan etmesiyle kuruldu. Aybeg'in başlattığı Kutub Minar, Türk-İslam mimarisinin Hindistan'daki zafer anıtı oldu.",
+      "Şemseddin İltutmuş devleti teşkilatlandırdı; vefatında yerine kızı Raziyye Sultan'ı veliaht bıraktı. Raziyye Sultan (1236-1240), erkek kıyafetleriyle ordusunun başında bizzat sefere çıkan, feraseti ve adaletli yönetimiyle Türk tarihine geçen ilk kadın sultan oldu.",
+      "Alâeddin Halacî (1296-1316), Moğol ordularını beş kez üst üste hezimete uğratarak Hindistan'ı Moğol felaketinden kurtardı ve Güney Hindistan'ı fethetti. Muhammed bin Tuğluk devrinde imparatorluk tüm Hint kıtasına yayıldı. 1526'da taht Timur soyundan gelen Bâbür Şah'a geçti."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, KUTBÜDDİN AYBEG",
+        "url": "https://islamansiklopedisi.org.tr/kutbuddin-aybeg"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, RAZİYYE BEGÜM",
+        "url": "https://islamansiklopedisi.org.tr/raziyye-begum"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, ALÂEDDİN HALACÎ",
+        "url": "https://islamansiklopedisi.org.tr/alaeddin-halaci"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "delhi-kutbuddin-aybeg",
+        "name": "Kutbüddin Aybeg",
+        "aliases": [
+          "Aybeg",
+          "Lâh-bahş (Milyonlar Bağışlayan)"
+        ],
+        "title": "Sultan / Memlûk / Kurucu",
+        "birth": 1150,
+        "birthNote": "Türkistan bozkırında doğdu, Nişabur'da köle pazarından alındı",
+        "death": 1210,
+        "deathNote": "Lahor'da polo (çevgân) oynarken atından düşerek vefat etti",
+        "reign": [
+          1206,
+          1210
+        ],
+        "reignNote": "Delhi Sultanlığı ve Muizzî (Memlûk) Hanedanı'nın kurucusu.",
+        "summary": "Türkistan'dan köle olarak getirilip liyakatiyle Hindistan fatihi ve hükümdarı olan büyük sultan. Delhi'yi fethederek başkent yaptı. Hindistan'ın en görkemli taş minaresi olan Kutub Minar'ın ve Kuvvetü'l-İslam Camii'nin inşasını başlattı. Cömertliği sebebiyle 'Lâh-bahş' lakabını aldı.",
+        "traits": [
+          "Fevkalade cömert",
+          "Yenilmez fatih",
+          "Mütevazı teşkilatçı"
+        ],
+        "contribution": "Hindistan'da 300 yıl sürecek Türk hakimiyetini kurdu; Kutub Minar'ın temelini attı.",
+        "harm": "Erken vefatı sebebiyle sultanlığın idari teşkilatını tam olarak tamamlayamadı.",
+        "wives": [
+          {
+            "name": "Tâceddin Yıldız'ın Kızı",
+            "note": "Siyasi izdivaç",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Ârâm Şah",
+            "mother": "",
+            "note": "Kısa süre tahta oturdu",
+            "certainty": "tartismali"
+          },
+          {
+            "name": "Kutbiyye Hatun",
+            "mother": "",
+            "note": "Şemseddin İltutmuş ile evlenen kızı",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Tarain Muharebesi",
+            "when": "1192",
+            "foe": "Çauhan Racput Krallığı (Prithviraj)",
+            "result": "zafer",
+            "note": "Kuzey Hindistan kapıları Türk ordularına açıldı."
+          },
+          {
+            "name": "Delhi Kuşatması ve Fethi",
+            "when": "1193",
+            "foe": "Tomara Hanedanı",
+            "result": "zafer",
+            "note": "Delhi zaptedilerek Türk hakimiyetinin merkezi yapıldı."
+          }
+        ],
+        "legends": [
+          "Kutub Minar'ın dibinde bulunan paslanmaz demir sütunun (Iron Pillar of Delhi) yanına inşa ettiği cami günümüzde UNESCO Dünya Mirasıdır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KUTBÜDDİN AYBEG",
+            "url": "https://islamansiklopedisi.org.tr/kutbuddin-aybeg"
+          }
+        ]
+      },
+      {
+        "id": "delhi-raziyye-sultan",
+        "name": "Raziyye Sultan",
+        "aliases": [
+          "Celâletüddin Raziyye Begüm",
+          "Razia Sultana"
+        ],
+        "title": "Sultan / Padişah-ı Âlem",
+        "birth": 1205,
+        "birthNote": "Delhi'de sarayda doğdu",
+        "death": 1240,
+        "deathNote": "Kaithal yakınlarında esir alınıp şehit edildi",
+        "reign": [
+          1236,
+          1240
+        ],
+        "reignNote": "Türk-İslam tarihinin tahta geçen İLK kadın hükümdarı.",
+        "summary": "Şemseddin İltutmuş'un kızı. Babasının vasiyeti ve halkın desteğiyle tahta çıktı. Sarayda ve orduda erkek kıyafetleriyle göründü; ata bindi, ordusunun başında bizzat savaştı. 'Umdetü'n-Nisvân' unvanıyla sikke bastırdı. Kırklar Meclisi'nin (Çihilgân) Türk emirlerinin entrikalarına karşı cesurca savaştı. Altuniye ile evlenerek tahtını geri almaya çalışırken pusuya düşürülüp şehit edildi.",
+        "traits": [
+          "Cesur kadın hükümdar",
+          "Adalet timsali",
+          "Fevkalade zeki",
+          "Halkın sevgilisi"
+        ],
+        "contribution": "Türk kadınının devlet idaresindeki kudretini ve cesaretini tüm dünyaya kanıtladı; medreseler ve kütüphaneler kurdu.",
+        "harm": "Gelenekçi Türk emirleri ('Kırklar') ile girdiği iktidar mücadelesi saray krizlerini tetikledi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Delhi Taht İsyanı Bastırması",
+            "when": "1236",
+            "foe": "Vezir Cüneydî ve İsyancı Türk Emirleri",
+            "result": "zafer",
+            "note": "Kırmızı elbise giyip halkın önüne çıkarak adaleti sağladı ve tahtını güvenceye aldı."
+          },
+          {
+            "name": "Kaithal Muharebesi",
+            "when": "1240",
+            "foe": "Behram Şah Destekçisi Emirler",
+            "result": "yenilgi",
+            "note": "Ordusu dağıldı, esir alınarak şehit edildi."
+          }
+        ],
+        "legends": [
+          "Tarihçi Minhâc-ı Sirâc onun için: 'Büyük bir hükümdarda bulunması gereken bütün vasıflara fazlasıyla sahipti; tek eksiği kaderin onu kadın yaratmış olmasıydı' diye yazmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, RAZİYYE BEGÜM",
+            "url": "https://islamansiklopedisi.org.tr/raziyye-begum"
+          }
+        ]
+      },
+      {
+        "id": "delhi-alaeddin-halaci",
+        "name": "Alâeddin Halacî",
+        "aliases": [
+          "Sikander-i Sâni (İkinci İskender)"
+        ],
+        "title": "Sultan / İkinci İskender",
+        "birth": 1266,
+        "birthNote": "Delhi civarında doğdu",
+        "death": 1316,
+        "deathNote": "Delhi'de vefat etti",
+        "reign": [
+          1296,
+          1316
+        ],
+        "reignNote": "20 yıllık hükümdarlığıyla Hindistan'ın en kudretli fatihi.",
+        "summary": "Halacî Türk hanedanının en büyük sultanı. Çağatay Moğollarının 5 büyük istila ordusunu Kili, Delhi ve Amroha muharebelerinde imha ederek Hindistan'ı Moğol istilasından kurtardı. Güney Hindistan'ı (Dekkan, Madurai) fethetti. Tarihin ilk sıkı fiyat denetimi ve narh sistemini (pazar ekonomisi kontrolü) başarıyla uyguladı. Kendisine 'İkinci İskender' lakabını verdi.",
+        "traits": [
+          "Yenilmez mareşal",
+          "Ekonomi dehası",
+          "Kati disiplinli lider",
+          "Moğol fatihi"
+        ],
+        "contribution": "Hindistan'ı Moğol soykırımından kurtardı; pazar ve narh reformlarıyla halkın alım gücünü ve ordu donanımını zirveye çıkardı.",
+        "harm": "Vergileri çok yüksek tuttu; şüphelendiği muhaliflere karşı acımasız cezalar uyguladı.",
+        "wives": [
+          {
+            "name": "Kemlâ Devî",
+            "note": "Gucerât racasının eski eşi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Mehru'n-Nisâ",
+            "note": "Alp Han'ın kız kardeşi",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Hızır Han",
+            "mother": "",
+            "note": "Veliaht şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kutbüddin Mübârek Şah",
+            "mother": "",
+            "note": "Sonraki sultan",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kili Muharebesi (Moğol İstilası)",
+            "when": "1299",
+            "foe": "Çağatay Hanlığı Moğol Ordusu (Kutluk Hoca)",
+            "result": "zafer",
+            "note": "200 bin kişilik Moğol ordusu Delhi önlerinde bozguna uğratıldı."
+          },
+          {
+            "name": "Çitor Kuşatması ve Fethi",
+            "when": "1303",
+            "foe": "Mewar Racput Krallığı (Ratan Singh)",
+            "result": "zafer",
+            "note": "Aşılamaz Çitor dağ kalesi fethedildi."
+          },
+          {
+            "name": "Amroha Muharebesi",
+            "when": "1305",
+            "foe": "Moğol Ordusu (Ali Beg ve Tarğı)",
+            "result": "zafer",
+            "note": "Moğol komutanları esir alındı, Moğol tehdidi kalıcı olarak kırıldı."
+          }
+        ],
+        "legends": [
+          "Bastırdığı sikkelerin üzerine 'İskender-i Sâni' (İkinci İskender) unvanını kazıtması ve dünyayı fethetme ideali tarih boyunca anlatılmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALÂEDDİN HALACÎ",
+            "url": "https://islamansiklopedisi.org.tr/alaeddin-halaci"
+          }
+        ]
+      }
+    ]
+  }
+]

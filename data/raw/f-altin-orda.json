@@ -1,0 +1,918 @@
+[
+  {
+    "id": "altin-orda",
+    "name": "Altın Orda Hanlığı",
+    "short": "Altın Orda (Cuci Ulusu)",
+    "aliases": [
+      "Altın Ordu",
+      "Deşt-i Kıpçak Hanlığı",
+      "Cuci Ulusu",
+      "Kıpçak Hanlığı",
+      "Golden Horde"
+    ],
+    "region": "kuzey",
+    "start": 1227,
+    "end": 1502,
+    "startNote": "Cengiz Han'ın büyük oğlu Cuci'nin vefatı ve Batu Han'ın Deşt-i Kıpçak seferleriyle 1227-1242'de kuruldu.",
+    "endNote": "1502 yılında Kırım Hanı I. Mengli Giray'ın Saray şehrini zaptetmesi ve son han Şeyh Ahmed'in yenilgisiyle yıkıldı.",
+    "capital": "Saray (Sarây-ı Bâtû ve Sarây-ı Berke)",
+    "religion": "İslamiyet (Özbek Han devrinden itibaren resmi din; önceleri Şamanizm / Gök Tanrı)",
+    "confidence": "kayit",
+    "confidenceNote": "Cüveynî, Reşîdüddin (Câmiu't-Tevârîh), İbn Battûta seyahatnamesi ve Rus vakayinâmeleriyle sabittir.",
+    "summary": "Cuci'nin oğlu Batu Han tarafından Deşt-i Kıpçak, Harezm, İdil boyu ve Doğu Avrupa'da kurulan, yaklaşık üç asır boyunca Rus knezliklerini haraca bağlayan ve Avrasya bozkırlarını birleştiren ulu Türk-Tatar devleti. Berke Han devrinde İslamiyet kabul edildi; Memlüklerle ittifak kurularak İlhanlılar durduruldu. Özbek Han devrinde İslam resmi din ilan edildi ve imparatorluk en parlak devrini yaşadı. Timur istilaları ve taht kavgaları sonucu dağılarak Kazan, Kırım, Astrahan ve Sibir hanlıklarına bölündü.",
+    "legacy": "Rus knezliklerini 250 yıl boyunca 'Tatar Boyunduruğu' (Yoke) altında tutarak Rusların birliğini geciktirdi; İpek Yolu ve Kürk Yolu ticaretini güvene aldı; Saray şehrini doğunun en büyük kültür ve ticaret merkezlerinden biri yaptı.",
+    "essay": [
+      "Altın Orda Hanlığı, Moğol istilası sonrası Deşt-i Kıpçak sahasına yerleşen yönetici tabakanın kısa sürede bölgedeki yoğun Kıpçak Türk nüfusuyla kaynaşıp Türkleşmesi ve İslamlaşması sonucu tam anlamıyla bir Türk-Tatar imparatorluğuna dönüştü.",
+      "Batu Han, 1236-1242 Batı Seferi ile Moskova, Vladimir, Kiev, Polonya ve Macaristan'ı ezerek Adriyatik Denizi'ne kadar ilerledi. Başkent Saray'ı İdil (Volga) kıyısında kurdu. Kardeşi Berke Han İslamiyeti kabul etti; 1258 Bağdat fâciası sonrası İlhanlı Hülâgû'ya savaş açarak Memlük Sultanı Baybars ile tarihi bir ittifak kurdu.",
+      "Gıyâseddin Muhammed Özbek Han (1313-1341) İslamiyeti devlet dini yaptı. İbn Battûta, Saray şehrinin camilerini, hanlarını, saraylarını ve zenginliğini hayranlıkla kaydeder. Canıbek Han'ın ardından başlayan iç karışıklıklar ('Büyük Kargaşa'), Toktamış Han tarafından geçici olarak toparlandıysa da Timur'un 1391 ve 1395 seferleri Saray şehrini yerle bir etti ve devletin belini kırdı. 1502'de Kırım Hanlığı tarafından son verildi."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA",
+        "url": "https://islamansiklopedisi.org.tr/altin-orda"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, BATU HAN",
+        "url": "https://islamansiklopedisi.org.tr/batu-han"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, BERKE HAN",
+        "url": "https://islamansiklopedisi.org.tr/berke-han"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, ÖZBEK HAN",
+        "url": "https://islamansiklopedisi.org.tr/ozbek-han"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "altin-orda-batu",
+        "name": "Batu Han",
+        "aliases": [
+          "Sain Han",
+          "Batu Khan"
+        ],
+        "title": "Uluğ Han / Fatih",
+        "birth": 1205,
+        "birthNote": "Cuci'nin ikinci oğlu olarak Moğol bozkırında doğdu",
+        "death": 1255,
+        "deathNote": "Saray şehrinde vefat etti",
+        "reign": [
+          1227,
+          1255
+        ],
+        "reignNote": "1227'de babasının ulusunu devraldı; 1236-1242 seferleriyle Altın Orda'yı fiilen kurdu.",
+        "summary": "Altın Orda Devleti'nin kurucusu ve tarihin en kudretli fatihlerinden biri. Rus knezliklerini, Polonya ve Macar krallıklarını bozguna uğrattı. İdil boyunda Saray şehrini kurdu. 'Sain Han' (Adil/İyi Han) unvanıyla anıldı.",
+        "traits": [
+          "Büyük stratejist",
+          "Teşkilatçı",
+          "Adil hükümdar",
+          "Askeri deha"
+        ],
+        "contribution": "Avrasya bozkırlarını tek idarede birleştirdi; Deşt-i Kıpçak'ta asırlarca sürecek Türk-Tatar devlet geleneğini kurdu.",
+        "harm": "Doğu Avrupa ve Rus şehirlerinde ağır tahribat ve can kaybına yol açtı.",
+        "wives": [
+          {
+            "name": "Borakçin Hatun",
+            "note": "Büyük baş hatun",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Sartak Han",
+            "mother": "",
+            "note": "Hristiyanlığı kabul eden veliaht, kısa süre han oldu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Tokokan",
+            "mother": "",
+            "note": "Mengü Timur'un babası",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Rus Seferi (Vladimir ve Moskova)",
+            "when": "1237-1238",
+            "foe": "Rus Knezlikleri (Yuri II)",
+            "result": "zafer",
+            "note": "Ryazan, Kolomna, Moskova ve Vladimir zaptedildi."
+          },
+          {
+            "name": "Sit Nehri Muharebesi",
+            "when": "1238",
+            "foe": "Vladimir Büyük Dükalığı",
+            "result": "zafer",
+            "note": "Büyük Knez Yuri öldürüldü, Rusya tamamen itaat altına alındı."
+          },
+          {
+            "name": "Mohi Muharebesi",
+            "when": "1241",
+            "foe": "Macaristan Krallığı (IV. Bela)",
+            "result": "zafer",
+            "note": "Sajo nehri kıyısında Macar ve Templar şövalye ordusu imha edildi."
+          },
+          {
+            "name": "Legnica (Liegnitz) Muharebesi",
+            "when": "1241",
+            "foe": "Polonya ve Alman Şövalyeleri (II. Henryk)",
+            "result": "zafer",
+            "note": "Polonya dükü ve şövalye orduları imha edildi."
+          }
+        ],
+        "legends": [
+          "Moğol kurultayına gitmeyip 'hastayım' diyerek kendi hanlığında kalması ve imparatorluk kaderini Saray'dan belirlemesi efsaneleşmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BATU HAN",
+            "url": "https://islamansiklopedisi.org.tr/batu-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-berke",
+        "name": "Berke Han",
+        "aliases": [
+          "Birkai Khan"
+        ],
+        "title": "Han / Mücahid",
+        "birth": 1208,
+        "birthNote": "Cuci'nin üçüncü oğlu olarak doğdu",
+        "death": 1266,
+        "deathNote": "Kafkasya seferi sırasında Tiflis yakınlarında Kura Irmağı boyunda vefat etti",
+        "reign": [
+          1257,
+          1266
+        ],
+        "reignNote": "İslamiyeti kabul eden ilk Altın Orda hükümdarı.",
+        "summary": "Batu Han'ın kardeşi. Buhara'da Şeyh Seyfeddin Bâharzî vasıtasıyla Müslüman oldu. Hülâgû'nun 1258'de Bağdat'ı tahrip edip Abbâsî halifesini katletmesine öfkelenerek İlhanlılar'a savaş açtı. Mısır Memlük Sultanı I. Baybars ile ilk Türk-İslam ittifakını kurdu. Sarây-ı Berke şehrini imar etti.",
+        "traits": [
+          "Mütedeyyin Müslüman",
+          "Cesur başbuğ",
+          "Diplomat",
+          "Adil"
+        ],
+        "contribution": "Altın Orda'nın İslamlaşmasını başlattı; Memlüklerle kurduğu ittifakla İslam dünyasının İlhanlılar tarafından tamamen yutulmasını önledi.",
+        "harm": "İlhanlılar ile Altın Orda arasında uzun sürecek kardeş kavgalarını ve Kafkasya kanlı çatışmalarını başlattı.",
+        "wives": [
+          {
+            "name": "Cicek Hatun",
+            "note": "Müslüman eşi",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [],
+        "wars": [
+          {
+            "name": "Terek Irmağı Muharebesi",
+            "when": "1262",
+            "foe": "İlhanlı Devleti (Hülâgû Han)",
+            "result": "zafer",
+            "note": "Hülâgû'nun ordusu buz tutmuş Terek üzerinde kırılan buzlar ve süvari hücumuyla bozguna uğratıldı."
+          }
+        ],
+        "legends": [
+          "Hülâgû'nun Bağdat katliamını duyduğunda 'O masum Müslümanların kanını döktü, Allah şahidim olsun ki bunun hesabını soracağım' diye ant içtiği rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BERKE HAN",
+            "url": "https://islamansiklopedisi.org.tr/berke-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-ozbek",
+        "name": "Gıyâseddin Muhammed Özbek Han",
+        "aliases": [
+          "Özbek Han",
+          "Sultan Muhammed Özbek"
+        ],
+        "title": "Uluğ Han / Padişah",
+        "birth": 1282,
+        "birthNote": "Tuğrulça'nın oğlu olarak Saray'da doğdu",
+        "death": 1341,
+        "deathNote": "Başkent Saray'da vefat etti",
+        "reign": [
+          1313,
+          1341
+        ],
+        "reignNote": "28 yıllık saltanatıyla Altın Orda'nın altın çağını yaşattı.",
+        "summary": "Altın Orda'nın en parlak hükümdarı. İslamiyeti devletin resmi dini ilan etti. Bozkır halklarının İslamlaşmasını tamamladı. Başkent Saray'ı camiler, medreseler ve saraylarla bezedi; İbn Battûta onun meclislerini hayranlıkla tasvir etti. Adı, bugünkü 'Özbek' Türk boyunun etnonimine dönüştü.",
+        "traits": [
+          "Karizmatik lider",
+          "Reformcu",
+          "İlim ve sanat hamisi",
+          "Ticaret koruyucusu"
+        ],
+        "contribution": "İslamiyet'i devletin resmi dini yaptı; Altın Orda'yı dünyanın en zengin ticaret kavşaklarından biri haline getirdi; Rus knezliklerini mutlak vergiye bağladı.",
+        "harm": "Moskova Knezliği'nin güçlenmesine göz yumarak Kalita İvan'a büyük knezlik yetkisi verdi, bu da gelecekte Rus birliğinin önünü açtı.",
+        "wives": [
+          {
+            "name": "Taydula Hatun",
+            "note": "Devlet işlerinde çok etkili baş hatun",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Bayalun Hatun",
+            "note": "Bizans İmparatoru IX. Andronikos'un kızı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Tini Bek",
+            "mother": "Taydula Hatun",
+            "note": "Kısa süre tahta oturdu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Canıbek Han",
+            "mother": "Taydula Hatun",
+            "note": "Babasından sonra tahta geçen büyük sultan",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kafkasya İlhanlı Seferi",
+            "when": "1319",
+            "foe": "İlhanlı Devleti (Ebu Said Bahadır Han)",
+            "result": "sonucsuz",
+            "note": "Kür Irmağı boyunda çarpışmalar yapıldı."
+          },
+          {
+            "name": "Tver İsyanı Bastırması",
+            "when": "1327",
+            "foe": "Tver Rus Knezliği",
+            "result": "zafer",
+            "note": "İsyan eden Rus kenti yerle bir edildi, Moskova knezi vergi tahsildarı tayin edildi."
+          }
+        ],
+        "legends": [
+          "Seyyah İbn Battûta, Özbek Han'ın cuma namazına giderken halkın önünde tevazuyla yürüdüğünü ve sarayında âlimlerle dini münazaralar yaptığını hayranlıkla nakleder."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÖZBEK HAN",
+            "url": "https://islamansiklopedisi.org.tr/ozbek-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-canibek",
+        "name": "Celâleddin Mahmud Canıbek Han",
+        "aliases": [
+          "Canıbek Han",
+          "Djani Beg"
+        ],
+        "title": "Sultan / Han",
+        "birth": 1315,
+        "birthNote": "Saray şehrinde doğdu",
+        "death": 1357,
+        "deathNote": "Tebriz dönüşü hastalanarak oğlu Berdibek tarafından zehirlenerek şehit edildi",
+        "reign": [
+          1342,
+          1357
+        ],
+        "reignNote": "Altın Orda'nın kudretli son büyük padişahı.",
+        "summary": "Özbek Han'ın oğlu. Tebriz'i fethederek İlhanlı mirasçısı Çobanoğulları'na son verdi ve Azerbaycan'ı Altın Orda'ya kattı. Kefe'deki Ceneviz kolonisini kuşatması sırasında vebalı cesetleri mancınıkla surların içine fırlatması, tarihte ilk biyolojik savaş taktiği ve Kara Ölüm'ün Avrupa'ya yayılma noktası olarak anılır.",
+        "traits": [
+          "Cengaver fatih",
+          "Mütefekkir",
+          "Adaletli",
+          "Şair ruhlu"
+        ],
+        "contribution": "Azerbaycan ve Kafkasya'yı tamamen bağladı; Altın Orda sınırlarını en geniş haline getirdi.",
+        "harm": "Ölümüyle birlikte hanlık 20 yıl sürecek kanlı taht kavgalarına ('Büyük Kargaşa') sürüklendi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Berdibek Han",
+            "mother": "",
+            "note": "Babasını öldürerek tahtı ele geçiren zalim han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Kefe Kuşatması",
+            "when": "1346",
+            "foe": "Ceneviz Cumhuriyeti (Kefe Kolonisi)",
+            "result": "sonucsuz",
+            "note": "Veba salgını sebebiyle kuşatma kaldırıldı; Ceneviz gemileri vebayı İtalya'ya taşıdı."
+          },
+          {
+            "name": "Tebriz Seferi",
+            "when": "1356-1357",
+            "foe": "Çobanoğulları Devleti (Melik Eşref)",
+            "result": "zafer",
+            "note": "Tebriz fethedildi, Melik Eşref asıldı, Azerbaycan bağlandı."
+          }
+        ],
+        "legends": [
+          "Kefe kuşatmasında mancınıkla surların içine atılan vebalı cesetlerin Avrupa'daki Kara Veba salgınını tetiklediği dünya tıp ve tarih literatüründe en çok tartışılan vakalardandır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, CANIBEK HAN",
+            "url": "https://islamansiklopedisi.org.tr/canibek-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-toktamis",
+        "name": "Nâsırüddin Toktamış Han",
+        "aliases": [
+          "Toktamış",
+          "Tokhtamysh"
+        ],
+        "title": "Han",
+        "birth": 1350,
+        "birthNote": "Ak Orda bozkırında doğdu",
+        "death": 1406,
+        "deathNote": "Sibirya'da Tümen yakınlarında Şadibek ve İdigü taraftarlarınca öldürüldü",
+        "reign": [
+          1380,
+          1396
+        ],
+        "reignNote": "Altın Orda'yı son kez tek bayrak altında birleştiren hükümdar.",
+        "summary": "Emir Timur'un yardımıyla Ak Orda ve Altın Orda tahtını ele geçirdi. 1380 Kulikovo yenilgisinin ardından dağılan devleti topladı; 1382'de Moskova'yı kuşatarak yaktı ve Rusları tekrar haraca bağladı. Ancak nankörlük ederek Timur'un topraklarına (Harezm ve Azerbaycan) saldırdı; Timur'a karşı 1391 Kunduzca ve 1395 Terek muharebelerinde ağır hezimete uğrayarak Altın Orda'nın yıkımını getirdi.",
+        "traits": [
+          "Hırslı kumandan",
+          "Fırsatçı",
+          "İnatçı savaşçı",
+          "Talihsiz siyasetçi"
+        ],
+        "contribution": "Kulikovo sonrası Rus knezliklerinin bağımsızlık hevesini 1382 Moskova Seferi ile kırarak hanlığı birleştirdi.",
+        "harm": "Hamisi Timur'a ihanet edip savaş açarak Saray ve Deşt-i Kıpçak şehirlerinin yerle bir olmasına, Altın Orda'nın parçalanmasına sebep oldu.",
+        "wives": [
+          {
+            "name": "Togaybike Hatun",
+            "note": "Baş hatun",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Celâleddin Han",
+            "mother": "",
+            "note": "1410 Grunwald Muharebesi'nde Polonya-Litvanya safında Töton Şövalyeleri'ni ezen Tatar komutan",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kerim Berdi",
+            "mother": "",
+            "note": "Kısa süre hanlık yaptı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kebek Han",
+            "mother": "",
+            "note": "Han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Moskova Kuşatması ve Yakılması",
+            "when": "1382",
+            "foe": "Moskova Knezliği (Dmitriy Donskoy)",
+            "result": "zafer",
+            "note": "Moskova tamamen yakıldı, 24.000 Rus öldürüldü, Rus knezleri tekrar vergiye bağlandı."
+          },
+          {
+            "name": "Kunduzca Irmağı Muharebesi",
+            "when": "1391",
+            "foe": "Timur İmparatorluğu (Emir Timur)",
+            "result": "yenilgi",
+            "note": "Volga boyunda Timur'un ordusu karşısında ordusu dağıldı."
+          },
+          {
+            "name": "Terek Irmağı Muharebesi",
+            "when": "1395",
+            "foe": "Timur İmparatorluğu (Emir Timur)",
+            "result": "yenilgi",
+            "note": "Altın Orda ordusu tamamen imha edildi; Timur başkent Saray'ı yerle bir etti."
+          }
+        ],
+        "legends": [
+          "Oğlu Celâleddin Han'ın komutasındaki Tatar süvarilerinin 1410 Tannenberg/Grunwald Muharebesi'nde sahte ricat taktiğiyle Töton Şövalyeleri'ni pusuya düşürüp Avrupa tarihini değiştirdiği meşhurdur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TOKTAMIŞ HAN",
+            "url": "https://islamansiklopedisi.org.tr/toktamis-han"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kazak-hanligi",
+    "name": "Kazak Hanlığı",
+    "short": "Kazak Hanlığı (Qazaq Eli)",
+    "aliases": [
+      "Kazakh Khanate",
+      "Qazaq Khandygy",
+      "Kazak Eli"
+    ],
+    "region": "kuzey",
+    "start": 1465,
+    "end": 1847,
+    "startNote": "1465'te Kerey Han ve Canıbek Han'ın Ebulhayr Han'dan ayrılarak Yedisu bölgesinde bağımsızlık ilan etmesiyle kuruldu.",
+    "endNote": "1847 yılında son bağımsız han Kenesarı Han'ın şehit düşmesi ve Rus Çarlığı'nın bozkırı ilhakıyla sona erdi.",
+    "capital": "Türkistan (Yesi), Sıgnak, Sozak",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Mirza Muhammed Haydar Duğlat (Târîh-i Reşîdî), Kadir Ali Bey (Câmiu't-Tevârîh) ve Rus arşivleriyle sabittir.",
+    "summary": "15. yüzyıl ortalarında Özbek Ebulhayr Han'a isyan eden Kerey ve Canıbek Hanlar öncülüğünde Yedisu ve Çu vadilerinde kurulan bağımsız Türk devleti. 'Kazak' (hür, başına buyruk, yiğit) adını alan halk, bozkır Türk kültürünü ve Yesevî İslam geleneğini yaşattı. Kasım Han devrinde sınırları Hazar'dan Balkaş'a genişledi ve nüfusu 1 milyonu aştı. Üç Cüz (Ulu, Orta, Küçük Cüz) idari yapısıyla yönetildi. 18. yüzyılda Abılay Han Cungar istilasını kırarak ülkeyi birleştirdi. 1847'de Rus Çarlığı işgaliyle son buldu.",
+    "legacy": "Modern Kazakistan devletinin doğrudan tarihi ve kültürel atasıdır; zengin bozkır epik geleneği (akınlar, cıravlar) ve töresi günümüze taşınmıştır.",
+    "essay": [
+      "Kazak Hanlığı'nın doğuşu, bozkır Türk halklarının hürriyet arayışının timsalidir. 1465-1466 civarında Şeybânî Ebulhayr Han'ın baskıcı yönetimine karşı çıkan Cuci soyundan Kerey ve Canıbek Hanlar, kendilerine bağlı boylarla Moğolistan Hanı Esen Buğa'nın topraklarına göç ederek Çu vadisinde bağımsız sancak açtılar.",
+      "Kasım Han (1511-1521) döneminde Kazak Hanlığı Avrasya sahnesine büyük güç olarak çıktı. 'Kasım Han'ın Kaşka Yolu' (Qasym Khannyn Qasqa Zholy) adı verilen ilk Kazak töre kanunnamesi yürürlüğe girdi. 17. yüzyıl sonlarında Cungar (Kalmuk) istilası 'Aktaban Şubırındı' (Büyük Felaket) adıyla Kazak bozkırını sarstıysa da Abılay Han önderliğinde Anırakay Zaferi ile Cungarlar püskürtüldü.",
+      "19. yüzyılda Rus Çarlığı bozkırı kalelerle kuşatarak cüzleri yutmaya başladı. Son Han Kenesarı Kasımoğlu (1841-1847), 10 yıl boyunca Rus sömürgeciliğine karşı gerilla ve meydan savaşı yürüterek destan yazdı; 1847'de şehit edilmesiyle hanlık devri kapandı."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+        "url": "https://islamansiklopedisi.org.tr/kazaklar"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, ABILAY HAN",
+        "url": "https://islamansiklopedisi.org.tr/abilay-han"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, KASIM HAN",
+        "url": "https://islamansiklopedisi.org.tr/kasim-han--kazak"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kazak-kerey-canibek",
+        "name": "Kerey Han ve Canıbek Han",
+        "aliases": [
+          "Girey Han ve Canıbek Han"
+        ],
+        "title": "Müşterek Hanlar / Kurucular",
+        "birth": 1420,
+        "birthNote": "Deşt-i Kıpçak bozkırında doğdular",
+        "death": 1480,
+        "deathNote": "Yedisu bölgesinde vefat ettiler",
+        "reign": [
+          1465,
+          1480
+        ],
+        "reignNote": "Kazak Hanlığı'nın ortaklaşa kurucusu iki büyük han.",
+        "summary": "Cuci Han'ın torunları. Şeybânî Ebulhayr Han'ın despotluğuna başkaldırarak 200 bin göçebeyle birlikte Çu ve Kozybasi vadilerine göçtüler. 'Kazak' (hür ve serbest) kimliğini devletleştirdiler.",
+        "traits": [
+          "Özgürlük öncüsü",
+          "Bozkır töresi koruyucusu",
+          "Cesur diplomat"
+        ],
+        "contribution": "Kazak milletinin ve devletinin temellerini attılar; bozkır boylarını hürriyet sancağı altında topladılar.",
+        "harm": "Bozkır boylarının bölünmesine ve Şeybânî Özbekleri ile uzun kanlı mücadelelere yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Burunduk Han",
+            "mother": "",
+            "note": "Kerey Han'ın oğlu, sonraki han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kasım Han",
+            "mother": "",
+            "note": "Canıbek Han'ın oğlu, devleti imparatorluk yapan hükümdar",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Çu Vadisi Bağımsızlık Savaşı",
+            "when": "1465-1468",
+            "foe": "Özbek Hanlığı (Ebulhayr Han)",
+            "result": "zafer",
+            "note": "Ebulhayr Han'ın seferi başarısız oldu, Kazak Hanlığı bağımsızlığını pekiştirdi."
+          }
+        ],
+        "legends": [
+          "Tarihçi Mirza Haydar Duğlat'ın Târîh-i Reşîdî adlı eserinde 'Kazak sultanlarının hükümranlığı 870 (1465-66) yılında başladı' kaydı bağımsızlığın tescili sayılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      },
+      {
+        "id": "kazak-kasim",
+        "name": "Kasım Han",
+        "aliases": [
+          "Qasym Khan"
+        ],
+        "title": "Han / Kanun Koyucu",
+        "birth": 1445,
+        "birthNote": "Sıgnak bozkırında doğdu",
+        "death": 1521,
+        "deathNote": "Başkent Saraycık'ta vefat etti ve orada defnedildi",
+        "reign": [
+          1511,
+          1521
+        ],
+        "reignNote": "Kazak Hanlığı'nı Avrasya'nın en güçlü bozkır devletine dönüştürdü.",
+        "summary": "Canıbek Han'ın oğlu. Hanlığın sınırlarını Hazar Denizi'nden Balkaş Gölü'ne, İdil nehrinden Seyhun'a kadar genişletti. Ordusunu 300 bin ata çıkardı, nüfus 1 milyonu aştı. 'Kasım Han'ın Kaşka Yolu' kanunnamesini hazırladı.",
+        "traits": [
+          "Büyük kanun koyucu",
+          "Usta kumandan",
+          "Merhametli ve kudretli"
+        ],
+        "contribution": "İlk yazılı Kazak kanunnamesini (Töre) yürürlüğe koydu; devleti uluslararası alanda Moskova ve Safevîler nezdinde tanıttı.",
+        "harm": "Ölümünün ardından oğulları ve boy beyleri arasında geçici otorite boşluğu yaşandı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Mamak Han",
+            "mother": "",
+            "note": "Kısa süre hanlık yaptı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Haknazar Han",
+            "mother": "",
+            "note": "Devleti tekrar toparlayan büyük han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Sayram ve Taşkent Seferleri",
+            "when": "1512-1513",
+            "foe": "Şeybânîler Devleti (Muhammed Şeybânî mirasçıları)",
+            "result": "zafer",
+            "note": "Seyhun boyundaki stratejik kaleler ve ticaret şehirleri Kazak hakimiyetine girdi."
+          }
+        ],
+        "legends": [
+          "Bâbür Şah'ın hatıratında 'Kasım Han gibi kudretli bir hükümdar Cuci ulusunda Batu Han'dan sonra görülmedi' diye övdüğü nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KASIM HAN",
+            "url": "https://islamansiklopedisi.org.tr/kasim-han--kazak"
+          }
+        ]
+      },
+      {
+        "id": "kazak-abilay",
+        "name": "Abılay Han",
+        "aliases": [
+          "Abilmansur",
+          "Ablai Khan"
+        ],
+        "title": "Büyük Han / Bozkır Kaplanı",
+        "birth": 1711,
+        "birthNote": "Türkistan bozkırında doğdu",
+        "death": 1781,
+        "deathNote": "Arıs Irmağı boyunda Taşkent yakınlarında vefat etti; Yesi'de Hoca Ahmed Yesevî Türbesi'ne defnedildi",
+        "reign": [
+          1771,
+          1781
+        ],
+        "reignNote": "Üç Kazak Cüzü'nün müşterek ulu hanı.",
+        "summary": "18. yüzyılda Üç Cüz'ü birleştiren dahi lider. Gençliğinde 'Sabaalak' adıyla çobanlık yaptı, Cungar istilasına karşı teke tek dövüşte Cungar noyonu Şarış'ı öldürerek kahramanlaştı. Kalmukları mağlup ederek toprakları geri aldı. Rus Çarlığı ve Çin Mançu İmparatorluğu arasında usta bir denge politikası güttü.",
+        "traits": [
+          "Manevi önder",
+          "Askeri deha",
+          "Denge ustası diplomat",
+          "Halk aşığı"
+        ],
+        "contribution": "Cungar soykırım ve istila tehdidini bertaraf etti; Kazak toprak bütünlüğünü sağladı; Ahmed Yesevî türbesini ihya etti.",
+        "harm": "Rusya ile yapılan taktiksel anlaşmalar ileride Çarlık ordularının bozkırda kale hatları kurmasını engelleyemedi.",
+        "wives": [
+          {
+            "name": "Babak Hanım",
+            "note": "Baş eşi",
+            "certainty": "olasi"
+          }
+        ],
+        "children": [
+          {
+            "name": "Vali Han",
+            "mother": "",
+            "note": "Orta Cüz Hanı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kasım Sultan",
+            "mother": "",
+            "note": "Kenesarı Han'ın babası",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Anırakay Muharebesi",
+            "when": "1729-1730",
+            "foe": "Cungar Hanlığı (Kalmuklar)",
+            "result": "zafer",
+            "note": "Balkaş Gölü güneyinde Cungar ordusu ezildi, 'Aktaban Şubırındı' felaketi son buldu."
+          }
+        ],
+        "legends": [
+          "Yesi'deki Hoca Ahmed Yesevî türbesinde Üç Cüz'ün aksakalları ve biy'leri tarafından beyaz keçe üzerine oturtulup göğe kaldırılarak 'Ulu Han' ilan edilmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ABILAY HAN",
+            "url": "https://islamansiklopedisi.org.tr/abilay-han"
+          }
+        ]
+      },
+      {
+        "id": "kazak-kenesari",
+        "name": "Kenesarı Han",
+        "aliases": [
+          "Kenesary Kasymov",
+          "Son Han"
+        ],
+        "title": "Son Bağımsız Kazak Hanı / Şehid",
+        "birth": 1802,
+        "birthNote": "Kokşetav bozkırında doğdu",
+        "death": 1847,
+        "deathNote": "Kırgız dağlarında Maitobe mevkiinde pusuya düşürülerek şehit edildi",
+        "reign": [
+          1841,
+          1847
+        ],
+        "reignNote": "1841'de tüm cüzlerin temsilcileri tarafından han seçildi; 10 yıl Rus işgaline direndi.",
+        "summary": "Abılay Han'ın torunu. Rus Çarlığı'nın Kazak bozkırındaki hanlık sistemini kaldırıp sömürge kaleleri kurmasına karşı 1837-1847 yılları arasında 10 yıl süren destansı bir bağımsızlık savaşı yürüttü. Rus tahkimatlarını bastı, Hokand Hanlığı ile savaştı. 1847'de Rus kışkırtmasıyla Kırgız manapları tarafından tuzağa düşürülüp şehit edildi.",
+        "traits": [
+          "Yılmayan bağımsızlık savaşçısı",
+          "Sert disiplinli başbuğ",
+          "Halk kahramanı"
+        ],
+        "contribution": "Kazakların milli bağımsızlık bilincini ebedileştirdi; Rus istilasına karşı tek vücut direniş sembolü oldu.",
+        "harm": "Kırgız kabileleriyle diplomatik uzlaşma sağlayamayarak kardeş kavgasına girdi ve ordusunu kaybetti.",
+        "wives": [
+          {
+            "name": "Kunimcan Hatun",
+            "note": "Sadık eşi ve mücadele yoldaşı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Sıdık Sultan (Sadyk)",
+            "mother": "Kunimcan Hatun",
+            "note": "Babasının intikamı için Ruslara ve Hokand'a karşı savaşan kahraman",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Akmeşit ve Sozak Kuşatması",
+            "when": "1841",
+            "foe": "Hokand Hanlığı ve Rus İleri Karakolları",
+            "result": "zafer",
+            "note": "Kaleler zaptedildi, güney Kazak boyları kurtarıldı."
+          },
+          {
+            "name": "Maitobe Muharebesi",
+            "when": "1847",
+            "foe": "Çarlık Destekli Kırgız Manap Birlikleri",
+            "result": "yenilgi",
+            "note": "Kenesarı Han kuşatıldı ve 32 yiğidiyle birlikte son nefesine kadar savaşarak şehit düştü."
+          }
+        ],
+        "legends": [
+          "Kenesarı Han'ın kesik başının Rusya'ya götürülerek Petersburg'da Çara sunulduğu ve Hermitage Müzesi depolarında saklandığı iddiaları Kazakistan'da halen canlı bir milli meseledir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nogay-ordasi",
+    "name": "Nogay Ordası",
+    "short": "Nogay Ordası (Mangıt Yurdu)",
+    "aliases": [
+      "Nogai Horde",
+      "Mangıt Yurdu",
+      "Nogay Hanlığı"
+    ],
+    "region": "kuzey",
+    "start": 1391,
+    "end": 1634,
+    "startNote": "Emir Edigü Bey'in Altın Orda'dan ayrılarak İdil-Yayık (Volga-Ural) bozkırlarında Mangıt boylarını birleştirmesiyle kuruldu.",
+    "endNote": "1634 yılında Doğu'dan gelen Kalmuk Budist istilası ve Rus Çarlığı baskısı sonucu dağıldı.",
+    "capital": "Saraycık (Yayık Irmağı üzerinde)",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Edige Destanı, Şecere-i Terâkime ve Rus sefaretnâmeleriyle sabittir.",
+    "summary": "Altın Orda'nın parçalanma sürecinde İdil ile Yayık (Ural) ırmakları arasındaki uçsuz bucaksız bozkırlarda Mangıt boy beyleri tarafından kurulan güçlü göçebe Türk devleti. Kurucusu Emir Edigü Bey, Altın Orda tahtına hanlar oturtup indiren efsanevi bir başbuğdur. 1399 Vorskla zaferiyle Doğu Avrupa'nın kaderini değiştirdi. Nogay atlıları Kırım ve Osmanlı seferlerinin en çevik süvari gücünü oluşturdu.",
+    "legacy": "Nogay Türkçesi ve zengin Edige Destanı kültürünü Avrasya edebiyatına kazandırdı; hafif süvari savaş taktiğinin zirvesini temsil etti.",
+    "essay": [
+      "Nogay Ordası, adını Altın Orda'nın kudretli kumandanı Nogay Han'dan alsa da asıl siyasi varlığını Mangıt kabilesi reisi Emir Edigü Bey'in önderliğinde kazandı. Başkent Saraycık, İpek Yolu'nun Hazar kuzeyi güzergâhında gelişmiş bir ticaret merkeziydi.",
+      "Edigü Bey, 1399'da Vorskla Irmağı Savaşı'nda Litvanya Büyük Dükü Vytautas ve müttefiki Toktamış'ı hezimete uğratarak Doğu Avrupa'da Haçlı-Litvanya yayılmasını durdurdu; 1408'de Moskova'yı kuşatarak haraca bağladı.",
+      "16. yüzyılda Büyük Nogay ve Küçük Nogay olarak ikiye bölündü. Doğudan gelen Kalmuk Moğollarının kanlı saldırıları, kuraklık ve Rus Çarlığı'nın baskıları sonucu 1634'te siyasi birliğini kaybetti; Nogay boylarının bir kısmı Kırım, Kafkasya ve Dobruca'ya göç etti."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+        "url": "https://islamansiklopedisi.org.tr/nogaylar"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, EDİGÜ",
+        "url": "https://islamansiklopedisi.org.tr/edigu"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "nogay-edigu-bey",
+        "name": "Emir Edigü Bey",
+        "aliases": [
+          "Edige Bey",
+          "İdigü",
+          "Edigu Mangıt"
+        ],
+        "title": "Uluğ Bey / Başbuğ / Bîklerbîkî",
+        "birth": 1352,
+        "birthNote": "Deşt-i Kıpçak sahasında Mangıt boy beyi Baltyçak'ın oğlu olarak doğdu",
+        "death": 1419,
+        "deathNote": "Saraycık yakınlarında Seyhun boyunda Toktamış'ın oğullarıyla girdiği muharebede şehit düştü",
+        "reign": [
+          1396,
+          1419
+        ],
+        "reignNote": "23 yıl boyunca fiili Altın Orda ve Nogay hükümdarı.",
+        "summary": "Nogay Ordası'nın kurucusu ve Avrasya bozkırının efsanevi kahramanı (Edige Destanı). Timur'un desteğiyle yükseldi; Altın Orda'da veziriazam (Bîklerbîkî) sıfatıyla kukla hanlar idare etti. 1399 Vorskla Meydan Muharebesi'nde Litvanya-Polonya ve müttefik ordularını imha etti. Moskova'yı kuşatarak Rusları dize getirdi.",
+        "traits": [
+          "Dahi mareşal",
+          "Siyasi satranç ustası",
+          "Bozkır destan kahramanı"
+        ],
+        "contribution": "Nogay birliğini kurdu; Doğu Avrupa'da Litvanya ve Töton yayılmasını kırarak İslam-Türk varlığını korudu.",
+        "harm": "Cengiz soyundan olmadığı için tahta meşru hanlar yerine kuklalar oturtarak hanlık otoritesinin büsbütün aşınmasına yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Nureddin Bey",
+            "mother": "",
+            "note": "Babasından sonra Nogay Ordası'nı yöneten kudretli bey",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Mansur Bey",
+            "mother": "",
+            "note": "Kırım ve bozkır siyasetinde etkili bey",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Gazi Bey",
+            "mother": "",
+            "note": "Nogay mirzası",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Vorskla Irmağı Meydan Muharebesi",
+            "when": "1399",
+            "foe": "Litvanya Büyük Dükalığı ve Polonya (Vytautas & Toktamış)",
+            "result": "zafer",
+            "note": "Doğu Avrupa tarihinin en büyük meydan savaşlarından biri; Haçlı-Litvanya ordusu tamamen imha edildi."
+          },
+          {
+            "name": "Moskova Seferi ve Kuşatması",
+            "when": "1408",
+            "foe": "Moskova Knezliği (I. Vasili)",
+            "result": "zafer",
+            "note": "Moskova surları altına gelindi, 3000 ruble haraç alınarak Rus knezliği itaate bağlandı."
+          }
+        ],
+        "legends": [
+          "Bütün Türk boylarında (Kazak, Kırgız, Karakalpak, Tatar, Nogay, Başkurt) müştereken anlatılan 'Edige Destanı' onun kahramanlıkları üzerine inşa edilmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, EDİGÜ",
+            "url": "https://islamansiklopedisi.org.tr/edigu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ak-orda",
+    "name": "Ak Orda Hanlığı",
+    "short": "Ak Orda (Sol Kol)",
+    "aliases": [
+      "White Horde",
+      "Gök Orda",
+      "Sol Kol Ulusu",
+      "Sıgnak Hanlığı"
+    ],
+    "region": "turkistan",
+    "start": 1227,
+    "end": 1428,
+    "startNote": "Cuci'nin büyük oğlu Orda Ecen'e İrtiş, Seyhun ve Balkaş boylarının verilmesiyle Altın Orda'nın doğu kanadı olarak kuruldu.",
+    "endNote": "1428'de Şeybânî Ebulhayr Han'ın Özbek Ulusu'nu kurmasıyla tarihe karıştı.",
+    "capital": "Sıgnak",
+    "religion": "İslamiyet (Sünnî-Hanefî)",
+    "confidence": "kayit",
+    "confidenceNote": "Câmiu't-Tevârîh ve Şibanîler dönemi vakayinâmeleriyle sabittir.",
+    "summary": "Cuci'nin en büyük oğlu Orda Ecen sülalesi tarafından İrtiş'ten Seyhun kıyılarına kadar uzanan sahada kurulan hanlık. Altın Orda'nın 'Sol Kolu'nu teşkil etti. Başkenti Sıgnak şehri ilim ve ticaret merkezi oldu. 14. yüzyılda Urus Han devrinde büyük bir askeri güç haline geldi; Kazak ve Özbek hanedanlarının doğrudan kök hücresini oluşturdu.",
+    "legacy": "Kazak Hanlığı'nın han sülalesinin doğrudan atasıdır; Sıgnak ve Yesi havzasını Türk-İslam medeniyetiyle yoğurmuştur.",
+    "essay": [
+      "Ak Orda, Cuci'nin büyük oğlu Orda Ecen'e tahsis edilen doğu bozkırlarında özerk bir ulus olarak gelişti. Batıdaki Batu Han (Altın Orda) ulusuna tabiyet bağı zamanla gevşedi ve Sıgnak merkezli tam bağımsız bir hanlığa dönüştü.",
+      "Urus Han (1368-1377), Ak Orda'yı bozkırın en çekinilen devleti yaptı. Saray tahtını ele geçirmeye çalıştı; Toktamış ve hamisi Emir Timur ile amansız savaşlara girdi. Urus Han'ın oğulları ve torunları daha sonra Kazak Hanlığı'nı kuracak olan çekirdek kadroyu oluşturdu."
+    ],
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA",
+        "url": "https://islamansiklopedisi.org.tr/altin-orda"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+        "url": "https://islamansiklopedisi.org.tr/kazaklar"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "ak-orda-urus-han",
+        "name": "Urus Han",
+        "aliases": [
+          "Oruz Han",
+          "Muhammed Urus"
+        ],
+        "title": "Han",
+        "birth": 1330,
+        "birthNote": "Sıgnak yöresinde doğdu",
+        "death": 1377,
+        "deathNote": "Seyhun boyunda vefat etti",
+        "reign": [
+          1368,
+          1377
+        ],
+        "reignNote": "Ak Orda'nın en güçlü hükümdarı; Kazak hanlarının doğrudan atası.",
+        "summary": "Ak Orda tahtında merkezi otoriteyi kuran, Sıgnak'ta kendi adına para bastıran ve Altın Orda başkenti Saray'ı da ele geçiren kudretli han. Toktamış'ın babasını isyan ettiği için idam ettirdi; Timur'un Toktamış'ı iade etme talebini reddederek Timur ordularına karşı direndi.",
+        "traits": [
+          "Tavizsiz hükümdar",
+          "Cengaver",
+          "Otoriter lider"
+        ],
+        "contribution": "Ak Orda'yı müstakil bir güç yaptı; torunları Kerey ve Canıbek Hanlar Kazak Hanlığı'nı kurdu.",
+        "harm": "Timur ile giriştiği savaşlar Ak Orda şehirlerinin tahrip olmasına yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Kutluk Buka",
+            "mother": "",
+            "note": "Timur ile savaşırken şehit oldu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Toktakıya",
+            "mother": "",
+            "note": "Kısa süre tahta geçti",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Koyurçuk",
+            "mother": "",
+            "note": "Kazak hanlarının dedesi",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Sıgnak Savunması",
+            "when": "1376",
+            "foe": "Timur İmparatorluğu Ordusu",
+            "result": "zafer",
+            "note": "Timur'un gönderdiği ilk ordu püskürtüldü."
+          }
+        ],
+        "legends": [
+          "Kazak şecerelerinde Kazak hanlarının 'Urus Han nesli' olarak anılması onun bozkırdaki derin meşruiyetinin simgesidir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda"
+          }
+        ]
+      }
+    ]
+  }
+]
