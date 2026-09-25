@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap');
+
+:root {
+  --bg-deep: #080a0d;
+  --bg-surface: #0e1217;
+  --bg-card: rgba(18, 24, 32, 0.72);
+  --bg-card-hover: rgba(26, 35, 48, 0.88);
+  --bg-glass: rgba(14, 18, 23, 0.68);
+  --border-glass: rgba(224, 196, 138, 0.14);
+  --border-glass-bright: rgba(224, 196, 138, 0.32);
+
+  --gold-primary: #e5c378;
+  --gold-secondary: #c99e46;
+  --gold-glow: rgba(229, 195, 120, 0.28);
+  --text-main: #f0f3f6;
+  --text-muted: #8b96a5;
+  --text-dim: #5a6675;
+
+  --accent-victory: #4ade80;
+  --accent-defeat: #f87171;
+  --accent-stalemate: #fbbf24;
+  --accent-treaty: #38bdf8;
+
+  --font-serif: 'Source Serif 4', 'Cinzel', Georgia, serif;
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  color-scheme: dark;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--bg-deep);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+/* Background Atmosphere */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(229, 195, 120, 0.04) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(60, 154, 140, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%, rgba(196, 107, 134, 0.03) 0%, transparent 50%),
+    radial-gradient(#151b24 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 32px 32px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-glass);
+  border-radius: 9999px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-pill:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border-glass-bright);
+  box-shadow: 0 0 16px var(--gold-glow);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-secondary);
+}
+
+/* Buttons and Inputs */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+button:focus-visible, input:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: 2px;
+}
+
+/* Print Layout */
+@media print {
+  body {
+    overflow: visible !important;
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
