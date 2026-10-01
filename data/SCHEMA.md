@@ -1,8 +1,7 @@
 # Atlas veri şeması
 
 Bu klasördeki `raw/*.json` dosyalarının her biri **devlet nesnelerinden oluşan bir dizi**
-(`[ {...}, {...} ]`) içerir. `tools/build.py` hepsini birleştirip `data/atlas.js` üretir.
-Uygulama kodunu (`js/app.js`, `css/app.css`) değiştirme; şema bu dosyada sabittir.
+(`[ {...}, {...} ]`) içerir. Uygulama (`src/lib/data/atlas.ts`), bu dosyaları doğrudan `import.meta.glob` ile yükler ve Zod şemasıyla (`src/schemas/atlas.schema.ts`) doğrular. Veri şeması bu belgede sabittir.
 
 ## Dil ve üslup kuralları
 
@@ -54,14 +53,16 @@ Uygulama kodunu (`js/app.js`, `css/app.css`) değiştirme; şema bu dosyada sabi
 | `traits` | string[] | | bilinen özellikler (kısa etiket ya da kısa cümle), boşsa `[]` |
 | `contribution` | string | | ülkesine katkısı |
 | `harm` | string | | bedeli/zararı |
-| `wives` | kişi[] | ✓ | `{name, note, certainty}` — `certainty`: `kesin`, `olasi`, `muhtemel`, `tartismali`, `rivayet` |
+| `wives` | kişi[] | ✓ | `children` ile aynı `kişi` yapısı; kayıtlarda `mother` alanı hiç doldurulmamıştır |
 | `children` | kişi[] | ✓ | `{name, mother, note, certainty}` |
+| `familyNotes` | string[] | – | Sayı veya akrabalık bilgisi var ama kimliği ayrı kişi kaydı olarak doğrulanamayan aile bilgileri; eş/çocuk sayısına katılmaz |
 | `wars` | savaş[] | ✓ | aşağıdaki tablo |
 | `legends` | string[] | | rivayetler, sonradan eklenen anlatılar |
 | `claim` | boolean | | taht iddiası olup klasik sıralamaya girmeyen kişi (ör. Cem Sultan) |
 | `sources` | kaynak[] | ✓ | `{title, url}` |
 
-`kişi`: `mother` ve `note` boş olabilir, `certainty` verilmezse `kesin` sayılır.
+`kişi`: `mother` ve `note` boş olabilir, `certainty` verilmezse `kesin` sayılır;
+değerleri `kesin`, `olasi`, `muhtemel`, `tartismali`, `rivayet`.
 
 `savaş`: `{name, when, foe, result, note}` — `result` şunlardan biri:
 `zafer`, `yenilgi`, `sonucsuz`, `belirsiz`, `antlasma`.
@@ -115,8 +116,8 @@ Uygulama kodunu (`js/app.js`, `css/app.css`) değiştirme; şema bu dosyada sabi
 
 Yazdıktan sonra mutlaka çalıştır:
 
-```
-python3 /Users/hayabusa/turk-tarih-atlasi/tools/validate.py data/raw/DOSYA.json
+```bash
+npm run validate
 ```
 
 Hata varsa düzelt, geçene kadar tekrarla.

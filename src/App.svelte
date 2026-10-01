@@ -1,86 +1,45 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { loadAllStates, computeLayout, buildSearchIndex } from './lib/data/atlas';
-  import { camera } from './lib/stores/camera.svelte';
-  import { ui } from './lib/stores/ui.svelte';
-  import Viewport from './components/canvas/Viewport.svelte';
-  import HUD from './components/hud/HUD.svelte';
-  import DetailDrawer from './components/drawer/DetailDrawer.svelte';
-  import IndexModal from './components/hud/IndexModal.svelte';
-  import Minimap from './components/minimap/Minimap.svelte';
-  import TimebarScrubber from './components/timebar/TimebarScrubber.svelte';
+  import { router } from './lib/router/router.svelte';
+  import PageShell from './components/layout/PageShell.svelte';
+  import HomePage from './pages/HomePage.svelte';
+  import GuidePage from './pages/GuidePage.svelte';
+  import SearchPage from './pages/SearchPage.svelte';
+  import StatePage from './pages/StatePage.svelte';
+  import RulerPage from './pages/RulerPage.svelte';
+  import WarPage from './pages/WarPage.svelte';
+  import PersonPage from './pages/PersonPage.svelte';
+  import NotFoundPage from './pages/NotFoundPage.svelte';
 
-  const states = loadAllStates();
-  const layout = computeLayout(states);
-  const searchItems = buildSearchIndex(states);
-
-  function onGlobalKeyDown(e: KeyboardEvent) {
-    const isInput = (e.target as HTMLElement)?.closest('input, textarea, select, [contenteditable="true"]');
-    const isButton = (e.target as HTMLElement)?.closest('button, [role="button"]');
-    const inDialog = (e.target as HTMLElement)?.closest('[role="dialog"]');
-
-    if (e.key === 'Escape') {
-      if (ui.isIndexOpen) {
-        ui.toggleIndex(false);
-        return;
-      }
-      if (ui.isDetailDrawerOpen) {
-        ui.closeDetail();
-        return;
-      }
-      return;
-    }
-
-    // Do not hijack typing or button interactions
-    if (isInput || isButton || inDialog) return;
-
-    const step = e.shiftKey ? 180 : 90;
-    if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', '+', '=', '-', '_', '0'].includes(e.key)) {
-      e.preventDefault();
-    }
-
-    if (e.key === 'ArrowLeft') camera.panBy(step, 0);
-    if (e.key === 'ArrowRight') camera.panBy(-step, 0);
-    if (e.key === 'ArrowUp') camera.panBy(0, step);
-    if (e.key === 'ArrowDown') camera.panBy(0, -step);
-    if (e.key === '+' || e.key === '=') {
-      camera.zoomAt(camera.viewportW / 2, camera.viewportH / 2, camera.scale * 1.25);
-    }
-    if (e.key === '-' || e.key === '_') {
-      camera.zoomAt(camera.viewportW / 2, camera.viewportH / 2, camera.scale / 1.25);
-    }
-    if (e.key === '0') {
-      camera.fit(true);
-    }
-  }
+  /**
+   * Uygulama ince bir dağıtıcıdır: hangi sayfanın çizileceğini adres belirler.
+   * Global klavye kısayolu yoktur; gezinme bağlantılar ve geri tuşu ile yürür.
+   * Tek klavye etkileşimi arama kutusunun kendi ok/Enter/Escape tuşlarıdır.
+   */
+  const route = $derived(router.route);
 </script>
 
-<svelte:window onkeydown={onGlobalKeyDown} />
-
-<div class="atlas-app" inert={ui.isIndexOpen ? true : undefined}>
-  <!-- Top Global Header -->
-  <HUD {searchItems} states={layout.states} />
-
-  <!-- Infinite Canvas Viewport -->
-  <Viewport {layout} />
-
-  <!-- Radar Minimap -->
-  <Minimap {layout} />
-
-  <!-- Bottom Timeline Scrubber -->
-  <TimebarScrubber />
-</div>
-
-<!-- Slide-over Drawer for Rulers & States -->
-<DetailDrawer />
-
-<!-- Comprehensive Full Index Modal Dialog -->
-<IndexModal states={layout.states} />
-
-<style>
-  .atlas-app {
-    position: fixed;
-    inset: 0;
-    overflow: hidden;
-  }
-</style>
+<PageShell>
+  {#if route.name === 'home'}
+    <HomePage region={route.region} />
+  {:else if route.name === 'guide'}
+    <GuidePage />
+  {:else if route.name === 'search'}
+    <SearchPage query={route.query} />
+  {:else if route.name === 'state'}
+    <StatePage stateId={route.stateId} />
+  {:else if route.name === 'ruler'}
+    <RulerPage stateId={route.stateId} rulerId={route.rulerId} />
+  {:else if route.name === 'war'}
+    <WarPage stateId={route.stateId} rulerId={route.rulerId} index={route.index} slug={route.slug} />
+  {:else if route.name === 'person'}
+    <PersonPage
+      stateId={route.stateId}
+      rulerId={route.rulerId}
+      role={route.role}
+      index={route.index}
+      slug={route.slug}
+    />
+  {:else}
+    <NotFoundPage raw={route.raw} />
+  {/if}
+</PageShell>

@@ -12,8 +12,8 @@
     "region": "kuzey",
     "start": 1441,
     "end": 1783,
-    "startNote": "1441'de Hacı Giray Han'ın Altın Orda'dan ayrılarak Bahçesaray merkezli bağımsız hanlığını kurmasıyla başladı.",
-    "endNote": "1783 yılında Rus Çariçesi II. Katerina tarafından Kırım'ın resmen ilhak edilmesiyle sona erdi.",
+    "startNote": "1441'de Hacı Giray Han'ın Altın Orda'dan ayrılarak Bahçesaray merkezli bağımsız hanlığını kurmasıyla başladı. Giray maddesi tam han listesini vermez. Kırk handan yirmi dördünün kalgaylıktan, beşinin nûreddînlikten geldiğini yazar. Taş Timur'un 1393-1395 sikkeleri, 1419'da Litvanya'ya giden Gıyâseddin ve 1427'de Barsbay'a elçi giden Devlet Berdi hanlık öncesidir. Onlara saltanat aralığı yazılmadı.",
+    "endNote": "1783 yılında Rus Çariçesi II. Katerina tarafından Kırım'ın resmen ilhak edilmesiyle sona erdi. 1783'ten sonra Şehbaz Giray Ağustos 1787'de Kuban hanı, Baht Giray Şubat 1789'da anılır. Yaş Antlaşması 1792'de hanlığı geri getirme işini bıraktı. Bu kişiler 1441-1783 han listesine eklenmedi.",
     "capital": "Bahçesaray (Çufutkale ve Hansaray)",
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
@@ -130,7 +130,7 @@
           1467,
           1515
         ],
-        "reignNote": "Fatih Sultan Mehmed ile ittifak kuran ve Altın Orda'yı yıkan büyük hükümdar.",
+        "reignNote": "Fatih Sultan Mehmed ile ittifak kuran ve Altın Orda'yı yıkan büyük hükümdar. Giray maddesi 1475 Kefe'sinden sonraki cülûsu, Seyyid Ahmed akınını, Nur Devlet'in ara saltanatını ve İstanbul'dan dönüşü yazar. Ölüm yılı maddede 1514, bu kartta 1515'tir. Ara kesinti yıl aralığının içindedir.",
         "summary": "Hacı Giray'ın oğlu. 1475'te Gedik Ahmed Paşa'nın Kefe fethinden sonra Fatih Sultan Mehmed ile ebedi ittifak kurarak Osmanlı himayesini kabul etti. 1502'de Saray şehrini yerle bir ederek 300 yıllık Altın Orda Hanlığı'na son verdi. Kızı Ayşe Hafsa Sultan'ı Şehzade Selim (Yavuz Sultan Selim) ile evlendirdi; Kanunî Sultan Süleyman'ın dedesidir.",
         "traits": [
           "Büyük siyasetçi",
@@ -189,6 +189,162 @@
           {
             "title": "TDV İslâm Ansiklopedisi, MENGLİ GİRAY I",
             "url": "https://islamansiklopedisi.org.tr/mengli-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-nur-devlet",
+        "name": "Nur Devlet",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Mengli'nin ara saltanatı. Giray maddesi, Seyyid Ahmed'in akınından sonra tahta geçtiğini ve Mengli'nin İstanbul'dan dönünce yerine geldiğini yazar. Yıl vermez.",
+        "summary": "Mengli Giray'ın kesintiye uğradığı sırada han oldu. Süresi maddede yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-mehmed-giray",
+        "name": "I. Mehmed Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1523,
+        "deathNote": "Astrahan dönüşünde Nogaylar tarafından öldürüldü. Ardından I. Gazi Kasım 1523'te han oldu.",
+        "reign": [
+          1514,
+          1523
+        ],
+        "reignNote": "Mengli'den sonra anılır. Giray maddesi Mengli'nin ölümünü 1514 yazar. Bu dosyadaki Mengli kartı 1515'te biter. Mehmed, Astrahan dönüşünde Nogaylar tarafından öldürüldü. I. Gazi Kasım 1523'te han oldu.",
+        "summary": "Mengli'nin ardından han oldu. 1523'te Nogaylar tarafından öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, GAZİ GİRAY I",
+            "url": "https://islamansiklopedisi.org.tr/gazi-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-gazi-giray-1",
+        "name": "I. Gazi Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1524,
+        "deathNote": "930/1524.",
+        "reign": [
+          1523,
+          1524
+        ],
+        "reignNote": "Kasım 1523'ten 1524 ortasına kadar, yaklaşık altı ay han oldu. 930/1524'te öldürüldü.",
+        "summary": "1523-1524 arasında kısa süre Kırım hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GAZİ GİRAY I",
+            "url": "https://islamansiklopedisi.org.tr/gazi-giray-i"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-saadet-giray",
+        "name": "Saâdet Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1524,
+          1532
+        ],
+        "reignNote": "Osmanlı'nın tayin ettiği handır. İlk anda tanınmadığı maddece yazılır.",
+        "summary": "1524-1532 arasında Kırım hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-sahib-giray",
+        "name": "Sâhib Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1532,
+          1551
+        ],
+        "reignNote": "1532-1551. I. Devlet Giray bu dosyada 1551'de başlar. I. İslâm Giray 1534'e kadar muhalefeti yönetti. Tek başına saltanat yılı yazılmaz, bu yüzden ayrı kart açılmadı.",
+        "summary": "1532-1551 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "I. İslâm Giray 1534'e kadar muhalefet yürüttü. Tek başına saltanat yılı maddede yoktur."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
           }
         ]
       },
@@ -280,6 +436,161 @@
           {
             "title": "TDV İslâm Ansiklopedisi, DEVLET GİRAY I",
             "url": "https://islamansiklopedisi.org.tr/devlet-giray-i"
+          }
+        ]
+      },
+      {
+        "id": "kirim-islam-giray-2",
+        "name": "II. İslâm Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1584,
+          1588
+        ],
+        "reignNote": "Hutbede Osmanlı padişahının adını öne alan ilk Kırım hanı diye yazılır. Nûreddinlik 1584'ten itibaren anılır.",
+        "summary": "1584-1588 arasında Kırım hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-inayet-giray",
+        "name": "İnâyet Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1637,
+        "deathNote": "1637'de IV. Murad tarafından idam edildi.",
+        "reign": [
+          null,
+          1637
+        ],
+        "reignNote": "IV. Murad tarafından 1637'de idam edildi. Cülûs yılı Giray maddesinde yoktur.",
+        "summary": "1637'de idam edilen Kırım hanıdır. Başlangıç yılı yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-adil-giray",
+        "name": "Âdil Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1665,
+          1670
+        ],
+        "reignNote": "Çoban Giray kolundandır. Bu koldan han olan tek kişi diye yazılır. Asıl Giraylar soyu han saymamıştır.",
+        "summary": "1665-1670 arasında han oldu. Soyu tartışmalıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-haci-giray-2",
+        "name": "II. Hacı Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": 1648,
+        "birthNote": "1648.",
+        "death": 1689,
+        "deathNote": "Madde başlığı 1100/1689. Saltanat 1684'te bitti.",
+        "reign": [
+          1683,
+          1684
+        ],
+        "reignNote": "8 Şevval 1094 / 30 Eylül 1683'te han oldu. Madde başlığı saltanatı 1683-1684, ölümü 1100/1689 diye verir. I. Hacı Giray'dan ayrıdır.",
+        "summary": "1683-1684 arasında han oldu. 1689'da öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Babası Kalgay Kırım Giray, dedesi I. Selâmet Giray'dır."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HACI GİRAY II",
+            "url": "https://islamansiklopedisi.org.tr/haci-giray-ii"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, GİRAY",
+            "url": "https://islamansiklopedisi.org.tr/giray"
+          }
+        ]
+      },
+      {
+        "id": "kirim-gazi-giray-3",
+        "name": "III. Gazi Giray",
+        "aliases": [],
+        "title": "han",
+        "birth": 1674,
+        "birthNote": "1674.",
+        "death": 1708,
+        "deathNote": "1120/1708. Azilden sonra.",
+        "reign": [
+          1704,
+          1707
+        ],
+        "reignNote": "I. Selim Giray'ın oğlu. Aralık 1704'te han oldu. Madde başlığı 1704-1707. Azledilince yerine I. Kaplan Giray geçti. Kaplan'ın saltanat yılları bu maddede yoktur. Ölüm 1120/1708.",
+        "summary": "1704-1707 arasında Kırım hanıdır. 1708'de öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kalgay yaptığı kardeşi I. Kaplan Giray sonra han oldu. Saltanat yılları Gazi Giray III maddesinde yoktur."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, GAZİ GİRAY III",
+            "url": "https://islamansiklopedisi.org.tr/gazi-giray-iii"
           }
         ]
       },
@@ -804,7 +1115,7 @@
       "Saltanat-ı Dehlî",
       "Hindistan Türk Devleti"
     ],
-    "region": "turkistan",
+    "region": "diger",
     "start": 1206,
     "end": 1526,
     "startNote": "1206'da Kutbüddin Aybeg'in bağımsızlığını ilan etmesiyle kurulan; Memlûk, Halacî ve Tuğluk Türk hanedanlarının yönettiği büyük imparatorluk.",
@@ -813,7 +1124,7 @@
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
     "confidenceNote": "Minhâc-ı Sirâc (Tabakât-ı Nâsırî), Ziyâeddin Berenî (Târîh-i Fîrûzşâhî) ve İbn Battûta seyahatnamesiyle sabittir.",
-    "summary": "Hindistan alt kıtasında İslam hakimiyetini kalıcı kılan, 320 yıl boyunca Delhi merkezli hüküm süren kudretli Türk imparatorluğu. Kutbüddin Aybeg, Şemseddin İltutmuş, Türk ve İslam tarihinin ilk kadın hükümdarı Raziyye Sultan, Alâeddin Halacî ve Muhammed bin Tuğluk gibi büyük hükümdarlar yönetti. Kutub Minar gibi abidevi eserler inşa edildi. Moğol istilalarını defalarca püskürterek Hindistan'ı tahripten kurtardı. 1526'da Bâbür İmparatorluğu'na devroldu.",
+    "summary": "Hindistan alt kıtasında İslam hakimiyetini kalıcı kılan, 320 yıl boyunca Delhi merkezli hüküm süren kudretli Türk imparatorluğu. Kutbüddin Aybeg, Şemseddin İltutmuş, Delhi tahtına çıkan Raziyye Sultan, Alâeddin Halacî ve Muhammed bin Tuğluk gibi büyük hükümdarlar yönetti. Kutub Minar gibi abidevi eserler inşa edildi. Moğol istilalarını defalarca püskürterek Hindistan'ı tahripten kurtardı. 1526'da Bâbür İmparatorluğu'na devroldu.",
     "legacy": "Dünyanın en yüksek tuğla minaresi olan Kutub Minar'ı insanlığa kazandırdı; Hint alt kıtasını Türk-İslam mimarisi ve sanatıyla yoğurdu.",
     "essay": [
       "Delhi Türk Sultanlığı, Gurlu kumandanı Kıpçak asıllı Kutbüddin Aybeg'in 1206'da bağımsızlığını ilan etmesiyle kuruldu. Aybeg'in başlattığı Kutub Minar, Türk-İslam mimarisinin Hindistan'daki zafer anıtı oldu.",

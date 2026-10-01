@@ -411,11 +411,6 @@
     "harm": "Kosova'da Sırp knezi Lazar'ın idamı ve Balkan ittifakının kanlı dağılışı. Anadolu beylik topraklarının ilhakı yerel hânedanlarda Timur'a kadar sürecek intikam biriktirdi. Oğlu Yâkub'un katli sonraki kardeş katlinin erken örneğidir (babasının emri değil, Bayezid ve erkân).",
     "wives": [
      {
-      "name": "Nilüfer Hatun",
-      "note": "Annesi değil eşi sanılmasın: Nilüfer annesidir. Eş olarak Gülçiçek Hatun Bayezid'in annesi diye Bayezid maddesinde geçer.",
-      "certainty": "kesin"
-     },
-     {
       "name": "Gülçiçek Hatun",
       "note": "I. Bayezid'in annesi. TDV Bayezid maddesi.",
       "certainty": "kesin"
@@ -853,10 +848,34 @@
       "certainty": "kesin"
      },
      {
-      "name": "Yedi kız",
-      "mother": null,
-      "note": "TDV: yedi kızı olduğu bilinir, adları bu maddede sayılmaz. Adsız yedi isim uydurulmadı.",
-      "certainty": "olasi"
+      "name": "Selçuk Hatun",
+      "mother": "",
+      "note": "I. Mehmed’in kızı; beş ad Uzunçarşılı’nın belge incelemesinde sayılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hafsa Hatun",
+      "mother": "",
+      "note": "I. Mehmed’in kızı; beş ad Uzunçarşılı’nın belge incelemesinde sayılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Sultan Hatun",
+      "mother": "",
+      "note": "Uzunçarşılı beş kız adından biri olarak sayar; “Sultan” sözcüğünün unvan olabileceğini özellikle belirtir.",
+      "certainty": "tartismali"
+     },
+     {
+      "name": "Ayşe Hatun",
+      "mother": "",
+      "note": "I. Mehmed’in kızı; beş ad Uzunçarşılı’nın belge incelemesinde sayılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hatice Hatun",
+      "mother": "",
+      "note": "I. Mehmed’in kızı; beş ad Uzunçarşılı’nın belge incelemesinde sayılır.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -896,9 +915,16 @@
      {
       "title": "TDV İslâm Ansiklopedisi, I. Mehmed",
       "url": "https://islamansiklopedisi.org.tr/mehmed-i"
+     },
+     {
+      "title": "Uzunçarşılı, Çelebi Sultan Mehmed’in Kızı Selçuk Hatun Kiminle Evlendi",
+      "url": "https://dergipark.org.tr/tr/pub/ttkbelleten/article/1272179"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV yedi kız bildirir; Uzunçarşılı beşinin adını verir, diğer iki kızın adını bilmediğini yazar."
+    ]
    },
    {
     "id": "murad-ii",
@@ -922,9 +948,9 @@
     "harm": "1444 Segedin-Edirne barışının hemen bozulması Haçlı seferini geri getirdi. Belgrad 1440 başarısızlığı. Oğlunu 1446'da fiilen ikinci plana itmesi II. Mehmed'in ilk saltanatını gölgeledi. Kardeşleri konusunda I. Mehmed'in koruma tasarısını uygulamadı.",
     "wives": [
      {
-      "name": "Adı bu okumada tek tek sayılmayan hasekiler",
-      "note": "Oğlu Mehmed'in Dulkadıroğlu Süleyman Bey'in kızı Sitti Hatun ile 1450 evliliği şehzade düğünüdür, Murad'ın eşi değildir.",
-      "certainty": "tartismali"
+      "name": "Mara Brankoviç",
+      "note": "Sırp despotu Đurađ Branković’in kızı; II. Murad’la evliliği TDV’de belgelenir.",
+      "certainty": "kesin"
      }
     ],
     "children": [
@@ -944,12 +970,6 @@
       "name": "Ahmed",
       "mother": null,
       "note": "II. Mehmed tahta çıkınca henüz memede olan kardeşini boğdurdu. Murad'ın küçük oğludur.",
-      "certainty": "kesin"
-     },
-     {
-      "name": "Diğer kardeşler",
-      "mother": null,
-      "note": "Murad, Çelebi Mehmed'in en büyük oğlu olup dört erkek ve yedi kız kardeşi vardı; bunlar Murad'ın kardeşleridir, çocukları değildir.",
       "certainty": "kesin"
      }
     ],
@@ -1024,9 +1044,9 @@
       "certainty": "kesin"
      },
      {
-      "name": "Diğer eşler",
-      "note": "Alderson 17 hanım sayar. TDV Mehmed maddesi bu listeyi tekrarlamaz. Adı açılmayan eşler buraya yazılmadı.",
-      "certainty": "tartismali"
+      "name": "Gülşah Hatun",
+      "note": "Şehzade Mustafa’nın annesi; Murâdiye Külliyesi maddesinde türbesi tanıtılır.",
+      "certainty": "kesin"
      }
     ],
     "children": [
@@ -1113,9 +1133,16 @@
      {
       "title": "TDV İslâm Ansiklopedisi, II. Mehmed",
       "url": "https://islamansiklopedisi.org.tr/mehmed-ii"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Murâdiye Külliyesi",
+      "url": "https://islamansiklopedisi.org.tr/muradiye-kulliyesi--bursa"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "Alderson on yedi eş sayar; TDV maddesi tüm isimleri doğrulamaz. Adı ve ilişkisi belgelenmeyenler kişi kartı olarak sayılmaz."
+    ]
    },
    {
     "id": "bayezid-ii",
@@ -1144,9 +1171,9 @@
       "certainty": "kesin"
      },
      {
-      "name": "Diğer hanımlar",
-      "note": "TDV: hanımlarının sayısı sekizdir; sekiz oğul ve on bir kız. Sekiz hanımın adları bu okumada tek tek dökülmedi, uydurulmadı.",
-      "certainty": "olasi"
+      "name": "Nigâr Hatun",
+      "note": "Şehzade Korkut ve Fatma Sultan’ın annesi.",
+      "certainty": "kesin"
      }
     ],
     "children": [
@@ -1187,10 +1214,22 @@
       "certainty": "kesin"
      },
      {
-      "name": "İki oğul daha ve on bir kız",
-      "mother": null,
-      "note": "TDV sekiz oğul ve on bir kız der. Adı bu okumada geçmeyen iki oğul ve kızlar tek tek yazılmadı. İbn Kemal çocuk ve torun sayısını 300'ü aşmış gösterir; bu mübalağalı bir toplamdır.",
-      "certainty": "olasi"
+      "name": "Şehinşah",
+      "mother": "",
+      "note": "Konya ve Beyşehir sancaklarında bulundu; II. Bayezid’in oğlu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": "",
+      "note": "Kefe sancak beyi; II. Bayezid’in oğlu.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Fatma Sultan",
+      "mother": "Nigâr Hatun",
+      "note": "II. Bayezid’in kızı; Nigâr Hatun’dan olduğu Uzunçarşılı’da belirtilir.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -1228,9 +1267,29 @@
      {
       "title": "TDV İslâm Ansiklopedisi, II. Bayezid",
       "url": "https://islamansiklopedisi.org.tr/bayezid-ii"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Konya",
+      "url": "https://islamansiklopedisi.org.tr/konya"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Kefe",
+      "url": "https://islamansiklopedisi.org.tr/kefe"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Yivli Minare Külliyesi",
+      "url": "https://islamansiklopedisi.org.tr/yivli-minare-kulliyesi"
+     },
+     {
+      "title": "Uzunçarşılı, II. Bayezid’in Oğullarından Sultan Korkut",
+      "url": "https://dergipark.org.tr/tr/pub/ttkbelleten/article/1201182"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV sekiz hanım bildirir; hepsinin kimliği mevcut kaynak dizisinde doğrulanmadı.",
+     "TDV sekiz oğul ve on bir kız bildirir. Sekiz oğlun adı ayrı kaynaklarla tamamlandı; kızların hepsi bu denetimde adlandırılamadı."
+    ]
    },
    {
     "id": "selim-i",
@@ -1406,12 +1465,6 @@
       "mother": "Hürrem",
       "note": "Küçük oğul. Mustafa'nın ölümünden sonra kederden öldüğü anlatılır; bu okumada ölüm sebebi kesinlenmedi. Cihangir Camii onun adınadır.",
       "certainty": "olasi"
-     },
-     {
-      "name": "Adı bilinmeyen bir kız",
-      "mother": null,
-      "note": "Hammer'in 'on çocuk' sözü TDV'de Hurûfî yakıştırma sayılır. Adsız çocuk çoğaltılmadı.",
-      "certainty": "tartismali"
      }
     ],
     "wars": [
@@ -1488,7 +1541,10 @@
       "url": "https://islamansiklopedisi.org.tr/suleyman-i"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV, onuncu çocuk iddiasını Hurûfî sayı yakıştırması sayar; kişi olarak kabul edilmedi."
+    ]
    },
    {
     "id": "selim-ii",
@@ -1614,11 +1670,6 @@
       "name": "Safiye Sultan",
       "note": "Arnavut asıllı, Dukakin'de Rezi köyünden. Uzun süre tek haseki. III. Mehmed'in annesi. Venedikli Baffo olduğu iddiası yanlıştır; Baffo, Nurbânû'dur.",
       "certainty": "kesin"
-     },
-     {
-      "name": "Çok sayıda câriye",
-      "note": "Nurbânû ve İsmihan'ın teşvikiyle Safiye'den sonra câriyelere rağbet ettiği Venedik raporları ve Schweigger'de vardır. Adları tek tek yazılmaz.",
-      "certainty": "olasi"
      }
     ],
     "children": [
@@ -1645,12 +1696,6 @@
       "mother": "Safiye?",
       "note": "Manisa'da doğdu.",
       "certainty": "olasi"
-     },
-     {
-      "name": "Adı geçmeyen çok sayıda çocuk",
-      "mother": null,
-      "note": "TDV: haseki, câriye ve çocuk sayısı hakkında mübalağalı rivayet vardır. Vefatında 49 çocuğu hayattaydı, yedi câriye gebeydi. Bu sayı dönem kaynaklarına dayanır. Adı verilmeyen onlarca çocuk tek tek uydurulmadı. III. Mehmed tahta çıkınca dördü yetişkin (Mustafa, Bayezid, Osman, Abdullah) olmak üzere on dokuz şehzadeyi boğdurdu; yirmi yedi kız Eski Saray'a gönderildi.",
-      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -1678,7 +1723,11 @@
       "url": "https://islamansiklopedisi.org.tr/murad-iii"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "Safiye’den sonra başka câriyeleri olduğu dönem anlatılarında geçer; adları ve kişi sayısı güvenilir biçimde ayrıştırılamıyor.",
+     "TDV ölümünde kırk dokuz çocuğunun hayatta olduğunu, yedi câriyenin hamile olduğunu bildirir; kimlikleri bu listede tek tek doğrulanamadı."
+    ]
    },
    {
     "id": "mehmed-iii",
@@ -1735,12 +1784,6 @@
       "mother": "adı bilinmeyen Abaza kadın",
       "note": "Yaklaşık 1591-92 Manisa. Sonraki padişah. Kardeş katlinden Ahmed'in henüz oğlu olmadığı için kurtuldu.",
       "certainty": "kesin"
-     },
-     {
-      "name": "Diğer çocuklar",
-      "mother": null,
-      "note": "Sancağa çıkamadan İstanbul'da büyüyen kuşak. Adları bu maddede dökülmeyenler yazılmadı.",
-      "certainty": "tartismali"
      }
     ],
     "wars": [
@@ -1773,7 +1816,10 @@
       "url": "https://islamansiklopedisi.org.tr/mehmed-iii"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "III. Mehmed’in mevcut kaynakta adlandırılmayan çocukları tek bir kişi gibi sayılmıyor."
+    ]
    },
    {
     "id": "ahmed-i",
@@ -1833,16 +1879,22 @@
       "certainty": "kesin"
      },
      {
-      "name": "Bayezid ve Süleyman",
-      "mother": null,
-      "note": "IV. Murad 1635'te boğdurdu. İbrahim maddesi onları kendi kardeşleri diye anar.",
-      "certainty": "kesin"
-     },
-     {
       "name": "Kasım",
       "mother": "Kösem?",
       "note": "IV. Murad 1638'de Bağdat seferi öncesi idam ettirdi. İbrahim ile ana-baba bir kardeşler arasında sayılır.",
       "certainty": "olasi"
+     },
+     {
+      "name": "Bayezid",
+      "mother": "",
+      "note": "I. Ahmed’in oğlu; IV. Murad’ın kardeşi. 1635’te öldürüldü.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Süleyman",
+      "mother": "",
+      "note": "I. Ahmed’in oğlu; IV. Murad’ın kardeşi. 1635’te öldürüldü.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -1875,6 +1927,10 @@
      {
       "title": "TDV İslâm Ansiklopedisi, I. Ahmed",
       "url": "https://islamansiklopedisi.org.tr/ahmed-i"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, IV. Murad",
+      "url": "https://islamansiklopedisi.org.tr/murad-iv"
      }
     ],
     "aliases": []
@@ -1998,24 +2054,54 @@
     ],
     "contribution": "Kasr-ı Şirin (1639) ile Bağdat, Van, Kars ve Kuzey Irak çizgisinin tasdiki. Revan ve Bağdat seferleri doğu cephesini kapattı. İstanbul'da asayişin sert tedbirle sağlanması kısa vadede düzen getirdi.",
     "harm": "Kardeş katli hânedanı tek kişiye, İbrahim'e indirdi. Keyfî idamlar (Şeyhülislâm Ahîzâde dahil) ulemâyı sindirdi. Yasaklar ve içki düşkünlüğü aynı kişide çelişti. Anadolu'da isyan tenkili köylüyü de vurdu.",
-    "wives": [
-     {
-      "name": "Adları bu okumada dökülmeyen hasekiler",
-      "note": "Kızı Kaya Sultan Silâhdar Mustafa Paşa ile evlendirilmek istendi. Anne adı bu pasajda geçmez.",
-      "certainty": "tartismali"
-     }
-    ],
+    "wives": [],
     "children": [
      {
-      "name": "Kaya Sultan",
+      "name": "Kaya İsmihan Sultan",
       "mother": null,
       "note": "Kösem'in torunu olarak evlilik siyasetinde adı geçer. Babası IV. Murad.",
       "certainty": "kesin"
      },
      {
-      "name": "Küçük yaşta ölen oğullar",
-      "mother": null,
-      "note": "İbrahim maddesi: IV. Murad'ın oğulları çok küçük yaşta öldü; bu yüzden İbrahim tek vârisi kaldı. Adlar uydurulmadı.",
+      "name": "Süleyman",
+      "mother": "",
+      "note": "IV. Murad’ın kendi sağlığında ölen oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mehmed",
+      "mother": "",
+      "note": "IV. Murad’ın kendi sağlığında ölen oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Alâeddin",
+      "mother": "",
+      "note": "IV. Murad’ın kendi sağlığında ölen oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Ahmed",
+      "mother": "",
+      "note": "IV. Murad’ın kendi sağlığında ölen oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Mahmud",
+      "mother": "",
+      "note": "IV. Murad’ın kendi sağlığında ölen oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Rukiye Sultan",
+      "mother": "",
+      "note": "IV. Murad’ın kızı; TDV’de adı ve evliliği verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hafize Sultan",
+      "mother": "",
+      "note": "IV. Murad’ın kızı; TDV’de adı ve evliliği verilir.",
       "certainty": "kesin"
      }
     ],
@@ -2051,7 +2137,11 @@
       "url": "https://islamansiklopedisi.org.tr/murad-iv"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "Hasekilerin isimleri okunan TDV maddesinde doğrulanmadığı için kişi kartı oluşturulmadı.",
+     "TDV en az on altı çocuğun tespit edildiğini, diğerlerinin küçük yaşta öldüğünü belirtir; beş oğul ve üç kız adıyla listelendi."
+    ]
    },
    {
     "id": "ibrahim",
@@ -2221,10 +2311,10 @@
       "certainty": "kesin"
      },
      {
-      "name": "Bir kız",
+      "name": "Hatice Sultan",
       "mother": null,
-      "note": "1675 Edirne şenliğinde oğullarıyla birlikte evlilik ve sünnet düğünü yapılan kızın adı bu pasajda geçmez.",
-      "certainty": "olasi"
+      "note": "1675 Edirne şenliğinde Musâhib Mustafa Paşa ile evliliği yapılan IV. Mehmed’in kızı.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -2269,6 +2359,10 @@
      {
       "title": "TDV İslâm Ansiklopedisi, IV. Mehmed",
       "url": "https://islamansiklopedisi.org.tr/mehmed-iv"
+     },
+     {
+      "title": "IV. Mehmed’in kızı Hatice Sultan’ın çeyizi üzerine arşiv araştırması",
+      "url": "https://dergipark.org.tr/tr/pub/avrasyad/article/1839483"
      }
     ],
     "aliases": []
@@ -2413,10 +2507,28 @@
       "certainty": "kesin"
      },
      {
-      "name": "Diğer şehzadeler",
-      "mother": null,
-      "note": "Edirne Vakası sonrası kardeşleriyle İstanbul'a getirildiler. Adları bu okumada dökülmedi.",
-      "certainty": "olasi"
+      "name": "Ayşe Sultan",
+      "mother": "",
+      "note": "II. Mustafa’nın TDV maddesinde adı verilen kızı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Emine Sultan",
+      "mother": "",
+      "note": "II. Mustafa’nın TDV maddesinde adı verilen kızı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Safiye Sultan",
+      "mother": "",
+      "note": "II. Mustafa’nın TDV maddesinde adı verilen kızı.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Emetullah Sultan",
+      "mother": "",
+      "note": "II. Mustafa’nın TDV maddesinde adı verilen kızı.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -2451,7 +2563,10 @@
       "url": "https://islamansiklopedisi.org.tr/mustafa-ii"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV, II. Mustafa’nın yaklaşık yirmi çocuğu olduğunu ve çoğunun kendisinden önce öldüğünü belirtir; adı doğrulanmayanlar kişi kartı yapılmadı."
+    ]
    },
    {
     "id": "ahmed-iii",
@@ -2475,9 +2590,9 @@
     "harm": "Pasarofça ile Belgrad ve Tımışvar kaybı. Lale Devri harcamaları ve İran savaşı Patrona isyanının bahanesi oldu. Damatlarının boğdurulması isyanı durdurmadı. Birçok oğlu küçük yaşta öldü; hânedan daraldı.",
     "wives": [
      {
-      "name": "Adları bu okumada tek tek dökülmeyen kadınlar",
-      "note": "TDV: hanımlarından birçok oğlu oldu, çoğu küçük yaşta öldü. I. Mahmud'un annesi Sâliha, II. Mustafa'nın kadınıdır, III. Ahmed'in eşi değildir.",
-      "certainty": "tartismali"
+      "name": "Râbia Şermi Sultan",
+      "note": "I. Abdülhamid’in annesi; TDV I. Abdülhamid maddesinde belirtilir.",
+      "certainty": "kesin"
      }
     ],
     "children": [
@@ -2494,9 +2609,9 @@
       "certainty": "kesin"
      },
      {
-      "name": "Küçük yaşta ölen oğullar",
-      "mother": null,
-      "note": "TDV çoğunun küçük öldüğünü söyler. Adlar uydurulmadı. 1730-1757 arasında erkek şehzade doğmaması III. Selim'in doğumunu bayram yaptırdı; bu, Ahmed'in hayatta kalan oğullarının kendi çocuklarının geç gelmesindendir.",
+      "name": "Fatma Sultan",
+      "mother": "",
+      "note": "III. Ahmed’in kızı; küçük yaşta yaptığı evlilik ayrı bir akademik makalede incelenir.",
       "certainty": "kesin"
      }
     ],
@@ -2544,9 +2659,21 @@
      {
       "title": "TDV İslâm Ansiklopedisi, III. Ahmed",
       "url": "https://islamansiklopedisi.org.tr/ahmed-iii"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, I. Abdülhamid",
+      "url": "https://islamansiklopedisi.org.tr/abdulhamid-i"
+     },
+     {
+      "title": "III. Ahmed’in Kızı Fatma Sultan Örneği",
+      "url": "https://dergipark.org.tr/tr/pub/tkidergi/article/1305409"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV, III. Ahmed’in çok sayıda evlilik yaptığını söyler; eş adları bu maddede dökülmez.",
+     "TDV, oğullarının çoğunun küçük yaşta öldüğünü belirtir; adları burada tespit edilemedi."
+    ]
    },
    {
     "id": "mahmud-i",
@@ -2637,11 +2764,6 @@
       "name": "Ferhunde Emine",
       "note": "Dördüncü kadınefendi.",
       "certainty": "kesin"
-     },
-     {
-      "name": "Dördüncü bir kadın ve ikballer",
-      "note": "TDV: adı bilinen üçü olmak üzere dört kadın ve sayısı dörde varan ikbal. Dördüncü kadının adı bu cümlede ayrılmaz.",
-      "certainty": "olasi"
      }
     ],
     "children": [],
@@ -2653,7 +2775,10 @@
       "url": "https://islamansiklopedisi.org.tr/osman-iii"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV dört kadın ve sayısı dörde varan ikbal aktarır; adı ayrıştırılmayan kadınlar bir kişi gibi sayılmıyor."
+    ]
    },
    {
     "id": "mustafa-iii",
@@ -2680,6 +2805,11 @@
       "name": "Mihrişah Sultan",
       "note": "III. Selim'in annesi. Gürcü veya Çerkez olduğu söylenir. Şeyhülislâm Veliyyüddin Efendi tarafından III. Mustafa'ya hediye edildiği rivayettir.",
       "certainty": "olasi"
+     },
+     {
+      "name": "Rifat Kadın",
+      "note": "III. Mustafa’nın bilinen altı eşinden biri; dördüncü kadın olarak hareme alındı.",
+      "certainty": "kesin"
      }
     ],
     "children": [
@@ -2696,10 +2826,16 @@
       "certainty": "kesin"
      },
      {
-      "name": "Toplam sekiz kız ve iki erkek",
-      "mother": null,
-      "note": "TDV cümlesi 'toplam sekiz kız ve iki erkek oğlu (III.' diye kesilir. İkinci erkek I. Abdülhamid değildir; o kardeşidir. İkinci oğulun adı bu kesik cümlede tamamlanmadı, uydurulmadı.",
-      "certainty": "olasi"
+      "name": "Mehmed",
+      "mother": "",
+      "note": "III. Mustafa’nın III. Selim dışındaki oğlu; TDV’de adı açıkça verilir.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Hibetullah Sultan",
+      "mother": "",
+      "note": "III. Mustafa’nın ilk çocuğu; 14 Mart 1759’da doğdu.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -2727,7 +2863,10 @@
       "url": "https://islamansiklopedisi.org.tr/mustafa-iii"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV toplam sekiz kız ve iki erkek çocuk bildirir. İki oğlun adı verilir; kızlardan burada Hibetullah ve Şah Sultan adlandırıldı."
+    ]
    },
    {
     "id": "abdulhamid-i",
@@ -2786,9 +2925,9 @@
       "certainty": "olasi"
      },
      {
-      "name": "Diğerleri",
-      "mother": null,
-      "note": "On iki kız ve yedi oğulun çoğu küçük öldü. Adı geçmeyenler yazılmadı.",
+      "name": "Esmâ Sultan",
+      "mother": "",
+      "note": "I. Abdülhamid’in kızı. Terekesine dayanan akademik araştırmada yaşamı incelenir.",
       "certainty": "kesin"
      }
     ],
@@ -2815,9 +2954,16 @@
      {
       "title": "TDV İslâm Ansiklopedisi, I. Abdülhamid",
       "url": "https://islamansiklopedisi.org.tr/abdulhamid-i"
+     },
+     {
+      "title": "Küçük Esma Sultan’ın terekesi üzerine araştırma",
+      "url": "https://dergipark.org.tr/en/pub/ecsbd/article/1967382"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "TDV, I. Abdülhamid’in on iki kızı ve yedi oğlu olduğunu, çoğunun küçük yaşta öldüğünü belirtir. Kimlikleri burada doğrulanmayanlar ayrı kişi kartı yapılmadı."
+    ]
    },
    {
     "id": "selim-iii",
@@ -3095,10 +3241,16 @@
       "certainty": "kesin"
      },
      {
-      "name": "Diğer çocuklar",
-      "mother": null,
-      "note": "TDV Abdülmecid maddesi padişah olan dört oğlu sayar. Kızlar ve diğer şehzadeler bu okumada tek tek dökülmedi.",
-      "certainty": "tartismali"
+      "name": "Cemile Sultan",
+      "mother": "",
+      "note": "Abdülmecid’in kızı; 1858 düğünleri TDV Surnâme maddesinde tanıtılır.",
+      "certainty": "kesin"
+     },
+     {
+      "name": "Münire Sultan",
+      "mother": "",
+      "note": "Abdülmecid’in kızı; 1858 düğünleri TDV Surnâme maddesinde tanıtılır.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -3122,9 +3274,16 @@
      {
       "title": "TDV İslâm Ansiklopedisi, Abdülmecid",
       "url": "https://islamansiklopedisi.org.tr/abdulmecid"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Surnâme",
+      "url": "https://islamansiklopedisi.org.tr/surname"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "Abdülmecid’in dört padişah oğlu dışında çocukları olduğu bilinir; bu denetimde doğrulanan iki kızı ayrıca eklendi, eksiksiz soy ağacı iddiası yoktur."
+    ]
    },
    {
     "id": "abdulaziz",
@@ -3155,10 +3314,10 @@
       "certainty": "kesin"
      },
      {
-      "name": "Diğer çocuklar",
-      "mother": null,
-      "note": "Abdülaziz maddesinin okunan kısmı çocuk listesini tamamlamaz. Ad uydurulmadı.",
-      "certainty": "tartismali"
+      "name": "Abdülmecid Efendi",
+      "mother": "",
+      "note": "Sultan Abdülaziz’in oğlu; son Osmanlı halifesi.",
+      "certainty": "kesin"
      }
     ],
     "wars": [
@@ -3177,9 +3336,16 @@
      {
       "title": "TDV İslâm Ansiklopedisi, Abdülaziz",
       "url": "https://islamansiklopedisi.org.tr/abdulaziz"
+     },
+     {
+      "title": "TDV İslâm Ansiklopedisi, Abdülmecid Efendi",
+      "url": "https://islamansiklopedisi.org.tr/abdulmecid-efendi"
      }
     ],
-    "aliases": []
+    "aliases": [],
+    "familyNotes": [
+     "Abdülaziz’in başka çocukları olduğu bilinir; kimlikleri bu kaynak dizisinde doğrulanmayanlar kişi kartı yapılmadı."
+    ]
    },
    {
     "id": "murad-v",

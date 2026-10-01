@@ -112,15 +112,7 @@
             "foe": "Memlükler (Kutuz, Baybars)",
             "result": "yenilgi",
             "note": "Ketboğa Noyan öldü; Moğol ilerleyişi Suriye'de durdu."
-          },
-          {
-            "name": "Elbistan Savaşı",
-            "when": "1277",
-            "foe": "Memlükler",
-            "result": "yenilgi",
-            "note": "Hülagû'nun ölümünden sonra Abaka dönemine aittir."
-          }
-        ],
+          }        ],
         "legends": [
           "Bağdat'ta Dicle'nin mürekkeple karardığı anlatısı dolaşır; kaynaklar kütüphanelerin yağmalandığını yazar, nehrin renginin değiştiği bilgisi rivayettir.",
           "Hülagû'nun Hristiyan ve Budist eğilimli olduğu, Müslümanlara düşmanlık beslediği yönündeki anlatılar dönemin kaynaklarında abartılı ve tektaraflıdır."
@@ -389,7 +381,7 @@
       "Devletü'l-Memâlîk",
       "Bahrî ve Burcî Memlükleri"
     ],
-    "region": "anadolu",
+    "region": "diger",
     "start": 1250,
     "end": 1517,
     "startNote": "1250'de Eyyûbî sultanı Turanşah'ın devrilmesi ve Şecerüddür'ün sultan ilan edilmesi başlangıç sayılır.",
@@ -726,13 +718,13 @@
           1399
         ],
         "reignNote": "1382-1389 ve 1390-1399 arasında iki dönem.",
-        "summary": "Burcî (Çerkes) kolunu iktidara taşıdı. Timur tehdidi karşısında Suriye'yi savunmaya çalıştı, 1394'te Halep yakınlarında yenildi.",
+        "summary": "Burcî (Çerkes) kolunu iktidara taşıdı. Timur ile düşmanlık onun sağlığında mektup ve hazırlık düzeyindedir. Halep’i Timur 1400’de, Berkuk’un ölümünden sonra oğlu Ferec zamanında aldı.",
         "traits": [
           "Çerkes memlüklerin örgütlenmesi",
           "mali baskı"
         ],
         "contribution": "Yönetimi Çerkes koluna devretti; askerî düzeni yenilemeye çalıştı.",
-        "harm": "Emir çekişmesi arttı; Timur karşısında Suriye kaybedildi.",
+        "harm": "Emir çekişmesi sürdü. Suriye’nin Timur’a kaybı onun ölümünden sonradır.",
         "wives": [],
         "children": [
           {
@@ -742,15 +734,7 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [
-          {
-            "name": "Suriye seferi",
-            "when": "1394",
-            "foe": "Timur",
-            "result": "yenilgi",
-            "note": "Halep yöresinde Timurlu ordusuna karşı başarısızlık."
-          }
-        ],
+        "wars": [],
         "legends": [],
         "sources": [
           {
@@ -919,7 +903,7 @@
       "Halep Atabegleri",
       "Âl-i Zengî"
     ],
-    "region": "anadolu",
+    "region": "diger",
     "start": 1127,
     "end": 1250,
     "startNote": "İmâdeddin Zengî'nin 1127'de Musul ve Halep valisi ve Selçuklu atabegi olmasıyla kuruldu.",
@@ -1040,7 +1024,7 @@
           1174
         ],
         "reignNote": "28 yıllık adalet, cihat ve medeniyet devri.",
-        "summary": "İmâdeddin Zengî'nin oğlu. İslam tarihinin Hulefâ-yi Râşidîn ve Ömer b. Abdülazîz'den sonraki en adil ve takva sahibi hükümdarı sayılır. Şam'ı fethetti, II. Haçlı Seferi'ni püskürttü, Mısır'ı kontrolüne alıp Fâtımîleri bitirdi. Selâhaddîn-i Eyyûbî'nin hamisi ve Kudüs fethinin manevi mimarıdır.",
+        "summary": "İmâdeddin Zengî’nin oğlu. Halep’ten Şam’a uzandı, II. Haçlı Seferi sırasında Nûreddin olarak öne çıktı, Mısır’da Şîrkûh ve Selâhaddîn eliyle Fâtımî hilafetini kapattı. Adaletiyle anılır. ‘İslâm tarihinin en âdil hükümdarı’ sıralaması bir övgü kalıbıdır, kayıt değildir.",
         "traits": [
           "Adalet ve zühd timsali",
           "Büyük mücahid",

@@ -16,11 +16,11 @@
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
     "confidenceNote": "Şikârî'nin Karamannâme'si, İbn Bîbî, Âşıkpaşazâde ve Neşrî kronikleriyle sabittir.",
-    "summary": "Oğuzların Avşar boyuna mensup Nûre Sûfî ve Kerîmüddin Karaman Bey tarafından Toroslar'da kurulan, Anadolu Selçuklu Devleti'nin gerçek varisi olma iddiasıyla Osmanlı Devleti'ne karşı en uzun ve çetin direnişi gösteren güçlü beylik. 13 Mayıs 1277'de Karamanoğlu Mehmed Bey, Selçuklu başkenti Konya'yı fethederek ünlü 'Bugünden sonra divanda, dergâhta, bargâhta, mecliste ve meydanda Türkçeden başka dil kullanılmaya' fermanını yayınladı. Fatih Sultan Mehmed ve II. Bayezid dönemlerinde Osmanlı'ya katıldı.",
+    "summary": "Oğuzların Avşar boyuna mensup Nûre Sûfî ve Kerîmüddin Karaman Bey tarafından Toroslar'da kurulan, Anadolu Selçuklu Devleti'nin gerçek varisi olma iddiasıyla Osmanlı Devleti'ne karşı en uzun ve çetin direnişi gösteren güçlü beylik. 14 Mayıs 1277'de Karamanoğlu Mehmed Bey, Selçuklu başkenti Konya'yı fethederek ünlü 'Bugünden sonra divanda, dergâhta, bargâhta, mecliste ve meydanda Türkçeden başka dil kullanılmaya' fermanını yayınladı. Fatih Sultan Mehmed ve II. Bayezid dönemlerinde Osmanlı'ya katıldı.",
     "legacy": "Türkçenin resmi devlet dili olarak ilan edilmesinin bayraktarı oldu. Her yıl 13 Mayıs'ta Türk Dil Bayramı olarak kutlanan tarihi mirasın mimarıdır.",
     "essay": [
       "Karamanoğulları, Moğol istilası önünden Anadolu'ya göç eden Avşar Türkmenlerinin başında bulunan Nûre Sûfî ve oğlu Kerîmüddin Karaman Bey önderliğinde Ermenek çevresinde kuruldu. Selçuklu Devleti'nin Moğol vesayetine girmesine karşı en sert Türkmen direnişini temsil ettiler.",
-      "1277 yılında Kerîmüddin Karaman'ın oğlu Mehmed Bey, Selçuklu şehzadesi Cimri (Siyavuş) ile birlikte Konya'ya girdi ve Selçuklu vezirlerini saf dışı bıraktı. 13 Mayıs 1277'de Türkçe fermanını yayınlayarak Farsçanın devlet ve bürokrasi dili hakimiyetine son verdi. Ancak Selçuklu-Moğol karşı ordusuyla yapılan savaşta şehit düştü.",
+      "1277 yılında Kerîmüddin Karaman'ın oğlu Mehmed Bey, Selçuklu şehzadesi Cimri (Siyavuş) ile birlikte Konya'ya girdi ve Selçuklu vezirlerini saf dışı bıraktı. 14 Mayıs 1277'de Türkçe fermanını yayınlayarak Farsçanın devlet ve bürokrasi dili hakimiyetine son verdi. Ancak Selçuklu-Moğol karşı ordusuyla yapılan savaşta şehit düştü.",
       "14. ve 15. yüzyıllarda Konya, Karaman, Niğde, Aksaray ve Antalya'ya hakim olan beylik, Alâeddin Ali Bey ve II. İbrâhim Bey devirlerinde Osmanlı Devleti ile amansız bir Anadolu hakimiyeti mücadelesine girdi. Zaman zaman Memlükler, Akkoyunlular ve Macarlar ile Osmanlı aleyhine ittifaklar kurdular. Fatih Sultan Mehmed'in 1468 Konya ve Karaman seferleri ve ardından Gedik Ahmed Paşa'nın harekatıyla 1487'de tamamen Osmanlı topraklarına katıldı."
     ],
     "sources": [
@@ -34,7 +34,72 @@
       }
     ],
     "rulers": [
-      {
+            {
+        "id": "karamanoglu-karaman-bey",
+        "name": "Kerîmüddin Karaman Bey",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1263,
+        "deathNote": "1263, Ermenilerle çarpışırken aldığı yaradan.",
+        "reign": [
+          1256,
+          1263
+        ],
+        "reignNote": "Siyasî görünüşü 654/1256. Beylik iktâı IV. Kılıçarslan'dan 659/1261. 1263'te Ermenilerle çarpışırken aldığı yaradan öldü. Mezarı Ermenek'te değil, Balasun / Bağbölen'dedir. 1263-1276 arasında kardeşler tutukludur. Bu aralık için tek bir beyin adı ve yılı yoktur.",
+        "summary": "Karamanoğullarının adını veren beydir. 1256'da siyasette göründü, 1263'te öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Mehmed",
+            "mother": "",
+            "note": "1276-1277 beyi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Güneri",
+            "mother": "",
+            "note": "Mehmed'in kardeşi. 1277-1300.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Mecdüddin Mahmud",
+            "mother": "",
+            "note": "Mehmed'in kardeşi. 1300-1308.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ali",
+            "mother": "",
+            "note": "Kayseri'de rehin kaldı.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Bunsuz",
+            "mother": "",
+            "note": "IV. Kılıçarslan tarafından öldürülmüş olması muhtemeldir.",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Babası Nûre Sûfî / Nûreddin, dedesi Sâdeddin'dir. Yazıcızâde soyu Avşar diye yazar."
+        ],
+        "wars": [],
+        "legends": [
+          "Şikârî'nin zehir ve Antalya anlatısını madde kabul etmez."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+{
         "id": "karamanoglu-mehmed-bey",
         "name": "Karamanoğlu Mehmed Bey",
         "aliases": [
@@ -46,10 +111,10 @@
         "death": 1277,
         "deathNote": "Moğol-Selçuklu müfrezesiyle çarpışırken okla şehit edildi",
         "reign": [
-          1261,
+          1276,
           1277
         ],
-        "reignNote": "16 yıl beylik yaptı.",
+        "reignNote": "Ermenek subaşılığı 675/1276. Konya'ya giriş 9 Zilhicce 675 / 14 Mayıs 1277. Cimri 19 Mayıs 1277'de sultan ilan edildi. Ölüm Cemâziyelâhir 676 / Kasım 1277. 1261, Karaman Bey'in iktâ yılıdır. Mehmed'in saltanatı değildir.",
         "summary": "Kerîmüddin Karaman Bey'in oğlu. 1277'de Konya'yı fethedip vezir oldu ve Türkçeyi resmi devlet dili ilan eden tarihi fermanı yayınladı. Moğollara karşı Göksu boylarında şehit düştü.",
         "traits": [
           "Türkçe aşığı",
@@ -83,6 +148,307 @@
           {
             "title": "TDV İslâm Ansiklopedisi, MEHMED BEY, Karamanoğlu",
             "url": "https://islamansiklopedisi.org.tr/mehmed-bey-karamanoglu"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-guneri",
+        "name": "Güneri Bey",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1300,
+        "deathNote": "26 Receb 699 / 17 Nisan 1300.",
+        "reign": [
+          1277,
+          1300
+        ],
+        "reignNote": "Mehmed'in kardeşi. 26 Receb 699 / 17 Nisan 1300'de öldü. Lârende'yi 685/1286'da aldı.",
+        "summary": "1277-1300 arasında Karamanoğlu beyidir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-mahmud",
+        "name": "Mecdüddin Mahmud",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1308,
+        "deathNote": "707 hicrî yılı 1307-1308'e düşer.",
+        "reign": [
+          1300,
+          1308
+        ],
+        "reignNote": "Güneri'nin kardeşi. 707/1307-1308'de öldü. Ermenek Ulu Cami 1302'de ona bağlanır.",
+        "summary": "1300'den 1308'e kadar bey oldu.",
+        "traits": [],
+        "contribution": "Ermenek Ulu Cami 1302.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-yahsi",
+        "name": "Yahşi Bey",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1314,
+          1314
+        ],
+        "reignNote": "714/1314'te Ahi Mustafa'yı öldürüp Konya'yı aldı. Ramazan 714 / Aralık 1314'te Emîr Çoban tarafından esir edildi, öldürülmedi. Karamanoğulları Konya'yı kısa sürede geri aldı. Maddenin ilerisinde 742-743/1341-1342'de kardeşi Halil ile çarpışırken öldürülmüş bir Yahşi'den ihtimalle söz edilir. Aynı kişi olup olmadığı açık değildir.",
+        "summary": "1314'te Konya'yı aldı ve aynı yıl esir edildi. Sonraki Yahşi kaydı kesinlik taşımaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Konya",
+            "when": "1314",
+            "foe": "Ahi Mustafa",
+            "result": "zafer",
+            "note": "714/1314. Aynı yılın sonunda esir edildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-ibrahim-bedreddin",
+        "name": "Bedreddin İbrâhim",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1318,
+          null
+        ],
+        "reignNote": "718/1318'de Memlük sultanı adına hutbe okundu. 735/1334-1335'te Lârende'de, oğlu Ahmed Konya'dadır. 1341'de elçi sancak ve sikke kalıbı getirdi. Ölüm yılı bu okumada yoktur. 1334'teki oğul Ahmed ile halef Fahreddin Ahmed'in aynı kişi olduğu açık yazılmaz.",
+        "summary": "1318'de bey olarak anılır. Son tarihli haber 1341'dir. Ölüm yılı yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "1334-1335'te oğlu Ahmed Konya'da idi. Bunun Fahreddin Ahmed olup olmadığı maddece açık değildir."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-musa",
+        "name": "Musa Bey",
+        "aliases": [],
+        "title": "Ermenek beyi",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1345,
+        "deathNote": "Ramazan 745 / Ocak 1345.",
+        "reign": [
+          null,
+          1345
+        ],
+        "reignNote": "Beyliğin başı diye yazılmaz. Ermenek beyidir. Hacca gitti. Tolmedrese 740/1339-1340. Ramazan 745 / Ocak 1345'te öldü.",
+        "summary": "Ermenek beyidir. 1345'te öldü. Merkez beyi olarak sıralanmaz.",
+        "traits": [],
+        "contribution": "Tolmedrese 740/1339-1340.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-halil",
+        "name": "Halil b. Mahmud",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "745-750/1344-1350 arasında ölmüş olması muhtemeldir.",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Beyşehir tarafından geldi. Yahşi ile çekişti. Ölümü için madde 745-750/1344-1350 aralığını muhtemel diye yazar. Cülûs yılı yoktur.",
+        "summary": "Tarihsiz bir çekişmenin içindedir. Ölüm yılı kesin değildir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-ahmed",
+        "name": "Fahreddin Ahmed",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1349,
+        "deathNote": "750/1349. Mezarı eş-Şehîd diye anılır.",
+        "reign": [
+          null,
+          1349
+        ],
+        "reignNote": "İbrâhim'in halefi diye anılır. Mezarı eş-Şehîd, 750/1349. Cülûs yılı yazılmaz. 1334'te Konya'daki Ahmed ile aynı kişi sayılıp sayılmayacağı açık değildir.",
+        "summary": "1349'da ölen Karamanoğlu beyidir. Başlangıç yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-semseddin",
+        "name": "Şemseddin Bey",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1352,
+        "deathNote": "753/1352.",
+        "reign": [
+          1349,
+          1352
+        ],
+        "reignNote": "Fahreddin Ahmed'in kardeşi ve halefi. 753/1352'de öldü.",
+        "summary": "1349-1352 arasında bey oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-suleyman",
+        "name": "Süleyman b. Halil",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1361,
+        "deathNote": "762/1361, akrabaları tarafından öldürüldü.",
+        "reign": [
+          1352,
+          1361
+        ],
+        "reignNote": "Akrabaları tarafından 762/1361'de öldürüldü.",
+        "summary": "1352-1361 arasında bey oldu ve 1361'de öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
+          }
+        ]
+      },
+      {
+        "id": "karamanoglu-alaeddin",
+        "name": "Alâeddin Bey",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1361,
+          null
+        ],
+        "reignNote": "1361'de bey oldu. Ölüm yılı bu okumada yoktur. 1424'te başlayan II. İbrâhim'e kadar aradaki beyler madde dışı bırakıldı.",
+        "summary": "1361'de Karamanoğlu beyi oldu. Bitiş yılı yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAMANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/karamanogullari"
           }
         ]
       },

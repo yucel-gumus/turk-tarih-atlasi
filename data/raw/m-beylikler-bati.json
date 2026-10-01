@@ -2281,9 +2281,9 @@
         "harm": "",
         "wives": [
           {
-            "name": "kayıtlarda adı geçmiyor",
-            "note": "Türbede sandukası bulunan eşi",
-            "certainty": "olasi"
+            "name": "Adı bilinmeyen eşi",
+            "note": "TDV'ye göre türbedeki mezarlardan birinin eşi olduğu rivayet edilir; adı bilinmez.",
+            "certainty": "rivayet"
           }
         ],
         "children": [

@@ -13,12 +13,11 @@
   --gold-secondary: #c99e46;
   --gold-glow: rgba(229, 195, 120, 0.28);
   --text-main: #f0f3f6;
-  --text-muted: #8b96a5;
-  --text-dim: #5a6675;
+  --text-muted: #a3afbd;
+  --text-dim: #798696;
 
   --accent-victory: #4ade80;
   --accent-defeat: #f87171;
-  --accent-stalemate: #fbbf24;
   --accent-treaty: #38bdf8;
 
   --font-serif: 'Source Serif 4', 'Cinzel', Georgia, serif;
@@ -32,19 +31,20 @@
   box-sizing: border-box;
 }
 
+/* Uygulama artık kayan bir belgedir (tuval değil): dikey kaydırma serbest,
+   yatay taşma gizli. Metin seçimi açıktır; yalnız sabit krom yüzeyler
+   (üst çubuk, zaman şeridi araç çubuğu) kendi bileşeninde seçimi kapatır. */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: var(--bg-deep);
   color: var(--text-main);
   font-family: var(--font-sans);
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  user-select: none;
 }
 
 /* Background Atmosphere */
@@ -52,7 +52,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background: 
+  background:
     radial-gradient(circle at 50% 0%, rgba(229, 195, 120, 0.04) 0%, transparent 60%),
     radial-gradient(circle at 100% 100%, rgba(60, 154, 140, 0.03) 0%, transparent 50%),
     radial-gradient(circle at 0% 100%, rgba(196, 107, 134, 0.03) 0%, transparent 50%),
@@ -111,17 +111,237 @@ button {
   color: inherit;
 }
 
-button:focus-visible, input:focus-visible {
+/* Bağlantılar sayfa satırlarıdır; renk ve alt çizgi her taşıyıcıda kendinden
+   gelir (kaynak bağlantısı rengini kendi bileşeninde belirler). */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible, input:focus-visible, a:focus-visible, [tabindex]:focus-visible {
   outline: 2px solid var(--gold-primary);
   outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   Sayfa içeriği ortak sınıfları.
+
+   Kural: bir sınıfın markup'ını tek bir bileşen üretiyorsa stil o bileşenin
+   kapsamlı <style> bloğunda kalır. Burada yalnızca birden çok sayfanın kendi
+   markup'ında doğrudan ürettiği sınıflar durur (rozetler, meta pilleri,
+   bölüm başlıkları) ve etiketleri taşıyan tek kaynak burasıdır.
+   --------------------------------------------------------------------------- */
+
+/* Bölüm başlığı ve gövde metni: SectionBox bileşeninin dışında kalan
+   başlıklar (sayfa geneli başlıklar) için de kullanılır. */
+.page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-primary);
+}
+
+.page-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3.4vw, 34px);
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.15;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Devlet/savaş/kişi rozetleri */
+.dates-tag {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold-primary);
+  background: rgba(229, 195, 120, 0.08);
+  border: 1px solid rgba(229, 195, 120, 0.2);
+  padding: 2px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.state-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.confidence-tag {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.confidence-tag.tartismali {
+  background: rgba(251, 191, 36, 0.15);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  color: #fde047;
+}
+.confidence-tag.rivayet {
+  background: rgba(168, 85, 247, 0.15);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  color: #d8b4fe;
+}
+
+.claim-tag {
+  font-size: 9px;
+  color: #fca5a5;
+  background: rgba(248, 113, 113, 0.2);
+  padding: 1px 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.cert-tag {
+  font-size: 9px;
+  padding: 1px 4px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+/* `olasi` kayıtta 90 kez geçiyor; kuralı yoktu, rozet renksiz çiziliyordu. */
+.cert-tag.olasi {
+  background: rgba(56, 189, 248, 0.2);
+  color: #7dd3fc;
+}
+.cert-tag.tartismali {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fde047;
+}
+.cert-tag.rivayet {
+  background: rgba(168, 85, 247, 0.2);
+  color: #d8b4fe;
+}
+
+.mother-tag {
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.sub-title {
+  margin: 0 0 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Meta pilleri: devlet, hükümdar, savaş ve kişi sayfalarının başlıkları paylaşır.
+   Zaman şeridi çubuğu bu sınıfı kullanmaz; kendi `.bar-*` sınıfları vardır. */
+.meta-pills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.meta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.rulers-count {
+  color: var(--gold-primary);
+  background: rgba(229, 195, 120, 0.08);
+  font-weight: 600;
+}
+
+/* Gövde metni. SectionBox kapsamlı stil kullanamaz: içeriği snippet olarak
+   gelir ve Svelte kapsamlı stilleri snippet markup'ına uygulamaz (snippet
+   ebeveynin şablonudur), bu yüzden paragraf sınıfları global durur. */
+.body-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #cbd5e1;
+}
+
+.essay-paragraph {
+  margin: 0 0 12px;
+}
+
+.essay-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Meta kart ızgarası: birden çok MetaCard'ı sayfa düzeyinde dizer */
+.meta-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+/* Kayıtta karşılığı olmayan alanlar için dürüst boşluk metni */
+.honesty-note {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+/* Sonuç rozetleri; anahtar veri sözlüğündeki değerdir (zafer, yenilgi, ...) */
+.result-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.result-badge.zafer { background: rgba(74, 222, 128, 0.15); color: #86efac; border: 1px solid rgba(74, 222, 128, 0.3); }
+.result-badge.yenilgi { background: rgba(248, 113, 113, 0.15); color: #fca5a5; border: 1px solid rgba(248, 113, 113, 0.3); }
+.result-badge.sonucsuz { background: rgba(251, 191, 36, 0.15); color: #fde047; border: 1px solid rgba(251, 191, 36, 0.3); }
+.result-badge.antlasma { background: rgba(56, 189, 248, 0.15); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.3); }
+.result-badge.belirsiz { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+
+/* Tür renkleri. Tailwind yok; eski `text-amber-400` gibi sınıfların arkasında
+   hiçbir kural yoktu, bu yüzden gerçek renkler burada tanımlı. */
+.icon-state { color: var(--gold-primary); }
+.icon-ruler { color: var(--accent-victory); }
+.icon-war { color: var(--accent-defeat); }
+.icon-person { color: var(--accent-treaty); }
+
+/* Sayfa içi metin bağlantısı: devlet ve savaş sayfalarındaki kısa yönlendirmeler paylaşır. */
+.inline-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gold-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* Print Layout */
 @media print {
   body {
-    overflow: visible !important;
     background: #fff !important;
     color: #111 !important;
+  }
+  body::before {
+    display: none !important;
   }
   .no-print {
     display: none !important;

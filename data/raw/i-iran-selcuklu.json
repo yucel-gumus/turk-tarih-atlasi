@@ -12,12 +12,12 @@
     "start": 1040,
     "end": 1194,
     "startNote": "1040 Dandanakan Zaferi ile Gazneliler mağlup edilerek Tuğrul Bey adına Nişabur'da hutbe okutuldu.",
-    "endNote": "1194 yılında son Irak Selçuklu Sultanı III. Tuğrul'un Harzemşah Tekiş'e yenilip öldürülmesiyle hanedan sona erdi.",
+    "endNote": "1194’te Rey yakınında Irak Selçuklu sultanı Tuğrul, Hârizmşah Tekiş’e yenilip öldü. TDV Hârizmşahlar maddesi onu II. Tuğrul diye sayar; bazı sayımlar aynı kişiyi III. Tuğrul diye anar.",
     "capital": "Nişabur, Rey, İsfahan ve Merv",
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
     "confidenceNote": "Dönemin çağdaş vekâyinâmeleri (Râvendî, İbnü'l-Esîr, Ahbârü'd-Devleti's-Selcûkıyye) ile sabittir.",
-    "summary": "Oğuzların Kınık boyuna mensup Selçuk Bey'in torunları Tuğrul ve Çağrı beyler tarafından temelleri atılan, 1040 Dandanakan Zaferi ile kurulan ulu imparatorluk. 1055'te Bağdat'a giren Tuğrul Bey Şii Büveyhî tahakkümünü kırıp Abbasi Halifeliği'ni himayesine aldı; halife tarafından 'Doğunun ve Batının Hükümdarı' ilan edildi. Sultan Alparslan 1071 Malazgirt Zaferi ile Anadolu'nun kapılarını Türk milletine ebediyen açtı; Sultan Melikşah ve dahi Vezir Nizâmülmülk devrinde sınırları Kaşgar'dan Boğaziçi'ne ve Mısır'a kadar ulaştı.",
+    "summary": "Oğuzların Kınık boyuna mensup Selçuk Bey'in torunları Tuğrul ve Çağrı beyler tarafından temelleri atılan, 1040 Dandanakan Zaferi ile kurulan ulu imparatorluk. 1055'te Bağdat'a giren Tuğrul Bey Şii Büveyhî tahakkümünü kırıp Abbasi Halifeliği'ni himayesine aldı; halife tarafından 'Doğunun ve Batının Hükümdarı' ilan edildi. Sultan Alparslan 1071 Malazgirt Zaferi ile Anadolu’ya kalıcı Türk yerleşiminin kapısını açtı; Sultan Melikşah ve dahi Vezir Nizâmülmülk devrinde sınırları Kaşgar'dan Boğaziçi'ne ve Mısır'a kadar ulaştı.",
     "legacy": "İslam dünyasında Şii Fatımi ve Büveyhi baskısını kırarak Sünnî birliği yeniden kurdu. Nizamiye medreseleriyle ilim ve düşünce hayatına çağ atlattı. Anadolu'yu kalıcı Türk vatanı yapacak tarihi süreci başlattı.",
     "essay": [
       "Büyük Selçuklu Devleti, Seyhun nehri boylarında Cend şehrinde İslamiyet'i kabul eden Kınık boyu beyi Selçuk Bey'in torunları Tuğrul ve Çağrı beylerin Horasan'a gelişiyle kuruldu. Karahanlı ve Gazneli baskılarına rağmen Horasan halkının desteğini alan Selçuklular, 23 Mayıs 1040'ta Dandanakan Muharebesi'nde Gazneli Sultan Mesud'un fil destekli dev ordusunu kesin bir hezimete uğrattı. Bu zaferle Horasan'da bağımsız Büyük Selçuklu Devleti kuruldu; Tuğrul Bey sultan, kardeşi Çağrı Bey ise doğu kanadı Meliki oldu.",
@@ -481,9 +481,15 @@
         ],
         "children": [
           {
-            "name": "İki kız evlat",
-            "mother": "Türken Hatun",
-            "note": "Biri Mahmud b. Muhammed Tapar ile evlendi",
+            "name": "Mâhmelek Hatun",
+            "mother": "",
+            "note": "Mahmud b. Muhammed Tapar ile evlendi; ölümünden sonra kardeşi aynı kişiyle evlendi.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Gevher Neseb Hatun",
+            "mother": "",
+            "note": "Ablası Mâhmelek’in ölümünden sonra Mahmud b. Muhammed Tapar ile evlendi.",
             "certainty": "kesin"
           }
         ],
@@ -844,7 +850,7 @@
       "Tulunîler",
       "Benu Tulun"
     ],
-    "region": "anadolu",
+    "region": "diger",
     "start": 868,
     "end": 905,
     "startNote": "Buhara asıllı Türk kumandanı Ahmed b. Tolun'un Mısır valisi olarak Fustat'a girmesiyle kuruldu.",
@@ -1022,7 +1028,7 @@
       "Akşitler",
       "İhşîd Devleti"
     ],
-    "region": "anadolu",
+    "region": "diger",
     "start": 935,
     "end": 969,
     "startNote": "Fergana hanedanından Muhammed b. Tuğç'un 935'te Mısır genel valiliğine atanmasıyla kuruldu.",
@@ -1154,6 +1160,785 @@
           {
             "title": "TDV İslâm Ansiklopedisi, İHŞÎDÎLER",
             "url": "https://islamansiklopedisi.org.tr/ihsidiler"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "Kirman Selçuklu Melikliği"
+    ],
+    "startNote": "Kavurd'a Kirman'ın ayrılması 440/1048. Selçuklular maddesinin Kirman başlığı 1048-1187.",
+    "endNote": "II. Muhammed'in ikinci saltanatı 583/1187'de biter. Melik Dinar 21 Ramazan 581 / 16 Aralık 1185'te vardı ve devleti 583/1187'de bitirdi. 1170'lerdeki ortak ve kesintili saltanatlar tek çubukta değil, her melikin notunda durur. Türkan Şah'ın ayrı cülûs yılı yoktur.",
+    "capital": "Kirman",
+    "religion": "İslamiyet",
+    "confidence": "kayit",
+    "confidenceNote": "",
+    "legacy": "Kirman'da bir asırdan uzun süren ayrı bir Selçuklu melikliğidir.",
+    "essay": [
+      "Selçuklular maddesi Kirman kolunu 1048-1187 diye başlıklar. Kavurd 1073'te öldürüldü. I. Arslanşah 1101'den 1142'ye kadar kaldı ve oğlu tarafından hapsedildi. Hapsedilme, ölüm tarihi diye yazılmaz.",
+      "1170-1187 tablosu Behramşah, II. Arslanşah, II. Muhammed ve II. Turan Şah arasında gider gelir. Her kişi bir kartta toplandı. Ara yıllar saltanat notuna yazıldı."
+    ],
+    "id": "kirman-selcuklu",
+    "name": "Kirman Selçukluları",
+    "short": "Kirman Selçuklu",
+    "region": "iran",
+    "start": 1048,
+    "end": 1187,
+    "summary": "Çağrı Bey'in oğlu Kavurd'un 1048'de Kirman'da kurduğu Selçuklu koludur. 1170'te Tuğrul Şah ölünce dört oğul yedi yıl taht için çekişti. Devlet 1187'de Melik Dinar ile bitti.",
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+        "url": "https://islamansiklopedisi.org.tr/selcuklular"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, KAVURD BEY",
+        "url": "https://islamansiklopedisi.org.tr/kavurd-bey"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kirman-selcuklu-kavurd",
+        "name": "Kavurd",
+        "aliases": [
+          "Kara Arslan Kavurd"
+        ],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1073,
+        "deathNote": "Şâban 465 / Nisan 1073'te öldürüldü.",
+        "reign": [
+          1048,
+          1073
+        ],
+        "reignNote": "Kirman'a 440/1048'de ayrıldı. Kara Arslan diye de anılır. Şâban 465 / Nisan 1073'te öldürüldü.",
+        "summary": "Kirman Selçuklularının kurucusudur. 1073'te öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAVURD BEY",
+            "url": "https://islamansiklopedisi.org.tr/kavurd-bey"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-kirmansah",
+        "name": "Kirmanşah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1074,
+        "deathNote": "Bir yıl kadar hüküm sürdükten sonra öldü.",
+        "reign": [
+          1073,
+          1074
+        ],
+        "reignNote": "465/1073'te melik oldu. Madde bir yıl kadar sonra öldüğünü yazar. Sonraki tarihli cülûs 467/1074'tür.",
+        "summary": "Kavurd'un ardından yaklaşık bir yıl melik oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-huseyin",
+        "name": "Hüseyin",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Kirmanşah ile Sultan Şah arasında anılır. Ayrı cülûs yılı yazılmaz.",
+        "summary": "Kirman melikleri arasında adı geçer. Saltanat yılı maddede yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-sultan-sah",
+        "name": "Sultan Şah",
+        "aliases": [
+          "İshak"
+        ],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Yerine Ocak 1085'te I. Turan Şah geçti. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1074,
+          1085
+        ],
+        "reignNote": "İshak diye de anılır. Cülûs 467/1074. Yerine I. Turan Şah Ramazan 477 / Ocak 1085'te geçti. Ölüm günü ayrıca yazılmaz.",
+        "summary": "1074'ten 1085'e kadar Kirman melikidir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-turan-1",
+        "name": "I. Turan Şah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1097,
+        "deathNote": "Zilkade 490 / Ekim 1097.",
+        "reign": [
+          1085,
+          1097
+        ],
+        "reignNote": "Ramazan 477 / Ocak 1085'te melik oldu. Zilkade 490 / Ekim 1097'de öldü.",
+        "summary": "1085'ten Ekim 1097'ye kadar hüküm sürdü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-iransah",
+        "name": "İranşah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1101,
+        "deathNote": "494/1101'de öldürüldü.",
+        "reign": [
+          1097,
+          1101
+        ],
+        "reignNote": "490/1097'de melik oldu. 494/1101'de öldürüldü.",
+        "summary": "1097-1101 arasında melik oldu ve 1101'de öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-arslan-1",
+        "name": "I. Arslanşah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Eylül 1142'de hapsedildi. Ölüm yılı ayrıca yazılmaz.",
+        "reign": [
+          1101,
+          1142
+        ],
+        "reignNote": "22 Muharrem 495 / 16 Kasım 1101'de melik oldu. Oğlu tarafından Safer 537 / Eylül 1142'de hapsedildi. Madde bunu ölüm günü diye yazmaz. Süre için kırk iki yıl der.",
+        "summary": "1101'den Eylül 1142'ye kadar melik kaldı. Saltanatı hapsedilerek bitti.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-muhammed-1",
+        "name": "I. Muhammed",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, Tuğrul Şah'ın 27 Haziran 1156 cülûsudur. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1142,
+          1156
+        ],
+        "reignNote": "537/1142'de melik oldu. Tuğrul Şah 6 Cemâziyelevvel 551 / 27 Haziran 1156'da yerine geçti. Madde Muhammed'in o gün öldüğünü ayrıca yazmaz.",
+        "summary": "1142'den 27 Haziran 1156'daki halef cülûsuna kadar meliktir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-tugrul",
+        "name": "Tuğrul Şah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1170,
+        "deathNote": "565/1170.",
+        "reign": [
+          1156,
+          1170
+        ],
+        "reignNote": "27 Haziran 1156'da melik oldu. 565/1170'te öldü. Dört oğlu yedi yıl taht için çekişti: Arslanşah, Türkan Şah, Turan Şah ve Behram. Türkan Şah için ayrı cülûs yılı yazılmaz.",
+        "summary": "1156-1170 arasında Kirman melikidir. Ölümünden sonra oğulları tahtı paylaşamadı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. Arslanşah",
+            "mother": "",
+            "note": "1170 ve 1175'te melik oldu. 1177'de savaşta öldü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Türkan Şah",
+            "mother": "",
+            "note": "Dört talip arasında anılır. Ayrı cülûs yılı yazılmaz.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "II. Turan Şah",
+            "mother": "",
+            "note": "1177'de melik oldu.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Behramşah",
+            "mother": "",
+            "note": "1170, 1171 ve 1175'te melik oldu. 1175'te öldü.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-behram",
+        "name": "Behramşah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1175,
+        "deathNote": "571/1175, üçüncü saltanatında öldü.",
+        "reign": [
+          1170,
+          1175
+        ],
+        "reignNote": "Üç ayrı saltanatı vardır: 565/1170, 566/1171 ve 571/1175. 568/1172'de II. Arslanşah ile ortak anılır. 1175'teki üçüncü saltanatında öldü. Kartın aralığı bu boşlukları gizler; gerçek süreler bu nottadır.",
+        "summary": "1170-1175 arasında üç kez Kirman meliki oldu ve 1175'te öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-arslan-2",
+        "name": "II. Arslanşah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1177,
+        "deathNote": "572/1177'de savaşta öldü.",
+        "reign": [
+          1170,
+          1177
+        ],
+        "reignNote": "İlk saltanatı 565/1170, ikincisi 571/1175'tir. 572/1177'de savaşta öldü. Küçük oğlu Yavlak'ın gözlerine mil çekildi. Aradaki yıllarda Behramşah ve ortak saltanat vardır. Kart tek aralık tutar.",
+        "summary": "1170 ve 1175'te melik oldu. 1177'de savaşta öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Yavlak",
+            "mother": "",
+            "note": "Küçük yaşta gözlerine mil çekildi. Ölüm yılı yazılmaz.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-yavlak",
+        "name": "Yavlak",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          1177
+        ],
+        "reignNote": "II. Arslanşah'ın küçük oğludur. 572/1177'de gözlerine mil çekildi. Ölüm yılı yazılmaz. 1177 bu kartta o olayın yılıdır.",
+        "summary": "1177'de adı geçen çocuktur. Gözlerine mil çekildi.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-muhammed-2",
+        "name": "II. Muhammed",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1175,
+          1187
+        ],
+        "reignNote": "İlk saltanatı 571/1175'te, yedi yaşında başladı. İkincisi 579-583 / 1183-1187'dir. Arada II. Arslanşah ve II. Turan Şah vardır. Kart tek aralık tuttuğu için ara saltanatlar bu notta durur.",
+        "summary": "1175'te çocuk yaşta ve 1183-1187'de yeniden Kirman meliki oldu. Devlet onun ikinci saltanatının sonunda biter.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "kirman-selcuklu-turan-2",
+        "name": "II. Turan Şah",
+        "aliases": [],
+        "title": "melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, 1183'teki halef cülûsudur. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1177,
+          1183
+        ],
+        "reignNote": "572/1177'de melik oldu. Bitiş, II. Muhammed'in ikinci cülûsu olan 579/1183'tür. Ölüm günü ayrıca yazılmaz.",
+        "summary": "1177'den 1183'e kadar melik olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "Halep Selçukluları",
+      "Dımaşk Selçukluları"
+    ],
+    "startNote": "Melikşah Suriye'yi Tutuş'a 471/1078'de iktâ etti. Devlet, Dımaşk'ın alınmasıyla 471/1079'da kuruldu.",
+    "endNote": "Tutuş 25 Şubat 1095'te ölünce ülke Halep ve Dımaşk diye ikiye ayrıldı. Dımaşk kolu Ertaş'ın Ekim-Kasım 1104'te şehri terk etmesiyle bitti. Sonrası Börîlerdir. Halep kolu 511/1117'de İlgazi'nin şehre hâkim olmasıyla bitti.",
+    "capital": "Dımaşk ve Halep",
+    "religion": "İslamiyet",
+    "confidence": "kayit",
+    "confidenceNote": "",
+    "legacy": "Halep ve Dımaşk'ta kısa süren iki Selçuklu melikliği, ardından bölgede atabeg hanedanlarına yol açtı.",
+    "essay": [
+      "Suriye Selçukluları maddesi 1079-1117 diye başlıklar. Tutuş, Atsız'ı öldürüp Dımaşk'ı aldı. 1086'da Aynüseylem'de I. Süleyman Şah'ı yendi. 1095'te Berkyaruk'a yenildi.",
+      "Rıdvan 1097'de kısa süre Fâtımî adına hutbe okuttu ve dört hafta sonra döndü. Alparslan el-Ahras 1114'te öldürüldü. Sultan Şah'ın Halep kolu 1117'de kapandı. Dukak'ın iki oğlu 1104'te birer kısa saltanat sürdü."
+    ],
+    "id": "suriye-selcuklu",
+    "name": "Suriye Selçukluları",
+    "short": "Suriye Selçuklu",
+    "region": "diger",
+    "start": 1079,
+    "end": 1117,
+    "summary": "Tutuş'un 1079'da Dımaşk'ta kurduğu Selçuklu koludur. 1095'te Halep'te Rıdvan, Dımaşk'ta Dukak kaldı. Dımaşk 1104'te, Halep 1117'de el değiştirdi.",
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+        "url": "https://islamansiklopedisi.org.tr/selcuklular"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "suriye-selcuklu-tutus",
+        "name": "Tutuş",
+        "aliases": [
+          "Tâcüddevle Tutuş"
+        ],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1095,
+        "deathNote": "16 Safer 488 / 25 Şubat 1095, Rey civarı.",
+        "reign": [
+          1079,
+          1095
+        ],
+        "reignNote": "Melikşah Suriye'yi 471/1078'de iktâ etti. Devlet, Dımaşk'ın alınmasıyla 471/1079'da kuruldu. 16 Safer 488 / 25 Şubat 1095'te Rey civarında Berkyaruk'a yenildi ve öldü.",
+        "summary": "Suriye Selçuklularının kurucusudur. 1086'da Aynüseylem'de I. Süleyman Şah'ı yendi. 1095'te Berkyaruk'a yenilerek öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Rıdvan",
+            "mother": "",
+            "note": "Halep kolu, 1095-1113.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Dukak",
+            "mother": "",
+            "note": "Dımaşk kolu, 1095-1104.",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Dukak'ın annesi Safvetülmülk Hatun 504/1110'da Dımaşk'ta Tavâvisiyye Hankahı'nı yaptırdı."
+        ],
+        "wars": [
+          {
+            "name": "Aynüseylem",
+            "when": "1086",
+            "foe": "Anadolu Selçuklu Sultanı I. Süleyman Şah",
+            "result": "zafer",
+            "note": "18 Safer 479 / 4 Haziran 1086. Süleyman Şah öldü."
+          },
+          {
+            "name": "Rey",
+            "when": "1095",
+            "foe": "Berkyaruk",
+            "result": "yenilgi",
+            "note": "16 Safer 488 / 25 Şubat 1095. Tutuş savaş meydanında öldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-ridvan",
+        "name": "Rıdvan",
+        "aliases": [],
+        "title": "Halep meliki",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1113,
+        "deathNote": "507/1113.",
+        "reign": [
+          1095,
+          1113
+        ],
+        "reignNote": "Halep kolu. 507/1113'e kadar hüküm sürdü. 17 Ramazan 490 / 28 Ağustos 1097'de Fâtımî halifesi adına hutbe okuttu, 12 Şevval 490 / 22 Eylül 1097'de bundan döndü.",
+        "summary": "Tutuş'un oğludur. Halep'te 1095-1113 arasında melik oldu. Haçlılara vergi vermek zorunda kaldı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Alparslan el-Ahras",
+            "mother": "",
+            "note": "1113-1114 Halep meliki. 1114'te öldürüldü.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sultan Şah",
+            "mother": "",
+            "note": "1114-1117 Halep meliki.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-alparslan",
+        "name": "Alparslan el-Ahras",
+        "aliases": [
+          "Tâcüddevle el-Ahras"
+        ],
+        "title": "Halep meliki",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1114,
+        "deathNote": "508/1114, atabeg Lü'lü' tarafından öldürüldü.",
+        "reign": [
+          1113,
+          1114
+        ],
+        "reignNote": "Rıdvan'ın oğlu. Tâcüddevle diye anılır. Muhammed Tapar ile birlikte Halep'teki Bâtınîlerin bir kısmını ortadan kaldırdı. Atabeg Lü'lü' tarafından 508/1114'te öldürüldü.",
+        "summary": "1113-1114 arasında Halep meliki oldu ve 1114'te öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-sultan-sah",
+        "name": "Sultan Şah",
+        "aliases": [],
+        "title": "Halep meliki",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kol 511/1117'de bitti. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1114,
+          1117
+        ],
+        "reignNote": "Tablo 508-511 / 1114-1117 diye yazar. 511/1117'de Necmeddin İlgazi Halep'e hâkim oldu ve Halep kolu bitti. Ölüm günü ayrıca yazılmaz.",
+        "summary": "Alparslan'ın kardeşidir. 1114-1117 arasında Halep meliki olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-dukak",
+        "name": "Dukak",
+        "aliases": [],
+        "title": "Dımaşk meliki",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1104,
+        "deathNote": "10 Ramazan 497 / 6 Haziran 1104.",
+        "reign": [
+          1095,
+          1104
+        ],
+        "reignNote": "488/1095'te Dımaşk kolunu kurdu. Dokuz yıl hüküm sürdü. 10 Ramazan 497 / 6 Haziran 1104'te öldü.",
+        "summary": "Tutuş'un oğludur. Dımaşk'ta 1095-1104 arasında melik oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. Tutuş",
+            "mother": "",
+            "note": "1104'te çok küçük yaşta, yaklaşık bir ay melik oldu.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ertaş",
+            "mother": "",
+            "note": "II. Tutuş'un ağabeyi. 1104'te on iki yaşındaydı. Bektaş diye de anılır.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-tutus-2",
+        "name": "II. Tutuş",
+        "aliases": [],
+        "title": "Dımaşk meliki",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1104,
+          1104
+        ],
+        "reignNote": "Dukak'ın küçük oğludur. Atabeg Tuğtegin onu tahta geçirdi. Bir ay sonra ağabeyi Ertaş'ı oturtma gereği duyuldu.",
+        "summary": "1104'te yaklaşık bir ay Dımaşk meliki oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
+          }
+        ]
+      },
+      {
+        "id": "suriye-selcuklu-ertas",
+        "name": "Ertaş",
+        "aliases": [
+          "Bektaş"
+        ],
+        "title": "Dımaşk meliki",
+        "birth": null,
+        "birthNote": "1104'te on iki yaşındaydı. Doğum yılı ayrıca yazılmaz.",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1104,
+          1104
+        ],
+        "reignNote": "Bektaş diye de anılır. 1104'te on iki yaşındaydı. Tuğtegin'den korkup annesi ve bir emîrle Safer 498 / Ekim-Kasım 1104'te şehirden ayrıldı. Dımaşk kolu bununla bitti. Sonrası Börîlerdir.",
+        "summary": "1104'te kısa süre Dımaşk meliki oldu ve aynı yıl şehri terk etti.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/selcuklular"
           }
         ]
       }

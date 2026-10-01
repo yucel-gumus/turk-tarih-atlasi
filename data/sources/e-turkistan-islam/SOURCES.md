@@ -3,6 +3,8 @@
 Bu dosyalar TDV İslâm Ansiklopedisi'nden (islamansiklopedisi.org.tr) indirildi.
 Ağ erişimi yoksa/kesintiliyse önce buradan oku; yeni istek atmadan önce listeye bak.
 
+Dosya adı madde kanıtı değildir. Bir kısmı site içi arama dökümü veya başka maddenin metnidir. Atıf, dosyadan değil canlı URL'den yapılır. Özellikle şunlar adlı maddenin kendisi değildir: `harizmsahlar.txt` (eski kopya İngilizce Vikipedi'ydi; şimdi yalnız uyarıdır), `ali-tegin.txt`, `ferruhzad.txt`, `husrev-melik.txt`, `yusuf-kadir-han.txt`, `atsiz.txt`, `tekis.txt`, `mesud-b-mahmud.txt`, `mevdud-b-mesud.txt` (arama sayfası), `ilarslan.txt` (İldenizliler), `kutbuddin-muhammed.txt` (Ramazanoğulları).
+
 | dosya | boyut | kaynak |
 |---|---|---|
 | ahmed-b-hizir.txt | 14 KB | https://islamansiklopedisi.org.tr/ahmed-b-hizir |
@@ -16,7 +18,7 @@ Ağ erişimi yoksa/kesintiliyse önce buradan oku; yeni istek atmadan önce list
 | celaleddin-harizmsah.txt | 17 KB | https://islamansiklopedisi.org.tr/celaleddin-harizmsah |
 | ferruhzad.txt | 2 KB | https://islamansiklopedisi.org.tr/ferruhzad |
 | gazneliler.txt | 43 KB | https://islamansiklopedisi.org.tr/gazneliler |
-| harizmsahlar.txt | 3 KB | https://islamansiklopedisi.org.tr/harizmsahlar |
+| harizmsahlar.txt | uyarı | https://islamansiklopedisi.org.tr/harizmsahlar |
 | harun-bugra-han.html | 88 KB | https://islamansiklopedisi.org.tr/harun-bugra-han. |
 | harun-bugra-han.txt | 4 KB | https://islamansiklopedisi.org.tr/harun-bugra-han |
 | husrev-melik.txt | 3 KB | https://islamansiklopedisi.org.tr/husrev-melik |

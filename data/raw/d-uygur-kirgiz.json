@@ -739,7 +739,7 @@
     "region": "bozkir",
     "start": 840,
     "end": 1207,
-    "startNote": "Bars Bek 693'te kağan unvanını aldıysa da kuruluş yılı olarak genellikle Uygur Kağanlığı'nın yıkıldığı 840 alınır. Türkçe Vikipedi ve İngilizce Vikipedi 840'ı devlet başlangıcı sayar; Moğolistan'daki hâkimiyetin bitişi 920'de K'i-tanların Ötüken'e girmesiyle gelir.",
+    "startNote": "Bars Bek'e 693'te kağan unvanı verildiği İngilizce Vikipedi'de durur. TDV Bey maddesi aynı reisi Barsbay diye yazar, yıl vermez. Kuruluş yılı olarak Uygur Kağanlığı'nın yıkıldığı 840 alındı. Türkçe Vikipedi ve İngilizce Vikipedi de 840'ı devlet başlangıcı sayar; Moğolistan'daki hâkimiyetin bitişi 920'de K'i-tanların Ötüken'e girmesiyle gelir.",
     "endNote": "Envanterde 1207 verildi: Cengiz Han'ın Merkit ve Nayman savaşları sırasında Kırgızları itaat altına alması TDV'ye göre 1207'dir. Kağanlığın imparatorluk dönemi İngilizce Vikipedi'de 925'te kapanır; 925-1207 arası beylikler hâlinde sürer.",
     "capital": "Uybat ırmağı çevresindeki yerleşim; 840'tan sonra kısa süre Ordu-Balık, sonra Tuva'da bir merkez",
     "religion": "Gök Tanrı inancı resmî; Uygurların ardından Maniheizm, ayrıca Budizm ve Nasturî Hıristiyanlık izleri",
@@ -748,7 +748,7 @@
     "summary": "Yenisey'in yukarı havzasında Minusinsk ve Tannu-Ola çevresinde yaşayan Kırgızlar, Göktürk ve Uygur hâkimiyeti altında uzun süre kaldı. 840'ta Uygur başkenti Ordu-Balık'ı yıkıp Uygur Kağanlığı'na son verdiler ve kısa süre bozkırın en itibarlı gücü oldular. 920'de K'i-tanlar Moğolistan'ı alınca eski yurtlarına çekildiler; 1207'de Cengiz Han'a itaat eden ilk Türk topluluğu oldular.",
     "legacy": "Yenisey Yazıtları olarak bilinen runik Türkçe metinler bu toplumdan kalmadır. At yetiştiriciliği, demir işçiliği ve kürk ticaretiyle tanındılar. Bugünkü Hakaslar, Tuvalar ve Kırgızların ataları arasında sayılırlar.",
     "essay": [
-      "Kırgız adı ilk kez Çin kaynaklarında Sima Qian'ın MÖ 203-201 olaylarını anlatan notlarında Gekun biçiminde geçer; Hun hükümdarı Mete'nin boyunduruğuna giren beş halk arasında sayılırlar. Ana yurtları Yenisey'in yukarı akışı, Minusinsk çukuru ve Tannu-Ola dağlarıydı. Taştık kültürüyle ilişkilendirilirler. VI. yüzyılda Göktürk hakanı Mukan zamanında hakanlığa bağlandılar; Göktürk fetretinde (630-680) bağımsız bir kimlik kazandılar ve 693'te Bars Bek'in kağan ilan edilmesiyle kendi kağanlıklarını kurdular.",
+      "Kırgız adı ilk kez Çin kaynaklarında Sima Qian'ın MÖ 203-201 olaylarını anlatan notlarında Gekun biçiminde geçer; Hun hükümdarı Mete'nin boyunduruğuna giren beş halk arasında sayılırlar. Ana yurtları Yenisey'in yukarı akışı, Minusinsk çukuru ve Tannu-Ola dağlarıydı. Taştık kültürüyle ilişkilendirilirler. 560'ta Göktürk hakanı Mukan zamanında hakanlığa bağlandılar; Göktürk fetretinde (630-680) bağımsız bir kimlik kazandılar. 693'te Bars Bek'in kağan ilan edilmesi İngilizce Vikipedi'de durur. TDV Bey maddesi bu reisi Barsbay diye anar ve yıl vermez. TDV Kırgızlar maddesinde ne bu ad ne 693 vardır.",
       "Bars Bek 710-711 kışında Kapgan Kağan'ın seferinde öldü ve Kırgızlar bir süre İkinci Göktürk Kağanlığı'na, ardından Uygurlara bağlandı. TDV, Uygur kağanı Moyunçur'un Kırgızları 758'de Uygur Hakanlığı'na bağladığını yazar. Bu tâbiiyet 840'a kadar sürdü; o yıl Uygur kumandanı Külüg Baga'nın Kırgızlarla anlaşması üzerine Kırgız ordusu Ordu-Balık'a yürüdü, başkenti yaktı ve Uygur kağanlığını sona erdirdi.",
       "Kırgızlar Ötüken'de kalıcı bir düzen kuramadı. 920'de bütün Moğolistan'ı ele geçiren K'i-tanlar onları Ötüken'den çıkarıp eski yurtlarına sürdü. Ekonomileri göçebe hayvancılıkla tarımı birleştirir; Çin kayıtlarına göre Himalaya çavdarı, arpa, darı ve buğday eker, demir işçiliği ve kürk ticareti yaparlardı. Hudûdü'l-âlem ölülerini gömmeyip yaktıklarını kaydeder.",
       "1207'de Cengiz Han'ın Merkit ve Naymanlarla savaşları sırasında Kırgızlar itaat altına alındı; TDV onları Cengiz Han'a itaat eden ilk Türk kavmi sayar. 1217'deki direnme girişimi ertesi yıl Cuci tarafından bastırıldı. Yenisey bölgesindeki Kırgız varlığı bundan sonra Kalmuk ve Kazak hâkimiyetleri altında devam etti."
@@ -757,6 +757,10 @@
       {
         "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
         "url": "https://islamansiklopedisi.org.tr/kirgizlar"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, BEY",
+        "url": "https://islamansiklopedisi.org.tr/bey"
       },
       {
         "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
@@ -780,6 +784,7 @@
         "id": "kirgiz-bars-bek",
         "name": "Bars Bek",
         "aliases": [
+          "Barsbay",
           "İnanç Alp Bilge",
           "Ynançu Alp Bilge",
           "Inanch Alp Bilge"
@@ -793,7 +798,7 @@
           693,
           711
         ],
-        "reignNote": "İlteriş Kağan'ın ölümünden sonra (693) kağan ilan edildiği söylenir. Göktürk hakanı Kapgan'ın onu kağan olarak tanıdığı ve kız kardeşini verdiği kaydedilir.",
+        "reignNote": "İlteriş Kağan'ın ölümünden sonra (693) kağan ilan edildiği İngilizce Vikipedi'de durur. Göktürk hakanı Kapgan'ın onu kağan olarak tanıdığı ve kız kardeşini verdiği kaydedilir. TDV Bey maddesi Kırgız reisine kağan unvanı verildiğini Barsbay adıyla anar, yıl yazmaz. 693-711 aralığı Kırgızlar maddesinde yoktur.",
         "summary": "Kırgız Kağanlığı'nın ilk kağanı sayılan hükümdar. İkinci Göktürk Kağanlığı'nın kuzeye genişlemesine karşı direndi; 710-711 kışında Kapgan Kağan'ın seferinde öldü. Aşina soyuyla evlilik bağı küçük kağan statüsünde olduğunu gösterir.",
         "traits": [
           "Göktürk yayılmasına direniş",
@@ -804,18 +809,11 @@
         "wives": [
           {
             "name": "Göktürk prensesi",
-            "note": "Kapgan Kağan'ın kız kardeşi ya da kızı olduğu söylenir; İngilizce Vikipedi iki ayrı versiyonu birlikte anar.",
+            "note": "Ankara Üniversitesi ders notunda Köl Tigin ve Bilge Kağan’ın kız kardeşiyle evlendirildiği yazılıdır; adı verilmez.",
             "certainty": "tartismali"
           }
         ],
-        "children": [
-          {
-            "name": "kayıtlarda adı geçmiyor",
-            "mother": "",
-            "note": "İngilizce Vikipedi, babasının 710'daki yenilgisinden sonra oğlunun Kırgızları yönettiğini yazar; adını vermez.",
-            "certainty": "olasi"
-          }
-        ],
+        "children": [],
         "wars": [
           {
             "name": "Sayan dağları savaşı",
@@ -840,7 +838,18 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
             "url": "https://islamansiklopedisi.org.tr/kirgizlar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BEY",
+            "url": "https://islamansiklopedisi.org.tr/bey"
+          },
+          {
+            "title": "Ankara Üniversitesi Açık Ders, Kök Türklerde Hâkimiyet Anlayışı",
+            "url": "https://acikders.ankara.edu.tr/course/section.php?id=142272"
           }
+        ],
+        "familyNotes": [
+          "Bars Bek’in adı belirlenemeyen bir oğlunun hükümdarlığı yalnız ikincil çevrimiçi anlatımda görüldü; bağımsız güvenilir kaynakla teyit edilemedi."
         ]
       },
       {
@@ -1134,6 +1143,292 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KİMEK",
             "url": "https://islamansiklopedisi.org.tr/kimek"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "Koço Uygurları",
+      "Turfan Uygurları"
+    ],
+    "startNote": "840'taki son Orhon kağanının yeğeni Mengli kağan seçildi. Bağımsızlık 911'dedir. Yazlık Koço ve kışlık Beşbalık, Turfan maddesinin 982'de Arslan Han için yazdığı merkezlerdir.",
+    "endNote": "Turfan maddesi İdikut soyunu 1353'te, Sangga ve Budashri'nin ardından Hos-hang ile bitirir. Aynı madde vahanın Moğol bağından sonra 1550'lere kadar sürdüğünü de yazar; bu süre idikut soyunun devamı değildir. Ardından Çağatay bağlanması, Hızır Hoca'nın 1389-1399'da Turfan ve Koço'yu alması, 1473'te Ali, oğlu Ahmed, Mansûr ve 1545'te Şah Han anılır. Uygurlar maddesi Moğol idaresini 1368'e kadar götürür. Bitiş olarak soyun sonu olan 1353 seçildi. XII. yüzyılda Kara Hıtay tâbiiyeti anılır.",
+    "capital": "Koço (yazlık), Beşbalık (kışlık)",
+    "religion": "Budizm (Uygurlar maddesi XIV. yüzyıl sonlarına kadar sürdürür)",
+    "confidence": "kayit",
+    "confidenceNote": "Bitiş için Turfan soyu 1353'te, Uygurlar Moğol idaresini 1368'e kadar yazar. Turfan vahayı ayrıca 1550'lere kadar sürdürür. Tercih, idikut soyunun sonu olan 1353'tür.",
+    "legacy": "Koço ve Turfan'daki Uygur idaresi, Orhon kağanlığından sonra Doğu Türkistan'da devam eden siyasî çizgidir.",
+    "essay": [
+      "Uygurlar maddesi, 840'taki son kağanın yeğeni Mengli'nin kağan seçildiğini yazar. Bağımsızlık 911'dedir. Turfan maddesi 982'de Arslan Han'ın yazlık merkezini Koço, kışlık merkezini Beşbalık diye kaydeder.",
+      "Adı yazılanlar Mengli, Arslan Han, Barçuk, Koçkar Tegin, Sangga, Budashri ve Hos-hang'tır. Bunların arasındaki hükümdar adları bu iki maddede yoktur."
+    ],
+    "id": "idikut-uygur",
+    "name": "İdikut Uygur Devleti",
+    "short": "İdikut (Koço)",
+    "region": "turkistan",
+    "start": 840,
+    "end": 1353,
+    "summary": "840'tan sonra Koço ve Beşbalık'ta süren Uygur idikutluğudur. 911'de bağımsız oldu. 982 kaydı baştaki kişiyi Arslan Han diye anar; ayrı saltanat aralığı vermez. Barçuk 1209'da Cengiz'e bağlandı. Son adlı idikutlar Sangga, Budashri ve Hos-hang'tır.",
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+        "url": "https://islamansiklopedisi.org.tr/uygurlar"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, TURFAN",
+        "url": "https://islamansiklopedisi.org.tr/turfan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "idikut-mengli",
+        "name": "Mengli",
+        "aliases": [],
+        "title": "kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          840,
+          null
+        ],
+        "reignNote": "Uygurlar maddesi 840'taki son kağanın yeğenini Mengli adıyla kağan seçildiğini yazar. Ölüm yılı ve saltanat bitişi yoktur. 911'deki bağımsızlık bu kişinin bitiş yılı değildir.",
+        "summary": "Orhon kağanlığının 840'taki dağılmasından sonra kağan seçilen yeğendir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          }
+        ]
+      },
+      {
+        "id": "idikut-arslan-han",
+        "name": "Arslan Han",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Turfan maddesi 982'de Turfan Uygurlarının başında Arslan Han'ı anar. Yazlık başkent Koço, kışlık başkent Beşbalık'tır. Ayrı bir kişisel ad, cülûs ve ölüm yılı yoktur. 982 bu kaydın yılıdır; saltanat aralığı diye yazılmaz. Uygurlar maddesi 981-984 elçisini Wang Yente diye anar, Arslan Han adını kullanmaz. İki kayıt birleştirilmedi.",
+        "summary": "982'de Turfan Uygurlarının başı diye anılır. Saltanatının başı ve sonu yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
+          }
+        ]
+      },
+      {
+        "id": "idikut-barcuk",
+        "name": "Barçuk",
+        "aliases": [],
+        "title": "idikut",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1209,
+          null
+        ],
+        "reignNote": "1209'da Cengiz'e bağlandı. 1211'de Cengiz'in kızı Al Hatun ile evlendi. Ölüm yılı yazılmaz. Oğulları Kesmes ve Salındı Moğol ittifakında anılır; onların saltanat yılları yoktur.",
+        "summary": "Koço idikutu. 1209'da Cengiz Han'a tâbi oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [
+          {
+            "name": "Al-Hatun",
+            "mother": "",
+            "note": "Cengiz Han'ın kızı. Nikâh 1211.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Kesmes",
+            "mother": "",
+            "note": "Moğol ittifakında anılır. Saltanat yılı yoktur.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Salındı",
+            "mother": "",
+            "note": "Moğol ittifakında anılır. Saltanat yılı yoktur.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          }
+        ]
+      },
+      {
+        "id": "idikut-kockar",
+        "name": "Koçkar Tegin",
+        "aliases": [],
+        "title": "idikut",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Turfan maddesi 1286 dolayında Duva'nın, Koçkar Tegin'i bağlamak için Beşbalık'ı kuşattığını yazar. Kuşatma, idikutun kızı Duva'ya verilince kalktı. Kızın adı ve Koçkar'ın saltanat yılları yazılmaz. 1286 bir saltanat aralığı değildir.",
+        "summary": "1286 kuşatması sırasında idikut diye anılır. Cülûs ve ölüm yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Adı yazılmayan kızı 1286'da Duva'ya verildi. Bu yüzden Beşbalık kuşatması kalktı."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          }
+        ]
+      },
+      {
+        "id": "idikut-sangga",
+        "name": "Sangga",
+        "aliases": [],
+        "title": "idikut",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Soyun son halkasındadır. Budashri ile birlikte, Hos-hang'dan önce anılır. Kişisel yılı yoktur. 1353, Turfan maddesinin soyun bitişi için verdiği yıldır.",
+        "summary": "Son idikutlar arasında adı geçer. Ayrı saltanat yılı yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
+          }
+        ]
+      },
+      {
+        "id": "idikut-budasri",
+        "name": "Budashri",
+        "aliases": [],
+        "title": "idikut",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Sangga ile birlikte anılır. Ardından Hos-hang gelir. Kişisel yılı yoktur.",
+        "summary": "Son idikutlardandır. Saltanat aralığı maddede yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
+          }
+        ]
+      },
+      {
+        "id": "idikut-hoshang",
+        "name": "Hos-hang",
+        "aliases": [],
+        "title": "idikut",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Sangga ve Budashri'den sonra anılır. Madde idikut soyunu onunla bitirir. 1353 her üçünün ortak ölüm yılı diye yazılmaz.",
+        "summary": "Adı bilinen son idikutlardandır. Kendi cülûs ve ölüm yılı ayrı verilmez.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TURFAN",
+            "url": "https://islamansiklopedisi.org.tr/turfan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
           }
         ]
       }

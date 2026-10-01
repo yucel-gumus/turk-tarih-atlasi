@@ -1,44 +1,40 @@
 <script lang="ts">
-  import type { SearchItem, State, PositionedState } from '../../lib/data/atlas';
-  import { canon } from '../../lib/data/atlas';
-  import { camera } from '../../lib/stores/camera.svelte';
-  import { ui } from '../../lib/stores/ui.svelte';
-  import { Search, MapPin, Swords, User, Crown } from '@lucide/svelte';
+  import { atlasIndex, searchItems, type SearchItem } from '../../lib/data/lookup';
+  import { router } from '../../lib/router/router.svelte';
+  import { hrefSearch } from '../../lib/router/route';
+  import { BookOpen, Crown, Heart, Search, Swords, User, Users } from '@lucide/svelte';
 
-  let { items, states }: { items: SearchItem[]; states: PositionedState[] } = $props();
+  const items = atlasIndex().arama;
 
   let query = $state('');
   let isOpen = $state(false);
   let activeIndex = $state(0);
   let inputEl: HTMLInputElement | null = null;
 
-  const filtered = $derived.by(() => {
-    const q = canon(query.trim());
-    if (q.length < 2) return [];
-    return items.filter((it) => it.key.includes(q)).slice(0, 7);
+  /** Açılır liste ekrana sığsın diye sınırlıdır; kırpma gizlenmez, yazılır. */
+  const MAX_SUGGESTIONS = 8;
+
+  const matched = $derived.by(() => {
+    return searchItems(items, query);
   });
+  const filtered = $derived(matched.slice(0, MAX_SUGGESTIONS));
+  const hiddenCount = $derived(Math.max(0, matched.length - filtered.length));
 
   function selectItem(item: SearchItem) {
     query = '';
     isOpen = false;
-
-    const pState = states.find((s) => s.state.id === item.stateId);
-    if (!pState) return;
-
-    if (item.rulerId) {
-      const ruler = pState.state.rulers?.find((r) => r.id === item.rulerId);
-      if (ruler) {
-        camera.focusState(pState);
-        ui.openRulerDetail(ruler, pState.state);
-        return;
-      }
-    }
-
-    camera.focusState(pState);
-    ui.openStateDetail(pState.state);
+    // Öneri doğrudan ilgili sayfaya iner: savaş önerisi savaş sayfasını,
+    // kişi önerisi kişi sayfasını açar.
+    router.go(item.href);
   }
 
   function onKeyDown(e: KeyboardEvent) {
+    if (e.key === 'Escape') {
+      isOpen = false;
+      inputEl?.blur();
+      return;
+    }
+
     if (!isOpen || !filtered.length) return;
 
     if (e.key === 'ArrowDown') {
@@ -49,39 +45,54 @@
       activeIndex = (activeIndex - 1 + filtered.length) % filtered.length;
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      if (filtered[activeIndex]) {
-        selectItem(filtered[activeIndex]);
-      }
-    } else if (e.key === 'Escape') {
-      isOpen = false;
+      const item = filtered[activeIndex];
+      if (item) selectItem(item);
     }
+  }
+
+  function handleBlur() {
+    // Öneri düğmesine tıklamanın kaydolması için kapanma kısa süre geciktirilir.
+    setTimeout(() => {
+      isOpen = false;
+    }, 150);
   }
 </script>
 
 <div class="search-container">
   <div class="input-wrapper">
-    <Search size={15} class="search-icon" />
+    <Search size={15} class="search-icon" aria-hidden="true" />
     <input
       id="globalSearch"
       name="globalSearch"
       bind:this={inputEl}
       type="search"
-      placeholder="Devlet, hükümdar, savaş veya eş ara..."
+      role="combobox"
+      placeholder="Devlet, hükümdar, savaş veya kişi ara..."
       bind:value={query}
       onfocus={() => (isOpen = true)}
-      oninput={() => (isOpen = true, activeIndex = 0)}
+      oninput={() => {
+        isOpen = true;
+        activeIndex = 0;
+      }}
+      onblur={handleBlur}
       onkeydown={onKeyDown}
-      aria-label="Tarih atlasında ara"
+      aria-label="Atlasta ara"
       aria-autocomplete="list"
+      aria-haspopup="listbox"
       aria-controls="search-suggestions"
+      aria-expanded={isOpen && filtered.length > 0}
+      aria-activedescendant={isOpen && filtered.length > 0 ? `search-option-${activeIndex}` : undefined}
     />
   </div>
 
-  {#if isOpen && filtered.length > 0}
+  {#if isOpen && query.trim().length >= 2}
     <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-    <div id="search-suggestions" role="listbox" class="suggest-dropdown glass-panel">
-      {#each filtered as item, i (item.id)}
+    <div class="suggest-dropdown glass-panel">
+      {#if filtered.length > 0}
+        <div id="search-suggestions" role="listbox">
+          {#each filtered as item, i (item.id)}
         <button
+          id={`search-option-${i}`}
           type="button"
           role="option"
           aria-selected={i === activeIndex}
@@ -91,13 +102,17 @@
         >
           <div class="kind-icon">
             {#if item.kind === 'Devlet'}
-              <Crown size={14} class="text-amber-400" />
+              <Crown size={14} class="icon-state" aria-hidden="true" />
+            {:else if item.kind === 'Rehber'}
+              <BookOpen size={14} class="icon-state" aria-hidden="true" />
             {:else if item.kind === 'Hükümdar'}
-              <User size={14} class="text-emerald-400" />
+              <User size={14} class="icon-ruler" aria-hidden="true" />
             {:else if item.kind === 'Savaş'}
-              <Swords size={14} class="text-rose-400" />
+              <Swords size={14} class="icon-war" aria-hidden="true" />
+            {:else if item.kind === 'Eş'}
+              <Heart size={14} class="icon-person" aria-hidden="true" />
             {:else}
-              <MapPin size={14} class="text-sky-400" />
+              <Users size={14} class="icon-person" aria-hidden="true" />
             {/if}
           </div>
 
@@ -108,7 +123,16 @@
 
           <span class="kind-badge">{item.kind}</span>
         </button>
-      {/each}
+          {/each}
+        </div>
+        {#if hiddenCount > 0}
+          <a class="suggest-more" href={hrefSearch(query)} onclick={() => (isOpen = false)}>
+            {matched.length} sonucun tamamını göster →
+          </a>
+        {/if}
+      {:else}
+        <p class="suggest-empty" role="status">Eşleşen kayıt yok.</p>
+      {/if}
     </div>
   {/if}
 </div>
@@ -116,7 +140,7 @@
 <style>
   .search-container {
     position: relative;
-    width: 290px;
+    width: 320px;
   }
 
   .input-wrapper {
@@ -182,7 +206,8 @@
     transition: background 0.15s ease;
   }
 
-  .suggest-item:hover, .suggest-item.active {
+  .suggest-item:hover,
+  .suggest-item.active {
     background: rgba(255, 255, 255, 0.08);
   }
 
@@ -226,5 +251,27 @@
     background: rgba(229, 195, 120, 0.1);
     padding: 2px 6px;
     border-radius: 4px;
+  }
+
+  .suggest-more {
+    display: block;
+    margin: 6px 4px 2px;
+    padding: 8px;
+    font-size: 10px;
+    color: var(--gold-primary);
+  }
+
+  .suggest-empty {
+    margin: 0;
+    padding: 10px;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  @media (max-width: 700px) {
+    .search-container {
+      order: 3;
+      width: 100%;
+    }
   }
 </style>

@@ -1,0 +1,340 @@
+<script lang="ts">
+  import type { Person } from '../schemas/atlas.schema';
+  import { atlasIndex, reignLabel, resolveWife, RESULT_ORDER, warRecord } from '../lib/data/lookup';
+  import { RESULT_MAP, yearLabel } from '../lib/data/atlas';
+  import { hrefHome, hrefPerson, hrefRuler, hrefState, hrefWar } from '../lib/router/route';
+  import { router } from '../lib/router/router.svelte';
+  import Breadcrumb from '../components/layout/Breadcrumb.svelte';
+  import PageHeader from '../components/layout/PageHeader.svelte';
+  import MetaCard from '../components/ui/MetaCard.svelte';
+  import NotFoundNotice from '../components/ui/NotFoundNotice.svelte';
+  import PersonPill from '../components/ui/PersonPill.svelte';
+  import SectionBox from '../components/ui/SectionBox.svelte';
+  import SourceList from '../components/ui/SourceList.svelte';
+  import WarRow from '../components/ui/WarRow.svelte';
+  import { ChevronLeft, ChevronRight, Swords, Users } from '@lucide/svelte';
+
+  let { stateId, rulerId }: { stateId: string; rulerId: string } = $props();
+
+  const index = atlasIndex();
+  const ruler = $derived(index.rulersById.get(rulerId) ?? null);
+  /** Hükümdarın gerçek devleti; adresteki devlet parçası yanlış olabilir. */
+  const state = $derived(index.rulerStateById.get(rulerId) ?? null);
+
+  const reign = $derived(ruler ? reignLabel(ruler) : '');
+  const wars = $derived(ruler?.wars ?? []);
+  const warTotals = $derived(warRecord(wars));
+  const siblings = $derived(state?.rulers ?? []);
+  const at = $derived(siblings.findIndex((r) => r.id === rulerId));
+  const previousRuler = $derived(at > 0 ? siblings[at - 1] : null);
+  const nextRuler = $derived(at >= 0 && at < siblings.length - 1 ? siblings[at + 1] : null);
+
+  /** Ölçülmüş annesi çözülemeyen çocuk sayısı; sabit yazılmaz. */
+  const motherStats = $derived.by(() => {
+    const current = ruler;
+    if (!current) return { filled: 0, resolved: 0 };
+    const filled = current.children.filter((child) => child.mother);
+    return {
+      filled: filled.length,
+      resolved: filled.filter((child) => resolveWife(current, child.mother) !== null).length,
+    };
+  });
+
+  /** Çocuğun annesi eş listesinde bulunuyorsa o eşin sayfasına bağlanır. */
+  function motherHref(child: Person): string | null {
+    if (!ruler || !state) return null;
+    const wife = resolveWife(ruler, child.mother);
+    if (!wife) return null;
+    const wifeIndex = ruler.wives.indexOf(wife);
+    return wifeIndex < 0 ? null : hrefPerson(state.id, ruler.id, 'es', wifeIndex + 1, wife.name);
+  }
+
+  // Adres hükümdarın devletini yanlış taşıyorsa (paylaşılmış bağlantıda yol
+  // parçası bozulmuşsa) kanonik adrese düzeltilir; kayıt yine doğru gösterilir.
+  $effect(() => {
+    if (ruler && state && state.id !== stateId) router.replace(hrefRuler(state.id, ruler.id));
+  });
+</script>
+
+{#if !ruler || !state}
+  <NotFoundNotice raw={`#/devlet/${stateId}/hukumdar/${rulerId}`} />
+{:else}
+  <Breadcrumb
+    items={[
+      { label: 'Atlas', href: hrefHome() },
+      { label: state.name, href: hrefState(state.id) },
+      { label: ruler.name },
+    ]}
+  />
+
+  <PageHeader eyebrow={state.name} title={ruler.name} subtitle={ruler.title}>
+    {#snippet badges()}
+      {#if reign}
+        <span class="dates-tag">{reign}</span>
+      {/if}
+      {#if ruler.claim}
+        <span class="claim-tag">Taht iddiası</span>
+      {/if}
+      {#if warTotals.total > 0}
+        <span class="meta-pill">
+          <Swords size={12} class="icon-war" aria-hidden="true" />
+          {warTotals.total} savaş
+        </span>
+      {/if}
+      {#if ruler.wives.length + ruler.children.length > 0}
+        <span class="meta-pill">
+          <Users size={12} class="icon-person" aria-hidden="true" />
+          {ruler.wives.length} eş · {ruler.children.length} çocuk
+        </span>
+      {/if}
+    {/snippet}
+  </PageHeader>
+
+  <div class="meta-section">
+    <MetaCard label="Saltanat" value={reign || 'Kayıtta yok'} />
+    <MetaCard
+      label="Yaşam Süresi"
+      value="{ruler.birth != null ? yearLabel(ruler.birth) : '?'} – {ruler.death != null ? yearLabel(ruler.death) : '?'}"
+    />
+    <MetaCard label="Devlet" value={state.name} />
+  </div>
+
+  {#if ruler.aliases.length > 0}
+    <SectionBox title="Diğer adları">
+      <div class="alias-pills">
+        {#each ruler.aliases as alias (alias)}
+          <span class="alias-pill">{alias}</span>
+        {/each}
+      </div>
+    </SectionBox>
+  {/if}
+
+  {#if ruler.summary}
+    <SectionBox title="Özet">
+      <p class="body-text">{ruler.summary}</p>
+    </SectionBox>
+  {/if}
+
+  {#if ruler.reignNote || ruler.birthNote || ruler.deathNote}
+    <SectionBox title="Kayıt Notları">
+      {#if ruler.reignNote}
+        <h3 class="sub-title">Saltanat</h3>
+        <p class="body-text">{ruler.reignNote}</p>
+      {/if}
+      {#if ruler.birthNote}
+        <h3 class="sub-title">Doğum</h3>
+        <p class="body-text">{ruler.birthNote}</p>
+      {/if}
+      {#if ruler.deathNote}
+        <h3 class="sub-title">Ölüm</h3>
+        <p class="body-text">{ruler.deathNote}</p>
+      {/if}
+    </SectionBox>
+  {/if}
+
+  {#if ruler.contribution || ruler.harm}
+    <div class="contrast-grid">
+      {#if ruler.contribution}
+        <div class="contrast-card positive">
+          <h3 class="sub-title">Katkı</h3>
+          <p class="body-text">{ruler.contribution}</p>
+        </div>
+      {/if}
+      {#if ruler.harm}
+        <div class="contrast-card negative">
+          <h3 class="sub-title">Zarar</h3>
+          <p class="body-text">{ruler.harm}</p>
+        </div>
+      {/if}
+    </div>
+  {/if}
+
+  {#if ruler.traits.length > 0}
+    <SectionBox title="Nitelikler">
+      <div class="tags-cluster">
+        {#each ruler.traits as trait (trait)}
+          <span class="trait-badge">{trait}</span>
+        {/each}
+      </div>
+    </SectionBox>
+  {/if}
+
+  {#if ruler.legends.length > 0}
+    <SectionBox title="Efsaneler">
+      {#each ruler.legends as legend, i (i)}
+        <blockquote class="legend-quote">{legend}</blockquote>
+      {/each}
+    </SectionBox>
+  {/if}
+
+  <SectionBox title={`Savaşlar · ${wars.length}`}>
+    {#snippet icon()}
+      <Swords size={14} class="icon-war" aria-hidden="true" />
+    {/snippet}
+    {#if wars.length === 0}
+      <p class="honesty-note">
+        Bu hükümdarın kaydında savaş bulunmuyor. Bu, savaşmadığı anlamına gelmez.
+      </p>
+    {:else}
+      <div class="meta-pills">
+        {#each RESULT_ORDER as result (result)}
+          {#if warTotals.byResult[result] > 0}
+            <span class="result-badge {result}">{RESULT_MAP[result]} · {warTotals.byResult[result]}</span>
+          {/if}
+        {/each}
+      </div>
+      <div class="war-list">
+        {#each wars as war, i (i)}
+          <WarRow {war} href={hrefWar(state.id, ruler.id, i + 1, war.name)} />
+        {/each}
+      </div>
+    {/if}
+  </SectionBox>
+
+  {#if ruler.wives.length > 0}
+    <SectionBox title={`Eş / Hatun · ${ruler.wives.length}`}>
+      {#snippet icon()}
+        <Users size={14} class="icon-person" aria-hidden="true" />
+      {/snippet}
+      <div class="people-pills">
+        {#each ruler.wives as wife, i (i)}
+          <PersonPill person={wife} href={hrefPerson(state.id, ruler.id, 'es', i + 1, wife.name)} />
+        {/each}
+      </div>
+    </SectionBox>
+  {/if}
+
+  {#if ruler.children.length > 0}
+    <SectionBox title={`Çocuk / Şehzade · ${ruler.children.length}`}>
+      <div class="people-pills">
+        {#each ruler.children as child, i (i)}
+          <PersonPill
+            person={child}
+            href={hrefPerson(state.id, ruler.id, 'cocuk', i + 1, child.name)}
+            motherHref={motherHref(child)}
+          />
+        {/each}
+      </div>
+      {#if motherStats.filled > 0}
+        <p class="honesty-note">
+          Anne adı yazılı çocuk kaydı: {motherStats.filled}. Bunlardan eş listesindeki bir
+          adla eşleşen {motherStats.resolved}, eşleşmeyen
+          {motherStats.filled - motherStats.resolved}. Eşleşmeyen ad ham metin olarak
+          gösterilir, uydurma bağlantı kurulmaz.
+        </p>
+      {/if}
+    </SectionBox>
+  {/if}
+
+  {#if ruler.familyNotes.length > 0}
+    <SectionBox title="Aileye ilişkin kayıtlar">
+      {#each ruler.familyNotes as note, i (i)}
+        <p class="body-text">{note}</p>
+      {/each}
+    </SectionBox>
+  {/if}
+
+  <SectionBox title="Kaynaklar">
+    <SourceList sources={ruler.sources} />
+  </SectionBox>
+
+  {#if previousRuler || nextRuler}
+    <nav class="sibling-nav" aria-label="Devlet içindeki hükümdarlar">
+      {#if previousRuler}
+        <a class="sibling-link" href={hrefRuler(state.id, previousRuler.id)}>
+          <ChevronLeft size={14} aria-hidden="true" />
+          <span>{previousRuler.name}</span>
+        </a>
+      {:else}
+        <span></span>
+      {/if}
+      {#if nextRuler}
+        <a class="sibling-link" href={hrefRuler(state.id, nextRuler.id)}>
+          <span>{nextRuler.name}</span>
+          <ChevronRight size={14} aria-hidden="true" />
+        </a>
+      {/if}
+    </nav>
+  {/if}
+{/if}
+
+<style>
+  .alias-pills,
+  .tags-cluster,
+  .people-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .alias-pill,
+  .trait-badge {
+    font-size: 11px;
+    color: var(--gold-primary);
+    background: rgba(229, 195, 120, 0.08);
+    border: 1px solid rgba(229, 195, 120, 0.16);
+    padding: 3px 8px;
+    border-radius: 6px;
+  }
+
+  .contrast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 10px;
+  }
+
+  .contrast-card {
+    border-radius: 12px;
+    padding: 14px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .contrast-card.positive {
+    border-left: 3px solid var(--accent-victory);
+  }
+
+  .contrast-card.negative {
+    border-left: 3px solid var(--accent-defeat);
+  }
+
+  .legend-quote {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    border-left: 2px solid var(--border-glass-bright);
+    padding-left: 12px;
+  }
+
+  .war-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .sibling-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .sibling-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: var(--text-muted);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border-glass);
+  }
+
+  .sibling-link:hover {
+    color: var(--gold-primary);
+    border-color: var(--border-glass-bright);
+    background: rgba(229, 195, 120, 0.06);
+  }
+</style>

@@ -213,7 +213,7 @@
       "Mughal Empire",
       "Bâbür Devleti"
     ],
-    "region": "turkistan",
+    "region": "diger",
     "start": 1526,
     "end": 1857,
     "startNote": "Bâbür Şah'ın 1526 Panipat Meydan Muharebesi'nde İbrâhim Lûdî'yi yenerek Delhi tahtına oturmasıyla kuruldu.",
@@ -510,7 +510,7 @@
     "start": 1500,
     "end": 1920,
     "startNote": "Muhammed Şeybânî Han'ın Semerkant ve Buhara'yı fethedip Timurlu hakimiyetine son vermesiyle kuruldu.",
-    "endNote": "1920 yılında Kızıl Ordu'nun Buhara'yı bombalayıp son emir Alim Han'ı devirmesiyle sona erdi.",
+    "endNote": "1920 yılında Kızıl Ordu'nun Buhara'yı bombalayıp son emir Alim Han'ı devirmesiyle sona erdi. Şeybânî hanedanı TDV'ye göre 1599'da biter. Sonraki Canoğulları ve Mangıt hanları bu listeye eklenmedi. Bâkī Muhammed 12 Cemâziyelâhir 1012 / 17 Kasım 1603'te han oldu.",
     "capital": "Buhara ve Semerkant",
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
@@ -592,6 +592,367 @@
             "url": "https://islamansiklopedisi.org.tr/seybani-han"
           }
         ]
+      },
+      {
+        "id": "buhara-kockunci",
+        "name": "Köçkünçi Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1530,
+        "deathNote": "936/1530.",
+        "reign": [
+          1510,
+          1530
+        ],
+        "reignNote": "Ebülhayr'ın oğlu. 916/1510'da han oldu. 936/1530'da öldü.",
+        "summary": "Şeybânî Han'dan sonra 1510-1530 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-ebu-said",
+        "name": "Ebû Said",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1530,
+          1533
+        ],
+        "reignNote": "Köçkünçi'nin oğlu. Yaklaşık üç yıl han oldu. Cülûs tablosunda sonraki tarih 940/1533'te Ubeydullah'tır. Anlatı Ebû Said'i Ubeydullah'tan önce koyar. 1530-1533 tabloda boş görünebilir. Bu kart o boşluğu kapatmaz, anlatıdaki süreyi yazar.",
+        "summary": "1530'dan itibaren yaklaşık üç yıl han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-ubeydullah",
+        "name": "Ubeydullah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, 946/1539-1540 cülûsudur. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1533,
+          1539
+        ],
+        "reignNote": "Mahmud'un oğlu. 940/1533. Bitiş, sonraki cülûs olan 946/1539-1540'tır. Ölüm günü bu bitişle bir tutulmadı.",
+        "summary": "1533'ten 1539'daki halef cülûsuna kadar han olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-abdullah-1",
+        "name": "I. Abdullah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1539,
+          1540
+        ],
+        "reignNote": "Köçkünçi'nin oğlu. 946/1539-1540. Aynı yıllarda Abdülaziz Buhara'da anılır.",
+        "summary": "1539-1540 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-abdulaziz",
+        "name": "Abdülaziz",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1539,
+          1550
+        ],
+        "reignNote": "Ubeydullah'ın oğlu. Buhara'da 946-957 / 1539-1550. Abdüllatif aynı sırada Semerkant'tadır.",
+        "summary": "1539-1550 arasında Buhara hanı olarak anılır. Semerkant kolu ile çakışır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-abdullatif",
+        "name": "Abdüllatif",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1540,
+          1552
+        ],
+        "reignNote": "Köçkünçi'nin oğlu. Semerkant'ta 947-959 / 1540-1552. Buhara'daki Abdülaziz ve 1551'de başlayan Nevruz Ahmed ile çakışır.",
+        "summary": "1540-1552 arasında Semerkant hanı olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-nevruz-ahmed",
+        "name": "Nevruz Ahmed",
+        "aliases": [
+          "Barak"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, 1557 cülûsudur. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          1551,
+          1557
+        ],
+        "reignNote": "Süyünçük'ün oğlu. Barak diye de anılır. 958/1551. Sonraki cülûs 964/1557. Abdüllatif 1552'ye kadar Semerkant'ta durur.",
+        "summary": "1551-1557 arasında han olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-pir-muhammed-1",
+        "name": "I. Pîr Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, İskender'in 1561 cülûsudur.",
+        "reign": [
+          1557,
+          1561
+        ],
+        "reignNote": "Canibeg'in oğlu. 964/1557. Sonraki cülûs 968/1561.",
+        "summary": "1557-1561 arasında han olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-iskender",
+        "name": "İskender",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1561,
+          1583
+        ],
+        "reignNote": "Canibeg'in oğlu. 968/1561-1583. Hanlık namedir. Asıl idare oğlu Abdullah'tadır.",
+        "summary": "1561-1583 arasında adlı handır. İdare oğlunda kaldı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. Abdullah",
+            "mother": "",
+            "note": "1583-1598 hanı. Babasının zamanında fiilî idare ondadır.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-abdullah-2",
+        "name": "II. Abdullah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1583,
+          1598
+        ],
+        "reignNote": "İskender'in oğlu. 991/1583-1598. Babasının hanlığı sırasında da fiilî hükümdardı. I. Abdullah'tan ayrıdır.",
+        "summary": "1583-1598 arasında Şeybânî hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-abdulmumin",
+        "name": "Abdülmü'min",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1598,
+        "deathNote": "1006/1598, altı ay sonra öldürüldü.",
+        "reign": [
+          1598,
+          1598
+        ],
+        "reignNote": "II. Abdullah'ın oğlu. 1006/1598. Altı ay kaldı ve öldürüldü.",
+        "summary": "1598'de altı ay han oldu ve öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          }
+        ]
+      },
+      {
+        "id": "buhara-pir-muhammed-2",
+        "name": "II. Pîr Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1599,
+        "deathNote": "1007/1599, Bâkī Muhammed tarafından öldürüldü.",
+        "reign": [
+          1598,
+          1599
+        ],
+        "reignNote": "Süleyman'ın oğlu. 1006-1007 / 1598-1599. Bâkī Muhammed tarafından öldürüldü. Şeybânî hanedanı bununla biter. Sonraki Canoğulları bu listeye eklenmedi.",
+        "summary": "Şeybânî hanlarının sonuncusudur. 1598-1599 arasında han oldu ve öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎLER",
+            "url": "https://islamansiklopedisi.org.tr/seybaniler"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, CANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/canogullari"
+          }
+        ]
       }
     ]
   },
@@ -606,8 +967,8 @@
     "region": "turkistan",
     "start": 1511,
     "end": 1920,
-    "startNote": "İlbars Han'ın Safevî garnizonunu kovarak Hive merkezli bağımsız hanlık kurmasıyla başladı.",
-    "endNote": "1920'de Bolşevik Kızıl Ordu tarafından son han İsfendiyar'ın devrilmesiyle Harezm Sovyet Cumhuriyeti'ne çevrildi.",
+    "startNote": "İlbars Han'ın Safevî garnizonunu kovarak Hive merkezli bağımsız hanlık kurmasıyla başladı. TDV başlığı 1512-1920'dir. Bu kart 1511 ile durur. İlbars için ilgili madde 1512-1525, hanedan anlatısı ölüm yılı 1538 der.",
+    "endNote": "TDV'ye göre son Kongrat hanı Seyyid Abdullah 2 Şubat 1920'de tahttan çekildi. Hârizm Halk Cumhuriyeti 26 Nisan 1920'de kuruldu.",
     "capital": "Vezir, Ürgenç ve Hive",
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
@@ -630,7 +991,157 @@
       }
     ],
     "rulers": [
+            {
+        "id": "hive-ilbars",
+        "name": "İlbars",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1538,
+        "deathNote": "Hanedan anlatısı 1538. İlgili madde 1512-1525 diye biter.",
+        "reign": [
+          1512,
+          1538
+        ],
+        "reignNote": "Yadigâr'ın oğlu. Kardeşi Balbars ile kurucular arasında anılır. Fetih anlatısı 1511, madde başlığı 1512'dir. İlgili madde saltanatı 1512-1525 diye yazar. Hanedan anlatısı ölüm yılını 1538 verir. Bu kart 1538'i bitiş yapar. 1525 ile 1538 çelişkisi kapatılmadı. 1538'den sonra bir yıl Özbek işgali, ardından toparlanma anılır. İşgali yürüten hanın adı yazılmaz.",
+        "summary": "Hive hanedanının kurucu hanlarındandır. Ölüm yılı için kaynaklar 1525 ile 1538'i birden söyler.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kardeşi Balbars da kurucular arasında anılır. Ayrı saltanat yılı yoktur."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
       {
+        "id": "hive-balbars",
+        "name": "Balbars",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Yadigâr'ın oğlu, İlbars'ın kardeşi. Kurucu diye anılır. Ayrı saltanat aralığı yazılmaz.",
+        "summary": "İlbars ile birlikte Hive hanedanının kurucusu sayılır. Kendi saltanat yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-hacim",
+        "name": "Hacı Muhammed",
+        "aliases": [
+          "Hacim"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1598,
+          1603
+        ],
+        "reignNote": "Hacim diye de anılır. 1598-1603. İlbars'ın 1538'deki ölümünden buraya kadar XVI. yüzyıl hanlarının adları bu okumada yoktur.",
+        "summary": "1598-1603 arasında Hive hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-arap-muhammed",
+        "name": "Arap Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1603,
+          1623
+        ],
+        "reignNote": "1603-1623. Başkenti kalıcı olarak Hive'ye o taşıdı. 1702-1717 arasındaki Arap Muhammed başka kişidir.",
+        "summary": "1603-1623 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-isfendiyar",
+        "name": "İsfendiyar",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Arap Muhammed'in oğulları arasındaki çekişmeyi Türkmen desteğiyle kazandı. Cülûs ve ölüm yılı yazılmaz. Ebülgazi'den önce anılır.",
+        "summary": "Ebülgazi'den önceki hanlardandır. Saltanat yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+{
         "id": "hive-hanligi-ebulgazi",
         "name": "Ebulgazi Bahadır Han",
         "aliases": [
@@ -646,7 +1157,7 @@
           1643,
           1663
         ],
-        "reignNote": "20 yıllık ilim ve gazâ saltanatı.",
+        "reignNote": "20 yıllık ilim ve gazâ saltanatı. Hive maddesi onu 1642'de Ürgenç'te han ilan eder, Hive'yi 1645'te aldığını ve 1663'e kadar hüküm sürdüğünü yazar. Kart 1643 ile durur.",
         "summary": "Hive Hanı ve büyük Türk tarihçisi. Kalmuklar ve Ruslarla savaştı. Türkmen boylarının tarihini 'Şecere-i Terâkime', Türk hanedanlarını 'Şecere-i Türkî' adlı eserlerinde sade ve akıcı bir Türkçeyle yazarak dünya Türkolojisine en kıymetli hazineleri bıraktı.",
         "traits": [
           "Müverrih han",
@@ -682,6 +1193,451 @@
             "url": "https://islamansiklopedisi.org.tr/ebulgazi-bahadir-han"
           }
         ]
+      },
+      {
+        "id": "hive-enuse",
+        "name": "Enûşe",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1663,
+          1687
+        ],
+        "reignNote": "Ebülgazi'den sonra 1663-1687.",
+        "summary": "1663-1687 arasında Hive hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-sah-niyaz",
+        "name": "Şah Niyaz",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Buhara'nın tayin ettiği handır. Bağımsız davrandı. 1700'de I. Petro'ya mektup yazdı. Cülûs ve bitiş yılı rakamla yazılmaz.",
+        "summary": "Enûşe'den sonra anılan handır. 1700'de Petro'ya yazdığı mektupla tarih alır. Saltanat aralığı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-arap-muhammed-2",
+        "name": "Arap Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1702,
+          1717
+        ],
+        "reignNote": "1702-1717. 1603-1623 hanı ile aynı kişi değildir. Şîr Gazi 1715'te başlar. Çakışma maddece durur.",
+        "summary": "1702-1717 arasında Hive hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-sir-gazi",
+        "name": "Şîr Gazi",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1715,
+          1728
+        ],
+        "reignNote": "1715-1728. 750 kişilik bir Rus kuvvetini yok etti. 1702-1717 Arap Muhammed ile yılları çakışır.",
+        "summary": "1715-1728 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-ilbars-2",
+        "name": "İlbars",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1740,
+        "deathNote": "1740, Nâdir Şah tarafından öldürüldü.",
+        "reign": [
+          1728,
+          1740
+        ],
+        "reignNote": "1728-1740. Kurucu İlbars'tan ayrıdır. 1740'ta Nâdir Şah tarafından öldürüldü. Ardından 1747'ye kadar Nâdir'in valileri anılır. Valilerin adları bu okumada yoktur.",
+        "summary": "1728-1740 arasında han oldu ve 1740'ta öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-gaib",
+        "name": "Gāib",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1747,
+          1757
+        ],
+        "reignNote": "1747-1757. Kardeşi Abdullah tarafından indirildi.",
+        "summary": "1747-1757 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-abdullah",
+        "name": "Abdullah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Gāib'in kardeşi. Onu indiren kişi diye anılır. Ayrı saltanat yılı yazılmaz. Timur Gazi 1758'de başlar.",
+        "summary": "Gāib'i indiren handır. Saltanat aralığı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-timur-gazi",
+        "name": "Timur Gazi",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1763,
+        "deathNote": "1763, Muhammed Emin İnak tarafından öldürüldü.",
+        "reign": [
+          1758,
+          1763
+        ],
+        "reignNote": "1758-1763. Muhammed Emin İnak tarafından öldürüldü. İnak, han diye yazılmaz.",
+        "summary": "1758-1763 arasında han oldu ve 1763'te öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-ebulgazi-2",
+        "name": "Ebülgazi",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1763,
+          null
+        ],
+        "reignNote": "Gāib'in oğlu. 1763'ten itibaren kukla han diye anılır. 1643-1663 arasındaki Ebülgazi Bahadır Han değildir. Bitiş yılı yazılmaz.",
+        "summary": "1763'te kukla han oldu. Ünlü Ebülgazi'den ayrıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-ivaz",
+        "name": "İvaz",
+        "aliases": [
+          "Avaz"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1790,
+          1804
+        ],
+        "reignNote": "Avaz diye de anılır. 1790-1804.",
+        "summary": "1790-1804 arasında Hive hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-iltuzer",
+        "name": "İltüzer",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1804,
+          1804
+        ],
+        "reignNote": "Kasım 1804'te han oldu. Süresi kısadır. Muhammed Rahim 1806'da başlar. Ara yılın hanı yazılmaz.",
+        "summary": "1804'te kısa süre han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-muhammed-rahim",
+        "name": "Muhammed Rahim",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1806,
+          1825
+        ],
+        "reignNote": "1806-1825. İltüzer'in 1804'ü ile arasında yazılmayan bir ara vardır.",
+        "summary": "1806-1825 arasında Hive hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-allahkuli",
+        "name": "Allahkulı",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1825,
+          1842
+        ],
+        "reignNote": "1825-1842. Perovski'nin kuvveti 5 Aralık 1839'da Beş-Tumak'ta yenildi.",
+        "summary": "1825-1842 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Beş-Tumak",
+            "when": "1839",
+            "foe": "Rusya (Perovski)",
+            "result": "zafer",
+            "note": "5 Aralık 1839."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-said-muhammed-rahim",
+        "name": "Said Muhammed Rahim",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          1873
+        ],
+        "reignNote": "29 Mayıs 1873'te boyun eğdi. Cülûs yılı yazılmaz. 1873, boyun eğme yılıdır. Ölüm yılı diye ayrıca verilmez.",
+        "summary": "1873'te boyun eğen Hive hanıdır. Başlangıç yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hive-seyyid-abdullah",
+        "name": "Seyyid Abdullah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "2 Şubat 1920'de tahttan çekildi. Ölüm yılı bu çekilme değildir.",
+        "reign": [
+          null,
+          1920
+        ],
+        "reignNote": "Son Kongrat hanı. 2 Şubat 1920'de tahttan çekildi. Hârizm Halk Cumhuriyeti 26 Nisan 1920'de kuruldu. Cülûs yılı yazılmaz.",
+        "summary": "Hive'nin son Kongrat hanıdır. 1920'de tahttan çekildi.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÎVE HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hive-hanligi"
+          }
+        ]
       }
     ]
   },
@@ -695,10 +1651,10 @@
       "Ming Hanedanı"
     ],
     "region": "turkistan",
-    "start": 1709,
+    "start": 1710,
     "end": 1876,
-    "startNote": "Özbek Ming boyundan Şahruh Bey'in Fergana vadisinde bağımsızlık ilan etmesiyle kuruldu.",
-    "endNote": "1876'da Rus Çarlığı generali Skobelev tarafından tamamen ilhak edilerek Fergana vilayeti yapıldı.",
+    "startNote": "Özbek Ming boyundan Şahruh Bey'in Fergana vadisinde bağımsızlık ilan etmesiyle kuruldu. TDV başlığı 1710-1876'dır. Kayıtta daha önce 1709 vardı. Şâhruh 1121/1710'da han oldu.",
+    "endNote": "1876'da Rus Çarlığı generali Skobelev tarafından tamamen ilhak edilerek Fergana vilayeti yapıldı. TDV, Andican'ı 8 Ocak 1876 ve ilhakı Şubat 1876 diye yazar. Polat Bey Ekim 1875'te Hokand'ı geri aldı ve Margilan'da öldürüldü.",
     "capital": "Hokand",
     "religion": "İslamiyet (Sünnî-Hanefî)",
     "confidence": "kayit",
@@ -717,7 +1673,196 @@
       }
     ],
     "rulers": [
+            {
+        "id": "hokand-sahruh",
+        "name": "Şâhruh",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1721,
+        "deathNote": "1721.",
+        "reign": [
+          1710,
+          1721
+        ],
+        "reignNote": "Ming boyundandır. 1121/1710'da han oldu. 1721'de öldü. Dosyada devletin başlangıcı daha önce 1709 diye duruyordu. Madde başlığı 1710'dur.",
+        "summary": "Hokand Hanlığı'nın kurucu hanı. 1710-1721.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
       {
+        "id": "hokand-abdurrahim",
+        "name": "Abdürrahim",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Şâhruh'un halefi diye anılır. Cülûs ve ölüm yılı yazılmaz.",
+        "summary": "Şâhruh'tan sonra han oldu. Yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-abdulkerim",
+        "name": "Abdülkerim",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Abdürrahim'in kardeşi. Saltanat yılı yazılmaz.",
+        "summary": "Abdürrahim'den sonra anılır. Yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-irdana",
+        "name": "İrdana",
+        "aliases": [
+          "Erdene"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Erdene diye de anılır. 1758'de ülkeyi genişletti ve Ahmed Şah Durrânî'den yardım istedi. 1763'ten sonra Kırgız toprakları anılır. Cülûs yılı yazılmaz. 1758 bir saltanat başlangıcı diye verilmez.",
+        "summary": "1758'de genişleyen Hokand hanıdır. Cülûs ve ölüm yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-narbuta",
+        "name": "Narbuta",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1798,
+        "deathNote": "1798'e kadar hüküm sürdüğü yazılır.",
+        "reign": [
+          null,
+          1798
+        ],
+        "reignNote": "1798'e kadar hüküm sürdü. Cülûs yılı yazılmaz. Oğlu Âlim Han'dır. Muhammed Ömer, Âlim'in kardeşidir.",
+        "summary": "1798'e kadar Hokand hanı olarak anılır. Başlangıç yılı yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Âlim Han",
+            "mother": "",
+            "note": "Narbuta'nın oğlu. 1808'de Taşkent, Çimkent ve Sayram anılır. Cülûs yılı yazılmaz.",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Ömer",
+            "mother": "",
+            "note": "Âlim'in kardeşi. Bu dosyada 1810-1822.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-alim",
+        "name": "Âlim Han",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Bitiş, Ömer Han kartının 1810 yılıdır. Ölüm günü ayrıca yazılmaz.",
+        "reign": [
+          null,
+          1810
+        ],
+        "reignNote": "Narbuta'nın oğlu. 1808'de Taşkent, Çimkent ve Sayram'ı aldı. Cülûs yılı temiz bir yıl diye yazılmaz. Bitiş, kardeşi Muhammed Ömer'in bu dosyadaki 1810 başlangıcıdır. Ölüm günü ayrıca verilmez.",
+        "summary": "1808 seferiyle anılan handır. Kardeşi Ömer 1810'da başlar.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+{
         "id": "hokand-hanligi-omer-han",
         "name": "Muhammed Ömer Han",
         "aliases": [
@@ -771,6 +1916,1064 @@
           {
             "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
             "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-madali",
+        "name": "Muhammed Ali",
+        "aliases": [
+          "Madali"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1842,
+        "deathNote": "1842, Buhara hanı Nasrullah tarafından öldürtüldü.",
+        "reign": [
+          1822,
+          1842
+        ],
+        "reignNote": "Madali diye anılır. Ömer Han'ın oğlu. Tahta çıktığında on iki yaşındaydı. 1842'de Buhara hanı Nasrullah tarafından üvey annesi Nâdire ve kardeşi Mahmud ile birlikte öldürtüldü.",
+        "summary": "1822-1842 arasında Hokand hanıdır. 1842'de öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Üvey annesi Nâdire ve kardeşi Mahmud da 1842'de öldürüldü."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-sir-ali",
+        "name": "Şîr Ali",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1845,
+        "deathNote": "1845, Murad tarafından öldürtüldü.",
+        "reign": [
+          1842,
+          1845
+        ],
+        "reignNote": "1842-1845. Âlim'in oğlu Murad tarafından öldürtüldü.",
+        "summary": "1842-1845 arasında han oldu ve 1845'te öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-murad",
+        "name": "Murad",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1845,
+          1845
+        ],
+        "reignNote": "Âlim Han'ın oğlu. 1845'te yedi gün kaldı. Müslümankul tarafından indirildi.",
+        "summary": "1845'te yedi gün han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-hudayar",
+        "name": "Hudâyâr",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1845,
+          1858
+        ],
+        "reignNote": "İlk saltanatı 1845-1858. İkincisi 1865-1875'tir. Arada Malla Han ve Saîd vardır. 1868'de Rusya ile antlaşma yaptı. 1875'te Ruslara sığındı. Kart 1845-1858'dedir. İkinci saltanat bu çubuğa eklenmedi.",
+        "summary": "İki kez Hokand hanı oldu: 1845-1858 ve 1865-1875.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Nâsırüddin",
+            "mother": "",
+            "note": "1875'te han oldu.",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Oğlu Nâsırüddin 1875'te han oldu."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-malla",
+        "name": "Malla Han",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1858,
+          1862
+        ],
+        "reignNote": "Hudâyâr'ın iki saltanatı arasındadır.",
+        "summary": "1858-1862 arasında Hokand hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-said",
+        "name": "Saîd",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1862,
+          null
+        ],
+        "reignNote": "Alimkul'un desteğiyle 1862'de Nemengan'da han ilan edildi. Hudâyâr'ın ikinci saltanatı 1865'te başlar. Saîd'in bitişi ayrıca yazılmaz. 1865 ona ölüm yılı diye konmadı.",
+        "summary": "1862'de han ilan edildi. Saltanatının bitiş yılı maddede yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "hokand-nasiruddin",
+        "name": "Nâsırüddin",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1875,
+          1875
+        ],
+        "reignNote": "Hudâyâr'ın oğlu. 1875'te han oldu. Polat Bey aynı yılın ekiminde Hokand'ı geri aldı ve Margilan'da öldürüldü. Polat, hanedanın hanı diye ayrıca yazılmaz.",
+        "summary": "1875'te kısa süre Hokand hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HOKAND HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/hokand-hanligi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aliases": [
+      "Çağatay Ulusu",
+      "Mâverâünnehir Çağatayları"
+    ],
+    "startNote": "Madde başlığı 1227-1370. Çağatay 1241'de öldü. Bir rivayet 1242 der. Merkezî idare Algu ile anılır.",
+    "endNote": "Başlık 1370'te biter. Tuğluk Timur'un Mâverâünnehir'i alışının yılı bu maddede yoktur. Doğu kolda Veys Han 1428, II. İsen Buka 1462 ve Yunus Han 1487'de öldü. Batı toprakları XVI. yüzyıl başında Şeybânîlere, doğu toprakları XVII. yüzyıl sonunda dinî önderlere geçti. Son han için tarihli bir yıl yazılmaz. 1277-1282 ve 1340-1343 aralıkları adsızdır.",
+    "capital": "Almalık, Kebek döneminde Karşı (Nahşeb)",
+    "religion": "İslamiyet (Mübarek Şah ve Tarmaşirin ile anılır. Kebek müslüman değildir.)",
+    "confidence": "kayit",
+    "confidenceNote": "",
+    "legacy": "Kebekî sikkeler ve Karşı'nın merkez oluşu bu hanlığın izidir. Yunus Han'ın kızı Kutluğ Nigâr, Babür'ün annesidir.",
+    "essay": [
+      "Çağatay Hanlığı maddesi devleti 1227-1370 diye başlıklar. Çağatay'ın kendi ölümü Mayıs 1241'dir. 1242 de rivayet olarak durur. Kara Hülâgü iki ayrı kısa saltanat sürdü. 1246-1251 Yesü Mengü'nündür. Ergene Hatun 1251'den 1260'a kadar oğlu adına naibe kaldı.",
+      "1277-1282 ve 1340-1343 için madde han adı vermez. Emîr Kazgan ve oğlu Abdullah soyun dışındadır. Doğu koldaki Veys, II. İsen Buka ve Yunus, başlıktaki 1370'ten sonra ölen hanlardır. Tuğluk Timur'un yılı yazılmadığı için kartı açılmadı."
+    ],
+    "id": "cagatay-hanligi",
+    "name": "Çağatay Hanlığı",
+    "short": "Çağatay",
+    "region": "turkistan",
+    "start": 1227,
+    "end": 1370,
+    "summary": "Cengiz'in oğlu Çağatay'ın ulusundan çıkan hanlıktır. Mâverâünnehir, Yedisu ve Doğu Türkistan'ı kapsar. Algu devri toparlanma, Kebek devri Karşı'ya taşınma ve kebekî sikke ile anılır. 1370'ten sonra Timur fiilî idareyi alır. Doğu kolda han adları 1487'ye kadar ölüm yılıyla sürer.",
+    "sources": [
+      {
+        "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HAN",
+        "url": "https://islamansiklopedisi.org.tr/cagatay-han"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "cagatay-cagatay",
+        "name": "Çağatay",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1241,
+        "deathNote": "Mayıs 1241. Çağatay Han maddesi 1242 rivayetini de kaydeder.",
+        "reign": [
+          1227,
+          1241
+        ],
+        "reignNote": "Madde başlığı hanlığı 1227-1370 sayar. Çağatay Han maddesi ölümü Mayıs 1241 diye yazar, 1242 rivayetini de anar. Vâris torunu Kara Hülâgü'dür. Merkezî idare sonraki hanlara kalır.",
+        "summary": "Cengiz'in oğludur. Mâverâünnehir, Yedisu ve Doğu Türkistan onun ulusuna bağlanır. Ölümünde yerine torunu Kara Hülâgü geçer.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Vârisi torunu Kara Hülâgü'dür."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HAN",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-han"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-kara-hulagu",
+        "name": "Kara Hülâgü",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1251,
+        "deathNote": "1251'de yeniden han olduktan sonra aynı yıl öldü.",
+        "reign": [
+          1241,
+          1246
+        ],
+        "reignNote": "1246'da indirildi. 1251'de hanlığı geri aldı ve aynı yıl öldü. Şema tek aralık tuttuğu için kart 1241-1246'dadır; 1251 dönüşü bu çubuğun içinde değildir.",
+        "summary": "Çağatay'ın torunu. İlk saltanatı 1241-1246, ikinci saltanatı 1251'de aynı yıl içinde biter.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HAN",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-han"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-yesu-mengu",
+        "name": "Yesü Mengü",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1251,
+        "deathNote": "1251'de saltanatı bitti.",
+        "reign": [
+          1246,
+          1251
+        ],
+        "reignNote": "Kara Hülâgü'nün ilk saltanatı ile 1251'deki kısa dönüşü arasında han oldu.",
+        "summary": "1246'dan 1251'e kadar Çağatay ulusunun hanı olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-ergene",
+        "name": "Ergene Hatun",
+        "aliases": [],
+        "title": "nâibe",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1251,
+          1260
+        ],
+        "reignNote": "Kendi adına han değildir. Oğlu Mübarek Şah adına naibelik etti. Algu'nun 1260'taki cülûsu bu süreyi bitirir. Sonra Algu ile evlendi.",
+        "summary": "1251'den Algu'nun hanlığına kadar oğlu Mübarek Şah adına ülkeyi yönetti.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Mübarek Şah",
+            "mother": "",
+            "note": "İlk müslüman Çağatay hanı. 1266'da kısa süre kendi adına han oldu.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-algu",
+        "name": "Algu",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1266,
+        "deathNote": "1266'da öldü.",
+        "reign": [
+          1260,
+          1266
+        ],
+        "reignNote": "Madde onu hanlığın asıl kurucusu diye anar. Çu ve Yedisu'yu geri aldı. Ergene Hatun ile evlendi.",
+        "summary": "1260-1266 arasında hüküm sürdü ve 1266'da öldü. Önceki naibe Ergene Hatun ile evliliği maddece yazılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [
+          {
+            "name": "Ergene Hatun",
+            "mother": "",
+            "note": "Önce Mübarek Şah adına nâibe idi.",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-mubarek-sah",
+        "name": "Mübarek Şah",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1266,
+          1266
+        ],
+        "reignNote": "1251'den beri annesi onun adına naibelik etmişti. Kendi hanlığı 1266'da başlayıp aynı yıl sona erdi. Çağatay soyundan müslüman olan ilk han diye anılır.",
+        "summary": "1266'da han oldu ve aynı yıl indirildi.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-barak",
+        "name": "Barak",
+        "aliases": [
+          "Gıyâseddin Barak"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1271,
+        "deathNote": "670/1271.",
+        "reign": [
+          1266,
+          1271
+        ],
+        "reignNote": "Lakabı Gıyâseddin'dir. Barak Han maddesi cülûsu 664/1266, ölümü 670/1271 diye yazar.",
+        "summary": "Mübarek Şah'ın ardından han oldu. 1271'de öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BARAK HAN (Çağatay)",
+            "url": "https://islamansiklopedisi.org.tr/barak-han--cagatay"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-nikibey",
+        "name": "Nikibey",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1271,
+          1274
+        ],
+        "reignNote": "Kaydu'ya tâbi olarak anılır. Kaydu'nun ölümü maddede 1303'tür.",
+        "summary": "1271-1274 arasında han oldu. Kaydu'nun nüfuzu altındadır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-buka-timur",
+        "name": "Buka Timur",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1274,
+          1277
+        ],
+        "reignNote": "Nikibey gibi Kaydu'ya tâbi sayılır. 1277-1282 arasını madde adsız bırakır.",
+        "summary": "1274-1277 arasında han oldu. Ardından 1282'ye kadar adı yazılan bir han yoktur.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-tuva",
+        "name": "Tuva",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1307,
+        "deathNote": "1307.",
+        "reign": [
+          1282,
+          1307
+        ],
+        "reignNote": "Barak'ın oğludur. Öncesindeki 1277-1282 boşluğu maddece adsızdır.",
+        "summary": "1282'den 1307'ye kadar han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Babası Barak Han'dır."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-kuncuk",
+        "name": "Küncük",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1307,
+          1308
+        ],
+        "reignNote": "Tuva'nın ardından kısa süre han oldu.",
+        "summary": "1307-1308 arasında hüküm sürdü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-taliku",
+        "name": "Taliku",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1308,
+          1309
+        ],
+        "reignNote": "Küncük'ten sonra ve İsen Buka'dan önce anılır.",
+        "summary": "1308-1309 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-isen-buka",
+        "name": "İsen Buka",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1309,
+          1320
+        ],
+        "reignNote": "Kebek'in topladığı kurultayda han seçildi.",
+        "summary": "1309-1320 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-kebek",
+        "name": "Kebek",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1326,
+        "deathNote": "1326.",
+        "reign": [
+          1320,
+          1326
+        ],
+        "reignNote": "Müslüman değildir. Merkezi Nahşeb'e, sonraki adıyla Karşı'ya kaydırdı. Kebekî denen sikkeler bastırdı.",
+        "summary": "1320-1326 arasında han oldu. İsen Buka'yı seçtiren kurultayı o toplamıştı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-ilcigiday",
+        "name": "İlçigiday",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1326,
+        "deathNote": "1326, Tarmaşirin'den önce.",
+        "reign": [
+          1326,
+          1326
+        ],
+        "reignNote": "Tuva Timur ile birlikte 1326'da, Tarmaşirin'den önce öldü. İkisinin birbirine göre sırası maddede ayrıca yazılmaz.",
+        "summary": "1326'da han oldu ve aynı yıl, Tarmaşirin'den önce öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-tuva-timur",
+        "name": "Tuva Timur",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1326,
+        "deathNote": "1326, Tarmaşirin'den önce.",
+        "reign": [
+          1326,
+          1326
+        ],
+        "reignNote": "İlçigiday ile aynı yıl ve ondan ayırt edilen ayrı bir cülûs sırası yazılmadan anılır.",
+        "summary": "1326'da, Tarmaşirin'den önce öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-tarmasirin",
+        "name": "Tarmaşirin",
+        "aliases": [
+          "Alâeddin Tarmaşirin"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1334,
+        "deathNote": "1334'te öldürüldü.",
+        "reign": [
+          1326,
+          1334
+        ],
+        "reignNote": "Alâeddin adını aldı. Dört yıl Almalık'a gitmedi. Öldürüldü.",
+        "summary": "1326-1334 arasında han oldu. Müslüman adıyla anılır ve öldürülerek saltanatı biter.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-cenksi",
+        "name": "Cenkşi",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1335,
+          1337
+        ],
+        "reignNote": "Tarmaşirin'den sonra ülkenin bölündüğü yıllardadır.",
+        "summary": "1335-1337 arasında han olarak anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-bozan",
+        "name": "Bozan",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1337,
+          1338
+        ],
+        "reignNote": "Cenkşi'nin ardından kısa süre han oldu.",
+        "summary": "1337-1338 arasında hüküm sürdü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-yesu-timur",
+        "name": "Yesü Timur",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1338,
+          1340
+        ],
+        "reignNote": "1340-1343 arasını madde adsız bırakır.",
+        "summary": "1338-1340 arasında han oldu. Sonraki adlı han Kazan Timur'dur ve o da 1343'te başlar.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-kazan-timur",
+        "name": "Kazan Timur",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1346,
+        "deathNote": "1346'da öldürüldü.",
+        "reign": [
+          1343,
+          1346
+        ],
+        "reignNote": "1340-1343 boşluğundan sonra anılır. Öldürüldü.",
+        "summary": "1343-1346 arasında han oldu ve öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-kazgan",
+        "name": "Emîr Kazgan",
+        "aliases": [],
+        "title": "emîr",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1358,
+        "deathNote": "1358.",
+        "reign": [
+          1346,
+          1358
+        ],
+        "reignNote": "Çağatay soyundan değildir. Madde bunu ayrıca belirtir.",
+        "summary": "1346-1358 arasında Mâverâünnehir'de fiilî idare ondadır. Han soyuna mensup değildir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Emîr Abdullah",
+            "mother": "",
+            "note": "1358-1359'da yerine geçti, Semerkant'ı merkez yaptığı için indirildi.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-abdullah",
+        "name": "Emîr Abdullah",
+        "aliases": [],
+        "title": "emîr",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1358,
+          1359
+        ],
+        "reignNote": "Babası Emîr Kazgan'dır, Çağatay soyundan değildir. Semerkant'ı başkent yaptığı için indirildi.",
+        "summary": "1358-1359 arasında idareyi elinde tuttu ve aynı süreçte tahttan indirildi.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-veys",
+        "name": "Veys Han",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1428,
+        "deathNote": "1428.",
+        "reign": [
+          null,
+          1428
+        ],
+        "reignNote": "Moğolistan kolundandır. Cülûs yılı Çağatay Hanlığı maddesinde yoktur. Devlet başlığı 1370'te biter; bu ölüm o başlıktan sonradır.",
+        "summary": "Doğu kolunun hanlarındandır. Madde yalnız ölüm yılını, 1428'i verir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-isen-buka-2",
+        "name": "II. İsen Buka",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1462,
+        "deathNote": "1462.",
+        "reign": [
+          null,
+          1462
+        ],
+        "reignNote": "Moğolistan kolu. Cülûs yılı yazılmaz. Birinci İsen Buka 1309-1320 hanıdır; bu kişi ondan ayrıdır.",
+        "summary": "Doğu kolunda han oldu. Madde ölüm yılını 1462 diye verir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "cagatay-yunus",
+        "name": "Yunus Han",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1487,
+        "deathNote": "1487.",
+        "reign": [
+          null,
+          1487
+        ],
+        "reignNote": "Moğolistan kolu. Cülûs yılı yoktur. Kızı Kutluğ Nigâr, Timurlu Ömer Şeyh ile evlendi; onların oğlu Babür'dür.",
+        "summary": "Doğu kolunun hanlarındandır. 1487'de öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Kutluğ Nigâr",
+            "mother": "",
+            "note": "Timurlu Ömer Şeyh ile evlendi. Oğulları Babür'dür.",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAĞATAY HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/cagatay-hanligi"
           }
         ]
       }

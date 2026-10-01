@@ -1,0 +1,44 @@
+# Toplu ve adsız aile kayıtları denetimi
+
+27 Eylül 2026. Bu denetim, başlangıç verisindeki toplu/adsız eş ve çocuk satırlarını ve aynı alanda saklanmış birleşik adları kapsar. Amaç, birden çok insanı tek kişi kartı ve sayı gibi göstermemek; doğrulanabilen bireyleri adlandırmak; teyit edilemeyen ilişkiyi açıkça ayırmaktır. Bu çalışma atlasın bütün aile ilişkilerinin eksiksiz soy ağacı olduğu anlamına gelmez.
+
+**Kural:** `wives` ve `children` yalnız tekil insan kayıtlarıdır. Kaynaktaki toplam sayı veya kimliği ayrılamayan topluluk `familyNotes` içinde görünür ve kişi sayısına katılmaz. Tek bir kişinin adı kaynağa ulaşmıyorsa, ilişki yeterince destekleniyorsa adsız tekil kayıt kalabilir. Aynı kişinin farklı dilde adı varsa bunun kaynağı ve belirsizliği not edilir. Kaynağın doğrulamadığı anne adı çıkarılır.
+
+| Önceki kayıt | Sonuç | Dayanak |
+| --- | --- | --- |
+| Almış — adı geçmeyen kız | Kişi kaydı çıkarıldı. Etrek ile yakınlığın yönü kızlık ilişkisini kanıtlamıyor; aile notu eklendi. | [TDV Oğuzlar](https://islamansiklopedisi.org.tr/oguzlar), [TDV İdil Bulgar Hanlığı](https://islamansiklopedisi.org.tr/idil-bulgar-hanligi) |
+| Etrek — adı geçmeyen eş | Almış’ın kızı olduğu teyit edilemedi; kişi kaydı çıkarıldı, belirsizlik aile notunda. | [TDV Oğuzlar](https://islamansiklopedisi.org.tr/oguzlar) |
+| Selçuk Bey — adı geçmeyen eş | Tekil adsız kayıt kaldı. TDV, Türkmen hükümdarının kızıyla evliliğini aktarır; adını vermez. | [TDV Selçuk Bey](https://islamansiklopedisi.org.tr/selcuk-bey) |
+| Atrak — adı geçmeyen kız | Gürcüce **Gurandukht** adıyla ayrı kişi kaydı; özgün Kıpçakça adı belirsiz. Önceki nottaki “II. David” ifadesi, araştırmadaki **IV. David** ile düzeltildi. | [Tinikashvili ve Kazaryan, *Kadmos*](https://kadmos.iliauni.edu.ge/index.php/kadmos/article/download/191/174/366), [TDV Kıpçaklar](https://islamansiklopedisi.org.tr/kipcaklar) |
+| Teoman — adı geçmeyen eş ve küçük oğul | İki tekil adsız kayıt korundu; Şi-ci anlatısında ilişki var, adlar verilmediği için kesinlik “olası” kaldı. | [Sima Qian, *Şi-ci* 110](https://ctext.org/shiji/xiong-nu-lie-zhuan), [TDV Türk](https://islamansiklopedisi.org.tr/turk) |
+| Bars Bek — adı geçmeyen oğul | Güvenilir bağımsız kaynakta kimliği ve yönetimi doğrulanamadı; kişi kaydı çıkarıldı. Eşin akrabalığına ilişkin not Ankara Üniversitesi kaydıyla düzeltildi. | [Ankara Üniversitesi açık ders](https://acikders.ankara.edu.tr/course/section.php?id=142272), [TDV Kırgızlar](https://islamansiklopedisi.org.tr/kirgizlar) |
+| Eşrefoğlu Süleyman — adı geçmeyen eş | Türbedeki mezar atfı TDV’de rivayet olarak verilir. Tekil adsız kayıt “rivayet” derecesiyle korundu. | [TDV Eşrefoğulları](https://islamansiklopedisi.org.tr/esrefogullari) |
+| Sultan Sencer — “İki kız evlat” | **Mâhmelek Hatun** ve **Gevher Neseb Hatun** ayrı kaydedildi. Önceki satırın dayanağı anne adını vermediğinden anne alanları boş bırakıldı. | [TDV Sencer](https://islamansiklopedisi.org.tr/sencer) |
+| I. Mehmed — adı belirtilmeyen câriye | II. Murad’ın annesi için tekil adsız kayıt korundu; “Şehzade Hatun” atfının tartışmalı olduğu notta. | [TDV II. Murad](https://islamansiklopedisi.org.tr/murad-ii) |
+| I. Mehmed — “Yedi kız” | Uzunçarşılı’nın belge incelemesindeki **Selçuk, Hafsa, Sultan, Ayşe ve Hatice** ayrı eklendi; “Sultan”ın unvan olabileceği tartışma etiketiyle belirtildi. Adı bilinmeyen iki kız aile notunda kaldı. | [Uzunçarşılı, *Belleten*](https://dergipark.org.tr/tr/pub/ttkbelleten/article/1272179), [TDV I. Mehmed](https://islamansiklopedisi.org.tr/mehmed-i) |
+| II. Murad — adları sayılmayan hasekiler | Toplu kart kaldırıldı; TDV’de doğrulanan **Mara Brankoviç** eklendi. | [TDV II. Murad](https://islamansiklopedisi.org.tr/murad-ii) |
+| II. Mehmed — “Diğer eşler” | Toplu kart aile notuna taşındı; **Gülşah Hatun**, Şehzade Mustafa’nın annesi olarak ayrı eklendi. | [TDV II. Mehmed](https://islamansiklopedisi.org.tr/mehmed-ii), [TDV Murâdiye Külliyesi](https://islamansiklopedisi.org.tr/muradiye-kulliyesi--bursa) |
+| II. Bayezid — “Diğer hanımlar” | Toplu kart aile notuna taşındı; **Nigâr Hatun** eklendi. Sekiz hanım toplamı bir kişinin adı gibi sunulmuyor. | [TDV II. Bayezid](https://islamansiklopedisi.org.tr/bayezid-ii), [TDV Yivli Minare Külliyesi](https://islamansiklopedisi.org.tr/yivli-minare-kulliyesi) |
+| II. Bayezid — “İki oğul daha ve on bir kız” | **Şehinşah**, **Mehmed** ve kızı **Fatma Sultan** eklendi; tüm kızların kimliği doğrulanmadığı için toplam aile notunda. | [TDV Konya](https://islamansiklopedisi.org.tr/konya), [TDV Kefe](https://islamansiklopedisi.org.tr/kefe), [Uzunçarşılı, *Belleten*](https://dergipark.org.tr/tr/pub/ttkbelleten/article/1201182) |
+| I. Süleyman — “Adı bilinmeyen bir kız” | Kişi kaydı çıkarıldı. TDV, onuncu çocuk iddiasını Hurûfî sayı yakıştırması olarak tartışır; kanıtlanmış kişi gibi sayılamaz. | [TDV I. Süleyman](https://islamansiklopedisi.org.tr/suleyman-i) |
+| III. Murad — “Çok sayıda câriye” | Topluluk aile notuna taşındı. | [TDV III. Murad](https://islamansiklopedisi.org.tr/murad-iii) |
+| III. Murad — “Adı geçmeyen çok sayıda çocuk” | Kaynaktaki ölüm anı sayısı aile notunda; tek kişi olarak sayılmıyor. | [TDV III. Murad](https://islamansiklopedisi.org.tr/murad-iii) |
+| III. Mehmed — adı bilinmeyen Abaza câriye | I. Mustafa’nın annesi olarak tekil adsız kayıt korundu. | [TDV III. Mehmed](https://islamansiklopedisi.org.tr/mehmed-iii), [TDV I. Mustafa](https://islamansiklopedisi.org.tr/mustafa-i) |
+| III. Mehmed — “Diğer çocuklar” | Toplu kart aile notuna taşındı. | [TDV III. Mehmed](https://islamansiklopedisi.org.tr/mehmed-iii) |
+| I. Ahmed — “Bayezid ve Süleyman” | İki kardeş ayrı kişi kartına ayrıldı. | [TDV IV. Murad](https://islamansiklopedisi.org.tr/murad-iv) |
+| II. Osman — Pertev Paşa ailesinden bir kız | 1622 nikâhı tekil bir kişiyi gösterdiği için adsız kayıt korundu. | [TDV II. Osman](https://islamansiklopedisi.org.tr/osman-ii) |
+| IV. Murad — adları dökülmeyen hasekiler | Toplu kart aile notuna taşındı. | [TDV IV. Murad](https://islamansiklopedisi.org.tr/murad-iv) |
+| IV. Murad — “Küçük yaşta ölen oğullar” | TDV’deki **Süleyman, Mehmed, Alâeddin, Ahmed, Mahmud** ayrı eklendi. Ayrıca **Kaya İsmihan**, **Rukiye**, **Hafize** adları kayda işlendi; kalan çocukların toplamı notta. | [TDV IV. Murad](https://islamansiklopedisi.org.tr/murad-iv) |
+| IV. Mehmed — “Bir kız” | 1675’te evlenen **Hatice Sultan** adıyla düzeltildi. | [Arşiv araştırması, *Avrasya Uluslararası Araştırmalar Dergisi*](https://dergipark.org.tr/tr/pub/avrasyad/article/1839483) |
+| II. Mustafa — “Diğer şehzadeler” | Toplu kart aile notuna taşındı; TDV’deki **Ayşe, Emine, Safiye, Emetullah** kızları ayrı eklendi. | [TDV II. Mustafa](https://islamansiklopedisi.org.tr/mustafa-ii) |
+| III. Ahmed — adları dökülmeyen kadınlar | Toplu kart aile notuna taşındı; **Râbia Şermi Sultan** eklendi. | [TDV III. Ahmed](https://islamansiklopedisi.org.tr/ahmed-iii), [TDV I. Abdülhamid](https://islamansiklopedisi.org.tr/abdulhamid-i) |
+| III. Ahmed — küçük yaşta ölen oğullar | Toplu kart aile notuna taşındı; kızı **Fatma Sultan** ayrı kaynakla eklendi. | [TDV III. Ahmed](https://islamansiklopedisi.org.tr/ahmed-iii), [Fatma Sultan araştırması](https://dergipark.org.tr/tr/pub/tkidergi/article/1305409) |
+| III. Osman — dördüncü kadın ve ikballer | Birden fazla kişiyi anlatan kart aile notuna taşındı. | [TDV III. Osman](https://islamansiklopedisi.org.tr/osman-iii) |
+| III. Mustafa — “Toplam sekiz kız ve iki erkek” | **Mehmed** ve ilk çocuğu **Hibetullah Sultan** eklendi; toplam sayı aile notunda. Ayrıca **Rifat Kadın** eklendi. | [TDV III. Mustafa](https://islamansiklopedisi.org.tr/mustafa-iii) |
+| I. Abdülhamid — “Diğerleri” | Toplu kart aile notuna taşındı; **Esmâ Sultan** tereke incelemesiyle ayrı eklendi. TDV’deki on iki kız ve yedi oğul toplamı tekil kişi sayısı yapılmadı. | [TDV I. Abdülhamid](https://islamansiklopedisi.org.tr/abdulhamid-i), [Esmâ Sultan’ın terekesi](https://dergipark.org.tr/en/pub/ecsbd/article/1967382) |
+| Abdülmecid — “Diğer çocuklar” | Toplu kart aile notuna taşındı; **Cemile** ve **Münire Sultan** ayrı eklendi. | [TDV Abdülmecid](https://islamansiklopedisi.org.tr/abdulmecid), [TDV Surnâme](https://islamansiklopedisi.org.tr/surname) |
+| Abdülaziz — “Diğer çocuklar” | Toplu kart aile notuna taşındı; oğlu **Abdülmecid Efendi** ayrı eklendi. | [TDV Abdülaziz](https://islamansiklopedisi.org.tr/abdulaziz), [TDV Abdülmecid Efendi](https://islamansiklopedisi.org.tr/abdulmecid-efendi) |
+
+## Açık kalan sınır
+
+Bu denetim, yukarıdaki belirsiz/toplu satırları çözer; adı geçen bütün hanedan mensuplarının eksiksiz listesi değildir. Özellikle II. Bayezid, III. Murad, III. Ahmed, Abdülmecid ve Abdülaziz için kaynakların bildirdiği toplam ile bu atlasın **adı doğrulanmış kişi kartı** sayısı farklıdır. Atlas aile notlarında bunu açıkça söyler. Yeni kişi kartı ancak ilişkiyi doğrudan destekleyen güvenilir kaynakla eklenmelidir.

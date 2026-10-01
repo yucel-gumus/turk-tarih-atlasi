@@ -13,7 +13,7 @@
     "region": "kuzey",
     "start": 1227,
     "end": 1502,
-    "startNote": "Cengiz Han'ın büyük oğlu Cuci'nin vefatı ve Batu Han'ın Deşt-i Kıpçak seferleriyle 1227-1242'de kuruldu.",
+    "startNote": "Cengiz Han'ın büyük oğlu Cuci'nin vefatı ve Batu Han'ın Deşt-i Kıpçak seferleriyle 1227-1242'de kuruldu. TDV madde başlığı 1241-1502'dir. Başlangıç 1227 olarak bırakıldı.",
     "endNote": "1502 yılında Kırım Hanı I. Mengli Giray'ın Saray şehrini zaptetmesi ve son han Şeyh Ahmed'in yenilgisiyle yıkıldı.",
     "capital": "Saray (Sarây-ı Bâtû ve Sarây-ı Berke)",
     "religion": "İslamiyet (Özbek Han devrinden itibaren resmi din; önceleri Şamanizm / Gök Tanrı)",
@@ -56,7 +56,7 @@
         "birth": 1205,
         "birthNote": "Cuci'nin ikinci oğlu olarak Moğol bozkırında doğdu",
         "death": 1255,
-        "deathNote": "Saray şehrinde vefat etti",
+        "deathNote": "Saray şehrinde vefat etti. Batu Han maddesi 1255 sonu veya 1256 başı, Altın Orda maddesi 1256 der. Kart 1255 ile durur.",
         "reign": [
           1227,
           1255
@@ -133,6 +133,64 @@
         ]
       },
       {
+        "id": "altin-orda-sertak",
+        "name": "Sertak",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1256,
+        "deathNote": "1256. Ulakçı ile aynı yıl.",
+        "reign": [
+          1256,
+          1256
+        ],
+        "reignNote": "Batu'dan sonra anılır. Ulakçı ile birlikte 1256'da öldü. Madde ayrı cülûs günü vermez. Berke bundan sonra gelir.",
+        "summary": "1256'da ölen kısa süreli hanlardandır. Ayrı saltanat uzunluğu yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-ulakci",
+        "name": "Ulakçı",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1256,
+        "deathNote": "1256.",
+        "reign": [
+          1256,
+          1256
+        ],
+        "reignNote": "Sertak ile aynı yıl öldü. Madde ikisini ayıran bir süre yazmaz.",
+        "summary": "1256'da öldü. Berke'den önce anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
         "id": "altin-orda-berke",
         "name": "Berke Han",
         "aliases": [
@@ -147,7 +205,7 @@
           1257,
           1266
         ],
-        "reignNote": "İslamiyeti kabul eden ilk Altın Orda hükümdarı.",
+        "reignNote": "İslamiyeti kabul eden ilk Altın Orda hükümdarı. Berke Han maddesi 1256-1266 yazar. Bu kart 1257 ile durur. Oğlu yoktur. Yerine Mengü Timur geçti.",
         "summary": "Batu Han'ın kardeşi. Buhara'da Şeyh Seyfeddin Bâharzî vasıtasıyla Müslüman oldu. Hülâgû'nun 1258'de Bağdat'ı tahrip edip Abbâsî halifesini katletmesine öfkelenerek İlhanlılar'a savaş açtı. Mısır Memlük Sultanı I. Baybars ile ilk Türk-İslam ittifakını kurdu. Sarây-ı Berke şehrini imar etti.",
         "traits": [
           "Mütedeyyin Müslüman",
@@ -185,6 +243,68 @@
         ]
       },
       {
+        "id": "altin-orda-mengu-timur",
+        "name": "Mengü Timur",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1280,
+        "deathNote": "1280.",
+        "reign": [
+          1266,
+          1280
+        ],
+        "reignNote": "Berke Han maddesi, Berke'nin oğlu olmadığını ve yerine Mengü Timur'un geçtiğini yazar. Devlet maddesi 1266-1280 der.",
+        "summary": "1266-1280 arasında Altın Orda hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BERKE HAN",
+            "url": "https://islamansiklopedisi.org.tr/berke-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-tuda-mengu",
+        "name": "Tuda Mengü",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1280,
+          1287
+        ],
+        "reignNote": "1280-1287. Ardından madde yaklaşık yirmi beş yıllık bir fetret yazar ve bu aralığın han adlarını vermez.",
+        "summary": "1280-1287 arasında han oldu. Sonrasındaki fetret adsızdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
         "id": "altin-orda-ozbek",
         "name": "Gıyâseddin Muhammed Özbek Han",
         "aliases": [
@@ -200,7 +320,7 @@
           1313,
           1341
         ],
-        "reignNote": "28 yıllık saltanatıyla Altın Orda'nın altın çağını yaşattı.",
+        "reignNote": "28 yıllık saltanatıyla Altın Orda'nın altın çağını yaşattı. Devlet maddesi 1315-1341 der. Bu kart 1313 ile durur.",
         "summary": "Altın Orda'nın en parlak hükümdarı. İslamiyeti devletin resmi dini ilan etti. Bozkır halklarının İslamlaşmasını tamamladı. Başkent Saray'ı camiler, medreseler ve saraylarla bezedi; İbn Battûta onun meclislerini hayranlıkla tasvir etti. Adı, bugünkü 'Özbek' Türk boyunun etnonimine dönüştü.",
         "traits": [
           "Karizmatik lider",
@@ -324,6 +444,35 @@
         ]
       },
       {
+        "id": "altin-orda-berdibeg",
+        "name": "Berdibeg",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1357,
+          1359
+        ],
+        "reignNote": "Canıbek'ten sonra 1357-1359. Madde 1360-1380 arasında on dört hanın adını vermeden karışıklık yazar.",
+        "summary": "1357-1359 arasında han oldu. Ardından 1380'e kadar adlı bir dizi verilmez.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
         "id": "altin-orda-toktamis",
         "name": "Nâsırüddin Toktamış Han",
         "aliases": [
@@ -339,7 +488,7 @@
           1380,
           1396
         ],
-        "reignNote": "Altın Orda'yı son kez tek bayrak altında birleştiren hükümdar.",
+        "reignNote": "Altın Orda'yı son kez tek bayrak altında birleştiren hükümdar. Devlet maddesi 1379-1396 der. Bu kart 1380 ile durur.",
         "summary": "Emir Timur'un yardımıyla Ak Orda ve Altın Orda tahtını ele geçirdi. 1380 Kulikovo yenilgisinin ardından dağılan devleti topladı; 1382'de Moskova'yı kuşatarak yaktı ve Rusları tekrar haraca bağladı. Ancak nankörlük ederek Timur'un topraklarına (Harezm ve Azerbaycan) saldırdı; Timur'a karşı 1391 Kunduzca ve 1395 Terek muharebelerinde ağır hezimete uğrayarak Altın Orda'nın yıkımını getirdi.",
         "traits": [
           "Hırslı kumandan",
@@ -406,6 +555,295 @@
           {
             "title": "TDV İslâm Ansiklopedisi, TOKTAMIŞ HAN",
             "url": "https://islamansiklopedisi.org.tr/toktamis-han"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-timur-kutluk",
+        "name": "Timur Kutluk",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1396,
+          1400
+        ],
+        "reignNote": "Timur'un çıkardığı han olarak anılır.",
+        "summary": "1396-1400 arasında han oldu.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-edige",
+        "name": "Edige Mirza",
+        "aliases": [],
+        "title": "mirza",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1419,
+        "deathNote": "1419'a kadar idare onda kaldı.",
+        "reign": [
+          null,
+          1419
+        ],
+        "reignNote": "Cengiz soyundan han değildir. Timur Kutluk'tan sonra devleti 1419'a kadar o yürüttü. Nogay kartındaki Edigü ile aynı kişidir. Cülûs yılı han cülûsu diye yazılmaz.",
+        "summary": "1419'a kadar Altın Orda'nın fiilî idarecisi olarak anılır. Han soyundan değildir.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Nogay Ordası kartındaki Edigü ile aynı kişidir."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-ulug-muhammed",
+        "name": "Uluğ Muhammed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1419,
+          1422
+        ],
+        "reignNote": "İlk saltanatı 1419-1422. Devlet maddesi 1427'de yeniden han olup Hacı Giray'a sığındığını ve sonra Kazan'ı kurduğunu yazar. Barak Han maddesi 1427'de Barak'ın öldüğünü ve Küçük Muhammed'in ikinci kez han olduğunu yazar. 1427 bu karta yıl olarak eklenmedi. Kazan kartı ayrıca durur.",
+        "summary": "1419-1422 arasında Altın Orda hanıdır. Kazan Hanlığı'nın kurucusu olan kişi ile aynıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BARAK HAN (Altın Orda)",
+            "url": "https://islamansiklopedisi.org.tr/barak-han--altin-orda"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-giyaseddin",
+        "name": "Gıyâseddin",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Tahta çıkışından iki yıl sonra öldü. Yıl rakamla yazılmaz.",
+        "reign": [
+          null,
+          null
+        ],
+        "reignNote": "Barak Han maddesi, Uluğ Muhammed'in 1419-1422 saltanatını onun bitirdiğini ve iki yıl sonra öldüğünü yazar. Rakamla yıl vermez. Mansur Mirza'nın desteğiyle çıktı.",
+        "summary": "Uluğ Muhammed'in ilk saltanatını bitiren handır. İki yıl sonra öldü. Yılı ayrıca yazılmaz.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BARAK HAN (Altın Orda)",
+            "url": "https://islamansiklopedisi.org.tr/barak-han--altin-orda"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-barak",
+        "name": "Barak",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1427,
+        "deathNote": "1427, kardeşi Bölük Pulat ile birlikte.",
+        "reign": [
+          1425,
+          1427
+        ],
+        "reignNote": "Urus Han'ın torunu, Kayırçak'ın oğludur. Madde başlığı 1425-1427. 1427'de kardeşi Bölük Pulat ile birlikte öldürüldü. Annesi Urus'un kızıdır. Adı yazılmaz.",
+        "summary": "1425-1427 arasında han oldu ve 1427'de öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Babası Kayırçak, dedesi Urus Han'dır. Annesi Urus'un kızıdır, adı yazılmaz. Kardeşi Bölük Pulat 1427'de onunla birlikte öldü."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BARAK HAN (Altın Orda)",
+            "url": "https://islamansiklopedisi.org.tr/barak-han--altin-orda"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-kucuk-muhammed",
+        "name": "Küçük Muhammed",
+        "aliases": [
+          "Kiçik Muhammed"
+        ],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1427,
+          1445
+        ],
+        "reignNote": "Devlet maddesi 1427-1445 der. Barak Han maddesi, Barak'tan önce çocuk yaşta bir kez çıkarıldığını ve Barak'ın 1427'deki ölümünden sonra ikinci kez han olduğunu yazar. Çocukluk cülûsunun yılı yoktur. Timur Kutluk'un torunudur.",
+        "summary": "1427-1445 arasında han oldu. Bundan önce tarihsiz, kısa bir çocukluk saltanatı da anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BARAK HAN (Altın Orda)",
+            "url": "https://islamansiklopedisi.org.tr/barak-han--altin-orda"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-seyyid-ahmed",
+        "name": "Seyyid Ahmed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1445,
+          1465
+        ],
+        "reignNote": "Küçük Muhammed'den sonra anılır.",
+        "summary": "1445-1465 arasında Altın Orda hanıdır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-ahmed",
+        "name": "Ahmed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1481,
+        "deathNote": "1480 Ugra geri çekilmesi ve başkentin Kırım tarafından yıkılmasından sonra üzüntüden öldü.",
+        "reign": [
+          1465,
+          1481
+        ],
+        "reignNote": "1465-1481. 1480 Ugra geri çekilmesinden ve Kırım'ın başkenti yıkmasından sonra üzüntüden öldü.",
+        "summary": "1465-1481 arasında han oldu. 1481'de üzüntüden öldüğü yazılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Ugra",
+            "when": "1480",
+            "foe": "Moskova",
+            "result": "yenilgi",
+            "note": "Madde muharebeyi geri çekilme diye anar."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "altin-orda-seyh-ahmed",
+        "name": "Şeyh Ahmed",
+        "aliases": [],
+        "title": "han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": null,
+        "deathNote": "Kayıtlarda yok",
+        "reign": [
+          1481,
+          1502
+        ],
+        "reignNote": "1481-1502. Mengli Giray'ın Saray'ı alması ve Şeyh Ahmed'in yenilgisi devlet maddesinde 1502 diye durur.",
+        "summary": "Altın Orda'nın son hanı olarak 1481-1502 arasında anılır.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
           }
         ]
       }
