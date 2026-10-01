@@ -36,11 +36,12 @@ Tüm tarihsel veriler `data/raw/*.json` altında kanonik olarak saklanmaktadır.
 
 ## 3. Kaynak ve Atıf Durumu (`data/sources/`)
 
-- `data/raw` içindeki 857 kaynak referansının dağılımı (yinelenen URL'ler ayrı referanstır):
-  - **TDV İslâm Ansiklopedisi:** 691
-  - **Vikipedi:** 96
+- `data/raw` içindeki 834 kaynak referansının dağılımı (yinelenen URL'ler ayrı referanstır):
+  - **TDV İslâm Ansiklopedisi:** 697
+  - **Vikipedi:** 67
   - **Encyclopaedia Britannica:** 62
   - **Akademik yayın, birincil metin ve üniversite ders notu:** 8
+- Vikipedi ağırlığı Xiongnu/Hun bölümünde toplanır (`asya-hun`, `güney-hun`, `kuzey-hun`): TDV bireysel şanyüler için ayrı madde vermez, ctext.org ise bot erişimini yasaklar. Bu kayıtlarda Vikipedi, doğrulanabilir tek kaynak olduğu için korunmuştur; yerine geçecek doğrulanmış bir kaynak uydurulmamıştır. Uygur, Kırgız, Kimek, Avar ve Hazar kayıtlarındaki geniş Vikipedi sayfaları ise ilgili TDV kavim maddesiyle (UYGURLAR, KIRGIZLAR, KİMEK, AVARLAR, HAZARLAR) değiştirilmiştir.
 - Yerel metin arşivleri:
   - `data/sources/e-turkistan-islam/` (29 kaynak metni / HTML dökümü + `SOURCES.md`)
   - `data/sources/i-iran-selcuklu/` (19 kaynak metni / ham JSON + `SOURCES.md`)

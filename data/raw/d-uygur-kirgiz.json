@@ -42,10 +42,6 @@
       {
         "title": "Britannica, Uyghur",
         "url": "https://www.britannica.com/topic/Uighur"
-      },
-      {
-        "title": "Wikipedia, Uyghur Khaganate",
-        "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
       }
     ],
     "rulers": [
@@ -104,10 +100,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -168,10 +160,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -228,10 +216,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, MANİHEİZM",
             "url": "https://islamansiklopedisi.org.tr/maniheizm"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -326,8 +310,8 @@
         "legends": [],
         "sources": [
           {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
           },
           {
             "title": "Wikipedia, Tun Baga Tarkhan",
@@ -373,10 +357,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -416,10 +396,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -462,10 +438,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -505,10 +477,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -543,10 +511,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -591,10 +555,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -638,10 +598,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
             "url": "https://islamansiklopedisi.org.tr/uygurlar"
-          },
-          {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
           }
         ]
       },
@@ -686,8 +642,8 @@
         "claim": true,
         "sources": [
           {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
           }
         ]
       },
@@ -719,8 +675,8 @@
         "claim": true,
         "sources": [
           {
-            "title": "Wikipedia, Uyghur Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
+            "title": "TDV İslâm Ansiklopedisi, UYGURLAR",
+            "url": "https://islamansiklopedisi.org.tr/uygurlar"
           }
         ]
       }
@@ -767,16 +723,8 @@
         "url": "https://islamansiklopedisi.org.tr/uygurlar"
       },
       {
-        "title": "Wikipedia, Kyrgyz Khaganate",
-        "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
-      },
-      {
         "title": "Wikipedia, Bars Bek",
         "url": "https://en.wikipedia.org/wiki/Bars_Bek"
-      },
-      {
-        "title": "Wikipedia, Yenisei Kyrgyz",
-        "url": "https://en.wikipedia.org/wiki/Yenisei_Kyrgyz"
       }
     ],
     "rulers": [
@@ -832,10 +780,6 @@
             "url": "https://en.wikipedia.org/wiki/Bars_Bek"
           },
           {
-            "title": "Wikipedia, Kyrgyz Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
-          },
-          {
             "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
             "url": "https://islamansiklopedisi.org.tr/kirgizlar"
           },
@@ -880,10 +824,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
             "url": "https://islamansiklopedisi.org.tr/kirgizlar"
-          },
-          {
-            "title": "Wikipedia, Kyrgyz Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
           }
         ]
       },
@@ -922,10 +862,6 @@
         "legends": [],
         "sources": [
           {
-            "title": "Wikipedia, Kyrgyz Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
-          },
-          {
             "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
             "url": "https://islamansiklopedisi.org.tr/kirgizlar"
           }
@@ -958,8 +894,8 @@
         "legends": [],
         "sources": [
           {
-            "title": "Wikipedia, Kyrgyz Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
+            "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
+            "url": "https://islamansiklopedisi.org.tr/kirgizlar"
           }
         ]
       },
@@ -1006,10 +942,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KIRGIZLAR",
             "url": "https://islamansiklopedisi.org.tr/kirgizlar"
-          },
-          {
-            "title": "Wikipedia, Kyrgyz Khaganate",
-            "url": "https://en.wikipedia.org/wiki/Kyrgyz_Khaganate"
           }
         ]
       }
@@ -1036,6 +968,10 @@
     "confidenceNote": "Kimekler Orhon yazıtlarında ve Çin yıllıklarında geçmez; bilgiler ağırlıklı olarak Gerdîzî ve Hudûdü'l-âlem gibi X. yüzyıl Arap-Fars coğrafyacılarına dayanır. Boy sayısı kaynaktan kaynağa değişir: Gerdîzî yedi boy sayar, Hudûdü'l-âlem hükümdarın on bir beyi olduğunu yazar. Kimek-Yemek özdeşliği tarihçiler arasında tartışılmış, P. Golden bu özdeşlikten vazgeçmiştir. Hükümdar adları kaynaklarda yoktur. Bu devletin bağımsız bir kağanlık mı, boylar arası gevşek bir birlik mi olduğu da açık değildir.",
     "summary": "İrtiş ve Ob arasındaki bozkırda yedi boydan oluşan konfederasyon, IX. yüzyılın sonunda Kimeklerin adıyla anılmaya başladı. Uygur Kağanlığı'nın 840'ta yıkılmasından sonra bağlantısız kalan Eymür, Bayandur ve Tatar gruplarının bir kısmı bu birliğe katıldı. Hükümdar hakan unvanını taşır, yanında on bir bey bulunurdu. XI. yüzyılda Kıpçak boyu ağır bastı ve birlik Deşt-i Kıpçak adıyla anılan Kıpçak topluluğuna dönüştü.",
     "legacy": "Kıpçak adı ve Kıpçakça'nın tabanı bu birlikten çıktı. İrtiş boylarındaki kürk ve hayvan ticareti kuzey-güney ticaret yollarına bağlandı. Konfederasyon dağıldıktan sonra Kıpçaklar Altın Orda halkının dil temelini oluşturdu.",
+    "essay": [
+      "İrtiş ile Ob arasındaki bozkırda yedi boydan oluşan konfederasyon, IX. yüzyılın sonunda Kimeklerin adıyla anılmaya başladı; Uygur Kağanlığı 840'ta yıkılınca bağlantısız kalan Eymür, Bayandur ve Tatar gruplarının bir kısmı birliğe katıldı. Hükümdar hakan unvanı taşır, yanında on bir bey bulunurdu.",
+      "XI. yüzyılda Kıpçak boyu ağır bastı ve birlik Deşt-i Kıpçak adıyla anılan Kıpçak topluluğuna dönüştü. Kimekler Orhon yazıtlarında ve Çin yıllıklarında geçmez; bilgiler ağırlıklı olarak Gerdîzî ve Hudûdü'l-âlem gibi X. yüzyıl coğrafyacılarına dayanır, boy sayısı kaynaktan kaynağa değişir. Kıpçak adı ve Kıpçakçanın tabanı bu birlikten çıktı."
+    ],
     "sources": [
       {
         "title": "TDV İslâm Ansiklopedisi, KİMEK",
@@ -1044,10 +980,6 @@
       {
         "title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR",
         "url": "https://islamansiklopedisi.org.tr/kipcaklar"
-      },
-      {
-        "title": "Wikipedia, Kimek-Kipchak confederation",
-        "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
       }
     ],
     "rulers": [
@@ -1098,10 +1030,6 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KİMEK",
             "url": "https://islamansiklopedisi.org.tr/kimek"
-          },
-          {
-            "title": "Wikipedia, Kimek-Kipchak confederation",
-            "url": "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation"
           }
         ]
       },

@@ -15,6 +15,10 @@
     "confidenceNote": "TDV bu birliği Asya Hunlarının batıdaki devamı ve Türk sayar. Britannica Avrupa Hunları ile Çin kayıtlarındaki Hiung-nu ilişkisini belirsiz bırakır; Eftalitler de bazen Hun diye anılır ama bağları ayrı bir sorudur.",
     "summary": "IV. yüzyılın sonlarında İdil ötesinden gelen atlı birlik önce Alanları, ardından Ostrogotları sürdükten sonra Tuna sınırına dayandı. V. yüzyılda Rua, sonra Attila ve Bleda döneminde Doğu Roma vergiye bağlandı. Attila'nın 453'teki ölümünden sonra oğullar arasındaki çekişme ve bağlı Germen grupların isyanı birliği dağıttı.",
     "legacy": "Kavimler göçünü hızlandırdı. Dil ve soy bağı az ve tartışmalı izlere dayanır; Avrupa'da ayrı bir Hun halkı olarak VI. yüzyıla kalmadılar.",
+    "essay": [
+      "IV. yüzyılın sonunda İdil ötesinden batıya yönelen atlı birlik, Alan ve Ostrogot direncini kırarak Tuna sınırına dayandı. V. yüzyılda Rua, ardından Bleda ile Attila döneminde Doğu Roma vergiye bağlandı ve Orta Avrupa'da bir bozkır gücü kuruldu.",
+      "Attila'nın 453'teki ölümünden sonra oğullar arasındaki taht çekişmesi ve bağlı Germen grupların isyanı birliği dağıttı; Avrupa'da ayrı bir Hun halkı olarak VI. yüzyıla kalmadılar. TDV bu birliği Asya Hunlarının batı kolu ve Türk sayar; Britannica, Çin kayıtlarındaki Hiung-nu ile bağı belirsiz bırakır. Dil ve soy bağı bakımından geriye az ve tartışmalı izler kalır."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
       {"title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI", "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"},
@@ -220,11 +224,16 @@
     "confidenceNote": "Köken tartışmalıdır. TDV, Juan-juanlarla ilgisi olmadığını ve Uar-Hun kolu olduklarını yazar. Britannica Moğolistan çıkışını muhtemel sayar. Göktürkler onları Varchonit ve kaçak kul diye anmaktaydı. Yeni arkeogenetik çalışmalar elit çekirdekte İç Asya ve Rouran ihtimalini güçlendirir; bütün nüfusun Rouran olduğu kanıtlanmış değildir. TDV'nin AVARLAR maddesindeki Dağıstan Avarları ayrı bir halktır.",
     "summary": "Göktürk genişlemesi önünden batıya gelen ve Bizans'ın Avar dediği birlik, 567'de Longobardlarla Gepidleri yenip Karpat havzasını tuttu. Bayan döneminde Tuna-Tisa merkez oldu. 626 İstanbul kuşatması başarısız kalınca nüfuz kırıldı. VIII. yüzyıl sonunda Frank seferleri kağanlığı parçaladı.",
     "legacy": "Slav gruplarının Balkanlar'a inmesinde payları oldu. Kağan unvanı Avrupa kaynaklarına bu yolla geçti. Siyasî yapı 805'ten sonra eridi.",
+    "essay": [
+      "Göktürk genişlemesi önünden batıya gelen ve Bizans kaynaklarının Avar dediği birlik, 567'de Longobardlarla birlikte Gepidleri yenerek Karpat havzasını tuttu. Bayan döneminde Tuna-Tisa hattı merkez oldu; 626'daki İstanbul kuşatması başarısız kalınca nüfuz kırıldı.",
+      "VIII. yüzyılın sonunda Frank seferleri (791-796) kağanlığı parçaladı; siyasî teslimiyet 805'e konur. Köken tartışmalıdır: TDV onları Uar-Hun kolu sayıp Juan-juan bağını reddeder, Britannica Moğolistan çıkışını muhtemel görür. Yeni arkeogenetik çalışmalar İç Asya ve Rouran ihtimalini güçlendirse de bütün nüfusun Rouran olduğu kanıtlanmış değildir.",
+      "Slav gruplarının Balkanlar'a inmesinde pay sahibi oldular; kağan unvanı Avrupa kaynaklarına bu yolla geçti."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
       {"title": "TDV İslâm Ansiklopedisi, MACARİSTAN", "url": "https://islamansiklopedisi.org.tr/macaristan"},
       {"title": "Britannica, Avar", "url": "https://www.britannica.com/topic/Avar"},
-      {"title": "Wikipedia, Pannonian Avars", "url": "https://en.wikipedia.org/wiki/Pannonian_Avars"}
+      {"title": "TDV İslâm Ansiklopedisi, AVARLAR", "url": "https://islamansiklopedisi.org.tr/avarlar"}
     ],
     "rulers": [
       {
@@ -277,7 +286,7 @@
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
           {"title": "Britannica, Avar", "url": "https://www.britannica.com/topic/Avar"},
-          {"title": "Wikipedia, Pannonian Avars", "url": "https://en.wikipedia.org/wiki/Pannonian_Avars"}
+          {"title": "TDV İslâm Ansiklopedisi, AVARLAR", "url": "https://islamansiklopedisi.org.tr/avarlar"}
         ]
       }
     ]
@@ -298,10 +307,13 @@
     "confidenceNote": "Devletin varlığı kayıtlıdır. Mûsevîliğin yılı ayrılır: Yahuda Halevi 740, Mes'ûdî Hârûnürreşîd dönemi (786-809), Britannica yaklaşık 740. Kabulün derinliği belirsizdir. Hakan adlarının çoğu yoktur. Bulan ve Obadiah yalnızca Hasdai-Yûsuf mektubundadır. Böri Şad ve Bulu Han açılan TDV ve Britannica maddelerinde hakan diye geçmez. Ercan adlı bir muharebe de yoktur; 730 bozgunu Erdebil'dedir.",
     "summary": "Hazarlar Sabar bakiyesi ve Batı Göktürk ucu olarak Kafkasya'da sivrildi, 630'dan sonra kendi kağanlıklarını kurdu. Belencer sonra İdil, Hazar denizi-Karadeniz ticaretinin düğümü oldu. Hükümdar kutsal hakan, icra hakan beg elindeydi. Halife ordularını Kafkasya'da durdurdular; 965-969 Rus seferleri bu gücü kırdı.",
     "legacy": "Arap ilerleyişini Kafkasların kuzeyinde kestiler. İdil Bulgarları ve bir süre Macarlar ile Slav grupları onlara bağlı yaşadı. Yönetici din olarak Yahudilik bozkırda istisnadır. Hazarca bir metin kalmamıştır.",
+    "essay": [
+      "Sabar bakiyesi ve Batı Göktürk ucu olarak Kafkasya'nın kuzeyinde sivrilen Hazarlar, 630'dan sonra kendi kağanlıklarını kurdular. Belencer, ardından İdil, Hazar-Karadeniz ticaretinin düğümü oldu. Hükümdarlık iki başlıydı: kutsal hakan ve icra yetkisini elinde tutan hakan beg.",
+      "Halife ordularını Kafkasya'nın kuzeyinde durdurdular; 965-969 Rus seferleri bu gücü kırdı. İdil Bulgarları ve bir süre Macarlar ile Slav grupları onlara bağlı yaşadı. Yönetici din olarak Yahudilik bozkırda istisnadır ve Hazarca yazılı bir metin kalmamıştır."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, HAZARLAR", "url": "https://islamansiklopedisi.org.tr/hazarlar"},
-      {"title": "Britannica, Khazar", "url": "https://www.britannica.com/topic/Khazar"},
-      {"title": "Wikipedia, Khazar Khaganate", "url": "https://en.wikipedia.org/wiki/Khazar_Khaganate"}
+      {"title": "Britannica, Khazar", "url": "https://www.britannica.com/topic/Khazar"}
     ],
     "rulers": [
       {
@@ -333,8 +345,7 @@
           "Hakanın saltanat süresini boğularak seçtiği ve süre dolunca öldürüldüğü anlatı İbn Fadlân çizgisindedir; her hakan için doğrulanmış bir olay değildir."
         ],
         "sources": [
-          {"title": "TDV İslâm Ansiklopedisi, HAZARLAR", "url": "https://islamansiklopedisi.org.tr/hazarlar"},
-          {"title": "Wikipedia, Khazar Khaganate", "url": "https://en.wikipedia.org/wiki/Khazar_Khaganate"}
+          {"title": "TDV İslâm Ansiklopedisi, HAZARLAR", "url": "https://islamansiklopedisi.org.tr/hazarlar"}
         ]
       },
       {
@@ -454,8 +465,7 @@
         "legends": ["Mektup Hazarları Togarmah oğlu Kozar'a bağlar. Bu bir soy efsanesidir."],
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, HAZARLAR", "url": "https://islamansiklopedisi.org.tr/hazarlar"},
-          {"title": "Britannica, Khazar", "url": "https://www.britannica.com/topic/Khazar"},
-          {"title": "Wikipedia, Khazar Khaganate", "url": "https://en.wikipedia.org/wiki/Khazar_Khaganate"}
+          {"title": "Britannica, Khazar", "url": "https://www.britannica.com/topic/Khazar"}
         ]
       },
       {
@@ -498,6 +508,10 @@
     "confidenceNote": "Birliğin varlığı Bizans kayıtlarına dayanır. Kurucunun adı Kurt, Kobrat, Kubrat, Kuvrat biçimlerinde gelir. Ölüm yılı üç ayrı TDV maddesinde uyuşmaz. Doulo sülalesinin Asya Hun T'u-ko hanedanına bağlanması TDV'de bir iddiadır, kanıtlanmış soy değildir. Bulgarların Türk mü, İranî unsurlu mu olduğu Britannica'da açık bırakılır.",
     "summary": "Ogur ve Kutrigur-Utrigur Bulgarları, Avar ve Göktürk baskısı zayıflayınca Kubrat altında Kuban-Azak-Karadeniz kuzeyinde toplandı. TDV Bulgaristan batı sınırını Dinyeper, doğuyu İdil, güneyi Kuban diye çizer. Kurucu ölünce oğullar dağıldı; bir kol Hazarlara kaldı, biri Tuna'ya, biri Orta İdil'e gitti.",
     "legacy": "Tuna Bulgar Devleti ile İdil Bulgarlarının ortak çıkış noktası sayılır. Kendisi bir kuşak sürdü.",
+    "essay": [
+      "Ogur ve Kutrigur-Utrigur Bulgarları, Avar ve Göktürk baskısı zayıflayınca Kubrat önderliğinde Kuban-Azak-Karadeniz kuzeyinde toplandı; sınırları batıda Dinyeper, doğuda İdil, güneyde Kuban'a kadar uzandı. Kurucunun ölümünden sonra oğullar dağıldı: bir kol Hazarlara bağlandı, biri Tuna'ya, biri Orta İdil'e gitti.",
+      "Varlığı Bizans kayıtlarına dayanır; kurucunun adı Kurt, Kobrat, Kubrat, Kuvrat biçimlerinde gelir ve ölüm yılı kaynaklar arasında uyuşmaz (642-665). Tuna Bulgar Devleti ile İdil Bulgarlarının ortak çıkış noktası sayılır; kendisi bir kuşak sürdü."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
       {"title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI", "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"},
@@ -554,6 +568,10 @@
     "confidenceNote": "Kuruluş ve 864/865 vaftizi kayıtlıdır. 718-803 arası hanların adları bu turda açılan sayfalarda dökülmediği için yazılmadı. Omurtag'ın başlangıcı 814 veya 816 diye ayrılır. Boris'in cülûsu TDV Bulgar'da 859, Bulgaristan ve Britannica'da 852'dir.",
     "summary": "Kubrat'ın oğlu Asparuh, Hazar baskısı üzerine Tuna'yı geçip yedi Slav boyu ve Severilerle Bizans'a karşı tutundu. 681 antlaşması vergi ve tanıma getirdi. Krum ve Omurtag döneminde sınır ve imar genişledi. Boris'in vaftiziyle hanlık Slav-Hıristiyan bir çarlığa döndü; Türkçe unvan ve dil eridi.",
     "legacy": "Bugünkü Bulgaristan'ın adı ve ilk devlet çekirdeği bu hanlıktandır. Yönetici Bulgarlar Slav çoğunluk içinde eridi. 864'ten sonrası bu kaydın dışındadır.",
+    "essay": [
+      "Kubrat'ın oğlu Asparuh, Hazar baskısı üzerine Tuna'yı geçip yedi Slav boyu ve Severilerle Bizans'a karşı tutundu; 681 antlaşması vergi ve karşılıklı tanımayı getirdi. Krum ve Omurtag döneminde sınırlar genişledi, imar ve merkezîleşme arttı.",
+      "Boris'in 864'teki vaftiziyle hanlık Slav-Hıristiyan bir çarlığa döndü; han unvanı ve Türkçe karakter geriledi, 893'te Simeon çar unvanını aldı. Bugünkü Bulgaristan'ın devlet çekirdeği bu hanlıktan gelir; yönetici Bulgarlar Slav çoğunluk içinde eridi."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, BULGAR", "url": "https://islamansiklopedisi.org.tr/bulgar"},
       {"title": "TDV İslâm Ansiklopedisi, BULGARİSTAN", "url": "https://islamansiklopedisi.org.tr/bulgaristan"},
@@ -762,6 +780,10 @@
     "confidenceNote": "922 elçiliği İbn Fadlân üzerinden kayıtlıdır. Han adı Almış'tır. TDV Bulgar maddesindeki 'Yaltavar oğlu' ifadesi unvanı baba adı gibi okur; İdil maddesi babayı Şilkey, unvanı yeltever/ilteber diye ayırır. Kotrag adı yalnızca Britannica'dadır. Sikkelerdeki diğer hanların 1236'dan önce mi sonra mı olduğu ayırt edilmez.",
     "summary": "Büyük Bulgarya dağılınca Otuz-Ogur kolu Orta İdil ve Kama'ya çekildi. Fin-Ogur komşularını bağlayıp kürk, bal ve İdil ticaretine oturdu. Almış Han 922'de Abbâsî elçilerini kabul edip İslâm'ı resmen aldı. 965'te Hazar darbesinden sonra tam bağımsız kaldı. 1223'te bir Moğol tümenini yendiler; 1236'da Batu ülkeyi yaktı.",
     "legacy": "İslâm'ı resmî din yapan ilk Türk devleti diye anılır. Bulgar gönü ve taş yapı izleri kaldı. Dil yadigârları Çuvaşçanın öncülü sayılır. Moğol sonrası Kıpçakça ağır bastı.",
+    "essay": [
+      "Büyük Bulgarya dağılınca Otuz-Ogur kolu Orta İdil ve Kama'ya çekildi; Fin-Ogur komşularını çevresine katarak kürk, bal ve İdil ticaretine yerleşti. Almış Han 922'de Abbâsî elçilerini kabul edip İslâm'ı resmen aldı; bu yönüyle İslâm'ı resmî din yapan ilk Türk devleti sayılır.",
+      "965'teki Hazar darbesinden sonra tam bağımsız kaldılar; 1223'te bir Moğol tümenini yendilerse de 1236'da Batu ülkeyi yaktı. Bulgar gönü ve taş yapı izleri kaldı; dil yadigârları Çuvaşçanın öncülü sayılır, Moğol sonrası Kıpçakça ağır bastı."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI", "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"},
       {"title": "TDV İslâm Ansiklopedisi, BULGAR", "url": "https://islamansiklopedisi.org.tr/bulgar"},
@@ -852,6 +874,10 @@
     "confidenceNote": "X. yüzyılda yabgu, kül erkin ve subaşı düzeni İbn Fadlân ve coğrafyacılarda vardır. Câmiü't-tevârîh'teki yabgu adları başka kaynakta geçmez; yazılmadı. Selçuk'un Yenikent'ten ayrılışı 961, 925-940, 955 veya 985-986 diye verilir.",
     "summary": "Batı Göktürk geleneğinden gelen Oğuzlar Aşağı Seyhun, Aral ve Mangışlak arasında göçerdi. Kışlığı Yenikent olan yabgunun vekili kül erkin, ordu başı subaşıydı. Peçenekleri Yayık ötesine sürdüler. İç çekişme ve Selçuk'un Cend'e ayrılmasıyla birlik X. yüzyıl sonunda dağıldı.",
     "legacy": "Selçuklu kolu bu ayrılmadan çıktı. Oğuz adı Türkiye, Azerbaycan ve Türkmenistan Türklerinin atasoyu anlatısında kaldı. Yabgu unvanı Selçuk'un oğullarında bir süre sürdü.",
+    "essay": [
+      "Batı Göktürk geleneğinden gelen Oğuzlar Aşağı Seyhun, Aral ve Mangışlak arasında göçerdi; kışlığı Yenikent olan yabgunun vekili kül erkin, ordu başı subaşıydı. Peçenekleri Yayık ötesine sürdüler.",
+      "İç çekişme ve Selçuk'un Cend'e ayrılmasıyla birlik X. yüzyılın sonunda dağıldı; Selçuklu kolu bu ayrılmadan doğdu. Oğuz adı Türkiye, Azerbaycan ve Türkmenistan Türklerinin atasoyu anlatısında yaşadı; yabgu unvanı Selçuk'un oğullarında bir süre sürdü."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, OĞUZLAR", "url": "https://islamansiklopedisi.org.tr/oguzlar"},
       {"title": "TDV İslâm Ansiklopedisi, SELÇUK BEY", "url": "https://islamansiklopedisi.org.tr/selcuk-bey"},
@@ -990,6 +1016,10 @@
     "confidenceNote": "Boy düzeni Konstantinos Porfirogennetos'ta kayıtlıdır. Merkezî krallık yoktur. Kangar adının Kül Tigin'deki Keñeres ile birleştirilmesi TDV'de şüpheli görülür.",
     "summary": "Önce Seyhun ve Aral, sonra Yayık-İdil arasında yaşayan Peçenekler 889-895'te batıya itildi. Macarları Pannonia'ya sürdüler ve Don-Tuna bozkırını tuttular. Sekiz boy ve kırk obaydılar. Hükümdarları yoktu; boy beyleri gerektiğinde toplanırdı. 1091'de Bizans-Kıpçak hattında ağır yenilgiyle siyasî birlikleri kırıldı.",
     "legacy": "Macarların bugünkü yurda inmesinin başlıca sebebi oldular. Dağınık gruplar Macaristan, Bizans hizmeti ve Kıpçaklar içinde eridi. Oğuzlar arasında kalan kol Oğuz Peçenek boyunu oluşturdu.",
+    "essay": [
+      "Önce Seyhun-Aral, sonra Yayık-İdil arasında yaşayan Peçenekler 889-895 arasında batıya itildi; Macarları Pannonia'ya sürerek Don-Tuna bozkırını tuttular. Sekiz boy ve kırk oba hâlinde yaşadılar; merkezî hükümdarları yoktu, boy beyleri gerektiğinde toplanırdı.",
+      "1091'de Bizans-Kıpçak hattında aldıkları ağır yenilgiyle siyasî birlikleri kırıldı; dağınık gruplar Macaristan'da, Bizans hizmetinde ve Kıpçaklar içinde eridi. Macarların bugünkü yurda inmesinin başlıca sebebi oldular; Oğuzlar arasında kalan kol Oğuz Peçenek boyunu oluşturdu."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, PEÇENEKLER", "url": "https://islamansiklopedisi.org.tr/pecenekler"},
       {"title": "Britannica, Pechenegs", "url": "https://www.britannica.com/topic/Pechenegs"}
@@ -1087,6 +1117,10 @@
     "confidenceNote": "Tek merkezî devlet kuramadıkları TDV'de açıktır. Beş bölgenin (Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna) kendi başbuğları vardı. Kuman batıdaki addır; doğuda Kıpçak denir. Bölge hem Karadeniz kuzeyi hem İdil boyunu kapsar; bu kayıtta bölge bati tutuldu.",
     "summary": "Kimeklerin bir kolu olan Kıpçaklar XI. yüzyıl ortasında Uzların ardından Güney Rusya bozkırına girdi. İslâm kaynakları bu alana Deşt-i Kıpçak dedi. Boylar ortak bir kral seçmedi. Rus knezleriyle hem savaştılar hem kız alıp verdiler. 1223 Kalka ve 1238-1239 Moğol seferleri birliği dağıttı.",
     "legacy": "Altın Orda halkının dil tabanı oldular. Macaristan'da Kuman adıyla, Mısır'da Memlük sultanları arasında sürdüler. Codex Cumanicus dillerinden kalan başlıca derlemedir.",
+    "essay": [
+      "Kimeklerin bir kolu olan Kıpçaklar XI. yüzyıl ortasında Uzların ardından Güney Rusya bozkırına girdi; İslâm kaynakları bu alana Deşt-i Kıpçak dedi. Boylar ortak bir kral seçmedi; Rus knezleriyle hem savaştılar hem kız alıp verdiler.",
+      "1223 Kalka ve 1238-1239 Moğol seferleri birliği dağıttı. Kıpçaklar Altın Orda halkının dil tabanı oldu; Macaristan'da Kuman, Mısır'da Memlük sultanları arasında varlıklarını sürdürdüler. Codex Cumanicus, dillerinden kalan başlıca derlemedir."
+    ],
     "sources": [
       {"title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR", "url": "https://islamansiklopedisi.org.tr/kipcaklar"},
       {"title": "Britannica, Cuman", "url": "https://www.britannica.com/topic/Cuman"}
