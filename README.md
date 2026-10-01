@@ -22,7 +22,9 @@ npm run build
 npm run preview
 ```
 
-Uygulama Vite ile üretilen statik dosyalardan oluşur. Sayfa adresleri `#/...` biçiminde olduğundan statik bir sunucuda sunulabilir; `dist/` klasörü yayın çıktısıdır. Henüz bu depoda belirli bir barındırma hizmetinin ayarı yoktur.
+Uygulama Vite ile üretilen statik dosyalardan oluşur. Sayfa adresleri `#/...` biçiminde olduğundan statik bir sunucuda sunulabilir; `dist/` klasörü yayın çıktısıdır.
+
+Yayın: site GitHub Pages üzerinde yayınlanır — **https://yucel-gumus.github.io/turk-tarih-atlasi/**. Üretim derlemesi `gh-pages` dalına gönderilir; Vite `base` değeri bu proje alt yoluna göre ayarlıdır (`vite.config.ts`).
 
 ## Veri ve kaynaklar
 
@@ -45,3 +47,8 @@ Toplu ve adsız aile kayıtlarına ilişkin kararlar [denetim dosyasında](data/
 - `src/schemas/`: çalışma zamanı veri şeması
 
 Adres örnekleri: `#/`, `#/?bolge=anadolu`, `#/arama?q=sel%C3%A7uklu`, `#/devlet/osmanli`.
+
+## Lisans
+
+- Kaynak kodu: [MIT](LICENSE)
+- Tarihsel içerik ve veri (`data/`, uygulamada gösterilen metinler): [CC BY 4.0](LICENSE-CONTENT.md)
