@@ -21,7 +21,8 @@ Tam metin: https://creativecommons.org/licenses/by/4.0/legalcode
 
 ## Kapsam dışı
 
-- Kaynak kodu `LICENSE` (MIT) altındadır.
+- Kaynak kodu `LICENSE` (MIT) altındadır: `src/`, `scripts/`, yapılandırma
+  dosyaları ve uygulama varlıkları.
 - Atlasın atıf verdiği üçüncü taraf kaynakların (TDV İslâm Ansiklopedisi,
   Britannica, Vikipedi ve akademik yayınlar) metinleri kendi lisanslarına
   tabidir; burada yalnızca bağlantı verilir.
