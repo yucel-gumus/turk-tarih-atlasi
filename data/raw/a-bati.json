@@ -776,22 +776,35 @@
         "birthNote": "kayıtlarda yok",
         "death": null,
         "deathNote": "kayıtlarda yok",
-        "reign": [922, null],
+        "reign": [
+          922,
+          null
+        ],
         "reignNote": "Şilkey oğlu. Unvanı yeltever/ilteber/yaltavar. Bitiş yılı yok. Elçi 12 Muharrem 310 (12 Mayıs 922) karargâha vardı. TDV Bulgar elçinin yola çıkışını 920 diye de yazar.",
         "summary": "Abbâsî halifesi Muktedir-Billâh'tan din adamı istedi. Sevsen er-Ressî heyetinde kâtip İbn Fadlân vardı. Han ve ileri gelenler İslâm'ı kabul etti. Halife ve han adına sikke basıldı, cami ve kadılık kuruldu.",
         "traits": [],
         "contribution": "İdil Bulgar ülkesini resmen müslüman bir hanlık haline getirdi.",
         "harm": "",
         "wives": [],
-        "children": [
-          {"name": "kayıtlarda adı geçmiyor", "mother": "", "note": "Oğuz subaşısı Etrek'in kayınpederi Almış'tır; kızının adı yoktur", "certainty": "olasi"}
-        ],
+        "children": [],
         "wars": [],
         "legends": [],
         "sources": [
-          {"title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI", "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"},
-          {"title": "TDV İslâm Ansiklopedisi, BULGAR", "url": "https://islamansiklopedisi.org.tr/bulgar"},
-          {"title": "TDV İslâm Ansiklopedisi, OĞUZLAR", "url": "https://islamansiklopedisi.org.tr/oguzlar"}
+          {
+            "title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BULGAR",
+            "url": "https://islamansiklopedisi.org.tr/bulgar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, OĞUZLAR",
+            "url": "https://islamansiklopedisi.org.tr/oguzlar"
+          }
+        ],
+        "familyNotes": [
+          "İbn Fadlân anlatısındaki Etrek-Almış yakınlığı bir kızın Almış’ın çocuğu olduğunu tek başına kanıtlamaz; kız kaydı çıkarıldı."
         ]
       },
       {
@@ -902,20 +915,27 @@
         "birthNote": "kayıtlarda yok",
         "death": null,
         "deathNote": "kayıtlarda yok",
-        "reign": [921, null],
+        "reign": [
+          921,
+          null
+        ],
         "reignNote": "921'de elçilik heyetini karşılayan subaşı. Yabgu değildir. İl Doğan oğlu diye anılır.",
         "summary": "Abbâsî elçilerine karşı ne yapılacağını tarhan ve yinaları toplayıp sordu. İdil Bulgar hanı Almış'ın damadıydı.",
         "traits": [],
         "contribution": "Oğuz meclis usulü onun 921 kaydında görülür.",
         "harm": "",
-        "wives": [
-          {"name": "kayıtlarda adı geçmiyor", "note": "Almış Han'ın kızı", "certainty": "olasi"}
-        ],
+        "wives": [],
         "children": [],
         "wars": [],
         "legends": [],
         "sources": [
-          {"title": "TDV İslâm Ansiklopedisi, OĞUZLAR", "url": "https://islamansiklopedisi.org.tr/oguzlar"}
+          {
+            "title": "TDV İslâm Ansiklopedisi, OĞUZLAR",
+            "url": "https://islamansiklopedisi.org.tr/oguzlar"
+          }
+        ],
+        "familyNotes": [
+          "Etrek ile Almış arasında akrabalık ilişkisi anılır; Almış’ın kızıyla evlendiği teyit edilemedi."
         ]
       },
       {
@@ -933,7 +953,7 @@
         "contribution": "Cend'de müslüman olup Selçuklu kolunu yabgu birliğinden ayırdı.",
         "harm": "",
         "wives": [
-          {"name": "kayıtlarda adı geçmiyor", "note": "TDV, Türkmen hükümdarlarından birinin kızıyla evli olduğunu Köymen'e dayanarak yazar", "certainty": "olasi"}
+          {"name": "Adı bilinmeyen Türkmen hükümdarı kızı", "note": "TDV, Türkmen hükümdarlarından birinin kızıyla evli olduğunu Köymen'e dayanarak yazar", "certainty": "olasi"}
         ],
         "children": [
           {"name": "Mîkâil", "mother": "", "note": "Muhtemelen bir seferde şehit düştü; yıl yok", "certainty": "olasi"},
@@ -1080,22 +1100,43 @@
         "birthNote": "kayıtlarda yok",
         "death": null,
         "deathNote": "kayıtlarda yok",
-        "reign": [1118, 1125],
+        "reign": [
+          1118,
+          1125
+        ],
         "reignNote": "Bütün Kıpçakların hükümdarı değil. Don-Kuban kolunun başbuğu. 1125'te Gürcistan'dan döndü.",
-        "summary": "Kızı Gürcü kralı II. David ile evlendi. 1118'de Gürcistan'a giden Kıpçaklardan 40.000 atlılık bir kuvvet kurulduğu TDV'de yazılır. Kendisi 1125'te yurduna döndü; gidenlerin çoğu kaldı.",
+        "summary": "Kızı Gürcü kralı IV. David ile evlendi. Eski sayımlarda bu kral II. David diye de geçer. 1118'de Gürcistan'a giden Kıpçaklardan 40.000 atlılık bir kuvvet kurulduğu TDV'de yazılır. Kendisi 1125'te yurduna döndü; gidenlerin çoğu kaldı.",
         "traits": [],
         "contribution": "Gürcü ordusuna Kıpçak atlısı kattı.",
         "harm": "",
         "wives": [],
         "children": [
-          {"name": "kayıtlarda adı geçmiyor", "mother": "", "note": "Güzelliği anılan kız, II. David ile evlendi", "certainty": "olasi"}
+          {
+            "name": "Gurandukht",
+            "mother": "",
+            "note": "Gürcü Kralı IV. David ile evlenen Atrak’ın kızı. Gürcüce adı Gurandukht; özgün Kıpçakça adı bilinmiyor.",
+            "certainty": "kesin"
+          }
         ],
         "wars": [
-          {"name": "Selçuklu akınlarına karşı Gürcü seferleri", "when": "1118-1125", "foe": "Anadolu Selçukluları", "result": "belirsiz", "note": "TDV Gürcülerin bu atlılarla akınlara karşı koyduğunu yazar; tek meydan sonucu vermez."}
+          {
+            "name": "Selçuklu akınlarına karşı Gürcü seferleri",
+            "when": "1118-1125",
+            "foe": "Gürcistan’a yönelik Selçuklu akınları",
+            "result": "belirsiz",
+            "note": "TDV Gürcülerin bu atlılarla akınlara karşı koyduğunu yazar; tek meydan sonucu vermez."
+          }
         ],
         "legends": [],
         "sources": [
-          {"title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR", "url": "https://islamansiklopedisi.org.tr/kipcaklar"}
+          {
+            "title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kipcaklar"
+          },
+          {
+            "title": "Tinikashvili ve Kazaryan, Crusaders and Georgia: A Critical Approach to Georgian Historiography (Kadmos)",
+            "url": "https://kadmos.iliauni.edu.ge/index.php/kadmos/article/view/191"
+          }
         ]
       },
       {
@@ -1128,8 +1169,8 @@
         "birthNote": "kayıtlarda yok",
         "death": 1241,
         "deathNote": "Britannica, Macaristan'ın 1240-41 Moğol akınından hemen önce öldürüldüğünü yazar. Tek gün yok.",
-        "reign": [1239, 1241],
-        "reignNote": "Kuthen diye de yazılır. Don-Donets kolunun başbuğu. Bütün Kıpçakların kralı değil.",
+        "reign": [null, 1241],
+        "reignNote": "Kuthen diye de yazılır. Don-Donets kolunun başbuğu. Başlangıç yılı yok. 1239’da Macaristan’a sığındı. Bütün Kıpçakların kralı değil.",
         "summary": "Moğol karşısında Don ve Donets'te dağıldı, 1239'da Macaristan'a sığındı. Rus direnişini örgütleme girişimi sonuçsuz kaldı. Macaristan'da tehlikeli yabancı sayılıp öldürüldü.",
         "traits": [],
         "contribution": "",
@@ -1137,9 +1178,7 @@
         "wives": [],
         "children": [],
         "wars": [
-          {"name": "Don-Donets bozgunu", "when": "1239", "foe": "Batu Han'ın ordusu", "result": "yenilgi", "note": "Kaçabilenler Macaristan'a gitti."},
-          {"name": "Kalka", "when": "1223", "foe": "Cebe Noyan ve Sübütay", "result": "yenilgi", "note": "Kıpçak-Rus ordusu. Köten'in bu savaşta komutan olduğu TDV'de ayrıca yazılmaz."}
-        ],
+          {"name": "Don-Donets bozgunu", "when": "1239", "foe": "Batu Han'ın ordusu", "result": "yenilgi", "note": "Kaçabilenler Macaristan'a gitti."}        ],
         "legends": [],
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR", "url": "https://islamansiklopedisi.org.tr/kipcaklar"},

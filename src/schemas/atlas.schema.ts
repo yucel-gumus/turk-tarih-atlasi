@@ -74,9 +74,13 @@ export const RulerSchema = z.object({
   harm: z.string().optional().default(''),
   wives: z.array(PersonSchema).optional().default([]),
   children: z.array(PersonSchema).optional().default([]),
+  familyNotes: z.array(z.string()).optional().default([]),
   wars: z.array(WarSchema).optional().default([]),
   legends: z.array(z.string()).optional().default([]),
-  sources: z.array(SourceSchema).optional().default([]),
+  // Kaynak zorunlu: SCHEMA.md ve `npm run validate` her devlette ve her
+  // hükümdarda en az bir kaynak şart koşar. Şema da aynı sözleşmeyi uygular ki
+  // veri şemadan geçtiğinde kaynak eksikliği sessizce boş diziye düşmesin.
+  sources: z.array(SourceSchema).min(1),
 });
 export type Ruler = z.infer<typeof RulerSchema>;
 
@@ -101,7 +105,10 @@ export const StateSchema = z.object({
   summary: z.string().optional().default(''),
   legacy: z.string().optional().default(''),
   essay: z.array(z.string()).optional().default([]),
-  sources: z.array(SourceSchema).optional().default([]),
+  // Kaynak zorunlu: SCHEMA.md ve `npm run validate` her devlette ve her
+  // hükümdarda en az bir kaynak şart koşar. Şema da aynı sözleşmeyi uygular ki
+  // veri şemadan geçtiğinde kaynak eksikliği sessizce boş diziye düşmesin.
+  sources: z.array(SourceSchema).min(1),
   rulers: z.array(RulerSchema).optional().default([]),
 });
 export type State = z.infer<typeof StateSchema>;
