@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { State } from '../schemas/atlas.schema';
   import { atlasIndex, filterStates } from '../lib/data/lookup';
-  import { DEVLET_REGIONS, MILESTONES, yearLabel, type RealRegion, type RegionInfo } from '../lib/data/atlas';
+  import { DEVLET_REGIONS, MILESTONES, REGION_MAP, yearLabel, type RealRegion, type RegionInfo } from '../lib/data/atlas';
   import { hrefGuide, hrefHome, hrefState } from '../lib/router/route';
   import PageHeader from '../components/layout/PageHeader.svelte';
   import SectionBox from '../components/ui/SectionBox.svelte';
@@ -586,7 +586,7 @@
       <a
         class="state-list-item"
         href={hrefState(state.id)}
-        style="--state-color: {DEVLET_REGIONS.find((r) => r.id === state.region)?.color ?? '#e5c378'}"
+        style="--state-color: {REGION_MAP[state.region]?.color ?? '#96601a'}"
       >
         <span class="state-list-top">
           <span class="state-list-name">{state.name}</span>
@@ -614,17 +614,20 @@
   }
 
   .guide-strip:hover {
-    border-color: var(--border-glass-bright);
-    background: rgba(229, 195, 120, 0.06);
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
   }
 
   .guide-eyebrow {
     font-size: 10px;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    background: rgba(229, 195, 120, 0.12);
-    border-radius: 4px;
-    padding: 2px 6px;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    border-radius: 5px;
+    padding: 2px 7px;
   }
 
   .guide-title {
@@ -659,35 +662,43 @@
     align-items: center;
     gap: 6px;
     font-size: 11px;
-    color: var(--text-muted);
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.07);
+    font-weight: 500;
+    color: var(--ink-muted);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
     border-radius: 9999px;
-    padding: 5px 11px;
+    padding: 5px 12px;
     transition: all 0.18s ease;
   }
 
   .region-pill:hover {
-    color: var(--text-main);
-    border-color: var(--border-glass-bright);
+    color: var(--ink);
+    border-color: var(--border-strong);
   }
 
   .region-pill.active {
-    color: var(--text-main);
-    border-color: var(--region-color, var(--gold-primary));
-    background: rgba(229, 195, 120, 0.08);
+    color: var(--ink);
+    border-color: var(--region-color, var(--accent));
+    background: color-mix(in srgb, var(--region-color, var(--accent)) 12%, #ffffff);
+    font-weight: 600;
   }
 
   .search-box {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 7px 12px;
+    padding: 8px 13px;
     border-radius: 9999px;
-    border: 1px solid var(--border-glass);
-    background: rgba(255, 255, 255, 0.03);
-    color: var(--text-dim);
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--ink-dim);
     min-width: 260px;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .search-box:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
   }
 
   .search-box input {
@@ -695,7 +706,7 @@
     background: none;
     border: none;
     outline: none;
-    color: var(--text-main);
+    color: var(--ink);
     font-family: inherit;
     font-size: 12px;
   }
@@ -706,11 +717,11 @@
     min-width: 0;
     width: 100%;
     gap: 10px;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 14px;
-    padding: 14px;
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: var(--shadow-md);
   }
 
   .state-list {
@@ -725,17 +736,20 @@
     flex-direction: column;
     gap: 6px;
     min-width: 0;
-    padding: 14px;
-    border: 1px solid var(--border-glass);
+    padding: 15px;
+    border: 1px solid var(--border);
     border-left: 3px solid var(--state-color);
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.025);
-    transition: background 0.18s ease, border-color 0.18s ease;
+    border-radius: 12px;
+    background: var(--surface-1);
+    box-shadow: var(--shadow-sm);
+    transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
   }
 
   .state-list-item:hover {
-    background: rgba(255, 255, 255, 0.07);
+    background: color-mix(in srgb, var(--state-color) 7%, #ffffff);
     border-color: var(--state-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
   }
 
   .state-list-top {
@@ -743,7 +757,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    color: var(--text-main);
+    color: var(--ink);
   }
 
   .state-list-name {
@@ -754,18 +768,19 @@
 
   .state-list-meta {
     font-size: 11px;
-    color: var(--gold-primary);
+    font-weight: 600;
+    color: var(--accent-strong);
   }
 
   .state-list-summary {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
     overflow: hidden;
-    font-size: 12px;
-    line-height: 1.5;
-    color: var(--text-muted);
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--ink-soft);
   }
 
   .timeline-body {
@@ -840,13 +855,13 @@
     top: 2px;
     display: inline-block;
     transform: translateX(-50%);
-    background: var(--gold-primary);
-    color: #080a0d;
+    background: var(--accent);
+    color: #ffffff;
     font-size: 10px;
     font-weight: 700;
-    padding: 2px 7px;
+    padding: 2px 8px;
     border-radius: 9999px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: var(--shadow-sm);
     white-space: nowrap;
   }
 
@@ -861,7 +876,7 @@
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(229, 195, 120, 0.13);
+    background: rgba(150, 96, 26, 0.16);
   }
 
   .head-rows {
@@ -879,7 +894,7 @@
     bottom: 0;
     width: 1px;
     height: 6px;
-    background: rgba(255, 255, 255, 0.22);
+    background: var(--border-strong);
   }
 
   .century-label {
@@ -888,7 +903,7 @@
     left: 0;
     transform: translateX(-50%);
     font-size: 10px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
     white-space: nowrap;
   }
 

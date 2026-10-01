@@ -127,7 +127,7 @@
       {#each states as state (state.id)}
         {@const leftPct = ((state.start - bounds.min) / span) * 100}
         {@const widthPct = Math.max(0.4, ((state.end - state.start) / span) * 100)}
-        {@const color = DEVLET_REGIONS.find((r) => r.id === state.region)?.color ?? '#e5c378'}
+        {@const color = DEVLET_REGIONS.find((r) => r.id === state.region)?.color ?? '#96601a'}
         <span
           class="density-bar"
           style="left: {leftPct}%; width: {widthPct}%; background-color: {color};"
@@ -161,10 +161,10 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
-    padding: 8px 12px 10px;
-    background: rgba(14, 18, 23, 0.55);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
+    padding: 9px 13px 11px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
     user-select: none;
   }
 
@@ -183,34 +183,34 @@
   }
 
   .minimap-title {
-    font-weight: 600;
-    color: var(--gold-primary);
+    font-weight: 700;
+    color: var(--ink);
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
   }
 
   .minimap-hint {
-    color: var(--text-dim);
+    color: var(--ink-dim);
     font-size: 10px;
   }
 
   .visible-range {
-    color: var(--text-muted);
+    color: var(--ink-muted);
     font-size: 11px;
   }
 
   .visible-range strong {
-    color: var(--text-main);
+    color: var(--ink);
     font-family: var(--font-serif);
   }
 
   .minimap-track {
     position: relative;
-    height: 28px;
-    background: rgba(8, 10, 13, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 6px;
+    height: 30px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 7px;
     cursor: pointer;
     overflow: hidden;
   }
@@ -220,7 +220,7 @@
     top: 0;
     bottom: 0;
     width: 1px;
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--border-strong);
     pointer-events: none;
     z-index: 1;
   }
@@ -230,9 +230,9 @@
     bottom: 2px;
     left: 4px;
     font-size: 8px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
     white-space: nowrap;
-    opacity: 0.7;
+    opacity: 0.85;
   }
 
   .density-bars {
@@ -249,19 +249,19 @@
     position: absolute;
     height: 3px;
     border-radius: 1.5px;
-    opacity: 0.65;
+    opacity: 0.72;
   }
 
   .viewport-lens {
     position: absolute;
     top: 1px;
     bottom: 1px;
-    background: rgba(229, 195, 120, 0.16);
-    border: 1.5px solid var(--gold-primary);
-    border-radius: 5px;
+    background: var(--accent-soft);
+    border: 1.5px solid var(--accent);
+    border-radius: 6px;
     cursor: grab;
     z-index: 10;
-    box-shadow: 0 0 10px rgba(229, 195, 120, 0.25);
+    box-shadow: 0 2px 10px -3px var(--accent-line);
     transition: background 0.15s ease, border-color 0.15s ease;
     display: flex;
     align-items: center;
@@ -270,21 +270,21 @@
   }
 
   .viewport-lens:hover {
-    background: rgba(229, 195, 120, 0.24);
-    border-color: #fff;
+    background: rgba(150, 96, 26, 0.18);
+    border-color: var(--accent-strong);
   }
 
   .viewport-lens.is-dragging {
     cursor: grabbing;
-    background: rgba(229, 195, 120, 0.32);
-    box-shadow: 0 0 16px var(--gold-glow);
+    background: rgba(150, 96, 26, 0.26);
+    box-shadow: var(--shadow-md);
   }
 
   .lens-handle-left,
   .lens-handle-right {
     width: 2px;
-    height: 10px;
-    background: rgba(255, 255, 255, 0.4);
+    height: 11px;
+    background: var(--accent-strong);
     border-radius: 1px;
   }
 

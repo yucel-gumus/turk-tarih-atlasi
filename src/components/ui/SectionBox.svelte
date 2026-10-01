@@ -19,24 +19,25 @@
 
 <style>
   .section-box {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 12px;
-    padding: 16px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 11px;
+    box-shadow: var(--shadow-sm);
   }
 
   .section-heading {
     margin: 0;
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 700;
     display: flex;
     align-items: center;
     gap: 8px;
-    color: var(--gold-primary);
+    color: var(--ink);
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.08em;
   }
 </style>

@@ -38,18 +38,18 @@
     top: 14px;
     left: 20px;
     right: 20px;
-    height: 58px;
-    background: rgba(14, 18, 23, 0.72);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid var(--border-glass);
+    height: 60px;
+    background: var(--surface-translucent);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--border);
     border-radius: 16px;
     padding: 0 18px;
     display: flex;
     align-items: center;
     gap: 16px;
     z-index: 50;
-    box-shadow: 0 16px 36px -6px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-md);
     user-select: none;
   }
 
@@ -60,14 +60,14 @@
   }
 
   .logo-mark {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #e5c378 0%, #b88628 100%);
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--gold-fill) 0%, var(--accent) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 14px var(--gold-glow);
+    box-shadow: 0 2px 8px -2px rgba(122, 77, 15, 0.5);
     flex-shrink: 0;
   }
 
@@ -75,26 +75,27 @@
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    border: 2px solid #080a0d;
+    border: 2px solid rgba(255, 255, 255, 0.92);
   }
 
   .brand-title {
     display: block;
-    font-family: var(--font-display);
+    font-family: var(--font-serif);
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: 0.06em;
-    background: linear-gradient(180deg, #ffffff 20%, #e5c378 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.03em;
+    color: var(--ink);
     line-height: 1.15;
+  }
+
+  .brand-title:hover {
+    color: var(--accent-strong);
   }
 
   .brand-subtitle {
     margin: 2px 0 0;
     font-size: 10px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
     letter-spacing: 0.01em;
   }
 
@@ -112,7 +113,11 @@
     padding: 6px 12px;
     font-size: 12px;
     font-weight: 600;
-    color: var(--text-main);
+    color: var(--ink-soft);
+  }
+
+  .btn-home:hover {
+    color: var(--accent-strong);
   }
 
   @media (max-width: 700px) {
@@ -132,7 +137,7 @@
       gap: 8px;
     }
 
-    .brand-title { font-size: 11px; }
+    .brand-title { font-size: 11.5px; }
     .brand-subtitle { font-size: 9px; }
     .logo-mark { width: 28px; height: 28px; }
     .controls-group { gap: 0; }

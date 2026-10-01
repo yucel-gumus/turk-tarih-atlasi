@@ -16,14 +16,14 @@ export interface RegionInfo {
 }
 
 const REGIONS: RegionInfo[] = [
-  { id: 'giris', name: 'Nasıl okunur', color: '#e0c48a', glow: 'rgba(224, 196, 138, 0.25)' },
-  { id: 'bozkir', name: 'Bozkır ve İç Asya', color: '#d08a45', glow: 'rgba(208, 138, 69, 0.25)' },
-  { id: 'turkistan', name: 'Türkistan', color: '#3c9a8c', glow: 'rgba(60, 154, 140, 0.25)' },
-  { id: 'bati', name: 'Hazar, Karadeniz, Avrupa', color: '#6a8cbf', glow: 'rgba(106, 140, 191, 0.25)' },
-  { id: 'kuzey', name: 'İdil, Kırım, kuzey hanlıkları', color: '#7da36a', glow: 'rgba(125, 163, 106, 0.25)' },
-  { id: 'iran', name: 'İran, Horasan, Hindistan', color: '#c46b86', glow: 'rgba(196, 107, 134, 0.25)' },
-  { id: 'anadolu', name: 'Anadolu, Ortadoğu, Mısır', color: '#d4b06a', glow: 'rgba(212, 176, 106, 0.25)' },
-  { id: 'diger', name: 'Sınırda ve ilişkili yapılar', color: '#9a8f82', glow: 'rgba(154, 143, 130, 0.25)' },
+  { id: 'giris', name: 'Nasıl okunur', color: '#8a6a30', glow: 'rgba(138, 106, 48, 0.20)' },
+  { id: 'bozkir', name: 'Bozkır ve İç Asya', color: '#b5651d', glow: 'rgba(181, 101, 29, 0.20)' },
+  { id: 'turkistan', name: 'Türkistan', color: '#14776b', glow: 'rgba(20, 119, 107, 0.20)' },
+  { id: 'bati', name: 'Hazar, Karadeniz, Avrupa', color: '#35558a', glow: 'rgba(53, 85, 138, 0.20)' },
+  { id: 'kuzey', name: 'İdil, Kırım, kuzey hanlıkları', color: '#4f7a33', glow: 'rgba(79, 122, 51, 0.20)' },
+  { id: 'iran', name: 'İran, Horasan, Hindistan', color: '#a83a5b', glow: 'rgba(168, 58, 91, 0.20)' },
+  { id: 'anadolu', name: 'Anadolu, Ortadoğu, Mısır', color: '#977a1c', glow: 'rgba(151, 122, 28, 0.20)' },
+  { id: 'diger', name: 'Sınırda ve ilişkili yapılar', color: '#6b6357', glow: 'rgba(107, 99, 87, 0.20)' },
 ];
 
 export const REGION_MAP = Object.fromEntries(REGIONS.map((r) => [r.id, r]));

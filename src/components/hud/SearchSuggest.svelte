@@ -159,29 +159,28 @@
   input {
     width: 100%;
     height: 38px;
-    background: rgba(14, 18, 23, 0.7);
-    backdrop-filter: blur(12px);
-    border: 1px solid var(--border-glass);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
     border-radius: 9999px;
     padding: 0 14px 0 36px;
     font-size: 12px;
-    color: var(--text-main);
-    transition: all 0.2s ease;
+    color: var(--ink);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   }
 
   input::placeholder {
-    color: var(--text-dim);
+    color: var(--ink-dim);
   }
 
   input:hover {
-    border-color: var(--border-glass-bright);
-    background: rgba(22, 28, 36, 0.85);
+    border-color: var(--border-strong);
+    background: var(--surface-1);
   }
 
   input:focus {
-    border-color: var(--gold-primary);
-    box-shadow: 0 0 16px var(--gold-glow);
-    background: var(--bg-surface);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+    background: var(--surface-1);
   }
 
   .suggest-dropdown {
@@ -193,6 +192,8 @@
     overflow: hidden;
     padding: 6px;
     z-index: 100;
+    background: var(--surface-1);
+    box-shadow: var(--shadow-lg);
   }
 
   .suggest-item {
@@ -208,7 +209,7 @@
 
   .suggest-item:hover,
   .suggest-item.active {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--surface-2);
   }
 
   .kind-icon {
@@ -218,7 +219,7 @@
     width: 24px;
     height: 24px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.04);
+    background: var(--surface-2);
   }
 
   .item-texts {
@@ -247,10 +248,11 @@
 
   .kind-badge {
     font-size: 10px;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.1);
+    font-weight: 600;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
     padding: 2px 6px;
-    border-radius: 4px;
+    border-radius: 5px;
   }
 
   .suggest-more {

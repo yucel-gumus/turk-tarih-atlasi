@@ -12,32 +12,34 @@
 
 <style>
   .meta-card {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid var(--border-glass);
-    padding: 10px 14px;
-    border-radius: 10px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    padding: 11px 14px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 3px;
+    box-shadow: var(--shadow-sm);
   }
 
   .meta-label {
     font-size: 10px;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--text-dim);
+    letter-spacing: 0.06em;
+    color: var(--ink-dim);
   }
 
   .meta-val {
     font-family: var(--font-serif);
     font-size: 15px;
     font-weight: 600;
-    color: var(--gold-primary);
+    color: var(--ink);
   }
 
   .meta-sub {
     font-size: 11px;
-    color: var(--text-muted);
+    color: var(--ink-muted);
     margin-top: 2px;
     line-height: 1.5;
   }

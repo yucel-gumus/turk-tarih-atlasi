@@ -30,17 +30,17 @@
   .notice-title {
     margin: 0;
     font-family: var(--font-serif);
-    font-size: 20px;
-    color: var(--gold-primary);
+    font-size: 21px;
+    color: var(--ink);
   }
 
   .attempted {
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     font-size: 12px;
-    color: var(--text-main);
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid var(--border-glass);
-    border-radius: 6px;
+    color: var(--ink-soft);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 7px;
     padding: 6px 10px;
     word-break: break-all;
   }
@@ -48,16 +48,17 @@
   .home-link {
     display: inline-flex;
     align-items: center;
-    padding: 7px 14px;
+    padding: 8px 15px;
     border-radius: 9999px;
     font-size: 12px;
     font-weight: 600;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.1);
-    border: 1px solid rgba(229, 195, 120, 0.28);
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    transition: background 0.18s ease;
   }
 
   .home-link:hover {
-    background: rgba(229, 195, 120, 0.18);
+    background: rgba(150, 96, 26, 0.18);
   }
 </style>

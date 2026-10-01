@@ -35,20 +35,21 @@
 
 <style>
   .war-item {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 8px;
-    padding: 10px 12px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 11px 13px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 12px;
-    transition: background 0.18s ease, border-color 0.18s ease;
+    transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
   }
 
   a.war-item:hover {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: var(--border-glass-bright);
+    background: var(--bg-card-hover);
+    border-color: var(--accent-line);
+    box-shadow: var(--shadow-sm);
   }
 
   .war-info {
@@ -66,37 +67,38 @@
   .war-name {
     font-size: 13px;
     font-weight: 600;
-    color: var(--text-main);
+    color: var(--ink);
   }
 
   .war-year {
     font-size: 11px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
   }
 
   .war-owner {
     font-size: 10px;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.08);
+    font-weight: 600;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
     padding: 1px 6px;
-    border-radius: 4px;
+    border-radius: 5px;
   }
 
   .war-foe {
     font-size: 11px;
-    color: var(--text-muted);
+    color: var(--ink-muted);
     margin-top: 2px;
   }
 
   .war-note {
     font-size: 11px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
     margin: 4px 0 0;
     line-height: 1.5;
   }
 
   .war-arrow {
-    color: var(--text-dim);
+    color: var(--ink-dim);
     flex-shrink: 0;
     margin-top: 2px;
   }

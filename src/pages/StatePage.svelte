@@ -220,7 +220,8 @@
   .war-details summary {
     cursor: pointer;
     font-size: 12px;
-    color: var(--gold-primary);
+    font-weight: 600;
+    color: var(--accent-strong);
     padding: 6px 0;
   }
 

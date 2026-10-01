@@ -189,14 +189,14 @@
   .ruler-link {
     font-size: 12px;
     font-weight: 600;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.08);
-    border: 1px solid rgba(229, 195, 120, 0.2);
-    padding: 5px 10px;
-    border-radius: 6px;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    padding: 6px 11px;
+    border-radius: 7px;
   }
 
   .ruler-link:hover {
-    background: rgba(229, 195, 120, 0.16);
+    background: rgba(150, 96, 26, 0.16);
   }
 </style>

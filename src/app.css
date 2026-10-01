@@ -1,108 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap');
+
+/* ===========================================================================
+   AYDINLIK ATLAS — tasarım sistemi
+   ---------------------------------------------------------------------------
+   Sıcak "müze kataloğu" estetiği: kâğıt zemin, beyaz yüzeyler, mürekkep
+   metinleri ve bronz vurgu. Tüm renkler burada; bileşenler yalnız token
+   kullanır. Eski token adları (--gold-primary, --bg-card, --text-main ...)
+   yeni değerlere bağlanmıştır ki bağlanmamış kalmasın.
+   =========================================================================== */
 
 :root {
-  --bg-deep: #080a0d;
-  --bg-surface: #0e1217;
-  --bg-card: rgba(18, 24, 32, 0.72);
-  --bg-card-hover: rgba(26, 35, 48, 0.88);
-  --bg-glass: rgba(14, 18, 23, 0.68);
-  --border-glass: rgba(224, 196, 138, 0.14);
-  --border-glass-bright: rgba(224, 196, 138, 0.32);
+  /* --- Zemin ve yüzeyler --- */
+  --paper: #f6f4ef;
+  --bg-deep: var(--paper);
+  --surface-1: #ffffff;
+  --surface-2: #f1eee7;
+  --surface-3: #e9e5db;
+  --surface-translucent: rgba(255, 255, 255, 0.82);
 
-  --gold-primary: #e5c378;
-  --gold-secondary: #c99e46;
-  --gold-glow: rgba(229, 195, 120, 0.28);
-  --text-main: #f0f3f6;
-  --text-muted: #a3afbd;
-  --text-dim: #798696;
+  --bg-surface: var(--surface-1);
+  --bg-card: var(--surface-1);
+  --bg-card-hover: #fffdf8;
+  --bg-glass: rgba(255, 255, 255, 0.86);
 
-  --accent-victory: #4ade80;
-  --accent-defeat: #f87171;
-  --accent-treaty: #38bdf8;
+  /* --- Çizgiler --- */
+  --border: #e5e0d4;
+  --border-strong: #d3ccbb;
+  --border-glass: var(--border);
+  --border-glass-bright: var(--accent-line);
 
-  --font-serif: 'Source Serif 4', 'Cinzel', Georgia, serif;
-  --font-display: 'Cinzel', serif;
-  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* --- Metin --- */
+  --ink: #191713;
+  --ink-soft: #38342c;
+  --ink-muted: #554f43;
+  --ink-dim: #7d7567;
+  --text-main: var(--ink);
+  --text-soft: var(--ink-soft);
+  --text-muted: var(--ink-muted);
+  --text-dim: var(--ink-dim);
 
-  color-scheme: dark;
+  /* --- Vurgu: bronz --- */
+  --accent: #96601a;
+  --accent-strong: #7a4d0f;
+  --accent-soft: rgba(150, 96, 26, 0.1);
+  --accent-line: rgba(150, 96, 26, 0.30);
+  --gold-fill: #e2b862;
+  --gold-primary: var(--accent);
+  --gold-secondary: var(--accent-strong);
+  --gold-glow: rgba(150, 96, 26, 0.16);
+
+  /* --- Durum renkleri (açık zemin uyumlu) --- */
+  --accent-victory: #1f7a4c;
+  --accent-defeat: #b3382c;
+  --accent-treaty: #1f5f8b;
+  --victory-bg: #e7f4ec;
+  --victory-ink: #16603a;
+  --defeat-bg: #fbeae6;
+  --defeat-ink: #8f2a1f;
+  --warn-bg: #fbf1da;
+  --warn-ink: #7c5300;
+  --treaty-bg: #e7f0f8;
+  --treaty-ink: #1a5478;
+  --muted-bg: #eeebe4;
+  --muted-ink: #55504a;
+  --ritual-bg: #f2e9fb;
+  --ritual-ink: #61318f;
+
+  /* --- Gölge --- */
+  --shadow-sm: 0 1px 2px rgba(40, 33, 20, 0.05);
+  --shadow-md: 0 2px 6px -1px rgba(40, 33, 20, 0.07), 0 10px 26px -14px rgba(40, 33, 20, 0.16);
+  --shadow-lg: 0 20px 48px -18px rgba(40, 33, 20, 0.26), 0 2px 8px -2px rgba(40, 33, 20, 0.08);
+
+  /* --- Yazı tipleri --- */
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  color-scheme: light;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* Uygulama artık kayan bir belgedir (tuval değil): dikey kaydırma serbest,
-   yatay taşma gizli. Metin seçimi açıktır; yalnız sabit krom yüzeyler
-   (üst çubuk, zaman şeridi araç çubuğu) kendi bileşeninde seçimi kapatır. */
+/* Uygulama kayan bir belgedir: dikey kaydırma serbest, yatay taşma gizli.
+   Sabit krom yüzeyleri (üst çubuk, şerit araç çubuğu) kendi bileşeninde
+   metin seçimini kapatır. */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--bg-deep);
-  color: var(--text-main);
+  background-color: var(--paper);
+  color: var(--ink);
   font-family: var(--font-sans);
   font-size: 14px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-/* Background Atmosphere */
+/* Kâğıt dokusu ve çok hafif vurgu ışıkları */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(circle at 50% 0%, rgba(229, 195, 120, 0.04) 0%, transparent 60%),
-    radial-gradient(circle at 100% 100%, rgba(60, 154, 140, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 0% 100%, rgba(196, 107, 134, 0.03) 0%, transparent 50%),
-    radial-gradient(#151b24 1px, transparent 1px);
-  background-size: 100% 100%, 100% 100%, 100% 100%, 32px 32px;
+    radial-gradient(circle at 50% -8%, rgba(150, 96, 26, 0.07) 0%, transparent 55%),
+    radial-gradient(circle at 100% 4%, rgba(20, 119, 107, 0.05) 0%, transparent 42%),
+    radial-gradient(circle at 0% 100%, rgba(53, 85, 138, 0.05) 0%, transparent 45%),
+    radial-gradient(rgba(29, 27, 22, 0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 27px 27px;
   pointer-events: none;
   z-index: 0;
 }
 
-/* Glassmorphism Classes */
+/* --- Yüzey yardımcıları --- */
 .glass-panel {
-  background: var(--bg-glass);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--border-glass);
-  box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  background: var(--surface-translucent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
 }
 
 .glass-pill {
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border-glass);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
   border-radius: 9999px;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease, color 0.18s ease;
 }
 
 .glass-pill:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--border-glass-bright);
-  box-shadow: 0 0 16px var(--gold-glow);
+  background: var(--bg-card-hover);
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-md);
 }
 
-/* Scrollbar */
+/* --- Kaydırma çubuğu --- */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 10px;
+  height: 10px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 4px;
+  background: var(--border-strong);
+  border: 3px solid var(--paper);
+  border-radius: 999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--gold-secondary);
+  background: var(--ink-dim);
 }
 
-/* Buttons and Inputs */
+/* --- Buton ve form temeli --- */
 button {
   font-family: inherit;
   cursor: pointer;
@@ -111,68 +165,66 @@ button {
   color: inherit;
 }
 
-/* Bağlantılar sayfa satırlarıdır; renk ve alt çizgi her taşıyıcıda kendinden
-   gelir (kaynak bağlantısı rengini kendi bileşeninde belirler). */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-button:focus-visible, input:focus-visible, a:focus-visible, [tabindex]:focus-visible {
-  outline: 2px solid var(--gold-primary);
+button:focus-visible,
+input:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
+  border-radius: 4px;
 }
 
-/* ---------------------------------------------------------------------------
-   Sayfa içeriği ortak sınıfları.
+/* ===========================================================================
+   Sayfa içeriği ortak sınıfları — birden çok sayfanın kendi markup'ında
+   doğrudan ürettiği sınıflar (rozetler, meta pilleri, başlıklar) burada.
+   =========================================================================== */
 
-   Kural: bir sınıfın markup'ını tek bir bileşen üretiyorsa stil o bileşenin
-   kapsamlı <style> bloğunda kalır. Burada yalnızca birden çok sayfanın kendi
-   markup'ında doğrudan ürettiği sınıflar durur (rozetler, meta pilleri,
-   bölüm başlıkları) ve etiketleri taşıyan tek kaynak burasıdır.
-   --------------------------------------------------------------------------- */
-
-/* Bölüm başlığı ve gövde metni: SectionBox bileşeninin dışında kalan
-   başlıklar (sayfa geneli başlıklar) için de kullanılır. */
 .page-header {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 
 .eyebrow {
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--gold-primary);
+  letter-spacing: 0.13em;
+  color: var(--accent);
 }
 
 .page-title {
   margin: 0;
   font-family: var(--font-serif);
-  font-size: clamp(24px, 3.4vw, 34px);
+  font-size: clamp(26px, 3.6vw, 40px);
   font-weight: 700;
-  color: var(--text-main);
-  line-height: 1.15;
+  color: var(--ink);
+  line-height: 1.14;
+  letter-spacing: -0.01em;
 }
 
 .page-subtitle {
   margin: 0;
-  font-size: 13px;
-  color: var(--text-muted);
+  font-size: 13.5px;
+  color: var(--ink-muted);
+  max-width: 68ch;
 }
 
-/* Devlet/savaş/kişi rozetleri */
+/* Tarih rozeti */
 .dates-tag {
   font-family: var(--font-serif);
   font-size: 13px;
   font-weight: 600;
-  color: var(--gold-primary);
-  background: rgba(229, 195, 120, 0.08);
-  border: 1px solid rgba(229, 195, 120, 0.2);
-  padding: 2px 8px;
-  border-radius: 6px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-line);
+  padding: 3px 9px;
+  border-radius: 7px;
   white-space: nowrap;
 }
 
@@ -181,68 +233,73 @@ button:focus-visible, input:focus-visible, a:focus-visible, [tabindex]:focus-vis
   height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.7);
 }
 
+/* Güven/kesinlik rozetleri */
 .confidence-tag {
   font-size: 10px;
-  padding: 1px 6px;
-  border-radius: 4px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 5px;
   white-space: nowrap;
 }
 .confidence-tag.tartismali {
-  background: rgba(251, 191, 36, 0.15);
-  border: 1px solid rgba(251, 191, 36, 0.3);
-  color: #fde047;
+  background: var(--warn-bg);
+  border: 1px solid rgba(124, 83, 0, 0.22);
+  color: var(--warn-ink);
 }
 .confidence-tag.rivayet {
-  background: rgba(168, 85, 247, 0.15);
-  border: 1px solid rgba(168, 85, 247, 0.3);
-  color: #d8b4fe;
+  background: var(--ritual-bg);
+  border: 1px solid rgba(97, 49, 143, 0.2);
+  color: var(--ritual-ink);
 }
 
 .claim-tag {
   font-size: 9px;
-  color: #fca5a5;
-  background: rgba(248, 113, 113, 0.2);
-  padding: 1px 4px;
-  border-radius: 4px;
+  font-weight: 600;
+  color: var(--defeat-ink);
+  background: var(--defeat-bg);
+  border: 1px solid rgba(143, 42, 31, 0.2);
+  padding: 1px 5px;
+  border-radius: 5px;
   white-space: nowrap;
 }
 
 .cert-tag {
   font-size: 9px;
-  padding: 1px 4px;
-  border-radius: 4px;
+  font-weight: 600;
+  padding: 1px 5px;
+  border-radius: 5px;
   white-space: nowrap;
 }
-/* `olasi` kayıtta 90 kez geçiyor; kuralı yoktu, rozet renksiz çiziliyordu. */
 .cert-tag.olasi {
-  background: rgba(56, 189, 248, 0.2);
-  color: #7dd3fc;
+  background: var(--treaty-bg);
+  color: var(--treaty-ink);
 }
 .cert-tag.tartismali {
-  background: rgba(251, 191, 36, 0.2);
-  color: #fde047;
+  background: var(--warn-bg);
+  color: var(--warn-ink);
 }
 .cert-tag.rivayet {
-  background: rgba(168, 85, 247, 0.2);
-  color: #d8b4fe;
+  background: var(--ritual-bg);
+  color: var(--ritual-ink);
 }
 
 .mother-tag {
   font-size: 10px;
-  color: var(--text-dim);
+  color: var(--ink-dim);
 }
 
 .sub-title {
   margin: 0 0 8px;
   font-size: 11px;
+  font-weight: 700;
   text-transform: uppercase;
-  color: var(--text-muted);
+  letter-spacing: 0.07em;
+  color: var(--ink-muted);
 }
 
-/* Meta pilleri: devlet, hükümdar, savaş ve kişi sayfalarının başlıkları paylaşır.
-   Zaman şeridi çubuğu bu sınıfı kullanmaz; kendi `.bar-*` sınıfları vardır. */
 .meta-pills {
   display: flex;
   align-items: center;
@@ -255,86 +312,89 @@ button:focus-visible, input:focus-visible, a:focus-visible, [tabindex]:focus-vis
   align-items: center;
   gap: 5px;
   font-size: 11px;
-  color: var(--text-muted);
-  background: rgba(255, 255, 255, 0.04);
-  padding: 3px 8px;
-  border-radius: 6px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 4px 9px;
+  border-radius: 7px;
 }
 
 .rulers-count {
-  color: var(--gold-primary);
-  background: rgba(229, 195, 120, 0.08);
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
   font-weight: 600;
 }
 
-/* Gövde metni. SectionBox kapsamlı stil kullanamaz: içeriği snippet olarak
-   gelir ve Svelte kapsamlı stilleri snippet markup'ına uygulamaz (snippet
-   ebeveynin şablonudur), bu yüzden paragraf sınıfları global durur. */
 .body-text {
   margin: 0;
-  font-size: 13px;
-  line-height: 1.65;
-  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--ink-soft);
 }
 
 .essay-paragraph {
-  margin: 0 0 12px;
+  margin: 0 0 13px;
 }
 
 .essay-paragraph:last-child {
   margin-bottom: 0;
 }
 
-/* Meta kart ızgarası: birden çok MetaCard'ı sayfa düzeyinde dizer */
 .meta-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
   gap: 10px;
 }
 
-/* Kayıtta karşılığı olmayan alanlar için dürüst boşluk metni */
+/* Karşılığı olmayan alanlar için dürüst boşluk metni */
 .honesty-note {
   margin: 0;
-  font-size: 12px;
-  line-height: 1.6;
-  color: var(--text-muted);
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px dashed rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 10px 12px;
+  font-size: 12.5px;
+  line-height: 1.62;
+  color: var(--ink-muted);
+  background: var(--surface-2);
+  border: 1px dashed var(--border-strong);
+  border-radius: 10px;
+  padding: 11px 13px;
 }
 
-/* Sonuç rozetleri; anahtar veri sözlüğündeki değerdir (zafer, yenilgi, ...) */
+/* Sonuç rozetleri */
 .result-badge {
   font-size: 11px;
   font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 6px;
+  padding: 3px 9px;
+  border-radius: 7px;
   white-space: nowrap;
 }
-.result-badge.zafer { background: rgba(74, 222, 128, 0.15); color: #86efac; border: 1px solid rgba(74, 222, 128, 0.3); }
-.result-badge.yenilgi { background: rgba(248, 113, 113, 0.15); color: #fca5a5; border: 1px solid rgba(248, 113, 113, 0.3); }
-.result-badge.sonucsuz { background: rgba(251, 191, 36, 0.15); color: #fde047; border: 1px solid rgba(251, 191, 36, 0.3); }
-.result-badge.antlasma { background: rgba(56, 189, 248, 0.15); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.3); }
-.result-badge.belirsiz { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+.result-badge.zafer { background: var(--victory-bg); color: var(--victory-ink); border: 1px solid rgba(31, 122, 76, 0.24); }
+.result-badge.yenilgi { background: var(--defeat-bg); color: var(--defeat-ink); border: 1px solid rgba(179, 56, 44, 0.24); }
+.result-badge.sonucsuz { background: var(--warn-bg); color: var(--warn-ink); border: 1px solid rgba(124, 83, 0, 0.24); }
+.result-badge.antlasma { background: var(--treaty-bg); color: var(--treaty-ink); border: 1px solid rgba(26, 84, 120, 0.24); }
+.result-badge.belirsiz { background: var(--muted-bg); color: var(--muted-ink); border: 1px solid rgba(85, 80, 74, 0.2); }
 
-/* Tür renkleri. Tailwind yok; eski `text-amber-400` gibi sınıfların arkasında
-   hiçbir kural yoktu, bu yüzden gerçek renkler burada tanımlı. */
-.icon-state { color: var(--gold-primary); }
+/* Tür renkleri */
+.icon-state { color: var(--accent); }
 .icon-ruler { color: var(--accent-victory); }
 .icon-war { color: var(--accent-defeat); }
 .icon-person { color: var(--accent-treaty); }
 
-/* Sayfa içi metin bağlantısı: devlet ve savaş sayfalarındaki kısa yönlendirmeler paylaşır. */
 .inline-link {
-  font-size: 12px;
+  font-size: 12.5px;
   font-weight: 600;
-  color: var(--gold-primary);
+  color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-color: var(--accent-line);
 }
 
-/* Print Layout */
+.inline-link:hover {
+  color: var(--accent-strong);
+  text-decoration-color: currentColor;
+}
+
+/* Yazdırma */
 @media print {
   body {
     background: #fff !important;

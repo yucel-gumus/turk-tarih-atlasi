@@ -69,21 +69,22 @@
 
 <style>
   .ruler-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-glass);
-    border-radius: 12px;
-    padding: 14px 16px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 15px 16px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    gap: 9px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease, border-color 0.22s ease, background 0.22s ease;
   }
 
   .ruler-card:hover {
     background: var(--bg-card-hover);
-    border-color: var(--border-glass-bright);
+    border-color: var(--accent-line);
     transform: translateY(-2px);
-    box-shadow: 0 10px 24px -4px rgba(0, 0, 0, 0.6), 0 0 16px var(--gold-glow);
+    box-shadow: var(--shadow-md);
   }
 
   .card-header {
@@ -102,13 +103,13 @@
     font-family: var(--font-serif);
     font-size: 17px;
     font-weight: 600;
-    color: var(--gold-primary);
+    color: var(--ink);
     line-height: 1.25;
   }
 
   .ruler-title {
     font-size: 11px;
-    color: var(--text-muted);
+    color: var(--ink-muted);
     margin-top: 2px;
   }
 
@@ -116,7 +117,7 @@
     margin: 0;
     font-size: 12px;
     line-height: 1.5;
-    color: var(--text-muted);
+    color: var(--ink-muted);
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
@@ -132,10 +133,11 @@
 
   .trait-tag {
     font-size: 10px;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.08);
-    border: 1px solid rgba(229, 195, 120, 0.16);
-    padding: 2px 6px;
+    font-weight: 600;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    padding: 2px 7px;
     border-radius: 6px;
   }
 
@@ -145,11 +147,12 @@
     align-items: center;
     gap: 2px;
     font-size: 11px;
-    color: var(--text-dim);
+    font-weight: 500;
+    color: var(--ink-dim);
     transition: color 0.2s ease;
   }
 
   .ruler-card:hover .detail-hint {
-    color: var(--gold-primary);
+    color: var(--accent-strong);
   }
 </style>

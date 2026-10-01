@@ -270,11 +270,12 @@
   .alias-pill,
   .trait-badge {
     font-size: 11px;
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.08);
-    border: 1px solid rgba(229, 195, 120, 0.16);
-    padding: 3px 8px;
-    border-radius: 6px;
+    font-weight: 600;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-line);
+    padding: 3px 9px;
+    border-radius: 7px;
   }
 
   .contrast-grid {
@@ -284,10 +285,11 @@
   }
 
   .contrast-card {
-    border-radius: 12px;
-    padding: 14px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    background: rgba(255, 255, 255, 0.02);
+    border-radius: 14px;
+    padding: 15px 17px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    box-shadow: var(--shadow-sm);
   }
 
   .contrast-card.positive {
@@ -302,11 +304,11 @@
     margin: 0;
     font-family: var(--font-serif);
     font-style: italic;
-    font-size: 13px;
-    line-height: 1.6;
-    color: var(--text-muted);
-    border-left: 2px solid var(--border-glass-bright);
-    padding-left: 12px;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: var(--ink-muted);
+    border-left: 2px solid var(--accent-line);
+    padding-left: 13px;
   }
 
   .war-list {
@@ -326,15 +328,18 @@
     align-items: center;
     gap: 4px;
     font-size: 12px;
-    color: var(--text-muted);
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 1px solid var(--border-glass);
+    font-weight: 500;
+    color: var(--ink-muted);
+    padding: 9px 13px;
+    border-radius: 9px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease;
   }
 
   .sibling-link:hover {
-    color: var(--gold-primary);
-    border-color: var(--border-glass-bright);
-    background: rgba(229, 195, 120, 0.06);
+    color: var(--accent-strong);
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
   }
 </style>

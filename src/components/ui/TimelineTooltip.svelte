@@ -40,7 +40,7 @@
       <div class="header-main">
         <span
           class="region-dot"
-          style="background: {regionInfo?.color ?? '#e5c378'}"
+          style="background: {regionInfo?.color ?? '#96601a'}"
         ></span>
         <span class="state-name">{state.name}</span>
       </div>
@@ -96,9 +96,9 @@
     max-width: calc(100vw - 32px);
     padding: 12px 14px;
     border-radius: 12px;
-    background: rgba(14, 18, 23, 0.92);
-    border: 1px solid var(--border-glass-bright);
-    box-shadow: 0 16px 36px -4px rgba(0, 0, 0, 0.7), 0 0 16px var(--gold-glow);
+    background: var(--surface-1);
+    border: 1px solid var(--border-strong);
+    box-shadow: var(--shadow-lg);
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -142,7 +142,7 @@
     font-family: var(--font-serif);
     font-size: 14px;
     font-weight: 700;
-    color: var(--text-main);
+    color: var(--ink);
     line-height: 1.25;
   }
 
@@ -151,9 +151,9 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2px 5px;
-    border-radius: 4px;
+    background: var(--surface-2);
+    padding: 2px 6px;
+    border-radius: 5px;
     white-space: nowrap;
   }
 
@@ -165,16 +165,16 @@
   }
 
   .date-range {
-    color: var(--gold-primary);
+    color: var(--accent-strong);
     font-weight: 600;
     font-family: var(--font-serif);
   }
 
   .duration-pill {
     font-size: 10px;
-    color: var(--text-dim);
-    background: rgba(255, 255, 255, 0.04);
-    padding: 1px 6px;
+    color: var(--ink-dim);
+    background: var(--surface-2);
+    padding: 1px 7px;
     border-radius: 9999px;
   }
 
@@ -183,9 +183,9 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 8px;
-    padding: 6px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 7px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
   }
 
   .stat-item {
@@ -193,18 +193,18 @@
     align-items: center;
     gap: 4px;
     font-size: 10px;
-    color: var(--text-muted);
+    color: var(--ink-muted);
   }
 
   .stat-item.capital {
-    color: var(--gold-primary);
+    color: var(--accent-strong);
   }
 
   .tooltip-summary {
     margin: 0;
     font-size: 11px;
     line-height: 1.45;
-    color: var(--text-muted);
+    color: var(--ink-muted);
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -218,7 +218,7 @@
     justify-content: flex-end;
     gap: 4px;
     font-size: 10px;
-    color: var(--gold-primary);
-    font-weight: 500;
+    color: var(--accent-strong);
+    font-weight: 600;
   }
 </style>

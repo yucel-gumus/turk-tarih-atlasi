@@ -33,30 +33,31 @@
 
 <style>
   .person-pill {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 6px;
-    padding: 4px 10px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 5px 11px;
     display: flex;
     align-items: center;
     gap: 6px;
     font-size: 12px;
     flex-wrap: wrap;
-    transition: border-color 0.18s ease, background 0.18s ease;
+    transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
   }
 
   .person-pill:hover {
-    border-color: var(--border-glass-bright);
-    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--accent-line);
+    background: var(--bg-card-hover);
+    box-shadow: var(--shadow-sm);
   }
 
   .person-name {
     font-weight: 600;
-    color: var(--text-main);
+    color: var(--ink);
   }
 
   .person-name:hover {
-    color: var(--gold-primary);
+    color: var(--accent-strong);
   }
 
   .mother-link {
@@ -66,11 +67,11 @@
   }
 
   .mother-link:hover {
-    color: var(--gold-primary);
+    color: var(--accent-strong);
   }
 
   .person-note {
     font-size: 10px;
-    color: var(--text-dim);
+    color: var(--ink-dim);
   }
 </style>

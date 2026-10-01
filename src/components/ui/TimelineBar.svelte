@@ -3,8 +3,8 @@
   import { yearLabel } from '../../lib/data/atlas';
   import { hrefState } from '../../lib/router/route';
 
-  /** Etiketin sığması için gereken en kısa çubuk genişliği. */
-  const LABEL_MIN_PX = 90;
+  /** Etiketin sığması için gereken en kısa çubuk genişliği (taşma olmasın). */
+  const LABEL_MIN_PX = 110;
 
   let {
     state,
@@ -70,36 +70,40 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 1px;
-    padding: 3px 7px;
-    border-radius: 5px;
+    padding: 3px 8px 3px 9px;
+    border-radius: 6px;
     overflow: hidden;
     white-space: nowrap;
-    background: color-mix(in srgb, var(--bar-color) 34%, transparent);
-    border: 1px solid color-mix(in srgb, var(--bar-color) 62%, transparent);
+    background: color-mix(in srgb, var(--bar-color) 15%, #ffffff);
+    border: 1px solid color-mix(in srgb, var(--bar-color) 36%, transparent);
+    box-shadow: inset 3px 0 0 0 var(--bar-color);
     transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
     user-select: none;
     -webkit-user-drag: none;
   }
 
   .timeline-bar:hover {
-    background: color-mix(in srgb, var(--bar-color) 58%, transparent);
+    background: color-mix(in srgb, var(--bar-color) 28%, #ffffff);
     border-color: var(--bar-color);
-    box-shadow: 0 0 12px color-mix(in srgb, var(--bar-color) 40%, transparent);
+    box-shadow: inset 3px 0 0 0 var(--bar-color), 0 8px 18px -10px color-mix(in srgb, var(--bar-color) 75%, transparent);
     z-index: 5;
   }
 
   .bar-name {
     font-size: 11px;
-    font-weight: 600;
-    color: var(--text-main);
+    font-weight: 700;
+    color: var(--ink);
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.2;
   }
 
   .bar-meta {
-    font-size: 9px;
-    color: var(--text-muted);
+    font-size: 9.5px;
+    font-weight: 500;
+    color: var(--ink-muted);
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: 1.2;
   }
 </style>

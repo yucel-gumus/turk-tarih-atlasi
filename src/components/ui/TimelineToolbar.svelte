@@ -210,11 +210,11 @@
     align-items: center;
     gap: 5px;
     font-size: 10px;
-    color: var(--text-dim);
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: var(--ink-dim);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
     border-radius: 9999px;
-    padding: 2px 8px;
+    padding: 2px 9px;
   }
 
   .toolbar-right {
@@ -226,9 +226,9 @@
   .button-group {
     display: inline-flex;
     align-items: center;
-    background: rgba(255, 255, 255, 0.025);
-    border: 1px solid var(--border-glass);
-    border-radius: 8px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 9px;
     padding: 2px;
     gap: 2px;
   }
@@ -239,30 +239,30 @@
     justify-content: center;
     width: 26px;
     height: 26px;
-    border-radius: 6px;
-    color: var(--text-muted);
+    border-radius: 7px;
+    color: var(--ink-muted);
     transition: all 0.16s ease;
   }
 
   .control-btn:hover:not(:disabled) {
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.12);
+    color: var(--accent-strong);
+    background: var(--accent-soft);
   }
 
   .control-btn:disabled {
-    opacity: 0.3;
+    opacity: 0.32;
     cursor: default;
   }
 
   .fit-btn {
-    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    border-left: 1px solid var(--border);
     margin-left: 2px;
   }
 
   .zoom-value {
     font-size: 11px;
     font-weight: 600;
-    color: var(--gold-primary);
+    color: var(--ink);
     min-width: 32px;
     text-align: center;
     font-variant-numeric: tabular-nums;
@@ -270,15 +270,18 @@
 
   .list-jump-btn {
     font-size: 11px;
-    color: var(--gold-primary);
+    font-weight: 600;
+    color: var(--accent-strong);
     text-decoration: underline;
     text-underline-offset: 3px;
+    text-decoration-color: var(--accent-line);
     padding: 4px 6px;
     transition: opacity 0.15s ease;
   }
 
   .list-jump-btn:hover {
     opacity: 0.85;
+    text-decoration-color: currentColor;
   }
 
   /* Dönem çipleri */
@@ -310,26 +313,27 @@
   }
 
   .era-pill {
-    padding: 3px 8px;
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.07);
-    background: rgba(255, 255, 255, 0.03);
-    color: var(--text-muted);
+    padding: 4px 10px;
+    border-radius: 7px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--ink-muted);
     font-size: 10px;
+    font-weight: 500;
     white-space: nowrap;
     transition: all 0.15s ease;
   }
 
   .era-pill:hover {
-    color: var(--text-main);
-    border-color: var(--border-glass-bright);
-    background: rgba(255, 255, 255, 0.06);
+    color: var(--ink);
+    border-color: var(--border-strong);
+    background: var(--surface-2);
   }
 
   .era-pill.active {
-    color: var(--gold-primary);
-    background: rgba(229, 195, 120, 0.12);
-    border-color: rgba(229, 195, 120, 0.4);
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border-color: var(--accent-line);
     font-weight: 600;
   }
 

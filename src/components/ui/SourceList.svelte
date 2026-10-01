@@ -26,17 +26,19 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 8px 12px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 8px;
-    font-size: 12px;
-    color: var(--gold-primary);
-    transition: background 0.2s ease;
+    padding: 9px 13px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--accent-strong);
+    transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
   }
 
   .source-link:hover {
-    background: rgba(229, 195, 120, 0.08);
-    border-color: var(--border-glass-bright);
+    background: var(--accent-soft);
+    border-color: var(--accent-line);
+    box-shadow: var(--shadow-sm);
   }
 </style>
