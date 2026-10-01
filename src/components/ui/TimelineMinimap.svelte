@@ -160,11 +160,9 @@
   .minimap-container {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    padding: 9px 13px 11px;
-    background: var(--surface-1);
-    border: 1px solid var(--border);
-    border-radius: 12px;
+    gap: 8px;
+    padding: 4px 0 12px;
+    border-bottom: 1px solid var(--border);
     user-select: none;
   }
 
@@ -173,7 +171,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    font-size: 11px;
   }
 
   .header-left {
@@ -192,12 +189,12 @@
 
   .minimap-hint {
     color: var(--ink-dim);
-    font-size: 10px;
+    font-size: 10.5px;
   }
 
   .visible-range {
     color: var(--ink-muted);
-    font-size: 11px;
+    font-size: 11.5px;
   }
 
   .visible-range strong {
@@ -207,12 +204,12 @@
 
   .minimap-track {
     position: relative;
-    height: 30px;
+    height: 24px;
     background: var(--surface-2);
-    border: 1px solid var(--border);
-    border-radius: 7px;
+    border-radius: 99px;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.04);
   }
 
   .track-tick {
@@ -229,7 +226,8 @@
     position: absolute;
     bottom: 2px;
     left: 4px;
-    font-size: 8px;
+    font-size: 8.5px;
+    font-weight: 600;
     color: var(--ink-dim);
     white-space: nowrap;
     opacity: 0.85;
@@ -247,26 +245,25 @@
 
   .density-bar {
     position: absolute;
-    height: 3px;
-    border-radius: 1.5px;
-    opacity: 0.72;
+    height: 4px;
+    border-radius: 2px;
+    opacity: 0.8;
   }
 
   .viewport-lens {
     position: absolute;
-    top: 1px;
-    bottom: 1px;
+    top: 0;
+    bottom: 0;
     background: var(--accent-soft);
     border: 1.5px solid var(--accent);
-    border-radius: 6px;
+    border-radius: 99px;
     cursor: grab;
     z-index: 10;
-    box-shadow: 0 2px 10px -3px var(--accent-line);
     transition: background 0.15s ease, border-color 0.15s ease;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3px;
+    padding: 0 4px;
   }
 
   .viewport-lens:hover {
@@ -277,13 +274,12 @@
   .viewport-lens.is-dragging {
     cursor: grabbing;
     background: rgba(150, 96, 26, 0.26);
-    box-shadow: var(--shadow-md);
   }
 
   .lens-handle-left,
   .lens-handle-right {
     width: 2px;
-    height: 11px;
+    height: 10px;
     background: var(--accent-strong);
     border-radius: 1px;
   }

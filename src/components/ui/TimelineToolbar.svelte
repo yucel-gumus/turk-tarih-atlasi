@@ -172,8 +172,10 @@
   .timeline-toolbar-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     user-select: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
   }
 
   .timeline-toolbar {
@@ -187,17 +189,18 @@
   .toolbar-left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
   }
 
   .toolbar-hint {
-    font-size: 11px;
-    color: var(--text-muted);
+    font-size: 11.5px;
+    color: var(--ink-muted);
   }
 
   .toolbar-hint strong {
-    color: var(--gold-primary);
+    color: var(--ink);
+    font-weight: 600;
   }
 
   .interaction-help {
@@ -210,27 +213,26 @@
     align-items: center;
     gap: 5px;
     font-size: 10px;
+    font-weight: 500;
     color: var(--ink-dim);
-    background: var(--surface-1);
-    border: 1px solid var(--border);
+    background: var(--surface-2);
     border-radius: 9999px;
-    padding: 2px 9px;
+    padding: 3px 10px;
   }
 
   .toolbar-right {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
 
   .button-group {
     display: inline-flex;
     align-items: center;
-    background: var(--surface-1);
-    border: 1px solid var(--border);
-    border-radius: 9px;
-    padding: 2px;
-    gap: 2px;
+    background: var(--surface-2);
+    border-radius: 99px;
+    padding: 3px;
+    gap: 1px;
   }
 
   .control-btn {
@@ -239,14 +241,15 @@
     justify-content: center;
     width: 26px;
     height: 26px;
-    border-radius: 7px;
+    border-radius: 99px;
     color: var(--ink-muted);
     transition: all 0.16s ease;
   }
 
   .control-btn:hover:not(:disabled) {
     color: var(--accent-strong);
-    background: var(--accent-soft);
+    background: var(--surface-1);
+    box-shadow: var(--shadow-sm);
   }
 
   .control-btn:disabled {
@@ -255,8 +258,18 @@
   }
 
   .fit-btn {
-    border-left: 1px solid var(--border);
-    margin-left: 2px;
+    position: relative;
+    margin-left: 4px;
+  }
+  .fit-btn::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 4px;
+    bottom: 4px;
+    width: 1px;
+    background: var(--border-strong);
+    opacity: 0.5;
   }
 
   .zoom-value {
@@ -269,56 +282,51 @@
   }
 
   .list-jump-btn {
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 600;
     color: var(--accent-strong);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-color: var(--accent-line);
-    padding: 4px 6px;
+    padding: 4px 8px;
     transition: opacity 0.15s ease;
   }
 
   .list-jump-btn:hover {
     opacity: 0.85;
-    text-decoration-color: currentColor;
   }
 
   /* Dönem çipleri */
   .era-strip {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     overflow-x: auto;
-    padding-bottom: 2px;
-    font-size: 10px;
+    font-size: 10.5px;
   }
 
   .era-title {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    color: var(--text-dim);
+    gap: 5px;
+    color: var(--ink-dim);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 600;
+    letter-spacing: 0.08em;
+    font-weight: 700;
     white-space: nowrap;
   }
 
   .era-pills {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     flex-wrap: nowrap;
   }
 
   .era-pill {
-    padding: 4px 10px;
-    border-radius: 7px;
-    border: 1px solid var(--border);
-    background: var(--surface-1);
+    padding: 4px 12px;
+    border-radius: 99px;
+    border: 1px solid transparent;
+    background: transparent;
     color: var(--ink-muted);
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
     white-space: nowrap;
     transition: all 0.15s ease;
@@ -326,7 +334,6 @@
 
   .era-pill:hover {
     color: var(--ink);
-    border-color: var(--border-strong);
     background: var(--surface-2);
   }
 

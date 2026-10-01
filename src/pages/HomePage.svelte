@@ -716,11 +716,11 @@
     flex-direction: column;
     min-width: 0;
     width: 100%;
-    gap: 10px;
+    gap: 12px;
     background: var(--surface-1);
     border: 1px solid var(--border);
     border-radius: 16px;
-    padding: 16px;
+    padding: 16px 20px 20px;
     box-shadow: var(--shadow-md);
   }
 
@@ -738,7 +738,7 @@
     min-width: 0;
     padding: 15px;
     border: 1px solid var(--border);
-    border-left: 3px solid var(--state-color);
+    border-left: 4px solid var(--state-color);
     border-radius: 12px;
     background: var(--surface-1);
     box-shadow: var(--shadow-sm);
@@ -746,7 +746,7 @@
   }
 
   .state-list-item:hover {
-    background: color-mix(in srgb, var(--state-color) 7%, #ffffff);
+    background: color-mix(in srgb, var(--state-color) 4%, #ffffff);
     border-color: var(--state-color);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
@@ -796,11 +796,18 @@
   .lane-label {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding-right: 10px;
+    gap: 8px;
+    padding-right: 12px;
     font-size: 10px;
-    color: var(--text-muted);
+    font-weight: 500;
+    color: var(--ink-muted);
     line-height: 1.3;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .lane-label:last-child,
+  .lane:last-child {
+    border-bottom: none;
   }
 
   .lane-name {
@@ -809,7 +816,7 @@
   }
 
   .lane-count {
-    color: var(--text-dim);
+    color: var(--ink-dim);
   }
 
   .timeline-scroll {
@@ -828,13 +835,14 @@
   }
 
   .timeline-scroll:focus-visible {
-    outline: 2px solid var(--gold-primary);
+    outline: 2px solid var(--accent);
     outline-offset: -2px;
     border-radius: 8px;
   }
 
   .timeline-surface {
     position: relative;
+    padding-left: 8px;
   }
 
   /* Kürsör Kılavuz Çizgisi */
@@ -928,5 +936,6 @@
 
   .lane {
     position: relative;
+    border-bottom: 1px solid var(--border);
   }
 </style>
