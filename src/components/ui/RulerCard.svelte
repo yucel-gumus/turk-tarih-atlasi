@@ -3,7 +3,9 @@
   import { yearLabel } from '../../lib/data/atlas';
   import { reignLabel } from '../../lib/data/lookup';
   import { hrefRuler } from '../../lib/router/route';
-  import { ChevronRight, Swords, Users } from '@lucide/svelte';
+  import ChevronRight from '@lucide/svelte/icons/chevron-right';
+  import Swords from '@lucide/svelte/icons/swords';
+  import Users from '@lucide/svelte/icons/users';
 
   let { ruler, state }: { ruler: Ruler; state: State } = $props();
 

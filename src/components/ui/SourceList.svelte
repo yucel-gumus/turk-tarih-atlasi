@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Source } from '../../schemas/atlas.schema';
-  import { ExternalLink } from '@lucide/svelte';
+  import ExternalLink from '@lucide/svelte/icons/external-link';
 
   let { sources }: { sources: Source[] } = $props();
 </script>

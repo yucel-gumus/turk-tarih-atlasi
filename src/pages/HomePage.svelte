@@ -1,15 +1,16 @@
 <script lang="ts">
   import type { State } from '../schemas/atlas.schema';
   import { atlasIndex, filterStates } from '../lib/data/lookup';
-  import { DEVLET_REGIONS, MILESTONES, REGION_MAP, yearLabel, type RealRegion, type RegionInfo } from '../lib/data/atlas';
-  import { hrefGuide, hrefHome, hrefState } from '../lib/router/route';
+  import { DEVLET_REGIONS, MILESTONES, yearLabel, type RealRegion } from '../lib/data/atlas';
+  import { hrefGuide, hrefHome } from '../lib/router/route';
   import PageHeader from '../components/layout/PageHeader.svelte';
-  import SectionBox from '../components/ui/SectionBox.svelte';
-  import TimelineBar from '../components/ui/TimelineBar.svelte';
+  import TimelineSurface, { type Bar, type Lane } from '../components/ui/TimelineSurface.svelte';
   import TimelineToolbar, { type EraPreset } from '../components/ui/TimelineToolbar.svelte';
   import TimelineMinimap from '../components/ui/TimelineMinimap.svelte';
   import TimelineTooltip from '../components/ui/TimelineTooltip.svelte';
-  import { ChevronRight, Search } from '@lucide/svelte';
+  import StateGrid from '../components/ui/StateGrid.svelte';
+  import ChevronRight from '@lucide/svelte/icons/chevron-right';
+  import Search from '@lucide/svelte/icons/search';
   import { tick } from 'svelte';
 
   let { region }: { region: RealRegion | null } = $props();
@@ -34,20 +35,6 @@
   /** Sol kulvar adları sütunu ile şeridin üst satırları; ikisi aynı yüksekliği paylaşır. */
   const HEAD_H = 40;
 
-  interface Bar {
-    state: State;
-    left: number;
-    width: number;
-    top: number;
-    height: number;
-  }
-
-  interface Lane {
-    info: RegionInfo;
-    bars: Bar[];
-    height: number;
-  }
-
   let scaleIndex = $state(0);
   let query = $state('');
   let scroller = $state<HTMLDivElement | null>(null);
@@ -62,6 +49,7 @@
   let dragDistance = 0;
   let suppressClick = false;
   let lastWheelTime = 0;
+  let cachedScrollerRect: DOMRect | null = null;
 
   // Kürsör kılavuz çizgisi ve yıl göstergesi
   let hoverYear = $state<number | null>(null);
@@ -72,6 +60,10 @@
   let tooltipX = $state(0);
   let tooltipY = $state(0);
   let tooltipVisible = $state(false);
+
+  // rAF Throttling
+  let rafPointerId: number | null = null;
+  let pendingPointerEvent: PointerEvent | null = null;
 
   const filtered = $derived(filterStates(index.devletler, { region, query }));
 
@@ -197,7 +189,6 @@
   function handleWheel(e: WheelEvent) {
     if (!scroller) return;
 
-    // Shift tuşu veya touchpad yatay kaydırma hareketi varsa doğal kaydırmaya bırak
     if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 4)) {
       return;
     }
@@ -221,6 +212,7 @@
 
   /**
    * Fare ile basılı tutup sürükleyerek kaydırma (Pointer Drag-to-Pan)
+   * rAF ile 60 FPS'e kilitlenir ve layout thrashing önlenir.
    */
   function handlePointerDown(e: PointerEvent) {
     if (e.button !== 0 || !scroller) return;
@@ -228,12 +220,24 @@
     startX = e.clientX;
     startScrollLeft = scroller.scrollLeft;
     dragDistance = 0;
+    cachedScrollerRect = scroller.getBoundingClientRect();
   }
 
   function handlePointerMove(e: PointerEvent) {
+    pendingPointerEvent = e;
+    if (rafPointerId === null) {
+      rafPointerId = requestAnimationFrame(processPointerMove);
+    }
+  }
+
+  function processPointerMove() {
+    rafPointerId = null;
+    const e = pendingPointerEvent;
+    if (!e || !scroller) return;
+
     // Kılavuz çizgisi güncelleme
-    if (!isDragging && scroller) {
-      const rect = scroller.getBoundingClientRect();
+    if (!isDragging) {
+      const rect = cachedScrollerRect ?? scroller.getBoundingClientRect();
       const surfaceX = e.clientX - rect.left + scroller.scrollLeft;
       if (pxPerYear > 0 && surfaceX >= 0 && surfaceX <= surfaceWidth) {
         hoverYear = Math.round(bounds.min + surfaceX / pxPerYear);
@@ -241,7 +245,7 @@
       }
     }
 
-    if (!isPointerDown || !scroller) return;
+    if (!isPointerDown) return;
 
     const dx = e.clientX - startX;
     dragDistance = Math.abs(dx);
@@ -265,6 +269,11 @@
   function handlePointerUp(e: PointerEvent) {
     if (!isPointerDown) return;
     isPointerDown = false;
+    cachedScrollerRect = null;
+    if (rafPointerId !== null) {
+      cancelAnimationFrame(rafPointerId);
+      rafPointerId = null;
+    }
 
     if (isDragging) {
       if (scroller && scroller.hasPointerCapture(e.pointerId)) {
@@ -282,18 +291,6 @@
     }
   }
 
-  function handlePointerCancel(e: PointerEvent) {
-    if (!isPointerDown) return;
-    isPointerDown = false;
-    if (isDragging && scroller && scroller.hasPointerCapture(e.pointerId)) {
-      try {
-        scroller.releasePointerCapture(e.pointerId);
-      } catch {
-        // ignore
-      }
-    }
-    isDragging = false;
-  }
 
   /**
    * Sürükleme bittiğinde bağlantının kazara açılmasını önler
@@ -338,19 +335,19 @@
     handleJumpToYear(era.year, era.scaleIndex);
   }
 
-  function handleBarHover(state: State, e: MouseEvent) {
+  function handleBarHover(state: State, pos: { clientX: number; clientY: number }) {
     if (isDragging) return;
     hoveredState = state;
     const pad = 16;
     const tooltipW = 280;
     const tooltipH = 180;
-    let tx = e.clientX + 16;
-    let ty = e.clientY + 16;
+    let tx = pos.clientX + 16;
+    let ty = pos.clientY + 16;
     if (tx + tooltipW > window.innerWidth - pad) {
-      tx = e.clientX - tooltipW - 16;
+      tx = pos.clientX - tooltipW - 16;
     }
     if (ty + tooltipH > window.innerHeight - pad) {
-      ty = e.clientY - tooltipH - 16;
+      ty = pos.clientY - tooltipH - 16;
     }
     tooltipX = tx;
     tooltipY = ty;
@@ -446,6 +443,8 @@
   <label class="search-box">
     <Search size={14} aria-hidden="true" />
     <input
+      id="timeline-search-filter"
+      name="timeline-search"
       type="search"
       aria-label="Şeritteki devletleri süz"
       placeholder="Devlet, diğer ad ya da hükümdar ara"
@@ -502,65 +501,27 @@
       onpointerdown={handlePointerDown}
       onpointermove={handlePointerMove}
       onpointerup={handlePointerUp}
-      onpointercancel={handlePointerCancel}
+      onpointercancel={handlePointerUp}
       onclickcapture={handleClickCapture}
       onmouseleave={handleSurfaceMouseLeave}
       tabindex="0"
-      role="application"
+      role="region"
       aria-label="Zaman şeridi tuvali. Fareyle sürükleyebilir veya yön tuşlarıyla gezinebilirsiniz."
     >
-      <div class="timeline-surface" style="width: {surfaceWidth}px">
-        <!-- Canlı Kürsör Kılavuz Çizgisi -->
-        {#if hoverX !== null && hoverYear !== null && !isDragging}
-          <div class="hover-guideline" style="left: {hoverX}px;" aria-hidden="true">
-            <span class="hover-year-pill">{yearLabel(hoverYear)}</span>
-          </div>
-        {/if}
-
-        <div class="milestone-lines" aria-hidden="true">
-          {#each milestones as m (m.year)}
-            <span class="milestone-line" style="left: {m.left}px"></span>
-          {/each}
-        </div>
-
-        <div class="head-rows" style="height: {HEAD_H}px">
-          <div class="century-ruler">
-            {#each centuries as c (c.year)}
-              <span class="century-tick" style="left: {c.left}px">
-                {#if showCenturyLabels}
-                  <span class="century-label">{c.label}</span>
-                {/if}
-              </span>
-            {/each}
-          </div>
-          <div class="milestone-row">
-            {#if showMilestoneLabels}
-              {#each milestones as m (m.year)}
-                <span class="milestone-label" style="left: {m.left}px">{m.label} · {yearLabel(m.year)}</span>
-              {/each}
-            {/if}
-          </div>
-        </div>
-
-        <div class="lanes">
-          {#each lanes as lane (lane.info.id)}
-            <div class="lane" style="height: {lane.height}px">
-              {#each lane.bars as bar (bar.state.id)}
-                <TimelineBar
-                  state={bar.state}
-                  color={lane.info.color}
-                  left={bar.left}
-                  width={bar.width}
-                  top={bar.top}
-                  height={bar.height}
-                  onHover={handleBarHover}
-                  onLeave={handleBarLeave}
-                />
-              {/each}
-            </div>
-          {/each}
-        </div>
-      </div>
+      <TimelineSurface
+        {surfaceWidth}
+        headHeight={HEAD_H}
+        {hoverX}
+        {hoverYear}
+        {isDragging}
+        {milestones}
+        {showMilestoneLabels}
+        {centuries}
+        {showCenturyLabels}
+        {lanes}
+        onBarHover={handleBarHover}
+        onBarLeave={handleBarLeave}
+      />
     </div>
   </div>
 
@@ -580,26 +541,8 @@
   visible={tooltipVisible && !isDragging}
 />
 
-<SectionBox title={`Devletler · ${filtered.length}`}>
-  <div id="devlet-listesi" class="state-list">
-    {#each filtered as state (state.id)}
-      <a
-        class="state-list-item"
-        href={hrefState(state.id)}
-        style="--state-color: {REGION_MAP[state.region]?.color ?? '#96601a'}"
-      >
-        <span class="state-list-top">
-          <span class="state-list-name">{state.name}</span>
-          <ChevronRight size={15} aria-hidden="true" />
-        </span>
-        <span class="state-list-meta">
-          {yearLabel(state.start)} – {yearLabel(state.end)} · {state.rulers.length} hükümdar
-        </span>
-        <span class="state-list-summary">{state.summary}</span>
-      </a>
-    {/each}
-  </div>
-</SectionBox>
+<!-- Ayrıştırılmış Devletler Listesi Izgarası -->
+<StateGrid states={filtered} />
 
 <style>
   .guide-strip {
@@ -724,65 +667,6 @@
     box-shadow: var(--shadow-md);
   }
 
-  .state-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 10px;
-    scroll-margin-top: 90px;
-  }
-
-  .state-list-item {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    min-width: 0;
-    padding: 15px;
-    border: 1px solid var(--border);
-    border-left: 4px solid var(--state-color);
-    border-radius: 12px;
-    background: var(--surface-1);
-    box-shadow: var(--shadow-sm);
-    transition: background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
-  }
-
-  .state-list-item:hover {
-    background: color-mix(in srgb, var(--state-color) 4%, #ffffff);
-    border-color: var(--state-color);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-  }
-
-  .state-list-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    color: var(--ink);
-  }
-
-  .state-list-name {
-    font-family: var(--font-serif);
-    font-size: 16px;
-    font-weight: 600;
-  }
-
-  .state-list-meta {
-    font-size: 11px;
-    font-weight: 600;
-    color: var(--accent-strong);
-  }
-
-  .state-list-summary {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    overflow: hidden;
-    font-size: 12.5px;
-    line-height: 1.55;
-    color: var(--ink-soft);
-  }
-
   .timeline-body {
     display: flex;
     align-items: flex-start;
@@ -805,8 +689,7 @@
     border-bottom: 1px solid var(--border);
   }
 
-  .lane-label:last-child,
-  .lane:last-child {
+  .lane-label:last-child {
     border-bottom: none;
   }
 
@@ -840,102 +723,14 @@
     border-radius: 8px;
   }
 
-  .timeline-surface {
-    position: relative;
-    padding-left: 8px;
-  }
-
-  /* Kürsör Kılavuz Çizgisi */
-  .hover-guideline {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: var(--gold-primary);
-    box-shadow: 0 0 8px var(--gold-glow);
-    z-index: 8;
-    pointer-events: none;
-    transform: translateX(-50%);
-  }
-
-  .hover-year-pill {
-    position: sticky;
-    top: 2px;
-    display: inline-block;
-    transform: translateX(-50%);
-    background: var(--accent);
-    color: #ffffff;
-    font-size: 10px;
-    font-weight: 700;
-    padding: 2px 8px;
-    border-radius: 9999px;
-    box-shadow: var(--shadow-sm);
-    white-space: nowrap;
-  }
-
-  .milestone-lines {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-  }
-
-  .milestone-line {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: rgba(150, 96, 26, 0.16);
-  }
-
-  .head-rows {
-    position: relative;
-    z-index: 1;
-  }
-
-  .century-ruler {
-    position: relative;
-    height: 22px;
-  }
-
-  .century-tick {
-    position: absolute;
-    bottom: 0;
-    width: 1px;
-    height: 6px;
-    background: var(--border-strong);
-  }
-
-  .century-label {
-    position: absolute;
-    bottom: 8px;
-    left: 0;
-    transform: translateX(-50%);
-    font-size: 10px;
-    color: var(--ink-dim);
-    white-space: nowrap;
-  }
-
-  .milestone-row {
-    position: relative;
-    height: 18px;
-  }
-
-  .milestone-label {
-    position: absolute;
-    top: 2px;
-    transform: translateX(-50%);
-    font-size: 9px;
-    color: var(--gold-primary);
-    white-space: nowrap;
-  }
-
-  .lanes {
-    position: relative;
-    z-index: 1;
-  }
-
-  .lane {
-    position: relative;
-    border-bottom: 1px solid var(--border);
+  .honesty-note {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--ink-muted);
+    margin: 8px 0 0;
+    padding: 12px 14px;
+    border-radius: 8px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
   }
 </style>

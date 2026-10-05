@@ -2,7 +2,13 @@
   import { atlasIndex, searchItems, type SearchItem } from '../../lib/data/lookup';
   import { router } from '../../lib/router/router.svelte';
   import { hrefSearch } from '../../lib/router/route';
-  import { BookOpen, Crown, Heart, Search, Swords, User, Users } from '@lucide/svelte';
+  import BookOpen from '@lucide/svelte/icons/book-open';
+  import Crown from '@lucide/svelte/icons/crown';
+  import Heart from '@lucide/svelte/icons/heart';
+  import Search from '@lucide/svelte/icons/search';
+  import Swords from '@lucide/svelte/icons/swords';
+  import User from '@lucide/svelte/icons/user';
+  import Users from '@lucide/svelte/icons/users';
 
   const items = atlasIndex().arama;
 

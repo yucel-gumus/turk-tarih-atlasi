@@ -1,7 +1,10 @@
 <script lang="ts">
   import type { State } from '../../schemas/atlas.schema';
   import { DEVLET_REGIONS, yearLabel } from '../../lib/data/atlas';
-  import { Crown, Swords, Landmark, ArrowRight } from '@lucide/svelte';
+  import Crown from '@lucide/svelte/icons/crown';
+  import Swords from '@lucide/svelte/icons/swords';
+  import Landmark from '@lucide/svelte/icons/landmark';
+  import ArrowRight from '@lucide/svelte/icons/arrow-right';
 
   let {
     state,

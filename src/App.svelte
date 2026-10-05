@@ -8,7 +8,7 @@
   import RulerPage from './pages/RulerPage.svelte';
   import WarPage from './pages/WarPage.svelte';
   import PersonPage from './pages/PersonPage.svelte';
-  import NotFoundPage from './pages/NotFoundPage.svelte';
+  import NotFoundNotice from './components/ui/NotFoundNotice.svelte';
 
   /**
    * Uygulama ince bir dağıtıcıdır: hangi sayfanın çizileceğini adres belirler.
@@ -40,6 +40,6 @@
       slug={route.slug}
     />
   {:else}
-    <NotFoundPage raw={route.raw} />
+    <NotFoundNotice raw={route.raw} />
   {/if}
 </PageShell>

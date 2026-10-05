@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { State } from '../../schemas/atlas.schema';
   import { DEVLET_REGIONS, yearLabel } from '../../lib/data/atlas';
-  import { Compass } from '@lucide/svelte';
+  import Compass from '@lucide/svelte/icons/compass';
 
   let {
     bounds,
@@ -48,9 +48,16 @@
     return Math.max(1.5, Math.min(100 - lensLeftPct, raw));
   });
 
+  let cachedTrackWidth = 0;
+  let rafLensId: number | null = null;
+  let pendingDeltaRatio = 0;
+
   /** Harita üzerinde tıklanan yıla atla */
   function handleTrackClick(e: MouseEvent) {
     if (isDraggingLens || !trackNode) return;
+    // Lens bırakıldığında tarayıcı lens üzerinde click üretir ve bu track'e kabarır;
+    // yoksayılmazsa sürükleme sonrası şerit tıklanan yıla geri sıçrar.
+    if ((e.target as Element).closest('.viewport-lens')) return;
     const rect = trackNode.getBoundingClientRect();
     const clickX = e.clientX - rect.left;
     const ratio = Math.max(0, Math.min(1, clickX / rect.width));
@@ -63,21 +70,38 @@
     if (e.button !== 0 || !trackNode) return;
     isDraggingLens = true;
     startX = e.clientX;
+    cachedTrackWidth = trackNode.getBoundingClientRect().width || 1;
+    pendingDeltaRatio = 0;
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   }
 
   function handleLensPointerMove(e: PointerEvent) {
-    if (!isDraggingLens || !trackNode) return;
+    if (!isDraggingLens || cachedTrackWidth <= 0) return;
     const dx = e.clientX - startX;
     startX = e.clientX;
-    const rect = trackNode.getBoundingClientRect();
-    const ratioDelta = dx / rect.width;
-    onPanByRatio(ratioDelta);
+    pendingDeltaRatio += dx / cachedTrackWidth;
+    if (rafLensId === null) {
+      rafLensId = requestAnimationFrame(() => {
+        rafLensId = null;
+        if (pendingDeltaRatio !== 0) {
+          onPanByRatio(pendingDeltaRatio);
+          pendingDeltaRatio = 0;
+        }
+      });
+    }
   }
 
   function handleLensPointerUp(e: PointerEvent) {
     if (!isDraggingLens) return;
     isDraggingLens = false;
+    if (rafLensId !== null) {
+      cancelAnimationFrame(rafLensId);
+      rafLensId = null;
+    }
+    if (pendingDeltaRatio !== 0) {
+      onPanByRatio(pendingDeltaRatio);
+      pendingDeltaRatio = 0;
+    }
     try {
       (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId);
     } catch {
@@ -86,7 +110,7 @@
   }
 </script>
 
-<div class="minimap-container no-print" aria-label="Zaman gezgini ve genel bakış">
+<div class="minimap-container no-print" role="group" aria-label="Zaman gezgini ve genel bakış">
   <div class="minimap-header">
     <div class="header-left">
       <Compass size={13} color="var(--gold-primary)" aria-hidden="true" />
@@ -109,10 +133,14 @@
     aria-valuemin={bounds.min}
     aria-valuemax={bounds.max}
     aria-valuenow={Math.round(viewportStartYear)}
+    aria-valuetext={`${yearLabel(Math.round(viewportStartYear))} ile ${yearLabel(Math.round(viewportEndYear))} arası`}
     tabindex="0"
     onkeydown={(e) => {
-      if (e.key === 'ArrowLeft') onPanByRatio(-0.05);
-      if (e.key === 'ArrowRight') onPanByRatio(0.05);
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+      // Sayfanın global ok-tuşu kaydırması da tetiklenmesin (çift kaydırma).
+      e.preventDefault();
+      e.stopPropagation();
+      onPanByRatio(e.key === 'ArrowLeft' ? -0.05 : 0.05);
     }}
   >
     <!-- Yüzyıl çizgileri -->
@@ -144,9 +172,7 @@
       onpointermove={handleLensPointerMove}
       onpointerup={handleLensPointerUp}
       onpointercancel={handleLensPointerUp}
-      role="button"
-      tabindex="-1"
-      aria-label="Görüş penceresini sürükleyin"
+      aria-hidden="true"
       title="Sürükleyerek şeridi kaydırın"
     >
       <div class="lens-handle-left"></div>
@@ -219,18 +245,21 @@
     width: 1px;
     background: var(--border-strong);
     pointer-events: none;
-    z-index: 1;
+    z-index: 3; /* etiketler yoğunluk çubuklarının (z 2) üstünde okunabilsin */
   }
 
   .tick-label {
     position: absolute;
     bottom: 2px;
     left: 4px;
-    font-size: 8.5px;
+    font-size: 10px;
     font-weight: 600;
     color: var(--ink-dim);
     white-space: nowrap;
-    opacity: 0.85;
+    line-height: 1;
+    padding: 0 2px;
+    border-radius: 2px;
+    background: var(--surface-2);
   }
 
   .density-bars {

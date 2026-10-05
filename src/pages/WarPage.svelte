@@ -10,7 +10,7 @@
   import SectionBox from '../components/ui/SectionBox.svelte';
   import SourceList from '../components/ui/SourceList.svelte';
   import WarRow from '../components/ui/WarRow.svelte';
-  import { Swords } from '@lucide/svelte';
+  import Swords from '@lucide/svelte/icons/swords';
 
   let {
     stateId,

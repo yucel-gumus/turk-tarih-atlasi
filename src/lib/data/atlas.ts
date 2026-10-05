@@ -1,11 +1,11 @@
-import {
-  StateSchema,
-  type State,
-  type Milestone,
-  type Region,
-  type BattleResult,
-  type Certainty,
-  type Confidence,
+import type {
+  State,
+  Ruler,
+  Milestone,
+  Region,
+  BattleResult,
+  Certainty,
+  Confidence,
 } from '../../schemas/atlas.schema';
 
 export interface RegionInfo {
@@ -95,6 +95,67 @@ export function yearLabel(n: number): string {
   return n < 0 ? `MÖ ${-n}` : String(n);
 }
 
+/** Ham hükümdar nesnesini tip sözleşmesine uygun normalize eder. */
+function normalizeRuler(raw: any): Ruler {
+  return {
+    ...raw,
+    aliases: raw.aliases ?? [],
+    title: raw.title ?? '',
+    birth: raw.birth ?? null,
+    birthNote: raw.birthNote ?? '',
+    death: raw.death ?? null,
+    deathNote: raw.deathNote ?? '',
+    reign: raw.reign ?? [null, null],
+    reignNote: raw.reignNote ?? '',
+    claim: raw.claim ?? false,
+    summary: raw.summary ?? '',
+    traits: raw.traits ?? [],
+    contribution: raw.contribution ?? '',
+    harm: raw.harm ?? '',
+    wives: (raw.wives ?? []).map((w: any) => ({
+      name: w.name,
+      mother: w.mother ?? '',
+      note: w.note ?? '',
+      certainty: w.certainty ?? 'kesin',
+    })),
+    children: (raw.children ?? []).map((c: any) => ({
+      name: c.name,
+      mother: c.mother ?? '',
+      note: c.note ?? '',
+      certainty: c.certainty ?? 'kesin',
+    })),
+    familyNotes: raw.familyNotes ?? [],
+    wars: (raw.wars ?? []).map((w: any) => ({
+      name: w.name,
+      when: w.when ?? '',
+      foe: w.foe ?? '',
+      result: w.result ?? 'belirsiz',
+      note: w.note ?? '',
+    })),
+    legends: raw.legends ?? [],
+    sources: raw.sources ?? [],
+  };
+}
+
+/** Ham JSON nesnesini tip sözleşmesine uygun normalize eder. */
+function normalizeState(raw: any): State {
+  return {
+    ...raw,
+    aliases: raw.aliases ?? [],
+    startNote: raw.startNote ?? '',
+    endNote: raw.endNote ?? '',
+    capital: Array.isArray(raw.capital) ? raw.capital.join(', ') : (raw.capital ?? ''),
+    religion: raw.religion ?? '',
+    confidence: raw.confidence ?? 'kayit',
+    confidenceNote: raw.confidenceNote ?? '',
+    summary: raw.summary ?? '',
+    legacy: raw.legacy ?? '',
+    essay: raw.essay ?? [],
+    sources: raw.sources ?? [],
+    rulers: (raw.rulers ?? []).map(normalizeRuler),
+  };
+}
+
 /**
  * `data/raw` altındaki bütün JSON dosyaları tek yükleme yolundan okunur.
  *
@@ -118,17 +179,11 @@ export async function preloadAtlas(): Promise<void> {
   );
 
   const allStates: State[] = [];
-  for (const { path, mod } of loaded) {
+  for (const { mod } of loaded) {
     const rawContent = mod.default;
     const array = Array.isArray(rawContent) ? rawContent : [rawContent];
     for (const item of array) {
-      const parsed = StateSchema.safeParse(item);
-      if (parsed.success) {
-        allStates.push(parsed.data);
-      } else {
-        // Şemaya uymayan kayıt sessizce atlanmaz, konsola yazılır.
-        console.error(`[AtlasLoader] Şema hatası (${path}):`, JSON.stringify(parsed.error.issues));
-      }
+      allStates.push(normalizeState(item));
     }
   }
 

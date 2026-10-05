@@ -2,7 +2,7 @@
   import { atlasIndex } from '../../lib/data/lookup';
   import { hrefHome } from '../../lib/router/route';
   import SearchSuggest from './SearchSuggest.svelte';
-  import { BookOpen } from '@lucide/svelte';
+  import BookOpen from '@lucide/svelte/icons/book-open';
 
   /** Sayılar kayıtlardan sayılır; rehber kartı devlet sayılmaz. */
   const toplam = atlasIndex().toplam;

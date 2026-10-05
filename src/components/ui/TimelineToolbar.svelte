@@ -1,13 +1,11 @@
 <script lang="ts">
-  import {
-    Minus,
-    Plus,
-    Maximize2,
-    ChevronLeft,
-    ChevronRight,
-    MoveHorizontal,
-    Compass,
-  } from '@lucide/svelte';
+  import Minus from '@lucide/svelte/icons/minus';
+  import Plus from '@lucide/svelte/icons/plus';
+  import Maximize2 from '@lucide/svelte/icons/maximize-2';
+  import ChevronLeft from '@lucide/svelte/icons/chevron-left';
+  import ChevronRight from '@lucide/svelte/icons/chevron-right';
+  import MoveHorizontal from '@lucide/svelte/icons/move-horizontal';
+  import Compass from '@lucide/svelte/icons/compass';
 
   export interface EraPreset {
     id: string;
@@ -47,11 +45,13 @@
     onJumpToEra: (era: EraPreset) => void;
   } = $props();
 
-  let activeEraId = $state<string>('all');
-
-  function handleEraClick(era: EraPreset) {
-    activeEraId = era.id;
-    onJumpToEra(era);
+  /** Listeye kaydır ve klavye odağını da oraya taşı. */
+  function jumpToList() {
+    const target = document.getElementById('devlet-listesi');
+    if (!target) return;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+    target.focus({ preventScroll: true });
   }
 </script>
 
@@ -106,7 +106,7 @@
           <Minus size={14} aria-hidden="true" />
         </button>
 
-        <span class="zoom-value" title="Mevcut yakınlaştırma katsayısı">
+        <span class="zoom-value" title="Mevcut yakınlaştırma katsayısı" aria-live="polite">
           {scales[scaleIndex]}×
         </span>
 
@@ -124,10 +124,7 @@
         <button
           class="control-btn fit-btn"
           type="button"
-          onclick={() => {
-            activeEraId = 'all';
-            onSetScale(0);
-          }}
+          onclick={() => onSetScale(0)}
           disabled={scaleIndex === 0}
           aria-label="Tüm aralığı ekrana sığdır"
           title="Tüm aralığı sığdır (1×)"
@@ -139,8 +136,7 @@
       <button
         class="list-jump-btn"
         type="button"
-        onclick={() =>
-          document.getElementById('devlet-listesi')?.scrollIntoView({ behavior: 'smooth' })}
+        onclick={jumpToList}
       >
         Devlet listesi
       </button>
@@ -148,7 +144,7 @@
   </div>
 
   <!-- Dönem Kısayolları (Era Quick Jump Bar) -->
-  <div class="era-strip" role="toolbar" aria-label="Tarihsel dönemlere hızlı atla">
+  <div class="era-strip" role="group" aria-label="Tarihsel dönemlere hızlı atla">
     <span class="era-title">
       <Compass size={11} aria-hidden="true" />
       Dönemler:
@@ -158,8 +154,7 @@
         <button
           type="button"
           class="era-pill"
-          class:active={activeEraId === era.id}
-          onclick={() => handleEraClick(era)}
+          onclick={() => onJumpToEra(era)}
         >
           {era.label}
         </button>
@@ -337,18 +332,11 @@
     background: var(--surface-2);
   }
 
-  .era-pill.active {
-    color: var(--accent-strong);
-    background: var(--accent-soft);
-    border-color: var(--accent-line);
-    font-weight: 600;
-  }
-
   @media (max-width: 768px) {
     .interaction-help {
       display: none;
     }
-    .era-strip {
+    .era-title {
       display: none;
     }
   }

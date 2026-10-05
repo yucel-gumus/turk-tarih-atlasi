@@ -22,7 +22,7 @@
     width: number;
     top: number;
     height: number;
-    onHover?: (state: State, e: MouseEvent) => void;
+    onHover?: (state: State, pos: { clientX: number; clientY: number }) => void;
     onLeave?: () => void;
   } = $props();
 
@@ -30,16 +30,17 @@
   const warCount = $derived(state.rulers.reduce((n, r) => n + r.wars.length, 0));
   const showsLabel = $derived(width >= LABEL_MIN_PX);
 
-  function handleMouseEnter(e: MouseEvent) {
-    onHover?.(state, e);
+  function handleMouse(e: MouseEvent) {
+    onHover?.(state, { clientX: e.clientX, clientY: e.clientY });
   }
 
-  function handleMouseMove(e: MouseEvent) {
-    onHover?.(state, e);
-  }
-
-  function handleMouseLeave() {
-    onLeave?.();
+  function handleFocus(e: FocusEvent) {
+    const el = e.currentTarget as HTMLElement;
+    const rect = el.getBoundingClientRect();
+    onHover?.(state, {
+      clientX: rect.left + Math.min(rect.width / 2, 60),
+      clientY: rect.top,
+    });
   }
 </script>
 
@@ -50,10 +51,13 @@
   href={hrefState(state.id)}
   style="left: {left}px; width: {width}px; top: {top}px; height: {height}px; --bar-color: {color};"
   title="{state.name} ({yearLabel(state.start)} – {yearLabel(state.end)}) · {rulerCount} hükümdar · {warCount} savaş"
+  aria-label="{state.name} ({yearLabel(state.start)} – {yearLabel(state.end)}), {rulerCount} hükümdar, {warCount} savaş"
   ondragstart={(e) => e.preventDefault()}
-  onmouseenter={handleMouseEnter}
-  onmousemove={handleMouseMove}
-  onmouseleave={handleMouseLeave}
+  onmouseenter={handleMouse}
+  onmousemove={handleMouse}
+  onmouseleave={() => onLeave?.()}
+  onfocus={handleFocus}
+  onblur={() => onLeave?.()}
 >
   {#if showsLabel}
     <span class="bar-name">{state.name}</span>
@@ -80,13 +84,21 @@
     transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
     user-select: none;
     -webkit-user-drag: none;
+    outline: none;
   }
 
-  .timeline-bar:hover {
+  .timeline-bar:hover,
+  .timeline-bar:focus-visible {
     background: color-mix(in srgb, var(--bar-color) 28%, #ffffff);
     border-color: var(--bar-color);
     box-shadow: inset 3px 0 0 0 var(--bar-color), 0 8px 18px -10px color-mix(in srgb, var(--bar-color) 75%, transparent);
     z-index: 5;
+  }
+
+  .timeline-bar:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    z-index: 10;
   }
 
   .bar-name {

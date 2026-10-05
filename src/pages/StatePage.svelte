@@ -10,7 +10,8 @@
   import SectionBox from '../components/ui/SectionBox.svelte';
   import SourceList from '../components/ui/SourceList.svelte';
   import WarRow from '../components/ui/WarRow.svelte';
-  import { Crown, Swords } from '@lucide/svelte';
+  import Crown from '@lucide/svelte/icons/crown';
+  import Swords from '@lucide/svelte/icons/swords';
 
   let { stateId }: { stateId: string } = $props();
 

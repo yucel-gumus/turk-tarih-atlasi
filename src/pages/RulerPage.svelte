@@ -12,7 +12,10 @@
   import SectionBox from '../components/ui/SectionBox.svelte';
   import SourceList from '../components/ui/SourceList.svelte';
   import WarRow from '../components/ui/WarRow.svelte';
-  import { ChevronLeft, ChevronRight, Swords, Users } from '@lucide/svelte';
+  import ChevronLeft from '@lucide/svelte/icons/chevron-left';
+  import ChevronRight from '@lucide/svelte/icons/chevron-right';
+  import Swords from '@lucide/svelte/icons/swords';
+  import Users from '@lucide/svelte/icons/users';
 
   let { stateId, rulerId }: { stateId: string; rulerId: string } = $props();
 

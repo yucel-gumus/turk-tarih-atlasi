@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { War } from '../../schemas/atlas.schema';
   import { RESULT_MAP } from '../../lib/data/atlas';
-  import { ChevronRight } from '@lucide/svelte';
+  import ChevronRight from '@lucide/svelte/icons/chevron-right';
 
   let { war, href, owner }: { war: War; href: string; owner?: string } = $props();
 </script>
