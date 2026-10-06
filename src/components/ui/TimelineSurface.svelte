@@ -55,6 +55,17 @@
     </div>
   {/if}
 
+  <!-- Mimari Yüzyıl Kılavuz Çizgileri -->
+  <div class="century-grid-lines" aria-hidden="true">
+    {#each centuries as c (c.year)}
+      <span
+        class="century-grid-line"
+        class:major={c.year % 500 === 0}
+        style="left: {c.left}px;"
+      ></span>
+    {/each}
+  </div>
+
   <div class="milestone-lines" aria-hidden="true">
     {#each milestones as m (m.year)}
       <span class="milestone-line" style="left: {m.left}px"></span>
@@ -64,9 +75,9 @@
   <div class="head-rows" style="height: {headHeight}px">
     <div class="century-ruler">
       {#each centuries as c (c.year)}
-        <span class="century-tick" style="left: {c.left}px">
+        <span class="century-tick" class:major={c.year % 500 === 0} style="left: {c.left}px">
           {#if showCenturyLabels}
-            <span class="century-label">{c.label}</span>
+            <span class="century-label" class:major={c.year % 500 === 0}>{c.label}</span>
           {/if}
         </span>
       {/each}
@@ -134,6 +145,25 @@
     white-space: nowrap;
   }
 
+  .century-grid-lines {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .century-grid-line {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    width: 1px;
+    background: rgba(40, 33, 20, 0.035);
+  }
+
+  .century-grid-line.major {
+    background: rgba(40, 33, 20, 0.075);
+  }
+
   .milestone-lines {
     position: absolute;
     inset: 0;
@@ -151,6 +181,7 @@
   .head-rows {
     position: relative;
     z-index: 1;
+    border-bottom: 1px solid var(--border);
   }
 
   .century-ruler {
@@ -166,14 +197,26 @@
     background: var(--border-strong);
   }
 
+  .century-tick.major {
+    height: 10px;
+    background: var(--accent);
+  }
+
   .century-label {
     position: absolute;
     bottom: 8px;
     left: 0;
     transform: translateX(-50%);
     font-size: 10px;
+    font-weight: 500;
     color: var(--ink-dim);
     white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .century-label.major {
+    color: var(--ink);
+    font-weight: 700;
   }
 
   .milestone-row {
@@ -185,9 +228,14 @@
     position: absolute;
     top: 2px;
     transform: translateX(-50%);
-    font-size: 9px;
-    color: var(--gold-primary);
+    font-size: 9.5px;
+    font-weight: 600;
+    color: var(--accent);
     white-space: nowrap;
+    background: var(--surface-1);
+    padding: 0 4px;
+    border-radius: 3px;
+    border: 1px solid var(--accent-line);
   }
 
   .lanes {

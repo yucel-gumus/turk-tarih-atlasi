@@ -4,8 +4,9 @@
   import Maximize2 from '@lucide/svelte/icons/maximize-2';
   import ChevronLeft from '@lucide/svelte/icons/chevron-left';
   import ChevronRight from '@lucide/svelte/icons/chevron-right';
-  import MoveHorizontal from '@lucide/svelte/icons/move-horizontal';
+  import Move from '@lucide/svelte/icons/move';
   import Compass from '@lucide/svelte/icons/compass';
+  import LayoutList from '@lucide/svelte/icons/layout-list';
 
   export interface EraPreset {
     id: string;
@@ -31,6 +32,7 @@
     maxYearLabel,
     scales,
     scaleIndex,
+    activeEraId = 'all',
     onSetScale,
     onPanBy,
     onJumpToEra,
@@ -40,6 +42,7 @@
     maxYearLabel: string;
     scales: number[];
     scaleIndex: number;
+    activeEraId?: string;
     onSetScale: (index: number) => void;
     onPanBy: (pixels: number) => void;
     onJumpToEra: (era: EraPreset) => void;
@@ -59,13 +62,17 @@
   <!-- Ana Kontrol Çubuğu -->
   <div class="timeline-toolbar">
     <div class="toolbar-left">
-      <span class="toolbar-hint">
-        Şerit <strong>{filteredCount}</strong> devlet gösteriyor · {minYearLabel} – {maxYearLabel}
-      </span>
+      <div class="scope-pill">
+        <span class="scope-count">{filteredCount}</span>
+        <span class="scope-unit">devlet</span>
+        <span class="scope-sep" aria-hidden="true">·</span>
+        <span class="scope-range">{minYearLabel} – {maxYearLabel}</span>
+      </div>
+
       <div class="interaction-help">
-        <span class="help-badge" title="Etkileşim ipuçları">
-          <MoveHorizontal size={12} aria-hidden="true" />
-          <span>Fareyle sürükle & tekerlekle yakınlaştır</span>
+        <span class="help-badge" title="Etkileşim ipuçları: 4 yöne fareyle sürükleyebilir, tekerlekle yakınlaştırabilirsiniz">
+          <Move size={12} aria-hidden="true" />
+          <span>4 Yöne Sürükle & Yakınlaştır</span>
         </span>
       </div>
     </div>
@@ -103,7 +110,7 @@
           aria-label="Uzaklaştır"
           title="Uzaklaştır (Fare tekerleği aşağı veya - tuşu)"
         >
-          <Minus size={14} aria-hidden="true" />
+          <Minus size={13} aria-hidden="true" />
         </button>
 
         <span class="zoom-value" title="Mevcut yakınlaştırma katsayısı" aria-live="polite">
@@ -118,7 +125,7 @@
           aria-label="Yakınlaştır"
           title="Yakınlaştır (Fare tekerleği yukarı veya + tuşu)"
         >
-          <Plus size={14} aria-hidden="true" />
+          <Plus size={13} aria-hidden="true" />
         </button>
 
         <button
@@ -129,7 +136,7 @@
           aria-label="Tüm aralığı ekrana sığdır"
           title="Tüm aralığı sığdır (1×)"
         >
-          <Maximize2 size={13} aria-hidden="true" />
+          <Maximize2 size={12} aria-hidden="true" />
         </button>
       </div>
 
@@ -137,8 +144,10 @@
         class="list-jump-btn"
         type="button"
         onclick={jumpToList}
+        title="Aşağıdaki detaylı devlet listesine kaydır"
       >
-        Devlet listesi
+        <LayoutList size={13} aria-hidden="true" />
+        <span>Devlet listesi</span>
       </button>
     </div>
   </div>
@@ -146,14 +155,15 @@
   <!-- Dönem Kısayolları (Era Quick Jump Bar) -->
   <div class="era-strip" role="group" aria-label="Tarihsel dönemlere hızlı atla">
     <span class="era-title">
-      <Compass size={11} aria-hidden="true" />
-      Dönemler:
+      <Compass size={12} aria-hidden="true" />
+      <span>Dönemler:</span>
     </span>
     <div class="era-pills">
       {#each ERA_PRESETS as era (era.id)}
         <button
           type="button"
           class="era-pill"
+          class:active={activeEraId === era.id}
           onclick={() => onJumpToEra(era)}
         >
           {era.label}
@@ -167,9 +177,9 @@
   .timeline-toolbar-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
     user-select: none;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     border-bottom: 1px solid var(--border);
   }
 
@@ -184,16 +194,39 @@
   .toolbar-left {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
   }
 
-  .toolbar-hint {
+  .scope-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 4px 11px;
     font-size: 11.5px;
     color: var(--ink-muted);
   }
 
-  .toolbar-hint strong {
+  .scope-count {
+    color: var(--accent-strong);
+    font-weight: 700;
+  }
+
+  .scope-unit {
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+
+  .scope-sep {
+    color: var(--border-strong);
+  }
+
+  .scope-range {
+    font-family: var(--font-serif);
+    font-size: 12px;
     color: var(--ink);
     font-weight: 600;
   }
@@ -207,35 +240,38 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    font-size: 10px;
+    font-size: 10.5px;
     font-weight: 500;
     color: var(--ink-dim);
-    background: var(--surface-2);
-    border-radius: 9999px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 99px;
     padding: 3px 10px;
   }
 
   .toolbar-right {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    flex-wrap: wrap;
   }
 
   .button-group {
     display: inline-flex;
     align-items: center;
     background: var(--surface-2);
+    border: 1px solid var(--border);
     border-radius: 99px;
-    padding: 3px;
-    gap: 1px;
+    padding: 2px;
+    gap: 2px;
   }
 
   .control-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 26px;
-    height: 26px;
+    width: 27px;
+    height: 27px;
     border-radius: 99px;
     color: var(--ink-muted);
     transition: all 0.16s ease;
@@ -254,47 +290,64 @@
 
   .fit-btn {
     position: relative;
-    margin-left: 4px;
+    margin-left: 2px;
   }
   .fit-btn::before {
     content: '';
     position: absolute;
     left: -2px;
-    top: 4px;
-    bottom: 4px;
+    top: 5px;
+    bottom: 5px;
     width: 1px;
     background: var(--border-strong);
-    opacity: 0.5;
+    opacity: 0.6;
   }
 
   .zoom-value {
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 600;
     color: var(--ink);
-    min-width: 32px;
+    min-width: 30px;
     text-align: center;
     font-variant-numeric: tabular-nums;
+    user-select: none;
   }
 
   .list-jump-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     font-size: 11.5px;
     font-weight: 600;
-    color: var(--accent-strong);
-    padding: 4px 8px;
-    transition: opacity 0.15s ease;
+    color: var(--ink-soft);
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: 5px 12px;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.16s ease;
   }
 
   .list-jump-btn:hover {
-    opacity: 0.85;
+    color: var(--accent-strong);
+    border-color: var(--accent-line);
+    background: var(--surface-2);
+    box-shadow: var(--shadow-md);
   }
 
   /* Dönem çipleri */
   .era-strip {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     overflow-x: auto;
-    font-size: 10.5px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding: 2px 0;
+  }
+
+  .era-strip::-webkit-scrollbar {
+    display: none;
   }
 
   .era-title {
@@ -304,22 +357,24 @@
     color: var(--ink-dim);
     text-transform: uppercase;
     letter-spacing: 0.08em;
+    font-size: 10px;
     font-weight: 700;
     white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .era-pills {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 5px;
     flex-wrap: nowrap;
   }
 
   .era-pill {
-    padding: 4px 12px;
+    padding: 4px 11px;
     border-radius: 99px;
-    border: 1px solid transparent;
-    background: transparent;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
     color: var(--ink-muted);
     font-size: 11px;
     font-weight: 500;
@@ -329,7 +384,16 @@
 
   .era-pill:hover {
     color: var(--ink);
+    border-color: var(--border-strong);
     background: var(--surface-2);
+  }
+
+  .era-pill.active {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent-strong);
+    font-weight: 600;
+    box-shadow: 0 1px 4px rgba(150, 96, 26, 0.28);
   }
 
   @media (max-width: 768px) {
@@ -338,6 +402,32 @@
     }
     .era-title {
       display: none;
+    }
+    .scope-pill {
+      font-size: 10.5px;
+      padding: 3px 9px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .timeline-toolbar {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 8px;
+      padding-bottom: 8px;
+    }
+    .toolbar-left {
+      width: 100%;
+      justify-content: flex-start;
+    }
+    .toolbar-right {
+      width: 100%;
+      justify-content: space-between;
+      gap: 6px;
+    }
+    .list-jump-btn {
+      padding: 4px 9px;
+      font-size: 11px;
     }
   }
 </style>

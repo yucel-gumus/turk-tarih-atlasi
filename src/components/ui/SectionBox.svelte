@@ -2,10 +2,21 @@
   import type { Snippet } from 'svelte';
 
   /** İçerik bölümü: başlık, isteğe bağlı ikon ve snippet içerik. */
-  let { title, icon, children }: { title?: string; icon?: Snippet; children: Snippet } = $props();
+  let {
+    id,
+    title,
+    icon,
+    children,
+  }: {
+    id?: string;
+    title?: string;
+    icon?: Snippet;
+    children: Snippet;
+  } = $props();
 </script>
 
-<section class="section-box">
+<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
+<section {id} class="section-box" tabindex={id ? -1 : undefined}>
   {#if title}
     <h2 class="section-heading">
       {#if icon}
@@ -27,6 +38,7 @@
     flex-direction: column;
     gap: 11px;
     box-shadow: var(--shadow-sm);
+    scroll-margin-top: 110px;
   }
 
   .section-heading {

@@ -22,11 +22,11 @@
    * 1× tüm tarihi ekrana sığdırır; 24× en kısa ömürlü beylikleri bile rahatça inceler.
    */
   const SCALES = [1, 1.5, 2, 3, 5, 8, 12, 16, 24];
-  const BAR_H = 26;
-  const BAR_GAP = 3;
+  const BAR_H = 34;
+  const BAR_GAP = 4;
   const LANE_PAD = 6;
-  /** Çok kısa süren devletler kaybolmasın diye en küçük çubuk genişliği. */
-  const MIN_BAR_PX = 4;
+  /** Kısa süren devletler erişilebilir dokunma/tıklama boyutu kazansın diye en küçük çubuk genişliği (WCAG 2.5.8). */
+  const MIN_BAR_PX = 24;
   const END_PAD = 16;
   /** Yüzyıl etiketinin sığması için gereken yüz yıllık genişlik. */
   const CENTURY_LABEL_PX = 46;
@@ -36,6 +36,7 @@
   const HEAD_H = 40;
 
   let scaleIndex = $state(0);
+  let activeEraId = $state<string>('all');
   let query = $state('');
   let scroller = $state<HTMLDivElement | null>(null);
   let laneWidth = $state(0);
@@ -45,11 +46,14 @@
   let isPointerDown = false;
   let isDragging = $state(false);
   let startX = 0;
+  let startY = 0;
   let startScrollLeft = 0;
+  let startScrollTop = 0;
   let dragDistance = 0;
   let suppressClick = false;
   let lastWheelTime = 0;
   let cachedScrollerRect: DOMRect | null = null;
+  let activeCaptureTarget: HTMLElement | null = null;
 
   // Kürsör kılavuz çizgisi ve yıl göstergesi
   let hoverYear = $state<number | null>(null);
@@ -211,16 +215,20 @@
   }
 
   /**
-   * Fare ile basılı tutup sürükleyerek kaydırma (Pointer Drag-to-Pan)
+   * Fare ile basılı tutup sürükleyerek 2 boyutlu kaydırma (2D Pointer Drag-to-Pan)
+   * Yatayda zaman eksenini, dikeyde kulvarları/sayfayı kaydırır.
    * rAF ile 60 FPS'e kilitlenir ve layout thrashing önlenir.
    */
   function handlePointerDown(e: PointerEvent) {
     if (e.button !== 0 || !scroller) return;
     isPointerDown = true;
     startX = e.clientX;
+    startY = e.clientY;
     startScrollLeft = scroller.scrollLeft;
+    startScrollTop = window.scrollY;
     dragDistance = 0;
     cachedScrollerRect = scroller.getBoundingClientRect();
+    activeCaptureTarget = (e.currentTarget as HTMLElement) ?? scroller;
   }
 
   function handlePointerMove(e: PointerEvent) {
@@ -248,7 +256,8 @@
     if (!isPointerDown) return;
 
     const dx = e.clientX - startX;
-    dragDistance = Math.abs(dx);
+    const dy = e.clientY - startY;
+    dragDistance = Math.hypot(dx, dy);
 
     if (dragDistance > 4) {
       if (!isDragging) {
@@ -256,13 +265,14 @@
         tooltipVisible = false;
         hoveredState = null;
         try {
-          scroller.setPointerCapture(e.pointerId);
+          activeCaptureTarget?.setPointerCapture(e.pointerId);
         } catch {
           // ignore
         }
       }
       scroller.scrollLeft = startScrollLeft - dx;
       scrollLeft = scroller.scrollLeft;
+      window.scrollTo(0, Math.max(0, startScrollTop - dy));
     }
   }
 
@@ -276,13 +286,14 @@
     }
 
     if (isDragging) {
-      if (scroller && scroller.hasPointerCapture(e.pointerId)) {
+      if (activeCaptureTarget && activeCaptureTarget.hasPointerCapture(e.pointerId)) {
         try {
-          scroller.releasePointerCapture(e.pointerId);
+          activeCaptureTarget.releasePointerCapture(e.pointerId);
         } catch {
           // ignore
         }
       }
+      activeCaptureTarget = null;
       suppressClick = true;
       isDragging = false;
       setTimeout(() => {
@@ -332,6 +343,7 @@
   }
 
   function handleJumpToEra(era: EraPreset) {
+    activeEraId = era.id;
     handleJumpToYear(era.year, era.scaleIndex);
   }
 
@@ -461,6 +473,7 @@
     maxYearLabel={yearLabel(bounds.max)}
     scales={SCALES}
     {scaleIndex}
+    {activeEraId}
     onSetScale={setScale}
     onPanBy={handlePanBy}
     onJumpToEra={handleJumpToEra}
@@ -478,7 +491,17 @@
 
   <!-- Zaman Şeridi Gövdesi -->
   <div class="timeline-body">
-    <div class="lane-labels" style="padding-top: {HEAD_H}px">
+    <!-- svelte-ignore a11y_no_static_element_interactions -->
+    <div
+      class="lane-labels"
+      class:is-dragging={isDragging}
+      style="padding-top: {HEAD_H}px"
+      onpointerdown={handlePointerDown}
+      onpointermove={handlePointerMove}
+      onpointerup={handlePointerUp}
+      onpointercancel={handlePointerUp}
+      onclickcapture={handleClickCapture}
+    >
       {#each lanes as lane (lane.info.id)}
         <div class="lane-label" style="height: {lane.height}px">
           <span class="state-indicator" style="background: {lane.info.color}"></span>
@@ -665,6 +688,7 @@
     border-radius: 16px;
     padding: 16px 20px 20px;
     box-shadow: var(--shadow-md);
+    scroll-margin-top: 80px;
   }
 
   .timeline-body {
@@ -674,32 +698,68 @@
 
   .lane-labels {
     flex-shrink: 0;
-    width: 132px;
+    width: 152px;
+    border-right: 1px solid var(--border);
+    margin-right: -1px;
+    z-index: 2;
+    cursor: grab;
+    user-select: none;
+    touch-action: pan-y;
   }
 
   .lane-label {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding-right: 12px;
-    font-size: 10px;
+    gap: 7px;
+    padding-right: 10px;
+    padding-left: 2px;
+    font-size: 11px;
     font-weight: 500;
     color: var(--ink-muted);
     line-height: 1.3;
     border-bottom: 1px solid var(--border);
+    box-sizing: border-box;
   }
 
   .lane-label:last-child {
     border-bottom: none;
   }
 
+  .lane-label .state-indicator {
+    width: 7px;
+    height: 7px;
+    border-radius: 9999px;
+    flex-shrink: 0;
+  }
+
   .lane-name {
     flex: 1;
     min-width: 0;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .lane-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
     color: var(--ink-dim);
+    background: var(--surface-2);
+    padding: 1px 6px;
+    border-radius: 9999px;
+    border: 1px solid var(--border);
+    flex-shrink: 0;
   }
 
   .timeline-scroll {
@@ -712,6 +772,7 @@
     touch-action: pan-y;
   }
 
+  .lane-labels.is-dragging,
   .timeline-scroll.is-dragging {
     cursor: grabbing !important;
     user-select: none !important;
@@ -732,5 +793,41 @@
     border-radius: 8px;
     background: var(--surface-2);
     border: 1px solid var(--border);
+  }
+
+  @media (max-width: 700px) {
+    .filters {
+      gap: 8px;
+    }
+
+    .search-box {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .timeline {
+      padding: 12px 10px 14px;
+      border-radius: 12px;
+    }
+
+    .lane-labels {
+      width: 104px;
+    }
+
+    .lane-label {
+      padding-right: 6px;
+      padding-left: 0;
+      gap: 5px;
+      font-size: 9.5px;
+    }
+
+    .lane-name {
+      font-size: 9.5px;
+    }
+
+    .lane-count {
+      font-size: 9px;
+      padding: 0 4px;
+    }
   }
 </style>

@@ -8,8 +8,8 @@
   let { states }: { states: State[] } = $props();
 </script>
 
-<SectionBox title={`Devletler · ${states.length}`}>
-  <div id="devlet-listesi" class="state-list" tabindex="-1">
+<SectionBox id="devlet-listesi" title={`Devletler · ${states.length}`}>
+  <div class="state-list">
     {#each states as state (state.id)}
       <a
         class="state-list-item"
@@ -34,7 +34,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 10px;
-    scroll-margin-top: 90px;
   }
 
   .state-list-item {
