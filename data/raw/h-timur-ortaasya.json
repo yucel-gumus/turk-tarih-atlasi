@@ -58,6 +58,7 @@
           1405
         ],
         "reignNote": "35 yıl boyunca yenilgi yüzü görmeyen cihan fatihi.",
+        "claim": false,
         "summary": "Tarihin en büyük askeri dahilerinden biri. Asya'nın bir ucundan diğer ucuna ordular yürüttü; girdiği hiçbir savaşı kaybetmedi. Altın Orda, Delhi Sultanlığı, Memlükler ve Osmanlıları mağlup etti. Semerkant'ı eşsiz anıtlarla donattı.",
         "traits": [
           "Yenilmez mareşal",
@@ -104,6 +105,7 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Kunduzca Muharebesi",
@@ -148,6 +150,206 @@
           {
             "title": "TDV İslâm Ansiklopedisi, TİMUR",
             "url": "https://islamansiklopedisi.org.tr/timur"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-halil-sultan",
+        "name": "Halil Sultan",
+        "aliases": [
+          "Halil Mirza",
+          "Ebû Bekir Halil Sultan"
+        ],
+        "title": "Sultan",
+        "birth": 1384,
+        "birthNote": "Herat'ta Mîranşah'ın oğlu olarak doğdu",
+        "death": 1411,
+        "deathNote": "Rey'de vefat etti, eşi Şâdmülk ile yan yana defnedildi",
+        "reign": [
+          1405,
+          1409
+        ],
+        "reignNote": "Timur'un vefatı üzerine Semerkant'ta tahta oturdu; 4 yıllık çalkantılı saltanat.",
+        "claim": false,
+        "summary": "Timur'un torunu (Mîranşah'ın oğlu). Timur'un Çin seferinde Otrar'da vefatı üzerine Semerkant'taki hazineye el koyup tahta geçti. Şâdmülk Hatun'a olan aşırı tutkusu ve devlet işlerini ona devretmesi emirlerin tepkisini çekti. Amcası Şahruh'un Semerkant üzerine yürümesiyle tahtı bırakmak zorunda kaldı; Rey valiliğine gönderildi.",
+        "traits": [
+          "Romantik",
+          "Cömert fakat dirayetsiz",
+          "Şair meşrep"
+        ],
+        "contribution": "Semerkant'ta imar faaliyetlerine devam etti; şairleri ve sanatkârları himaye etti.",
+        "harm": "Timur'un biriktirdiği muazzam devlet hazinesini hesapsızca dağıtarak maliyeyi çökertti; Timurlu birliğini koruyamadı.",
+        "wives": [
+          {
+            "name": "Şâdmülk Hatun",
+            "note": "Uğruna tahtını feda ettiği meşhur eşi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Ali Mirza",
+            "mother": "Şâdmülk Hatun",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Bâkır",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Halil Sultan 1411'de vefat edince eşi Şâdmülk Hatun da kahrından hançerle canına kıymıştır."
+        ],
+        "wars": [
+          {
+            "name": "Semerkant Taht Muharebesi",
+            "when": "1405",
+            "foe": "Pir Muhammed Mirza taraftarları ve Sultan Hüseyin Mirza",
+            "result": "zafer",
+            "note": "Semerkant kapılarını tutarak rakiplerini bertaraf etti ve Semerkant tahtına oturdu."
+          },
+          {
+            "name": "Şahruh ile Anlaşma ve Çekilme",
+            "when": "1409",
+            "foe": "Emîr Hudâydâd isyanı ve Horasan Sultanı Şahruh",
+            "result": "antlasma",
+            "note": "Emirlerinin ihanetine uğrayıp esir düştü; Şahruh'un müdahalesiyle Rey valiliği karşılığı Semerkant'ı teslim etti."
+          }
+        ],
+        "legends": [
+          "Şâdmülk Hatun'a yazdığı Türkçe ve Farsça aşk şiirleri dönemin tezkirelerinde efsaneleşmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞAHRUH",
+            "url": "https://islamansiklopedisi.org.tr/sahruh"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-sahruh",
+        "name": "Şahruh Mirza",
+        "aliases": [
+          "Muînüddin Şahruh",
+          "Şahruh Han",
+          "Şahruh Şah"
+        ],
+        "title": "Büyük Sultan / Hakan",
+        "birth": 1377,
+        "birthNote": "Semerkant'ta Timur'un dördüncü oğlu olarak doğdu",
+        "death": 1447,
+        "deathNote": "Rey Seferi sırasında vefat etti, Herat'a Gevher Şad Türbesi'ne defnedildi",
+        "reign": [
+          1405,
+          1447
+        ],
+        "reignNote": "1405'te Herat'ta tahta çıktı; 1409'da tüm imparatorluğu birleştirerek 38 yıl büyük hükümdarlık yaptı.",
+        "claim": false,
+        "summary": "Timur'un dördüncü oğlu ve imparatorluğun ikinci büyük kurucusu. Babasının aksine barışçı, adil ve medeniyet kurucu bir siyaset izledi. Başkenti Semerkant'tan Herat'a taşıdı. Eşi Gevher Şad Begüm ile birlikte camiler, medreseler, kütüphaneler yaptırarak Herat'ı İslam dünyasının kültür başkentine çevirdi. Çin (Ming Hanedanı) ile diplomatik ilişkiler kurdu; Osmanlılar ve Memlükler üzerinde himaye tesis etti.",
+        "traits": [
+          "Adil ve dindar",
+          "İmar ve kültür hamisi",
+          "Diplomasi ustası",
+          "Mutedil"
+        ],
+        "contribution": "Timurlu İmparatorluğu'nu babasının ölümünden sonra dağılmaktan kurtardı; Herat Rönesansı'nı başlattı; oğlu Uluğ Bey'i Semerkant valisi yaparak bilimin gelişmesine zemin hazırladı.",
+        "harm": "Yaşlılık devrinde torunlarının isyanlarını ve hanedan içi hizipleşmeleri engelleyemedi.",
+        "wives": [
+          {
+            "name": "Gevher Şad Begüm",
+            "note": "Gıyâseddin Tarhan'ın kızı; Timurlu mimarisinin ve kültürünün en büyük kadın hamisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Meliket Ağa",
+            "note": "Emir Amîrzâde'nin kızı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Uluğ Bey (Muhammed Taragay)",
+            "mother": "Gevher Şad Begüm",
+            "note": "Büyük astronom, matematikçi ve Semerkant hükümdarı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İbrahim Sultan",
+            "mother": "Gevher Şad Begüm",
+            "note": "Fars valisi, ünlü hattat ve Şehnâme hamisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Baysungur Mirza",
+            "mother": "Gevher Şad Begüm",
+            "note": "Herat sanat akademisinin ve kütüphanesinin efsanevi kurucusu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Soyurgatmış Mirza",
+            "mother": "Meliket Ağa",
+            "note": "Kabil ve Hindistan sınır valisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Cûkî Mirza",
+            "mother": "Gevher Şad Begüm",
+            "note": "Şehzade ve komutan",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Eşi Gevher Şad Begüm, Şahruh'un vefatından sonra 1457'de Ebû Said Mirza tarafından idam edilene kadar hanedanın en etkili siyasi figürü oldu."
+        ],
+        "wars": [
+          {
+            "name": "Yahşi Muharebesi",
+            "when": "1421",
+            "foe": "Karakoyunlu Devleti (İskender Mirza ve İsfahan Mirza)",
+            "result": "zafer",
+            "note": "Azerbaycan'da Karakoyunlu ordusu mağlup edildi, Tebriz ve Doğu Anadolu Timurlu hakimiyetine girdi."
+          },
+          {
+            "name": "Salmas Meydan Muharebesi",
+            "when": "1429",
+            "foe": "Karakoyunlu Devleti (Kara İskender)",
+            "result": "zafer",
+            "note": "Şahruh'un ikinci Azerbaycan seferinde Karakoyunlular kesin hezimete uğratıldı."
+          },
+          {
+            "name": "Üçüncü Azerbaycan Seferi",
+            "when": "1435",
+            "foe": "Karakoyunlu Devleti (Kara İskender)",
+            "result": "zafer",
+            "note": "İskender Osmanlı'ya kaçtı; Şahruh Karakoyunlu tahtına Cihan Şah'ı vassalı olarak oturttu."
+          }
+        ],
+        "legends": [
+          "Ming İmparatoru Yongle ile karşılıklı gönderdikleri elçilik heyetleri ve Şahruh'un Çin imparatoruna İslamiyet'i tebliğ eden diplomatik mektubu tarihi bir vesikadır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞAHRUH",
+            "url": "https://islamansiklopedisi.org.tr/sahruh"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, GEVHER ŞAD",
+            "url": "https://islamansiklopedisi.org.tr/gevher-sad"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
           }
         ]
       },
@@ -167,6 +369,7 @@
           1449
         ],
         "reignNote": "1409'dan itibaren 38 yıl Semerkant valisi ve hükümdarı, 1447-1449 arasında büyük sultan.",
+        "claim": false,
         "summary": "Timur'un torunu, Şahruh'un oğlu. Dünya gökbilim ve matematik tarihinin en büyük dehalarından biri. Semerkant Rasathanesi'ni kurdu, Kadızâde-i Rûmî ve Ali Kuşçu ile birlikte 1018 yıldızın konumunu hatasız hesaplayan 'Zîc-i Uluğ Bey'i hazırladı. Kendi nankör oğlu tarafından şehit edildi.",
         "traits": [
           "Gökbilimci dahi",
@@ -176,7 +379,13 @@
         ],
         "contribution": "Semerkant Rasathanesi ve Uluğ Bey Medresesi'ni kurdu; hazırladığı yıldız cetvelleri asırlarca Doğu ve Batı dünyasında temel kaynak oldu; Ali Kuşçu'yu yetiştirdi.",
         "harm": "Devlet idaresinde askeri disiplini bilimsel çalışmalarının gerisinde tuttu; oğlu Abdüllatif'in isyanını bastıramadı.",
-        "wives": [],
+        "wives": [
+          {
+            "name": "Âk Sultan Hanika",
+            "note": "Ömer Şeyh Mirza'nın kızı",
+            "certainty": "kesin"
+          }
+        ],
         "children": [
           {
             "name": "Abdüllatif",
@@ -191,7 +400,23 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Belh Seferi",
+            "when": "1448",
+            "foe": "Horasan Şehzadesi Alâüddevle Mirza",
+            "result": "zafer",
+            "note": "Herat üzerine yürüyerek yeğeni Alâüddevle'yi mağlup etti ve Herat'ı aldı."
+          },
+          {
+            "name": "Dımaşk Boğazı Muharebesi",
+            "when": "1449",
+            "foe": "Oğlu Abdüllatif Mirza birlikleri",
+            "result": "yenilgi",
+            "note": "Semerkant yakınlarında oğlunun isyancı birliklerine yenildi; tahttan çekildi ve suikastle şehit edildi."
+          }
+        ],
         "legends": [
           "Ay üzerindeki kraterlerden birine ve bir asteroide uluslararası astronomi birliği tarafından 'Ulugh Beg' adı verilmiştir."
         ],
@@ -199,6 +424,416 @@
           {
             "title": "TDV İslâm Ansiklopedisi, ULUĞ BEY",
             "url": "https://islamansiklopedisi.org.tr/ulug-bey"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-abdullatif",
+        "name": "Abdüllatif Mirza",
+        "aliases": [
+          "Peder-küş Abdüllatif"
+        ],
+        "title": "Sultan",
+        "birth": 1420,
+        "birthNote": "Semerkant'ta Uluğ Bey'in oğlu olarak doğdu",
+        "death": 1450,
+        "deathNote": "Semerkant'ta Uluğ Bey taraftarı emir Bâbâ Hüseyin tarafından okla vurularak öldürüldü",
+        "reign": [
+          1449,
+          1450
+        ],
+        "reignNote": "Babasını öldürttükten sonra 6 ay süren meşum saltanat.",
+        "claim": false,
+        "summary": "Uluğ Bey'in büyük oğlu. Babasına karşı isyan ederek onu tahttan indirdi ve hac yolunda suikastle öldürttü. Kardeşi Abdülaziz'i de idam ettirdi. Bu cinayetler nedeniyle halk ve ordu nezdinde 'Peder-küş' (baba katili) lanetiyle anıldı. Saltanatı yalnızca 6 ay sürdü; babasının sadık bir emiri tarafından öldürülüp başı Uluğ Bey Medresesi'nin kapısına asıldı.",
+        "traits": [
+          "Hırslı",
+          "Gözü kara",
+          "Vefasız",
+          "Kibirli"
+        ],
+        "contribution": "Askerî yetenekleri güçlü bir kumandandı.",
+        "harm": "İslam dünyasının en büyük bilgini babası Uluğ Bey'i katlettirdi; Timurlu Devleti'ni telafisi imkansız bir iç savaşa sürükledi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Babası Uluğ Bey'in katlinden tam 6 ay sonra öldürülmüş, cesedi Semerkant sokaklarında sürüklenmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Semerkant Suikastı ve İsyanı",
+            "when": "1450",
+            "foe": "Uluğ Bey'in sadık emirleri (Bâbâ Hüseyin)",
+            "result": "yenilgi",
+            "note": "Cuma namazına giderken pusuya düşürülüp öldürüldü, Semerkant tahtı boşaldı."
+          }
+        ],
+        "legends": [
+          "Öldürüldüğü gün Semerkant'ta halkın 'Baba katilinin saltanatı altı ayı geçmez' diyerek sokaklara döküldüğü rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ULUĞ BEY",
+            "url": "https://islamansiklopedisi.org.tr/ulug-bey"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-abdullah",
+        "name": "Abdullah Mirza",
+        "aliases": [
+          "Sultan Abdullah"
+        ],
+        "title": "Sultan",
+        "birth": 1433,
+        "birthNote": "Şiraz'da İbrâhim Sultan'ın oğlu olarak doğdu",
+        "death": 1451,
+        "deathNote": "Semerkant yakınlarında Ebû Said Mirza ile yaptığı savaşta öldürüldü",
+        "reign": [
+          1450,
+          1451
+        ],
+        "reignNote": "Abdüllatif'in katlinden sonra Semerkant'ta 1 yıl süren saltanat.",
+        "claim": false,
+        "summary": "Timur'un oğlu Şahruh'un torunu (İbrâhim Sultan'ın oğlu). Abdüllatif'in katlinden sonra Semerkant emirleri tarafından tahta çıkarıldı. Müşfik ve ilim sever bir hükümdar olmasına rağmen, Ebû Said Mirza'nın Özbek hükümdarı Ebülhayr Han ile birleşerek Semerkant'a yürümesi sonucu Şiraz Ovası'nda yenilerek öldürüldü.",
+        "traits": [
+          "Nazik",
+          "Sanatsever",
+          "Tecrübesiz"
+        ],
+        "contribution": "Uluğ Bey ailesinin kalan mensuplarını himaye etti.",
+        "harm": "Özbek Hanı Ebülhayr'ın Mâverâünnehir içlerine ilk büyük müdahalesine engel olamadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Şiraz Köyü Muharebesi",
+            "when": "1451",
+            "foe": "Ebû Said Mirza ve Ebülhayr Han Özbekleri",
+            "result": "yenilgi",
+            "note": "Semerkant yakınlarında yapılan meydan muharebesinde yenildi ve maktul düştü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-ebu-said",
+        "name": "Ebû Said Mirza",
+        "aliases": [
+          "Sultan Ebû Said",
+          "Ebû Said Gürgân"
+        ],
+        "title": "Büyük Sultan / Hakan",
+        "birth": 1424,
+        "birthNote": "Semerkant'ta Miranşah'ın torunu Muhammed Mirza'nın oğlu olarak doğdu",
+        "death": 1469,
+        "deathNote": "Karabağ Seferi'nde Uzun Hasan'a esir düşüp Yâdigâr Muhammed Mirza tarafından idam edildi",
+        "reign": [
+          1451,
+          1469
+        ],
+        "reignNote": "1451'de Semerkant, 1459'da Herat tahtına oturarak 18 yıl Timurlu İmparatorluğu'nu tek elde birleştirdi.",
+        "claim": false,
+        "summary": "Bâbür Şah'ın büyükbabası, Miranşah soyunun en dirayetli hükümdarı. Parçalanmış Timurlu Devleti'ni Semerkant'tan Herat ve Bağdat sınırlarına kadar yeniden tek idarede topladı. Nakşibendî şeyhi Ubeydullah Ahrâr'ın müridi olarak adalet ve imara önem verdi. Karakoyunlu Cihan Şah'ın Uzun Hasan tarafından öldürülmesi üzerine Azerbaycan'a sefere çıktı; ancak kış şartlarında Karabağ'da kuşatılıp Uzun Hasan'a esir düştü ve idam edildi.",
+        "traits": [
+          "Azimli",
+          "Büyük komutan",
+          "Mutasavvıf",
+          "Fatih ruhlu"
+        ],
+        "contribution": "Timurlu İmparatorluğu'na ikinci bir altın devir yaşattı; Semerkant ve Herat'ı yeniden tek çatı altında birleştirdi.",
+        "harm": "Karakoyunluların intikamını almak için çıktığı kış seferinde lojistiği ihmal ederek ordusunu ve hayatını kaybetti; batı toprakları Akkoyunlulara geçti.",
+        "wives": [
+          {
+            "name": "Mâh Chûçük Begüm",
+            "note": "Bâbür Şah'ın babası Ömer Şeyh Mirza'nın annesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Sultan Ahmed Mirza",
+            "mother": "",
+            "note": "Semerkant sultanı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sultan Mahmud Mirza",
+            "mother": "",
+            "note": "Hisar ve Badahşan hâkimi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ömer Şeyh Mirza",
+            "mother": "Mâh Chûçük Begüm",
+            "note": "Fergana vâdisi hükümdarı, Bâbür Şah'ın babası",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Uluğ Bey Mirza",
+            "mother": "",
+            "note": "Kabil hâkimi",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Ebû Said'in oğulları Semerkant, Fergana ve Kabil'de Timurlu beyliklerini sürdürmüş; Fergana kolundan Bâbür Şah çıkmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Serahs Meydan Muharebesi",
+            "when": "1459",
+            "foe": "Horasan Şehzadeleri (Alâüddevle, İbrâhim ve Sencer)",
+            "result": "zafer",
+            "note": "Üç Timurlu şehzadesinin birleşik ordusu ezildi; Herat kesin olarak Ebû Said'in eline geçti."
+          },
+          {
+            "name": "Karabağ Kış Seferi / Mahmûdâbâd Kuşatması",
+            "when": "1469",
+            "foe": "Akkoyunlu Devleti (Uzun Hasan)",
+            "result": "yenilgi",
+            "note": "Kışın soğukta lojistik hatları kesilen Timurlu ordusu dağıldı; Ebû Said esir alındı ve öldürüldü."
+          }
+        ],
+        "legends": [
+          "Hâce Ahrâr'ın 'Horasan ve Mâverâünnehir tahtı Ebû Said'e mübarek olsun' duasıyla zafere ulaştığı nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-sultan-ahmed",
+        "name": "Sultan Ahmed Mirza",
+        "aliases": [
+          "Sultan Ahmed Gürgân"
+        ],
+        "title": "Sultan",
+        "birth": 1451,
+        "birthNote": "Semerkant'ta Ebû Said Mirza'nın en büyük oğlu olarak doğdu",
+        "death": 1494,
+        "deathNote": "Fergana Seferi dönüşü Ak-Su mevkiinde hastalanarak vefat etti",
+        "reign": [
+          1469,
+          1494
+        ],
+        "reignNote": "Babasının ölümünden sonra Semerkant tahtında 25 yıl süren istikrarlı saltanat.",
+        "claim": false,
+        "summary": "Ebû Said Mirza'nın büyük oğlu. Babasının Karabağ'da şehadetinden sonra Semerkant ve Buhara tahtına oturdu. Hâce Ubeydullah Ahrâr'ın manevi rehberliğinde Semerkant'ı 25 yıl barış ve refah içinde yönetti. Yeğeni Bâbür'ün Bâbürnâme'de 'ok atmada eşsiz, dürüst ve adil bir Türk padişahı' olarak övdüğü Ahmed Mirza devrinde Mâverâünnehir mamur hale geldi.",
+        "traits": [
+          "Okçuluk üstadı",
+          "Adil ve mutasavvıf",
+          "Müşfik ağabey"
+        ],
+        "contribution": "Mâverâünnehir'de çeyrek asır barış ve ekonomik istikrar sağladı.",
+        "harm": "1488'de Taşkent seferinde Çağatay hanına yenilerek kuzey sınırlarını zayıflattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Baysungur Mirza",
+            "mother": "",
+            "note": "Semerkant valisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sultan Ali Mirza",
+            "mother": "",
+            "note": "Semerkant'ta hüküm süren şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kardeşi Ömer Şeyh Mirza (Bâbür'ün babası) ile Fergana sınırında zaman zaman çekişmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Çırçık Suyu Muharebesi",
+            "when": "1488",
+            "foe": "Moğolistan Hanlığı (Sultan Mahmud Han Çağatay)",
+            "result": "yenilgi",
+            "note": "Taşkent yakınlarında Çağatay ordusuna mağlup oldu, Taşkent Moğolların elinde kaldı."
+          }
+        ],
+        "legends": [
+          "Bâbür'ün yazdığına göre yay germede ve hedefi vurmada çağının en mahir hükümdarıydı."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-huseyin-baykara",
+        "name": "Sultan Hüseyin Baykara",
+        "aliases": [
+          "Hüseyin Mirza Baykara",
+          "Ebûlgazi Sultan Hüseyin",
+          "Hüseynî"
+        ],
+        "title": "Horasan Sultanı / Hakan / Şair",
+        "birth": 1438,
+        "birthNote": "Herat'ta Gıyâseddin Mansur Mirza'nın oğlu olarak doğdu",
+        "death": 1506,
+        "deathNote": "Şeybânî Han'a karşı sefere çıkarken Bâbâ İlâhî mevkiinde vefat etti",
+        "reign": [
+          1469,
+          1506
+        ],
+        "reignNote": "Herat merkezli Horasan'da 37 yıl süren Timurlu Rönesansı'nın doruk saltanatı.",
+        "claim": false,
+        "summary": "Timur'un oğlu Ömer Şeyh soyundan gelen, Doğu Türk kültür ve edebiyatının en büyük hamilerinden biri. Ebû Said Mirza'nın ölümünün ardından Herat'ı ele geçirdi. Veziri ve sütkardeşi Ali Şîr Nevâî ile birlikte Herat'ı bir ilim, edebiyat ve tezhip akademisine çevirdi. 'Hüseynî' mahlasıyla Çağatay Türkçesinde gazeller yazdı ve Dîvân sahibi oldu. Molla Câmî ve nakkaş Bihzâd sarayının yıldızlarıydı. Şeybânî Han tehdidine karşı ordu toplarken vefat etti.",
+        "traits": [
+          "Büyük sanat hamisi",
+          "Çağatay şairi",
+          "Zarif ve cömert",
+          "Savaşçı"
+        ],
+        "contribution": "Çağatay Türkçesini Farsça karşısında yüksek bir edebiyat dili yapan Nevâî meclislerini kurdu ve finanse etti; Herat Rönesansı'nı zirveye taşıdı.",
+        "harm": "Saltanatının sonlarında oğullarının isyanlarıyla uğraştı; yükselen Şeybânî Özbek tehlikesini vaktinde bertaraf edemedi.",
+        "wives": [
+          {
+            "name": "Beke Sultan Begüm",
+            "note": "Hüseyin Baykara'nın baş hatunu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Hüceste Begüm",
+            "note": "Şehzade annesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Bedîüzzaman Mirza",
+            "mother": "Beke Sultan Begüm",
+            "note": "Veliaht ve son hükümdar",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muzaffer Hüseyin Mirza",
+            "mother": "",
+            "note": "Herat'ta ortak sultan",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Hüseyin Mirza",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Çocukluk arkadaşı Ali Şîr Nevâî'ye 'mukarrabü'l-hazre' (hükümdarın en yakını) unvanını vermiş ve vezirlik tevdi etmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Çenârân Muharebesi",
+            "when": "1469",
+            "foe": "Akkoyunlu destekli Yâdigâr Muhammed Mirza",
+            "result": "zafer",
+            "note": "Herat'ı ani bir gece baskınıyla geri aldı ve Yâdigâr Muhammed'i bertaraf etti."
+          },
+          {
+            "name": "Esterâbâd Seferi",
+            "when": "1497",
+            "foe": "İsyan eden oğlu Bedîüzzaman Mirza",
+            "result": "zafer",
+            "note": "Oğlunun isyanını bastırarak Horasan birliğini muhafaza etti, ardından barıştılar."
+          }
+        ],
+        "legends": [
+          "Şiir meclislerinde Ali Şîr Nevâî ile sabahlara kadar Türkçe mısralar atıştıkları ve Nevâî'nin 'Muhâkemetü'l-Lugateyn'i yazmasına ilham kaynağı olduğu meşhurdur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÜSEYİN BAYKARA",
+            "url": "https://islamansiklopedisi.org.tr/huseyin-baykara"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALÎ ŞÎR NEVÂÎ",
+            "url": "https://islamansiklopedisi.org.tr/ali-sir-nevai"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          }
+        ]
+      },
+      {
+        "id": "timur-imparatorlugu-bediuzzaman",
+        "name": "Bedîüzzaman Mirza",
+        "aliases": [
+          "Bedîüzzaman Gürgân"
+        ],
+        "title": "Sultan / Son Timurlu Hükümdarı",
+        "birth": 1465,
+        "birthNote": "Herat'ta Sultan Hüseyin Baykara'nın büyük oğlu olarak doğdu",
+        "death": 1515,
+        "deathNote": "İstanbul'da vefat etti, Eyüp Sultan Camii haziresine defnedildi",
+        "reign": [
+          1506,
+          1507
+        ],
+        "reignNote": "Kardeşi Muzaffer Hüseyin ile Herat'ta 1 yıl süren son hükümdarlık.",
+        "claim": false,
+        "summary": "Sultan Hüseyin Baykara'nın büyük oğlu. Babasının ölümü üzerine kardeşi Muzaffer Hüseyin ile ortak hükümdar oldu. Ancak 1507'de Muhammed Şeybânî Han komutasındaki Özbek ordusunun Herat'ı kuşatması karşısında şehri savunamayarak önce Safevî Şahı İsmail'e, ardından Osmanlı Sultanı Yavuz Sultan Selim'e sığındı. Çaldıran Zaferi'nden sonra Yavuz tarafından İstanbul'a getirildi ve hürmet gördü; veba sebebiyle İstanbul'da vefat etti. Timurlu İmparatorluğu'nun Herat'taki son meşru sultanıdır.",
+        "traits": [
+          "Cesur fakat talihsiz",
+          "Hanedanın son temsilcisi"
+        ],
+        "contribution": "Timurlu hanedanının asaletini sürgünde dahi korudu.",
+        "harm": "Kardeşiyle ortak yönetim kurması Herat savunmasında emirlerin bölünmesine ve şehrin kolayca düşmesine yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Muhammed Zaman Mirza",
+            "mother": "",
+            "note": "Bâbür Şah'ın kızı Mâsume Sultan Begüm ile evlenen ve Hindistan'da Bâbürlü komutanı olan şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Yavuz Sultan Selim Çaldıran Zaferi sonrası Tebriz'de bulduğu Bedîüzzaman Mirza'ya büyük saygı göstermiş, günde 1000 akçe tahsisatla İstanbul'a davet etmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Herat Kuşatması ve Savunması",
+            "when": "1507",
+            "foe": "Şeybânîler (Muhammed Şeybânî Han)",
+            "result": "yenilgi",
+            "note": "Özbek süvarileri karşısında tutunamadı; Herat zaptedildi ve Timurlu İmparatorluğu tarihe karıştı."
+          }
+        ],
+        "legends": [
+          "İstanbul'a geldiğinde Yavuz Sultan Selim'in onu bizzat karşılayıp 'Siz cihan fatihi Timur'un torunusunuz' diyerek tahtına davet ettiği rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TİMURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/timurlular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎ HAN",
+            "url": "https://islamansiklopedisi.org.tr/seybani-han"
           }
         ]
       }

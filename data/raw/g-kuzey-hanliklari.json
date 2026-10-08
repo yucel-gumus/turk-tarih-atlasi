@@ -700,6 +700,7 @@
           1445
         ],
         "reignNote": "Kazan Hanlığı ve Kasım Hanlığı'nın kurucu atası.",
+        "claim": false,
         "summary": "Altın Orda tahtından ayrıldıktan sonra İdil boyuna gelerek Kazan Hanlığı'nı kuran tecrübeli hükümdar. 1445 Suzdal Muharebesi'nde Moskova ordusunu bozguna uğratıp Rus Büyük Knezi II. Vasili'yi esir aldı; Rusları ağır tazminata bağladı.",
         "traits": [
           "Dirayetli lider",
@@ -729,6 +730,7 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Belyov Muharebesi",
@@ -750,8 +752,348 @@
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, ULUĞ MUHAMMED HAN",
-            "url": "https://islamansiklopedisi.org.tr/ulug-muhammed-han"
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-mahmud",
+        "name": "Mahmud Han",
+        "aliases": [
+          "Mahmudek Han"
+        ],
+        "title": "Han",
+        "birth": 1425,
+        "birthNote": "Deşt-i Kıpçak'ta doğdu",
+        "death": 1466,
+        "deathNote": "Kazan'da vefat etti, Kazan Hanları Türbesi'ne defnedildi",
+        "reign": [
+          1445,
+          1466
+        ],
+        "reignNote": "21 yıllık istikrarlı imar ve yükseliş devri.",
+        "claim": false,
+        "summary": "Uluğ Muhammed Han'ın büyük oğlu. Babasının zaferlerini devam ettirdi; Moskova üzerine yürüyerek Rus knezliklerini yıllık vergiye bağladı. Kazan şehrini ve Kremlin'ini taş ve ahşap surlarla muhkem hale getirdi; İdil ticaret yolunu kontrol altına alarak Kazan'ı Avrasya'nın en zengin ticaret merkezlerinden biri yaptı.",
+        "traits": [
+          "İmarcı",
+          "Ticaret hamisi",
+          "Güçlü süvari komutanı"
+        ],
+        "contribution": "Kazan'ın şehir altyapısını ve surlarını kurdu; hanlığın sınırlarını güvenliğe kavuşturdu.",
+        "harm": "Kardeşi Kasım'ın Moskova'ya sığınarak Rus himayesinde Kasım Hanlığı'nı kurmasını engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Halil Han",
+            "mother": "",
+            "note": "Kazan tahtına geçen oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İbrahim Han",
+            "mother": "",
+            "note": "Kazan hanı olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Moskova Seferi ve Vergi Anlaşması",
+            "when": "1446",
+            "foe": "Moskova Knezliği (II. Vasili)",
+            "result": "zafer",
+            "note": "Rus knezliği yıllık düzenli cizye ve haraç ödemeyi kabul etti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-ibrahim",
+        "name": "İbrahim Han",
+        "aliases": [
+          "İbrahim bin Mahmud"
+        ],
+        "title": "Han",
+        "birth": 1440,
+        "birthNote": "Kazan'da doğdu",
+        "death": 1479,
+        "deathNote": "Kazan'da vefat etti",
+        "reign": [
+          1466,
+          1479
+        ],
+        "reignNote": "13 yıl süren bağımsızlık ve Ruslara karşı direnç devri.",
+        "claim": false,
+        "summary": "Mahmud Han'ın oğlu. Ağabeyi Halil Han'ın ardından tahta geçti ve onun dul eşi meşhur Nûr Sultan Bike ile evlendi. Moskova Büyük Knezi III. İvan'ın Kasım Hanlığı prenslerini öne sürerek Kazan'ı içten bölme girişimlerine karşı sert bir direniş gösterdi. 1469'da Rus donanması ve ordusunu İdil boylarında hezimete uğratarak Moskova'yı barışa mecbur bıraktı.",
+        "traits": [
+          "Milli direnişçi",
+          "Kararlı fatih",
+          "Dirayetli diplomat"
+        ],
+        "contribution": "Rusların Kazan tahtına kukla han oturtma planlarını 13 yıl boyunca boşa çıkardı.",
+        "harm": "Ölümüyle hanedan iki rakip fraksiyona (Doğu/Kırım taraftarları ve Moskova taraftarları) bölündü.",
+        "wives": [
+          {
+            "name": "Nûr Sultan Bike",
+            "note": "Nogay prensesi; İbrahim Han'ın vefatından sonra Kırım Hanı Mengli Giray ile evlenmiştir",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "İlham Han (Ali)",
+            "mother": "",
+            "note": "Kazan tahtına geçen oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Emin Han",
+            "mother": "Nûr Sultan Bike",
+            "note": "Kazan'ın büyük şair hanı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Abdüllatif Han",
+            "mother": "Nûr Sultan Bike",
+            "note": "Kazan tahtına oturan şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Eşi Nûr Sultan Bike, Kazan ile Kırım Hanlığı ve Osmanlı sarayı arasında eşsiz bir diplomasi köprüsü kurmuştur."
+        ],
+        "wars": [
+          {
+            "name": "İdil Nehri Muharebesi ve Barış",
+            "when": "1469",
+            "foe": "Moskova Knezliği (III. İvan birlikleri)",
+            "result": "zafer",
+            "note": "Rus donanması kuşatıldı ve esir alındı; Rusya tüm esirleri iade edip barış imzaladı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-ilham",
+        "name": "İlham Han",
+        "aliases": [
+          "Ali Han",
+          "İlham bin İbrahim"
+        ],
+        "title": "Han",
+        "birth": 1460,
+        "birthNote": "Kazan'da doğdu",
+        "death": 1490,
+        "deathNote": "Rusya'da Vologda sürgününde hapsedildiği kalede vefat etti",
+        "reign": [
+          1479,
+          1487
+        ],
+        "reignNote": "8 yıllık çalkantılı taht mücadelesi.",
+        "claim": false,
+        "summary": "İbrahim Han'ın büyük oğlu. Nogaylar ve doğu Tatar mirzalarının desteğiyle tahta çıktı. Moskova Büyük Knezi III. İvan'ın üvey kardeşi Muhammed Emin'i tahta geçirme çabalarına karşı savaştı. 1487'de Rus ordusu Kazan'ı kuşattı; içteki işbirlikçi beylerin ihanetiyle esir düşen İlham Han, Vologda kalesine sürgüne gönderildi ve orada zindanda vefat etti.",
+        "traits": [
+          "Moskova karşıtı",
+          "Bağımsızlık taraftarı"
+        ],
+        "contribution": "Nogay Ordası ile askeri ittifak kurdu.",
+        "harm": "İç hizipleşmeleri bastıramadı; 1487'de Rus ordusunun ilk kez Kazan Kalesi'ne girmesine mani olamadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Ruslar tarafından esir alınıp ailesiyle birlikte Rusya içlerine sürülmüştür."
+        ],
+        "wars": [
+          {
+            "name": "1487 Kazan Kuşatması",
+            "when": "1487",
+            "foe": "Moskova Knezliği (III. İvan ordusu)",
+            "result": "yenilgi",
+            "note": "50 günlük kuşatmanın ardından şehir düştü; İlham Han esir alınıp tahttan indirildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-muhammed-emin",
+        "name": "Muhammed Emin Han",
+        "aliases": [
+          "Möhəmmədämin",
+          "Muhammed Emin bin İbrahim"
+        ],
+        "title": "Han / Şair",
+        "birth": 1469,
+        "birthNote": "Kazan'da İbrahim Han ve Nûr Sultan Bike'nin oğlu olarak doğdu",
+        "death": 1518,
+        "deathNote": "Kazan Kremlin'inde vefat etti, türbesi Kazan'dadır",
+        "reign": [
+          1487,
+          1518
+        ],
+        "reignNote": "1487-1495 ve 1502-1518 olmak üzere iki dönem toplam 24 yıl süren büyük saltanat.",
+        "claim": false,
+        "summary": "Kazan Hanlığı'nın en seçkin ve entelektüel hükümdarlarından biri. İlk saltanatında Rus desteğiyle tahta çıkmışsa da, ikinci saltanatında Moskova boyunduruğunu tamamen parçaladı. 1506'da Moskova Büyük Knezi III. Vasili'nin 100 bin kişilik ordusunu Kazan önlerinde tarihi bir hezimete uğratarak Rus yayılmasını yarım asır durdurdu. Tatar edebiyatında felsefi ve lirik şiirleriyle tanınan bilge bir şairdi.",
+        "traits": [
+          "Bilge hükümdar",
+          "Tatar şairi",
+          "Cesur komutan",
+          "Teşkilatçı"
+        ],
+        "contribution": "1506 meydan zaferiyle Kazan Hanlığı'nın bağımsızlığını tescil etti; Kazan'ı kültür ve ticaret merkezi yaptı.",
+        "harm": "Erkek evlat bırakmadan vefat etmesi hanlıkta taht buhranına ve yabancı hanedanların (Giraylar ve Kasım Hanları) rekabetine yol açtı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Annesi Nûr Sultan Bike Kırım sarayından oğluna diplomatik destek sağlamıştır."
+        ],
+        "wars": [
+          {
+            "name": "Kazan Meydan Muharebesi",
+            "when": "1506",
+            "foe": "Moskova Büyük Knezliği (III. Vasili ordusu)",
+            "result": "zafer",
+            "note": "Kazan önlerinde Rus ordusu kuşatılarak neredeyse tamamen imha edildi; Rusya barışa mecbur kaldı."
+          }
+        ],
+        "legends": [
+          "Yazdığı Türkçe şiirlerin bir kısmı günümüze ulaşmış olup Kazan Hanları arasındaki en güçlü kalem kabul edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-sah-ali",
+        "name": "Şah Ali Han",
+        "aliases": [
+          "Şigaley",
+          "Şahgali"
+        ],
+        "title": "Han / Kasım Hanı",
+        "birth": 1505,
+        "birthNote": "Kasimov'da doğdu",
+        "death": 1567,
+        "deathNote": "Kasimov'da vefat etti",
+        "reign": [
+          1519,
+          1552
+        ],
+        "reignNote": "1519-1521, 1546 ve 1551-1552 yıllarında üç kez Rus baskısıyla tahta çıkarılan tartışmalı han.",
+        "claim": false,
+        "summary": "Kasım Hanlığı hükümdarı Şeyh Evliyar'ın oğlu. Moskova knezlerinin mutlak bir kuklası olarak üç defa Kazan tahtına oturtuldu. Kazan halkı ve asilleri tarafından bir Rus ajanı olarak görüldü ve her defasında ayaklanmalarla tahttan kaçmak zorunda kaldı. Süyümbike Hatun zorla kendisiyle evlendirildiğinde ona kötü muamele etmesiyle anıldı. 1552'de Korkunç İvan'ın ordusunda Kazan'ın fethine ve katliamına bizzat katıldı.",
+        "traits": [
+          "Moskova işbirlikçisi",
+          "Zayıf karakterli",
+          "Nefret edilen kukla"
+        ],
+        "contribution": "Kasım Hanlığı'nda imar faaliyetleri yaptı.",
+        "harm": "Kendi soydaşlarının başkenti Kazan'ın Ruslar tarafından kuşatılmasına ve yıkılmasına rehberlik etti; Tatar tarihinde hain olarak anıldı.",
+        "wives": [
+          {
+            "name": "Süyümbike Hatun",
+            "note": "Kazan esir alındıktan sonra Moskova tarafından zorla nikahlandı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Kazan Halk İhtilali",
+            "when": "1521",
+            "foe": "Kazan halkı ve Kırım Hanı Sahip Giray taraftarları",
+            "result": "yenilgi",
+            "note": "Halkın ayaklanması üzerine saraydan kaçarak Moskova'ya sığındı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-safa-giray",
+        "name": "Safâ Giray Han",
+        "aliases": [
+          "Safa Giray bin Fetih Giray"
+        ],
+        "title": "Han",
+        "birth": 1510,
+        "birthNote": "Bahçesaray'da doğdu",
+        "death": 1549,
+        "deathNote": "Kazan Sarayı'nda şüpheli bir kaza sonucu vefat etti",
+        "reign": [
+          1524,
+          1549
+        ],
+        "reignNote": "1524-1531, 1536-1546 ve 1546-1549 olmak üzere üç dönem 22 yıl süren bağımsızlık mücadelesi.",
+        "claim": false,
+        "summary": "Kırım Hanı I. Mengli Giray'ın torunu (Fetih Giray'ın oğlu). Kırım Giray hanedanından gelerek Kazan tahtına oturdu. Süyümbike Hatun'un eşi. Kazan'ı Moskova'nın boyunduruğundan kurtarmak için Kırım Hanlığı ve Osmanlı Devleti (Kanunî Sultan Süleyman) ile sıkı bir ittifak kurdu. Moskova ordularının peş peşe düzenlediği seferleri ve kuşatmaları kahramanca püskürttü.",
+        "traits": [
+          "Yılmayan savaşçı",
+          "Osmanlı-Kırım müttefiki",
+          "Kararlı lider"
+        ],
+        "contribution": "Kazan'ı çeyrek asır boyunca Rus işgaline karşı başarıyla savundu; topçu ve tüfekli birlikler kurdu.",
+        "harm": "Kırım kökenli beyleri kayırması yerli Kazan mirzalarıyla arasını açtı ve iç çekişmeleri körükledi.",
+        "wives": [
+          {
+            "name": "Süyümbike Hatun",
+            "note": "Nogay Beyi Yusuf'un kızı, Ötemiş Giray'ın annesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Ötemiş Giray",
+            "mother": "Süyümbike Hatun",
+            "note": "Babasının vefatıyla çocuk yaşta tahta çıkan han",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Ölümünden sonra eşi Süyümbike Hatun oğlu Ötemiş adına naibe olarak devleti yönetmiştir."
+        ],
+        "wars": [
+          {
+            "name": "1530 Kazan Savunması",
+            "when": "1530",
+            "foe": "Moskova Knezliği (III. Vasili ordusu)",
+            "result": "zafer",
+            "note": "Kazan Kalesi'ni kuşatan Rus ordusu lağımlar ve süvari taarruzuyla hezimete uğratıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
           }
         ]
       },
@@ -772,6 +1114,7 @@
           1551
         ],
         "reignNote": "Kazan Hanlığı'nın efsanevi kadın naibesi ve hükümdarı.",
+        "claim": false,
         "summary": "Nogay Beyi Yusuf'un kızı, Kazan Hanı Safa Giray'ın eşi. Eşinin vefatından sonra 2 yaşındaki oğlu Ötemiş Giray adına taht naibesi olarak devleti yönetti. Moskova'nın tehditlerine karşı Kazan Kalesi'ni savundu. Rus işbirlikçisi hain beyler tarafından hileyle esir alınıp Ruslara teslim edildi. Moskova'da vaftiz edilmeye zorlandı, zorla Şah Ali ile evlendirildi. Tatar bağımsızlık mücadelesinin en kutsal sembolüdür.",
         "traits": [
           "Milli kahraman",
@@ -790,6 +1133,7 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Kazan Kalesi Savunması",
@@ -804,8 +1148,58 @@
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, SÜYÜMBİKE",
-            "url": "https://islamansiklopedisi.org.tr/suyumbike"
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kazan-yadigar-muhammed",
+        "name": "Yâdigâr Muhammed Han",
+        "aliases": [
+          "Yâdigâr Han",
+          "Simeon Kasayeviç"
+        ],
+        "title": "Son Kazan Hanı / Gazi Han",
+        "birth": 1522,
+        "birthNote": "Astrahan'da doğdu",
+        "death": 1565,
+        "deathNote": "Moskova'da esarette vefat etti",
+        "reign": [
+          1552,
+          1552
+        ],
+        "reignNote": "1552 yılında 5 ay süren kahramanca ve destansı son savunma saltanatı.",
+        "claim": false,
+        "summary": "Astrahan Hanı Kasım'ın oğlu. Şah Ali'nin kaçmasından sonra Kazan asilleri tarafından han seçilerek tahta davet edildi. Korkunç İvan'ın 150 bin kişilik devasa ordusu, yüzlerce topu ve yabancı mühendisleriyle şehri kuşatmasına karşı 30 bin Tatar mücahidiyle destansı bir direniş sergiledi. Şehir lağımlarla surların patlatılması sonucu düştü; sokak çatışmalarında yaralanıp esir alındı. Moskova'ya götürülerek zorla Hristiyan yapıldı; Kazan Hanlığı'nın son bağımsız hükümdarıdır.",
+        "traits": [
+          "Son mücahid",
+          "Korkusuz komutan",
+          "Trajik şehit"
+        ],
+        "contribution": "Kazan Hanlığı'nı son nefesine kadar cansiperane savundu.",
+        "harm": "Dışarıdan (Kırım veya Nogay) yardım alamaması şehrin düşüşünü mukadder kıldı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Korkunç İvan tarafından Moskova'ya esir götürülmüş ve zorla vaftiz edilerek Simeon adı verilmiştir."
+        ],
+        "wars": [
+          {
+            "name": "1552 Kazan Kuşatması ve Düşüşü",
+            "when": "1552",
+            "foe": "Rus Çarlığı (Korkunç İvan)",
+            "result": "yenilgi",
+            "note": "2 ay süren amansız kuşatma ve surların patlatılması sonucu Kazan düştü; hanlık yıkıldı ve korkunç bir katliam yaşandı."
+          }
+        ],
+        "legends": [
+          "Kazan'ın düşüşü sırasında şehrin baş imamı Kul Şerif ve medrese talebeleri cami önünde son nefeslerine kadar şehit olmuştur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAN HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kazan-hanligi"
           }
         ]
       }
@@ -837,8 +1231,8 @@
     ],
     "sources": [
       {
-        "title": "TDV İslâm Ansiklopedisi, ASTRAHAN HANLIĞI",
-        "url": "https://islamansiklopedisi.org.tr/astrahan-hanligi"
+        "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
       }
     ],
     "rulers": [
@@ -889,8 +1283,104 @@
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, ASTRAHAN HANLIĞI",
-            "url": "https://islamansiklopedisi.org.tr/astrahan-hanligi"
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "astrahan-kasim-han-ii",
+        "name": "II. Kasım Han",
+        "aliases": [
+          "Kasım Han Astrahanî"
+        ],
+        "title": "Han",
+        "birth": 1495,
+        "birthNote": "Hacıtarhan'da doğdu",
+        "death": 1544,
+        "deathNote": "Hacıtarhan'da vefat etti",
+        "reign": [
+          1532,
+          1544
+        ],
+        "reignNote": "12 yıllık Hacıtarhan saltanatı.",
+        "claim": false,
+        "summary": "Astrahan Hanı; Kazan'ın son kahraman hanı Yâdigâr Muhammed'in babası. Hazar Denizi ticaretini ve İdil ağzındaki gümrük gelirlerini denetledi. Nogay Ordası ile yakın akrabalıklar kurarak Hacıtarhan'ı korudu.",
+        "traits": [
+          "Tüccar dostu",
+          "Diplomat"
+        ],
+        "contribution": "Hacıtarhan'ı Hazar boyunun en mamur ticaret limanı haline getirdi.",
+        "harm": "Kırım Hanlığı ile zaman zaman yaşanan sürtüşmeleri engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Yâdigâr Muhammed Han",
+            "mother": "",
+            "note": "Kazan'ın son savunucusu olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Hacıtarhan Kuşatması Savunması",
+            "when": "1533",
+            "foe": "Kırım Hanlığı (İslam Giray)",
+            "result": "zafer",
+            "note": "Kırım taarruzu püskürtüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "astrahan-dervis-ali-han",
+        "name": "Derviş Ali Han",
+        "aliases": [
+          "Derviş Han"
+        ],
+        "title": "Son Astrahan Hanı",
+        "birth": 1515,
+        "birthNote": "Hacıtarhan'da doğdu",
+        "death": 1568,
+        "deathNote": "Mekke'de vefat etti",
+        "reign": [
+          1554,
+          1556
+        ],
+        "reignNote": "2 yıllık çalkantılı son savunma saltanatı.",
+        "claim": false,
+        "summary": "Astrahan Hanlığı'nın son hanı. Moskova'nın desteğiyle Yamgurçi'nin yerine tahta geçtiyse de, Rus Çarlığı'nın Hazar Denizi'ne inme ve Astrahan'ı tamamen ilhak etme planlarını anlayınca Kırım Hanlığı ve Nogaylar ile gizli ittifak kurup Rus garnizonuna karşı ayaklandı. 1556'da Korkunç İvan'ın gönderdiği Rus ordusu Astrahan'ı ele geçirdi; Derviş Ali Han önce Dağıstan'a ardından Mekke'ye hicret etti ve orada vefat etti. Astrahan Hanlığı tarihe karıştı.",
+        "traits": [
+          "Son mücahid",
+          "Korkusuz",
+          "Talihsiz hükümdar"
+        ],
+        "contribution": "Astrahan'ın bağımsızlığı için Ruslara karşı son ana kadar direndi.",
+        "harm": "Rus işgalini durduracak ordu ve topçu kuvvetinden mahrum kaldı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "1556 Astrahan Savunması ve Yıkılış",
+            "when": "1556",
+            "foe": "Rus Çarlığı Ordusu (İvan Çeremisinov)",
+            "result": "yenilgi",
+            "note": "Astrahan Ruslar tarafından işgal edildi; İdil boyunda Türk egemenliği tamamen kırıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
           }
         ]
       }
@@ -933,6 +1423,105 @@
       }
     ],
     "rulers": [
+      {
+        "id": "sibir-ibak-han",
+        "name": "İbak Han",
+        "aliases": [
+          "İbrâhim Han",
+          "Seyyid İbrâhim Han"
+        ],
+        "title": "Tümen ve Sibir Hanı / Kurucu",
+        "birth": 1435,
+        "birthNote": "Deşt-i Kıpçak'ta Şeybânî soyundan doğdu",
+        "death": 1495,
+        "deathNote": "İsker yakınlarında Taybuğa mirzaları tarafından öldürüldü",
+        "reign": [
+          1468,
+          1495
+        ],
+        "reignNote": "27 yıllık kurucu bozkır saltanatı.",
+        "claim": false,
+        "summary": "Şeybânî sülalesinden gelen, Sibir Hanlığı'nın (Tümen Yurdu) gerçek kurucusu. 1481'de Nogay beyleri Musa ve Yamgurçi ile ittifak kurarak Don Irmağı boylarında Altın Orda Hanı Seyyid Ahmed'in oğlu Ahmed Han'ı gece baskınında öldürdü; bu zafer Rus knezliklerinin Altın Orda boyunduruğundan kurtulmasını sağlayan tarihi dönüm noktası oldu. Tümen şehrini (Çingi-Tura) başkent yaparak Batı Sibirya Türklerini tek çatı altında topladı.",
+        "traits": [
+          "Cesur bozkır komutanı",
+          "Kurucu han",
+          "Baskın ustası"
+        ],
+        "contribution": "Sibir Hanlığı'nın siyasî ve toprak temellerini attı; Batı Sibirya'da bağımsız bir Türk devleti kurdu.",
+        "harm": "Taybuğa sülalesiyle giriştiği kanlı hanedan rekabeti hanlığı sürekli iç savaşa sürükledi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Murtaza Han",
+            "mother": "",
+            "note": "Küçüm Han'ın babası olan şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Küçüm Han İbak Han'ın torunudur."
+        ],
+        "wars": [
+          {
+            "name": "Don Irmağı Gece Baskını",
+            "when": "1481",
+            "foe": "Altın Orda Hanlığı (Büyük Han Ahmed)",
+            "result": "zafer",
+            "note": "Altın Orda çadırı basıldı; Ahmed Han öldürüldü ve Altın Orda kesin olarak parçalandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SİBİR HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/sibir-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "sibir-yadigar-han",
+        "name": "Yadigâr Han",
+        "aliases": [
+          "Yadigar bin Kasım"
+        ],
+        "title": "Sibir Hanı",
+        "birth": 1510,
+        "birthNote": "İsker'de Taybuğa sülalesinden doğdu",
+        "death": 1563,
+        "deathNote": "İsker Sarayı'nda Küçüm Han tarafından katledildi",
+        "reign": [
+          1552,
+          1563
+        ],
+        "reignNote": "11 yıllık Taybuğa dönemi.",
+        "claim": false,
+        "summary": "Taybuğa sülalesinden Sibir Hanı (Kazan'ın düşüşüyle aynı yıl tahta çıktı). Korkunç İvan'ın Kazan ve Astrahan'ı işgal etmesi üzerine Rus tehdidinden çekinerek Moskova'ya elçiler ve yıllık 1000 samur kürkü vergi gönderip barış istedi. Ancak İbak Han'ın torunu Küçüm Han'ın Buhara'dan topladığı orduyla İsker üzerine yürümesi sonucu tahttan indirilip bertaraf edildi.",
+        "traits": [
+          "Diplomat",
+          "Savunmasız"
+        ],
+        "contribution": "Sibirya orman kürk ticaretini canlandırdı.",
+        "harm": "Moskova'ya haraç ödemeyi kabul ederek Rusların Sibirya'ya yönelik iştahını kabarttı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "İsker Meydan Muharebesi",
+            "when": "1563",
+            "foe": "Şeybânî ordusu (Küçüm Han)",
+            "result": "yenilgi",
+            "note": "Küçüm Han'ın ordusuna mağlup oldu; hanlık Şeybânî soyuna geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SİBİR HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/sibir-hanligi"
+          }
+        ]
+      },
       {
         "id": "sibir-kucum-han",
         "name": "Küçüm Han",

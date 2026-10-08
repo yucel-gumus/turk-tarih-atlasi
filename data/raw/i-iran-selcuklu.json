@@ -712,6 +712,185 @@
             "url": "https://islamansiklopedisi.org.tr/ildenizliler"
           }
         ]
+      },
+      {
+        "id": "ildenizli-kizilarslan",
+        "name": "Muzafferüddin Kızılarslan",
+        "aliases": [
+          "Kızılarslan Osman",
+          "Sultan Kızılarslan"
+        ],
+        "title": "Büyük Atabeg / Sultan",
+        "birth": 1145,
+        "birthNote": "Nahçıvan'da Şemseddin İldeniz'in oğlu olarak doğdu",
+        "death": 1191,
+        "deathNote": "Hemedan'da tahta çıktığı gece suikastle öldürüldü",
+        "reign": [
+          1186,
+          1191
+        ],
+        "reignNote": "5 yıllık fırtınalı atabeglik ve sultanlık.",
+        "claim": false,
+        "summary": "Şemseddin İldeniz'in oğlu, Cihan Pehlivan'ın kardeşi. Tebriz ve Azerbaycan hakimi iken Cihan Pehlivan'ın vefatıyla başat atabeg oldu. Irak Selçuklu Sultanı III. Tuğrul ile kanlı taht mücadelesine girişti; Tuğrul'u hezimete uğratıp Hemedan kalesine hapsetti. Abbâsî Halifesi en-Nâsır Li-dînillâh'ın menşuru ve hil'atiyle 1191'de kendisini 'Sultan' ilan ederek Selçuklu tahtına bizzat oturdu. Ancak taç giyme töreninin gecesinde sarayında suikastle öldürüldü.",
+        "traits": [
+          "Cesur komutan",
+          "Hırslı",
+          "Sultan unvanlı"
+        ],
+        "contribution": "Selçuklu hanedanının vesayetini kırarak doğrudan sultanlık makamına geçen tek Türk atabegi oldu.",
+        "harm": "Saray içi komplo ve suikastla öldürülmesi devleti kardeş kavgasına ve parçalanmaya sürükledi.",
+        "wives": [
+          {
+            "name": "İnanç Hatun",
+            "note": "Kardeşi Cihan Pehlivan'ın dul eşiyle siyasi evlilik yaptı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "familyNotes": [
+          "Tahta oturduğu gece İnanç Hatun'un da karıştığı bir suikast sonucu öldürüldüğü rivayet edilir."
+        ],
+        "wars": [
+          {
+            "name": "Hemedan Muharebesi",
+            "when": "1190",
+            "foe": "Irak Selçuklu Devleti (Sultan III. Tuğrul)",
+            "result": "zafer",
+            "note": "Sultan Tuğrul mağlup edilerek esir alındı ve Hemedan Kalesi'ne hapsedildi."
+          }
+        ],
+        "legends": [
+          "Nizâmî-i Gencevî 'Hüsrev ü Şîrîn' eserini tamamlayıp Kızılarslan'a bizzat çadırında sunmuş, Kızılarslan da şaire Hamdunyan köyünü hediye etmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KIZILARSLAN",
+            "url": "https://islamansiklopedisi.org.tr/kizilarslan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, İLDENİZLİLER",
+            "url": "https://islamansiklopedisi.org.tr/ildenizliler"
+          }
+        ]
+      },
+      {
+        "id": "ildenizli-ebu-bekir",
+        "name": "Nusretüddin Ebû Bekir",
+        "aliases": [
+          "Ebû Bekir bin Pehlivan"
+        ],
+        "title": "Büyük Atabeg",
+        "birth": 1165,
+        "birthNote": "Gence'de Cihan Pehlivan'ın oğlu olarak doğdu",
+        "death": 1210,
+        "deathNote": "Tebriz'de vefat etti",
+        "reign": [
+          1191,
+          1210
+        ],
+        "reignNote": "19 yıllık atabeglik devri.",
+        "claim": false,
+        "summary": "Cihan Pehlivan'ın cariyeden doğma büyük oğlu. Amcası Kızılarslan'ın öldürülmesi üzerine Azerbaycan ve Arran'da atabegliğini ilan etti. Üvey kardeşleri Kutluğ İnanç ve Emîr-i Emîrân Ömer'in isyanlarını bastırdı. Harezmşah Alâeddin Tekiş ve Halife en-Nâsır'ın müdahalelerine rağmen Tebriz merkezli hakimiyetini 19 yıl korudu. Gürcü Kraliçesi Tamar'ın İslam dünyasına yönelik akınlarına karşı savaştı.",
+        "traits": [
+          "Savaşçı",
+          "Dayanıklı",
+          "Tebriz fatihi"
+        ],
+        "contribution": "İç savaşı sona erdirerek Azerbaycan'da İldenizli birliğini yeniden kurdu.",
+        "harm": "1195 Şamhor Muharebesi'nde Gürcü ordusuna yenilerek Arran ve Nahçıvan'ın yağmalanmasına engel olamadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Şamhor Muharebesi",
+            "when": "1195",
+            "foe": "Gürcistan Krallığı ve isyancı kardeşi Emîr-i Emîrân",
+            "result": "yenilgi",
+            "note": "Gence yakınlarında Gürcü ordusuna mağlup oldu; hilafet sancağı Gürcülerin eline geçti."
+          },
+          {
+            "name": "Tebriz Kuşatması ve Hakimiyeti",
+            "when": "1196",
+            "foe": "İsyancı kardeşi Kutluğ İnanç",
+            "result": "zafer",
+            "note": "Kardeşini bertaraf ederek Azerbaycan'ın tek hakimi oldu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İLDENİZLİLER",
+            "url": "https://islamansiklopedisi.org.tr/ildenizliler"
+          }
+        ]
+      },
+      {
+        "id": "ildenizli-ozbek",
+        "name": "Muzafferüddin Özbek",
+        "aliases": [
+          "Atabeg Özbek"
+        ],
+        "title": "Son Atabeg",
+        "birth": 1178,
+        "birthNote": "Tebriz'de Cihan Pehlivan'ın oğlu olarak doğdu",
+        "death": 1225,
+        "deathNote": "Nahçıvan Alıncak Kalesi'nde kahrından vefat etti",
+        "reign": [
+          1210,
+          1225
+        ],
+        "reignNote": "15 yıllık çalkantılı son dönem.",
+        "claim": false,
+        "summary": "Cihan Pehlivan'ın oğlu, İldenizliler Devleti'nin son hükümdarı. Ağabeyi Ebû Bekir'in ardından tahta çıktı. Saltanatı Moğolların ilk dehşetengiz keşif akınları (Cebe ve Sübedey) ile Harzemşahların İran'a girişine rastladı. 1221'de Tebriz'i Moğollara yüklü haraç ve altın vererek yıkımdan kurtardı. Ancak 1225'te Harzemşah Celâleddin Mengüberti'nin Tebriz üzerine yürümesi karşısında şehri terk edip Nahçıvan'daki Alıncak Kalesi'ne çekildi ve orada kahrından vefat etti; İldenizliler Devleti sona erdi.",
+        "traits": [
+          "Diplomat",
+          "Zevk ve sefahate düşkün",
+          "Talihsiz son hükümdar"
+        ],
+        "contribution": "Tebriz'i Moğol kılıcından altın ve diplomasiyle kurtararak şehrin yakılıp yıkılmasını önledi.",
+        "harm": "Askeri hazırlık ve savunma tedbirlerini ihmal ederek hanedanın Celaleddin Harzemşah karşısında teslim olmasına yol açtı.",
+        "wives": [
+          {
+            "name": "Melike Hatun",
+            "note": "Irak Selçuklu Sultanı III. Tuğrul'un kızı; daha sonra Celâleddin Harzemşah ile evlenmiştir",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Hamûş",
+            "mother": "",
+            "note": "Şehzade; Moğollara sığınmıştır",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Eşi Melike Hatun Tebriz'in fethinden sonra Celâleddin Harzemşah ile nikahlanmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Tebriz Savunması ve Moğol Diplomasisi",
+            "when": "1221",
+            "foe": "Moğol İmparatorluğu (Cebe ve Sübedey)",
+            "result": "antlasma",
+            "note": "Ağır haraç, gümüş ve hil'atler ödenerek Moğol ordusunun Tebriz'i yağmalaması engellendi."
+          },
+          {
+            "name": "Tebriz Kuşatması ve Yıkılış",
+            "when": "1225",
+            "foe": "Harezmşahlar Devleti (Celâleddin Harezmşah)",
+            "result": "yenilgi",
+            "note": "Celâleddin Tebriz'i fethetti; Özbek Alıncak Kalesi'ne kaçtı ve devlet tarihe karıştı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İLDENİZLİLER",
+            "url": "https://islamansiklopedisi.org.tr/ildenizliler"
+          }
+        ]
       }
     ]
   },

@@ -2322,62 +2322,258 @@
           "Tahmasb Kulu Han",
           "Doğunun Napolyonu"
         ],
-        "title": "Şah / Şehinşah",
+        "title": "Şah / Şehinşah / Sahipkıran",
         "birth": 1688,
-        "birthNote": "Horasan'da Dergaz yakınlarında 1688'de doğdu",
+        "birthNote": "Horasan'da Dergaz yakınlarında Kırklu obasında doğdu",
         "death": 1747,
-        "deathNote": "Koçan yakınındaki Fethâbâd ordugâhında suikastla çadırında katledildi",
+        "deathNote": "Koçan yakınındaki Fethâbâd ordugâhında Türkmen ve Kürt emirlerin düzenlediği suikastla çadırında katledildi",
         "reign": [
           1736,
           1747
         ],
-        "reignNote": "11 yıllık fetih fırtınası.",
-        "summary": "Avşar hanedanının kurucusu ve dünyanın en büyük askeri dahilerinden biri. İran'ı Afgan, Rus ve Osmanlı işgalinden kurtardı. Hindistan Seferi ile Delhi'yi fethetti, Buhara ve Hive hanlıklarını dize getirdi. Ca'ferîliği beşinci mezhep yapıp mezhep barışı kurmak istedi. Son yıllarındaki zulümleri yüzünden suikastla öldürüldü.",
+        "reignNote": "1736 Mugan kurultayında şah ilan edildi; öncesinde 1729-1736 arası nâibü's-saltana idi.",
+        "claim": false,
+        "summary": "Avşar hanedanının kurucusu ve tarihin en büyük askeri stratejistlerinden biri. İran'ı Afgan, Rus ve Osmanlı işgallerinden kurtardı. 1739'da Karnal'da 300 bin kişilik Bâbürlü ordusunu ezerek Delhi'yi fethetti; Tavus Kuşu Tahtı ve Koh-i Noor elmasını getirdi. Ca'ferîliği beşinci hak mezhep yaparak İslam dünyasında mezhep barışı kurmaya çalıştı. Son yıllarında aşırı sertliği ve şüpheciliği yüzünden suikastla öldürüldü.",
         "traits": [
-          "Askerî dehâ",
-          "Korkusuz fatih",
-          "Sert ve şüpheci"
+          "Askerî dahi",
+          "Yenilmez mareşal",
+          "Mezhep uzlaştırıcısı",
+          "Şüpheci ve haşin"
         ],
-        "contribution": "İran'ın bağımsızlığını kurtardı ve sınırlarını Delhi'den Bağdat'a kadar genişletti.",
-        "harm": "Kendi veliahtını kör ettirdi, son yıllarındaki aşırı vergi ve kafa kuleleri diktirmesi devleti kan gölüne çevirdi.",
-        "wives": [],
+        "contribution": "İran'ın bağımsızlığını kurtardı; sınırları Kafkaslardan Delhi'ye, Umman Denizi'nden Ceyhun'a kadar genişletti.",
+        "harm": "Kendi veliahtı Rıza Kulu'yu kör ettirmesi hanedanı istikrarsızlaştırdı; aşırı vergiler ve isyan bastırma katliamları devleti tüketti.",
+        "wives": [
+          {
+            "name": "Raziye Begüm",
+            "note": "Safevî Şahı Sultan Hüseyin'in kızı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Gevher Şad Hatun",
+            "note": "Baba Ali Bey'in kızı, ilk eşi",
+            "certainty": "kesin"
+          }
+        ],
         "children": [
           {
             "name": "Rıza Kulu Mirza",
-            "mother": "",
-            "note": "Babası tarafından gözleri kör edilen veliaht",
+            "mother": "Gevher Şad Hatun",
+            "note": "Babası tarafından gözleri kör edilen veliaht; Şahruh'un babası",
             "certainty": "kesin"
           },
           {
             "name": "Nasrullah Mirza",
             "mother": "",
-            "note": "Karnal kahramanı şehzade",
+            "note": "Karnal kahramanı ve komutan şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İmam Kulu Mirza",
+            "mother": "",
+            "note": "Genç yaşta katledilen şehzade",
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [
+          "Nâdir Şah'ın 1747'de katlinden sonra yeğeni Âdil Şah tarafından Rıza Kulu dahil bütün oğulları ve torunlarının çoğu Meşhed'de idam edilmiştir; yalnızca bebek yaştaki Şahruh sağ bırakılmıştır."
+        ],
         "wars": [
+          {
+            "name": "Damğan Muharebesi",
+            "when": "1729",
+            "foe": "Hotakî Afganları (Eşref Şah)",
+            "result": "zafer",
+            "note": "Afgan işgal ordusu imha edildi, Tahran ve İsfahan Safevî adına kurtarıldı."
+          },
+          {
+            "name": "Murad Tepe Muharebesi",
+            "when": "1735",
+            "foe": "Osmanlı Devleti (Köprülüzâde Abdullah Paşa)",
+            "result": "zafer",
+            "note": "Revan önlerinde Osmanlı ordusu mağlup edildi; Tiflis, Gence ve Erivan geri alındı."
+          },
           {
             "name": "Karnal Meydan Muharebesi",
             "when": "1739",
             "foe": "Bâbür İmparatorluğu (Muhammed Şah)",
             "result": "zafer",
-            "note": "300 bin kişilik Hint ordusu darmadağın edildi, Delhi fethedildi, devasa hazineler alındı."
+            "note": "300 bin kişilik Hint ordusu 3 saatte felç edildi, Delhi fethedildi; efsanevi hazineler alındı."
           },
           {
-            "name": "Muradtepe Muharebesi",
-            "when": "1735",
-            "foe": "Osmanlı Ordusu (Köprülüzâde Abdullah Paşa)",
+            "name": "Kars Muharebesi",
+            "when": "1745",
+            "foe": "Osmanlı Devleti (Yeğen Mehmed Paşa)",
             "result": "zafer",
-            "note": "Revan yakınlarında Osmanlı ordusu mağlup edildi, Kafkaslar geri alındı."
+            "note": "Kars yakınlarında Osmanlı ordusu mağlup edildi; 1746 Kerden Barış Antlaşması ile Kasr-ı Şîrin sınırları teyit edildi."
           }
         ],
         "legends": [
-          "Delhi fethinde getirilen Koh-i Noor (Işık Dağı) elmasını görünce hayretle 'Koh-i Noor!' diye haykırdığı rivayet edilir."
+          "Delhi fethinde getirilen Koh-i Noor elmasını sarığından düşürdüğünde parıltısına hayran kalarak 'Işık Dağı!' diye nida ettiği rivayet edilir."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, NÂDİR ŞAH",
             "url": "https://islamansiklopedisi.org.tr/nadir-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, AVŞARLAR",
+            "url": "https://islamansiklopedisi.org.tr/avsarlar"
+          }
+        ]
+      },
+      {
+        "id": "avsar-adil-sah",
+        "name": "Âdil Şah",
+        "aliases": [
+          "Ali Kulu Han",
+          "Ali Şah Avşar"
+        ],
+        "title": "Şah",
+        "birth": 1719,
+        "birthNote": "Horasan'da İbrâhim Han'ın (Nâdir Şah'ın kardeşi) oğlu olarak doğdu",
+        "death": 1749,
+        "deathNote": "Kardeşi İbrâhim Şah tarafından gözleri kör edilip hapsedildi; Şahruh'un taraftarlarınca Meşhed'de idam edildi",
+        "reign": [
+          1747,
+          1748
+        ],
+        "reignNote": "1 yıllık kısa ve kanlı saltanat.",
+        "claim": false,
+        "summary": "Nâdir Şah'ın yeğeni (kardeşi İbrâhim Han'ın oğlu). Nâdir'in katledilmesinde rol oynadıktan sonra Meşhed'de tahta çıktı ve 'Âdil Şah' unvanını aldı. Tahtını sağlama almak için Nâdir Şah'ın oğullarını ve torunlarını acımasızca katletti; yalnızca 14 yaşındaki Şahruh'u esirgedi. Eğlenceye dalarak devlet hazinesini tüketti; kardeşi İbrâhim Han'ın isyanıyla tahttan indirildi.",
+        "traits": [
+          "Zayıf iradeli",
+          "Hazineyi tüketen",
+          "Hanedan katili"
+        ],
+        "contribution": "Nâdir Şah'ın ağır vergi baskısını kısa bir süre için kaldırdı.",
+        "harm": "Nâdir Şah'ın yetişmiş şehzadelerini katlederek Avşar hanedanının çöküşünü hazırladı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Sultaniye Muharebesi",
+            "when": "1748",
+            "foe": "İsyan eden kardeşi İbrâhim Han",
+            "result": "yenilgi",
+            "note": "Kardeşi İbrâhim Han'a yenildi, gözlerine mil çekilerek Meşhed Kalat kalesine hapsedildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AVŞARLAR",
+            "url": "https://islamansiklopedisi.org.tr/avsarlar"
+          }
+        ]
+      },
+      {
+        "id": "avsar-ibrahim-sah",
+        "name": "İbrahim Şah",
+        "aliases": [
+          "İbrahim Han Avşar",
+          "Muhammed Ali Bey"
+        ],
+        "title": "Şah",
+        "birth": 1724,
+        "birthNote": "Horasan'da doğdu",
+        "death": 1749,
+        "deathNote": "Şahruh'un ordusu tarafından Kum yolunda yakalanıp gözleri kör edildi ve öldürüldü",
+        "reign": [
+          1748,
+          1748
+        ],
+        "reignNote": "Temmuz 1748'de Tebriz'de taç giydi; iki ay sonra Şahruh taraftarlarınca devrildi.",
+        "claim": false,
+        "summary": "Nâdir Şah'ın yeğeni, Âdil Şah'ın öz kardeşi. Kardeşini Sultaniye'de mağlup edip tahttan indirdi ve Tebriz'de şahlığını ilan etti. Ancak Horasan ordusu Meşhed'de Nâdir'in torunu Şahruh'u tahta çıkardı. İbrahim Şah Meşhed üzerine yürüdüyse de kendi ordusu tarafından terk edildi ve öldürüldü.",
+        "traits": [
+          "Hırslı",
+          "Askerî komutan"
+        ],
+        "contribution": "",
+        "harm": "Avşar hanedan içi kardeş kavgasını zirveye çıkarıp devleti parçaladı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Meşhed Seferi",
+            "when": "1748",
+            "foe": "Şahruh Mirza taraftarları",
+            "result": "yenilgi",
+            "note": "Ordusundaki emirlerin Şahruh tarafına geçmesiyle yakalanıp bertaraf edildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AVŞARLAR",
+            "url": "https://islamansiklopedisi.org.tr/avsarlar"
+          }
+        ]
+      },
+      {
+        "id": "avsar-sahruh-sah",
+        "name": "Şahruh Şah",
+        "aliases": [
+          "Şahruh Mirza",
+          "Kör Şahruh"
+        ],
+        "title": "Şah / Horasan Hükümdarı",
+        "birth": 1734,
+        "birthNote": "Meşhed'de Nâdir Şah'ın veliahtı Rıza Kulu ile Safevî prensesi Fatma Sultan Begüm'ün oğlu olarak doğdu",
+        "death": 1796,
+        "deathNote": "Kaçar Ağa Muhammed Şah'ın Nâdir'in gizli mücevherlerini söyletmek için başına kaynar kurşun dökerek yaptığı işkenceler sonucu Damğan'da vefat etti",
+        "reign": [
+          1748,
+          1796
+        ],
+        "reignNote": "1748'de tahta çıktı; 1749'da gözleri kör edildi; ardından Meşhed merkezli Horasan'da 1796'ya kadar 48 yıl hüküm sürdü.",
+        "claim": false,
+        "summary": "Nâdir Şah'ın torunu ve Safevî şahlarının ana tarafından varisi. 14 yaşında tahta çıkarıldı; saray darbelerinde gözleri kör edildi ancak Meşhed'deki İmam Rıza Türbesi hürmetine tahtta bırakıldı. Ahmed Şah Dürrânî'nin himayesinde Horasan'da 48 yıl hüküm sürdü. 1796'da Kaçar kurucusu Ağa Muhammed Şah Meşhed'i alıp Nâdir'in hazinelerini almak için ona acımasızca işkence etti; böylece Avşar hanedanı tarihe karıştı.",
+        "traits": [
+          "Kör hükümdar",
+          "Sabırlı",
+          "Kutsal Meşhed hamisi"
+        ],
+        "contribution": "Horasan bölgesinde 48 yıl boyunca Meşhed merkezli ilim, kültür ve türbe vakıflarını korudu.",
+        "harm": "Gözleri kör olduğu için merkezî otorite kuramadı, İran'ın Zendler ve Kaçarlar arasında bölünmesini engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Nâdir Mirza",
+            "mother": "",
+            "note": "Meşhed'de babasından sonra kısa süre direnen oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Nasrullah Mirza",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Meşhed'in Düşüşü",
+            "when": "1796",
+            "foe": "Kaçar Hanedanı (Ağa Muhammed Şah)",
+            "result": "yenilgi",
+            "note": "Kaçar ordusu Meşhed'i kuşatıp teslim aldı; Avşar Devleti resmen yıkıldı."
+          }
+        ],
+        "legends": [
+          "İşkence altında dahi Nâdir'in gizli Yakut elmasını sakladığı, ancak başına eritilmiş kurşun dökülünce yerini söylediği rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞAHRUH ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/sahruh-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, AVŞARLAR",
+            "url": "https://islamansiklopedisi.org.tr/avsarlar"
           }
         ]
       }
@@ -2428,17 +2624,18 @@
         "aliases": [
           "Ağa Muhammed Han Kaçar"
         ],
-        "title": "Şah / Han",
+        "title": "Şah / Han / Kurucu",
         "birth": 1742,
         "birthNote": "1742'de Esterâbâd'da doğdu",
         "death": 1797,
-        "deathNote": "Şuşa kalesinde iki hizmetkârı tarafından hançerlenerek öldürüldü",
+        "deathNote": "Karabağ seferi sırasında Şuşa kalesinde iki hizmetkârı tarafından hançerlenerek öldürüldü",
         "reign": [
           1796,
           1797
         ],
         "reignNote": "1789'dan itibaren fiili lider, 1796'da taç giydi.",
-        "summary": "Kaçar hanedanının kurucusu. Çocukken hadım edilmesine rağmen demir bir iradeyle Zendleri ve Avşarları ezerek İran birliğini kurdu; Tahran'ı başkent yaptı. Tiflis'i zaptetti. Şuşa kalesinde kendi uşakları tarafından öldürüldü.",
+        "claim": false,
+        "summary": "Kaçar hanedanının kurucusu. Çocukken hadım edilmesine rağmen demir bir iradeyle Zendleri ve Avşarları ezerek İran birliğini kurdu; Tahran'ı ebedi başkent yaptı. Tiflis'i zaptedip Gürcistan'ı itaate aldı. Şuşa kalesinde kendi uşakları tarafından öldürüldü.",
         "traits": [
           "Çelik iradeli",
           "Acımasız disiplinli",
@@ -2448,13 +2645,23 @@
         "harm": "Tiflis ve Kirman'daki aşırı intikamcı katliamları dehşet yarattı.",
         "wives": [],
         "children": [],
+        "familyNotes": [
+          "Hadım olduğu için evlenmedi ve çocuğu olmadı; yerine yeğeni Feth Ali Şah'ı veliaht tayin etti."
+        ],
         "wars": [
           {
             "name": "Krktsanisi (Tiflis) Muharebesi",
             "when": "1795",
-            "foe": "Gürcistan Krallığı (II. Erekle)",
+            "foe": "Gürcistan Krallığı (II. Erekle) ve Rus birlikleri",
             "result": "zafer",
             "note": "Tiflis fethedildi, Gürcistan itaate alındı."
+          },
+          {
+            "name": "Şuşa Kuşatması",
+            "when": "1797",
+            "foe": "Karabağ Hanlığı (İbrahim Halil Han)",
+            "result": "zafer",
+            "note": "Şuşa kalesi zaptedildi; zaferin gecesinde iki uşağı tarafından çadırında öldürüldü."
           }
         ],
         "legends": [
@@ -2464,6 +2671,10 @@
           {
             "title": "TDV İslâm Ansiklopedisi, AĞA MUHAMMED ŞAH",
             "url": "https://islamansiklopedisi.org.tr/aga-muhammed-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAÇARLAR",
+            "url": "https://islamansiklopedisi.org.tr/kacarlar"
           }
         ]
       },
@@ -2483,6 +2694,7 @@
           1834
         ],
         "reignNote": "37 yıllık görkemli ve hüzünlü saltanat.",
+        "claim": false,
         "summary": "Ağa Muhammed Şah'ın yeğeni. Meşhur upuzun sakalı, mücevherli tahtı ve saray debdebesiyle tanındı. Rusya ile iki büyük savaş yaşadı; Türkmençay Antlaşması ile Kafkasya elden çıktı. Çok sayıda şehzade babası oldu.",
         "traits": [
           "Görkem ve sanat aşığı",
@@ -2512,6 +2724,9 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [
+          "Vekayinâmelere göre çok sayıda eşi ve 100'ü aşkın evladı olmuş, vilayet valiliklerine şehzadelerini atamıştır."
+        ],
         "wars": [
           {
             "name": "Birinci Rus-Kaçar Savaşı",
@@ -2525,16 +2740,341 @@
             "when": "1826-1828",
             "foe": "Çarlık Rusyası (Paskeviç)",
             "result": "yenilgi",
-            "note": "Türkmençay Antlaşması imzalandı, Erivan ve Nahçıvan kaybedildi, Aras sınırı çizildi."
+            "note": "Türkmençay Antlaşması imzalandı, Erivan ve Nahçıvan kaybedildi, Aras nehri kalıcı sınır çizildi."
+          },
+          {
+            "name": "Osmanlı-İran Savaşı",
+            "when": "1821-1823",
+            "foe": "Osmanlı Devleti",
+            "result": "antlasma",
+            "note": "Veliaht Abbas Mirza Doğubeyazıt'ı kuşattı; Erzurum Antlaşması (1823) ile eski sınırlar korundu."
           }
         ],
         "legends": [
-          "Yüzü aşkın oğlu ve kızı olduğu, her vilayete bir şehzadesini vali atadığı saray vekayinamelerinde geçer."
+          "Sakalının beline kadar uzandığı ve her gün saatlerce kokulu yağlarla tarandığı anlatılır."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, FETH ALİ ŞAH",
             "url": "https://islamansiklopedisi.org.tr/feth-ali-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAÇARLAR",
+            "url": "https://islamansiklopedisi.org.tr/kacarlar"
+          }
+        ]
+      },
+      {
+        "id": "kacar-muhammed-sah",
+        "name": "Muhammed Şah",
+        "aliases": [
+          "Muhammed Şah Kaçar"
+        ],
+        "title": "Şah",
+        "birth": 1808,
+        "birthNote": "Tebriz'de veliaht Abbas Mirza'nın oğlu olarak doğdu",
+        "death": 1848,
+        "deathNote": "Tahran yakınlarındaki Muhammedîye Sarayı'nda gut hastalığından vefat etti",
+        "reign": [
+          1834,
+          1848
+        ],
+        "reignNote": "14 yıllık saltanat.",
+        "claim": false,
+        "summary": "Abbas Mirza'nın oğlu ve Feth Ali Şah'ın torunu. Dedesinin ve babasının ölümünden sonra Rus ve İngiliz desteğiyle tahta çıktı. Sadrazamı Hacı Mirza Âgâsî'nin mistik nüfuzunda kaldı. Doğu sınırlarını emniyete almak için Herat'ı kuşattıysa da İngiltere'nin Basra Körfezi'ne asker çıkarması yüzünden geri çekilmek zorunda kaldı.",
+        "traits": [
+          "Tasavvufa düşkün",
+          "İnatçı",
+          "Hasta mizaçlı"
+        ],
+        "contribution": "Osmanlı Devleti ile 1847 İkinci Erzurum Antlaşması'nı imzalayarak sınır ihtilaflarını yatıştırdı.",
+        "harm": "İngiltere ile çatışıp Herat'ı alamadı ve devlet idaresini yetersiz veziri Hacı Mirza Âgâsî'ye terk etti.",
+        "wives": [
+          {
+            "name": "Melik Cihan Hanım (Mehd-i Ulyâ)",
+            "note": "Nâsırüddin Şah'ın nüfuzlu annesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Nâsırüddin Şah",
+            "mother": "Melik Cihan Hanım",
+            "note": "Sonraki şah",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Abbas Mirza Mülk-ârâ",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Herat Kuşatması",
+            "when": "1837-1838",
+            "foe": "Afganistan (Kâmran Mirza) ve İngiliz danışmanlar",
+            "result": "sonucsuz",
+            "note": "9 ay süren kuşatma İngiltere'nin Harg adasını işgal edip savaş tehdidinde bulunmasıyla kaldırıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MUHAMMED ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/muhammed-sah-kacar"
+          }
+        ]
+      },
+      {
+        "id": "kacar-nasreddin-sah",
+        "name": "Nâsırüddin Şah",
+        "aliases": [
+          "Nasreddin Şah",
+          "Kıble-i Âlem",
+          "Sultân-ı Sâhibkırân"
+        ],
+        "title": "Şah / Şehinşah",
+        "birth": 1831,
+        "birthNote": "Tebriz yakınlarında doğdu",
+        "death": 1896,
+        "deathNote": "Tahran yakınlarındaki Şah Abdülazim Türbesi'nde Mirza Rıza Kirmânî tarafından tabancayla vurularak şehit edildi",
+        "reign": [
+          1848,
+          1896
+        ],
+        "reignNote": "48 yıl süren Kaçar tarihinin en uzun saltanatı.",
+        "claim": false,
+        "summary": "Kaçarların en uzun süre hüküm süren ve modernleşme adımlarını atan şahı. Başlangıçta efsanevi sadrazamı Emîr Kebîr ile Dârü'l-Fünûn'u kurdu, posta ve telgrafı getirdi; ancak sonra saray entrikalarıyla Emîr Kebîr'i öldürttü. Avrupa'yı bizzat gezen ilk İran hükümdarı oldu. Yabancılara verilen tütün imtiyazı ulemanın fetvasıyla 1891 Tütün Boykotu'na yol açtı. 1896'da Cemâleddîn Efgânî taraftarı bir suikastçı tarafından katledildi.",
+        "traits": [
+          "Modernleşmeci fakat otokrat",
+          "Fotoğraf ve seyahat tutkunu",
+          "Avcı ve hatip"
+        ],
+        "contribution": "İran'ın ilk modern üniversitesi Dârü'l-Fünûn'u kurdu; telgraf ve matbaayı yaygınlaştırdı.",
+        "harm": "Yabancı şirketlere verdiği aşırı tavizler ve imtiyazlar (Reuter, Tütün) ülkeyi borç batağına soktu.",
+        "wives": [
+          {
+            "name": "Şükûhü's-Saltana",
+            "note": "Muzaffereddin Şah'ın annesi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ceyran Hatun",
+            "note": "En sevdiği ilk aşkı ve eşi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Enîsü'd-Devle",
+            "note": "Sarayda en yetkili baş hatun",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Muzaffereddin Şah",
+            "mother": "Şükûhü's-Saltana",
+            "note": "Veliaht ve sonraki şah",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Zıllü's-Sultan Mesud Mirza",
+            "mother": "",
+            "note": "İsfahan valisi kudretli şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kâmran Mirza Nâibü's-Saltana",
+            "mother": "",
+            "note": "Savaş bakanı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "İngiliz-İran Savaşı",
+            "when": "1856-1857",
+            "foe": "Büyük Britanya İmparatorluğu (Outram)",
+            "result": "yenilgi",
+            "note": "Herat'ın zaptı üzerine İngilizler Buşehr ve Muhammere'yi vurdu; 1857 Paris Antlaşması ile Herat ebediyen Afganistan'a bırakıldı."
+          },
+          {
+            "name": "Merv Seferi",
+            "when": "1860",
+            "foe": "Teke Türkmenleri",
+            "result": "yenilgi",
+            "note": "Kaçar ordusu Merv çöllerinde Teke Türkmen süvarilerine ağır bir hezimete uğradı."
+          }
+        ],
+        "legends": [
+          "Kendisinin usta bir fotoğrafçı olduğu, saray kadınlarının ve gündelik hayatın binlerce fotoğrafını bizzat çektiği bilinir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NASREDDİN ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/nasreddin-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAÇARLAR",
+            "url": "https://islamansiklopedisi.org.tr/kacarlar"
+          }
+        ]
+      },
+      {
+        "id": "kacar-muzaffereddin-sah",
+        "name": "Muzaffereddin Şah",
+        "aliases": [
+          "Muzafferüddin Şah"
+        ],
+        "title": "Şah",
+        "birth": 1853,
+        "birthNote": "Tahran'da doğdu; 40 yıla yakın Tebriz veliahtlığı yaptı",
+        "death": 1907,
+        "deathNote": "Meşrutiyet anayasasını imzaladıktan birkaç gün sonra Tahran'da kalp krizinden vefat etti",
+        "reign": [
+          1896,
+          1907
+        ],
+        "reignNote": "11 yıllık saltanat; Meşrutiyet devriminin mimarı.",
+        "claim": false,
+        "summary": "Nâsırüddin Şah'ın oğlu. Yumuşak başlı ve hasta mizaçlıydı; babasının baskıcı istibdadını gevşetti. Ülkedeki aydınların, ulemanın ve esnafın Meşrutiyet taleplerine boyun eğerek 5 Ağustos 1906'da Meşrutiyet fermanını ilan etti ve Meclis-i Şûrâ-yı Millî'yi açtı. Ölüm döşeğindeyken 30 Aralık 1906'da ilk İran anayasasını (Kānûn-ı Esâsî) imzaladı.",
+        "traits": [
+          "Mülayim",
+          "Hasta mizaçlı",
+          "Anayasa imzalayan hükümdar"
+        ],
+        "contribution": "1906 Meşrutiyet Devrimi'ne onay vererek Orta Doğu'nun ilk anayasal parlamentolarından birini kurdu.",
+        "harm": "Avrupa kaplıcalarına yaptığı masraflı seyahatler için Rusya'dan ağır şartlarla borç aldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Muhammed Ali Şah",
+            "mother": "",
+            "note": "Veliaht ve sonraki şah",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "1906 Meşrutiyet Devrimi (Tahassun)",
+            "when": "1906",
+            "foe": "İran Meşrutiyet Hareketi ve Ulema",
+            "result": "antlasma",
+            "note": "Kan dökülmeden anayasal monarşiye geçiş kabul edildi; Meclis açıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MUZAFFEREDDİN ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/muzaffereddin-sah"
+          }
+        ]
+      },
+      {
+        "id": "kacar-muhammed-ali-sah",
+        "name": "Muhammed Ali Şah",
+        "aliases": [
+          "Muhammed Ali Şah Kaçar"
+        ],
+        "title": "Şah",
+        "birth": 1872,
+        "birthNote": "Tebriz'de doğdu",
+        "death": 1925,
+        "deathNote": "İtalya'da San Remo'da sürgünde vefat etti, Kerbelâ'ya defnedildi",
+        "reign": [
+          1907,
+          1909
+        ],
+        "reignNote": "2 yıllık çalkantılı meşrutiyet karşıtı saltanat.",
+        "claim": false,
+        "summary": "Muzaffereddin Şah'ın oğlu. Rus yanlısı ve katı bir mutlakıyet taraftarıydı. 1908'de Rus albay Liakhov komutasındaki Kazak Tugayı'na Meclis binasını bombalattı ve meşrutiyetçileri astırdı ('Küçük İstibdat'). Ancak Tebriz'de Settar Han direndi; İsfahan'dan Bahtiyârîler ve Gilan'dan mücahidler Tahran'ı basarak 1909'da şahı tahttan indirdi.",
+        "traits": [
+          "Meşrutiyet düşmanı",
+          "Otokrat",
+          "Rusya bağımlısı"
+        ],
+        "contribution": "",
+        "harm": "Meclis'i bombalatarak iç savaşa ve yabancı müdahalesine zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Ahmed Şah Kaçar",
+            "mother": "",
+            "note": "Yerine tahta çıkarılan çocuk şah",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Tahran'ın Fethi (Meşrutiyet İç Savaşı)",
+            "when": "1909",
+            "foe": "Meşrutiyet Mücahidleri (Settar Han, Bahtiyârîler)",
+            "result": "yenilgi",
+            "note": "Mücahidler Tahran'ı ele geçirdi; şah Rus elçiliğine sığındı ve meclis tarafından tahttan azledildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MUHAMMED ALİ ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/muhammed-ali-sah"
+          }
+        ]
+      },
+      {
+        "id": "kacar-ahmed-sah",
+        "name": "Ahmed Şah Kaçar",
+        "aliases": [
+          "Sultan Ahmed Şah"
+        ],
+        "title": "Şah",
+        "birth": 1898,
+        "birthNote": "Tebriz'de doğdu",
+        "death": 1930,
+        "deathNote": "Paris yakınlarında Neuilly-sur-Seine'de sürgünde öldü, Kerbelâ'ya defnedildi",
+        "reign": [
+          1909,
+          1925
+        ],
+        "reignNote": "11 yaşında çocuk hükümdar olarak tahta çıktı; 1925'te Kaçar saltanatı meclisce kaldırıldı.",
+        "claim": false,
+        "summary": "Kaçar hanedanının son hükümdarı. Babasının devrilmesi üzerine 11 yaşında tahta çıkarıldı. Saltanatı boyunca I. Dünya Savaşı'nda İran toprakları Osmanlı, Rus ve İngiliz ordularının işgal ve muharebe alanı oldu; büyük kıtlık yaşandı. 1921'de Rıza Han Kazak Tugayı ile darbe yaptı. Ahmed Şah Avrupa'ya gitti; 31 Ekim 1925'te İran Meclisi Kaçar hanedanını resmen ilga ederek Rıza Pehlevî'yi şah ilan etti.",
+        "traits": [
+          "Nazik",
+          "Kukla şah",
+          "Sürgün fatihi"
+        ],
+        "contribution": "İngilizlerin 1919'da İran'ı manda altına sokmak istediği sömürge antlaşmasını onaylamayı reddetti.",
+        "harm": "Zayıf liderliği ve ülkesini terk edip Avrupa'da yaşaması Kaçar hanedanının tasfiyesini hızlandırdı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "1925'te hanedanın ilgasıyla birlikte Kaçar hanedanı resmen tarihe karıştı."
+        ],
+        "wars": [
+          {
+            "name": "I. Dünya Savaşı İran Harekâtı ve İşgaller",
+            "when": "1914-1918",
+            "foe": "Çarlık Rusyası ve Büyük Britanya işgal güçleri",
+            "result": "antlasma",
+            "note": "İran tarafsızlığını ilan etmesine rağmen toprakları savaş alanına döndü; nüfusun üçte biri kıtlık ve hastalıktan kırıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHMED ŞAH KAÇAR",
+            "url": "https://islamansiklopedisi.org.tr/ahmed-sah-kacar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAÇARLAR",
+            "url": "https://islamansiklopedisi.org.tr/kacarlar"
           }
         ]
       }

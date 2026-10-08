@@ -906,52 +906,439 @@
         "id": "danismendli-ahmed-gazi",
         "name": "Dânişmend Gazi",
         "aliases": [
-          "Dânişmend Ahmed Gazi",
-          "Gümüştekin Ahmed Gazi"
+          "Melik Dânişmend Ahmed Gazi",
+          "Gümüştekin Ahmed Gazi",
+          "Dânişmend Taylu"
         ],
-        "title": "Melik / Gazi",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Emîr / Melik / Kurucu Gazi",
+        "birth": 1050,
+        "birthNote": "Harezm sahasında veya Horasan'da doğdu",
         "death": 1104,
-        "deathNote": "Niksar'da vefat etti, türbesi oradadır",
+        "deathNote": "Niksar Kalesi'nde vefat etti, türbesi Niksar'dadır",
         "reign": [
           1080,
           1104
         ],
-        "reignNote": "24 yıllık gazalarla dolu beylik.",
-        "summary": "Beyliğin kurucusu ve Dânişmendnâme kahramanı. Sivas, Niksar, Çorum ve Tokat'ı fethederek Türk yurdu yaptı. 1100 yılında Antakya Prinkepsi Bohemund'u Malatya önlerinde esir alarak İslam dünyasına bayram yaşattı.",
+        "reignNote": "Kuzey ve Orta Anadolu'da 24 yıl süren fetih ve gazâ devri.",
+        "claim": false,
+        "summary": "Malazgirt Meydan Muharebesi kahramanlarından, Sivas, Tokat, Niksar, Amasya, Kayseri ve Malatya fatihi. Alparslan'ın Anadolu fethine memur ettiği büyük emîrlerdendir. I. Haçlı Seferi'nde Antakya Haçlı Prensi Bohemond'u Malatya önlerinde esir alarak Niksar Kalesi'ne hapsetmesiyle tüm Hristiyan dünyasında dehşet uyandırdı. 1101 Haçlı dalgalarını I. Kılıç Arslan ile birlikte Merzifon'da imha etti. 'Dânişmendnâme' destanının efsanevi başkahramanıdır.",
         "traits": [
-          "Âlim savaşçı",
-          "Destan kahramanı",
-          "Adil"
+          "Alim ve mücahid",
+          "Gazi emir",
+          "Korkusuz fatih",
+          "Haçlıların kabusu"
         ],
-        "contribution": "Orta Karadeniz ve Sivas havzasının fethini ve Türkleşmesini sağladı.",
-        "harm": "Malatya kuşatması yüzünden Selçuklu Sultanı Kılıç Arslan ile çekişti.",
+        "contribution": "Orta Anadolu'yu kesin olarak Türk yurdu yaptı; ilk Dânişmendli şehirlerini kurup cami ve medreseler inşa ettirdi.",
+        "harm": "Selçuklularla zaman zaman giriştiği nüfuz rekabeti Anadolu Türk birliğinin erken kurulmasını geciktirdi.",
         "wives": [],
         "children": [
           {
-            "name": "Emir Gazi (Gümüştekin)",
+            "name": "Emîr Gazi (Gümüştekin)",
             "mother": "",
-            "note": "Babasından sonra tahta oturdu, Abbasi halifesi meliklik menşuru verdi",
+            "note": "Devleti imparatorluk gücüne ulaştıran oğlu ve veliahdı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sungur Bey",
+            "mother": "",
+            "note": "Gazi komutan şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İlaldı Bey",
+            "mother": "",
+            "note": "Şehzade",
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [
+          "Danişmendliler hanedanı Ahmed Gazi'nin soyundan yürümüş, Niksar ve Sivas merkezli Türk medeniyetinin öncüsü olmuştur."
+        ],
         "wars": [
           {
-            "name": "Malatya Muharebesi (Bohemund'un Esareti)",
+            "name": "Malatya Kuşatması ve Bohemond'un Esir Alınması",
             "when": "1100",
-            "foe": "Antakya Haçlı Prensliği (I. Bohemund)",
+            "foe": "Antakya Haçlı Prensliği (Bohemond ve Salernolu Richard)",
             "result": "zafer",
-            "note": "Bohemund esir edildi, Niksar kalesine hapsedildi, 100 bin altın fidye alındı."
+            "note": "Malatya'yı kurtarmaya gelen Haçlı ordusu pusuya düşürüldü; Bohemond esir alınıp Niksar Kalesi'ne hapsedildi."
+          },
+          {
+            "name": "Merzifon Meydan Muharebesi",
+            "when": "1101",
+            "foe": "I. Haçlı Seferi Ek Ordusu (Lombardlar, Fransızlar ve Kont Raymond)",
+            "result": "zafer",
+            "note": "I. Kılıç Arslan ve Rıdvan ile birleşerek 100 bin kişilik Lombard Haçlı ordusunu Merzifon Ovası'nda tamamen imha etti."
           }
         ],
         "legends": [
-          "Dânişmendnâme'de Battal Gazi'nin soyundan geldiği ve rüyasında Peygamber Efendimiz tarafından Anadolu fethine memur edildiği anlatılır."
+          "Halk arasında yüzyıllarca okunan Dânişmendnâme'de Battal Gazi soyundan geldiği ve rüyasında Peygamber Efendimiz'in müjdesiyle Anadolu'yu fethe çıktığı rivayet edilir."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, DÂNİŞMEND GAZİ",
             "url": "https://islamansiklopedisi.org.tr/danismend-gazi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-emir-gazi",
+        "name": "Emîr Gazi",
+        "aliases": [
+          "Gümüştekin Melik Gazi",
+          "Emîr Melik Gazi"
+        ],
+        "title": "Melik / Büyük Hükümdar",
+        "birth": 1075,
+        "birthNote": "Horasan'da doğdu",
+        "death": 1134,
+        "deathNote": "Kayseri yakınlarında Pınarbaşı'nda vefat etti, türbesi Pazarören/Melikgazi'dedir",
+        "reign": [
+          1104,
+          1134
+        ],
+        "reignNote": "30 yıllık saltanat; Dânişmendliler Devleti'nin en parlak devri.",
+        "claim": false,
+        "summary": "Dânişmend Gazi'nin oğlu. Saltanatı devrinde Dânişmendliler Anadolu'nun en güçlü devleti haline geldi. Abbâsî Halifesi el-Müstercid ve Büyük Selçuklu Sultanı Sencer tarafından 1134'te kendisine menşur, altın hil'at, sancak ve 'Melik' unvanı verildi. Anadolu Selçuklu taht kavgalarına müdahale ederek damadı I. Mesud'u Konya tahtına oturttu. Bizans İmparatoru İoannes Komnenos'u Kastamonu önlerinde yendi; Haçlılara, Kilikya Ermenilerine ve Gürcülere karşı sayısız zafer kazandı.",
+        "traits": [
+          "Usta devlet adamı",
+          "Yenilmez mareşal",
+          "Melik unvanlı",
+          "Himaye edici"
+        ],
+        "contribution": "Dânişmendlileri Anadolu'nun tartışmasız en güçlü siyasî ve askerî gücü yaptı; Anadolu Selçuklu Devleti'ni koruyuculuğu altına aldı.",
+        "harm": "Devletin aşırı genişlemesi ve merkezleşmemesi ölümünden sonra oğulları arasında bölünmeye yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Melik Muhammed",
+            "mother": "",
+            "note": "Kayseri kolu hükümdarı ve veliaht",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Nizâmeddin Yağıbasan",
+            "mother": "",
+            "note": "Sivas ve Niksar meliki, tıp medresesi banisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Aynüddevle",
+            "mother": "",
+            "note": "Malatya Dânişmendlileri kolunu kuran melik",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kızı Anadolu Selçuklu Sultanı I. Mesud ile evlenmiş, bu akrabalık sayesinde Konya Selçukluları Dânişmend nüfuzuna girmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Malatya Seferi ve Fethi",
+            "when": "1124",
+            "foe": "Süleyman ve Belek Gazi kuvvetleri",
+            "result": "zafer",
+            "note": "Malatya Dânişmendlilere katıldı, Fırat boyları kontrol altına alındı."
+          },
+          {
+            "name": "Kastamonu Meydan Muharebesi",
+            "when": "1132",
+            "foe": "Bizans İmparatorluğu (İoannes Komnenos)",
+            "result": "zafer",
+            "note": "Bizans ordusu ağır yenilgiye uğratıldı, Kastamonu ve Çankırı kesin olarak geri alındı."
+          },
+          {
+            "name": "Kilikya Ermeni Seferi",
+            "when": "1130",
+            "foe": "Kilikya Ermeni Baronluğu (I. Levon) ve Antakya Haçlı Prensliği (II. Bohemond)",
+            "result": "zafer",
+            "note": "II. Bohemond savaş meydanında öldürüldü, başı mumyalanarak Halife'ye gönderildi."
+          }
+        ],
+        "legends": [
+          "Kayseri Pınarbaşı'ndaki Melikgazi türbesinde bozulmamış mumyasının asırlarca halk tarafından ziyaret edildiği bilinir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, EMÎR GAZİ",
+            "url": "https://islamansiklopedisi.org.tr/emir-gazi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-melik-muhammed",
+        "name": "Melik Muhammed Gazi",
+        "aliases": [
+          "Muhammed Melik Gazi"
+        ],
+        "title": "Melik",
+        "birth": 1100,
+        "birthNote": "Sivas'ta Emîr Gazi'nin büyük oğlu olarak doğdu",
+        "death": 1142,
+        "deathNote": "Kayseri'de hastalanarak vefat etti, türbesi Melikgazi Medresesi'ndedir",
+        "reign": [
+          1134,
+          1142
+        ],
+        "reignNote": "8 yıllık dirayetli Kayseri ve Orta Anadolu melikliği.",
+        "claim": false,
+        "summary": "Emîr Gazi'nin büyük oğlu ve halefi. Kayseri merkezli hüküm sürdü. Kayseri Ulu Camii'ni (Cami-i Kebîr) inşa ettirdi ve şehri büyük bir Türk-İslam medeniyet merkezine çevirdi. Bizans İmparatoru İoannes Komnenos'un Orta Anadolu akınlarını başarıyla durdurdu; Kilikya ve Çukurova'ya seferler düzenledi. Erken vefatı kardeşleri arasında hanedanın bölünmesine sebep oldu.",
+        "traits": [
+          "Mimar ve kurucu melik",
+          "Askerî stratejist",
+          "Cömert"
+        ],
+        "contribution": "Kayseri Ulu Camii gibi anıtsal eserler bıraktı; Kayseri'yi Dânişmendlilerin başkentine dönüştürdü.",
+        "harm": "Ölümüyle birlikte Dânişmend Devleti Sivas, Kayseri ve Malatya olmak üzere üç rakip kola bölündü.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Cemâleddin Zünnûn",
+            "mother": "",
+            "note": "Kayseri meliki olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kayseri kolunun banisidir; oğlu Zünnûn amcaları Yağıbasan ve Selçuklu Sultanı II. Kılıç Arslan ile mücadele etmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Kilikya ve Ceyhan Seferi",
+            "when": "1137",
+            "foe": "Bizans İmparatorluğu ve Kilikya Ermeni Baronluğu",
+            "result": "zafer",
+            "note": "Çukurova Türkmenlerini himaye etti; Bizans taarruzlarını Toros geçitlerinde durdurdu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-yagibasan",
+        "name": "Nizâmeddin Yağıbasan",
+        "aliases": [
+          "Melik Nizâmeddin Yağıbasan"
+        ],
+        "title": "Sivas ve Niksar Meliki",
+        "birth": 1105,
+        "birthNote": "Niksar'da Emîr Gazi'nin oğlu olarak doğdu",
+        "death": 1164,
+        "deathNote": "Çankırı Seferi sırasında vefat etti, Niksar Kalesi'ne defnedildi",
+        "reign": [
+          1142,
+          1164
+        ],
+        "reignNote": "22 yıllık Sivas-Niksar melikliği; Anadolu Türk tıp eğitiminin doğuşu.",
+        "claim": false,
+        "summary": "Emîr Gazi'nin oğlu, Dânişmendlilerin en ünlü kültür ve imar hükümdarı. Sivas ve Niksar merkezli hüküm sürdü. Niksar ve Tokat'ta Anadolu'nun ilk kapalı avlulu kubbeli medresesi ve ilk tıp okulu olan meşhur Yağıbasan Medresesi'ni (Çukur Medrese) inşa ettirdi. II. Haçlı Seferi'nde (1147) Selçuklu ordusuyla işbirliği yaparak Haçlı ordularının imhasında büyük rol oynadı. Selçuklu taht mücadelelerinde belirleyici güç oldu.",
+        "traits": [
+          "Bilim ve tıp hamisi",
+          "Büyük imar banisi",
+          "Kurnaz siyasetçi"
+        ],
+        "contribution": "Anadolu'nun ilk tıp medresesi olan Yağıbasan Medresesi'ni kurarak hekimler yetiştirdi; II. Haçlı Seferi'nde Anadolu'yu savundu.",
+        "harm": "Selçuklu Sultanı II. Kılıç Arslan'a karşı diğer Türk beylikleri ve Bizans ile ittifaklar kurarak Türk içi çatışmaları körükledi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Muzaffereddin Mahmud",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Zahîrüddin İbrâhim",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Yeğeni Cemâleddin Zünnûn'u himaye ederek kendi kızıyla evlendirmiş ve Kayseri kolunun hamisi olmuştur."
+        ],
+        "wars": [
+          {
+            "name": "II. Haçlı Seferi / Kazova Muharebesi",
+            "when": "1147",
+            "foe": "Alman Haçlı Ordusu (III. Konrad öncü birlikleri)",
+            "result": "zafer",
+            "note": "Selçuklu birlikleriyle birlikte Toros ve Kazova geçitlerinde Haçlıları bozguna uğrattı."
+          },
+          {
+            "name": "II. Kılıç Arslan ile Mücadele",
+            "when": "1162",
+            "foe": "Anadolu Selçuklu Devleti (II. Kılıç Arslan)",
+            "result": "antlasma",
+            "note": "Konya önlerinde karşılaştılar; savaşa girmeden sulh yaparak nüfuz sahalarını belirlediler."
+          }
+        ],
+        "legends": [
+          "Niksar Yağıbasan Medresesi kubbesinin tepesindeki açık hava fenerinin gök cisimlerini ve yıldızları incelemek için kullanıldığı anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-zunnun",
+        "name": "Cemâleddin Zünnûn",
+        "aliases": [
+          "Melik Zünnûn"
+        ],
+        "title": "Kayseri ve Sivas Meliki",
+        "birth": 1125,
+        "birthNote": "Kayseri'de Melik Muhammed'in oğlu olarak doğdu",
+        "death": 1175,
+        "deathNote": "Suriye'de sürgünde vefat etti",
+        "reign": [
+          1142,
+          1175
+        ],
+        "reignNote": "Aralıklarla Kayseri ve Sivas'ta süren meliklik mücadelesi.",
+        "claim": false,
+        "summary": "Melik Muhammed Gazi'nin oğlu. Babasının ölümü üzerine henüz küçük yaşta tahta çıktıysa da amcaları Yağıbasan ve Aynüddevle'nin müdahalesiyle karşılaştı. Amcası Yağıbasan'ın desteği ve damatlığı ile Kayseri'ye hakim oldu. Yağıbasan'ın ölümünden sonra Sivas tahtını ele geçirdi. Ancak Selçuklu Sultanı II. Kılıç Arslan'ın 1174'te Sivas ve Kayseri'yi fethetmesiyle Nûreddin Mahmud Zengî'ye sığınmak zorunda kaldı; Dânişmendlilerin Orta Anadolu kolunun son hükümdarı oldu.",
+        "traits": [
+          "Mücadeleci",
+          "Zengî müttefiki",
+          "Talihsiz melik"
+        ],
+        "contribution": "Kayseri ve Sivas'ta atalarının başlattığı imar ve vakıf düzenini sürdürdü.",
+        "harm": "Selçuklular karşısında yabancı devletlerin (Zengîler) müdahalesine kapı açtı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Amcası Nizâmeddin Yağıbasan'ın kızıyla evlenmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Sivas ve Kayseri Savunması",
+            "when": "1174",
+            "foe": "Anadolu Selçuklu Devleti (II. Kılıç Arslan)",
+            "result": "yenilgi",
+            "note": "Sivas ve Kayseri Selçukluların eline geçti; Zünnûn şehirden kaçarak Şam'a sığındı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-aynuddevle",
+        "name": "Aynüddevle",
+        "aliases": [
+          "Melik Aynüddevle"
+        ],
+        "title": "Malatya Dânişmendlileri Meliki",
+        "birth": 1110,
+        "birthNote": "Malatya'da Emîr Gazi'nin oğlu olarak doğdu",
+        "death": 1152,
+        "deathNote": "Malatya'da vefat etti",
+        "reign": [
+          1142,
+          1152
+        ],
+        "reignNote": "10 yıl Malatya kolu melikliği.",
+        "claim": false,
+        "summary": "Emîr Gazi'nin oğlu. Kardeşi Melik Muhammed'in ölümünden sonra Malatya'da bağımsızlığını ilan ederek Malatya Dânişmendlileri kolunu kurdu. Selçuklu Sultanı I. Mesud'un Malatya'yı kuşatmasına karşı şehri kahramanca savundu ve şehri teslim etmedi. Fırat boylarının kontrolünü elinde tutarak Haçlı Urfa Kontluğu ve Zengîler ile dengeli bir siyaset yürüttü.",
+        "traits": [
+          "Savunma ustası",
+          "Müstakil melik",
+          "Dirayetli"
+        ],
+        "contribution": "Malatya'yı Dânişmendliler için zaptedilemez bir kale haline getirdi.",
+        "harm": "Selçuklularla uzlaşmayarak Fırat boylarında Türk birliğini parçaladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Zülkarneyn",
+            "mother": "",
+            "note": "Malatya tahtına geçen oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Aynüddevle'nin soyu Malatya'da 1178 yılına kadar hükümranlığını sürdürmüştür."
+        ],
+        "wars": [
+          {
+            "name": "Malatya Savunması",
+            "when": "1143",
+            "foe": "Anadolu Selçuklu Devleti (Sultan I. Mesud)",
+            "result": "antlasma",
+            "note": "Üç ay süren Selçuklu kuşatması püskürtüldü; karşılıklı sulh yapılarak Malatya'nın özerkliği korundu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
+          }
+        ]
+      },
+      {
+        "id": "danismendli-nasreddin-mehmed",
+        "name": "Nasreddin Mehmed",
+        "aliases": [
+          "Melik Nasreddin"
+        ],
+        "title": "Son Malatya Meliki",
+        "birth": 1145,
+        "birthNote": "Malatya'da Zülkarneyn'in oğlu olarak doğdu",
+        "death": 1178,
+        "deathNote": "Malatya'nın fethi sırasında vefat etti",
+        "reign": [
+          1152,
+          1178
+        ],
+        "reignNote": "Dânişmendlilerin son hükümdarı olarak 26 yıllık çalkantılı Malatya melikliği.",
+        "claim": false,
+        "summary": "Zülkarneyn'in oğlu, Dânişmendliler Devleti'nin son meliki. Malatya'da kardeş kavgaları ve Selçuklu baskısı altında hüküm sürdü. 1178 yılında Anadolu Selçuklu Sultanı II. Kılıç Arslan bizzat sefere çıkarak Malatya Kalesi'ni 4 ay kuşattı. Şehrin Selçuklulara teslim olmasıyla 98 yıllık Dânişmendliler Devleti tarihe karıştı ve tüm toprakları Anadolu Selçuklu Devleti'ne ilhak edildi.",
+        "traits": [
+          "Son melik",
+          "Talihsiz savunucu"
+        ],
+        "contribution": "Malatya'daki imar ve vakıf mirasını son ana kadar muhafaza etti.",
+        "harm": "Devletin çöküşünü ve Selçuklu ilhakını engelleyecek siyasî gücü gösteremedi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Dânişmendliler hanedanının siyasî egemenliğini tamamlayan son hükümdardır."
+        ],
+        "wars": [
+          {
+            "name": "Malatya Kuşatması ve İlhakı",
+            "when": "1178",
+            "foe": "Anadolu Selçuklu Devleti (II. Kılıç Arslan)",
+            "result": "yenilgi",
+            "note": "4 aylık çetin kuşatmanın ardından Malatya teslim oldu; Dânişmendliler Devleti resmen sona erdi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DÂNİŞMENDLİLER",
+            "url": "https://islamansiklopedisi.org.tr/danismendliler"
           }
         ]
       }
@@ -2509,8 +2896,8 @@
     ],
     "sources": [
       {
-        "title": "TDV İslâm Ansiklopedisi, AHLATŞAHLAR",
-        "url": "https://islamansiklopedisi.org.tr/ahlat-sahlar"
+        "title": "TDV İslâm Ansiklopedisi, AHLAT",
+        "url": "https://islamansiklopedisi.org.tr/ahlat"
       }
     ],
     "rulers": [
@@ -2521,32 +2908,42 @@
           "I. Sökmen",
           "Ahlatşah Sökmen"
         ],
-        "title": "Şah / Emir",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Şah / Emir / Kurucu",
+        "birth": 1050,
+        "birthNote": "Büyük Selçuklu coğrafyasında doğdu",
         "death": 1111,
         "deathNote": "Haçlı seferinden dönerken hastalanarak vefat etti",
         "reign": [
           1100,
           1111
         ],
-        "reignNote": "11 yıl hüküm sürdü.",
-        "summary": "Ahlatşahlar Devleti'nin kurucusu. Van Gölü havzasını tek bayrak altında topladı. Haçlılara karşı Suriye'deki cihat ordularına katılarak büyük kahramanlıklar gösterdi.",
+        "reignNote": "11 yıl süren kurucu gazâ devri.",
+        "claim": false,
+        "summary": "Ahlatşahlar Devleti'nin kurucusu. Selçuklu emiri Kutbeddin İsmail'in memlük kumandanı idi. Van Gölü havzasını (Ahlat, Erciş, Adilcevaz, Van, Malazgirt) tek bayrak altında topladı. Haçlılara karşı Suriye'deki cihat ordularına katılarak büyük kahramanlıklar gösterdi.",
         "traits": [
           "Gazi",
           "Şehir kurucu",
-          "Cesur"
+          "Cesur komutan"
         ],
-        "contribution": "Van Gölü havzasında zengin bir Türk medeniyet odağı kurdu.",
-        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+        "contribution": "Van Gölü havzasında zengin bir Türk medeniyet odağı kurdu; Ahlat'ı başkent yaptı.",
+        "harm": "Komşu Türk beylikleriyle zaman zaman çatışarak Doğu Anadolu birliğini geciktirdi.",
         "wives": [],
         "children": [
           {
             "name": "Zahîreddîn İbrâhim",
             "mother": "",
-            "note": "İkinci hükümdar",
+            "note": "İkinci hükümdar olan oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ahmed Bey",
+            "mother": "",
+            "note": "Kısa süre beylik yapan oğlu",
             "certainty": "kesin"
           }
+        ],
+        "familyNotes": [
+          "Ahlatşahlar sülalesi onun soyundan ve yetiştirdiği dirayetli memlüklerden yürümüştür."
         ],
         "wars": [
           {
@@ -2555,13 +2952,231 @@
             "foe": "Haçlılar (Joscelin)",
             "result": "zafer",
             "note": "Haçlı garnizonu mağlup edildi."
+          },
+          {
+            "name": "Şeyzer Kuşatması",
+            "when": "1111",
+            "foe": "Kudüs Haçlı Krallığı (Kral Baudouin)",
+            "result": "zafer",
+            "note": "Mevdûd ile birleşerek Haçlı ordusunu püskürttü."
           }
         ],
         "legends": [],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, AHLATŞAHLAR",
-            "url": "https://islamansiklopedisi.org.tr/ahlat-sahlar"
+            "title": "TDV İslâm Ansiklopedisi, AHLAT",
+            "url": "https://islamansiklopedisi.org.tr/ahlat"
+          }
+        ]
+      },
+      {
+        "id": "ahlatsah-ibrahim",
+        "name": "Zahîreddîn İbrâhim",
+        "aliases": [
+          "İbrahim Bey Ahlatşah"
+        ],
+        "title": "Şah / Melik",
+        "birth": 1085,
+        "birthNote": "Ahlat'ta doğdu",
+        "death": 1126,
+        "deathNote": "Ahlat'ta vefat etti",
+        "reign": [
+          1111,
+          1126
+        ],
+        "reignNote": "15 yıllık istikrar ve savunma devri.",
+        "claim": false,
+        "summary": "Sökmen el-Kutbî'nin oğlu. Babasının vefatı üzerine Ahlat tahtına geçti. Haçlılara karşı Meyyâfârikîn (Silvan) ve Doğu Anadolu kalelerini başarıyla savundu; Artuklu İlgazi ve Tuğtekin ile ittifaklar kurdu.",
+        "traits": [
+          "Sakin",
+          "Savunmacı",
+          "Gazi"
+        ],
+        "contribution": "Ahlatşahlar beyliğinin sınırlarını ve Van Gölü havzasındaki egemenliğini pekiştirdi.",
+        "harm": "İç çekişmeleri engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Nâsıreddin II. Sökmen",
+            "mother": "",
+            "note": "Ahlat'ın en parlak hükümdarı olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Meyyâfârikîn Savunması",
+            "when": "1115",
+            "foe": "Büyük Selçuklu emiri Porsuk kuvvetleri",
+            "result": "antlasma",
+            "note": "Ahlatşah hakimiyeti teyit edildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHLAT",
+            "url": "https://islamansiklopedisi.org.tr/ahlat"
+          }
+        ]
+      },
+      {
+        "id": "ahlatsah-sokmen-ii",
+        "name": "Nâsıreddin II. Sökmen",
+        "aliases": [
+          "II. Sökmen",
+          "Şah-ı Ermen Sökmen"
+        ],
+        "title": "Şah-ı Ermen / Büyük Melik",
+        "birth": 1121,
+        "birthNote": "Ahlat'ta Zahîreddîn İbrâhim'in oğlu olarak doğdu",
+        "death": 1185,
+        "deathNote": "Ahlat'ta vefat etti, Ahlat Kümbetleri haziresine defnedildi",
+        "reign": [
+          1128,
+          1185
+        ],
+        "reignNote": "57 yıl süren Ahlat'ın altın çağı ve Kubbetü'l-İslam devri.",
+        "claim": false,
+        "summary": "Ahlatşahlar Devleti'nin en büyük, en uzun süre hüküm süren ve en parlak hükümdarı. 57 yıllık saltanatında Ahlat'ı 'Kubbetü'l-İslam' sıfatına layık muazzam bir bilim, sanat ve mimarlık başkentine dönüştürdü. Gürcistan Krallığı'nın Doğu Anadolu'ya yönelik Haçlı ruhlu istila ordularını defalarca hezimete uğrattı. Eyyûbî Sultanı Selâhaddîn-i Eyyûbî'nin Ahlat'ı kuşatma girişimlerini püskürterek Doğu Anadolu'nun bağımsızlığını korudu.",
+        "traits": [
+          "İmar ve medeniyet banisi",
+          "Büyük mareşal",
+          "Adil",
+          "Dayanıklı"
+        ],
+        "contribution": "Ahlat Selçuklu Meydan Mezarlığı, usta taş işçiliği ekolü ve kale surları onun devrinde zirveye ulaştı; Gürcüleri Doğu Anadolu'dan kovdu.",
+        "harm": "Erkek evlat bırakmadan vefat etmesi beyliğin memlük komutanlar (gulâmlar) elinde taht kavgalarına sürüklenmesine yol açtı.",
+        "wives": [
+          {
+            "name": "Şahbanu Hatun",
+            "note": "Harput Artuklu beyi Dâvud'un kızı; Ahlat köprülerini, yollarını ve imarını finanse eden hayırsever melike",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "familyNotes": [
+          "Eşi Şahbanu Hatun Ahlat'ı taş yollar, köprüler ve hanlarla imar ettirmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Ani Meydan Muharebesi",
+            "when": "1161",
+            "foe": "Gürcistan Krallığı (III. Giorgi ordusu)",
+            "result": "zafer",
+            "note": "Diyarbekir ve Erzurum Türk beyleriyle birleşerek Ani'yi kuşatan Gürcü ordusunu mağlup etti."
+          },
+          {
+            "name": "Ahlat Kuşatması Savunması",
+            "when": "1182",
+            "foe": "Eyyûbîler Devleti (Selâhaddîn-i Eyyûbî ordusu)",
+            "result": "zafer",
+            "note": "Selâhaddîn Eyyûbî'nin Ahlat önlerine getirdiği ordu geri çekilmek zorunda kaldı; sulh yapıldı."
+          }
+        ],
+        "legends": [
+          "Ahlat'taki abidevi şahidelerdeki ejder ve hayat ağacı motifleri II. Sökmen devri usta taş yontucuları (Hasan bin Firuz vb.) tarafından işlenmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHLAT",
+            "url": "https://islamansiklopedisi.org.tr/ahlat"
+          }
+        ]
+      },
+      {
+        "id": "ahlatsah-beytemur",
+        "name": "Seyfeddin Beytemür",
+        "aliases": [
+          "Beytemür el-Kutbî"
+        ],
+        "title": "Emîr / Gulâm Hükümdar",
+        "birth": 1140,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1193,
+        "deathNote": "Ahlat'ta veziri tarafından düzenlenen bir suikast sonucu öldürüldü",
+        "reign": [
+          1185,
+          1193
+        ],
+        "reignNote": "8 yıllık dirayetli memlük saltanatı.",
+        "claim": false,
+        "summary": "II. Sökmen'in en sadık ve dirayetli memlük emiri. Sökmen'in çocuksuz ölümü üzerine Ahlat ileri gelenleri ve ordusu tarafından tahta çıkarıldı. Selâhaddîn Eyyûbî'nin Ahlat üzerindeki hak iddialarına karşı Selçuklu ve Musul atabegleriyle ittifak kurarak şehri korudu; 1193'te veziri tarafından düzenlenen bir suikastle öldürüldü.",
+        "traits": [
+          "Dirayetli memlük",
+          "Savunma ustası"
+        ],
+        "contribution": "Sökmen'in vefatından sonra Ahlat'ın hemen Eyyûbî eline geçmesini önledi.",
+        "harm": "Vezirler ve memlük emirleri arasındaki gizli iktidar kavgalarını engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Ahlat Savunması ve Sulhü",
+            "when": "1185",
+            "foe": "Eyyûbîler Devleti",
+            "result": "antlasma",
+            "note": "Selâhaddîn Eyyûbî ile karşılıklı anlaşma yapılarak Ahlatşah egemenliği sürdürüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHLAT",
+            "url": "https://islamansiklopedisi.org.tr/ahlat"
+          }
+        ]
+      },
+      {
+        "id": "ahlatsah-balaban",
+        "name": "İzzeddin Balaban",
+        "aliases": [
+          "Balaban el-Kutbî"
+        ],
+        "title": "Son Ahlat Emîri",
+        "birth": 1160,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1207,
+        "deathNote": "Tuğrulşah tarafından hileyle katledildi",
+        "reign": [
+          1206,
+          1207
+        ],
+        "reignNote": "Son Ahlatşah hükümdarı olarak 1 yıllık savunma devri.",
+        "claim": false,
+        "summary": "II. Sökmen'in gulâmlarından, Ahlat'ın son Türk emiri. Erzurum Selçuklu Meliki Tuğrulşah'ın Ahlat'ı zaptetme teşebbüsüne karşı şehri savundu ve Tuğrulşah'ı mağlup etti. Ancak Tuğrulşah'ın hileyle kendisini öldürtmesi ve ardından Eyyûbî hükümdarı el-Melikü'l-Evhad'ın 1207'de Ahlat'a girmesiyle Ahlatşahlar Devleti 107 yıllık şanlı tarihinin ardından sona erdi.",
+        "traits": [
+          "Son savunucu",
+          "Cesur memlük"
+        ],
+        "contribution": "Ahlat'ı Tuğrulşah'a karşı canı pahasına savundu.",
+        "harm": "İç entrikalara kurban giderek devletin Eyyûbîler tarafından zaptedilmesine mâni olamadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Ahlat Kuşatması ve Tuğrulşah'ın Mağlubiyeti",
+            "when": "1206",
+            "foe": "Erzurum Selçuklu Melikliği (Mugîsüddin Tuğrulşah)",
+            "result": "zafer",
+            "note": "Tuğrulşah'ın taarruzu püskürtüldü ve Erzurum ordusu geri çekildi."
+          },
+          {
+            "name": "Eyyûbî İstilası ve Yıkılış",
+            "when": "1207",
+            "foe": "Eyyûbîler Devleti (el-Melikü'l-Evhad)",
+            "result": "yenilgi",
+            "note": "Balaban'ın katlinden sonra sahipsiz kalan Ahlat Eyyûbîler tarafından zaptedildi; Ahlatşahlar yıkıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHLAT",
+            "url": "https://islamansiklopedisi.org.tr/ahlat"
           }
         ]
       }
