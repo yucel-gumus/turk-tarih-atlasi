@@ -1307,6 +1307,96 @@
             "url": "https://islamansiklopedisi.org.tr/tolunogullari"
           }
         ]
+      },
+      {
+        "id": "tulun-harun",
+        "name": "Hârûn b. Humâreveyh",
+        "aliases": [
+          "Ebü'l-Müsâ Hârûn"
+        ],
+        "title": "Emir",
+        "birth": 882,
+        "birthNote": "Fustat'ta doğdu",
+        "death": 904,
+        "deathNote": "Fustat yakınlarında ordugahında çıkan isyanda amcaları tarafından öldürüldü",
+        "reign": [
+          896,
+          904
+        ],
+        "reignNote": "8 yıllık çalkantılı emirlik devri.",
+        "claim": false,
+        "summary": "Humâreveyh'in oğlu. Genç yaşta tahta çıktı. Karmatîlerin Suriye ve Mısır'a yönelik yıkıcı akınlarına karşı mücadele etti. Saltanatının sonlarında Abbâsî halifesi el-Müktefî'nin ordusu Mısır üzerine yürüdü; ordusundaki Türk kumandanların isyanı sırasında öldürüldü.",
+        "traits": [
+          "Genç hükümdar",
+          "Karmatîlere karşı savaşan"
+        ],
+        "contribution": "Mısır ve Suriye'de Tolunoğulları hakimiyetini 8 yıl boyunca Karmatîlere karşı savundu.",
+        "harm": "Devlet idaresini vezirlerine ve kumandanlara terk etmesi hanedanın çözülmesine yol açtı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Karmatî Seferi",
+            "when": "902",
+            "foe": "Karmatî İsyancıları",
+            "result": "zafer",
+            "note": "Suriye ve Dımaşk önlerinde Karmatî akınları durduruldu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TOLUNOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/tolunogullari"
+          }
+        ]
+      },
+      {
+        "id": "tulun-seyban",
+        "name": "Şeybân b. Ahmed",
+        "aliases": [
+          "Ebü'l-Menâkıb Şeybân"
+        ],
+        "title": "Son Tolunoğulları Hükümdarı",
+        "birth": 870,
+        "birthNote": "Fustat'ta Ahmed b. Tolun'un oğlu olarak doğdu",
+        "death": 905,
+        "deathNote": "Bağdat'ta esarette vefat etti",
+        "reign": [
+          904,
+          905
+        ],
+        "reignNote": "Tolunoğullarının son 4 aylık savunma saltanatı.",
+        "claim": false,
+        "summary": "Ahmed b. Tolun'un oğlu, Tolunoğulları Devleti'nin son hükümdarı. Yeğeni Hârûn'un katlinden sonra Fustat'ta emîr ilan edildi. Ancak Abbâsî generali Muhammed b. Süleyman el-Kâtib komutasındaki hilafet ordusu ve donanması Fustat'ı kuşattı. Şeybân şehri teslim etmek zorunda kaldı; Tolunoğullarının kurduğu Katâi şehri tahrip edildi ve 37 yıllık devlet sona erdi.",
+        "traits": [
+          "Son emir",
+          "Talihsiz savunucu"
+        ],
+        "contribution": "Fustat halkının katledilmesini önlemek için teslim şartlarını müzakere etti.",
+        "harm": "Devletin yıkılışını engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Ailesiyle birlikte Bağdat'a esir götürülmüş ve orada vefat etmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Fustat Savunması ve Yıkılış",
+            "when": "905",
+            "foe": "Abbâsî Hilafet Ordusu (Muhammed b. Süleyman)",
+            "result": "yenilgi",
+            "note": "Mısır Abbâsî kontrolüne geçti; Tolunoğulları Devleti tarihe karıştı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TOLUNOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/tolunogullari"
+          }
+        ]
       }
     ]
   },
@@ -1409,6 +1499,52 @@
         ]
       },
       {
+        "id": "ihsid-unucur",
+        "name": "Ebü'l-Kāsım Ünûcûr",
+        "aliases": [
+          "Ünûcûr b. Muhammed"
+        ],
+        "title": "Emir",
+        "birth": 932,
+        "birthNote": "Dımaşk'ta Muhammed b. Tuğç'un oğlu olarak doğdu",
+        "death": 960,
+        "deathNote": "Fustat'ta vefat etti, Kudüs'te babasının yanına defnedildi",
+        "reign": [
+          946,
+          960
+        ],
+        "reignNote": "14 yıllık emirlik devri.",
+        "claim": false,
+        "summary": "Muhammed b. Tuğç'un büyük oğlu. Babasının ölümü üzerine tahta çıktı. Fiili idare naibi Ebü'l-Misk Kâfûr'un elinde olmakla birlikte 14 yıl emirlik yaptı. Hamdânîler Hanedanı ile Şam ve Halep hakimiyeti için savaştı ve Seyfüddevle el-Hamdânî'yi mağlup ederek Suriye üzerindeki İhşîdî hakimiyetini korudu.",
+        "traits": [
+          "Genç hükümdar",
+          "Asil Türk şehzadesi"
+        ],
+        "contribution": "Hamdânî yayılmasını durdurarak Şam ve Filistin'in İhşîdî hakimiyetinde kalmasını sağladı.",
+        "harm": "Devlet idaresini tamamen naip Kâfûr'a bırakmak zorunda kaldı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kudüs'te Mescid-i Aksâ civarındaki İhşîdî türbesine defnedilmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Kınnesrîn Muharebesi",
+            "when": "947",
+            "foe": "Hamdânîler Devleti (Seyfüddevle)",
+            "result": "zafer",
+            "note": "Hamdânî ordusu mağlup edildi, Dımaşk ve Şam İhşîdîlere bağlandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İHŞÎDÎLER",
+            "url": "https://islamansiklopedisi.org.tr/ihsidiler"
+          }
+        ]
+      },
+      {
         "id": "ihsid-kafur",
         "name": "Ebü'l-Misk Kâfûr",
         "aliases": [
@@ -1446,6 +1582,52 @@
         "legends": [
           "Ünlü Arap şairi Mütenebbî'nin önce onu öven, sonra umduğu valiliği alamayınca hicveden ünlü kasideleri edebiyat tarihine geçmiştir."
         ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İHŞÎDÎLER",
+            "url": "https://islamansiklopedisi.org.tr/ihsidiler"
+          }
+        ]
+      },
+      {
+        "id": "ihsid-ahmed-b-ali",
+        "name": "Ebü'l-Fevâris Ahmed",
+        "aliases": [
+          "Ahmed b. Ali b. el-İhşîd"
+        ],
+        "title": "Son İhşîdî Hükümdarı",
+        "birth": 957,
+        "birthNote": "Fustat'ta doğdu",
+        "death": 987,
+        "deathNote": "Kahire'de vefat etti",
+        "reign": [
+          968,
+          969
+        ],
+        "reignNote": "İhşîdîlerin son 1 yıllık çocuk hükümdarlık devri.",
+        "claim": false,
+        "summary": "Ali b. el-İhşîd'in 11 yaşındaki oğlu, İhşîdîler Devleti'nin son hükümdarı. Kâfûr'un vefatından sonra tahta çıkarıldı. Fâtımî Halifesi el-Muiz Li-dînillâh'ın meşhur komutanı Cevher es-Sıkıllî 100 bin kişilik orduyla Mısır'a girdi. İhşîdî kuvvetleri Gize önlerinde yenildi; Fustat ve Mısır teslim oldu. Fâtımîler Kahire şehrini kurarak İhşîdî Devleti'ne tamamen son verdi.",
+        "traits": [
+          "Son hükümdar",
+          "Çocuk emir"
+        ],
+        "contribution": "Fustat şehrinin yıkılmadan teslimini sağlayarak halkı korudu.",
+        "harm": "Fâtımî işgalini durduracak orduyu teşkilatlandıramadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Fâtımîler tarafından tahttan indirilmiş, Kahire'de gözetim altında yaşamıştır."
+        ],
+        "wars": [
+          {
+            "name": "Cîze (Giza) Meydan Muharebesi",
+            "when": "969",
+            "foe": "Fâtımîler Devleti (Cevher es-Sıkıllî ordusu)",
+            "result": "yenilgi",
+            "note": "Nil kıyısında İhşîdî ordusu mağlup oldu; Mısır Fâtımîlerin eline geçti ve devlet yıkıldı."
+          }
+        ],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, İHŞÎDÎLER",

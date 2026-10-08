@@ -112,7 +112,8 @@
             "foe": "Memlükler (Kutuz, Baybars)",
             "result": "yenilgi",
             "note": "Ketboğa Noyan öldü; Moğol ilerleyişi Suriye'de durdu."
-          }        ],
+          }
+        ],
         "legends": [
           "Bağdat'ta Dicle'nin mürekkeple karardığı anlatısı dolaşır; kaynaklar kütüphanelerin yağmalandığını yazar, nehrin renginin değiştiği bilgisi rivayettir.",
           "Hülagû'nun Hristiyan ve Budist eğilimli olduğu, Müslümanlara düşmanlık beslediği yönündeki anlatılar dönemin kaynaklarında abartılı ve tektaraflıdır."
@@ -1072,6 +1073,109 @@
             "url": "https://islamansiklopedisi.org.tr/nureddin-zengi"
           }
         ]
+      },
+      {
+        "id": "zengi-seyfeddin-gazi",
+        "name": "Seyfeddin Gazi I",
+        "aliases": [
+          "Seyfeddin Gazi b. Zengî"
+        ],
+        "title": "Musul Atabegi",
+        "birth": 1115,
+        "birthNote": "Musul'da İmâdüddin Zengî'nin büyük oğlu olarak doğdu",
+        "death": 1149,
+        "deathNote": "Musul'da vefat etti",
+        "reign": [
+          1146,
+          1149
+        ],
+        "reignNote": "3 yıllık dirayetli Musul atabegliği.",
+        "claim": false,
+        "summary": "İmâdüddin Zengî'nin büyük oğlu. Babasının şehadeti üzerine Musul ve el-Cezîre atabegi oldu. Kardeşi Nûreddin Mahmud Zengî ile omuz omuza vererek II. Haçlı Seferi'nde (1148) Şam'ı kuşatan Alman ve Fransız Haçlı ordularına karşı büyük bir kurtarma ordusu sevk etti ve Haçlıların hezimete uğrayıp geri çekilmesinde tayin edici rol oynadı.",
+        "traits": [
+          "Haçlı fatihi",
+          "Kardeşine sadık",
+          "Dirayetli atabeg"
+        ],
+        "contribution": "II. Haçlı Seferi'nde Şam'ın düşmesini engelleyerek İslam dünyasını kurtardı.",
+        "harm": "Genç yaşta vefatı Musul'da erken taht değişimine yol açtı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kardeşi Nûreddin Mahmud ile birlikte Haçlılara karşı eşsiz bir birlik ve kardeşlik sergilemiştir."
+        ],
+        "wars": [
+          {
+            "name": "II. Haçlı Seferi Şam Savunması",
+            "when": "1148",
+            "foe": "II. Haçlı Seferi Ordusu (III. Konrad ve VII. Louis)",
+            "result": "zafer",
+            "note": "Kardeşi Nûreddin ile Şam yardımına yetişerek Haçlı kuşatmasını yardı ve Haçlıları hezimete uğrattı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ZENGÎLER",
+            "url": "https://islamansiklopedisi.org.tr/zengiler"
+          }
+        ]
+      },
+      {
+        "id": "zengi-bedreddin-lulu",
+        "name": "Bedreddin Lülü",
+        "aliases": [
+          "Melikü'r-Rahîm Bedreddin Lülü"
+        ],
+        "title": "Musul Atabegi / Hükümdar",
+        "birth": 1180,
+        "birthNote": "el-Cezîre'de doğdu",
+        "death": 1259,
+        "deathNote": "Musul'da 80 yaşında vefat etti",
+        "reign": [
+          1234,
+          1259
+        ],
+        "reignNote": "25 yıllık bağımsız Musul atabegliği ve imar çağı.",
+        "claim": false,
+        "summary": "Memlük kumandanı iken üstün kabiliyetiyle Zengîlerin naibi ve ardından Abbâsî halifesinin menşuru ile müstakil Musul hükümdarı oldu. 25 yıl Musul'u imar etti; İmam Avnüddin Türbesi, Sincar Kalesi ve medreseler yaptırdı. İslam maden ve pirinç kakma sanatında 'Musul ekolü'nü zirveye taşıdı. Moğol istilası sırasında Hülagû Han ile diplomatik denge kurarak Musul halkını katliamdan korudu.",
+        "traits": [
+          "Büyük diplomat",
+          "Maden ve mimari hamisi",
+          "Şehir koruyucusu"
+        ],
+        "contribution": "Musul'u Moğol kılıcından kurtardı; pirinç ve gümüş kakma Musul sanatını dünya çapında meşhur etti.",
+        "harm": "Moğollara tabi olmak ve Bağdat Kuşatması'nda Hülagû'ya mancınık ustaları göndermek zorunda kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Salih b. Lülü",
+            "mother": "",
+            "note": "Moğollarca katledilen son Musul hükümdarı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Vefatından sonra oğlu Salih Moğollara isyan etmiş ve Musul Moğollarca zaptedilmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Sincar Meydan Muharebesi",
+            "when": "1237",
+            "foe": "Harezmşah kalıntı birlikleri",
+            "result": "zafer",
+            "note": "Cezîre'yi yağmalayan Harezmî birlikleri bozguna uğratıldı."
+          }
+        ],
+        "legends": [
+          "Adına yapılan pirinç kakmalı kandiller ve tepsiler bugün Louvre ve British Museum'un en nadide parçaları arasındadır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ZENGÎLER",
+            "url": "https://islamansiklopedisi.org.tr/zengiler"
+          }
+        ]
       }
     ]
   },
@@ -1347,6 +1451,67 @@
           "Yıldırım Bayezid'in onu Bursa'da krallar gibi ağırladığı ve Timur'un 'Ahmed ile Yusuf'u bana teslim et' tehditlerine karşı 'Sığınan misafiri teslim etmek töremizde yoktur' diyerek savaşı göze aldığı meşhurdur."
         ],
         "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, CELÂYİRLİLER",
+            "url": "https://islamansiklopedisi.org.tr/celayirliler"
+          }
+        ]
+      },
+      {
+        "id": "celayirli-ahmed",
+        "name": "Sultan Ahmed Celâyir",
+        "aliases": [
+          "Gıyâseddin Ahmed Celâyir",
+          "Ahmed Han Celâyirî"
+        ],
+        "title": "Sultan / Şair / Musikişinas",
+        "birth": 1356,
+        "birthNote": "Bağdat'ta Sultan Üveys'in oğlu olarak doğdu",
+        "death": 1410,
+        "deathNote": "Tebriz yakınlarında Esedabad'da Kara Yûsuf tarafından idam edildi",
+        "reign": [
+          1382,
+          1410
+        ],
+        "reignNote": "28 yıllık fırtınalı taht ve sürgün devri.",
+        "claim": false,
+        "summary": "Sultan Üveys'in oğlu, Celâyirliler Devleti'nin en fırtınalı ve savaşçı hükümdarı. Timur'un Bağdat ve Tebriz üzerine yürümesi karşısında yıllarca amansız bir mücadele verdi. Karakoyunlu Kara Yûsuf ile birlikte Osmanlı Sultanı Yıldırım Bayezid'e sığındı; bu iltica 1402 Ankara Savaşı'nın başlıca kıvılcımı oldu. Ankara Savaşı sonrası Bağdat'ı geri aldı; ancak eski müttefiki Karakoyunlu Kara Yûsuf ile Tebriz yakınlarında girdiği Esedabad Muharebesi'nde mağlup olarak öldürüldü. Türkçe ve Farsça divan sahibi büyük bir şair ve bestekârdı.",
+        "traits": [
+          "Yılmayan savaşçı",
+          "Şair ve bestekâr sultan",
+          "Timur'un baş hasmı"
+        ],
+        "contribution": "Timur istilasına karşı Bağdat ve Irak'ı savundu; Türk musikisi ve divan şiirinde seçkin eserler bıraktı.",
+        "harm": "Karakoyunlular ile uzlaşmak yerine taht savaşına girerek Celâyir Devleti'nin sonunu hazırladı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Yıldırım Bayezid'in himayesine sığınması Osmanlı-Timur çatışmasını kaçınılmaz kılan en önemli diplomatik olaydır."
+        ],
+        "wars": [
+          {
+            "name": "Bağdat Kuşatması Savunması",
+            "when": "1393",
+            "foe": "Timur İmparatorluğu (Emir Timur)",
+            "result": "yenilgi",
+            "note": "Timur ordusunun ani taarruzu karşısında Bağdat'ı tahliye edip Memlüklere sığındı."
+          },
+          {
+            "name": "Esedabad Meydan Muharebesi",
+            "when": "1410",
+            "foe": "Karakoyunlu Devleti (Kara Yûsuf)",
+            "result": "yenilgi",
+            "note": "Tebriz yakınlarında Karakoyunlulara mağlup oldu ve maktul düştü; Celâyir hakimiyeti çöktü."
+          }
+        ],
+        "legends": [
+          "Şiirlerini ve bestelediği kar ve nakış formundaki musikileri Osmanlı sarayında icra ettiği rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AHMED CELÂYİR",
+            "url": "https://islamansiklopedisi.org.tr/ahmed-celayir"
+          },
           {
             "title": "TDV İslâm Ansiklopedisi, CELÂYİRLİLER",
             "url": "https://islamansiklopedisi.org.tr/celayirliler"
