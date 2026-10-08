@@ -1756,11 +1756,25 @@
         ],
         "wars": [
           {
+            "name": "Hârizm ve Ürgenç Seferi",
+            "when": "1431",
+            "foe": "Timurlu Valileri",
+            "result": "zafer",
+            "note": "Hârizm'in kuzey şehirleri ve Ürgenç zaptedildi; büyük ganimetle bozkıra dönüldü."
+          },
+          {
             "name": "Sıgnak Fethi",
             "when": "1446",
             "foe": "Timurlu sınır valileri",
             "result": "zafer",
             "note": "Sıgnak ve Siriderya boyları zaptedildi."
+          },
+          {
+            "name": "Semerkant Seferi (Ebu Said İttifakı)",
+            "when": "1451",
+            "foe": "Timurlu Sultanı Abdullah Mirza",
+            "result": "zafer",
+            "note": "Ebu Said Mirza'ya tahtı kazandırdı; Uluğ Bey'in kızı Rabia Sultan Begüm ile evlendi."
           }
         ],
         "legends": [],
@@ -1824,6 +1838,27 @@
             "foe": "Timurlular Devleti (Bâbür Şah)",
             "result": "zafer",
             "note": "Semerkant zaptedildi; Şeybânî Özbek Devleti Mâverâünnehir'e kesin olarak yerleşti."
+          },
+          {
+            "name": "Sar-ı Pul Meydan Muharebesi",
+            "when": "1501",
+            "foe": "Bâbür Şah ve Timurlu Ordusu",
+            "result": "zafer",
+            "note": "Bâbür ağır yenilgiye uğratıldı ve Semerkant'ı tamamen terk etmek zorunda kaldı."
+          },
+          {
+            "name": "Herat'ın Fethi",
+            "when": "1507",
+            "foe": "Timurlular Devleti (Bedîüzzaman Mirza)",
+            "result": "zafer",
+            "note": "Son büyük Timurlu başkenti düştü; Horasan Şeybânî topraklarına katıldı."
+          },
+          {
+            "name": "Merv Meydan Muharebesi",
+            "when": "1510",
+            "foe": "Safevîler Devleti (Şah İsmail)",
+            "result": "yenilgi",
+            "note": "Şah İsmail'in sahte ricat tuzağına düşen Şeybânî Han ordusuyla birlikte şehit oldu."
           }
         ],
         "legends": [

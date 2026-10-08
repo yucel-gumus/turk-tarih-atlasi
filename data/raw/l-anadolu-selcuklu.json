@@ -1762,6 +1762,63 @@
         ]
       },
       {
+        "id": "mengucek-ishak-bey",
+        "name": "İshak Bey",
+        "aliases": [
+          "Emîr İshak",
+          "İshak b. Mengücek"
+        ],
+        "title": "Emîr / Melik",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1142,
+        "deathNote": "1142 civarında Kemah'ta vefat etti",
+        "reign": [
+          1118,
+          1142
+        ],
+        "reignNote": "24 yıllık saltanat; Danişmendliler ve Trabzon Dukalığı ile mücadele etti.",
+        "claim": false,
+        "summary": "Mengücek Gazi'nin oğlu. Babasının vefatından sonra Kemah, Erzincan ve Divriği'nin başına geçti. Danişmendli Emîr Gazi ile nüfuz mücadelesine girişti; Trabzon dükası Konstantinos Gavras ile ittifak kurarak Şiran'da savaştı. Vefatından sonra beylik Erzincan (Melik Davud) ve Divriği (Süleyman Şah) kollarına ayrıldı.",
+        "traits": [
+          "Savaşçı emîr",
+          "Hanedan kurucusu"
+        ],
+        "contribution": "Mengücek topraklarının bütünlüğünü koruyup beyliği Erzincan ve Divriği merkezli kökleştirdi.",
+        "harm": "Danişmendliler karşısında uğradığı yenilgi beyliğin bağımsız siyasetini bir süre zayıflattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "I. Dâvud Şah",
+            "mother": "",
+            "note": "Erzincan kolunun kurucusu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Süleyman Şah",
+            "mother": "",
+            "note": "Divriği kolunun kurucusu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Şiran (Siran) Meydan Muharebesi",
+            "when": "1120",
+            "foe": "Danişmendliler Devleti (Gümüştekin Gazi)",
+            "result": "yenilgi",
+            "note": "Trabzon Dükası Gavras esir alındı; İshak Bey barış antlaşması yapmak zorunda kaldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+            "url": "https://islamansiklopedisi.org.tr/mengucukluler"
+          }
+        ]
+      },
+      {
         "id": "mengucek-fahreddin-behramsah",
         "name": "Fahreddin Behramşah",
         "aliases": [

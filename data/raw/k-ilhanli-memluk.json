@@ -1512,50 +1512,108 @@
         ]
       },
       {
-        "id": "celayirli-sultan-ahmed",
-        "name": "Sultan Ahmed Celâyir",
+        "id": "celayirli-seyh-uveys",
+        "name": "Şeyh Üveys",
         "aliases": [
-          "Gıyâseddin Ahmed"
+          "Muizzüddin Şeyh Üveys",
+          "Üveys Han"
         ],
-        "title": "Sultan / Şair",
+        "title": "Sultanü'l-Âdil / Sultan",
+        "birth": 1338,
+        "birthNote": "Bağdat'ta doğdu",
+        "death": 1374,
+        "deathNote": "Tebriz'te vefat etti",
+        "reign": [
+          1356,
+          1374
+        ],
+        "reignNote": "18 yıllık altın çağ saltanatı; Tebriz ve Azerbaycan'ı fethetti.",
+        "claim": false,
+        "summary": "Hasan Büzürg'ün oğlu ve Celâyirîler Devleti'nin en büyük hükümdarı. 1358'de Çobanoğulları'nı mağlup ederek Tebriz ve Azerbaycan'ı fethetti. Şirvanşahları ve Musul'u itaat altına aldı. Bağdat'ta ünlü Mircâniye Külliyesi'ni tamamladı, Tebriz'de meşhur Devlet-hâne sarayını inşa ettirdi. Şairleri, hattatları ve minyatürcüleri himaye ederek Celâyirî sanat okulunu zirveye taşıdı.",
+        "traits": [
+          "Büyük fatih",
+          "Sanat ve mimarlık hamisi",
+          "Adil sultan"
+        ],
+        "contribution": "Devletin sınırlarını Kafkaslar'dan Basra Körfezi'ne kadar genişletti; Mircâniye Camii ve medreselerini inşa ettirdi.",
+        "harm": "Ölümünden sonra oğulları arasında çıkan taht kavgalarını engelleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Celâleddin Sultan Hüseyin",
+            "mother": "",
+            "note": "Halefi olan büyük oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sultan Ahmed Celâyir",
+            "mother": "",
+            "note": "Timur ile savaşan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Tebriz ve Azerbaycan Fethi",
+            "when": "1358",
+            "foe": "Çobanoğulları Ordusu (Ahîçuk)",
+            "result": "zafer",
+            "note": "Tebriz zaptedildi; Çobanoğulları hakimiyetine son verildi."
+          },
+          {
+            "name": "Şirvan Seferi",
+            "when": "1366",
+            "foe": "Şirvanşahlar Devleti (Kavus)",
+            "result": "zafer",
+            "note": "Şirvanşahlar Celâyirî vassalı yapıldı ve yıllık vergiye bağlandı."
+          }
+        ],
+        "legends": [
+          "Tebriz ve Bağdat minyatür ekolünün kurucusu sayılır; sarayında hazırlanan el yazmaları dünya müzelerinde sergilenir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, CELÂYİRLİLER",
+            "url": "https://islamansiklopedisi.org.tr/celayirliler"
+          }
+        ]
+      },
+      {
+        "id": "celayirli-sultan-huseyin",
+        "name": "Celâleddin Sultan Hüseyin",
+        "aliases": [
+          "Sultan Hüseyin Celâyir"
+        ],
+        "title": "Sultan",
         "birth": null,
         "birthNote": "Kayıtlarda yok",
-        "death": 1410,
-        "deathNote": "Tebriz yakınlarında Kara Yusuf tarafından esir alınıp idam edildi",
+        "death": 1382,
+        "deathNote": "Tebriz'te kardeşi Ahmed tarafından katledildi",
         "reign": [
-          1382,
-          1410
+          1374,
+          1382
         ],
-        "reignNote": "28 yıllık sürgünler ve taht kavgalarıyla dolu saltanat.",
-        "summary": "Sultan Üveys'in oğlu. Timur'un amansız istilalarına karşı Bağdat'ı kahramanca savundu, defalarca şehri terk edip geri aldı. Türkçe divan yazan ilk hükümdar şairlerdendir. Yıldırım Bayezid'e sığınması Ankara Savaşı'nı tetikledi. Eski dostu Karakoyunlu Kara Yusuf ile taht savaşında öldü.",
+        "reignNote": "8 yıllık saltanat; Karakoyunlularla ittifak kurdu.",
+        "claim": false,
+        "summary": "Şeyh Üveys'in büyük oğlu ve halefi. Tebriz ve Bağdat tahtını idare etti. Karakoyunlu Türkmen Beyi Bayram Hoca ile ittifak kurdu. Muzafferîlerin Tebriz taarruzunu püskürttü. Ancak kardeşi Sultan Ahmed'in başlattığı isyan neticesinde 1382'de mağlup edilip öldürüldü.",
         "traits": [
-          "Musikişinas ve şair",
-          "Yenilmeyen irade",
-          "Gözü pek"
+          "Karakoyunlu müttefiki",
+          "Talihsiz hükümdar"
         ],
-        "contribution": "Türkçe ve Farsça Divanıyla erken dönem Türk şiirine şaheserler kazandırdı.",
-        "harm": "Karakoyunlular ile uzlaşmak yerine Tebriz tahtı için savaşa tutuşması devletinin sonunu getirdi.",
+        "contribution": "Azerbaycan ve Irak sınırlarını Muzafferî akınlarına karşı korudu.",
+        "harm": "Kardeşleriyle girdiği iç savaş hanedanın askeri gücünü yıpratarak Timur tehlikesine karşı savunmasız bıraktı.",
         "wives": [],
         "children": [],
         "wars": [
           {
-            "name": "Bağdat Savunması",
-            "when": "1393 ve 1401",
-            "foe": "Timurlu Ordusu (Timur bizzat)",
-            "result": "yenilgi",
-            "note": "Bağdat düştü, kafa kuleleri dikildi, sultan Memlüklere ve Osmanlı'ya kaçtı."
-          },
-          {
-            "name": "Esed Muharebesi",
-            "when": "1410",
-            "foe": "Karakoyunlular (Kara Yusuf)",
-            "result": "yenilgi",
-            "note": "Sultan esir alındı ve idam edildi."
+            "name": "Sultâniye ve Tebriz Savunması",
+            "when": "1376",
+            "foe": "Muzafferîler Devleti (Şah Şücâ)",
+            "result": "zafer",
+            "note": "Muzafferî ordusu Tebriz önlerinden geri püskürtüldü."
           }
         ],
-        "legends": [
-          "Yıldırım Bayezid'in onu Bursa'da krallar gibi ağırladığı ve Timur'un 'Ahmed ile Yusuf'u bana teslim et' tehditlerine karşı 'Sığınan misafiri teslim etmek töremizde yoktur' diyerek savaşı göze aldığı meşhurdur."
-        ],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, CELÂYİRLİLER",

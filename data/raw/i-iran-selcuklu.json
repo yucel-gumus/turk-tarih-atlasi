@@ -968,6 +968,50 @@
         ]
       },
       {
+        "id": "salgurlu-tekle",
+        "name": "Tekle b. Zengî",
+        "aliases": [
+          "Atabeg Tekle",
+          "Tekele"
+        ],
+        "title": "Atabeg",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1198,
+        "deathNote": "1198'de Şiraz'da vefat etti",
+        "reign": [
+          1175,
+          1198
+        ],
+        "reignNote": "23 yıllık saltanat; Fars bölgesinde Salgurlu hakimiyetini pekiştirdi.",
+        "claim": false,
+        "summary": "Zengî b. Mevdûd'un oğlu. Amcası Sungur ve babasının ardından Salgurlular tahtına geçti. Irak Selçukluları ve İldenizliler ile siyasi münasebetler kurdu. Hârizmşahlar ve Kirman Selçukluları tehlikesine karşı Şiraz ve Fars vilayetlerini başarıyla korudu, imar faaliyetlerine hız verdi.",
+        "traits": [
+          "Barışçı idareci",
+          "Kültür hamisi"
+        ],
+        "contribution": "Fars bölgesinde istikrar ve asayişi sağladı; Şiraz'ı ilim ve ticaret merkezi haline getirdi.",
+        "harm": "Komşu atabeyliklerin iç çekişmelerinde zaman zaman yıprandı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Fars ve Kirman Sınır Çatışmaları",
+            "when": "1179-1186",
+            "foe": "Kirman Selçukluları ve Oğuz Reisleri",
+            "result": "zafer",
+            "note": "Kirman ve Şiraz sınırındaki Oğuz yağmacıları püskürtüldü ve Fars emniyete alındı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALGURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/salgurlular"
+          }
+        ]
+      },
+      {
         "id": "salgurlu-sad-b-zengi",
         "name": "Sa'd b. Zengî",
         "aliases": [

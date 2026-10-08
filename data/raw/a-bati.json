@@ -256,12 +256,39 @@
         "children": [],
         "wars": [
           {"name": "Gepid savaşı", "when": "567", "foe": "Gepid kralı Cunimund", "result": "zafer", "note": "Longobardlarla birlikte. TDV Macaristan 567 Longobard-Avar ittifakını yazar."},
-          {"name": "Sigebert seferleri", "when": "562 ve 566", "foe": "Frank kralı I. Sigebert", "result": "belirsiz", "note": "Vikipedi 562'de yenilgi, 566'da galibiyet der. TDV Frankları yendiklerini kaydeder, yıl vermez."}
+          {"name": "Sigebert seferleri", "when": "562 ve 566", "foe": "Frank kralı I. Sigebert", "result": "belirsiz", "note": "Vikipedi 562'de yenilgi, 566'da galibiyet der. TDV Frankları yendiklerini kaydeder, yıl vermez."},
+          {"name": "Sirmium ve Singidunum Kuşatması", "when": "580-584", "foe": "Bizans İmparatorluğu (Maurikios)", "result": "zafer", "note": "Balkanların kilit kalesi Sirmium (Sremska Mitrovica) ve Singidunum (Belgrad) Avarlarca fethedildi."}
         ],
         "legends": ["Vikipedi, Bayan'ın Cunimund'un kafatasından kadeh yaptırıp Alboin'e verdiğini yazar. Anlatı Longobard geleneğindendir; TDV'de yoktur."],
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
           {"title": "Wikipedia, Bayan I", "url": "https://en.wikipedia.org/wiki/Bayan_I"}
+        ]
+      },
+      {
+        "id": "avar-tudun",
+        "name": "Tudun",
+        "title": "tudun / vali",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 803,
+        "deathNote": "803'ten sonraki akıbeti belirsizdir",
+        "reign": [795, 803],
+        "reignNote": "Frank kaynaklarında (Annales Regni Francorum) adı zikredilen Avar yöneticisi.",
+        "summary": "Avar Kağanlığı'nın son devrinde Frank baskısı karşısında diploması ve direnişi yürüten yüksek rütbeli yönetici (tudun). 795'te Charlemagne'a elçi gönderip vaftiz olduysa da 799'da Frank tahakkümüne karşı Büyük Avar İsyanı'nı başlattı.",
+        "traits": ["tudun", "direnişçi"],
+        "contribution": "Avarların bağımsızlığı için Frank ordularına karşı son büyük direnişi örgütledi.",
+        "harm": "Frank seferleri karşısında Avar siyasi birliğinin dağılmasını engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Büyük Avar Ayaklanması", "when": "799", "foe": "Frank Krallığı (Eric of Friuli & Gerold)", "result": "zafer", "note": "Frank garnizonlarına ağır darbe vuruldu; Friuli dükü Eric ve Bavyera valisi Gerold öldürüldü."},
+          {"name": "Pannonia Savunması", "when": "803", "foe": "Frank İmparatorluğu (Charlemagne)", "result": "yenilgi", "note": "Tudun teslim oldu; Avar Kağanlığı siyasî olarak dağılma sürecine girdi."}
+        ],
+        "legends": [],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, AVARLAR", "url": "https://islamansiklopedisi.org.tr/avarlar"},
+          {"title": "Britannica, Avar", "url": "https://www.britannica.com/topic/Avar"}
         ]
       },
       {
@@ -838,7 +865,9 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {"name": "Hazar Vergi İsyanı ve İstiklâl", "when": "921-922", "foe": "Hazar Kağanlığı", "result": "zafer", "note": "Almış Han Hazarlara vergi ödemeyi reddedip Abbâsî halifesiyle ittifak kurarak bağımsızlığını pekiştirdi."}
+        ],
         "legends": [],
         "sources": [
           {
@@ -856,6 +885,32 @@
         ],
         "familyNotes": [
           "İbn Fadlân anlatısındaki Etrek-Almış yakınlığı bir kızın Almış’ın çocuğu olduğunu tek başına kanıtlamaz; kız kaydı çıkarıldı."
+        ]
+      },
+      {
+        "id": "itil-bulgar-celbir",
+        "name": "Çelbir Han",
+        "title": "han",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1225,
+        "deathNote": "1225 civarında vefat etti",
+        "reign": [1178, 1225],
+        "reignNote": "1223 Samara Bend zaferini kazanan İdil Bulgar hanı.",
+        "summary": "İdil Bulgar Devleti'nin Moğol istilası arifesindeki güçlü hanı. 1223 yılında Kalka Nehri zaferinden dönen Cebe ve Sübedey komutasındaki Moğol ordusunu Samara Bend (Koyun) mevkiinde kurduğu pusuyla kuşatarak tarihin ilk büyük Moğol yenilgilerinden birini tattırdı.",
+        "traits": ["stratejist", "zafer kazanan han"],
+        "contribution": "İdil Bulgar ülkesini Moğol öncülerine karşı başarıyla savundu ve Rus knezlikleriyle sınır dengesini korudu.",
+        "harm": "Kısa süre sonra başlayacak olan topyekün Cengizli istilasına karşı ortak bir bozkır savunma paktı kuramadı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Samara Bend (Koyun) Meydan Muharebesi", "when": "1223", "foe": "Moğol Ordusu (Cebe ve Sübedey)", "result": "zafer", "note": "Moğol öncü kuvvetleri İdil Nehri dirseğinde pusuya düşürülüp imha edildi; esirler koyun fidyesiyle takas edildi."},
+          {"name": "Rus Sınır Savaşları", "when": "1183-1220", "foe": "Vladimir-Suzdal Knezliği", "result": "belirsiz", "note": "İdil boyunda ticari ve askeri hakimiyet mücadeleleri yaşandı."}
+        ],
+        "legends": ["1223'te esir alınan Moğol askerlerinin 'bir esire bir koyun' fidyesiyle serbest bırakılması sebebiyle savaş tarihe 'Koyun Muharebesi' olarak geçmiştir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, İDİL BULGAR HANLIĞI", "url": "https://islamansiklopedisi.org.tr/idil-bulgar-hanligi"},
+          {"title": "TDV İslâm Ansiklopedisi, BULGAR", "url": "https://islamansiklopedisi.org.tr/bulgar"}
         ]
       },
       {

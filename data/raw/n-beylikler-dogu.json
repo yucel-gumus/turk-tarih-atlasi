@@ -2652,6 +2652,54 @@
         ]
       },
       {
+        "id": "eretna-ii-mehmed",
+        "name": "II. Mehmed Bey",
+        "aliases": [
+          "Çelebi Mehmed",
+          "Ebûlfezâil Mehmed"
+        ],
+        "title": "Hükümdar",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok (çocuk yaşta tahta çıktı)",
+        "death": null,
+        "deathNote": "1381'den sonraki akıbeti belirsizdir",
+        "reign": [
+          1380,
+          1381
+        ],
+        "reignNote": "1 yıllık saltanat; Kadı Burhaneddin'in nâibliğinde tahtta kaldı.",
+        "claim": false,
+        "summary": "Alâeddin Ali Bey'in veba salgınında vefatı üzerine yedi yaşında tahta çıkarılan Eretnaoğlu hükümdarı. Yaşının küçüklüğü sebebiyle devlet ricali Kayseri kadısı Kadı Burhâneddin Ahmed'i nâibü's-saltana (atabeg) tayin etti. Emîrler arasındaki iç çekişmelerin ardından Kadı Burhaneddin 1381'de fiilen ve resmen idareyi ele aldı.",
+        "traits": [
+          "Çocuk hükümdar",
+          "Hanedanın son şehzadesi"
+        ],
+        "contribution": "Eretna hanedanının son meşru temsilcisi olarak saltanat mührünü taşıdı.",
+        "harm": "Devletin emîrler arasında parçalanmasını engelleyecek otoriteden yoksundu.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Eretna Taht Çekişmeleri",
+            "when": "1380-1381",
+            "foe": "İsyancı Türkmen ve Moğol Emîrleri",
+            "result": "antlasma",
+            "note": "Kadı Burhaneddin naibliğinde düzen sağlandı; ardından Kadı Burhaneddin tahta geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ERETNAOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/eretnaogullari"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KADI BURHÂNEDDİN",
+            "url": "https://islamansiklopedisi.org.tr/kadi-burhaneddin"
+          }
+        ]
+      },
+      {
         "id": "eretna-kadi-burhaneddin",
         "name": "Kadı Burhaneddin",
         "aliases": [
