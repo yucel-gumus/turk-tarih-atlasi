@@ -1247,6 +1247,188 @@
             "url": "https://islamansiklopedisi.org.tr/edigu"
           }
         ]
+      },
+      {
+        "id": "nogay-nureddin-bey",
+        "name": "Nureddin Bey",
+        "aliases": [
+          "Nûreddin Mirza"
+        ],
+        "title": "Uluğ Bey / Başbuğ",
+        "birth": 1380,
+        "birthNote": "Deşt-i Kıpçak'ta Edigü Bey'in oğlu olarak doğdu",
+        "death": 1440,
+        "deathNote": "Saraycık'ta vefat etti",
+        "reign": [
+          1426,
+          1440
+        ],
+        "reignNote": "14 yıl Nogay Ordası'nı dirayetle idare etti.",
+        "claim": false,
+        "summary": "Edigü Bey'in en ünlü oğlu. Babasının ölümünden sonra dağılma tehlikesi geçiren Mangıt boylarını Saraycık merkezli yeniden birleştirdi. Nogay idari teşkilatında veliahtlık ve ordu komutanlığı makamına onun anısına 'Nûreddin' adı verildi; Nogay ve Tatar destanlarında yiğitliğiyle efsaneleşti.",
+        "traits": [
+          "Bozkır kahramanı",
+          "Teşkilatçı bey",
+          "Destan yiğidi"
+        ],
+        "contribution": "Nogay Ordası idaresinde 'Nûreddin' makamının kurumsallaşmasını sağladı; Saraycık şehrini imar etti.",
+        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Vakkas Bey",
+            "mother": "",
+            "note": "Nogay lideri olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Nogay destanlarında 'Nûreddin' adı babası Edigü ile birlikte en çok anılan kahramandır."
+        ],
+        "wars": [
+          {
+            "name": "Saraycık Savunması",
+            "when": "1430",
+            "foe": "Altın Orda rakip kabile birlikleri",
+            "result": "zafer",
+            "note": "Başkent Saraycık korundu, Nogay hakimiyeti pekişti."
+          }
+        ],
+        "legends": [
+          "Tatar ve Nogay halk edebiyatında adına müstakil 'Nûreddin Destanı' yakılmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+            "url": "https://islamansiklopedisi.org.tr/nogaylar"
+          }
+        ]
+      },
+      {
+        "id": "nogay-musa-mirza",
+        "name": "Musa Mirza",
+        "aliases": [
+          "Musa Bey Mangıt"
+        ],
+        "title": "Büyük Bey / Bîklerbîkî",
+        "birth": 1440,
+        "birthNote": "Saraycık'ta Vakkas Bey'in oğlu olarak doğdu",
+        "death": 1502,
+        "deathNote": "Saraycık'ta vefat etti",
+        "reign": [
+          1480,
+          1502
+        ],
+        "reignNote": "22 yıllık Nogay Ordası'nın altın çağı.",
+        "claim": false,
+        "summary": "Nogay Ordası'nın en kudretli hükümdarlarından biri. Kardeşi Yamgurçi ile birlikte Saraycık merkezli 300 bin çadırlık muazzam bir göçebe güce hükmetti. 1481'de Sibir Hanı İbak ile ittifak kurarak Don Irmağı'nda Altın Orda Hanı Ahmed'i öldürdü; Altın Orda'nın yıkılmasında başrol oynadı. Moskova ve Kırım Hanlığı ile eşit diplomatik ilişkiler yürüttü.",
+        "traits": [
+          "Büyük siyasetçi",
+          "Kudretli başbuğ",
+          "Bozkır diplomatı"
+        ],
+        "contribution": "Nogay Ordası'na tarihindeki en geniş sınırları ve en güçlü dönemi yaşattı.",
+        "harm": "Ölümüyle çok sayıdaki oğlu arasında taht kavgaları başladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Şeyh Memay",
+            "mother": "",
+            "note": "Nogay beyi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yusuf Bey",
+            "mother": "",
+            "note": "Süyümbike'nin babası olan büyük bey",
+            "certainty": "kesin"
+          },
+          {
+            "name": "İsmail Bey",
+            "mother": "",
+            "note": "Nogay beyi",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kazan Hanlığı'nın efsane melikesi Süyümbike Hatun Musa Mirza'nın torunudur."
+        ],
+        "wars": [
+          {
+            "name": "Altın Orda'nın Tasfiyesi Harekâtı",
+            "when": "1481",
+            "foe": "Altın Orda Hanlığı (Büyük Han Ahmed)",
+            "result": "zafer",
+            "note": "İbak Han ile birleşerek Ahmed Han'ı ortadan kaldırdı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+            "url": "https://islamansiklopedisi.org.tr/nogaylar"
+          }
+        ]
+      },
+      {
+        "id": "nogay-yusuf-bey",
+        "name": "Yusuf Bey",
+        "aliases": [
+          "Yusuf Mirza Mangıt"
+        ],
+        "title": "Büyük Bey",
+        "birth": 1485,
+        "birthNote": "Saraycık'ta Musa Mirza'nın oğlu olarak doğdu",
+        "death": 1554,
+        "deathNote": "Kardeşi İsmail Bey tarafından pusuya düşürülerek katledildi",
+        "reign": [
+          1549,
+          1554
+        ],
+        "reignNote": "5 yıllık bağımsızlık yanlısı son büyük beylik dönemi.",
+        "claim": false,
+        "summary": "Musa Mirza'nın oğlu, Kazan Melikesi Süyümbike Hatun'un babası. Rus Çarlığı'nın Kazan ve Astrahan'a yönelik saldırılarına karşı Müslüman Türk hanlıklarıyla sıkı bir ittifak kurdu. Kızı Süyümbike'nin Kazan'da esir alınması üzerine Korkunç İvan'a tehdit dolu mektuplar yazdı ve ordu topladı. Ancak Moskova'dan rüşvet ve destek alan Rus yanlısı kardeşi İsmail Bey tarafından öldürüldü.",
+        "traits": [
+          "Moskova karşıtı",
+          "Bağımsızlık timsali",
+          "Mücahid baba"
+        ],
+        "contribution": "Kazan Hanlığı'na askeri destek sağladı; Rus tehdidine karşı bozkır direnişini örgütledi.",
+        "harm": "Kardeşi İsmail ile yaşadığı iktidar mücadelesini kaybederek Nogay Ordası'nın bölünmesine engel olamadı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Süyümbike Hatun",
+            "mother": "",
+            "note": "Kazan Hanlığı naibesi olan meşhur kızı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yunus Bey",
+            "mother": "",
+            "note": "Babasının intikamı için savaşan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kızı Süyümbike Hatun Tatar milli bağımsızlık destanının başkahramanıdır."
+        ],
+        "wars": [
+          {
+            "name": "Kazan Seferi Hazırlığı ve Rus Baskını",
+            "when": "1552",
+            "foe": "Rus Çarlığı sınır birlikleri",
+            "result": "sonucsuz",
+            "note": "Kazan'ı kurtarmak için ordu sevk etti ancak kardeşinin iç isyanı sebebiyle geri dönmek zorunda kaldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+            "url": "https://islamansiklopedisi.org.tr/nogaylar"
+          }
+        ]
       }
     ]
   },
@@ -1277,8 +1459,8 @@
     ],
     "sources": [
       {
-        "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA",
-        "url": "https://islamansiklopedisi.org.tr/altin-orda"
+        "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+        "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
       },
       {
         "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
@@ -1286,6 +1468,67 @@
       }
     ],
     "rulers": [
+      {
+        "id": "ak-orda-orda-han",
+        "name": "Orda İcen Han",
+        "aliases": [
+          "Orda Han",
+          "Orda Ecen"
+        ],
+        "title": "Han / Sol Kanat Hükümdarı",
+        "birth": 1204,
+        "birthNote": "Deşt-i Kıpçak'ta Cuci Han'ın en büyük oğlu olarak doğdu",
+        "death": 1251,
+        "deathNote": "İrtiş boyunda vefat etti",
+        "reign": [
+          1227,
+          1251
+        ],
+        "reignNote": "24 yıl Ak Orda'nın kurucu hanı olarak hüküm sürdü.",
+        "claim": false,
+        "summary": "Cuci Han'ın en büyük oğlu, Batu Han'ın ağabeyi. Cengiz Han yasasına göre babasının ardından tahta geçme hakkı varken feragat ederek Altın Orda tahtını kardeşi Batu'ya bıraktı; kendisi ise İrtiş ve Balkaş'tan Seyhun boylarına kadar uzanan geniş Doğu sahasını (Sol Kanat / Ak Orda) yönetti. Ak Orda Devleti'nin kurucusu kabul edilir.",
+        "traits": [
+          "Alicenap kurucu",
+          "Bozkır töresine bağlı",
+          "Teşkilatçı"
+        ],
+        "contribution": "Ak Orda hanedanını kurdu; Kazak ve Nogay bozkırlarının siyasi temellerini attı.",
+        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Künkıran Han",
+            "mother": "",
+            "note": "İkinci Ak Orda hanı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Sartahtay",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Cuci Han'ın en büyük oğlu olmasına rağmen kardeşi Batu'ya tahtı bırakacak kadar olgun bir töre anlayışına sahipti."
+        ],
+        "wars": [
+          {
+            "name": "Büyük Batı Seferi",
+            "when": "1236",
+            "foe": "İdil Bulgarları ve Rus Knezlikleri",
+            "result": "zafer",
+            "note": "Kardeşi Batu Han ile birlikte Doğu Avrupa seferine iştirak etti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
       {
         "id": "ak-orda-urus-han",
         "name": "Urus Han",
@@ -1346,8 +1589,65 @@
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA",
-            "url": "https://islamansiklopedisi.org.tr/altin-orda"
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "ak-orda-barak-han",
+        "name": "Barak Han",
+        "aliases": [
+          "Barak Han bin Koyurçuk"
+        ],
+        "title": "Son Ak Orda Hanı",
+        "birth": 1390,
+        "birthNote": "Deşt-i Kıpçak'ta Urus Han'ın torunu olarak doğdu",
+        "death": 1428,
+        "deathNote": "Mogolistan sınırında girdiği muharebede maktul düştü",
+        "reign": [
+          1423,
+          1428
+        ],
+        "reignNote": "5 yıllık fırtınalı son Ak Orda saltanatı.",
+        "claim": false,
+        "summary": "Urus Han'ın torunu, Ak Orda'nın son bağımsız hanı. Uluğ Bey'in desteğiyle tahta çıktıysa da ardından atalarının mirası olan Sıgnak ve Seyhun boylarını Timurlulardan geri almak için savaşa girişti ve Uluğ Bey'in ordusunu mağlup etti. Vefatıyla Ak Orda sona erdi; oğulları Kerey ve Canıbek Hanlar 1465'te Kazak Hanlığı'nı kurdu.",
+        "traits": [
+          "Cesur bozkır savaşçısı",
+          "Bağımsızlık taraftarı"
+        ],
+        "contribution": "Sıgnak ve Seyhun havzasını geri alarak Kazak Hanlığı'nın kurulacağı çekirdek coğrafyayı hazırladı.",
+        "harm": "Timurlularla ve Ebü'l-Hayr Özbekleriyle girdiği şiddetli çatışmalar Ak Orda'nın çöküşünü hızlandırdı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Canıbek Han",
+            "mother": "",
+            "note": "Kazak Hanlığı'nın kurucusu olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Oğlu Canıbek Han ve yeğeni Kerey Han 1465 yılında Kazak Hanlığı'nı kurmuştur."
+        ],
+        "wars": [
+          {
+            "name": "Sıgnak Meydan Muharebesi",
+            "when": "1427",
+            "foe": "Timurlular Devleti (Uluğ Bey ordusu)",
+            "result": "zafer",
+            "note": "Uluğ Bey'in komutasındaki Timurlu ordusu mağlup edildi, Sıgnak Ak Orda'ya geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
           }
         ]
       }

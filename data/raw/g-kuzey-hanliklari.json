@@ -1692,6 +1692,155 @@
             "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
           }
         ]
+      },
+      {
+        "id": "kasim-sah-ali-han",
+        "name": "Şah Ali Han",
+        "aliases": [
+          "Şigaley Han"
+        ],
+        "title": "Kasım Hanı",
+        "birth": 1505,
+        "birthNote": "Kasimov'da doğdu",
+        "death": 1567,
+        "deathNote": "Kasimov'da vefat etti, Tekke Türbesi'ne defnedildi",
+        "reign": [
+          1516,
+          1567
+        ],
+        "reignNote": "Aralıklarla yarım asır süren Kasım hükümdarlığı.",
+        "claim": false,
+        "summary": "Kasım Hanı Şeyh Evliyar'ın oğlu. Rusya içindeki Kasım Hanlığı'nın en uzun süre hüküm süren hükümdarı. Moskova sarayı tarafından üç kez Kazan tahtına oturtuldu; Rus ordularında Livonya ve Litvanya seferlerine Tatar süvarileriyle komuta etti. Kasimov şehrinde inşa ettirdiği minare ve taş türbe günümüze ulaşmıştır.",
+        "traits": [
+          "Moskova ile uzlaşmacı",
+          "İmarcı",
+          "Askerî süvari lideri"
+        ],
+        "contribution": "Kasimov şehrinde günümüze kalan Şah Ali Tekkesi ve Han Camii Minaresi'ni inşa ettirdi.",
+        "harm": "Moskova'nın diğer Türk hanlıklarını zayıflatma ve ilhak siyasetinde maşa olarak kullanıldı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Türbesi ve inşa ettirdiği tarihi minare bugün Rusya'nın Ryazan bölgesinde Kasimov şehrinde ayaktadır."
+        ],
+        "wars": [
+          {
+            "name": "Livonya Seferi",
+            "when": "1558",
+            "foe": "Livonya Konfederasyonu (Töton Şövalyeleri)",
+            "result": "zafer",
+            "note": "Tatar süvarilerinin başında Baltık boylarına sefer düzenledi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KASIM HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kasim-sayin-bulat",
+        "name": "Sayın Bulat Han",
+        "aliases": [
+          "Simeon Bekbulatoviç"
+        ],
+        "title": "Kasım Hanı / Tüm Rusya'nın Çarı (1575-1576)",
+        "birth": 1545,
+        "birthNote": "Deşt-i Kıpçak'ta Altın Orda hanedanından doğdu",
+        "death": 1616,
+        "deathNote": "Moskova'da Simonov Manastırı'nda sürgünde vefat etti",
+        "reign": [
+          1567,
+          1573
+        ],
+        "reignNote": "Kasım Hanı olarak 6 yıl hüküm sürdü.",
+        "claim": false,
+        "summary": "Altın Orda Hanı Ahmed'in torunu. Kasım tahtına oturduktan sonra Korkunç İvan'ın emriyle Hristiyanlığı kabul edip 'Simeon Bekbulatoviç' adını aldı. Korkunç İvan 1575 yılında tuhaf bir siyasi manevrayla tahttan geçici olarak feragat ederek Sayın Bulat'ı 'Tüm Rusya'nın Çarı ve Moskova Büyük Knezi' ilan etti; İvan bir yıl boyunca ona 'Efendimiz Çar' diye hitap etti. Tarihte Rus Çarlığı tahtına oturan tek Cengiz soyundan Türk hükümdardır.",
+        "traits": [
+          "Sıradışı kader",
+          "Cengiz soyu şehzade",
+          "Siyasi figür"
+        ],
+        "contribution": "Kasım Hanlığı ordusunu Livonya savaşlarında yönetti.",
+        "harm": "Hristiyanlığı kabul ederek Kasım Hanlığı'nın İslami kimliğinin çözülmesine yol açtı.",
+        "wives": [
+          {
+            "name": "Anastasiya Mstislavskaya",
+            "note": "Korkunç İvan'ın akrabası olan Rus prensesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "familyNotes": [
+          "Korkunç İvan onu bir yıl süreyle resmen Çar tahtında tutmuş, fermanları onun adına yayınlatmıştır."
+        ],
+        "wars": [
+          {
+            "name": "İsveç Seferi",
+            "when": "1572",
+            "foe": "İsveç Krallığı ordusu",
+            "result": "zafer",
+            "note": "Baltık cephesinde İsveç birliklerini mağlup etti."
+          }
+        ],
+        "legends": [
+          "Korkunç İvan'ın Kremlin Sarayı'na her girişinde Simeon Bekbulatoviç'in önünde diz çöküp 'Ben senin kulunum' diye eğildiği tarihi kroniklerde kayıtlıdır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KASIM HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "kasim-fatma-sultan",
+        "name": "Fatma Sultan Bike",
+        "aliases": [
+          "Fatma Sultan Hanım"
+        ],
+        "title": "Son Kasım Hükümdarı / Han Bike",
+        "birth": 1620,
+        "birthNote": "Kasimov'da doğdu",
+        "death": 1681,
+        "deathNote": "Kasimov'da vefat etti",
+        "reign": [
+          1679,
+          1681
+        ],
+        "reignNote": "Kasım Hanlığı'nın son 2 yıllık kadın hükümdarlık devri.",
+        "claim": false,
+        "summary": "Kasım Hanı Seyyid Burhan'ın annesi, Arslan Han'ın eşi. Oğlunun vefatından sonra 1679'da Kasım Hanlığı tahtına geçti. Rus Çarlığı'nın hanlığı tamamen lağvetme ve Hristiyanlaştırma baskılarına rağmen İslam dinini ve Kasım özerkliğini son ana kadar savundu. 1681'de vefatıyla 229 yıllık Kasım Hanlığı resmen sona erdi ve toprakları Çarlık tarafından doğrudan ilhak edildi.",
+        "traits": [
+          "Son Müslüman melike",
+          "Dirayetli hatun",
+          "Halkının koruyucusu"
+        ],
+        "contribution": "Kasım Türklerinin Müslüman kimliğini ve vakıflarını son nefesine kadar muhafaza etti.",
+        "harm": "Devletin Rusya tarafından ortadan kaldırılmasını engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kasım Hanlığı'nın ve Rusya coğrafyasındaki Cengizli hanlıklar silsilesinin son kadın hükümdarıdır."
+        ],
+        "wars": [
+          {
+            "name": "Özerklik ve Din Savunması",
+            "when": "1680",
+            "foe": "Moskova Patrikliği ve Çarlık misyonerleri",
+            "result": "antlasma",
+            "note": "Kasım Tatar halkının zorla vaftiz edilmesini hayatı boyunca engelledi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KASIM HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/kasim-hanligi"
+          }
+        ]
       }
     ]
   },

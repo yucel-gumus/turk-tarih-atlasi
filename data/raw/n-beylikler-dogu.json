@@ -2548,6 +2548,110 @@
         ]
       },
       {
+        "id": "eretna-mehmed-bey",
+        "name": "Gıyâseddin Mehmed Bey",
+        "aliases": [
+          "Mehmed Bey Eretnalı"
+        ],
+        "title": "Sultan",
+        "birth": 1338,
+        "birthNote": "Kayseri'de Alâeddin Eretna'nın oğlu olarak doğdu",
+        "death": 1366,
+        "deathNote": "Sivas'ta ümerâ isyanı sırasında maktul düştü",
+        "reign": [
+          1352,
+          1366
+        ],
+        "reignNote": "14 yıllık çalkantılı beylik devri.",
+        "claim": false,
+        "summary": "Alâeddin Eretna'nın oğlu. Babasının ölümü üzerine tahta çıktı. Beyliği döneminde Moğol kökenli emirlerin ve beylerin isyanlarıyla mücadele etti. Karamanoğulları ve Dulkadiroğulları saldırılarına karşı koydu; 1365 Yalnızbağ Muharebesi'nde isyancı emirleri yendi ancak bir yıl sonra saray darbesiyle öldürüldü.",
+        "traits": [
+          "Genç ve cengaver",
+          "İsyanlarla boğuşan"
+        ],
+        "contribution": "Kayseri ve Sivas'ta babasının kurduğu imar ve vakıf düzenini korudu.",
+        "harm": "Emirler arasındaki hizipleşmeleri dizginleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Alâeddin Ali Bey",
+            "mother": "",
+            "note": "Üçüncü Eretna hükümdarı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Yalnızbağ Muharebesi",
+            "when": "1365",
+            "foe": "İsyancı Moğol emirleri",
+            "result": "zafer",
+            "note": "İsyancılar mağlup edilerek Sivas'ta otorite yeniden sağlandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ERETNAOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/eretnaogullari"
+          }
+        ]
+      },
+      {
+        "id": "eretna-ali-bey",
+        "name": "Alâeddin Ali Bey",
+        "aliases": [
+          "Ali Bey Eretnalı"
+        ],
+        "title": "Sultan",
+        "birth": 1354,
+        "birthNote": "Kayseri'de doğdu",
+        "death": 1380,
+        "deathNote": "Kazova Seferi sırasında vebaya yakalanarak vefat etti",
+        "reign": [
+          1366,
+          1380
+        ],
+        "reignNote": "14 yıllık saltanat; Kadı Burhaneddin'in yükseliş dönemi.",
+        "claim": false,
+        "summary": "Gıyâseddin Mehmed'in oğlu. Küçük yaşta tahta çıktı. Karamanoğullarının Niğde ve Aksaray akınlarına karşı mücadele etti. Genç yaşta Kayseri kadılığına getirdiği Kadı Burhaneddin Ahmed'in üstün zekâsını fark ederek onu vezirlik makamına yükseltti; bu karar devletin kaderini değiştirdi. Veba salgınında genç yaşta vefat etti.",
+        "traits": [
+          "Sanat ve edebiyat dostu",
+          "Liyakate önem veren"
+        ],
+        "contribution": "Kadı Burhaneddin gibi büyük bir devlet adamı ve şairi devlete kazandırdı.",
+        "harm": "Eğlenceye düşkünlüğü sebebiyle devlet idaresinde zafiyetler yaşandı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Muhammed Çelebi",
+            "mother": "",
+            "note": "Son çocuk hükümdar",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Vefatından sonra yerine geçen küçük oğlu Muhammed adına naip olan Kadı Burhaneddin 1381'de tahta geçmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Karamanoğlu Savunması",
+            "when": "1375",
+            "foe": "Karamanoğulları Beyliği (Alâeddin Bey)",
+            "result": "antlasma",
+            "note": "Kayseri kuşatması püskürtüldü ve sınır antlaşması yapıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ERETNAOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/eretnaogullari"
+          }
+        ]
+      },
+      {
         "id": "eretna-kadi-burhaneddin",
         "name": "Kadı Burhaneddin",
         "aliases": [

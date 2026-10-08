@@ -1770,6 +1770,75 @@
             "url": "https://islamansiklopedisi.org.tr/ebul-hayr-han"
           }
         ]
+      },
+      {
+        "id": "ozbek-hanligi-seybani-han",
+        "name": "Muhammed Şeybânî Han",
+        "aliases": [
+          "Şibânî Han",
+          "Şahbaht Han",
+          "Ebülfeth Şeybânî"
+        ],
+        "title": "Büyük Han / Hakan / Şair",
+        "birth": 1451,
+        "birthNote": "Deşt-i Kıpçak'ta Şah Budak Sultan'ın oğlu olarak doğdu",
+        "death": 1510,
+        "deathNote": "Merv Meydan Muharebesi'nde Şah İsmail'e karşı savaşırken şehit düştü",
+        "reign": [
+          1469,
+          1500
+        ],
+        "reignNote": "Bozkır Özbek liderliğinden Mâverâünnehir fatihliğine uzanan saltanat.",
+        "claim": false,
+        "summary": "Ebü'l-Hayr Han'ın torunu, Şeybânîler Hanedanı'nın kurucusu ve Özbek fatihi. Babası ve dedesinin ölümünden sonra dağılan Özbek boylarını yılmaz bir iradeyle etrafında topladı. 1500 yılında Semerkant ve Buhara'yı fethederek 130 yıllık Timurlu hakimiyetine son verdi; Mâverâünnehir'de modern Özbekistan'ın temelini atan devleti kurdu. Aynı zamanda Çağatay Türkçesinde gazeller yazan Dîvân sahibi bilge bir şairdi.",
+        "traits": [
+          "Büyük fatih",
+          "Çağatay şairi",
+          "Teşkilatçı deha",
+          "Bozkır kartalı"
+        ],
+        "contribution": "Özbek boylarını birleştirerek Mâverâünnehir'e yerleştirdi; Buhara ve Semerkant'ı ilim ve medrese merkezi yaptı.",
+        "harm": "Safevî Şahı İsmail ile uzlaşmaz mezhep çatışmasına girerek Merv'de ordusunun ve hayatının yok olmasına sebep oldu.",
+        "wives": [
+          {
+            "name": "Zühre Hatun",
+            "note": "Semerkant kapılarını açan Timurlu melikesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Muhammed Temür Sultan",
+            "mother": "",
+            "note": "Semerkant valisi olan veliaht oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Türkçe Dîvân'ı ve fıkıh konulu 'Bahru'l-Hüdâ' adlı manzum eseri günümüze ulaşmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Semerkant'ın Fethi",
+            "when": "1500",
+            "foe": "Timurlular Devleti (Bâbür Şah)",
+            "result": "zafer",
+            "note": "Semerkant zaptedildi; Şeybânî Özbek Devleti Mâverâünnehir'e kesin olarak yerleşti."
+          }
+        ],
+        "legends": [
+          "Şah İsmail ile Merv'de girdiği savaşta şehit düştükten sonra başının altınla kaplanıp kadeh yapıldığı rivayeti dönemin Safevî ve Babür kroniklerinde dehşetle anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ŞEYBÂNÎ HAN",
+            "url": "https://islamansiklopedisi.org.tr/seybani-han"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÖZBEKLER",
+            "url": "https://islamansiklopedisi.org.tr/ozbekler"
+          }
+        ]
       }
     ]
   },

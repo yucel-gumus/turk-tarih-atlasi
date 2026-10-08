@@ -968,6 +968,63 @@
         ]
       },
       {
+        "id": "salgurlu-sad-b-zengi",
+        "name": "Sa'd b. Zengî",
+        "aliases": [
+          "Muzafferüddin Sa'd",
+          "Atabeg Sa'd"
+        ],
+        "title": "Atabeg",
+        "birth": 1160,
+        "birthNote": "Şiraz'da doğdu",
+        "death": 1226,
+        "deathNote": "Şiraz'da vefat etti",
+        "reign": [
+          1198,
+          1226
+        ],
+        "reignNote": "28 yıllık parlak imar ve sanat devri.",
+        "claim": false,
+        "summary": "Zengî b. Mevdûd'un oğlu. 28 yıl boyunca Şiraz'ı adalet ve refahla yönetti. Büyük Türk şairi Sâdî-i Şîrâzî sarayında yetişti ve meşhur mahlasını (Sâdî) bu atabegden aldı. Şiraz'ın en büyük tarihi camilerinden Mescid-i Nev'i (Yeni Cami) inşa ettirdi. Harezmşahlar ile savaştıktan sonra akılcı bir sulh yaptı.",
+        "traits": [
+          "Büyük sanat hamisi",
+          "Şiraz imarcısı",
+          "Sâdî'nin ilham kaynağı"
+        ],
+        "contribution": "Sâdî-i Şîrâzî'yi himaye etti; Şiraz Mescid-i Nev gibi anıtsal camiler yaptırdı.",
+        "harm": "1217'de Harezmşah Alâeddin Muhammed'e mağlup olarak Fars'ın bir kısım gelirlerini haraca bağlamak zorunda kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Ebû Bekir b. Sa'd",
+            "mother": "",
+            "note": "Altın çağı yaşatan oğlu ve veliahdı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Dünya şairi Şeyh Sâdî mahlasını Atabeg Sa'd b. Zengî'ye olan vefa ve muhabbetinden almıştır."
+        ],
+        "wars": [
+          {
+            "name": "Rey Muharebesi",
+            "when": "1217",
+            "foe": "Harezmşahlar Devleti (Alâeddin Muhammed)",
+            "result": "yenilgi",
+            "note": "Rey yakınlarında Harezmşah ordusuna mağlup oldu; anlaşma yaparak Şiraz'a döndü."
+          }
+        ],
+        "legends": [
+          "Sâdî'nin Bostan eserinde Atabeg Sa'd'ın adaleti ve hayırseverliği eşsiz mısralarla övülmüştür."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALGURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/salgurlular"
+          }
+        ]
+      },
+      {
         "id": "salgurlu-ebu-bekir",
         "name": "Ebû Bekir b. Sa'd",
         "aliases": [
@@ -1013,6 +1070,60 @@
           "Sâdî onun hakkında 'Onun adil gölgesinde Fars ülkesi cennet bahçesine döndü' beytini yazmıştır."
         ],
         "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALGURLULAR",
+            "url": "https://islamansiklopedisi.org.tr/salgurlular"
+          }
+        ]
+      },
+      {
+        "id": "salgurlu-abis-hatun",
+        "name": "Âbiş Hatun",
+        "aliases": [
+          "Abiş Hatun",
+          "Melike Âbiş"
+        ],
+        "title": "Son Atabeg / Melike",
+        "birth": 1250,
+        "birthNote": "Şiraz'da Salgurlu hanedanından doğdu",
+        "death": 1284,
+        "deathNote": "Tebriz'de vefat etti, Şiraz'daki türbesine nakledildi",
+        "reign": [
+          1264,
+          1284
+        ],
+        "reignNote": "20 yıl süren son hükümdarlık devri; Fars Atabeyliği'nin son melikesi.",
+        "claim": false,
+        "summary": "Salgurluların son hükümdarı, İslam-Türk tarihinin en kudretli kadın melikelerinden biri. Cuma hutbesi bizzat kendi adına okundu, kendi adına altın ve gümüş sikkeler darbedildi. İlhanlı Hükümdarı Hülagû Han'ın oğlu Mengü Timur ile evlendi. Şiraz'da İlhanlı bürokratlarının keyfi vergilerine karşı tebaasını korudu; 1284'te Tebriz'de vefatıyla Salgurlu Devleti sona ererek Fars toprakları doğrudan İlhanlılara bağlandı.",
+        "traits": [
+          "Hükümran melike",
+          "Sikke kestiren kadın hükümdar",
+          "Halkının hamisi"
+        ],
+        "contribution": "Şiraz'da medreseler ve hastaneler açtı; kadın bir hükümdar olarak töre ve İslam hukukunu başarıyla yürüttü.",
+        "harm": "İlhanlı vesayeti karşısında beyliğin nihai ilhakını engelleyecek askeri güçten mahrumdu.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Hülagû Han'ın oğlu Mengü Timur ile nikahlanmış, Şiraz'da kendi bağımsız divanını yönetmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Şiraz İsyanı ve Hak Savunması",
+            "when": "1282",
+            "foe": "İlhanlı vergi tahsildarları (Seyyid İmadüddin)",
+            "result": "zafer",
+            "note": "Halkına zulmeden İlhanlı memurunu cezalandırarak Şiraz asayişini sağladı."
+          }
+        ],
+        "legends": [
+          "Cuma namazında Şiraz minberlerinden 'Meliketü'l-muazzama, kutbü'd-dünyâ ve'd-dîn Âbiş Hatun' dualarıyla hutbe okunması dönemin vakanüvislerince hayranlıkla kaydedilmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ABİŞ HATUN",
+            "url": "https://islamansiklopedisi.org.tr/abis-hatun"
+          },
           {
             "title": "TDV İslâm Ansiklopedisi, SALGURLULAR",
             "url": "https://islamansiklopedisi.org.tr/salgurlular"
