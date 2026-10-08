@@ -20,6 +20,9 @@ export type Route =
   | { name: 'home'; region: RealRegion | null }
   | { name: 'search'; query: string }
   | { name: 'guide' }
+  | { name: 'battles' }
+  | { name: 'timeMachine'; year?: number }
+  | { name: 'map' }
   | { name: 'state'; stateId: string }
   | { name: 'ruler'; stateId: string; rulerId: string }
   | { name: 'war'; stateId: string; rulerId: string; index: number; slug: string }
@@ -33,6 +36,9 @@ export const SEG = {
   person: 'kisi',
   guide: 'rehber',
   search: 'arama',
+  battles: 'savaslar',
+  timeMachine: 'zaman-makinesi',
+  map: 'harita',
 } as const;
 
 function decode(segment: string): string {
@@ -84,6 +90,20 @@ export function parseHash(hash: string): Route {
     return rest.length === 0 ? { name: 'guide' } : notFound(hash);
   }
 
+  if (head === SEG.battles) {
+    return rest.length === 0 ? { name: 'battles' } : notFound(hash);
+  }
+
+  if (head === SEG.map) {
+    return rest.length === 0 ? { name: 'map' } : notFound(hash);
+  }
+
+  if (head === SEG.timeMachine) {
+    if (rest.length === 0) return { name: 'timeMachine' };
+    const parsedYear = Number(rest[0]);
+    return Number.isFinite(parsedYear) ? { name: 'timeMachine', year: parsedYear } : { name: 'timeMachine' };
+  }
+
   if (head === SEG.search) {
     return rest.length === 0
       ? { name: 'search', query: new URLSearchParams(query).get('q') ?? '' }
@@ -124,6 +144,18 @@ export function hrefHome(region?: RealRegion | null): string {
 
 export function hrefGuide(): string {
   return `#/${SEG.guide}`;
+}
+
+export function hrefBattles(): string {
+  return `#/${SEG.battles}`;
+}
+
+export function hrefMap(): string {
+  return `#/${SEG.map}`;
+}
+
+export function hrefTimeMachine(year?: number): string {
+  return year !== undefined ? `#/${SEG.timeMachine}/${year}` : `#/${SEG.timeMachine}`;
 }
 
 export function hrefSearch(query: string): string {

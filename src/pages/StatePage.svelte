@@ -10,10 +10,13 @@
   import SectionBox from '../components/ui/SectionBox.svelte';
   import SourceList from '../components/ui/SourceList.svelte';
   import WarRow from '../components/ui/WarRow.svelte';
+  import DynastyTree from '../components/ui/DynastyTree.svelte';
   import Crown from '@lucide/svelte/icons/crown';
   import Swords from '@lucide/svelte/icons/swords';
 
   let { stateId }: { stateId: string } = $props();
+
+  let rulerViewMode = $state<'cards' | 'tree'>('cards');
 
   const index = atlasIndex();
   /**
@@ -138,11 +141,34 @@
         bilgisi bulunmuyor.
       </p>
     {:else}
-      <div class="ruler-grid">
-        {#each page.state.rulers as ruler (ruler.id)}
-          <RulerCard {ruler} state={page.state} />
-        {/each}
+      <div class="ruler-view-switcher">
+        <button
+          type="button"
+          class="view-toggle-btn"
+          class:active={rulerViewMode === 'cards'}
+          onclick={() => (rulerViewMode = 'cards')}
+        >
+          Kronolojik Kartlar ({page.state.rulers.length})
+        </button>
+        <button
+          type="button"
+          class="view-toggle-btn"
+          class:active={rulerViewMode === 'tree'}
+          onclick={() => (rulerViewMode = 'tree')}
+        >
+          Hanedan Soyağacı
+        </button>
       </div>
+
+      {#if rulerViewMode === 'cards'}
+        <div class="ruler-grid">
+          {#each page.state.rulers as ruler (ruler.id)}
+            <RulerCard {ruler} state={page.state} />
+          {/each}
+        </div>
+      {:else}
+        <DynastyTree state={page.state} />
+      {/if}
     {/if}
   </SectionBox>
 
@@ -212,6 +238,38 @@
 {/if}
 
 <style>
+  .ruler-view-switcher {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+    background: var(--surface-2);
+    padding: 3px;
+    border-radius: 8px;
+    width: fit-content;
+  }
+
+  .view-toggle-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--ink-dim);
+    cursor: pointer;
+    transition: all 0.18s ease;
+  }
+
+  .view-toggle-btn:hover {
+    color: var(--ink);
+  }
+
+  .view-toggle-btn.active {
+    background: var(--surface-1);
+    color: var(--accent);
+    box-shadow: var(--shadow-sm);
+  }
+
   .ruler-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -232,5 +290,4 @@
     gap: 6px;
     margin-top: 6px;
   }
-
 </style>

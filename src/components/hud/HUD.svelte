@@ -1,11 +1,16 @@
 <script lang="ts">
   import { atlasIndex } from '../../lib/data/lookup';
-  import { hrefHome } from '../../lib/router/route';
+  import { hrefBattles, hrefHome, hrefMap, hrefTimeMachine } from '../../lib/router/route';
+  import { router } from '../../lib/router/router.svelte';
   import SearchSuggest from './SearchSuggest.svelte';
   import BookOpen from '@lucide/svelte/icons/book-open';
+  import Compass from '@lucide/svelte/icons/compass';
+  import Clock from '@lucide/svelte/icons/clock';
+  import Swords from '@lucide/svelte/icons/swords';
 
   /** Sayılar kayıtlardan sayılır; rehber kartı devlet sayılmaz. */
   const toplam = atlasIndex().toplam;
+  const currentRoute = $derived(router.route.name);
 </script>
 
 <header class="hud-root no-print">
@@ -23,12 +28,44 @@
 
   <SearchSuggest />
 
-  <div class="controls-group">
-    <a class="btn-home glass-pill" href={hrefHome()}>
-      <BookOpen size={14} aria-hidden="true" />
+  <nav class="controls-group" aria-label="Ana Gezinme">
+    <a
+      class="nav-pill glass-pill"
+      class:active={currentRoute === 'home'}
+      href={hrefHome()}
+      title="Kronolojik Zaman Şeridi"
+    >
+      <BookOpen size={13} aria-hidden="true" />
       <span>Şerit</span>
     </a>
-  </div>
+    <a
+      class="nav-pill glass-pill"
+      class:active={currentRoute === 'map'}
+      href={hrefMap()}
+      title="Avrasya Coğrafi Haritası"
+    >
+      <Compass size={13} aria-hidden="true" />
+      <span>Harita</span>
+    </a>
+    <a
+      class="nav-pill glass-pill"
+      class:active={currentRoute === 'timeMachine'}
+      href={hrefTimeMachine()}
+      title="Tarihsel Zaman Makinesi"
+    >
+      <Clock size={13} aria-hidden="true" />
+      <span>Zaman Makinesi</span>
+    </a>
+    <a
+      class="nav-pill glass-pill"
+      class:active={currentRoute === 'battles'}
+      href={hrefBattles()}
+      title="Büyük Savaşlar Gezgini"
+    >
+      <Swords size={13} aria-hidden="true" />
+      <span>Savaşlar</span>
+    </a>
+  </nav>
 </header>
 
 <style>
@@ -103,21 +140,43 @@
     margin-left: auto;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
   }
 
-  .btn-home {
+  .nav-pill {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
+    gap: 5px;
+    padding: 6px 11px;
     font-size: 12px;
     font-weight: 600;
     color: var(--ink-soft);
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.18s ease;
+    white-space: nowrap;
+    border: 1px solid transparent;
   }
 
-  .btn-home:hover {
+  .nav-pill:hover {
     color: var(--accent-strong);
+    background: var(--surface-2);
+  }
+
+  .nav-pill.active {
+    background: var(--accent);
+    color: #ffffff;
+    border-color: var(--accent-strong);
+    box-shadow: 0 1px 4px rgba(150, 96, 26, 0.3);
+  }
+
+  @media (max-width: 950px) {
+    .nav-pill span {
+      display: none;
+    }
+    .nav-pill {
+      padding: 6px 8px;
+    }
   }
 
   @media (max-width: 700px) {
@@ -140,7 +199,20 @@
     .brand-title { font-size: 11.5px; }
     .brand-subtitle { font-size: 9px; }
     .logo-mark { width: 28px; height: 28px; }
-    .controls-group { gap: 0; }
-    .btn-home { padding: 6px 8px; }
+    .controls-group {
+      gap: 4px;
+      width: 100%;
+      justify-content: space-around;
+      order: 3;
+      padding-top: 4px;
+      border-top: 1px solid var(--border);
+    }
+    .nav-pill span {
+      display: inline;
+      font-size: 11px;
+    }
+    .nav-pill {
+      padding: 4px 8px;
+    }
   }
 </style>
