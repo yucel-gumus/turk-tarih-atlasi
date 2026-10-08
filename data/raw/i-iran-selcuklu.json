@@ -1736,7 +1736,29 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Kirman ve Berdesîr Fethi",
+            "when": "1048",
+            "foe": "Büveyhîler Devleti (Ebû Kâlicâr)",
+            "result": "zafer",
+            "note": "Kirman bölgesi Büveyhîlerden zaptedildi; Kirman Selçuklu Melikliği kuruldu."
+          },
+          {
+            "name": "Umman Seferi ve Deniz Aşırı Fetih",
+            "when": "1062",
+            "foe": "Umman İmamlığı ve Yerel Emîrler",
+            "result": "zafer",
+            "note": "Hürmüz boğazı aşılarak Umman fethedildi; ilk Selçuklu deniz aşırı seferi zaferle sonuçlandı."
+          },
+          {
+            "name": "Kerec Meydan Muharebesi",
+            "when": "1073",
+            "foe": "Büyük Selçuklu İmparatorluğu (Sultan Melikşah & Nizâmülmülk)",
+            "result": "yenilgi",
+            "note": "Üç gün süren kanlı taht savaşında Kavurd Bey mağlup oldu, esir alınıp idam edildi."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -1858,7 +1880,15 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Fars Seferi ve Şiraz Kuşatması",
+            "when": "1094",
+            "foe": "Şebânkâre Emîrliği",
+            "result": "zafer",
+            "note": "Fars bölgesine akın düzenlendi; Şebânkâre reisleri mağlup edilip vergiye bağlandı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -2122,7 +2152,15 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Berdesîr Savunması ve Oğuz İstilası",
+            "when": "1187",
+            "foe": "Horasan Oğuzları Ordusu (Melik Dinar)",
+            "result": "yenilgi",
+            "note": "Başkent Berdesîr düştü; Muhammed Şah Fars ve Irak'a kaçtı ve Kirman Selçukluları yıkıldı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -2257,7 +2295,9 @@
       {
         "id": "suriye-selcuklu-ridvan",
         "name": "Rıdvan",
-        "aliases": [],
+        "aliases": [
+          "Fahru'l-Mülk Rıdvan"
+        ],
         "title": "Halep meliki",
         "birth": null,
         "birthNote": "Kayıtlarda yok",
@@ -2268,7 +2308,7 @@
           1113
         ],
         "reignNote": "Halep kolu. 507/1113'e kadar hüküm sürdü. 17 Ramazan 490 / 28 Ağustos 1097'de Fâtımî halifesi adına hutbe okuttu, 12 Şevval 490 / 22 Eylül 1097'de bundan döndü.",
-        "summary": "Tutuş'un oğludur. Halep'te 1095-1113 arasında melik oldu. Haçlılara vergi vermek zorunda kaldı.",
+        "summary": "Tutuş'un oğludur. Halep'te 1095-1113 arasında melik oldu. I. Haçlı Seferi ordularına ve Antakya Prensliği'ne karşı savaştı.",
         "traits": [],
         "contribution": "",
         "harm": "",
@@ -2287,7 +2327,22 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Antakya Kurtarma Seferi (I. Haçlı Seferi)",
+            "when": "1098",
+            "foe": "I. Haçlı Seferi Ordusu (Bohemond)",
+            "result": "yenilgi",
+            "note": "Antakya kuşatmasını kırmak için sevk ettiği Halep ordusu Haçlı süvarilerince pusuya düşürüldü."
+          },
+          {
+            "name": "Harran Meydan Muharebesi",
+            "when": "1104",
+            "foe": "Antakya Prensliği ve Urfa Haçlı Kontluğu",
+            "result": "zafer",
+            "note": "Artuklu Sökmen ve Musul Emîri Çökürmüş ile birlikte Haçlıları hezimete uğrattı; Urfa Kontu Baldwin esir alındı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -2359,7 +2414,9 @@
       {
         "id": "suriye-selcuklu-dukak",
         "name": "Dukak",
-        "aliases": [],
+        "aliases": [
+          "Şemsü'l-Mülûk Dukak"
+        ],
         "title": "Dımaşk meliki",
         "birth": null,
         "birthNote": "Kayıtlarda yok",
@@ -2370,7 +2427,7 @@
           1104
         ],
         "reignNote": "488/1095'te Dımaşk kolunu kurdu. Dokuz yıl hüküm sürdü. 10 Ramazan 497 / 6 Haziran 1104'te öldü.",
-        "summary": "Tutuş'un oğludur. Dımaşk'ta 1095-1104 arasında melik oldu.",
+        "summary": "Tutuş'un oğludur. Dımaşk'ta (Şam) 1095-1104 arasında melik oldu. I. Haçlı Seferi ordularına ve Kudüs Krallığı'na karşı mücadele etti.",
         "traits": [],
         "contribution": "",
         "harm": "",
@@ -2389,7 +2446,22 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "el-Bâra Muharebesi (I. Haçlı Seferi)",
+            "when": "1097",
+            "foe": "I. Haçlı Seferi Öncüleri (Robert of Flanders & Bohemond)",
+            "result": "yenilgi",
+            "note": "Antakya önlerindeki Haçlı ordusuna yardım akınını kesmek isteyen Şam ordusu pusuya düştü."
+          },
+          {
+            "name": "Nahr el-Kelb Boğazı Savunması",
+            "when": "1100",
+            "foe": "Kudüs Krallığı Ordusu (I. Baldwin)",
+            "result": "zafer",
+            "note": "Kudüs'e tahtı devralmaya giden Baldwin'in Haçlı birliği dar sahil boğazında kıstırılıp ağır kayıplar verdirildi."
+          }
+        ],
         "legends": [],
         "sources": [
           {

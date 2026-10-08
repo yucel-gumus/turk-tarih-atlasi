@@ -1641,6 +1641,100 @@
             "url": "https://islamansiklopedisi.org.tr/nogaylar"
           }
         ]
+      },
+      {
+        "id": "nogay-ismail-bey",
+        "name": "İsmail Bey",
+        "aliases": [
+          "İsmail Mirza Mangıt"
+        ],
+        "title": "Büyük Bey",
+        "birth": 1490,
+        "birthNote": "Saraycık'ta Musa Mirza'nın oğlu olarak doğdu",
+        "death": 1563,
+        "deathNote": "1563'te Saraycık'ta vefat etti",
+        "reign": [
+          1554,
+          1563
+        ],
+        "reignNote": "9 yıllık saltanat; Rus Çarlığı ile ittifak kurdu.",
+        "claim": false,
+        "summary": "Musa Mirza'nın oğlu ve Yusuf Bey'in kardeşi. Kardeşi Yusuf Bey'i tasfiye ettikten sonra Nogay Ordası'nın başına geçti. Korkunç İvan ile ittifak kurarak Rusya ile ticari ve askeri bağları geliştirdi. Ancak bu Rus yanlısı siyaset Nogay birliğinin parçalanmasına, Yusuf'un oğullarının Küçük Nogay Ordası'nı kurmasına yol açtı.",
+        "traits": [
+          "Moskova müttefiki",
+          "Reel-politik idareci"
+        ],
+        "contribution": "Nogay bozkırında Rus ticaret yollarını ve Saraycık asayişini sağladı.",
+        "harm": "Nogay Ordası'nın Büyük ve Küçük Nogay olarak ikiye bölünmesine sebep oldu.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Din Ahmed Bey",
+            "mother": "",
+            "note": "Halefi olan büyük oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Nogay İç Savaşı",
+            "when": "1554-1557",
+            "foe": "Yusuf Bey'in oğulları (Yunus ve Ali)",
+            "result": "zafer",
+            "note": "Moskova desteğiyle iç savaşı kazandı; muhalif boylar Kuban boyuna göç etti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+            "url": "https://islamansiklopedisi.org.tr/nogaylar"
+          }
+        ]
+      },
+      {
+        "id": "nogay-kanay-bey",
+        "name": "Kanay Bey",
+        "aliases": [
+          "Kaniy Bey",
+          "Kanay Mirza"
+        ],
+        "title": "Son Büyük Bey",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1634,
+        "deathNote": "Kalmuk istilası sırasında vefat etti",
+        "reign": [
+          1622,
+          1634
+        ],
+        "reignNote": "12 yıllık saltanat; Nogay Ordası'nın son bağımsız dönemi.",
+        "claim": false,
+        "summary": "Büyük Nogay Ordası'nın son büyük beyi. Doğu'dan gelen ve Cungar bozkırlarından göç eden Budist Kalmuk (Oyrat) kabilelerinin Yayık ve İdil ırmaklarını aşarak başlattığı yıkıcı taarruzlara karşı mücadele etti. 1634'te Kalmuk Tayşisi Ho-Örlük'ün başlattığı topyekûn saldırı neticesinde Nogay Ordası dağıldı, Saraycık harabeye döndü ve boylar Kırım ile Kafkasya'ya sığındı.",
+        "traits": [
+          "Son büyük bey",
+          "Bozkır müdafi"
+        ],
+        "contribution": "Kalmuk saldırılarına karşı bozkır boylarını ve Saraycık'ı son ana kadar savundu.",
+        "harm": "Kalmukların sayısal üstünlüğü karşısında ordanın siyasi ve coğrafi varlığının silinmesini engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Büyük Kalmuk İstilası ve Yayık Savunması",
+            "when": "1628-1634",
+            "foe": "Kalmuk Hanlığı (Ho-Örlük Tayşi)",
+            "result": "yenilgi",
+            "note": "Nogay süvarileri ezildi; Saraycık düştü ve Nogay Ordası siyaset sahnesinden silindi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, NOGAYLAR",
+            "url": "https://islamansiklopedisi.org.tr/nogaylar"
+          }
+        ]
       }
     ]
   },

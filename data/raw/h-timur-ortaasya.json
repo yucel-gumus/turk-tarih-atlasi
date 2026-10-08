@@ -2334,6 +2334,271 @@
             "url": "https://islamansiklopedisi.org.tr/canogullari"
           }
         ]
+      },
+      {
+        "id": "buhara-baki-muhammed",
+        "name": "Bâkî Muhammed Han",
+        "aliases": [
+          "Bâkî Han"
+        ],
+        "title": "Han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1605,
+        "deathNote": "1605'te Buhara'da vefat etti",
+        "reign": [
+          1599,
+          1605
+        ],
+        "reignNote": "6 yıllık kurucu saltanat; Canîler (Eşterhanîler) Hanedanı'nı kurdu.",
+        "claim": false,
+        "summary": "Canîler (Astrahan / Eşterhanîler) Hanedanı'nın kurucusu ve Buhara hanı. Şeybânîlerin sona ermesiyle Mâverâünnehir'de iktidarı devraldı. Safevî Şahı I. Abbas'ın Belh ve Buhara'ya yönelik büyük istila ordusunu 1602'de hezimete uğratarak Mâverâünnehir'in bağımsızlığını korudu.",
+        "traits": [
+          "Hanedan kurucusu",
+          "Büyük müdafi"
+        ],
+        "contribution": "Şeybânî sonrası Mâverâünnehir'de siyasi istikrarı sağladı; Buhara merkezli yeni hanedanı tesis etti.",
+        "harm": "Kardeşler arasındaki iktidar çekişmelerini tamamen sonlandıramadı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Belh Meydan Muharebesi",
+            "when": "1602",
+            "foe": "Safevî Devleti Ordusu (Şah I. Abbas)",
+            "result": "zafer",
+            "note": "Şah Abbas'ın Belh'i zaptetmek için gönderdiği Safevî ordusu ağır yenilgiye uğratıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, CANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/canogullari"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BUHARA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/buhara-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "buhara-imam-kuli",
+        "name": "İmâm Kulı Han",
+        "aliases": [
+          "İmam Kulu Han"
+        ],
+        "title": "Büyük Han / İmar Hamisi",
+        "birth": 1582,
+        "birthNote": "Buhara'da Din Muhammed'in oğlu olarak doğdu",
+        "death": 1644,
+        "deathNote": "Hac yolculuğu sırasında Medine'de vefat etti",
+        "reign": [
+          1611,
+          1642
+        ],
+        "reignNote": "31 yıllık altın çağ saltanatı; Mâverâünnehir medeniyetini zirveye taşıdı.",
+        "claim": false,
+        "summary": "Canîler sülalesinin en büyük ve kudretli hükümdarı. 31 yıl boyunca Buhara ve Semerkant'ta hüküm sürdü. Kazak ve Kalmuk akınlarını durdurdu. Semerkant valisi Yelangtüş Bahadır vasıtasıyla dünyaca ünlü Registan Meydanı'ndaki Şir-Dâr ve Tilla-Kârî medreselerini inşa ettirdi; Buhara'da Nâdir Divanbeyi külliyesini yaptırdı. Yaşlılığında gözlerini kaybedince tahtı kardeşi Nâdir Muhammed'e bırakıp hacca gitti.",
+        "traits": [
+          "Büyük imar banisi",
+          "Adil hükümdar",
+          "Kültür hamisi"
+        ],
+        "contribution": "Registan Meydanı'nı bugünkü eşsiz mimari siluetine kavuşturdu; medreseler, kanallar ve kütüphaneler kurdu.",
+        "harm": "Saltanatının sonunda tahttan feragat etmesi hanedan içi kanlı taht krizine yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Taşkent ve Kazak Bozkırı Seferi",
+            "when": "1612-1613",
+            "foe": "Kazak Hanlığı (Tursun Han)",
+            "result": "zafer",
+            "note": "Taşkent ve Siriderya boyları itaate alındı."
+          }
+        ],
+        "legends": [
+          "Medine'de vefat ettiğinde Cennetü'l-Bakî mezarlığına sahabe kabirlerinin yakınına defnedildiği nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, CANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/canogullari"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BUHARA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/buhara-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "buhara-sah-murad",
+        "name": "Emir Şah Murad",
+        "aliases": [
+          "Emîr-i Ma'sûm",
+          "Begî Cân"
+        ],
+        "title": "Emir / Zahit",
+        "birth": 1749,
+        "birthNote": "Buhara'da Danyal Atalık'ın oğlu olarak doğdu",
+        "death": 1800,
+        "deathNote": "1800'de Buhara'da vefat etti",
+        "reign": [
+          1785,
+          1800
+        ],
+        "reignNote": "15 yıllık ıslahatçı hükümdarlık; Buhara Emirliği (Mangıtlar) dönemini başlattı.",
+        "claim": false,
+        "summary": "Mangıt Hanedanı'nın kurucusu ve ilk Buhara Emiri. Cengiz soyundan han kuklalığına son vererek doğrudan 'Emîr' unvanıyla tahta geçti. Derviş meşrep, dindar ve sade hayatı sebebiyle halk arasında 'Emîr-i Ma'sûm' diye anıldı. Vergileri düşürdü, rüşveti bitirdi, adalet sarayları kurdu. Merv şehrini fethederek İran Safevî bakiyelerine karşı sınırları tahkim etti.",
+        "traits": [
+          "Zahit hükümdar",
+          "Adalet timsali",
+          "Büyük ıslahatçı"
+        ],
+        "contribution": "Buhara Emirliği'ni kurdu; idari, mali ve adli reformlarla ülkeyi ayağa kaldırdı.",
+        "harm": "Merv Kuşatması sırasında Sultan Bend barajını yıktırması Merv vahasının çölleşmesine sebep oldu.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Haydar Han",
+            "mother": "",
+            "note": "Halefi olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Merv Seferi",
+            "when": "1788-1789",
+            "foe": "Merv Hâkimi Bayram Ali Han",
+            "result": "zafer",
+            "note": "Merv fethedildi; şehir ahalisi Buhara ve Semerkant'a nakledildi."
+          }
+        ],
+        "legends": [
+          "Kendi sarayında dahi yamalı bir derviş hırkasıyla oturduğu ve her cuma halkın davalarını bizzat dinlediği rivayet edilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MANGITLAR",
+            "url": "https://islamansiklopedisi.org.tr/mangitlar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BUHARA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/buhara-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "buhara-muzaffereddin",
+        "name": "Emir Muzaffereddin",
+        "aliases": [
+          "Muzaffer Han"
+        ],
+        "title": "Emir",
+        "birth": 1834,
+        "birthNote": "Buhara'da Nasrullah Han'ın oğlu olarak doğdu",
+        "death": 1885,
+        "deathNote": "Buhara'da vefat etti",
+        "reign": [
+          1860,
+          1885
+        ],
+        "reignNote": "25 yıllık saltanat; Rus Çarlığı istilasına direndi.",
+        "claim": false,
+        "summary": "Mangıt Hanedanı'nın Rus işgaliyle yüzleşen emiri. Çarlık Rusyası ordularının Mâverâünnehir'e sarkması üzerine Taşkent ve Semerkant savunmasını örgütledi. General Kaufmann komutasındaki modern Rus ordularına karşı cihad ilan ettiyse de 1868 Zirabulak Meydan Muharebesi'nde mağlup oldu. 1868 ve 1873 antlaşmalarıyla Buhara Emirliği Rusya'nın himayesi (protektora) altına girdi.",
+        "traits": [
+          "Trajik hükümdar",
+          "İnatçı müdafi"
+        ],
+        "contribution": "İçişlerinde özerkliği ve Buhara medreselerinin ilmi bağımsızlığını muhafaza etti.",
+        "harm": "Askeri modernleşmede geri kalarak Çarlık süngüleri karşısında ülkenin bağımsızlığını koruyamadı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Abdülehad Han",
+            "mother": "",
+            "note": "Halefi olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "İrcar Muharebesi",
+            "when": "1866",
+            "foe": "Rus Çarlığı Ordusu (General Romanovski)",
+            "result": "yenilgi",
+            "note": "Buhara ordusu çekildi; Hocent ve Ura-Töbe Rus kontrolüne girdi."
+          },
+          {
+            "name": "Zirabulak Meydan Muharebesi",
+            "when": "1868",
+            "foe": "Rus Çarlığı Ordusu (General Kaufmann)",
+            "result": "yenilgi",
+            "note": "Buhara kesin mağlubiyete uğradı; Semerkant kaybedildi ve Rus himaye antlaşması imzalandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BUHARA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/buhara-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, MANGITLAR",
+            "url": "https://islamansiklopedisi.org.tr/mangitlar"
+          }
+        ]
+      },
+      {
+        "id": "buhara-alim-han",
+        "name": "Seyyid Âlim Han",
+        "aliases": [
+          "Muhammed Âlim Han"
+        ],
+        "title": "Son Buhara Emiri",
+        "birth": 1880,
+        "birthNote": "Buhara'da doğdu; Petersburg'da Harp Okulu eğitimi aldı",
+        "death": 1944,
+        "deathNote": "Kabil'de sürgünde vefat etti",
+        "reign": [
+          1910,
+          1920
+        ],
+        "reignNote": "10 yıllık son emirlik dönemi; 1920 Sovyet işgaliyle Buhara Emirliği yıkıldı.",
+        "claim": false,
+        "summary": "Buhara Emirliği'nin ve Mangıt Hanedanı'nın son hükümdarı. 1917 Çarlık çöküşünden sonra tam bağımsızlığını ilan etti. Ancak Eylül 1920'de General Frunze komutasındaki Bolşevik Kızıl Ordu'nun Buhara'yı uçaklarla ve ağır toplarla bombalaması sonucu şehri terk etmek zorunda kaldı. Doğu Buhara dağlarında Basmacı Hareketi'ne destek verdikten sonra Afganistan'a sığındı ve 1944'te Kabil'de vefat etti.",
+        "traits": [
+          "Son hükümdar",
+          "Petersburg tahsilli"
+        ],
+        "contribution": "Buhara'da Sitore-i Mâh-i Hassa sarayını tamamladı; Basmacı milli direnişine destek verdi.",
+        "harm": "Cedidciler (Genç Buharalılar) reform hareketini zamanında kucaklayamayarak halk desteğini parçaladı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Buhara Kuşatması ve Bombardımanı",
+            "when": "1920",
+            "foe": "Kızıl Ordu (General Mihail Frunze)",
+            "result": "yenilgi",
+            "note": "Buhara Kalesi ve tarihi medreseler bombalandı; şehir düştü, Buhara Sovyet Halk Cumhuriyeti kuruldu."
+          }
+        ],
+        "legends": [
+          "Afganistan'daki mezar taşında 'Emir vatansız mezarda yatar, gurbetin acısını ancak gurbette ölen bilir' beytinin kazılı olduğu nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BUHARA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/buhara-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, MANGITLAR",
+            "url": "https://islamansiklopedisi.org.tr/mangitlar"
+          }
+        ]
       }
     ]
   },
@@ -2395,7 +2660,15 @@
         "familyNotes": [
           "Kardeşi Balbars da kurucular arasında anılır. Ayrı saltanat yılı yoktur."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Vezir ve Hârizm'in Kurtarılması",
+            "when": "1511-1512",
+            "foe": "Safevî Devleti Garnizonu",
+            "result": "zafer",
+            "note": "Safevî valileri kovuldu; Vezir şehri alınıp bağımsız Hive (Hârizm) Hanlığı kuruldu."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -2682,7 +2955,15 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Bekoviç Seferi ve Rus İşgal Ordusunun İmhası",
+            "when": "1717",
+            "foe": "Çarlık Rusyası Ordusu (Prens Aleksandr Bekoviç-Çerkasski)",
+            "result": "zafer",
+            "note": "Çar I. Petro tarafından gönderilen işgal ordusu pusuya düşürülüp tamamen imha edildi; Rus ilerleyişi 150 yıl geciktirildi."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -2965,24 +3246,38 @@
       {
         "id": "hive-said-muhammed-rahim",
         "name": "Said Muhammed Rahim",
-        "aliases": [],
-        "title": "han",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
-        "death": null,
-        "deathNote": "Kayıtlarda yok",
-        "reign": [
-          null,
-          1873
+        "aliases": [
+          "II. Seyyid Muhammed Rahim Han",
+          "Feruz"
         ],
-        "reignNote": "29 Mayıs 1873'te boyun eğdi. Cülûs yılı yazılmaz. 1873, boyun eğme yılıdır. Ölüm yılı diye ayrıca verilmez.",
-        "summary": "1873'te boyun eğen Hive hanıdır. Başlangıç yılı yoktur.",
-        "traits": [],
-        "contribution": "",
-        "harm": "",
+        "title": "han",
+        "birth": 1845,
+        "birthNote": "Hive'de doğdu",
+        "death": 1910,
+        "deathNote": "1910'da Hive'de vefat etti",
+        "reign": [
+          1864,
+          1910
+        ],
+        "reignNote": "1864-1910; 29 Mayıs 1873'te Rus işgali karşısında boyun eğerek protektora antlaşması imzaladı.",
+        "summary": "Hive Hanlığı'nın en uzun süre hüküm süren ve 'Feruz' mahlasıyla şiirler yazan hanı. 1873'te General Kaufmann'ın işgaline direndiyse de şehir düşünce Gendemyan Antlaşması ile Çarlık himayesini kabul etti. İmar ve matbaa faaliyetleriyle Hive medeniyetini canlandırdı.",
+        "traits": [
+          "Şair han",
+          "Kültür hamisi"
+        ],
+        "contribution": "Hive'de ilk taşbaskı matbaasını kurdurdu; onlarca divan ve tarih eserini bastırdı.",
+        "harm": "1873'te Hive'nin Rus himayesine girmesini engelleyemedi.",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Hive Savunması ve Kuşatması",
+            "when": "1873",
+            "foe": "Çarlık Rusyası Ordusu (General von Kaufmann)",
+            "result": "yenilgi",
+            "note": "Hive üç koldan kuşatıldı ve düştü; Hanlık Rus protektorası altına girdi (Gendemyan Antlaşması)."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3224,17 +3519,25 @@
         "death": null,
         "deathNote": "Bitiş, Ömer Han kartının 1810 yılıdır. Ölüm günü ayrıca yazılmaz.",
         "reign": [
-          null,
+          1800,
           1810
         ],
-        "reignNote": "Narbuta'nın oğlu. 1808'de Taşkent, Çimkent ve Sayram'ı aldı. Cülûs yılı temiz bir yıl diye yazılmaz. Bitiş, kardeşi Muhammed Ömer'in bu dosyadaki 1810 başlangıcıdır. Ölüm günü ayrıca verilmez.",
-        "summary": "1808 seferiyle anılan handır. Kardeşi Ömer 1810'da başlar.",
+        "reignNote": "Narbuta'nın oğlu. 1808'de Taşkent, Çimkent ve Sayram'ı aldı. İlk 'Han' unvanını kullanan Hokand hükümdarıdır.",
+        "summary": "1800-1810 arasında hüküm sürdü. Taşkent ve Çimkent'i fethederek devleti bölgesel güce dönüştürdü.",
         "traits": [],
         "contribution": "",
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Taşkent ve Çimkent Seferi",
+            "when": "1808-1809",
+            "foe": "Taşkent Hâkimliği ve Kazak Birlikleri",
+            "result": "zafer",
+            "note": "Taşkent, Çimkent, Sayram ve Türkistan fethedildi; Hokand büyük bir bölgesel güce dönüştü."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3325,7 +3628,15 @@
         "familyNotes": [
           "Üvey annesi Nâdire ve kardeşi Mahmud da 1842'de öldürüldü."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Kaşgar Seferi (Cihangir Hoca Harekâtı)",
+            "when": "1826-1830",
+            "foe": "Çin Çing Hanedanı Ordusu",
+            "result": "zafer",
+            "note": "Kaşgar'daki Müslüman Türk ayaklanmasına destek verildi; Çin Hokand'a Doğu Türkistan ticaretinde vergi muafiyeti tanıdı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3422,7 +3733,15 @@
         "familyNotes": [
           "Oğlu Nâsırüddin 1875'te han oldu."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Taşkent ve Çimkent Savunması",
+            "when": "1864-1865",
+            "foe": "Çarlık Rusyası Ordusu (General Çernyayev)",
+            "result": "yenilgi",
+            "note": "Alimkul komutasındaki Hokand ordusu Taşkent önlerinde yenildi; şehir Ruslarca işgal edildi."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3500,16 +3819,24 @@
         "deathNote": "Kayıtlarda yok",
         "reign": [
           1875,
-          1875
+          1876
         ],
-        "reignNote": "Hudâyâr'ın oğlu. 1875'te han oldu. Polat Bey aynı yılın ekiminde Hokand'ı geri aldı ve Margilan'da öldürüldü. Polat, hanedanın hanı diye ayrıca yazılmaz.",
-        "summary": "1875'te kısa süre Hokand hanıdır.",
+        "reignNote": "Hudâyâr'ın oğlu. 1875-1876; son Hokand hanıdır. 1876'da General Skobelev tarafından hanlık ilhak edilince Rusya içine sürgüne gönderildi.",
+        "summary": "Hokand Hanlığı'nın son hanıdır. 1876'da hanlığın Rusya tarafından ilhak edilmesiyle saltanatı sona erdi.",
         "traits": [],
         "contribution": "",
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Hokand Kuşatması ve İlhakı",
+            "when": "1876",
+            "foe": "Çarlık Rusyası Ordusu (General Mihail Skobelev)",
+            "result": "yenilgi",
+            "note": "Hokand Hanlığı tamamen ilhak edildi; hanlık lağvedilerek Fergana Vilayeti adıyla Rusya'ya bağlandı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3577,7 +3904,22 @@
         "familyNotes": [
           "Vârisi torunu Kara Hülâgü'dür."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Otrar ve Ürgenç Kuşatması",
+            "when": "1219-1221",
+            "foe": "Hârizmşahlar Devleti (Alâeddin Muhammed & İnalcık)",
+            "result": "zafer",
+            "note": "Ögedey ve Cuci ile birlikte Hârizm başkenti Ürgenç ve Otrar'ı fethetti."
+          },
+          {
+            "name": "İndus Meydan Muharebesi",
+            "when": "1221",
+            "foe": "Celâleddin Hârizmşah",
+            "result": "zafer",
+            "note": "Cengiz Han'ın yanında Celâleddin'in son ordusunu İndus Nehri kıyısında imha etti."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3775,7 +4117,22 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Talas Kurultayı ve İttifakı",
+            "when": "1269",
+            "foe": "Kayıdu Han ve Mengü Timur (İlhanlılara karşı)",
+            "result": "antlasma",
+            "note": "Kayıdu ve Altın Orda ile Mâverâünnehir'i paylaştı; Horasan'a taarruz kararı alındı."
+          },
+          {
+            "name": "Herat Meydan Muharebesi",
+            "when": "1270",
+            "foe": "İlhanlı Devleti Ordusu (Abaka Han)",
+            "result": "yenilgi",
+            "note": "Horasan'ı istila eden Barak Han, Abaka Han karşısında mağlup olup Buhara'ya çekildi."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -3849,7 +4206,11 @@
       {
         "id": "cagatay-tuva",
         "name": "Tuva",
-        "aliases": [],
+        "aliases": [
+          "Duva",
+          "Dövâ Han",
+          "Duwa"
+        ],
         "title": "han",
         "birth": null,
         "birthNote": "Kayıtlarda yok",
@@ -3860,7 +4221,7 @@
           1307
         ],
         "reignNote": "Barak'ın oğludur. Öncesindeki 1277-1282 boşluğu maddece adsızdır.",
-        "summary": "1282'den 1307'ye kadar han oldu.",
+        "summary": "1282'den 1307'ye kadar han oldu. Kayıdu ile ittifak kurarak Çağatay Hanlığı'nı yeniden büyük bir güç haline getirdi. Hindistan ve Horasan'a büyük seferler düzenledi.",
         "traits": [],
         "contribution": "",
         "harm": "",
@@ -3869,7 +4230,22 @@
         "familyNotes": [
           "Babası Barak Han'dır."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Kili Meydan Muharebesi (Hindistan Seferi)",
+            "when": "1299",
+            "foe": "Delhi Türk Sultanlığı (Alâeddin Halacî)",
+            "result": "yenilgi",
+            "note": "Oğlu Kutluk Hoca komutasındaki 200 bin kişilik Çağatay ordusu Delhi önlerinde durduruldu."
+          },
+          {
+            "name": "Horasan ve Gazne Akınları",
+            "when": "1295-1301",
+            "foe": "İlhanlı Devleti (Gazan Han)",
+            "result": "zafer",
+            "note": "Horasan ve Afganistan toprakları yağmalanıp Çağatay nüfuzuna alındı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -4074,7 +4450,15 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Delhi ve Pencap Seferi",
+            "when": "1327",
+            "foe": "Delhi Türk Sultanlığı (Muhammed b. Tuğluk)",
+            "result": "zafer",
+            "note": "Pencap'ı aşarak Delhi önlerine kadar ilerledi; sultan büyük bir haraç ve hediye vererek barış sağladı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -4190,7 +4574,15 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Demirkapı Muharebesi",
+            "when": "1346",
+            "foe": "Emîr Kazgan ve Türkmen Emîrleri",
+            "result": "yenilgi",
+            "note": "Kazan Han öldürüldü; Mâverâünnehir'de fiili iktidar Türk emîrlerinin eline geçti."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -4226,7 +4618,22 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Demirkapı Taht İhtilali",
+            "when": "1346",
+            "foe": "Kazan Timur Han",
+            "result": "zafer",
+            "note": "Kazan Han devrildi; Emîr Kazgan Batı Çağatay'ın mutlak naibi oldu."
+          },
+          {
+            "name": "Herat Seferi",
+            "when": "1351",
+            "foe": "Kertler Hanedanı (Muizzüddin Hüseyin)",
+            "result": "zafer",
+            "note": "Herat kuşatıldı, Kert hükümdarı vergiye bağlandı."
+          }
+        ],
         "legends": [],
         "sources": [
           {

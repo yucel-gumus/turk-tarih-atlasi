@@ -2371,6 +2371,249 @@
             "url": "https://islamansiklopedisi.org.tr/alaeddin-halaci"
           }
         ]
+      },
+      {
+        "id": "delhi-giyaseddin-tugluk",
+        "name": "Gıyâseddin Tuğluk",
+        "aliases": [
+          "Gazi Melik",
+          "I. Tuğluk Şah"
+        ],
+        "title": "Sultan / Gazi",
+        "birth": null,
+        "birthNote": "Türk kökenli Karavuna boyundan bir babanın oğlu olarak doğdu",
+        "death": 1325,
+        "deathNote": "Afganpur'da ahşap köşkün çökmesi sonucu vefat etti",
+        "reign": [
+          1320,
+          1325
+        ],
+        "reignNote": "5 yıllık kurucu saltanat; Tuğluklular Hanedanı'nı başlattı.",
+        "claim": false,
+        "summary": "Tuğluklular Hanedanı'nın kurucusu ve kudretli Delhi sultanı. Halacîlerin son dönemindeki karışıklıklara ve Hüsrev Han gaspına son vererek tahta çıktı. Moğol akınlarına karşı Pencap sınır boylarını yıllarca başarıyla savundu; Delhi yakınlarında görkemli Tuğlukâbâd kalesini inşa ettirdi. Bengal ve Dekkan seferleriyle devlet otoritesini tesis etti.",
+        "traits": [
+          "Büyük teşkilatçı",
+          "Gazi komutan",
+          "İmar hamisi"
+        ],
+        "contribution": "Tuğlukâbâd Kalesi'ni ve anıtsal türbesini inşa ettirdi; adil vergi ve posta teşkilatı kurdu.",
+        "harm": "Bengal dönüşü şüpheli köşk çöküşü taht krizine yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Muhammed b. Tuğluk",
+            "mother": "",
+            "note": "Halefi olan meşhur oğlu (Uluğ Han)",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Delhi Taht Savaşı ve Hüsrev Han'ın Tenkili",
+            "when": "1320",
+            "foe": "Gaspçı Hüsrev Han Kuvvetleri",
+            "result": "zafer",
+            "note": "Delhi zaptedildi; meşru nizam yeniden kurularak Tuğluk hanedanı başlatıldı."
+          },
+          {
+            "name": "Warangal (Telangana) Kuşatması",
+            "when": "1321-1323",
+            "foe": "Kakatiya Krallığı (Prataparudra)",
+            "result": "zafer",
+            "note": "Warangal fethedildi; Güney Hindistan Delhi'ye bağlandı."
+          }
+        ],
+        "legends": [
+          "Meşhur mutasavvıf Nizâmeddin Evliyâ'nın sultana söylediği 'Hünüz Dihli dûr est' (Delhi henüz uzaktır) sözü Farsça ve Urduca'da darbımesel olmuştur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TUĞLUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/tugluklular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+          }
+        ]
+      },
+      {
+        "id": "delhi-muhammed-b-tugluk",
+        "name": "Muhammed b. Tuğluk",
+        "aliases": [
+          "Uluğ Han",
+          "Fahreddin Cûna"
+        ],
+        "title": "Büyük Sultan / Âlim",
+        "birth": 1290,
+        "birthNote": "Delhi'de doğdu",
+        "death": 1351,
+        "deathNote": "İndus Nehri kıyısında Thatta seferi sırasında hastalanarak vefat etti",
+        "reign": [
+          1325,
+          1351
+        ],
+        "reignNote": "26 yıllık genişleme, radikal reformlar ve isyanlarla dolu saltanat.",
+        "claim": false,
+        "summary": "Delhi Sultanlığı'nı tarihindeki en geniş coğrafi sınırlara ulaştıran dahi, feylesof ve tartışmalı sultan. Tıp, astronomi, mantık ve matematik alanlarında derin bilgiye sahipti. Başkenti Delhi'den Dekkan'daki Devgir'e (Devletâbâd) taşıması ve bakır jeton para reformu büyük toplumsal çalkantılara yol açtı. İbn Battûta yedi yıl boyunca onun sarayında kadılık yapmıştır.",
+        "traits": [
+          "Âlim ve filozof",
+          "Radikal reformcu",
+          "Cömert ve tavizsiz"
+        ],
+        "contribution": "İslam hakimiyetini Madurai ve güney uçlarına kadar yaydı; ilim adamlarını ve seyyahları cömertçe himaye etti.",
+        "harm": "Zorunlu başkent nakli ve para basım tekelinin bozulması ekonomiyi sarstı, taşrada bağımsız sultanlıkların doğmasına yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Dekkan ve Kampili Seferleri",
+            "when": "1326-1328",
+            "foe": "Güney Hindistan Hindu Krallıkları",
+            "result": "zafer",
+            "note": "Hint Yarımadası'nın neredeyse tamamı Delhi Sultanlığı sınırlarına dahil edildi."
+          },
+          {
+            "name": "Kuraçil (Himalaya) Seferi",
+            "when": "1333",
+            "foe": "Himalaya Dağ Kabileleri",
+            "result": "yenilgi",
+            "note": "Zorlu iklim ve dağ pusuları sebebiyle ordu büyük kayıplar verdi."
+          }
+        ],
+        "legends": [
+          "İbn Battûta Seyahatnâmesi'nde onun 'kapısında her gün yüzlerce fakirin altınla doyurulduğu, aynı zamanda adaletten zerre taviz vermeyen' heybetini hayranlıkla anlatır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TUĞLUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/tugluklular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+          }
+        ]
+      },
+      {
+        "id": "delhi-firuz-sah-tugluk",
+        "name": "Fîrûz Şah Tuğluk",
+        "aliases": [
+          "Seyfeddin Fîrûz Şah"
+        ],
+        "title": "Sultan / İmar Hamisi",
+        "birth": 1309,
+        "birthNote": "Delhi'de Sipehsâlâr Receb'in oğlu olarak doğdu",
+        "death": 1388,
+        "deathNote": "Delhi'de 79 yaşında vefat etti",
+        "reign": [
+          1351,
+          1388
+        ],
+        "reignNote": "37 yıllık barış, imar ve bayındırlık dönemi.",
+        "claim": false,
+        "summary": "Muhammed b. Tuğluk'un kuzeni ve halefi. 37 yıllık hükümdarlığında yayılmacı fetihler yerine ülkenin imarına ve halkın refahına odaklandı. Fîrûzâbâd, Hisar, Cavnpur ve Fethâbâd şehirlerini kurdu; Yamuna ve Ganj nehirlerinden sulama kanalları açarak tarımda büyük bir kalkınma sağladı. Hastaneler, medreseler, hanlar ve köprüler inşa ettirdi; Fütûhât-ı Fîrûz Şâhî adlı hatıratını kaleme aldı.",
+        "traits": [
+          "Büyük imar banisi",
+          "Merhametli ve dindar",
+          "Bayındırlık dehası"
+        ],
+        "contribution": "Hindistan tarihinin en büyük sulama kanalı şebekelerini, 30'u aşkın şehri ve yüzlerce medrese/külliyeyi inşa ettirdi.",
+        "harm": "Merkezi ordu disiplinini ve askeri caydırıcılığı yumuşatması ölümünden sonra Timur istilasına zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Feth Han",
+            "mother": "",
+            "note": "İlk veliahtı (erken vefat etti)",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Bengal Seferi",
+            "when": "1353-1354",
+            "foe": "İlyas Şah (Bengal Sultanlığı)",
+            "result": "antlasma",
+            "note": "Ekdâla Kalesi kuşatıldı; Bengal sultanıyla barış ve hediyeleşme antlaşması yapıldı."
+          },
+          {
+            "name": "Thatta (Sind) Seferi",
+            "when": "1365-1367",
+            "foe": "Sind Câm Hanedanı",
+            "result": "zafer",
+            "note": "Sind emîrleri itaate alındı ve yıllık vergiye bağlandı."
+          }
+        ],
+        "legends": [
+          "Aşoka sütunlarını Topra ve Meerut'tan binlerce mandayla çektirerek Delhi'ye getirtip sarayının tepesine diktirdiği meşhurdur."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, FÎRÛZ ŞAH TUĞLUK",
+            "url": "https://islamansiklopedisi.org.tr/firuz-sah-tugluk"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TUĞLUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/tugluklular"
+          }
+        ]
+      },
+      {
+        "id": "delhi-ibrahim-lodi",
+        "name": "İbrâhim Lôdî",
+        "aliases": [
+          "Sultan İbrahim"
+        ],
+        "title": "Son Delhi Sultanı",
+        "birth": null,
+        "birthNote": "Delhi'de Sikender Lôdî'nin oğlu olarak doğdu",
+        "death": 1526,
+        "deathNote": "1526 Panipat Meydan Muharebesi'nde savaş meydanında şehit düştü",
+        "reign": [
+          1517,
+          1526
+        ],
+        "reignNote": "9 yıllık son saltanat; 1526 Panipat hezimetiyle Delhi Sultanlığı sona erdi.",
+        "claim": false,
+        "summary": "Delhi Türk Sultanlığı'nın son hükümdarı. Afgan kökenli Lôdî hanedanına mensuptu. Emîrlerin bağımsız hareketlerini kırmak için sert bir merkeziyetçilik uyguladı; bu durum amcaları ve Pencap valisi Devlet Han Lôdî'nin Kabil hâkimi Bâbür Şah'ı Hindistan'a davet etmesine yol açtı. 21 Nisan 1526'da I. Panipat Meydan Muharebesi'nde Bâbür'ün ateşli silahlarına ve tûlûgma taktiğine karşı 100 bin kişilik ordusuyla kahramanca savaşıp meydanda can verdi; Delhi Sultanlığı yerini Bâbür (Gürgânî) İmparatorluğu'na bıraktı.",
+        "traits": [
+          "Cesur savaşçı",
+          "Tavizsiz hükümdar"
+        ],
+        "contribution": "Gwalior Kalesi'ni fethederek Racput tehdidine karşı son büyük zaferi kazandı.",
+        "harm": "Emîrleri küstürmesi ve askeri teknolojide top-tüfek karşısında geleneksel kalması sultanlığın yıkımını getirdi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Gwalior Fethi",
+            "when": "1518",
+            "foe": "Tomar Racput Hanedanı (Vikramaditya)",
+            "result": "zafer",
+            "note": "Aşılamaz Gwalior Kalesi zaptedildi ve Delhi'ye bağlandı."
+          },
+          {
+            "name": "I. Panipat Meydan Muharebesi",
+            "when": "1526",
+            "foe": "Bâbür Şah (Gürgânî Ordusu)",
+            "result": "yenilgi",
+            "note": "Sultan İbrâhim meydanda şehit oldu; 320 yıllık Delhi Sultanlığı yıkılarak Bâbür İmparatorluğu kuruldu."
+          }
+        ],
+        "legends": [
+          "Bâbür Şah'ın zaferden sonra Sultan İbrahim'in cesedini bizzat buldurup 'Genç bir yiğitti, cesurca savaştı' diyerek sultanlara layık bir törenle Panipat'ta defnettirdiği Bâbürnâme'de yazılıdır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, BÂBÜR",
+            "url": "https://islamansiklopedisi.org.tr/babur"
+          }
+        ]
       }
     ]
   }

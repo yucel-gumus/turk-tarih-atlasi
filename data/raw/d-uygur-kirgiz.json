@@ -1179,21 +1179,27 @@
       {
         "id": "idikut-barcuk",
         "name": "Barçuk",
-        "aliases": [],
-        "title": "idikut",
+        "aliases": [
+          "Barçuk Art Tegin",
+          "Baurchuk Art Tekin"
+        ],
+        "title": "İdikut",
         "birth": null,
         "birthNote": "Kayıtlarda yok",
-        "death": null,
-        "deathNote": "Kayıtlarda yok",
+        "death": 1235,
+        "deathNote": "1235 civarında vefat etti",
         "reign": [
           1209,
-          null
+          1235
         ],
-        "reignNote": "1209'da Cengiz'e bağlandı. 1211'de Cengiz'in kızı Al Hatun ile evlendi. Ölüm yılı yazılmaz. Oğulları Kesmes ve Salındı Moğol ittifakında anılır; onların saltanat yılları yoktur.",
-        "summary": "Koço idikutu. 1209'da Cengiz Han'a tâbi oldu.",
-        "traits": [],
-        "contribution": "",
-        "harm": "",
+        "reignNote": "1209'da Cengiz Han ile müttefik oldu; kızıyla evlenip Moğol İmparatorluğu'nun 'beşinci oğlu' kabul edildi.",
+        "summary": "Koço İdikut Uygur hükümdarı. Karahıtay baskısına son verip Cengiz Han ile tarihi ittifak kurdu; Cengiz Han onu 'beşinci oğlum' kabul ederek kızı Altun Bike (Al-Altun) ile evlendirdi. Hârizm seferinde Uygur ordusunu bizzat komuta etti.",
+        "traits": [
+          "Müttefik idareci",
+          "Diplomat"
+        ],
+        "contribution": "Uygur şehir medeniyetinin ve alfabe geleneğinin Moğol İmparatorluğu idaresinde temel alınmasını sağladı.",
+        "harm": "Devletin Moğol vassalı olmasına yol açtı.",
         "wives": [
           {
             "name": "Al-Hatun",
@@ -1216,7 +1222,22 @@
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Karahıtay Tahakkümüne İsyan",
+            "when": "1209",
+            "foe": "Karahıtay Devleti (Şöke Şaderesi)",
+            "result": "zafer",
+            "note": "Karahıtay valisi Şöke ortadan kaldırıldı; Koço Uygur Devleti bağımsızlığını ilan edip Cengiz Han'la ittifak yaptı."
+          },
+          {
+            "name": "Hârizmşah Seferi (Otrar ve Nişabur Kuşatması)",
+            "when": "1219-1221",
+            "foe": "Hârizmşahlar Devleti (Alâeddin Muhammed)",
+            "result": "zafer",
+            "note": "Barçuk komutasındaki 10.000 kişilik Uygur süvari kolordusu Otrar ve Horasan kuşatmalarında yer aldı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -1239,8 +1260,8 @@
         "death": null,
         "deathNote": "Kayıtlarda yok",
         "reign": [
-          null,
-          null
+          1280,
+          1300
         ],
         "reignNote": "Turfan maddesi 1286 dolayında Duva'nın, Koçkar Tegin'i bağlamak için Beşbalık'ı kuşattığını yazar. Kuşatma, idikutun kızı Duva'ya verilince kalktı. Kızın adı ve Koçkar'ın saltanat yılları yazılmaz. 1286 bir saltanat aralığı değildir.",
         "summary": "1286 kuşatması sırasında idikut diye anılır. Cülûs ve ölüm yılı yoktur.",
@@ -1252,7 +1273,15 @@
         "familyNotes": [
           "Adı yazılmayan kızı 1286'da Duva'ya verildi. Bu yüzden Beşbalık kuşatması kalktı."
         ],
-        "wars": [],
+        "wars": [
+          {
+            "name": "Beşbalık Kuşatması",
+            "when": "1286",
+            "foe": "Çağatay Hanlığı (Duwa)",
+            "result": "antlasma",
+            "note": "Duwa Beşbalık'ı kuşattı; kızı Duwa'ya verilerek barış sağlandı ve kuşatma kaldırıldı."
+          }
+        ],
         "legends": [],
         "sources": [
           {
@@ -1338,7 +1367,7 @@
         "deathNote": "Kayıtlarda yok",
         "reign": [
           null,
-          null
+          1353
         ],
         "reignNote": "Sangga ve Budashri'den sonra anılır. Madde idikut soyunu onunla bitirir. 1353 her üçünün ortak ölüm yılı diye yazılmaz.",
         "summary": "Adı bilinen son idikutlardandır. Kendi cülûs ve ölüm yılı ayrı verilmez.",
