@@ -1340,6 +1340,50 @@
         ]
       },
       {
+        "id": "astrahan-yamgurci",
+        "name": "Yamgurçi Han",
+        "aliases": [
+          "Yamgurchi Khan",
+          "Yamgurçi"
+        ],
+        "title": "Han",
+        "birth": 1500,
+        "birthNote": "Hacıtarhan'da doğdu",
+        "death": 1555,
+        "deathNote": "Kafkasya eteklerinde Dağıstan'da vefat etti",
+        "reign": [
+          1546,
+          1554
+        ],
+        "reignNote": "8 yıllık bağımsız Astrahan saltanatı; Moskova'ya direndi.",
+        "summary": "Astrahan Hanı. Moskova Knezliği'nin İdil boyundaki yayılmacı emellerine şiddetle karşı çıktı. Kırım Hanlığı ve Nogay Ordası ile ittifak kurarak Rus elçilerini tutuklattı. 1552'de Kazan'ı yıkan Korkunç İvan, 1554'te Prens Pronskiy komutasındaki 30 bin kişilik orduyu ve nehir donanmasını Astrahan üzerine gönderdi. Yamgurçi Han şehri kahramanca savunduysa da yenilgiye uğrayarak Dağıstan'a çekildi; Ruslar onun yerine geçici olarak kukla Derviş Ali Han'ı oturttu.",
+        "traits": [
+          "Bağımsızlık taraftarı",
+          "Cesur",
+          "Moskova karşıtı"
+        ],
+        "contribution": "Astrahan'ın Rus Çarlığı vesayetine girmesini uzun süre engelledi.",
+        "harm": "1554'te şehrin düşmesini engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "1554 Astrahan Kuşatması ve Savunması",
+            "when": "1554",
+            "foe": "Rus Çarlığı Ordusu (Prens Yuri Pronskiy)",
+            "result": "yenilgi",
+            "note": "Rus nehir donanması şehri sardı; Yamgurçi Han Dağıstan'a çekilmek zorunda kaldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
         "id": "astrahan-dervis-ali-han",
         "name": "Derviş Ali Han",
         "aliases": [
@@ -1602,6 +1646,61 @@
           "Çar Boris Godunov'un kendisine teslim olması halinde sarayında hürmet göreceği teklifini 'Ben hür doğdum, bir kula kul olarak ölemem; gözlerim görmez oldu ama kalbim hürdür' diyerek reddetmesi destanlaşmıştır."
         ],
         "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN",
+            "url": "https://islamansiklopedisi.org.tr/kucum-han"
+          }
+        ]
+      },
+      {
+        "id": "sibir-ali-han",
+        "name": "Ali Han",
+        "aliases": [
+          "Ali bin Küçüm",
+          "Sibir Hanı Ali"
+        ],
+        "title": "Son Sibir Hanı / Mücahid",
+        "birth": 1560,
+        "birthNote": "İsker'de Küçüm Han'ın oğlu olarak doğdu",
+        "death": 1616,
+        "deathNote": "Yaroslavl'da sürgünde vefat etti",
+        "reign": [
+          1598,
+          1607
+        ],
+        "reignNote": "Babasının ardından Ob ve İrtiş boylarında 9 yıl Rus işgaline direndi.",
+        "summary": "Küçüm Han'ın oğlu ve Sibir Hanlığı'nın son hanı. 1598'de Irmak Muharebesi'nden sonra İrtiş ve Ob nehirleri arasındaki bozkır ve tayga ormanlarında Sibirya Tatarlarını toplayarak Rus Çarlığı voyvodalarına karşı gerilla savaşı yürüttü. Tara, Tümen ve Tobolsk Rus kalelerine baskınlar düzenledi. 1607'de Ruslar tarafından pusuya düşürülüp esir alındı ve Rusya içlerine sürgün edildi.",
+        "traits": [
+          "Yılmayan savaşçı",
+          "Baskın ustası",
+          "Sadık evlat"
+        ],
+        "contribution": "Sibirya Türklerinin bağımsızlık direnişini 17. yüzyılın başlarına kadar taşıdı.",
+        "harm": "Ateşli silahlara sahip Rus kale hatlarını kırmaya gücü yetmedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Arslan Ali Han",
+            "mother": "",
+            "note": "Kasım Hanlığı'na han tayin edilen oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "İrtiş ve Ob Bozkır Direnişi",
+            "when": "1598-1607",
+            "foe": "Rus Çarlığı Kazakları ve Tobolsk Voyvodalığı",
+            "result": "yenilgi",
+            "note": "Dokuz yıl süren çatışmaların ardından Ali Han esir düştü ve Sibir Hanlığı direnişi tamamen kırıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SİBİR HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/sibir-hanligi"
+          },
           {
             "title": "TDV İslâm Ansiklopedisi, KÜÇÜM HAN",
             "url": "https://islamansiklopedisi.org.tr/kucum-han"

@@ -1006,6 +1006,218 @@
         ]
       },
       {
+        "id": "kazak-haknazar",
+        "name": "Haknazar Han",
+        "aliases": [
+          "Ak Nazar Han",
+          "Haqnazar"
+        ],
+        "title": "Han / Birleştirici",
+        "birth": 1509,
+        "birthNote": "Sıgnak'ta doğdu",
+        "death": 1580,
+        "deathNote": "Türkistan bozkırında vefat etti",
+        "reign": [
+          1538,
+          1580
+        ],
+        "reignNote": "42 yıl boyunca Kazak Hanlığı'nı yöneten en uzun ömürlü hükümdar.",
+        "summary": "Kasım Han'ın oğlu. Babasının ardından yaşanan fetret devrine son vererek dağılan Kazak boylarını ve Üç Cüz'ü (Ulu, Orta ve Kişi Cüz) yeniden birleştirdi. Nogay Ordası'nın parçalanan boylarını hanlığa kattı. Buhara Hanı II. Abdullah Han ile ittifak kurarak Taşkent hâkimi Baba Sultan'a ve Moğol Oiratlara karşı başarılı seferler yürüttü.",
+        "traits": [
+          "Büyük birleştirici",
+          "Sabırlı diplomat",
+          "Teşkilatçı"
+        ],
+        "contribution": "Üç Kazak Cüzü'nü tek bir siyasi çatı altında toplayarak Kazak devletini yeniden ihya etti.",
+        "harm": "Buhara ve Taşkent arasındaki kanlı iç mücadelelerde suikast tehlikelerine maruz kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Dinmuhammed Sultan",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Nogay ve Seyhun Seferleri",
+            "when": "1568-1570",
+            "foe": "Nogay Ordası ve Şeybânî sınır güçleri",
+            "result": "zafer",
+            "note": "Yayık ve Seyhun havzaları kontrol altına alındı; Nogay boylarının önemli bir kısmı Kazak Hanlığı'na katıldı."
+          }
+        ],
+        "legends": [
+          "Rus elçisi Semyon Maltsev, Çar Korkunç İvan'a yazdığı raporda 'Haknazar Han sadece Kazakların değil, Nogayların da çarıdır' diye kaydetmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      },
+      {
+        "id": "kazak-tevkel",
+        "name": "Tevkel Han",
+        "aliases": [
+          "Tavakkul Han",
+          "Tewekkel"
+        ],
+        "title": "Han / Fatih",
+        "birth": 1562,
+        "birthNote": "Türkistan yöresinde doğdu",
+        "death": 1598,
+        "deathNote": "Buhara kuşatması sırasında aldığı yaradan ötürü Taşkent'te vefat etti",
+        "reign": [
+          1582,
+          1598
+        ],
+        "reignNote": "16 yıllık fetih saltanatı; Mâverâünnehir ticaret şehirlerini fethetti.",
+        "summary": "Şıgay Han'ın oğlu. Askeri cesareti ve ataklığıyla tanınan fatih hükümdar. Moskova Çarı I. Fyodor'a elçi göndererek diplomatik ilişkiler kurdu. Şeybânî Hanı II. Abdullah Han'ın ölümünün ardından Mâverâünnehir'e inerek Sayram, Taşkent, Türkistan ve Semerkant'ı fethetti. Buhara Kuşatması'nda yaralanıp Taşkent'e çekildi ve orada şehit düştü.",
+        "traits": [
+          "Cesur fatih",
+          "Gözü pek süvari",
+          "Usta diplomat"
+        ],
+        "contribution": "Taşkent ve Türkistan gibi stratejik şehirleri Kazak Hanlığı'na bağlayarak hanlığa şehirli ve ticari bir güç kazandırdı.",
+        "harm": "Buhara üzerine aşırı cüretkar bir taarruza girişmesi ağır yaralanmasına ve ordusunun geri çekilmesine sebep oldu.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Taşkent ve Semerkant Fethi",
+            "when": "1598",
+            "foe": "Buhara Hanlığı orduları (Pîr Muhammed)",
+            "result": "zafer",
+            "note": "Sayram, Taşkent ve Semerkant zaptedildi; Seyhun havzası kesin olarak Kazaklara bağlandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      },
+      {
+        "id": "kazak-cangir",
+        "name": "Salqam Cangir Han",
+        "aliases": [
+          "Cihangir Han",
+          "Salqam Zhanger",
+          "Salqam (Korkusuz)"
+        ],
+        "title": "Han / Salqam (Korkusuz)",
+        "birth": 1610,
+        "birthNote": "Türkistan'da Esim Han'ın oğlu olarak doğdu",
+        "death": 1652,
+        "deathNote": "Cungarlarla yapılan muharebede şehit düştü",
+        "reign": [
+          1629,
+          1652
+        ],
+        "reignNote": "23 yıl boyunca Cungar (Kalmuk) istilasına karşı bozkırı savundu.",
+        "summary": "Esim Han'ın oğlu. Çetin savaşçılığı ve heybeti sebebiyle halk ona 'Salqam' (Korkusuz/Heybetli) adını verdi. Cungar Hanlığı'nın batıya doğru genişlemesine karşı bozkırın en destansı savunmasını örgütledi. 1643 yılında Orbulaq Geçidi'nde siper savaşı taktiğiyle sadece 600 Kazak savaşçısıyla 50 bin kişilik devasa Cungar ordusunu durdurarak dünya askeri tarihine geçti; Semerkant hâkimi Yalantuş Bahadır'ın 20 bin atlıyla yetişmesiyle Cungarları bozguna uğrattı.",
+        "traits": [
+          "Askeri deha",
+          "Siper savaşı mucidi",
+          "Yenilmez başbuğ"
+        ],
+        "contribution": "Orbulaq zaferiyle Kazak milletini topyekûn bir yok oluştan ve soykırımdan kurtardı.",
+        "harm": "1652'de Cungar Huntaicisi Erdeni Batur ile çarpışırken şehit düşmesi hanlığı yeni bir kriz dönemine soktu.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Tavke Han",
+            "mother": "",
+            "note": "Babasından sonra altın çağı yaşatan ulu han",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Orbulaq Meydan Muharebesi",
+            "when": "1643",
+            "foe": "Cungar Hanlığı (Erdeni Batur Huntaici ordusu)",
+            "result": "zafer",
+            "note": "600 Kazak tüfekçisinin hendek ve siper taktiğiyle 50 bin kişilik Cungar ordusunu durdurduğu ve Yalantuş Bahadır'ın desteğiyle imha ettiği destansı muharebe."
+          }
+        ],
+        "legends": [
+          "Kazak tarihinde 'bozkırın Thermopylae'si' olarak anılan Orbulaq Savaşı'nda Cangir Han'ın tüfekli Kazak süvarilerini derin siperlere yerleştirip çapraz ateş açtırdığı anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      },
+      {
+        "id": "kazak-tavke",
+        "name": "Tavke Han",
+        "aliases": [
+          "Tauke Khan",
+          "Bozkırın Likurgos'u",
+          "Ebülhayr Tavke"
+        ],
+        "title": "Büyük Han / Adalet Güneşi",
+        "birth": 1635,
+        "birthNote": "Türkistan'da doğdu",
+        "death": 1715,
+        "deathNote": "Yesi'de (Türkistan) vefat etti; Hoca Ahmed Yesevî Türbesi'ne defnedildi",
+        "reign": [
+          1680,
+          1715
+        ],
+        "reignNote": "35 yıllık Altın Çağ saltanatı; meşhur Yedi Töre kanunnamesini hazırladı.",
+        "summary": "Salqam Cangir Han'ın oğlu. Kazak Hanlığı'nın 'Altın Çağı'nın mimarı. Kazak tarihinde bilgeliği ve kanunlarıyla 'Bozkırın Likurgos'u' ve 'Bilge Han' olarak anıldı. Tölö Biy (Ulu Cüz), Kazıbek Biy (Orta Cüz) ve Ayteke Biy (Kişi Cüz) ile birlikte ünlü örf ve şeriat kanunnamesi 'Zheti Zhargy'ı (Yedi Töre / Yedi Carga) yürürlüğe koydu. Kırgızlar ve Karakalpakları da içine alan güçlü bir federasyon kurdu.",
+        "traits": [
+          "Kanun koyucu",
+          "Barış mimarı",
+          "Büyük bilge",
+          "Töre koruyucusu"
+        ],
+        "contribution": "Zheti Zhargy kanunnamesini hazırlayarak kabile çatışmalarını bitirdi; Kazak hukukunun temelini attı; Türkistan şehrini daimi başkent yaptı.",
+        "harm": "Ömrünün son yıllarında başlayan acımasız Cungar akınlarının yıkıcı etkilerini tamamen önleyemedi.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Bolat Han",
+            "mother": "",
+            "note": "Halefi olan han",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Semeke Han",
+            "mother": "",
+            "note": "Orta Cüz Hanı",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Sayram ve Türkistan Savunması",
+            "when": "1684",
+            "foe": "Cungar Hanlığı (Galdan Boshugtu Khan)",
+            "result": "zafer",
+            "note": "Cungarların güney Kazak şehirlerine yönelik büyük taarruzu püskürtüldü."
+          }
+        ],
+        "legends": [
+          "Rus elçileri Tavke Han'ı 'Bütün bozkır kavimlerinin hürmet ettiği, adalet dağıtan bilge bir hükümdar' olarak tasvir etmişlerdir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
+          }
+        ]
+      },
+      {
         "id": "kazak-abilay",
         "name": "Abılay Han",
         "aliases": [
@@ -1591,6 +1803,61 @@
           {
             "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
             "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          }
+        ]
+      },
+      {
+        "id": "ak-orda-koyurcuk",
+        "name": "Koyurçuk Han",
+        "aliases": [
+          "Koyurchik",
+          "Kuyurchuk Khan"
+        ],
+        "title": "Ak Orda Hanı",
+        "birth": null,
+        "birthNote": "Urus Han'ın oğlu olarak doğdu",
+        "death": 1397,
+        "deathNote": "Seyhun boyunda vefat etti",
+        "reign": [
+          1395,
+          1397
+        ],
+        "reignNote": "Emir Timur'un desteğiyle Sıgnak'ta Ak Orda tahtına oturdu; Barak Han'ın babası.",
+        "claim": false,
+        "summary": "Urus Han'ın oğlu, Barak Han'ın babası ve Kazak hanlarının doğrudan atası. Toktamış'ın baskısı karşısında Semerkant'a Emir Timur'un sarayına sığındı. Timur'un 1395 Terek Muharebesi'nde Toktamış'ı mağlup etmesinden sonra Timur tarafından altın taç giydirilerek Ak Orda (Sıgnak) hanı ilan edildi. Seyhun boylarında Ak Orda hakimiyetini ihya etti.",
+        "traits": [
+          "Töreye bağlı",
+          "Diplomat"
+        ],
+        "contribution": "Ak Orda hanedan verasetini sürdürerek Urus Han soyunun Kazak Hanlığı'na uzanmasını sağladı.",
+        "harm": "Timur vesayeti sebebiyle bozkırda bağımsız hareket kabiliyeti kısıtlı kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Barak Han",
+            "mother": "",
+            "note": "Ak Orda'nın son büyük hanı ve Kazak kurucularının babası",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Sıgnak ve Seyhun Harekâtı",
+            "when": "1395",
+            "foe": "Toktamış Han taraftarı emirler",
+            "result": "zafer",
+            "note": "Timur'un yardımıyla Sıgnak ele geçirildi ve Ak Orda hükümdarlığı tesis edildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ALTIN ORDA HANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KAZAKLAR",
+            "url": "https://islamansiklopedisi.org.tr/kazaklar"
           }
         ]
       },

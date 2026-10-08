@@ -66,7 +66,9 @@
         "harm": "",
         "wives": [],
         "children": [],
-        "wars": [],
+        "wars": [
+          {"name": "Cend ve Seyhun Savaşları", "when": "970-985 civarı", "foe": "Gayrimüslim Türk boyları ve Yabgu haraç memurları", "result": "zafer", "note": "Cend ahalisini koruma altına alan Selçuk Bey, Yabgu'ya ödenen haracı kesti ve bağımsız beyliğin temelini attı."}
+        ],
         "legends": [],
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, TÜRK", "url": "https://islamansiklopedisi.org.tr/turk"},
@@ -928,6 +930,7 @@
         "wives": [],
         "children": [],
         "wars": [
+          {"name": "Hazar Seferi", "when": "965", "foe": "Hazar Kağanlığı", "result": "zafer", "note": "Kiev knezi Svyatoslav ile ittifak kurularak Hazar başkenti İtil ve Sarkel kaleleri zaptedildi; Hazar Kağanlığı çöküşe sürüklendi."},
           {"name": "Karluk savaşı", "when": "IX. yüzyıl veya daha önce", "foe": "Karluklar", "result": "yenilgi", "note": "Yabgu öldü. Tek savaşın yılı yoktur."},
           {"name": "Peçeneklerin sürülmesi", "when": "898-902", "foe": "Peçenekler", "result": "zafer", "note": "Hazarlarla anlaşıp Peçenekleri İdil batısına sürdüler. Yıl aralığı TDV Oğuzlar'da 898-902, Peçenek maddesinde hücum 889'dur."}
         ],
@@ -1023,6 +1026,33 @@
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, SELÇUK BEY", "url": "https://islamansiklopedisi.org.tr/selcuk-bey"},
           {"title": "TDV İslâm Ansiklopedisi, OĞUZLAR", "url": "https://islamansiklopedisi.org.tr/oguzlar"}
+        ]
+      },
+      {
+        "id": "oguz-sah-melik",
+        "name": "Şah Melik",
+        "aliases": ["Ali Yabgu oğlu Şah Melik", "Ebü'l-Fevâris Şah Melik"],
+        "title": "yabgu",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1043,
+        "deathNote": "Kirman civarında esir alınıp katledildi",
+        "reign": [1030, 1043],
+        "reignNote": "Oğuz Yabgu Devleti'nin bilinen son müstakil hükümdarı.",
+        "summary": "Yenikent merkezli Oğuz Yabgu Devleti'nin son kudretli hükümdarı. Ali Yabgu'nun oğlu. Selçuklular ile amansız bir iktidar kavgasına girdi. Gazneli Sultanı Mesud ile ittifak kurarak 1041 yılında Harezm'i fethetti ve adına hutbe okuttu. Ancak Selçukluların 1040 Dandanakan zaferinin ardından güçlenen Tuğrul ve Çağrı beyler 1043'te Harezm üzerine yürüdü; Şah Melik mağlup olup Kirman'a kaçtı ve yakalanarak öldürüldü. Oğuz Yabgu Devleti tarihe karıştı.",
+        "traits": ["Cengaver yabgu", "Gazneli müttefiki", "Tavizsiz"],
+        "contribution": "Oğuz Yabgu hâkimiyetini Harezm ve Ceyhun boylarına kadar genişletti.",
+        "harm": "Selçuklu Türkmenlerine karşı amansız husumeti Oğuzların ikiye bölünmesine ve yabguluğun tamamen yıkılmasına yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Harezm Seferi ve Fethi", "when": "1041", "foe": "Altuntaşoğulları (İsmail Handan)", "result": "zafer", "note": "Gazneli desteğiyle Harezm fethedildi; Şah Melik burada yabgu olarak adına hutbe okuttu."},
+          {"name": "Selçuklu-Oğuz Yabgu Meydan Savaşı", "when": "1043", "foe": "Büyük Selçuklu Devleti (Tuğrul ve Çağrı Beyler)", "result": "yenilgi", "note": "Harezm Selçukluların eline geçti; Şah Melik kaçarken öldürüldü ve Oğuz Yabgu Devleti yıkıldı."}
+        ],
+        "legends": ["Tarihçi Beyhakî, Şah Melik'in savaş naraları atarak tek başına Selçuklu süvarilerinin arasına daldığını ve cüretiyle tanındığını nakleder."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, OĞUZLAR", "url": "https://islamansiklopedisi.org.tr/oguzlar"},
+          {"title": "TDV İslâm Ansiklopedisi, SELÇUKLULAR", "url": "https://islamansiklopedisi.org.tr/selcuklular"}
         ]
       }
     ]

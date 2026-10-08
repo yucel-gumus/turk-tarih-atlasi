@@ -3526,9 +3526,9 @@
     ],
     "region": "anadolu",
     "start": 1081,
-    "end": 1093,
+    "end": 1097,
     "startNote": "1081’de İzmir’de tutunup donanma kurmasıyla başladı. ‘İlk Türk donanması’ ifadesi Anadolu için kullanılır.",
-    "endNote": "1093 yılında damadı Anadolu Selçuklu Sultanı I. Kılıç Arslan tarafından bir ziyafette öldürülmesiyle yıkıldı.",
+    "endNote": "1093'te Çaka Bey öldürüldü; beylik kardeşi Yalvaç idaresinde 1097'de Bizans'ın İzmir'i zaptına kadar sürdü.",
     "capital": "İzmir (Smyrna)",
     "religion": "İslamiyet (Sünnî)",
     "confidence": "kayit",
@@ -3604,6 +3604,49 @@
         "legends": [
           "Bizans prensesi Anna Komnena'nın Alexiad adlı eserinde Çaka Bey'in denizdeki cüreti ve savaş zekası korkuyla karışık bir hayranlıkla anlatılır."
         ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ÇAKA BEY",
+            "url": "https://islamansiklopedisi.org.tr/caka-bey"
+          }
+        ]
+      },
+      {
+        "id": "caka-yalvac",
+        "name": "Yalvaç Bey",
+        "aliases": [
+          "Yalvaç",
+          "İzmir Emiri Yalvaç"
+        ],
+        "title": "Emir",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 1097,
+        "deathNote": "İzmir kuşatması ve savunması sonrasında kayıtlardan çıktı",
+        "reign": [
+          1093,
+          1097
+        ],
+        "reignNote": "Ağabeyi Çaka Bey'in katlinden sonra İzmir'i 4 yıl boyunca savundu.",
+        "summary": "Çaka Bey'in kardeşi. Ağabeyinin 1093'te şehit edilmesinden sonra İzmir ve Foça'da Türk deniz hakimiyetini sürdürdü. 1097 yılında I. Haçlı Seferi'nin oluşturduğu baskı ortamında Bizans komutanı Ioannes Doukas'ın hem karadan hem denizden başlattığı büyük İzmir Kuşatması'nda şehri savundu. Kuşatma neticesinde İzmir Bizans'ın eline geçti ve beylik resmen son buldu.",
+        "traits": [
+          "Denizci emir",
+          "Sadık başbuğ"
+        ],
+        "contribution": "Ağabeyinin kurduğu Türk deniz varlığını Haçlı Seferleri fırtınasına kadar İzmir'de muhafaza etti.",
+        "harm": "Tek başına kalan İzmir'i Haçlı destekli devasa Bizans ordusuna karşı koruyamadı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "İzmir Kuşatması ve Savunması",
+            "when": "1097",
+            "foe": "Bizans İmparatorluğu Ordusu ve Donanması (Ioannes Doukas)",
+            "result": "yenilgi",
+            "note": "İzmir şehri ve kalesi Haçlı seferi desteğindeki Bizans kuvvetlerince zaptedildi; beylik yıkıldı."
+          }
+        ],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, ÇAKA BEY",
