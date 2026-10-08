@@ -1488,24 +1488,26 @@
         "id": "ramazanoglu-ramazan-bey",
         "name": "Ramazan Bey",
         "aliases": [
-          "Emir Ramazan"
+          "Emîr Ramazan"
         ],
-        "title": "Emir / Bey",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Bey / Türkmen Emiri",
+        "birth": 1315,
+        "birthNote": "Çukurova sahasında Yüreğir Türkmen boyundan doğdu",
         "death": 1378,
         "deathNote": "Adana'da vefat etti",
         "reign": [
           1352,
           1378
         ],
-        "reignNote": "26 yıllık kurucu beylik.",
-        "summary": "Yüreğir boyu reisi ve beyliğin kurucusu. Çukurova'daki Ermeni krallığına ölümcül darbeler vurarak Adana'yı Türk yurdu yaptı.",
+        "reignNote": "26 yıl süren kurucu beylik devri.",
+        "claim": false,
+        "summary": "Oğuzların Üçok koluna mensup Yüreğir boyu beyi, Ramazanoğulları Beyliği'nin kurucusu. Memlük Sultanı el-Melikü's-Sâlih tarafından 1352'de Çukurova Türkmenleri emirliğine tayin edildi. Kilikya Ermeni Krallığı'na karşı Çukurova'nın fethinde büyük rol oynadı; Adana, Misis ve Ayas bölgelerini kesin Türk yurdu yaptı.",
         "traits": [
-          "Gazi",
-          "Yüreğir reisi"
+          "Yüreğir boyu reisi",
+          "Kurucu komutan",
+          "Memlük müttefiki"
         ],
-        "contribution": "Çukurova'da 250 yıl sürecek Türk hakimiyetini kurdu.",
+        "contribution": "Çukurova'yı Haçlı ve Ermeni hakimiyetinden temizleyerek Türkmen yurdu yaptı.",
         "harm": "Kayıtlarda belirgin bir zararı geçmez.",
         "wives": [],
         "children": [
@@ -1514,15 +1516,24 @@
             "mother": "",
             "note": "İkinci bey",
             "certainty": "kesin"
+          },
+          {
+            "name": "Ahmed Bey",
+            "mother": "",
+            "note": "Üçüncü bey",
+            "certainty": "kesin"
           }
+        ],
+        "familyNotes": [
+          "Ramazanoğulları hanedanı Adana ve Çukurova'da 256 yıl hüküm sürmüştür."
         ],
         "wars": [
           {
-            "name": "Çukurova Fethi",
-            "when": "1352-1360",
+            "name": "Adana ve Misis'in Fethi",
+            "when": "1359",
             "foe": "Kilikya Ermeni Krallığı",
             "result": "zafer",
-            "note": "Adana ve Tarsus fethedildi."
+            "note": "Çukurova ovaları tamamen fethedildi; beylik merkezi Adana oldu."
           }
         ],
         "legends": [],
@@ -1534,42 +1545,235 @@
         ]
       },
       {
-        "id": "ramazanoglu-piri-mehmed",
-        "name": "Pîrî Mehmed Paşa",
+        "id": "ramazanoglu-ahmed-bey",
+        "name": "Ahmed Bey",
         "aliases": [
-          "Ramazanoğlu Pîrî Bey"
+          "Şehâbeddin Ahmed Bey"
         ],
-        "title": "Bey / Paşa",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
-        "death": 1568,
-        "deathNote": "Adana'da vefat etti, türbesi Adana Ulu Camii haziresindedir",
+        "title": "Bey / Emîr-i Kebîr",
+        "birth": 1355,
+        "birthNote": "Adana'da Ramazan Bey'in oğlu olarak doğdu",
+        "death": 1416,
+        "deathNote": "Adana'da vefat etti",
         "reign": [
-          1520,
-          1568
+          1383,
+          1416
         ],
-        "reignNote": "48 yıllık adalet ve imar çağı.",
-        "summary": "Ramazanoğullarının en büyük hükümdarı. Kanuni Sultan Süleyman'ın takdirini kazanarak vezirlik rütbesi aldı. Adana Ulu Camii, Yağ Camii, medreseler ve imaretler yaptırarak Adana'yı bir medeniyet merkezine çevirdi.",
+        "reignNote": "33 yıllık kudretli beylik dönemi.",
+        "claim": false,
+        "summary": "Ramazan Bey'in oğlu. Beyliği döneminde Ramazanoğulları Çukurova'nın mutlak hakimi haline geldi. Kardeşi İbrahim'in Memlükler tarafından öldürülmesi üzerine başa geçti; Memlük Sultanı Berkuk'un takdirini kazandı. Osmanlı Padişahı Yıldırım Bayezid ile dostluk kurdu ve kızını Osmanlı şehzadesi İsa Çelebi ile evlendirdi. Timur istilası sırasında Çukurova'yı tahribattan korumayı başardı.",
         "traits": [
-          "Büyük imar hamisi",
-          "Âlim devlet adamı",
-          "Adil"
+          "Usta diplomat",
+          "Denge siyasetçisi",
+          "Güçlü süvari lideri"
         ],
-        "contribution": "Adana Ulu Camii ve Külliyesi'ni inşa ettirdi; 48 yıl boyunca Çukurova'da asayiş ve refahı sağladı.",
+        "contribution": "Çukurova'yı Timur yıkımından ve iç savaşlardan başarıyla korudu.",
+        "harm": "Karamanoğulları ile giriştiği çekişmeler Çukurova Türkmenlerini zaman zaman böldü.",
+        "wives": [],
+        "children": [
+          {
+            "name": "İbrâhim Bey II",
+            "mother": "",
+            "note": "Ramazanoğlu beyi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ali Bey",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kızı Osmanlı hanedanına gelin gitmiş, Yıldırım Bayezid'in oğlu İsa Çelebi ile nikahlanmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Sis (Kozan) Kalesi Kuşatması",
+            "when": "1398",
+            "foe": "Memlük muhalif emirleri ve yerel garnizon",
+            "result": "zafer",
+            "note": "Kozan kalesi kontrol altına alındı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, RAMAZANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/ramazanogullari"
+          }
+        ]
+      },
+      {
+        "id": "ramazanoglu-halil-bey",
+        "name": "Halil Bey",
+        "aliases": [
+          "Gıyâseddin Halil Bey"
+        ],
+        "title": "Bey / İmar Hamisi",
+        "birth": 1445,
+        "birthNote": "Adana'da doğdu",
+        "death": 1510,
+        "deathNote": "Adana'da vefat etti, Adana Ulu Camii haziresine defnedildi",
+        "reign": [
+          1480,
+          1510
+        ],
+        "reignNote": "30 yıllık istikrarlı ve mamur beylik dönemi.",
+        "claim": false,
+        "summary": "Dâvud Bey'in oğlu. Ramazanoğulları'nın en büyük imarcı hükümdarlarındandır. Osmanlı-Memlük rekabeti ve savaşları sırasında Çukurova'nın tarafsızlığını ve refahını korudu. Adana'nın sembolü olan muhteşem Adana Ulu Camii Külliyesi'nin (Cami-i Kebîr) inşasını 1507'de başlattı ve şehri medreseler, çarşılar ve hanlarla donattı.",
+        "traits": [
+          "Büyük imarcı",
+          "Barış yanlısı diplomat",
+          "Vakıf kurucusu"
+        ],
+        "contribution": "Adana Ulu Camii ve Medresesi'nin inşasını başlattı; Adana'yı Çukurova'nın kültür başkentine çevirdi.",
         "harm": "Kayıtlarda belirgin bir zararı geçmez.",
         "wives": [],
         "children": [
           {
-            "name": "İbrahim Bey",
+            "name": "Pîrî Mehmed Paşa",
             "mother": "",
-            "note": "Babasından sonra bey oldu",
+            "note": "Beyliğin en meşhur hükümdarı olan oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Mahmud Bey",
+            "mother": "",
+            "note": "Kısa süre beylik yapan oğlu",
             "certainty": "kesin"
           }
         ],
-        "wars": [],
-        "legends": [
-          "Kanuni Sultan Süleyman'ın Irak ve İran seferlerinde ordunun Çukurova'dan geçişinde sunduğu muhteşem ziyafetler seyahatnamelerde anlatılır."
+        "familyNotes": [
+          "Oğlu Pîrî Paşa babasının başlattığı Adana Ulu Camii'ni tamamlamıştır."
         ],
+        "wars": [
+          {
+            "name": "Ağaçayırı Muharebesi Diplomasisi",
+            "when": "1488",
+            "foe": "Osmanlı ve Memlük orduları çatışması sahası",
+            "result": "antlasma",
+            "note": "Çukurova'da yapılan Osmanlı-Memlük savaşında tarafsız kalarak şehrin yıkımını önledi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, RAMAZANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/ramazanogullari"
+          }
+        ]
+      },
+      {
+        "id": "ramazanoglu-piri-mehmed-pasa",
+        "name": "Pîrî Mehmed Paşa",
+        "aliases": [
+          "Pîrî Bey",
+          "Ramazanoğlu Pîrî Paşa"
+        ],
+        "title": "Bey / Osmanlı Paşası",
+        "birth": 1485,
+        "birthNote": "Adana'da Halil Bey'in oğlu olarak doğdu",
+        "death": 1568,
+        "deathNote": "Adana'da 83 yaşında vefat etti, Adana Ulu Camii Külliyesi'ndeki türbesine defnedildi",
+        "reign": [
+          1517,
+          1568
+        ],
+        "reignNote": "51 yıl süren yarım asırlık altın çağ.",
+        "claim": false,
+        "summary": "Halil Bey'in oğlu, Ramazanoğulları tarihinin en parlak, en uzun süre hüküm süren ve en bilge hükümdarı. 1516 Mercidâbık Zaferi sonrası Yavuz Sultan Selim'e biat ederek Çukurova'yı barış yoluyla Osmanlı'ya bağladı ve yurtluk-ocaklık statüsüyle beyliğini korudu. Kanunî Sultan Süleyman'ın büyük saygısını kazandı; Irakeyn Seferi'ne katıldı, Karaman beylerbeyliği ve Şam valiliği yaptı. Babasının başlattığı Adana Ulu Camii'ni 1541'de tamamladı; Yağ Camii, medreseler, köprüler ve imaretlerle Adana'yı baştan başa imar etti.",
+        "traits": [
+          "Yarım asırlık bilge vezir",
+          "Büyük imar banisi",
+          "Yavuz ve Kanunî'nin sadık müttefiki"
+        ],
+        "contribution": "Çukurova'yı savaşsız Osmanlı idaresine entegre etti; Adana Ulu Camii ve Yağ Camii gibi mimari şaheserleri tamamladı.",
+        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+        "wives": [],
+        "children": [
+          {
+            "name": "İbrâhim Bey",
+            "mother": "",
+            "note": "Kendisinden sonra beylik yapan oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kubad Paşa",
+            "mother": "",
+            "note": "Tarsus beyi olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kanunî Sultan Süleyman 1535'te Tebriz Seferi dönüşü Adana'da Pîrî Paşa'nın konağında misafir edilmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Mercidâbık Sonrası Osmanlı İttifakı",
+            "when": "1516",
+            "foe": "Memlük nüfuzu",
+            "result": "antlasma",
+            "note": "Yavuz Sultan Selim'e anahtarları teslim etti; Çukurova içişlerinde serbest yurtluk olarak tescil edildi."
+          },
+          {
+            "name": "Irakeyn Seferi Harekâtı",
+            "when": "1534",
+            "foe": "Safevî Devleti sınır kaleleri",
+            "result": "zafer",
+            "note": "Kanunî'nin emrinde Bağdat Seferi lojistik ve süvari komutanlığı yaptı."
+          }
+        ],
+        "legends": [
+          "Kanunî Sultan Süleyman'ın Adana'da misafir kaldığı günlerde Pîrî Paşa'nın zarafeti ve devlet adamlığına hayran kalarak ona mücevherli kılıç hediye ettiği anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, RAMAZANOĞULLARI",
+            "url": "https://islamansiklopedisi.org.tr/ramazanogullari"
+          }
+        ]
+      },
+      {
+        "id": "ramazanoglu-pir-mansur-bey",
+        "name": "Pîr Mansur Bey",
+        "aliases": [
+          "Mansur Bey Ramazanoğlu"
+        ],
+        "title": "Son Ramazanoğlu Beyi",
+        "birth": 1560,
+        "birthNote": "Adana'da doğdu",
+        "death": 1608,
+        "deathNote": "İstanbul'da vefat etti",
+        "reign": [
+          1595,
+          1608
+        ],
+        "reignNote": "13 yıllık son beylik devri; beyliğin doğrudan Osmanlı eyaletine dönüşümü.",
+        "claim": false,
+        "summary": "İbrâhim Bey'in oğlu, Ramazanoğulları Beyliği'nin son hükümdarı. Celâlî isyanlarının Çukurova'yı kasıp kavurduğu buhranlı yıllarda beyliği yönetti. 1608 yılında Kuyucu Murad Paşa'nın Celâlîleri tenkil etmek üzere Adana'ya gelmesi üzerine Pîr Mansur Bey kendi rızasıyla yurtluk-ocaklık imtiyazından feragat ederek beyliği doğrudan Osmanlı merkez idaresine devretti; kendisine paşalık ve dirlikler verildi. Böylece 256 yıllık Ramazanoğulları Beyliği barışçı bir olgunlukla Osmanlı Devleti'ne tam olarak ilhak oldu.",
+        "traits": [
+          "Son bey",
+          "Olgun devlet adamı",
+          "Fedakar lider"
+        ],
+        "contribution": "Çukurova'yı Celâlî isyanları sırasında büyük yıkımlardan korudu; kan dökülmeden merkeze entegrasyonu sağladı.",
+        "harm": "Celâlî baskınlarına karşı beyliğin askeri gücünün yetersiz kalması.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Ramazanoğlu ailesi Osmanlı devrinde Adana'da vakıflarını ve asaletini Cumhuriyet dönemine kadar korumuştur."
+        ],
+        "wars": [
+          {
+            "name": "Celâlî İsyanları Savunması",
+            "when": "1606",
+            "foe": "Celâlî elebaşları (Canboladoğlu ve Kalenderoğlu)",
+            "result": "antlasma",
+            "note": "Adana Kalesi Celâlî kuşatmasına karşı savunuldu; Kuyucu Murad Paşa'ya tam destek verildi."
+          }
+        ],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, RAMAZANOĞULLARI",

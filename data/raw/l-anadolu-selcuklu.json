@@ -1371,6 +1371,10 @@
       {
         "title": "TDV İslâm Ansiklopedisi, SALTUKLULAR",
         "url": "https://islamansiklopedisi.org.tr/saltuklular"
+      },
+      {
+        "title": "TDV İslâm Ansiklopedisi, MAMA HATUN",
+        "url": "https://islamansiklopedisi.org.tr/mama-hatun"
       }
     ],
     "rulers": [
@@ -1379,41 +1383,181 @@
         "name": "Ebü'l-Kāsım Saltuk Bey",
         "aliases": [
           "Saltuk Gazi",
-          "Emir Saltuk"
+          "I. Saltuk"
         ],
-        "title": "Emir / Bey",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Emîr / Kurucu Gazi",
+        "birth": 1045,
+        "birthNote": "Horasan'da doğdu",
         "death": 1102,
-        "deathNote": "Erzurum'da vefat etti",
+        "deathNote": "Erzurum'da vefat etti, Erzurum Kalesi'ne defnedildi",
         "reign": [
           1072,
           1102
         ],
-        "reignNote": "30 yıllık kurucu beylik.",
-        "summary": "Malazgirt komutanlarından, Erzurum'un fatihi ve beyliğin kurucusu. Gürcü ve Bizans saldırılarına karşı sınır boyunu müdafaa etti; Erzurum Kalesi'ni tahkim ettirdi.",
+        "reignNote": "30 yıl süren Doğu Anadolu gazâ ve fetih devri.",
+        "claim": false,
+        "summary": "Malazgirt Meydan Muharebesi'nin (1071) öncü Selçuklu kumandanlarından. Sultan Alparslan tarafından Erzurum, Kars, Oltu, Bayburt ve İspir bölgelerini fethedip yurt tutmakla görevlendirildi. 1072'de Erzurum merkezli ilk Anadolu Türk beyliğini kurdu. Bizans ve Gürcü kuvvetlerine karşı bölgeyi savundu.",
         "traits": [
-          "Gazi komutan",
-          "Serhat muhafızı"
+          "Alparslan'ın kumandanı",
+          "Fatih",
+          "İlk beylik kurucusu"
         ],
-        "contribution": "Doğu Anadolu'da ilk Türk yerleşimini ve idaresini kurdu.",
+        "contribution": "Doğu Anadolu'da ilk Türk beyliğini kurdu; Erzurum'un ebedi Türk yurdu olmasını sağladı.",
         "harm": "Kayıtlarda belirgin bir zararı geçmez.",
         "wives": [],
         "children": [
           {
-            "name": "Ali b. Saltuk",
+            "name": "Ali Bey",
             "mother": "",
             "note": "İkinci bey",
             "certainty": "kesin"
+          },
+          {
+            "name": "Ziyâeddin Gazi",
+            "mother": "",
+            "note": "Üçüncü bey",
+            "certainty": "kesin"
           }
+        ],
+        "familyNotes": [
+          "Saltuklu hanedanı Erzurum ve Tercan çevresinde 130 yıl boyunca hüküm sürmüştür."
         ],
         "wars": [
           {
-            "name": "Erzurum Fethi",
+            "name": "Erzurum'un Fethi",
             "when": "1072",
-            "foe": "Bizans ve Gürcü garnizonları",
+            "foe": "Bizans İmparatorluğu garnizonu",
             "result": "zafer",
-            "note": "Erzurum fethedilip başkent yapıldı."
+            "note": "Kalykala (Erzurum) fethedilerek Saltuklu Beyliği kuruldu."
+          }
+        ],
+        "legends": [
+          "Erzurum Kalesi Mescidi ve Tepsi Minare'nin temelleri Saltuklu gazileri tarafından atılmıştır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALTUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/saltuklular"
+          }
+        ]
+      },
+      {
+        "id": "saltuklu-izzeddin",
+        "name": "İzzeddin Saltuk II",
+        "aliases": [
+          "II. Saltuk",
+          "Melik Saltuk"
+        ],
+        "title": "Büyük Melik",
+        "birth": 1105,
+        "birthNote": "Erzurum'da doğdu",
+        "death": 1168,
+        "deathNote": "Erzurum'da vefat etti, Erzurum Üç Kümbetler'deki meşhur Saltuk Kümbeti'ne defnedildi",
+        "reign": [
+          1132,
+          1168
+        ],
+        "reignNote": "36 yıllık saltanat; Saltukluların en parlak yükseliş dönemi.",
+        "claim": false,
+        "summary": "Saltukluların en kudretli ve en şöhretli hükümdarı. Gürcistan Krallığı'nın Doğu Anadolu'ya yönelik saldırılarına karşı Ahlatşahlar ve Artuklular ile ittifak kurarak savaştı. Erzurum Kale Camii'ni inşa ettirdi; Erzurum Üç Kümbetler'in en muhteşemi olan Emir Saltuk Kümbeti onun adına yapıldı. Kızı Şahbanu Hatun Ahlatşah II. Sökmen ile, diğer kızı meşhur Melike Mama Hatun ise Tercan melikesi olarak anıldı.",
+        "traits": [
+          "Büyük imarcı",
+          "Kafkasya gazisi",
+          "Dirayetli melik"
+        ],
+        "contribution": "Erzurum Kalesi ve mimari külliyelerini kurdu; Erzurum'u Kafkas ticaret yolunun merkezi yaptı.",
+        "harm": "1154 Ani Muharebesi'nde Gürcü Kralı I. Demetre'ye esir düştü; Ahlatşahların ödediği 100 bin dinar fidyeyle serbest kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Nâsıreddin Muhammed",
+            "mother": "",
+            "note": "Veliaht ve Erzurum beyi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Melike Mama Hatun",
+            "mother": "",
+            "note": "Tercan melikesi olan kızı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Şahbanu Hatun",
+            "mother": "",
+            "note": "Ahlatşah II. Sökmen'in eşi",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Kızları Şahbanu ve Mama Hatun Anadolu Türk mimarisinin en cömert kadın hamileri olmuştur."
+        ],
+        "wars": [
+          {
+            "name": "Ani Seferi",
+            "when": "1154",
+            "foe": "Gürcistan Krallığı (I. Demetre)",
+            "result": "yenilgi",
+            "note": "Ani önlerinde pusuya düşüp esir oldu; Ahlatşahların ödediği fidyeyle kurtuldu."
+          },
+          {
+            "name": "Kars Savunması",
+            "when": "1163",
+            "foe": "Gürcistan Krallığı (III. Giorgi)",
+            "result": "zafer",
+            "note": "İldenizli ve Ahlatşah ordularıyla birleşerek Gürcü akınını püskürttü."
+          }
+        ],
+        "legends": [
+          "Erzurum Üç Kümbetler'deki sekizgen gövdeli türbesi Anadolu'daki en eski ve en abidevi Türk anıt mezarlarından biridir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALTUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/saltuklular"
+          }
+        ]
+      },
+      {
+        "id": "saltuklu-nasreddin-muhammed",
+        "name": "Nâsıreddin Muhammed",
+        "aliases": [
+          "Muhammed Bey Saltuklu"
+        ],
+        "title": "Melik",
+        "birth": 1135,
+        "birthNote": "Erzurum'da doğdu",
+        "death": 1191,
+        "deathNote": "Erzurum'da vefat etti",
+        "reign": [
+          1168,
+          1191
+        ],
+        "reignNote": "23 yıllık istikrarlı Erzurum hükümdarlığı.",
+        "claim": false,
+        "summary": "İzzeddin Saltuk'un oğlu. Babasının vefatı üzerine tahta geçti. Erzurum Ulu Camii'ni (Atabeg Camii) 1179 yılında inşa ettirerek şehre anıtsal bir ibadethane kazandırdı. Gürcü Krallığı'na karşı dengeli bir diplomasi yürüttü; Anadolu Selçuklu Sultanı II. Kılıç Arslan ile barış içinde yaşadı.",
+        "traits": [
+          "Sanat ve mimari hamisi",
+          "Mutedil diplomat"
+        ],
+        "contribution": "Erzurum Ulu Camii'ni inşa ettirdi; şehrin kültür dokusunu geliştirdi.",
+        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Alâeddin Melikşah",
+            "mother": "",
+            "note": "Son Saltuklu hükümdarı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Gürcü Sınır Harekâtı",
+            "when": "1177",
+            "foe": "Gürcistan Krallığı ordusu",
+            "result": "antlasma",
+            "note": "Sınır çatışmaları sonrası karşılıklı sulh yapıldı."
           }
         ],
         "legends": [],
@@ -1428,37 +1572,96 @@
         "id": "saltuklu-mama-hatun",
         "name": "Melike Mama Hatun",
         "aliases": [
-          "Mama Hatun"
+          "Mama Hatun",
+          "Melike Mama"
         ],
-        "title": "Melike / Kadın Hükümdar",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Melike / Naibe",
+        "birth": 1145,
+        "birthNote": "Erzurum'da İzzeddin Saltuk'un kızı olarak doğdu",
         "death": 1201,
-        "deathNote": "Tercan veya Erzurum'da vefat etti",
+        "deathNote": "Tercan'da vefat etti, meşhur Mama Hatun Kümbeti'ne defnedildi",
         "reign": [
           1191,
           1200
         ],
-        "reignNote": "Saltuklu tahtını tek başına dirayetle yöneten kadın hükümdar.",
-        "summary": "II. Saltuk'un kızı. 10 yıl boyunca Saltuklu tahtında oturarak beyliği yönetti. Eyyûbîlerle diplomatik ilişkiler kurdu. Tercan'da inşa ettirdiği, Türk mimarisinin dünya çapındaki şaheseri sayılan dilimli kubbeli Mama Hatun Kümbeti ve Kervansarayı ile ölümsüzleşti.",
+        "reignNote": "9 yıllık dirayetli Tercan melikliği.",
+        "claim": false,
+        "summary": "İzzeddin Saltuk'un kızı. Anadolu Türk tarihinde kendi adına sikke kestiren, kervansaray, hamam, medrese ve anıtsal türbe inşa ettiren ilk büyük kadın hükümdarlardandır. Tercan merkezli hüküm sürdü. Eyyûbîler ve Artuklular nezdinde büyük bir siyasî itibara sahipti; Ahlatşah Seyfeddin Beytemür ile evlenmek üzere girişimlerde bulundu. Tercan'da inşa ettirdiği dairesel çevre duvarlı Mama Hatun Türbesi dünya mimarlık şaheserleri arasındadır.",
         "traits": [
-          "Dirayetli kadın lider",
-          "Sanat ve mimari hamisi",
-          "Adil"
+          "Hükümran melike",
+          "Büyük imar banisi",
+          "Güçlü kadın lider"
         ],
-        "contribution": "Anadolu'da eşsiz bir mimari külliye inşa ettirdi; kadın hükümdarlık geleneğinin seçkin bir temsilcisi oldu.",
-        "harm": "Evlilik meselesinde beylerle anlaşmazlığa düşüp tahttan indirildi.",
+        "contribution": "Tercan Mama Hatun Külliyesi ve Kümbeti gibi dünya çapında özgün bir mimari eser bıraktı.",
+        "harm": "Erzurum Saltuklu beyleriyle giriştiği iktidar çekişmesi beyliğin zayıflamasına zemin hazırladı.",
         "wives": [],
         "children": [],
-        "wars": [],
+        "familyNotes": [
+          "Yeğenleri tarafından tahttan indirilip hapsedildiği rivayet edilir."
+        ],
+        "wars": [
+          {
+            "name": "Tercan Savunması",
+            "when": "1198",
+            "foe": "Erzurum taht taliplileri kuvvetleri",
+            "result": "zafer",
+            "note": "Tercan kalesini ve topraklarını korumayı başardı."
+          }
+        ],
         "legends": [
-          "Ahlatlı Mimar Ebü'n-Nemâ b. Mufaddal'a yaptırdığı dairevi planlı türbe mimarlık tarihinde dünyada tektir."
+          "Tercan'daki Mama Hatun Kümbeti'nin dairesel avlusu ve kabartmalı nişleri Anadolu'daki tek örnektir."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, MAMA HATUN",
             "url": "https://islamansiklopedisi.org.tr/mama-hatun"
           },
+          {
+            "title": "TDV İslâm Ansiklopedisi, SALTUKLULAR",
+            "url": "https://islamansiklopedisi.org.tr/saltuklular"
+          }
+        ]
+      },
+      {
+        "id": "saltuklu-alaeddin-meliksah",
+        "name": "Alâeddin Melikşah",
+        "aliases": [
+          "Melikşah Saltuklu"
+        ],
+        "title": "Son Saltuklu Hükümdarı",
+        "birth": 1165,
+        "birthNote": "Erzurum'da doğdu",
+        "death": 1202,
+        "deathNote": "Erzurum'da vefat etti",
+        "reign": [
+          1200,
+          1202
+        ],
+        "reignNote": "Saltukluların son 2 yıllık hükümdarlığı.",
+        "claim": false,
+        "summary": "Nâsıreddin Muhammed'in oğlu, Saltuklular Devleti'nin son hükümdarı. Halamız Mama Hatun'u saf dışı bırakarak Erzurum tahtına oturdu. 1202 yılında Anadolu Selçuklu Sultanı II. Süleymanşah büyük Gürcistan Seferi'ne çıkarken Erzurum önlerine geldi. Melikşah'ın orduya vaktinde katılıp biat etmede tereddüt göstermesi üzerine Süleymanşah Erzurum'u teslim aldı, Melikşah'ı azletti ve şehri kardeşi Tuğrulşah'a tımar olarak verdi. Saltuklu Beyliği böylece sona erdi.",
+        "traits": [
+          "Son melik",
+          "Tereddütlü lider"
+        ],
+        "contribution": "Erzurum surlarını onardı.",
+        "harm": "Selçuklu ordusunu zamanında karşılamayarak beyliğin bağımsızlığını kaybetmesine sebep oldu.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Saltuklu hanedanının siyasî hakimiyeti 1202'de sona ermiş, toprakları Anadolu Selçuklu Devleti'ne katılmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Erzurum'un Selçuklulara Teslimi",
+            "when": "1202",
+            "foe": "Anadolu Selçuklu Devleti (II. Süleymanşah)",
+            "result": "antlasma",
+            "note": "Savaşsız teslim olundu; Saltuklu Devleti resmen tarihe karıştı ve Erzurum Selçuklu'ya bağlandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, SALTUKLULAR",
             "url": "https://islamansiklopedisi.org.tr/saltuklular"
@@ -1492,12 +1695,12 @@
     ],
     "sources": [
       {
-        "title": "TDV İslâm Ansiklopedisi, MENGÜCEKLİLER",
-        "url": "https://islamansiklopedisi.org.tr/mengucekliler"
+        "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+        "url": "https://islamansiklopedisi.org.tr/mengucukluler"
       },
       {
-        "title": "TDV İslâm Ansiklopedisi, DİVRİĞİ ULU CAMİİ VE DÂRÜŞŞİFASI",
-        "url": "https://islamansiklopedisi.org.tr/divrigi-ulu-camii-ve-darussifasi"
+        "title": "TDV İslâm Ansiklopedisi, DİVRİĞİ",
+        "url": "https://islamansiklopedisi.org.tr/divrigi"
       }
     ],
     "rulers": [
@@ -1505,51 +1708,56 @@
         "id": "mengucek-mengucek-gazi",
         "name": "Mengücek Gazi",
         "aliases": [
-          "Emir Mengücek",
+          "Emîr Mengücek Ahmed Gazi",
           "Mengücük Gazi"
         ],
-        "title": "Gazi / Emir",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Emîr / Kurucu Gazi",
+        "birth": 1045,
+        "birthNote": "Horasan'da doğdu",
         "death": 1118,
-        "deathNote": "Kemah'ta şehit düştü, türbesi Kemah Kalesi eteklerindedir",
+        "deathNote": "Kemah Kalesi'nde şehit düştü, türbesi Kemah Fırat kıyısındadır",
         "reign": [
           1071,
           1118
         ],
-        "reignNote": "47 yıllık kurucu beylik ve fetih dönemi.",
-        "summary": "Malazgirt fatihlerinden, beyliğin kurucusu. Kemah, Erzincan ve Divriği'yi Rumlardan fethedip İslamlaştırdı. Türbesi Kemah Fırat kıyısında asırlardır ziyaretgahtır.",
+        "reignNote": "47 yıllık fetih ve gazâ devri.",
+        "claim": false,
+        "summary": "Malazgirt Zaferi'nin (1071) efsanevi fatihlerinden biri. Sultan Alparslan'ın emriyle Erzincan, Kemah, Divriği ve Şebinkarahisar yörelerini fethederek Mengücekliler Beyliği'ni kurdu. Fırat nehri kıyısındaki sarp Kemah Kalesi'ni başkent yaptı. Rum ve Gürcü ordularına karşı bölgeyi aslanlar gibi savundu; türbesi Kemah'ta Fırat kayalıkları üzerindedir.",
         "traits": [
-          "Alp-gazi",
-          "Korkusuz serhat kumandanı"
+          "Alparslan'ın kahraman emiri",
+          "Gazi fatih",
+          "Mücahid"
         ],
-        "contribution": "Fırat vadisini Türk yurdu haline getirdi.",
+        "contribution": "Erzincan, Kemah ve Divriği'yi fethederek kalıcı Türk-İslam beldesi yaptı.",
         "harm": "Kayıtlarda belirgin bir zararı geçmez.",
         "wives": [],
         "children": [
           {
             "name": "İshak Bey",
             "mother": "",
-            "note": "Babasından sonra beyliği devraldı",
+            "note": "İkinci hükümdar olan oğlu",
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [
+          "Mengücek Gazi'nin soyu Erzincan ve Divriği olmak üzere iki parlak sanat ve medeniyet koluna ayrılmıştır."
+        ],
         "wars": [
           {
-            "name": "Kemah ve Erzincan Fethi",
-            "when": "1071-1075",
-            "foe": "Bizans sınır garnizonu",
+            "name": "Kemah ve Erzincan'ın Fethi",
+            "when": "1071",
+            "foe": "Bizans İmparatorluğu garnizonları",
             "result": "zafer",
-            "note": "Sarp Kemah kalesi fethedildi."
+            "note": "Kemah Kalesi fethedilerek Mengücek Beyliği kuruldu."
           }
         ],
         "legends": [
-          "Kemah'taki türbesinde cesedinin çürümeden mumyalanmış halde günümüze ulaştığına inanılır."
+          "Kemah'taki türbesinde asırlardır bozulmadan duran 'Melik Gazi' mumyası halk arasında büyük bir hürmetle ziyaret edilir."
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, MENGÜCEKLİLER",
-            "url": "https://islamansiklopedisi.org.tr/mengucekliler"
+            "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+            "url": "https://islamansiklopedisi.org.tr/mengucukluler"
           }
         ]
       },
@@ -1557,26 +1765,29 @@
         "id": "mengucek-fahreddin-behramsah",
         "name": "Fahreddin Behramşah",
         "aliases": [
-          "Melik Behramşah"
+          "Behramşah",
+          "Melik Fahreddin"
         ],
-        "title": "Melik / Gazi",
-        "birth": null,
-        "birthNote": "Kayıtlarda yok",
+        "title": "Büyük Melik / İlim Hamisi",
+        "birth": 1135,
+        "birthNote": "Erzincan'da doğdu",
         "death": 1225,
         "deathNote": "Erzincan'da vefat etti",
         "reign": [
           1162,
           1225
         ],
-        "reignNote": "63 yıllık adalet ve ilim çağı.",
-        "summary": "Mengüceklilerin en büyük meliki. Selçuklu II. Kılıç Arslan'ın damadı oldu. Bilim adamlarına, hekimlere ve şairlere sınırsız imkanlar sundu. Nizâmî-i Gencevî 'Mahzenü'l-Esrâr' eserini ona ithaf edince şaire binlerce altın, köle ve hediye katarları gönderdi.",
+        "reignNote": "63 yıl süren Anadolu tarihinin en uzun ve en parlak saltanatlarından biri.",
+        "claim": false,
+        "summary": "Mengüceklilerin Erzincan kolunun en büyük hükümdarı. 63 yıllık saltanatında Erzincan'ı Doğu İslam dünyasının en parlak kültür, edebiyat ve tıp merkezlerinden biri yaptı. Büyük şair Nizâmî-i Gencevî dünyaca ünlü 'Mahzen-i Esrâr' (Sırlar Hazinesi) mesnevisini Behramşah'a ithaf etti ve hükümdar şaire 5 bin altın ile hil'atler hediye etti. Anadolu Selçuklu Sultanı II. Kılıç Arslan'ın damadı idi; 1202 Basian Muharebesi'ne katıldı.",
         "traits": [
-          "İlim ve şiir aşığı",
-          "Cömertlik abidesi",
-          "Adil melik"
+          "Büyük ilim hamisi",
+          "63 yıl hüküm süren bilge",
+          "Cömert sultan",
+          "Adil"
         ],
-        "contribution": "Erzincan'ı doğunun en saygın ilim ve tıp merkezlerinden biri yaptı.",
-        "harm": "Ölümüyle oğulları Selçuklulara karşı direnemedi.",
+        "contribution": "Nizâmî ve Abdüllatif el-Bağdâdî gibi dâhileri himaye etti; Erzincan'ı Doğu Anadolu'nun kültür zirvesi yaptı.",
+        "harm": "1202 Basian Seferi'nde Selçuklu ordusunun Gürcülere mağlup olmasını engelleyemedi.",
         "wives": [
           {
             "name": "Selçuklu Prensesi",
@@ -1586,26 +1797,150 @@
         ],
         "children": [
           {
-            "name": "Dâvud Şah",
+            "name": "Alâeddin Dâvud Şah",
             "mother": "",
-            "note": "Erzincan meliki",
+            "note": "Erzincan'ın son Mengücük hükümdarı",
             "certainty": "kesin"
           },
           {
-            "name": "Hüsamettin Ahmed Şah",
+            "name": "Selçuk Hatun",
             "mother": "",
-            "note": "Divriği Ulu Camii'ni yaptıran melik",
+            "note": "Prenses",
             "certainty": "kesin"
           }
         ],
-        "wars": [],
+        "familyNotes": [
+          "Kızı Selçuklu sultanlarıyla evlenmiş, ailesi derin akrabalık bağları kurmuştur."
+        ],
+        "wars": [
+          {
+            "name": "Basian (Micingerd) Meydan Muharebesi",
+            "when": "1202",
+            "foe": "Gürcistan Krallığı (Kraliçe Tamar ordusu)",
+            "result": "yenilgi",
+            "note": "II. Süleymanşah ile birlikte savaştı; Selçuklu ordusu mağlup oldu, Behramşah esir düştüyse de Gürcülerce hürmetle serbest bırakıldı."
+          }
+        ],
         "legends": [
-          "Gence'den gelen elçinin getirdiği şiire karşılık şair Nizâmî'ye deve yükleriyle kumaş ve altın gönderdiği Cüveynî'de anlatılır."
+          "Nizâmî'nin Mahzen-i Esrâr'ı getiren elçiyi sarayında bizzat ayakta karşılayıp şaire olan hayranlığını bildirdiği nakledilir."
         ],
         "sources": [
           {
-            "title": "TDV İslâm Ansiklopedisi, MENGÜCEKLİLER",
-            "url": "https://islamansiklopedisi.org.tr/mengucekliler"
+            "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+            "url": "https://islamansiklopedisi.org.tr/mengucukluler"
+          }
+        ]
+      },
+      {
+        "id": "mengucek-alaeddin-davud",
+        "name": "Alâeddin Dâvud Şah II",
+        "aliases": [
+          "Dâvud Şah Mengücekli"
+        ],
+        "title": "Son Erzincan Meliki",
+        "birth": 1180,
+        "birthNote": "Erzincan'da Behramşah'ın oğlu olarak doğdu",
+        "death": 1230,
+        "deathNote": "Ilgın'da vefat etti",
+        "reign": [
+          1225,
+          1228
+        ],
+        "reignNote": "Erzincan Mengüceklerinin son 3 yıllık saltanatı.",
+        "claim": false,
+        "summary": "Fahreddin Behramşah'ın oğlu. Babasının ölümüyle Erzincan tahtına çıktı. Felsefe, astroloji ve tıbba aşırı meraklı, bilginleri sarayına toplayan bir melikti. Ancak Anadolu birliğini kurmak isteyen büyük Selçuklu Sultanı I. Alâeddin Keykubad'a karşı Eyyûbîler ve Harzemşah Celâleddin ile ittifak arayışına girmesi sonunu hazırladı. Keykubad 1228'de ordusuyla Erzincan ve Kemah'ı teslim aldı; Dâvud Şah'a Ilgın ve Akşehir iktâ verilerek hürmetle taltif edildi. Erzincan kolu sona erdi.",
+        "traits": [
+          "Felsefe ve astronomi aşığı",
+          "Talihsiz diplomat"
+        ],
+        "contribution": "Tabip ve filozof Abdüllatif el-Bağdâdî'yi uzun yıllar sarayında himaye etti.",
+        "harm": "Selçukluya karşı Eyyûbî ittifakına kalkışması beyliğin ilhak edilmesine yol açtı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kemah ve Erzincan Selçuklu vilayeti yapılmış; Dâvud Şah'a Konya yakınlarında dirlik verilmiştir."
+        ],
+        "wars": [
+          {
+            "name": "Erzincan'ın Selçuklulara Teslimi",
+            "when": "1228",
+            "foe": "Anadolu Selçuklu Devleti (I. Alâeddin Keykubad)",
+            "result": "antlasma",
+            "note": "Alâeddin Keykubad şehri kuşattı; Dâvud Şah şehri teslim etti ve beylik Selçuklu'ya bağlandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+            "url": "https://islamansiklopedisi.org.tr/mengucukluler"
+          }
+        ]
+      },
+      {
+        "id": "mengucek-ahmed-sah",
+        "name": "Hüsâmeddin Ahmed Şah",
+        "aliases": [
+          "Ahmed Şah Mengücekli",
+          "Melik Ahmed Şah"
+        ],
+        "title": "Divriği Meliki / Mimarlık Şaheseri Banisi",
+        "birth": 1205,
+        "birthNote": "Divriği'de doğdu",
+        "death": 1252,
+        "deathNote": "Divriği'de vefat etti, Divriği Ulu Camii haziresine defnedildi",
+        "reign": [
+          1229,
+          1252
+        ],
+        "reignNote": "23 yıllık imar saltanatı; UNESCO Dünya Mirası Divriği Külliyesi'nin doğuşu.",
+        "claim": false,
+        "summary": "Mengüceklilerin Divriği kolu meliki. Eşi Turan Melek Hatun (Behramşah'ın kızı) ile birlikte Türk-İslam mimarisinin 'Anadolu'nun Elhamra'sı' kabul edilen ve UNESCO Dünya Kültür Mirası listesinde yer alan meşhur Divriği Ulu Camii ve Dârüşşifası'nı (1228-1243) inşa ettirdi. Başmimar Ahlatlı Hürremşah'a yaptırılan külliyedeki taş işçiliği, Cennet Kapısı ve güneş açısıyla oluşan 'Namaz Kılan İnsan Silüeti' dünya sanat tarihinin mucizelerindendir.",
+        "traits": [
+          "Dünya mirası banisi",
+          "Büyük sanatkar ruhlu hükümdar",
+          "İnşa ustası"
+        ],
+        "contribution": "Divriği Ulu Camii ve Dârüşşifası gibi insanlık mirasının en seçkin taş anıtını medeniyetimize kazandırdı.",
+        "harm": "Kayıtlarda bir zararı geçmez.",
+        "wives": [
+          {
+            "name": "Melike Turan Melek Hatun",
+            "note": "Fahreddin Behramşah'ın kızı; Divriği Dârüşşifası'nı bizzat kendi servetiyle inşa ettiren melike",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Melik Salih",
+            "mother": "Melike Turan Melek Hatun",
+            "note": "Divriği hükümdarı olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Divriği külliyesinde cami kısmı Ahmed Şah, bitişiğindeki şifahane kısmı ise eşi Turan Melek Hatun tarafından yaptırılmıştır."
+        ],
+        "wars": [
+          {
+            "name": "Divriği Savunması ve Selçuklu Vassallığı",
+            "when": "1231",
+            "foe": "Moğol öncü birlikleri",
+            "result": "zafer",
+            "note": "Divriği kalesini korudu, Selçuklu Sultanı I. Alâeddin Keykubad'a sadakatle bağlı kaldı."
+          }
+        ],
+        "legends": [
+          "Divriği Ulu Camii'nin batı kapısına ikindi vakti vuran güneş ışığının namaz kılan bir derviş ve Kur'an okuyan insan gölgesi oluşturması asırlardır hayranlıkla izlenir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, DİVRİĞİ",
+            "url": "https://islamansiklopedisi.org.tr/divrigi"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, MENGÜCÜKLÜLER",
+            "url": "https://islamansiklopedisi.org.tr/mengucukluler"
           }
         ]
       }
