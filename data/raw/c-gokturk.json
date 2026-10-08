@@ -483,6 +483,51 @@
     ],
     "rulers": [
       {
+        "id": "dogu-gokturk-tulan",
+        "name": "Tulan Kağan",
+        "aliases": [
+          "Dulan",
+          "Yongyulü",
+          "Erfu Kehan"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 599,
+        "deathNote": "Çin entrikaları sonucu maiyeti tarafından öldürüldü",
+        "reign": [
+          588,
+          599
+        ],
+        "reignNote": "İşbara Kağan'ın büyük oğlu; 11 yıl hüküm sürdü.",
+        "summary": "İşbara Kağan'ın büyük oğlu. Sui hanedanının Göktürkleri bölme politikalarına karşı bağımsız bozkır siyasetini savundu. Çin sarayının desteklediği Kimin Kağan'a ve Batı Göktürk Kağanı Tardu'ya karşı mücadele etti. 599 yılında Sui entrikalarının kışkırttığı kendi beyleri tarafından öldürüldü.",
+        "traits": [
+          "Müstakil",
+          "Çin nüfuzuna direnen",
+          "Savaşçı"
+        ],
+        "contribution": "Sui sarayına haraç ödemeyi reddederek Ötüken'in bağımsızlık çizgisini tavizsiz savundu.",
+        "harm": "Batı Göktürk Kağanı Tardu ile uzlaşamaması Türk boyları arasındaki iç savaşı derinleştirdi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Sui Sınır Seferleri",
+            "when": "598-599",
+            "foe": "Sui Hanedanı ve Kimin Kağan",
+            "result": "zafer",
+            "note": "Çin sınır tahkimatları yarılarak Kimin Kağan Çin içlerine sığınmak zorunda bırakıldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
+      },
+      {
         "id": "dogu-gokturk-qimin",
         "name": "Kimin Kağan",
         "aliases": [
@@ -613,6 +658,55 @@
           {
             "title": "TDV İslâm Ansiklopedisi, GÖKTÜRKLER",
             "url": "https://islamansiklopedisi.org.tr/gokturkler"
+          }
+        ]
+      },
+      {
+        "id": "dogu-gokturk-cula",
+        "name": "Çula Kağan",
+        "aliases": [
+          "Chuluo",
+          "Ashina Qipi"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 620,
+        "deathNote": "Taiyuan seferi hazırlığında aniden zehirlenerek vefat etti",
+        "reign": [
+          619,
+          620
+        ],
+        "reignNote": "Şibi Kağan'ın kardeşi; kısa saltanatında büyük bir Çin seferine hazırlandı.",
+        "summary": "Kimin Kağan'ın ikinci oğlu, Şibi Kağan'ın kardeşi. Şibi'nin vefatı üzerine tahta oturdu. Sui hanedanından kaçan Yicheng Prensesi ve şehzade Yang Zhengdao'yu himaye etti. Yeni kurulan Tang hanedanını yıkıp Sui'yi yeniden canlandırmak amacıyla büyük bir ordu topladı, ancak sefer sırasında 620'de zehirlenerek öldü.",
+        "traits": [
+          "Kararlı",
+          "Büyük plan sahibi"
+        ],
+        "contribution": "Doğu Göktürk süvari gücünü Çin sınırında en yüksek seviyede tuttu.",
+        "harm": "Çin hanedan mücadelelerine aşırı derecede taraf olarak Göktürk ordusunu tüketti.",
+        "wives": [
+          {
+            "name": "Yicheng Prensesi",
+            "note": "Ağabeyinin dul eşiyle töre gereği evlendi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [],
+        "wars": [
+          {
+            "name": "Tang Seferi Hazırlığı",
+            "when": "620",
+            "foe": "Tang Hanedanı orduları",
+            "result": "sonucsuz",
+            "note": "Büyük bozkır ordusu Taiyuan üzerine sevk edildi, ancak kağanın zehirlenmesiyle sefer durduruldu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
           }
         ]
       },
@@ -792,6 +886,50 @@
         ]
       },
       {
+        "id": "bati-gokturk-seguy",
+        "name": "Şeguy Kağan",
+        "aliases": [
+          "Shegui",
+          "Şikoey"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 618,
+        "deathNote": "Yedisu'da vefat etti",
+        "reign": [
+          611,
+          618
+        ],
+        "reignNote": "Tardu Kağan'ın torunu; Batı Göktürklerinin altın çağını başlattı.",
+        "summary": "Tardu Kağan'ın torunu, Tong Yabgu'nun ağabeyi. Batı Göktürk boylarını toparlayarak sınırları Altaylar'dan İndus Vadisi'ne kadar genişletti. Sâsânî ve Tohâristan bölgelerine boyun eğdirdi; İpek Yolu'nun kontrolünü ele alarak kardeşi Tong Yabgu'ya devasa bir imparatorluk bıraktı.",
+        "traits": [
+          "Büyük teşkilatçı",
+          "Geniş vizyonlu",
+          "Fatih"
+        ],
+        "contribution": "Batı Göktürk egemenliğini Orta Asya ve Afganistan'da zirveye taşıdı.",
+        "harm": "Doğu kanadıyla bağların tamamen kopmasına zemin hazırladı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Tohâristan ve Doğu İran Seferleri",
+            "when": "615-617",
+            "foe": "Sâsânî sınır güçleri ve yerel İrani beylikler",
+            "result": "zafer",
+            "note": "Ceyhun havzası ve Tohâristan vergiye bağlandı, İpek Yolu güzergahı tam denetime alındı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
+      },
+      {
         "id": "bati-gokturk-tong-yabgu",
         "name": "Tong Yabgu Kağan",
         "aliases": [
@@ -852,6 +990,49 @@
           {
             "title": "Britannica, Tong Yabghu",
             "url": "https://www.britannica.com/biography/Tong-Yabghu"
+          }
+        ]
+      },
+      {
+        "id": "bati-gokturk-isbara-teris",
+        "name": "İşbara Teriş Tunga Kağan",
+        "aliases": [
+          "Shabolo Dielishi",
+          "Tong Şad"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 639,
+        "deathNote": "Fergana'da vefat etti",
+        "reign": [
+          634,
+          639
+        ],
+        "reignNote": "Ünlü 'On Ok' idari nizamını kurdu.",
+        "summary": "Batı Göktürk Devleti'nin teşkilat yapısını kökten yenileyen büyük reformcu kağan. Ülkeyi Çu nehrinin doğusunda beş Dulu, batısında beş Nu-şibi olmak üzere on boya ayırdı ve her boyun başına bir ok vererek ünlü 'On Ok' (On Boy) nizamını kurdu. Bu sistem Batı Türklerinin idari omurgası oldu.",
+        "traits": [
+          "Töre reformcusu",
+          "Teşkilat dehası"
+        ],
+        "contribution": "On Ok teşkilatını tesis ederek Batı Göktürklerinin sonraki yüzyıllardaki boy düzenini inşa etti.",
+        "harm": "Dulu ve Nu-şibi boyları arasında sonradan patlak veren kanlı rekabetin fitilini engelleyemedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "On Ok Nizamı Harekâtı",
+            "when": "635",
+            "foe": "Ayrılıkçı boy beyleri",
+            "result": "zafer",
+            "note": "Boy beyleri itaate alındı ve on şadlık idari teşkilatı yürürlüğe girdi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
           }
         ]
       },
@@ -1174,6 +1355,100 @@
             "url": "https://www.britannica.com/biography/Bilge-Kagan"
           }
         ]
+      },
+      {
+        "id": "ikinci-gokturk-yollig",
+        "name": "Yollıg Kağan",
+        "aliases": [
+          "Yollıg Tegin",
+          "Yiran"
+        ],
+        "title": "Kağan / Tarihçi-Yazar",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 739,
+        "deathNote": "Ötüken'de vefat etti",
+        "reign": [
+          734,
+          739
+        ],
+        "reignNote": "Bilge Kağan'ın büyük oğlu; Orhun Abideleri'nin müellifi.",
+        "summary": "Bilge Kağan'ın büyük oğlu ve halefi. Türk edebiyat ve tarihinin ilk bilinen büyük yazarı; amcası Kül Tegin (732) ve babası Bilge Kağan (735) adına dikilen ebedi Orhun Yazıtları'nı bizzat kaleme alıp taşa kazıyan bilge şahsiyet. Babasının zehirlenmesinden sonra tahta geçerek töreyi beş yıl boyunca korudu.",
+        "traits": [
+          "Büyük edebiyatçı",
+          "Tarihçi",
+          "Töre koruyucusu",
+          "Bilge"
+        ],
+        "contribution": "Orhun Abideleri'ni yazarak Türk dilini, töresini ve milli hafızasını taşlara kazıyıp binlerce yıl sonrasına aktardı.",
+        "harm": "Kısa süren saltanatı sonrasında hanedan içi çekişmeleri kalıcı olarak dindiremedi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Ötüken Asayiş Seferleri",
+            "when": "735",
+            "foe": "Başkaldıran sınır boyları",
+            "result": "zafer",
+            "note": "Bilge Kağan'ın ölümünden yararlanmak isteyen isyancı gruplar bastırıldı."
+          }
+        ],
+        "legends": [
+          "Kül Tegin Yazıtı'nın batı yüzüne 'Bunca yazıyı yazan Kül Tegin'in yeğeni Yollıg Tegin... yirmi gün oturup taşa kazıdım' cümlesini bizzat nakşetmiştir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAHANLILAR",
+            "url": "https://islamansiklopedisi.org.tr/karahanlilar"
+          }
+        ]
+      },
+      {
+        "id": "ikinci-gokturk-ozmis",
+        "name": "Ozmış Kağan",
+        "aliases": [
+          "Wumishi",
+          "Ozmış"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 744,
+        "deathNote": "Ötüken yakınlarındaki savaşta hayatını kaybetti",
+        "reign": [
+          742,
+          744
+        ],
+        "reignNote": "İkinci Göktürk Kağanlığı'nın son meşru kağanı.",
+        "summary": "İkinci Göktürk Kağanlığı'nın son hükümdarı. Tahta çıktığında devlet ağır bir iç kriz içindeydi. Tang sarayının itaate girme teklifini reddetti; ancak Basmıl, Karluk ve Uygur boylarının kurduğu üçlü ittifaka karşı Ötüken'i savunamayarak 744'te öldürüldü ve Göktürk Kağanlığı tarihe karıştı.",
+        "traits": [
+          "Gururlu",
+          "Bağımsızlık taraftarı"
+        ],
+        "contribution": "Son ana kadar Çin vesayetini kabul etmeyip Aşina hanedanının şerefini savundu.",
+        "harm": "İttifak kuran Basmıl, Karluk ve Uygurları birbirinden ayıramaması devletin topyekûn çöküşüne yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Basmıl-Uygur-Karluk İttifakı Savaşı",
+            "when": "744",
+            "foe": "Basmıl Kağanlığı, Dokuz Oğuz / Uygurlar (Kutluk Bilge Kül Kağan) ve Karluklar",
+            "result": "yenilgi",
+            "note": "Ötüken düştü; Ozmış Kağan öldürüldü ve İkinci Göktürk Kağanlığı yıkılarak yerine Uygur Kağanlığı kuruldu."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
       }
     ]
   },
@@ -1263,6 +1538,54 @@
         ]
       },
       {
+        "id": "turges-sakal",
+        "name": "Sa-kal Kağan",
+        "aliases": [
+          "Suoge",
+          "Sakal Kağan"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 711,
+        "deathNote": "Bolçu Muharebesi'nde esir düşerek hayatını kaybetti",
+        "reign": [
+          706,
+          711
+        ],
+        "reignNote": "Uçele Kağan'ın büyük oğlu olarak tahta çıktı.",
+        "summary": "Uçele Kağan'ın büyük oğlu. Kardeşi Zhenu ile girdiği taht mücadelesi devleti zayıflattı. İkinci Göktürk Kağanlığı'nın batı seferine karşı koymaya çalıştıysa da 711 Bolçu Meydan Muharebesi'nde Kapgan Kağan ve Kül Tegin komutasındaki Göktürk ordusuna yenilerek esir düştü.",
+        "traits": [
+          "Cesur fakat tecrübesiz"
+        ],
+        "contribution": "Yedisu havzasında Türgiş birliğini birkaç yıl daha bir arada tutmayı başardı.",
+        "harm": "Kardeş kavgası yüzünden bozkır boylarının İkinci Göktürk Kağanlığı'na karşı ortak cephe kurmasını engelledi.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Bolçu Meydan Muharebesi",
+            "when": "711",
+            "foe": "İkinci Göktürk Kağanlığı (Kapgan Kağan, Kül Tegin ve Tonyukuk)",
+            "result": "yenilgi",
+            "note": "Türgiş ordusu kuşatılıp ağır hezimete uğradı; Sa-kal Kağan ve kardeşi hayatını kaybetti."
+          }
+        ],
+        "legends": [
+          "Orhun Yazıtları'nda 'Bolçu'da Türgiş kağanını bozduk, buyruklarını öldürdük, Türgiş bodunu kul oldu' ifadeleriyle bu savaş zikredilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRGEŞLER",
+            "url": "https://islamansiklopedisi.org.tr/turgesler"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
+      },
+      {
         "id": "turges-sulu",
         "name": "Sulu Kağan",
         "aliases": [
@@ -1333,6 +1656,55 @@
             "url": "https://islamansiklopedisi.org.tr/turgesler"
           }
         ]
+      },
+      {
+        "id": "turges-baga-tarkan",
+        "name": "Bağa Tarkan",
+        "aliases": [
+          "Kül-Çor",
+          "Baga Tarkhan",
+          "Mochuo"
+        ],
+        "title": "Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 744,
+        "deathNote": "Tang ordusu tarafından esir alınıp idam edildi",
+        "reign": [
+          738,
+          744
+        ],
+        "reignNote": "Sulu Kağan'ı öldürerek Sarı Türgişlerin başına geçti.",
+        "summary": "Sulu Kağan'ın ordu komutanı iken 738'de Navakat'ta kağanı öldürüp iktidarı ele geçiren Sarı Türgiş lideri. Çin Tang hanedanı tarafından kağan olarak tanındı; ancak Kara Türgişler ile girdiği amansız iç savaş ülkeyi tüketti. 744 yılında Tang generali Gai Jiayun tarafından esir alınarak idam edildi.",
+        "traits": [
+          "İhtiraslı",
+          "Taktikçi",
+          "Sert"
+        ],
+        "contribution": "Kısa bir süre Sarı Türgiş boylarını Çin nüfuzuna karşı organize etti.",
+        "harm": "Sulu Kağan'a suikast düzenleyerek Türgiş birliğini Sarı ve Kara boylar arasında kanlı bir iç savaşa sürükledi; devletin Karluklar tarafından yıkılmasına zemin hazırladı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Suyab ve Taraz İç Savaşı",
+            "when": "739-740",
+            "foe": "Kara Türgiş boyları ve Tang müfrezeleri",
+            "result": "yenilgi",
+            "note": "İç savaşta Türgiş askeri gücü tükendi; 744'te Bağa Tarkan yakalanarak öldürüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRGEŞLER",
+            "url": "https://islamansiklopedisi.org.tr/turgesler"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
       }
     ]
   },
@@ -1398,6 +1770,13 @@
         "wives": [],
         "children": [],
         "wars": [
+          {
+            "name": "Talas Meydan Muharebesi",
+            "when": "751",
+            "foe": "Tang Hanedanı (Gao Xianzhi ordusu)",
+            "result": "zafer",
+            "note": "Abbasî ordusuyla birleşen Karluk süvarileri Tang hatlarını arkadan vurarak Çin'in Orta Asya'daki ilerleyişini ebediyen durdurdu; Türklerin İslâmlaşma sürecinin dönüm noktası oldu."
+          },
           {
             "name": "Suyab ve Yedisu Fethi",
             "when": "766",
@@ -1474,6 +1853,112 @@
           {
             "title": "TDV İslâm Ansiklopedisi, KARAHANLILAR",
             "url": "https://islamansiklopedisi.org.tr/karahanlilar"
+          }
+        ]
+      },
+      {
+        "id": "karluk-bazir-arslan",
+        "name": "Bazır Arslan Han",
+        "aliases": [
+          "Bazır Han",
+          "Büyük Kağan Bazır"
+        ],
+        "title": "Büyük Kağan",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 920,
+        "deathNote": "Balasagun'da vefat etti",
+        "reign": [
+          893,
+          920
+        ],
+        "reignNote": "Bilge Kül Kadir Han'ın büyük oğlu; Balasagun merkezli Büyük Kağanlık yaptı.",
+        "summary": "Bilge Kül Kadir Han'ın büyük oğlu ve Satuk Buğra Han'ın babası. 893 Taraz yenilgisinden sonra Karluk merkezini Balasagun'a taşıyarak Büyük Kağan (Arslan Han) unvanıyla devleti yönetti. Sâmânî baskısına karşı doğu Türk boylarının birliğini korudu.",
+        "traits": [
+          "Gelenekçi",
+          "Bozkır töresine bağlı"
+        ],
+        "contribution": "Karluk ikili teşkilatını Balasagun ve Kaşgar hattında tanzim ederek Karahanlı devlet yapısının çatısını kurdu.",
+        "harm": "Sâmânî sınırındaki gerilimlerin yatıştırılmasında sınırlı kaldı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Satuk Buğra Han",
+            "mother": "",
+            "note": "İlk Müslüman Türk hükümdarı (Abdülkerim Satuk Buğra Han)",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Doğu Türkistan Sınır Harekâtı",
+            "when": "900 civarı",
+            "foe": "Sâmânî sınır birlikleri",
+            "result": "belirsiz",
+            "note": "Talas vadisinden çekilen Karlukların Balasagun çevresinde müdafaa hattı kurması sağlandı."
+          }
+        ],
+        "legends": [
+          "Oğlu Satuk doğduğunda gökyüzünde parlak bir yıldızın belirdiği ve kâfirlerin tapınaklarının sarsıldığı menkıbelerde nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAHANLILAR",
+            "url": "https://islamansiklopedisi.org.tr/karahanlilar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          }
+        ]
+      },
+      {
+        "id": "karluk-ogulcak-kadir",
+        "name": "Oğulcak Kadir Han",
+        "aliases": [
+          "Oğulcak Han",
+          "Buğra Han"
+        ],
+        "title": "Batı Kağanı / Kadir Han",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 940,
+        "deathNote": "Kaşgar'da vefat etti",
+        "reign": [
+          893,
+          940
+        ],
+        "reignNote": "Taraz ve Kaşgar merkezli Batı Kağanlığı yaptı; yeğeni Satuk Buğra Han'ı büyüttü.",
+        "summary": "Bilge Kül Kadir Han'ın küçük oğlu, Bazır Arslan Han'ın kardeşi. Taraz'ın düşmesi üzerine merkezini Kaşgar ve Artuç'a taşıdı. Ağabeyi ölünce yetim kalan yeğeni Satuk Buğra Han'ı himaye edip büyüttü. Sâmânî şehzadesi Ebû Nasr'ı Kaşgar'da koruyarak burada cami ve kervansaray yapılmasına izin verdi; bu ortam yeğeni Satuk'un gizlice Müslüman olmasına zemin hazırladı.",
+        "traits": [
+          "Hoşgörülü",
+          "Ticarete önem veren",
+          "Dirayetli"
+        ],
+        "contribution": "Kaşgar'ı İpek Yolu'nun en canlı ticaret merkezlerinden biri haline getirdi ve Türkistan'da İslâmiyet'in yayılış kapısını açtı.",
+        "harm": "Son döneminde yeğeni Satuk'un Müslüman olduğunu öğrenince aralarında taht mücadelesi çıktı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Kaşgar ve Artuç Müdafaası",
+            "when": "904",
+            "foe": "Sâmânîler",
+            "result": "zafer",
+            "note": "Sâmânîlerin doğuya doğru daha fazla ilerlemesi durduruldu ve Kaşgar emniyete alındı."
+          }
+        ],
+        "legends": [
+          "Satuk Buğra Han'ın amcası Oğulcak'ı İslâm'a davet ettiği, kabul etmeyince Artuç Kalesi'nde aralarında yaşanan menkıbevi mücadele Tezkire-i Satuk Buğra Han'da anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAHANLILAR",
+            "url": "https://islamansiklopedisi.org.tr/karahanlilar"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
           }
         ]
       }

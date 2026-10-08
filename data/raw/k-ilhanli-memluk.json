@@ -1310,6 +1310,112 @@
             "url": "https://islamansiklopedisi.org.tr/ak-hunlar"
           }
         ]
+      },
+      {
+        "id": "eftalit-mihirakula",
+        "name": "Mihirakula",
+        "aliases": [
+          "Mihiragula",
+          "Gollas"
+        ],
+        "title": "Maha-Raca / Hükümdar",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 540,
+        "deathNote": "Keşmir'de vefat etti",
+        "reign": [
+          515,
+          540
+        ],
+        "reignNote": "Toramana'nın oğlu olarak Kuzey Hindistan ve Keşmir'e hükmetti.",
+        "summary": "Toramana'nın oğlu ve halefi. Başkent Sakala'dan (Sialkot) Pencap, Keşmir ve Gandhara'yı yönetti. Şivacı inancı benimsedi. Sondani Savaşı'nda Hint krallıklarının ortak ordusuna karşı gerilemekle birlikte Keşmir'de bağımsız hâkimiyetini ölümüne kadar sürdürdü. Budist kroniklerinde sertliğiyle anıldı.",
+        "traits": [
+          "Demir iradeli",
+          "Tavizsiz komutan"
+        ],
+        "contribution": "Ak Hunların Keşmir ve Gandhara havzasındaki hâkimiyetini pekiştirdi, kendi adına çok sayıda sikke darbettirdi.",
+        "harm": "Budist manastırlarına yönelik baskıcı tutumu yerel halkın tepkisini çekti.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Sondani Meydan Muharebesi",
+            "when": "528 civarı",
+            "foe": "Hint Krallıkları İttifakı (Malwa Kralı Yaşodharman ve Gupta İmparatorluğu)",
+            "result": "yenilgi",
+            "note": "Orta Hindistan ovalarından Keşmir ve Pencap hattına çekilmek zorunda kaldı."
+          },
+          {
+            "name": "Keşmir ve Gandhara Harekâtı",
+            "when": "530 civarı",
+            "foe": "Keşmir Krallığı",
+            "result": "zafer",
+            "note": "Keşmir tahtını ele geçirerek yönetim merkezini Srinagar'a nakletti."
+          }
+        ],
+        "legends": [
+          "Gezgin Xuanzang ve Keşmir kroniği Rajatarangini, Mihirakula'nın fillere ve dağ geçitlerine dair efsanelerini nakleder."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Britannica, Mihirakula",
+            "url": "https://www.britannica.com/biography/Mihirakula"
+          }
+        ]
+      },
+      {
+        "id": "eftalit-gatfar",
+        "name": "Gatfar",
+        "aliases": [
+          "Kadfe",
+          "Ghâtfar",
+          "Katulph"
+        ],
+        "title": "Kağan / Hükümdar",
+        "birth": null,
+        "birthNote": "Kayıtlarda yok",
+        "death": 567,
+        "deathNote": "Göktürk-Sâsânî ortak harekâtı sonrasında vefat etti",
+        "reign": [
+          550,
+          567
+        ],
+        "reignNote": "Ak Hun İmparatorluğu'nun son bağımsız hükümdarı.",
+        "summary": "Ak Hun İmparatorluğu'nun son büyük kağanı. Doğudan genişleyen Göktürk Kağanlığı (İstemi Yabgu) ile batıdan saldıran Sâsânî Şahı I. Hüsrev Enûşirvân'ın kurduğu çifte kıskaca karşı ülkesini savundu. Nesef Meydan Muharebesi'nde mağlup oldu; Mâverâünnehir Göktürklere, Horasan ve Tohâristan Sâsânîlere geçti.",
+        "traits": [
+          "Cesur",
+          "Son ana kadar direnen"
+        ],
+        "contribution": "İki büyük imparatorluğun ortak taarruzuna karşı bozkır topraklarını son ana kadar savundu.",
+        "harm": "Göktürk elçilerinin öldürülmesi İstemi Yabgu'nun kesin imha seferine yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Buhara (Nesef) Meydan Muharebesi",
+            "when": "557 civarı",
+            "foe": "Göktürk Kağanlığı (İstemi Yabgu) ve Sâsânî İmparatorluğu (I. Hüsrev)",
+            "result": "yenilgi",
+            "note": "Nesef yakınlarında sekiz gün süren kanlı savaşta Ak Hun ordusu dağıtıldı, bağımsız devlet çöktü."
+          }
+        ],
+        "legends": [
+          "Arap ve Fars kronikleri, Gatfar'ın Göktürk süvarileri karşısında ordusunu dağlara çekip son nefesine kadar vuruştuğunu kaydeder."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TÜRK",
+            "url": "https://islamansiklopedisi.org.tr/turk"
+          },
+          {
+            "title": "Britannica, Hephthalite",
+            "url": "https://www.britannica.com/topic/Hephthalite"
+          }
+        ]
       }
     ]
   },

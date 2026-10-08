@@ -549,6 +549,33 @@
           {"title": "TDV İslâm Ansiklopedisi, BULGARİSTAN", "url": "https://islamansiklopedisi.org.tr/bulgaristan"},
           {"title": "Britannica, Bulgar", "url": "https://www.britannica.com/topic/Bulgar"}
         ]
+      },
+      {
+        "id": "buyuk-bulgarya-batbayan",
+        "name": "Bat-Bayan",
+        "aliases": ["Batbayan", "Bayan", "Bezmer"],
+        "title": "han",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 690,
+        "deathNote": "Kafkasya eteklerinde vefat etti",
+        "reign": [665, 668],
+        "reignNote": "Kubrat'ın büyük oğlu; Hazar baskısına kadar 3 yıl Büyük Bulgarya'yı idare etti.",
+        "summary": "Kubrat'ın büyük oğlu ve Büyük Bulgarya'nın son müstakil hükümdarı. Babasının vefatından sonra kardeşleri Asparuh, Kotrag ve Kuber'in boylarıyla ayrılmasına rağmen Phanagoria (Taman) merkezli ata yurdunda kalarak devleti yaşatmaya çalıştı. 668'de doğudan gelen Hazar Kağanlığı ordularına karşı tutunamayarak teslim oldu ve 'Kara Bulgarlar' adıyla Hazarlara tâbi oldu.",
+        "traits": ["Vatanına sadık", "Dirayetli"],
+        "contribution": "Kuban ve Karadeniz kuzeyindeki Bulgar varlığını koruyarak bölge halklarının etnik sürekliliğini sağladı.",
+        "harm": "Kardeşleriyle birlik kuramaması Büyük Bulgarya'nın bölünerek Hazarlar karşısında kolayca yıkılmasına sebep oldu.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Hazar Genişlemesi ve Büyük Bulgarya'nın Yıkılışı", "when": "668", "foe": "Hazar Kağanlığı", "result": "yenilgi", "note": "Don ve Azak boylarını zapteden Hazarlar karşısında Büyük Bulgarya çöktü; Bat-Bayan Hazarlara haraç ödemeyi kabul etti."}
+        ],
+        "legends": ["Bizans tarihçisi Theophanes, Kubrat'ın ölmeden önce oğullarına ok demeti vererek 'Birlikten ayrılmayın, yoksa teker teker kırılırsınız' dediğini, fakat oğullarının bu vasiyeti tutmadığını rivayet eder."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, BULGAR", "url": "https://islamansiklopedisi.org.tr/bulgar"},
+          {"title": "TDV İslâm Ansiklopedisi, BULGARİSTAN", "url": "https://islamansiklopedisi.org.tr/bulgaristan"},
+          {"title": "Britannica, Bulgar", "url": "https://www.britannica.com/topic/Bulgar"}
+        ]
       }
     ]
   },
@@ -1098,6 +1125,33 @@
         "sources": [
           {"title": "TDV İslâm Ansiklopedisi, PEÇENEKLER", "url": "https://islamansiklopedisi.org.tr/pecenekler"}
         ]
+      },
+      {
+        "id": "pecenek-celgu",
+        "name": "Çelgü Han",
+        "aliases": ["Tzelgu", "Çelgü"],
+        "title": "başbuğ / han",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1091,
+        "deathNote": "Levounion Muharebesi'nde hayatını kaybetti",
+        "reign": [1085, 1091],
+        "reignNote": "Balkan akınlarını yöneten ve Levounion'da savaşan son büyük Peçenek başbuğu.",
+        "summary": "Peçeneklerin Balkanlar'daki son büyük savaşçı lideri. 1087 Silistre (Dristra) Muharebesi'nde Bizans İmparatoru I. Aleksios Komnenos'u ağır bir hezimete uğrattı; imparator maiyetiyle canını zor kurtardı. İzmir Emiri Çaka Bey ile İstanbul'u kuşatmak üzere ittifak kurdu. Ancak 29 Nisan 1091'de Meriç boyundaki Levounion Muharebesi'nde Bizans ve Kıpçak ordularının ortak baskınına uğrayarak Peçenek siyasi varlığının sona ermesine tanık oldu.",
+        "traits": ["Gözü pek", "Büyük akıncı", "Kararlı"],
+        "contribution": "Bizans'a karşı Türk tarihinin en kapsamlı Balkan ve Trakya harekâtlarını yönetti.",
+        "harm": "Bizans'ın Kıpçaklarla anlaşabileceğini öngörememesi Peçenek milletinin trajik sonunu hazırladı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Silistre (Dristra) Meydan Muharebesi", "when": "1087", "foe": "Bizans İmparatorluğu (I. Aleksios Komnenos)", "result": "zafer", "note": "İmparatorluk ordusu tamamen dağıtıldı; İmparator Aleksios esir düşmekten son anda kaçarak kurtuldu."},
+          {"name": "Levounion (Enez) Meydan Muharebesi", "when": "1091", "foe": "Bizans İmparatorluğu ve Kıpçak-Kuman müttefik ordusu", "result": "yenilgi", "note": "29 Nisan 1091'de gece baskınıyla kuşatılan Peçenek ordusu ve sivil kafileleri imha edildi; Peçenek siyasi gücü kırıldı."}
+        ],
+        "legends": ["Anna Komnena, Alexiad'ında 'O gün koca bir kavim kadınları ve çocuklarıyla birlikte yeryüzünden silindi' diyerek Levounion felaketini anlatır."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, PEÇENEKLER", "url": "https://islamansiklopedisi.org.tr/pecenekler"},
+          {"title": "Britannica, Pechenegs", "url": "https://www.britannica.com/topic/Pechenegs"}
+        ]
       }
     ]
   },
@@ -1126,6 +1180,33 @@
       {"title": "Britannica, Cuman", "url": "https://www.britannica.com/topic/Cuman"}
     ],
     "rulers": [
+      {
+        "id": "kipcak-boniyak",
+        "name": "Boniyak Han",
+        "aliases": ["Boniak", "Maniak", "Aepak"],
+        "title": "han / başbuğ",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1111,
+        "deathNote": "Salnitsa Muharebesi civarında vefat etti",
+        "reign": [1090, 1111],
+        "reignNote": "Aşağı Dinyeper Kuman-Kıpçaklarının efsanevi başbuğu.",
+        "summary": "Aşağı Dinyeper Kıpçaklarının en meşhur başbuğu. 1091 Levounion Muharebesi'nde Bizans İmparatoru I. Aleksios ile ittifak kurarak Peçenek ordusunu mağlup etti. 1099'da San Nehri (Viyana/Wagram) boylarında Macar Kralı Coloman'ın devasa ordusunu bozkır sahte ricat taktiğiyle imha etti. Rus knezliklerine karşı defalarca başarılı akınlar yönetti.",
+        "traits": ["Bozkır kurdu", "Taktik dehası", "Korkusuz süvari"],
+        "contribution": "Kuman-Kıpçak süvari taktiğini Doğu Avrupa ve Balkanlar'da durdurulamaz bir güç haline getirdi.",
+        "harm": "Rus şehirlerine düzenlediği yıkıcı akınlar Kiev knezlerinin birleşerek Kıpçaklara karşı topyekûn karşı seferler açmasına yol açtı.",
+        "wives": [],
+        "children": [],
+        "wars": [
+          {"name": "Levounion (Enez) Meydan Muharebesi", "when": "1091", "foe": "Peçenekler", "result": "zafer", "note": "Bizans ile ittifak kuran Kıpçak süvarileri Meriç kıyısında Peçenek ordusunu çembere alarak dağıttı."},
+          {"name": "San Nehri (Viyana) Meydan Muharebesi", "when": "1099", "foe": "Macaristan Krallığı (Kral Coloman ordusu)", "result": "zafer", "note": "Sahte ricat taktiğiyle vadiye çekilen Macar ordusu iki tepe arasından sarılarak imha edildi."}
+        ],
+        "legends": ["Rus vakayinameleri, Boniyak'ın savaştan önceki gece çadırından çıkıp kurt gibi uluduğunu ve bir kurdun ona karşılık vermesiyle sabah zafer kazanacağını anladığını nakleder."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR", "url": "https://islamansiklopedisi.org.tr/kipcaklar"},
+          {"title": "Britannica, Cuman", "url": "https://www.britannica.com/topic/Cuman"}
+        ]
+      },
       {
         "id": "kipcak-atrak",
         "name": "Atrak",
@@ -1171,6 +1252,35 @@
             "title": "Tinikashvili ve Kazaryan, Crusaders and Georgia: A Critical Approach to Georgian Historiography (Kadmos)",
             "url": "https://kadmos.iliauni.edu.ge/index.php/kadmos/article/view/191"
           }
+        ]
+      },
+      {
+        "id": "kipcak-koncek",
+        "name": "Könçek Han",
+        "aliases": ["Konchak", "Könçek"],
+        "title": "büyük han",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1203,
+        "deathNote": "Don bozkırında vefat etti",
+        "reign": [1170, 1203],
+        "reignNote": "Don ve Donets Kıpçaklarını birleştiren en kudretli hükümdar.",
+        "summary": "Şarukan'ın torunu, Atrak'ın oğlu. 12. yüzyılın ikinci yarısında dağınık Kıpçak boylarını Don ve Dinyeper havzasında yeniden birleştirdi. 1185 Kayala Nehri Muharebesi'nde Novgorod-Seversk Knezi İgor Svyatoslaviç'in ordusunu imha edip İgor'u esir aldı. Bu tarihi zafer, dünya edebiyatının şaheserlerinden olan eski Rus İgor Destanı'na (Slovo o polku Igoreve) konu oldu. Esir knezle dostluk kurup kızını İgor'un oğluyla evlendirdi.",
+        "traits": ["Teşkilatçı", "Yüksek diplomat", "Askeri mucit"],
+        "contribution": "Orduya alev saçan mancınıklar ve mekanik yaylar kazandırdı; Kıpçak bozkır gücünü doruğa çıkardı.",
+        "harm": "Rus knezlikleri arasındaki iç mücadelelere aşırı dahil olması Kıpçakların stratejik hedeflerini dağıttı.",
+        "wives": [],
+        "children": [
+          {"name": "Könçek'in kızı", "mother": "", "note": "Prens İgor'un oğlu Vladimir İgoreviç ile evlendi", "certainty": "kesin"},
+          {"name": "Yuri Könçekoviç", "mother": "", "note": "1223 Kalka Savaşı'nda Moğollara karşı savaşan oğlu", "certainty": "kesin"}
+        ],
+        "wars": [
+          {"name": "Kayala Nehri Meydan Muharebesi", "when": "1185", "foe": "Rus Knezlikleri İttifakı (Prens İgor)", "result": "zafer", "note": "Üç gün süren kuşatmanın ardından Rus ordusu tamamen yok edildi; Prens İgor esir alındı. İgor Destanı'nın ana konusudur."}
+        ],
+        "legends": ["İgor Destanı'nda Könçek Han, bozkırın bilge ve yenilmez kurdu olarak yüksek bir saygıyla tasvir edilir."],
+        "sources": [
+          {"title": "TDV İslâm Ansiklopedisi, KIPÇAKLAR", "url": "https://islamansiklopedisi.org.tr/kipcaklar"},
+          {"title": "Britannica, The Song of Igor's Campaign", "url": "https://www.britannica.com/topic/The-Song-of-Igors-Campaign"}
         ]
       },
       {

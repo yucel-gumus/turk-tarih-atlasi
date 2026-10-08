@@ -1961,6 +1961,99 @@
         ]
       },
       {
+        "id": "delhi-iltutmus",
+        "name": "Şemseddin İltutmuş",
+        "aliases": [
+          "İltutmış",
+          "Şemseddin Altamış",
+          "Ebülmücâhid İltutmuş"
+        ],
+        "title": "Sultanü'l-A'zam / Şemseddin",
+        "birth": null,
+        "birthNote": "Türkistan'da doğdu",
+        "death": 1236,
+        "deathNote": "Delhi'de hastalanarak vefat etti",
+        "reign": [
+          1211,
+          1236
+        ],
+        "reignNote": "25 yıllık saltanatıyla Delhi Türk Sultanlığı'nın gerçek kurucusu sayılır.",
+        "summary": "Kutbüddin Aybeg'in damadı ve halefi. Tahta çıkar çıkmaz dağılmakta olan sultanlığı yeniden toparladı. Abbâsî Halifesi el-Müstansır-Billâh'tan menşur ve hil'at alarak bağımsız sultanlığını tescil ettirdi. Cengiz Han ve Harzemşah Celâleddin'in Hindistan seferlerinde sultanlığı ustaca bir diplomasiyle korudu. Kutub Minar'ı tamamladı ve gümüş tenke ile bakır cital paralarını tedavüle soktu. Ölmeden önce kızı Raziyye'yi veliaht tayin etti.",
+        "traits": [
+          "Devlet kurucu deha",
+          "Büyük mimar",
+          "Usta diplomat",
+          "Adil"
+        ],
+        "contribution": "Delhi Sultanlığı'nı kurumsal bir imparatorluğa dönüştürdü; Kutub Minar'ı ve meşhur Kırklar Meclisi'ni (Çihilgân) kurdu.",
+        "harm": "Çihilgân adıyla oluşturduğu Türk emirler zümresi sonradan hanedan üzerinde aşırı vesayet kurdu.",
+        "wives": [
+          {
+            "name": "Kutbiyye Hatun",
+            "note": "Kutbüddin Aybeg'in kızı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Şah Türkân",
+            "note": "Rükneddin Fîrûz Şah'ın annesi",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Raziyye Sultan",
+            "mother": "Kutbiyye Hatun",
+            "note": "Tahta geçen kızı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Nâsırüddin Mahmud",
+            "mother": "",
+            "note": "Veliaht tayin edilen ancak babasından önce vefat eden büyük oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Rükneddin Fîrûz Şah",
+            "mother": "Şah Türkân",
+            "note": "Kısa süre tahta geçen oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Tarain (Tirevri) Meydan Muharebesi",
+            "when": "1216",
+            "foe": "Gazne Hükümdarı Tâceddin Yıldız",
+            "result": "zafer",
+            "note": "Tâceddin Yıldız yenilgiye uğratılıp esir alındı; Gazne'nin Delhi üzerindeki hak iddiaları son buldu."
+          },
+          {
+            "name": "Sind ve Mansura Seferi",
+            "when": "1228",
+            "foe": "Nâsırüddin Kabâca",
+            "result": "zafer",
+            "note": "Sind ve Uc bölgeleri zaptedildi, Kabâca İndus Nehri'nde boğuldu ve Kuzey Hindistan tek bayrak altında birleşti."
+          }
+        ],
+        "legends": [
+          "Sarayının kapısına iki mermer aslan diktirip boyunlarına zincir ve çan bağlattığı, adalet isteyen mazlumların bu çanları çalarak bizzat sultana ulaştığı İbn Battûta seyahatnamesinde nakledilir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İLTUTMİŞ",
+            "url": "https://islamansiklopedisi.org.tr/iltutmis"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+          },
+          {
+            "title": "Britannica, Iltutmish",
+            "url": "https://www.britannica.com/biography/Iltutmish"
+          }
+        ]
+      },
+      {
         "id": "delhi-raziyye-sultan",
         "name": "Raziyye Sultan",
         "aliases": [
@@ -2011,6 +2104,88 @@
           {
             "title": "TDV İslâm Ansiklopedisi, RAZİYYE BEGÜM",
             "url": "https://islamansiklopedisi.org.tr/raziyye-begum"
+          }
+        ]
+      },
+      {
+        "id": "delhi-balaban",
+        "name": "Gıyâseddin Balaban",
+        "aliases": [
+          "Uluğ Han",
+          "Balaban-ı Hurd",
+          "Zıllullah"
+        ],
+        "title": "Sultan / Uluğ Han",
+        "birth": null,
+        "birthNote": "İlbari Türk boyundan bir hanın oğlu olarak doğdu",
+        "death": 1287,
+        "deathNote": "Delhi'de oğlunun şehit düşmesinin kederiyle vefat etti",
+        "reign": [
+          1266,
+          1287
+        ],
+        "reignNote": "21 yıl boyunca demir bir disiplinle sultanlığı yönetti.",
+        "summary": "İlbari Türk boyundan esir düşüp İltutmuş'un Kırklar Meclisi'ne (Çihilgân) giren, liyakatiyle başvezir (Uluğ Han) ve nihayetinde sultan olan efsanevi hükümdar. Dağılmakta olan merkezi otoriteyi mutlak bir disiplin, sert cezalar ve muazzam saray protokolüyle yeniden tesis etti. Hindistan'ı istila eden Çağatay ve İlhanlı Moğol akınlarına karşı Pencap ve Lahor müdafaa hattını kurarak Moğolları defalarca bozguna uğrattı.",
+        "traits": [
+          "Demir disiplinli",
+          "Askeri stratejist",
+          "Korkusuz yönetici",
+          "Tavizsiz"
+        ],
+        "contribution": "Sultanlık otoritesini restore etti; Moğol istilalarını püskürten müstahkem kale ve garnizon hattını inşa etti.",
+        "harm": "Kırklar Meclisi'ndeki muhalif Türk emirlerini acımasızca tasfiye etmesi hanedanın ardıl kadrolarını zayıflattı.",
+        "wives": [
+          {
+            "name": "Şemseddin İltutmuş'un Kızı",
+            "note": "İltutmuş ailesiyle akrabalık bağı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Muhammed Şehid (Hān-ı Şehîd)",
+            "mother": "",
+            "note": "Moğollara karşı Multan'da savaşırken şehit düşen büyük veliaht",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Buğra Han",
+            "mother": "",
+            "note": "Bengal hükümdarı olan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "wars": [
+          {
+            "name": "Lahor ve Pencap Moğol Savunması",
+            "when": "1271-1279",
+            "foe": "İlhanlı ve Çağatay Moğol Orduları",
+            "result": "zafer",
+            "note": "Kuzeybatı sınırındaki kaleler tahkim edildi, Moğol öncü kuvvetleri defalarca yenilgiye uğratıldı."
+          },
+          {
+            "name": "Bengal Seferi (Tuğrul İsyanı)",
+            "when": "1281",
+            "foe": "İsyancı Memlûk Valisi Muizzüddin Tuğrul",
+            "result": "zafer",
+            "note": "Bengal bataklıklarında isyancılar yakalanıp idam edildi; bölge oğlu Buğra Han'a devredildi."
+          }
+        ],
+        "legends": [
+          "Sarayında kimsenin gülmesine izin vermediği, her zaman iki yanında yalın kılıç muhafızlarla gezdiği ve çok sevdiği oğlu Muhammed Moğollarca şehit edilince sadece geceleri odasında gizlice ağlayıp gündüz metanetini koruduğu anlatılır."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, BALABAN HAN",
+            "url": "https://islamansiklopedisi.org.tr/balaban-han"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, DELHİ SULTANLIĞI",
+            "url": "https://islamansiklopedisi.org.tr/delhi-sultanligi"
+          },
+          {
+            "title": "Britannica, Balban",
+            "url": "https://www.britannica.com/biography/Balban"
           }
         ]
       },
