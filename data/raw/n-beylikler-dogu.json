@@ -1904,17 +1904,17 @@
         "wars": [
           {
             "name": "Sinop'un alınması",
-            "when": "",
-            "foe": "",
+            "when": "1322",
+            "foe": "Pervâneoğulları Beyliği (Gazi Çelebi)",
             "result": "zafer",
-            "note": "Sinop'un ilhakı; karşı taraf kaynakta adlandırılmaz."
+            "note": "Pervâneoğulları hakimiyetine son verilerek Sinop limanı Candaroğulları topraklarına katıldı."
           },
           {
             "name": "Bizans kalelerinin kuşatılması",
-            "when": "",
+            "when": "1325-1335 civarı",
             "foe": "Bizans",
             "result": "belirsiz",
-            "note": "Süleyman Bey Bizans kalelerini muhasaraya devam etmiştir."
+            "note": "Batı Karadeniz sahilindeki Bizans garnizonlarına akınlar düzenlenerek kıyı şeridi denetim altına alındı."
           }
         ],
         "legends": [],
@@ -2104,10 +2104,10 @@
         "wars": [
           {
             "name": "Kastamonu Savaşı",
-            "when": "",
+            "when": "1383-1384",
             "foe": "Osmanlı destekli oğlu II. Süleyman",
             "result": "yenilgi",
-            "note": "Yenilerek Sinop'a çekildi."
+            "note": "Osmanlı kuvvetleriyle gelen oğlu II. Süleyman karşısında tutunamayarak Sinop'a çekildi; beylik Kastamonu ve Sinop kollarına ayrıldı."
           }
         ],
         "legends": [],

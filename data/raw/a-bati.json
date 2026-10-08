@@ -931,7 +931,7 @@
         "children": [],
         "wars": [
           {"name": "Kiev akınları", "when": "964 ve 985", "foe": "Kiev Rus knezliği", "result": "zafer", "note": "TDV akınların etkisizleştirildiğini yazar."},
-          {"name": "Ticaret antlaşması", "when": "1006", "foe": "Kiev", "result": "antlasma", "note": ""},
+          {"name": "Ticaret antlaşması", "when": "1006", "foe": "Kiev", "result": "antlasma", "note": "Orta İdil ile Kiev Rus Knezliği arasında ticaret kervanlarının serbest geçişini sağlayan ilk resmî barış ve ticaret antlaşması."},
           {"name": "1223 Moğol çarpışması", "when": "1223", "foe": "Moğol öncü ordusu", "result": "zafer", "note": "Kalka'dan dönen Moğol kuvveti İdil Bulgarlarınca imha edildi."},
           {"name": "Batu seferi", "when": "1236", "foe": "Batu Han", "result": "yenilgi", "note": "Ülke ve Bulgar şehri yakıldı. Britannica bağlanmayı 1237 diye yazar."}
         ],
@@ -1122,7 +1122,7 @@
     "end": 1091,
     "startNote": "Hazar-Oğuz darbesi 889 (276 hicrî). Don'dan Tuna'ya hâkimiyet 895. Britannica Karadeniz kuzeyini VIII-XII. yüzyıl diye geniş tutar.",
     "endNote": "TDV siyasî gücün 29 Nisan 1091'de bittiğini, son akının 1197'de yapıldığını yazar. Britannica 1122'deki ikinci Bizans zaferinin gücü fiilen yok ettiğini söyler.",
-    "capital": "",
+    "capital": "Sabit bir başkent yok; mevsimlik yaylak ve kışlaklar (Don-Dinyeper ve Aşağı Tuna boyları)",
     "religion": "Kamlık; Hıristiyan misyonu tutmadı, İslâm bazı gruplarda yayıldı",
     "confidence": "kayit",
     "confidenceNote": "Boy düzeni Konstantinos Porfirogennetos'ta kayıtlıdır. Merkezî krallık yoktur. Kangar adının Kül Tigin'deki Keñeres ile birleştirilmesi TDV'de şüpheli görülür.",
@@ -1180,7 +1180,7 @@
         "children": [],
         "wars": [
           {"name": "Kegen'e karşı", "when": "1048", "foe": "Kegen ve Bizans", "result": "yenilgi", "note": "Esir düştü, sonra döndü."},
-          {"name": "Edirne'ye kadar sefer", "when": "1049", "foe": "Bizans", "result": "zafer", "note": ""}
+          {"name": "Edirne'ye kadar sefer", "when": "1049", "foe": "Bizans", "result": "zafer", "note": "Tuna'yı geçen Peçenek birlikleri Bizans ordusunu Trakya'da yenerek Edirne önlerine kadar ilerledi."}
         ],
         "legends": [],
         "sources": [
@@ -1250,7 +1250,7 @@
     "end": 1241,
     "startNote": "Kıpçak adı VIII. yüzyıl Şine-Usu yazıtında geçer. Doğu Avrupa bozkırında Rus yıllıklarına ilk giriş 1054 Polovtsı diye. Bölge 1080'lerde Balkaş'tan Tuna ağzına yayıldı.",
     "endNote": "Britannica Kumanların Macaristan'a sığınmasını 1237-1239'a, TDV Köten'in bozulmasını 1239'a, Altın Orda ile siyasî rolün bitmesini 1241'e koyar. Köten 1240-41 kışında Macaristan'da öldürüldü.",
-    "capital": "",
+    "capital": "Sabit bir başkent yok; Deşt-i Kıpçak ordugâhları (Don ve Dinyeper boyları)",
     "religion": "Başta şamanlık; bir kısmı Ortodoks oldu, Kırım ve İdil'de İslâm yayıldı",
     "confidence": "kayit",
     "confidenceNote": "Tek merkezî devlet kuramadıkları TDV'de açıktır. Beş bölgenin (Orta Asya, İtil-Yayık, Don-Donets, Aşağı Dinyeper, Tuna) kendi başbuğları vardı. Kuman batıdaki addır; doğuda Kıpçak denir. Bölge hem Karadeniz kuzeyi hem İdil boyunu kapsar; bu kayıtta bölge bati tutuldu.",
