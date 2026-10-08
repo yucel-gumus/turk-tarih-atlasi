@@ -36,30 +36,370 @@
     ],
     "rulers": [
       {
+        "id": "akkoyunlu-tur-ali-bey",
+        "name": "Tur Ali Bey",
+        "aliases": [
+          "Tur Ali",
+          "Turali Bey"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": null,
+        "deathNote": "kayıtlarda yok",
+        "reign": [
+          1340,
+          1362
+        ],
+        "reignNote": "Akkoyunlu Türkmenlerinin başına geçtiği ve Trabzon üzerine akınlar düzenlediği yıllar yaklaşıktır; ölümü 1362 civarıdır.",
+        "claim": false,
+        "summary": "Akkoyunluların tarih sahnesine çıktığı ilk beyleri. 1340'ta idaresindeki Türkmen akınlarıyla Trabzon Rum İmparatorluğu'nu yıprattı; oğlu Kutlu Bey zamanında beylik Diyarbekir ve Ergani yöresinde güçlendi.",
+        "traits": [
+          "akıncı bey",
+          "Trabzon'a karşı gazâ"
+        ],
+        "contribution": "Akkoyunlu Türkmen boyunu Diyarbekir-Ergani yöresinde ilk kez siyasî bir güç olarak örgütledi.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Kutlu Bey",
+            "mother": "",
+            "note": "Kendisinden sonra beyliğin başına geçti",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Trabzon Kuşatması",
+            "when": "1348",
+            "foe": "Trabzon Rum İmparatorluğu (III. Alexios)",
+            "result": "sonucsuz",
+            "note": "Erzincan ve Bayburt hâkimleriyle birlikte Trabzon'u kuşattıysa da bir sonuç alınamadı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-kutlu-bey",
+        "name": "Kutlu Bey",
+        "aliases": [
+          "Kutluğ Bey"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1388,
+        "deathNote": "Ölümü 1388 olarak verilir.",
+        "reign": [
+          1362,
+          1388
+        ],
+        "reignNote": "TDV İslâm Ansiklopedisi zamanını doğrudan 1362-1388 olarak verir.",
+        "claim": false,
+        "summary": "Tur Ali Bey'in oğlu. Beyliği Diyarbekir çevresinde toparladı; Trabzon Rum İmparatoru III. Alexios'un kız kardeşiyle evlenerek siyasî akrabalık kurdu. Döneminde Karakoyunlular Musul'dan Erzurum'a kadar güçlendi.",
+        "traits": [
+          "siyasî evlilik",
+          "denge siyaseti"
+        ],
+        "contribution": "Beyliği kurumsallaştırdı ve Komnenlerle akrabalık kurarak batı sınırını güven altına aldı.",
+        "harm": "",
+        "wives": [
+          {
+            "name": "Adı bilinmeyen Trabzon prensesi",
+            "note": "Trabzon Rum İmparatoru III. Alexios'un kız kardeşi; adı kayıtlarda yok",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Kara Yülük Osman Bey",
+            "mother": "",
+            "note": "Akkoyunlu Devleti'nin gerçek kurucusu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ahmed Bey",
+            "mother": "",
+            "note": "Kutlu Bey'in oğlu olarak anılan bey; kimliği kaynaklarda 'Ahmed Bey olmalı' kaydıyla geçer",
+            "certainty": "tartismali"
+          },
+          {
+            "name": "Hüseyin Bey",
+            "mother": "",
+            "note": "Kardeşiyle birlikte Kadı Burhâneddin'e sığındı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Trabzon Rum İmparatoru III. Alexios'un kız kardeşiyle evliliği komşuluk siyasetinin parçasıydı."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-kara-yuluk-osman",
+        "name": "Kara Yülük Osman Bey",
+        "aliases": [
+          "Kara Osman Bey",
+          "Karayülük Osman",
+          "Emîr-i Nâmdâr"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1435,
+        "deathNote": "Ağustos 1435'te Karakoyunlu İskender'e yenildikten çok kısa süre sonra öldü.",
+        "reign": [
+          1402,
+          1435
+        ],
+        "reignNote": "Bazı kaynaklar hükümdarlığını 1402-1435 (Timur'dan Âmid'i almasından ölümüne) aralığında verir; fiilen 1390'lardan itibaren beyliğin lideriydi.",
+        "claim": false,
+        "summary": "Akkoyunlu Devleti'nin gerçek mânada kurucusu. Kadı Burhâneddin'i bertaraf ettikten sonra Timur'un hizmetine girip 1402'de Âmid'i (Diyarbakır) aldı. Mardin, Erzurum, Kemah ve Harput'u katarak beyliği Erzurum'dan Mardin'e uzanan bir güce dönüştürdü; Karakoyunlu Kara Yûsuf'la ömür boyu savaştı.",
+        "traits": [
+          "cesur kumandan",
+          "askerlik ustası",
+          "Mardin ve Diyarbekir fatihi"
+        ],
+        "contribution": "Beyliği devlet düzeyine yükseltti; sınırları Erzurum, Kemah, Harput, Erzincan ve Mardin'e kadar genişletti.",
+        "harm": "Karakoyunlularla kesintisiz mücadelesi bölgeyi uzun süre istikrarsız bıraktı; Mardin'de yaptığı tahribat ağır kayıplara yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Ali Bey",
+            "mother": "",
+            "note": "Kendisinden sonra bey oldu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Hamza Bey",
+            "mother": "",
+            "note": "Mardin hâkimi, sonradan 'ulu bey' tanındı",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yâkub Bey",
+            "mother": "",
+            "note": "Kemah-Erzincan hâkimi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Şeyh Hasan",
+            "mother": "",
+            "note": "Erzurum'un idaresi kendisine verildi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Hâbil",
+            "mother": "",
+            "note": "Memlükler'e esir düştü, Kahire'de öldü (1430)",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Kadı Burhâneddin'e karşı sefer",
+            "when": "1398",
+            "foe": "Kadı Burhâneddin Ahmed",
+            "result": "zafer",
+            "note": "Kadı Burhâneddin'i esir alıp Sivas surları önünde ortadan kaldırdı."
+          },
+          {
+            "name": "Erzurum Seferi",
+            "when": "1434",
+            "foe": "Karakoyunlu İskender",
+            "result": "zafer",
+            "note": "Erzurum'u alıp oğlu Şeyh Hasan'a verdi."
+          },
+          {
+            "name": "Erzurum kuzeybatısı yenilgisi",
+            "when": "1435",
+            "foe": "Karakoyunlu İskender",
+            "result": "yenilgi",
+            "note": "Ağustos 1435'te yenildi ve kısa süre sonra öldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-ali-bey",
+        "name": "Ali Bey",
+        "aliases": [
+          "Celâleddin Ali",
+          "Akkoyunlu Celâleddin Ali"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": null,
+        "deathNote": "kayıtlarda yok",
+        "reign": [
+          1435,
+          1438
+        ],
+        "reignNote": "Karayülük'ün ölümünden sonra bey oldu; kardeşi Hamza Bey'in Âmid'i alıp 'ulu bey' tanınmasıyla iktidarı fiilen sona erdi. Adına basılan sikkeler 1434-1438 aralığını gösterir.",
+        "claim": false,
+        "summary": "Kara Yülük Osman Bey'in oğlu. Babasının ölümünden sonra bey olduysa da amca oğulları ve kardeşlerinin muhalefetiyle karşılaştı. Kardeşi Hamza Bey'e karşı duramayınca Osmanlı Sultanı II. Murad'a sığındı.",
+        "traits": [
+          "muhalefetle kuşatılmış"
+        ],
+        "contribution": "",
+        "harm": "Hanedan içi çekişmeler yüzünden beyliği toparlayamadı; iktidarı kardeşine kaptırdı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-hamza-bey",
+        "name": "Hamza Bey",
+        "aliases": [
+          "Akkoyunlu Hamza Bey"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1447,
+        "deathNote": "Ekim 1447'de Âmid'de öldü.",
+        "reign": [
+          1438,
+          1447
+        ],
+        "reignNote": "Başlangıç yılı kesin değildir; reisliği Âmid'i alıp 'ulu bey' tanınmasıyla başlar, TDV İslâm Ansiklopedisi ölümünü Ekim 1447 olarak verir.",
+        "claim": false,
+        "summary": "Kara Yülük Osman Bey'in oğlu. Mardin hâkimiyken Âmid'i ele geçirip birçok şehzade tarafından 'ulu bey' olarak tanındı ve kardeşi Ali Bey'in yerine beyliğin başına geçti. Akkoyunlulardan ilk sikke bastıran hükümdardır.",
+        "traits": [
+          "ilk sikke bastıran bey",
+          "âsi ama muktedir"
+        ],
+        "contribution": "Âmid'i merkez edinerek beyliği sağlamlaştırdı; Akkoyunlu adına ilk gümüş sikkeyi bastırdı.",
+        "harm": "Kardeşleriyle taht kavgası hanedanı yıprattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Ali Mirza",
+            "mother": "",
+            "note": "Divan beyi; atabeg Sofu Halil tarafından öldürtüldü",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-cihangir-mirza",
+        "name": "Cihangir Mirza",
+        "aliases": [
+          "Cihangir Bey"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "874/1469'da öldü.",
+        "reign": [
+          1447,
+          1452
+        ],
+        "reignNote": "Hamza Bey'in ölümünden sonra bey oldu; Uzun Hasan Bey'in 1452'de Âmid'i almasıyla liderliği sona erdi, ancak ölümüne (1469) kadar kardeşine sadık kaldı.",
+        "claim": false,
+        "summary": "Kara Yülük'ün oğlu, Uzun Hasan'ın ağabeyi. Hamza Bey'in ardından bey oldu; Karakoyunlu Cihan Şah'ın baskısı ve kardeşi Uzun Hasan'ın yükselişi arasında tutunamayıp kardeşinin üstünlüğünü tanıdı. Ömrünün sonuna kadar ona bağlı kaldı.",
+        "traits": [
+          "kardeşine sadık",
+          "gölgede kalan bey"
+        ],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Murad Bey",
+            "mother": "",
+            "note": "Halil zamanında isyan etti",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Rüstem Bey'e karşı sefer",
+            "when": "1457",
+            "foe": "Karakoyunlu Rüstem Bey",
+            "result": "yenilgi",
+            "note": "Karakoyunlu ordusu Âmid yakınlarında Uzun Hasan karşısında ağır yenilgiye uğradı; Cihangir kardeşinin hâkimiyetini tanıdı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
         "id": "akkoyunlu-uzun-hasan",
         "name": "Uzun Hasan",
         "aliases": [
           "Hasan Padişah",
-          "Ebû'n-Nasr Uzun Hasan"
+          "Ebû'n-Nasr Uzun Hasan",
+          "Hasan Han"
         ],
-        "title": "Padişah / Sultan",
+        "title": "padişah / sultan",
         "birth": 1423,
-        "birthNote": "Diyarbekir'de 1423'te doğdu",
+        "birthNote": "1423'te doğdu (yaklaşık)",
         "death": 1478,
-        "deathNote": "Tebriz'de vefat etti, Nasriyye Külliyesi'ndeki türbesindedir",
+        "deathNote": "6 Ocak 1478'de Tebriz'de vefat etti; Nasriyye Külliyesi'ndeki türbesine defnedildi.",
         "reign": [
           1453,
           1478
         ],
-        "reignNote": "25 yıllık büyük imparatorluk dönemi.",
-        "summary": "Akkoyunluların en büyük hükümdarı. Cihan Şah'ı ve Timur Sultanı Ebû Said'i yenerek imparatorluğunu Fırat'tan Horasan'a ulaştırdı. Kur'an-ı Kerim'i Türkçeye tercüme ettirdi, Hasan Padişah Kanunları ile adil vergi nizamı kurdu. Fatih ile Otlukbeli'nde karşılaştı.",
+        "reignNote": "TDV İslâm Ansiklopedisi hükümdarlığını 1452-1478 olarak verir; 1452'de Âmid'i alarak fiilen beyliğin başına geçti.",
+        "claim": false,
+        "summary": "Akkoyunluların en büyük hükümdarı. Karakoyunlu Cihan Şah'ı 1467'de ve Timur hükümdarı Ebû Said'i 1469'da yenerek imparatorluğunu Fırat'tan Horasan'a ulaştırdı. Başkenti Tebriz yaptı; Venedik ve Avrupa ile Osmanlı aleyhine ittifak kurdu. Kur'an'ı Türkçeye tercüme ettirdi ve 'Hasan Padişah Kanunları'nı hazırlattı.",
         "traits": [
-          "Cihangir hükümdar",
-          "Adil kanun koyucu",
-          "Usta diplomat"
+          "cihangir hükümdar",
+          "âdil kanun koyucu",
+          "usta diplomat",
+          "ilim hamisi"
         ],
-        "contribution": "İran, Azerbaycan ve Doğu Anadolu'yu birleştirerek büyük bir Türk imparatorluğu kurdu; adil vergi kanunnameleri hazırlattı.",
-        "harm": "Venedik kışkırtmasıyla Osmanlı'ya karşı savaşa girmesi Otlukbeli hezimetine yol açtı.",
+        "contribution": "İran, Azerbaycan ve Doğu Anadolu'yu birleştirerek büyük bir Türk imparatorluğu kurdu; adil vergi kanunnamesi hazırlattı.",
+        "harm": "Venedik kışkırtmasıyla Osmanlı'ya karşı savaşa girmesi Otlukbeli yenilgisine yol açtı.",
         "wives": [
           {
             "name": "Theodora Komnene (Despina Hatun)",
@@ -67,7 +407,7 @@
             "certainty": "kesin"
           },
           {
-            "name": "Selçukşah Begüm",
+            "name": "Selçuk Şah Begüm",
             "note": "Karakoyunlu prensesi",
             "certainty": "kesin"
           }
@@ -80,8 +420,8 @@
             "certainty": "kesin"
           },
           {
-            "name": "Sultan Yakub",
-            "mother": "Selçukşah Begüm",
+            "name": "Sultan Yâkub",
+            "mother": "Selçuk Şah Begüm",
             "note": "İlim ve sanat hamisi padişah",
             "certainty": "kesin"
           },
@@ -98,13 +438,14 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Çapakçur Muharebesi",
             "when": "1467",
             "foe": "Karakoyunlular (Cihan Şah)",
             "result": "zafer",
-            "note": "Cihan Şah öldürüldü, Karakoyunlu devleti yıkılıp toprakları ilhak edildi."
+            "note": "Cihan Şah öldürüldü, Karakoyunlu Devleti yıkıldı ve toprakları ilhak edildi."
           },
           {
             "name": "Otlukbeli Meydan Muharebesi",
@@ -115,12 +456,346 @@
           }
         ],
         "legends": [
-          "Kur'an-ı Kerim'i Türkçe mealiyle beraber okuttuğu ve huzurunda Türkçe tefsir meclisleri kurdurduğu kaydedilir."
+          "Kur'an-ı Kerim'i Türkçe mealiyle okuttuğu ve huzurunda Türkçe tefsir meclisleri kurdurduğu kaydedilir."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, UZUN HASAN",
             "url": "https://islamansiklopedisi.org.tr/uzun-hasan"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-halil",
+        "name": "Sultan Halil",
+        "aliases": [
+          "Halil Bey"
+        ],
+        "title": "sultan / padişah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": null,
+        "deathNote": "Ölüm yeri ve tarihi kayıtlarda net değildir; 1478'de kardeşi Yâkub Bey'e yenildikten sonra ortadan çekildi.",
+        "reign": [
+          1478,
+          1478
+        ],
+        "reignNote": "Uzun Hasan'ın ölümünden sonra aynı yıl içinde bey oldu; kardeşi Yâkub Bey'e yenilerek kısa sürede tahtı kaybetti.",
+        "claim": false,
+        "summary": "Uzun Hasan'ın büyük oğlu. Babasının ölümüyle hükümdar oldu; dirayetsizliği ve kardeşi Maksud Bey'i öldürtmesi hanedanı karıştırdı. Kardeşi Yâkub Bey Hoy çayı kenarında onu yenerek tahtı aldı (1478).",
+        "traits": [
+          "dirayetsiz",
+          "kardeş katili olarak anılır"
+        ],
+        "contribution": "",
+        "harm": "Maksud Bey'i öldürtüp Yâkub Bey'i Âmid'e sürerek hanedan içi savaşı başlattı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Hiçbir suçu olmayan kardeşi Maksud Bey'i öldürttüğü kaydedilir."
+        ],
+        "wars": [
+          {
+            "name": "Hoy çayı Muharebesi",
+            "when": "1478",
+            "foe": "Yâkub Bey (kardeşi)",
+            "result": "yenilgi",
+            "note": "Yâkub Bey'e yenildi ve tahtı kaybetti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-sultan-yakub",
+        "name": "Sultan Yâkub",
+        "aliases": [
+          "Yâkub Bey",
+          "Sultan Yakub"
+        ],
+        "title": "sultan / padişah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1490,
+        "deathNote": "1490 yılında bir veba salgını sonucu Tebriz civarında vefat etti.",
+        "reign": [
+          1478,
+          1490
+        ],
+        "reignNote": "On iki yıllık parlak saltanatı Akkoyunluların altın çağlarından biridir.",
+        "claim": false,
+        "summary": "Uzun Hasan'ın oğlu. Ağabeyi Halil'i yenerek tahta çıktı ve 12 yıl hüküm sürdü. Memlükler'e karşı zafer kazandı, Gürcistan'a seferler düzenledi. Kültür, sanat ve mimaride parlak bir dönem yaşattı; Tebriz'de Heşt Bihişt Sarayı'nı yaptırdı. 1490'da vebadan öldü.",
+        "traits": [
+          "ilim ve sanat hamisi",
+          "şair",
+          "kudretli hükümdar"
+        ],
+        "contribution": "Memlükleri püskürttü; Tebriz'de Heşt Bihişt sarayı ve mimari anıtlar inşa ettirdi; Türkmen minyatür mektebinin gelişimini sağladı.",
+        "harm": "Safevî Şeyh Haydar'ı ortadan kaldırması, ileride Şah İsmail'in intikamla Akkoyunluları yıkmasına zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Baysungur",
+            "mother": "",
+            "note": "Babasının ardından çocuk yaşta tahta geçti",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Murad",
+            "mother": "",
+            "note": "Daha sonra Fars ve Irak sahasında hükümdar oldu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Annesi Selçuk Şah Begüm siyasi zekasıyla oğlunun tahta çıkışında kilit rol oynadı."
+        ],
+        "wars": [
+          {
+            "name": "Urfa Zaferi",
+            "when": "1480",
+            "foe": "Memlük Devleti",
+            "result": "zafer",
+            "note": "Urfa'yı almak isteyen Memlük ordusu karşısında parlak bir zafer kazanıldı."
+          },
+          {
+            "name": "Gürcistan Seferi",
+            "when": "1486",
+            "foe": "Gürcistan Krallığı",
+            "result": "zafer",
+            "note": "Ahıska ve Hatun Kalesi alındı; kuşatmalarda ilk defa top kullanıldı."
+          }
+        ],
+        "legends": [
+          "Bizzat Türkçe ve Farsça şiir söylediği, Molla Câmî'ye sık sık hediyeler ve maddî yardım gönderdiği bilinir."
+        ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-baysungur",
+        "name": "Baysungur",
+        "aliases": [
+          "Sultan Baysungur"
+        ],
+        "title": "sultan",
+        "birth": 1481,
+        "birthNote": "1481 civarında doğdu; tahta çıktığında dokuz yaşındaydı.",
+        "death": 1493,
+        "deathNote": "1493'te Rüstem Bey ve Safevî müridleri tarafından mağlup edilerek öldürüldü.",
+        "reign": [
+          1490,
+          1492
+        ],
+        "reignNote": "Dokuz yaşında tahta geçti; iktidar atabeg Sofu Halil ve ardından Süleyman Bey'in elindeydi. 1492'de tahttan indirildi.",
+        "claim": false,
+        "summary": "Sultan Yâkub'un dokuz yaşında tahta çıkan oğlu. İktidar atabegi Musullu Sofu Halil Bey ile Biçenoğlu Süleyman Bey'in elinde oyuncak oldu. Süleyman Bey yenilince Şirvanşahlar'a sığındı; 1493'te tahtı geri almaya çalışırken öldürüldü.",
+        "traits": [
+          "çocuk hükümdar",
+          "atabeglerin kuklası"
+        ],
+        "contribution": "",
+        "harm": "Çocuk yaşta tahta çıkarılması beyler arasındaki kanlı rekabeti ve devletin çözülüşünü hızlandırdı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-rustem-bey",
+        "name": "Rüstem Bey",
+        "aliases": [
+          "Sultan Rüstem"
+        ],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1497,
+        "deathNote": "1497'de Gence civarında Kaçar boyunun yardımıyla tahtı geri almaya çalışırken öldürüldü.",
+        "reign": [
+          1492,
+          1497
+        ],
+        "reignNote": "Mayıs 1492'de tahta çıkarıldı; Mayıs 1497'de Göde Ahmed karşısında tahttan kaçtı, birkaç ay sonra öldürüldü.",
+        "claim": false,
+        "summary": "Uzun Hasan'ın oğlu Mesîh Mirza'nın oğlu. Alıncak Kalesi'nden çıkarılıp İbe Sultan tarafından tahta geçirildi. Safevî müridlerinin desteğini almak için Şah Haydar'ın oğullarını hapisten çıkardıysa da Göde Ahmed karşısında tahtını kaybetti ve 1497'de öldürüldü.",
+        "traits": [
+          "zayıf iradeli",
+          "emîrlerin güdümünde"
+        ],
+        "contribution": "",
+        "harm": "Safevî şehzadelerini zindandan çıkarıp silahlandırarak gelecekte Akkoyunlu'yu yıkacak olan Safevî gücünün toparlanmasına fırsat verdi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-gode-ahmed",
+        "name": "Göde Ahmed",
+        "aliases": [
+          "Ahmed Bey",
+          "Ahmed Bahadır Han",
+          "Ebü'n-Nasr Ahmed"
+        ],
+        "title": "sultan",
+        "birth": 1476,
+        "birthNote": "1476'da doğdu; Fatih Sultan Mehmed'in kızı Gevherhan Hatun ile Uğurlu Mehmed'in oğludur.",
+        "death": 1497,
+        "deathNote": "Aralık 1497'de İsfahan yakınlarında beylerin isyanını bastırmaya çalışırken öldürüldü.",
+        "reign": [
+          1497,
+          1497
+        ],
+        "reignNote": "Mayıs 1497'de Tebriz tahtına oturdu; Aralık 1497'de savaşta hayatını kaybetti (yaklaşık 7 aylık saltanat).",
+        "claim": false,
+        "summary": "Uğurlu Mehmed ile Fatih Sultan Mehmed'in kızı Gevherhan Hatun'un oğlu; Fatih'in torunu. İstanbul'dan gelerek Tebriz tahtını ele geçirdi. Yolsuzluk, rüşvet ve israfı önlemek için radikal ıslahatlara girişti; beylerin ayaklanması sonucu Aralık 1497'de öldürüldü.",
+        "traits": [
+          "ıslahatçı",
+          "adalet arayıcısı",
+          "kısa boylu (Göde)"
+        ],
+        "contribution": "Devlet idaresinde iltimas ve rüşveti kaldırmaya çalıştı; Osmanlı devlet düzenini Akkoyunlu'ya taşımak istedi.",
+        "harm": "Sert tedbirleri Türkmen beylerinin isyanına yol açtı; ani ölümü devleti bölünme sürecine soktu.",
+        "wives": [
+          {
+            "name": "Aynışah Sultan",
+            "note": "II. Bayezid'in kızı",
+            "certainty": "kesin"
+          }
+        ],
+        "children": [
+          {
+            "name": "Zeynelâbidin Bey",
+            "mother": "",
+            "note": "Şehzade",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Boyunun ve bacaklarının kısalığı sebebiyle 'Göde' lakabıyla anılmıştır."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-elvend-bey",
+        "name": "Elvend Bey",
+        "aliases": [
+          "Elvend Mirza",
+          "Sultan Elvend"
+        ],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1505,
+        "deathNote": "1505'te Âmid'de (Diyarbakır) vefat etti.",
+        "reign": [
+          1498,
+          1501
+        ],
+        "reignNote": "1498'de Tebriz'de tahta çıktı; 1500 anlaşmasıyla Âmid, Azerbaycan ve Arrân'ı aldı; 1501 Şerûr yenilgisiyle Tebriz'i kaybetti, 1505'e kadar Âmid'de yerel hakimiyet sürdü.",
+        "claim": false,
+        "summary": "Uzun Hasan'ın oğlu Yûsuf Mirza'nın oğlu. Göde Ahmed'den sonra tahta çıktı; 1500 anlaşmasıyla devleti kuzen Murad Bey ile bölüştü. 1501'de Şerûr Muharebesi'nde genç Safevî şeyhi İsmâil'e yenildi ve Tebriz'i kaybetti; 1505'te Âmid'de öldü.",
+        "traits": [
+          "bölünmüş devlet hükümdarı"
+        ],
+        "contribution": "",
+        "harm": "Safevîler karşısında Şerûr'da hezimete uğrayarak başkent Tebriz'i kaybetti ve Safevî Devleti'nin resmen kurulmasına engel olamadı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Şerûr Muharebesi",
+            "when": "1501",
+            "foe": "Safevîler (Şah İsmail)",
+            "result": "yenilgi",
+            "note": "Nahçıvan yakınlarındaki Şerûr sahrasında ağır yenilgiye uğradı; Tebriz Safevî eline geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "akkoyunlu-murad-bey",
+        "name": "Sultan Murad",
+        "aliases": [
+          "Murad Mirza",
+          "Sultan Murad Han"
+        ],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1514,
+        "deathNote": "Çaldıran Savaşı sonrasında Yavuz Sultan Selim'in hizmetindeyken Diyarbekir yöresinde yapılan savaşta öldürüldü (1514).",
+        "reign": [
+          1500,
+          1503
+        ],
+        "reignNote": "1500 yılındaki paylaşım anlaşmasıyla Irakeyn, Kirman ve Fars hükümdarı oldu; 1503 Almakulağı yenilgisinden sonra 1509'a kadar Bağdat'ta tutunabildi.",
+        "claim": false,
+        "summary": "Sultan Yâkub'un oğlu; Akkoyunluların son fiili hükümdarı. 1500 antlaşmasıyla devletin güney-doğu yarısını (Irak, Fars, Kirman) yönetti. 1503'te Hemedan yakınlarında Şah İsmail'e yenilip Bağdat'a kaçtı; 1508'de Bağdat'tan çıkarıldı ve 1514'te Osmanlı seferi sırasında öldürüldü.",
+        "traits": [
+          "son direnişçi hükümdar"
+        ],
+        "contribution": "",
+        "harm": "Şah İsmail'in yükselişine zamanında müdahale edemedi; Almakulağı'ndaki mağlubiyeti devletin Irak ve İran kanadını Safevîlere teslim etti.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Almakulağı Muharebesi",
+            "when": "1503",
+            "foe": "Safevîler (Şah İsmail)",
+            "result": "yenilgi",
+            "note": "Hemedan yakınlarındaki Almakulağı mevkiinde Şah İsmail'e yenildi ve Bağdat'a çekildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/akkoyunlular"
           }
         ]
       }
@@ -163,31 +838,251 @@
     ],
     "rulers": [
       {
+        "id": "karakoyunlu-bayram-hoca",
+        "name": "Bayram Hoca",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1380,
+        "deathNote": "Ölüm yılı kaynaklarda tartışmalı; 1380'de yerine yeğeni Kara Mehmed geçti.",
+        "reign": [
+          1351,
+          1380
+        ],
+        "reignNote": "Beyliğin ilk beyi sayılır.",
+        "claim": false,
+        "summary": "Karakoyunlu beyliğinin ilk beyi. 1351'de Sutaylar hükümdarı Akçasakal Hüseyin Bey'i öldürüp Musul'u alarak bağımsız hareket etti; kışları Musul, yazları Muş-Ahlat-Erciş çevresinde geçirerek Van-Erciş merkezli beyliği kurdu. 1375'te Musul'u Celâyirliler'den geri aldı; oğlu olmadığı için yerine yeğeni Kara Mehmed geçti.",
+        "traits": [
+          "kurucu",
+          "Türkmen boylarını birleştiren"
+        ],
+        "contribution": "Van-Erciş merkezli Karakoyunlu beyliğini kurdu.",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Oğlu olmadığı için yerine kardeşi Türemiş'in oğlu Kara Mehmed geçti."
+        ],
+        "wars": [
+          {
+            "name": "Musul'un zaptı",
+            "when": "1351",
+            "foe": "Sutaylar (Akçasakal Hüseyin Bey)",
+            "result": "zafer",
+            "note": "Musul alınıp kardeşi Birdi Hoca'nın idaresine verildi."
+          },
+          {
+            "name": "Muş Ovası Savaşı",
+            "when": "1366",
+            "foe": "Celâyirliler (Sultan Üveys)",
+            "result": "yenilgi",
+            "note": "Bayram Hoca yenildi, Musul Celâyirliler'in eline geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          },
+          {
+            "title": "Kültür Portalı, Karakoyunlu Devleti",
+            "url": "https://kulturportali.gov.tr/portal/karakoyunlu-devleti"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-kara-mehmed",
+        "name": "Kara Mehmed",
+        "aliases": [
+          "Mehmed Bey"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1389,
+        "deathNote": "1389 Nisanında (Rebîülâhir 791) isyancı kumandanı Pîr Hasan ile giriştiği savaşta öldü.",
+        "reign": [
+          1380,
+          1389
+        ],
+        "reignNote": "",
+        "claim": false,
+        "summary": "Bayram Hoca'nın kardeşi Türemiş'in oğlu. 1382'de Celâyirli Şehzade Ali'yi az kuvvetle ağır yenilgiye uğratarak şöhret kazandı; Mardin Artukluları ve Erzincan hükümdarı Mutahharten'e yardım etti. Timur'a karşı koyup 1388'de Tebriz'e girdi; ancak kumandanı Pîr Hasan'ın isyanını bastırırken 1389'da öldü.",
+        "traits": [
+          "cesur",
+          "mücadeleci"
+        ],
+        "contribution": "Karakoyunlu nüfuzunu Anadolu ve Azerbaycan'a yaydı.",
+        "harm": "",
+        "wives": [],
+        "children": [
+          {
+            "name": "Mısır Hoca",
+            "mother": "",
+            "note": "Timur tarafından öldürtüldü",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Kara Yusuf",
+            "mother": "",
+            "note": "Karakoyunluların büyük hükümdarı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Celâyirli Şehzade Ali'ye karşı savaş",
+            "when": "1382",
+            "foe": "Celâyirliler",
+            "result": "zafer",
+            "note": "5000 kişilik kuvvetle 15-20.000 kişilik orduyu bozguna uğrattı."
+          },
+          {
+            "name": "Tebriz'in zaptı",
+            "when": "1388",
+            "foe": "Timurlular",
+            "result": "zafer",
+            "note": "Timur'un Mâverâünnehir'e dönmesinden sonra Tebriz'e girdi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          },
+          {
+            "title": "Kültür Portalı, Karakoyunlu Devleti",
+            "url": "https://kulturportali.gov.tr/portal/karakoyunlu-devleti"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-pir-hasan",
+        "name": "Pîr Hasan",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1391,
+        "deathNote": "Kara Yusuf'un beyliği pekişince 1391'de öldü.",
+        "reign": [
+          1389,
+          1391
+        ],
+        "reignNote": "Beylik mücadelesi verdi; klasik sıralamaya girmez.",
+        "claim": true,
+        "summary": "Bayram Hoca'nın öldürttüğü Hüseyin Bey'in oğlu. Kara Mehmed'i yenerek beyliğin başına geçmek istediyse de Türkmenlerin çoğu Mısır Hoca'nın etrafında toplandı; 1390'da Döğer Sâlim Bey'in araya girmesiyle mücadele yatıştı. Ertesi yıl öldü.",
+        "traits": [
+          "isyancı kumandan"
+        ],
+        "contribution": "",
+        "harm": "Kara Mehmed'i devirerek beyliği iç savaşa sürükledi.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kara Mehmed'in kumandanıydı, sonra ona isyan etti."
+        ],
+        "wars": [
+          {
+            "name": "Kara Mehmed'e karşı isyan",
+            "when": "1389",
+            "foe": "Karakoyunlu Beyliği (Kara Mehmed)",
+            "result": "belirsiz",
+            "note": "Mehmed Bey'i yendi, ancak beylik Türkmenlerin çoğunlukla Mısır Hoca'yı desteklemesiyle parçalandı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-misir-hoca",
+        "name": "Mısır Hoca",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1394,
+        "deathNote": "Avnik Kalesi'ni 43 gün savunduktan sonra Timur'a teslim oldu; Semerkant'ta gizlice öldürtüldü (31 Temmuz 1394).",
+        "reign": [
+          1389,
+          1394
+        ],
+        "reignNote": "Beylik mücadelesinde bir kolun başındaydı; klasik sıralamaya girmez.",
+        "claim": true,
+        "summary": "Kara Mehmed'in oğlu. Babasının ölümü üzerine Türkmenlerin önemli kısmı onun etrafında toplandı. Timur'un gazabına uğradı; Avnik Kalesi'ni kırk üç gün savunduktan sonra teslim oldu ve Semerkant'ta öldürtüldü.",
+        "traits": [
+          "direnişçi"
+        ],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Avnik Kalesi savunması",
+            "when": "1394",
+            "foe": "Timurlular (Timur)",
+            "result": "yenilgi",
+            "note": "Kırk üç günlük savunmadan sonra kale teslim edildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
         "id": "karakoyunlu-kara-yusuf",
         "name": "Kara Yusuf",
         "aliases": [
           "Ebû Nasr Kara Yusuf Bey"
         ],
-        "title": "Bey / Sultan",
+        "title": "bey",
         "birth": 1357,
-        "birthNote": "Yaklaşık 1357 doğumlu",
+        "birthNote": "Yaklaşık 1357'de Erciş'te doğdu.",
         "death": 1420,
-        "deathNote": "Şahruh'a karşı sefere giderken Uçan mevkiinde hastalanarak vefat etti",
+        "deathNote": "Şâhruh'a karşı sefere giderken Tebriz'in güneydoğusundaki Ucan yakınında hastalanarak vefat etti (13 Kasım 1420).",
         "reign": [
           1389,
           1420
         ],
         "reignNote": "31 yıllık fırtınalı hükümdarlık.",
-        "summary": "Karakoyunluların en savaşçı hükümdarı. Timur'a asla boyun eğmedi, Osmanlı'ya sığınarak Ankara Savaşı kıvılcımını ateşledi. Timur ölünce dönüp Tebriz ve Bağdat'ı fethetti; Timurlu ordularını defalarca mağlup etti.",
+        "claim": false,
+        "summary": "Kara Mehmed'in oğlu ve Karakoyunlu Devleti'nin kurucusu sayılan hükümdar. Timur'a boyun eğmeyip Osmanlı'ya sığınarak Ankara Savaşı'nın sebeplerinden biri oldu. Timur'un ölümünden sonra dönüp Tebriz ve Bağdat'ı fethetti; Artuklulara son verdi ve Timurlu ordularını defalarca mağlup etti.",
         "traits": [
-          "Yılmayan cengaver",
-          "Özgürlük aşığı",
-          "Stratejist"
+          "yılmayan cengâver",
+          "özgürlük aşığı",
+          "stratejist"
         ],
         "contribution": "Azerbaycan ve Irak'ı Türkmen hakimiyetine kazandırdı, Tebriz'i başkent yaptı.",
         "harm": "Timur ile giriştiği amansız kavga Anadolu'nun istilasına ve Yıldırım'ın esaretine zemin hazırladı.",
         "wives": [],
         "children": [
+          {
+            "name": "Şah Mehmed",
+            "mother": "",
+            "note": "En büyük oğlu, Irak-ı Arab valisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Pîr Budak",
+            "mother": "",
+            "note": "Sultan ilân edildi, 1418'de öldü",
+            "certainty": "kesin"
+          },
           {
             "name": "İskender",
             "mother": "",
@@ -195,30 +1090,183 @@
             "certainty": "kesin"
           },
           {
+            "name": "İspend (İsfahan)",
+            "mother": "",
+            "note": "Bağdat valisi",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ebû Said",
+            "mother": "",
+            "note": "Timurlular tarafından Azerbaycan emiri yapıldı",
+            "certainty": "kesin"
+          },
+          {
             "name": "Cihan Şah",
             "mother": "",
             "note": "Büyük şair ve hükümdar",
             "certainty": "kesin"
-          },
-          {
-            "name": "İsbend",
-            "mother": "",
-            "note": "Bağdat valisi",
-            "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
+          {
+            "name": "Aras Savaşı",
+            "when": "1406",
+            "foe": "Timurlular (Ebû Bekir Mirza)",
+            "result": "zafer",
+            "note": "Timur'un torunu Ebû Bekir Mirza yenildi."
+          },
           {
             "name": "Serdrûd Muharebesi",
             "when": "1408",
             "foe": "Timurlular (Miranşah ve Ebû Bekir)",
             "result": "zafer",
-            "note": "Timurlu ordusu imha edildi, Timur'un oğlu Miranşah savaşta öldürüldü."
+            "note": "Timurlu ordusu imha edildi; Azerbaycan Kara Yusuf'a kaldı."
+          },
+          {
+            "name": "Esed Köyü Savaşı",
+            "when": "1410",
+            "foe": "Celâyirliler (Sultan Ahmed)",
+            "result": "zafer",
+            "note": "Sultan Ahmed ağır yenilgiye uğratıldı ve öldürüldü."
           }
         ],
         "legends": [
-          "Ölüm döşeğinde bile Şahruh'un ordusuna meydan okuyup sedyede savaşa yürümek istediği rivayet edilir."
+          "Ölüm döşeğinde bile Şâhruh'un ordusuna meydan okuyup sedyede savaşa yürümek istediği rivayet edilir."
         ],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          },
+          {
+            "title": "Kültür Portalı, Karakoyunlu Devleti",
+            "url": "https://kulturportali.gov.tr/portal/karakoyunlu-devleti"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-iskender",
+        "name": "İskender",
+        "aliases": [
+          "Kara İskender",
+          "İskender Mirza"
+        ],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1438,
+        "deathNote": "Mayıs 1438'de (Zilkade 841) Alıncak Kalesi'nde kendi oğlu Şah Kubâd tarafından öldürüldü.",
+        "reign": [
+          1420,
+          1438
+        ],
+        "reignNote": "Şâhruh'a tâbi olduğu dönemlerde hükümdarlığı kesintiye uğradı.",
+        "claim": false,
+        "summary": "Kara Yusuf'un oğlu. Babasının ölümü üzerine 1420'de Kerkük'te tahta geçti; Akkoyunlu Karayülük Osman'ı Şeyhkendi'nde yendi (1421) ama Eleşkirt'te Şâhruh'a yenildi. Van, Mâkû ve Şirvan'ı aldı; 1429 Selmâs yenilgisinden sonra Osmanlı'ya sığındı. 1438'de kendi oğlu Şah Kubâd tarafından öldürüldü.",
+        "traits": [
+          "savaşçı",
+          "inatçı"
+        ],
+        "contribution": "Van ve Mâkû'yu kazandırdı; kardeşi Cihan Şah'ın yükselişine zemin hazırladı.",
+        "harm": "Şâhruh ile bitmeyen mücadelesi devleti yıprattı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Şah Kubâd",
+            "mother": "",
+            "note": "Babasını öldürdü",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Elvend",
+            "mother": "",
+            "note": "İsfahan Mirza'nın vasiyetiyle adı geçer",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Şah Ali",
+            "mother": "",
+            "note": "Sonradan sultan ilân edildi",
+            "certainty": "olasi"
+          },
+          {
+            "name": "Hüseyin Ali",
+            "mother": "",
+            "note": "Tebriz'de kısa süre hükümdar ilân edildi",
+            "certainty": "olasi"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Şeyhkendi Savaşı",
+            "when": "1421",
+            "foe": "Akkoyunlular (Karayülük Osman)",
+            "result": "zafer",
+            "note": "Nusaybin yakınlarında Karayülük Osman mağlup edildi."
+          },
+          {
+            "name": "Eleşkirt Savaşı",
+            "when": "1421",
+            "foe": "Timurlular (Şâhruh)",
+            "result": "yenilgi",
+            "note": "Üç gün süren savaşta Karakoyunlu ordusu bozguna uğradı."
+          },
+          {
+            "name": "Selmâs Savaşı",
+            "when": "1429",
+            "foe": "Timurlular (Şâhruh)",
+            "result": "yenilgi",
+            "note": "Karakoyunlular üstün Çağatay ordusu karşısında dağıldı."
+          },
+          {
+            "name": "Akkoyunlulara karşı savaş",
+            "when": "1435",
+            "foe": "Akkoyunlular (Karayülük Osman)",
+            "result": "zafer",
+            "note": "Karayülük Osman yaralı olarak çekildiği Erzurum Kalesi'nde öldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          },
+          {
+            "title": "Kültür Portalı, Karakoyunlu Devleti",
+            "url": "https://kulturportali.gov.tr/portal/karakoyunlu-devleti"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-ebu-said",
+        "name": "Ebû Said",
+        "aliases": [],
+        "title": "emir",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1430,
+        "deathNote": "1430'da (833) İskender Mirza tarafından ortadan kaldırıldı.",
+        "reign": [
+          1430,
+          1430
+        ],
+        "reignNote": "Timurlular eliyle getirilen kısa süreli emirlik.",
+        "claim": true,
+        "summary": "Kara Yusuf'un en küçük oğlu. 1429 Selmâs yenilgisinden sonra Şâhruh tarafından Azerbaycan emirliğine getirildi; ancak İskender Mirza onu ortadan kaldırıp bölgeye yeniden hâkim oldu.",
+        "traits": [
+          "Timurlu tâbi"
+        ],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
@@ -233,28 +1281,29 @@
           "Cihânşah",
           "Hakîkî"
         ],
-        "title": "Sultan / Hakîkî",
+        "title": "sultan",
         "birth": 1397,
-        "birthNote": "Mardin civarında 1397'de doğdu",
+        "birthNote": "Mardin'de dünyaya geldiği belirtilir; kesin doğum yılı tartışmalı (yaklaşık 1397).",
         "death": 1467,
-        "deathNote": "Çapakçur ovasında Uzun Hasan'ın baskınında şehit edildi",
+        "deathNote": "Bingöl ile Kiğı arasındaki Sancak mevkiinde Uzun Hasan'ın baskınında bir Akkoyunlu askeri tarafından öldürüldü (10 Kasım 1467).",
         "reign": [
           1438,
           1467
         ],
-        "reignNote": "29 yıllık medeniyet ve şiir çağı.",
-        "summary": "Kara Yusuf'un oğlu. Karakoyunluların en parlak hükümdarı ve büyük divan şairi. Gürcistan'ı, Fars'ı ve Bağdat'ı fethetti; Herat'a kadar girerek Timurluları haraca bağladı. Tebriz'de Gök Mescid'i yaptırdı. 1467'de Uzun Hasan'ın sabah baskınında şehit oldu.",
+        "reignNote": "Karakoyunluların en parlak dönemi.",
+        "claim": false,
+        "summary": "Kara Yusuf'un dördüncü oğlu. Karakoyunluların son büyük hükümdarı ve 'Hakîkî' mahlaslı divan şairi. Gürcistan'ı, Fars'ı ve Bağdat'ı fethetti; Timurlulara karşı Fars ve Kirman'ı aldı, imparatorluk kurdu. Tebriz'de Gökmedrese'yi (Muzafferiye) yaptırdı. 1467'de Uzun Hasan'ın baskınında öldü.",
         "traits": [
-          "Büyük divan şairi",
-          "Sanat ve mimari hamisi",
-          "Cihangir"
+          "büyük divan şairi",
+          "sanat ve mimari hamisi",
+          "cihangir"
         ],
-        "contribution": "Tebriz Gök Mescid'i inşa ettirdi; Azerbaycan Türkçesini saray ve edebiyat dili yaptı.",
-        "harm": "Akkoyunluların gücünü küçümseyip kış şartlarında tedbirsiz ordugâh kurması felaketine yol açtı.",
+        "contribution": "Tebriz Gökmescid'i (Muzafferiye Külliyesi) yaptırdı; Azerbaycan Türkçesini saray ve edebiyat dili yaptı.",
+        "harm": "Akkoyunluların gücünü küçümseyip tedbirsiz ordugâh kurması felaketine yol açtı.",
         "wives": [
           {
             "name": "Can Begüm Hatun",
-            "note": "Gök Mescid vakfiyesini tanzim eden eşi",
+            "note": "Muzafferiye Külliyesi'ni yaptıran eşi",
             "certainty": "kesin"
           }
         ],
@@ -266,35 +1315,290 @@
             "certainty": "kesin"
           },
           {
-            "name": "Pir Budak",
+            "name": "Pîr Budak",
             "mother": "",
-            "note": "Bağdat valisi, babasına isyan etti",
+            "note": "Fars ve Bağdat valisi, babasına isyan etti",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammedî (Mehdî)",
+            "mother": "",
+            "note": "Sancak baskınında esir düştü",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Ebû Yûsuf",
+            "mother": "",
+            "note": "Sancak baskınında esir düştü",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Yûsuf Mirza",
+            "mother": "",
+            "note": "Sonradan Fars'ta hükümdar ilân edildi",
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
+          {
+            "name": "Gürcistan Seferi",
+            "when": "1440",
+            "foe": "Gürcistan Krallığı",
+            "result": "zafer",
+            "note": "Tiflis alındı."
+          },
           {
             "name": "Bağdat Seferi",
             "when": "1446",
-            "foe": "Kardeşi İsbend'in varisleri",
+            "foe": "İsfend (İsfahan Mirza) varisleri",
             "result": "zafer",
-            "note": "Bağdat zaptedildi."
+            "note": "Şehir zaptedildi ve üç gün yağmalandı."
           },
           {
-            "name": "Çapakçur Muharebesi",
+            "name": "Mardin Savaşı",
+            "when": "1457",
+            "foe": "Akkoyunlular (Uzun Hasan)",
+            "result": "yenilgi",
+            "note": "Rüstem Tarhan kumandasındaki ordu Âmid önünde bozguna uğradı."
+          },
+          {
+            "name": "Çapakçur (Sancak) Baskını",
             "when": "1467",
             "foe": "Akkoyunlular (Uzun Hasan)",
             "result": "yenilgi",
-            "note": "Kar örtüsü altında yapılan baskında ordusu dağıldı, Cihan Şah öldürüldü."
+            "note": "Kar örtüsü altında yapılan baskında ordu dağıldı, Cihan Şah öldürüldü."
           }
         ],
         "legends": [
-          "'Hakîkî' mahlasıyla yazdığı Türkçe gazeller Azerbaycan ve Türk edebiyatının en lirik örnekleri arasında yer alır."
+          "'Hakîkî' mahlasıyla yazdığı Türkçe gazeller Azerbaycan ve Türk edebiyatının en lirik örnekleri arasında yer alır; divanında seksen yedi Türkçe gazel ve otuz iki Türkçe rubâî bulunur."
         ],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, CİHAN ŞAH",
-            "url": "https://islamansiklopedisi.org.tr/cihansah"
+            "url": "https://islamansiklopedisi.org.tr/cihan-sah"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-hasan-ali",
+        "name": "Hasan Ali",
+        "aliases": [],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "Nisan 1469'da (Şevval 873) Hemedan civarında Uğurlu Mehmed tarafından yenilip öldürüldü; bir rivayete göre yakalanacağını anlayınca intihar etti.",
+        "reign": [
+          1467,
+          1469
+        ],
+        "reignNote": "Devletin fiilen son hükümdarı.",
+        "claim": false,
+        "summary": "Cihan Şah'ın oğlu. Babasının ölümü üzerine Mâkû Kalesi hapishanesinden çıkarılıp tahta çıkarıldı; tahtı teslim eden üvey annesi Can Begüm ile kardeşlerini öldürttü. 1468'de Uzun Hasan'a yenildi ve Karamanlı kabilesine sığındı; 1469'da Hemedan civarında Uğurlu Mehmed'e yenilip öldürüldü.",
+        "traits": [
+          "gözü kara",
+          "acımasız"
+        ],
+        "contribution": "",
+        "harm": "Kendisini tahta çıkaran Can Begüm'ü ve kardeşlerini öldürterek hanedanı zayıflattı.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Akkoyunlulara karşı savaş",
+            "when": "1468",
+            "foe": "Akkoyunlular (Uzun Hasan)",
+            "result": "yenilgi",
+            "note": "Kalabalık Karakoyunlu ordusu Akkoyunlu ordusu karşısında dağıldı."
+          },
+          {
+            "name": "Hemedan Savaşı",
+            "when": "1469",
+            "foe": "Akkoyunlular (Uğurlu Mehmed)",
+            "result": "yenilgi",
+            "note": "Hasan Ali yenildi, esir alındı ve öldürüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          },
+          {
+            "title": "TDV İslâm Ansiklopedisi, CİHAN ŞAH",
+            "url": "https://islamansiklopedisi.org.tr/cihan-sah"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-huseyin-ali",
+        "name": "Hüseyin Ali (İskender oğlu)",
+        "aliases": [],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1467,
+        "deathNote": "Cihan Şah'ın ölümünden hemen sonra Can Begüm'ün gönderdiği kardeşi Kasım tarafından öldürüldü.",
+        "reign": [
+          1467,
+          1467
+        ],
+        "reignNote": "Tebriz'de birkaç gün süren hükümdarlık ilanı.",
+        "claim": true,
+        "summary": "İskender Bey'in oğlu. Cihan Şah'ın ölümü üzerine kız kardeşleri Ârâyiş ile Şah Saray tarafından Tebriz'de hükümdar ilân edildi; Cihan Şah'ın karısı Can Begüm'ün gönderdiği kardeşi Kasım tarafından öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [
+          "Kız kardeşleri Ârâyiş ve Şah Saray şairdi."
+        ],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-yusuf-mirza",
+        "name": "Yûsuf Mirza",
+        "aliases": [],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "1469'da Akkoyunlu şehzadesi Uğurlu Mehmed tarafından yenilerek öldürüldü.",
+        "reign": [
+          1469,
+          1469
+        ],
+        "reignNote": "Baharlı beyleri tarafından ilân edilen kısa süreli hükümdarlık.",
+        "claim": true,
+        "summary": "Cihan Şah'ın oğlu. Uzun Hasan tarafından gözlerine mil çekildi. 1469'da Baharlı kabilesi beyleri tarafından Fars'ta hükümdar ilân edildi; Akkoyunlu şehzadesi Uğurlu Mehmed tarafından yenilerek öldürüldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Fars Savunması",
+            "when": "1469",
+            "foe": "Akkoyunlular (Uğurlu Mehmed)",
+            "result": "yenilgi",
+            "note": "Yûsuf Mirza yenilerek öldürüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-bagdat-huseyin-ali",
+        "name": "Hüseyin Ali (Zeynel oğlu)",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "Yaklaşık dokuz aylık beylikten sonra 1469'da öldü.",
+        "reign": [
+          1469,
+          1469
+        ],
+        "reignNote": "Karakoyunluların Bağdat kolu.",
+        "claim": false,
+        "summary": "Karakoyunlu hânedanından Zeynel'in oğlu. Cihan Şah'ın Bağdat valisi Alpavut Tuvacı Pîr Muhammed Bey'in vasiyeti üzerine beylik tahtına geçirildi; yaklaşık dokuz ay sonra öldü.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-sah-mansur",
+        "name": "Şah Mansûr",
+        "aliases": [],
+        "title": "bey",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "19 Aralık 1469'da (14 Cemâziyelâhir 874) yargılanıp ölüm cezasına çarptırıldı.",
+        "reign": [
+          1469,
+          1469
+        ],
+        "reignNote": "Yaklaşık iki aylık beylik.",
+        "claim": false,
+        "summary": "Hüseyin Ali'nin kardeşi ve Hille valisi. Kardeşinin ölümü üzerine beylik tahtına geçti; beyliği ancak iki ay sürdü. Bağdat'ı Uzun Hasan'ın oğlu Maksûd'a teslim ettikten sonra hakkındaki şikâyetler üzerine ölüm cezasına çarptırıldı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
+          }
+        ]
+      },
+      {
+        "id": "karakoyunlu-sah-ali",
+        "name": "Şah Ali",
+        "aliases": [],
+        "title": "sultan",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1469,
+        "deathNote": "Yakalanıp ölümle cezalandırıldı.",
+        "reign": [
+          1469,
+          1469
+        ],
+        "reignNote": "Bağdat kolunda kısa süreli sultanlık iddiası.",
+        "claim": true,
+        "summary": "İskender Bey'in oğlu. Hille valisi Kara Mûsâoğlu tarafından sultan ilân edildi; yakalanıp ölümle cezalandırıldı.",
+        "traits": [],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, KARAKOYUNLULAR",
+            "url": "https://islamansiklopedisi.org.tr/karakoyunlular"
           }
         ]
       }
@@ -340,35 +1644,36 @@
     ],
     "rulers": [
       {
-        "id": "safevi-sah-ismail",
+        "id": "safevi-ismail-i",
         "name": "Şah I. İsmail",
         "aliases": [
           "Şah İsmail",
           "Hatâî",
           "İsmail-i Safevî"
         ],
-        "title": "Şah / Hatâî",
+        "title": "şah",
         "birth": 1487,
         "birthNote": "1487'de Erdebil'de doğdu",
         "death": 1524,
-        "deathNote": "Serab yakınlarında 37 yaşında kederinden vefat etti, Erdebil'e defnedildi",
+        "deathNote": "1524'te Serab yakınlarında 37 yaşında vefat etti, Erdebil'e defnedildi",
         "reign": [
           1501,
           1524
         ],
-        "reignNote": "23 yıllık devrimci ve fırtınalı hükümdarlık.",
-        "summary": "Safevî Devleti'nin kurucusu. 14 yaşında Tebriz tahtına oturup İran'ı Şiileştirdi. Özbek Hanı Şeybânî'yi Merv'de mağlup etti. 'Hatâî' mahlasıyla hece ve aruzla yazdığı Türkçe şiirlerle edebiyat tarihine geçti. 1514 Çaldıran'da Yavuz'a yenildikten sonra matem tuttu.",
+        "reignNote": "",
+        "claim": false,
+        "summary": "Safevî Devleti'nin kurucusu ve ilk şahı. 1501'de Tebriz'de tahta çıkıp On İki İmam Şiiliğini devletin resmî mezhebi ilan etti; Akkoyunluları ve Özbekleri yendi. 1514 Çaldıran'da Yavuz Sultan Selim'e mağlup oldu. 'Hatâî' mahlasıyla Türkçe şiirler yazdı.",
         "traits": [
-          "Karizmatik mürşid-i kâmil",
-          "Büyük Türk şairi",
-          "Gözü pek süvari"
+          "karizmatik mürşid-i kâmil",
+          "Türkçe şiir",
+          "gözü pek süvari"
         ],
-        "contribution": "İran'da 235 yıl sürecek Safevî İmparatorluğu'nu kurdu; Türkçe divanıyla halk edebiyatını derinden etkiledi.",
-        "harm": "Sünnî halka ve Akkoyunlu hanedan mezarlarına yönelik katliamları ve mezhep taassubu İslam dünyasında asırlarca sürecek kanlı bir ayrışma başlattı.",
+        "contribution": "İran'da iki buçuk asır sürecek Safevî hanedanını kurdu; Türkçe divanı Alevi-Bektaşi edebiyatını derinden etkiledi.",
+        "harm": "Sünnî halka ve Akkoyunlu hanedan mezarlarına yönelik katliamlar; mezhep taassubu İslam dünyasında kalıcı bir ayrışma başlattı.",
         "wives": [
           {
             "name": "Taclı Bégüm",
-            "note": "Çaldıran'da esir düşen ünlü baş hatunu",
+            "note": "Çaldıran'da esir düşen baş hatunu",
             "certainty": "kesin"
           },
           {
@@ -381,7 +1686,7 @@
           {
             "name": "I. Tahmasb",
             "mother": "Taclı Bégüm",
-            "note": "İkinci şah, 52 yıl tahtta kaldı",
+            "note": "İkinci şah",
             "certainty": "kesin"
           },
           {
@@ -403,6 +1708,7 @@
             "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Şerûr Muharebesi",
@@ -423,11 +1729,11 @@
             "when": "1514",
             "foe": "Osmanlı Devleti (Yavuz Sultan Selim)",
             "result": "yenilgi",
-            "note": "Osmanlı topçu ve tüfek ateşiyle Kızılbaş süvarileri kırıldı, Tebriz Osmanlı eline geçti."
+            "note": "Osmanlı topçu ve tüfek ateşi Kızılbaş süvarilerini kırdı."
           }
         ],
         "legends": [
-          "Kılıcıyla tek vuruşta bir düşman askerinin zırhını ve atını ikiye böldüğü, Çaldıran'da Osmanlı topunun namlusunu kestiği rivayet edilir."
+          "Çaldıran'da bir Osmanlı topunun namlusunu kılıcıyla kestiği rivayet edilir."
         ],
         "sources": [
           {
@@ -437,31 +1743,201 @@
         ]
       },
       {
-        "id": "safevi-sah-abbas",
+        "id": "safevi-tahmasb-i",
+        "name": "Şah I. Tahmasb",
+        "aliases": [
+          "Tahmasb",
+          "I. Tahmasb"
+        ],
+        "title": "şah",
+        "birth": 1514,
+        "birthNote": "22 Şubat 1514'te İsfahan yakınlarındaki Şahâbâd'da doğdu",
+        "death": 1576,
+        "deathNote": "14 Mayıs 1576'da zehirlenerek öldü",
+        "reign": [
+          1524,
+          1576
+        ],
+        "reignNote": "Yaklaşık 52 yıl tahtta kaldı.",
+        "claim": false,
+        "summary": "Şah İsmail'in en büyük oğlu; on yaşında tahta çıktı. Saltanatının ilk yılları kızılbaş aşiretlerin iktidar mücadelesiyle geçti. Kanûnî Sultan Süleyman'ın Irakeyn ve Nahçıvan seferlerine karşı direndi; 1555 Amasya Antlaşması ile Osmanlılarla uzun süreli barış sağladı. Ca'ferîliği hâkim kılmaya çalıştı.",
+        "traits": [
+          "sabırlı ve temkinli",
+          "maliyede titiz",
+          "sofu dindar"
+        ],
+        "contribution": "Osmanlı ve Özbek saldırılarına rağmen devleti ayakta tuttu; Tebriz ve Meşhed surlarını onardı, Kazvin'de saray, cami ve hamam yaptırdı. Teẕkire adlı bir hatırat kaleme aldı.",
+        "harm": "Orduya on dört yıl maaş vermediği, savaşlar ve ağır vergiler yüzünden halkın hoşnutsuzluğunu artırdığı nakledilir.",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. İsmail",
+            "mother": "",
+            "note": "Şah olan oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Muhammed Hudâbende",
+            "mother": "",
+            "note": "Şah olan oğlu",
+            "certainty": "kesin"
+          },
+          {
+            "name": "Haydar Mirza",
+            "mother": "",
+            "note": "Kısa süre tahta çıkan, sonra öldürülen oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [
+          "Vefatında dokuz oğlu ile sekiz kızı hayattaydı; oğullarından Süleyman, Mahmûd, İmamkulu, Ali ve Ahmed II. İsmâil tarafından öldürtüldü."
+        ],
+        "wars": [
+          {
+            "name": "Rûdicâm Savaşı",
+            "when": "1528",
+            "foe": "Özbekler (Ubeydullah Han)",
+            "result": "zafer",
+            "note": "Horasan'da Özbek ilerleyişi durduruldu."
+          },
+          {
+            "name": "Irakeyn Seferi",
+            "when": "1534",
+            "foe": "Osmanlı Devleti (Kanûnî)",
+            "result": "yenilgi",
+            "note": "Tebriz ve Bağdat Osmanlı eline geçti; kışın erken bastırmasıyla Osmanlı ordusu çekildi."
+          },
+          {
+            "name": "Amasya Antlaşması",
+            "when": "1555",
+            "foe": "Osmanlı Devleti",
+            "result": "antlasma",
+            "note": "Azerbaycan Safevîler'de kaldı, Irak-ı Arab Osmanlı'da; yirmi yılı aşkın barış."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, TAHMASB",
+            "url": "https://islamansiklopedisi.org.tr/tahmasb"
+          }
+        ]
+      },
+      {
+        "id": "safevi-ismail-ii",
+        "name": "Şah II. İsmail",
+        "aliases": [
+          "İsmâil II"
+        ],
+        "title": "şah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1577,
+        "deathNote": "1577'de (985) öldü; zehir veya afyon kullanımından şüphelenilir",
+        "reign": [
+          1576,
+          1577
+        ],
+        "reignNote": "Yaklaşık bir yıllık saltanat.",
+        "claim": false,
+        "summary": "I. Tahmasb'ın oğlu. Kızılbaş beylerinin desteğiyle ağabeyi Haydar Mirza'yı devirip tahta çıktı. Sünnîliğe yakın bir siyaset güttüğü ve pek çok kardeşini öldürttüğü için kısa sürede beylerle çatıştı; bir yıl içinde öldü.",
+        "traits": [
+          "sert ve şüpheci",
+          "Sünnîlere meyilli"
+        ],
+        "contribution": "",
+        "harm": "Tahtını güvenceye almak için kardeşlerini ve Safevî şehzadelerini topluca öldürttü.",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, İSMÂİL II",
+            "url": "https://islamansiklopedisi.org.tr/ismail-ii"
+          }
+        ]
+      },
+      {
+        "id": "safevi-muhammed-hudabende",
+        "name": "Muhammed Hudâbende",
+        "aliases": [
+          "Hudâbende",
+          "Muhammed Mirza"
+        ],
+        "title": "şah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": null,
+        "deathNote": "kayıtlarda yok",
+        "reign": [
+          1578,
+          1587
+        ],
+        "reignNote": "TDV cülûsunu 985 (1578) verir; bazı kaynaklar 1577 der.",
+        "claim": false,
+        "summary": "I. Tahmasb'ın oğlu; II. İsmail'in ölümünden sonra kızılbaş emîrlerince tahta çıkarıldı. Zayıf iradeli, gözleri rahatsız bir hükümdardı; devlet Türkmen emîrleri arasındaki çekişmenin elinde kaldı. Osmanlılara karşı toprak kayıpları yaşandı, 1587'de oğlu Abbas lehine tahttan indirildi.",
+        "traits": [
+          "zayıf iradeli",
+          "yarı kör"
+        ],
+        "contribution": "Saltanatı sırasında hutbelerde ilk üç halifeye ve Hz. Âişe'ye lânet okunması geleneği yasaklandı.",
+        "harm": "Devlet otoritesinin çöküşü ve Özbek-Osmanlı saldırıları karşısında ülke büyük toprak ve prestij kaybetti.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Şah I. Abbas",
+            "mother": "",
+            "note": "Safevîlerin en büyük şahı",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Osmanlı-İran Savaşları",
+            "when": "1578-1590",
+            "foe": "Osmanlı Devleti",
+            "result": "yenilgi",
+            "note": "Azerbaycan ve Gürcistan'ın bir bölümü Osmanlılara geçti."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SAFEVÎLER",
+            "url": "https://islamansiklopedisi.org.tr/safeviler"
+          }
+        ]
+      },
+      {
+        "id": "safevi-abbas-i",
         "name": "Şah I. Abbas",
         "aliases": [
           "Büyük Abbas",
           "Şah Abbas"
         ],
-        "title": "Şah / Şehinşah",
+        "title": "şah",
         "birth": 1571,
-        "birthNote": "Herat'ta 1571'de doğdu",
+        "birthNote": "27 Ocak 1571'de Herat'ta doğdu",
         "death": 1629,
-        "deathNote": "Mazenderan'da Behşehr sarayında vefat etti",
+        "deathNote": "1629'da Mazenderan'da Behşehr sarayında vefat etti",
         "reign": [
           1587,
           1629
         ],
-        "reignNote": "42 yıllık muhteşem altın çağ.",
-        "summary": "Safevîlerin en büyük şahı. Ordusunu ateşli silahlarla modernleştirdi, başkenti İsfahan'a taşıyarak Nakş-ı Cihan Meydanı'nı kurdu. Osmanlılardan Tebriz ve Bağdat'ı geri aldı; İngilizlerin yardımıyla Portekizlileri Hürmüz Boğazı'ndan kovdu. İpek ticaretini devlet tekeline alıp Avrupa ile doğrudan ticaret başlattı.",
+        "reignNote": "",
+        "claim": false,
+        "summary": "Safevîlerin en büyük hükümdarı. Osmanlı örneğine göre ateşli silahlarla donanmış yeni bir ordu kurdu, kızılbaş emîrlerin nüfuzunu kırdı. Başkenti İsfahan'a taşıyıp Nakş-ı Cihan Meydanı'nı inşa ettirdi. Osmanlılardan Tebriz ve Bağdat'ı geri aldı, Portekizlileri Hürmüz'den çıkardı.",
         "traits": [
-          "Büyük reformcu",
-          "Askerî dahi",
-          "İmar hamisi",
-          "Şüpheci ve acımasız"
+          "büyük reformcu",
+          "askerî deha",
+          "imar hamisi",
+          "şüpheci ve acımasız"
         ],
-        "contribution": "İsfahan'ı dünyanın en gözde sanat ve ticaret metropolü yaptı; Safevî devletini zirveye taşıdı.",
-        "harm": "Aşırı şüpheciliği yüzünden kendi oğullarını idam ettirdi ve kör etti; tahtı tecrübesiz torununa bırakarak çöküşü hazırladı.",
+        "contribution": "İsfahan'ı dünyanın gözde sanat ve ticaret metropolü yaptı; devleti zirveye taşıdı.",
+        "harm": "Aşırı şüpheciliğiyle oğullarını öldürttü ve kör etti; tahtı tecrübesiz torununa bırakarak çöküşü hazırladı.",
         "wives": [],
         "children": [
           {
@@ -475,44 +1951,329 @@
             "mother": "",
             "note": "Gözleri kör edildi",
             "certainty": "kesin"
-          },
-          {
-            "name": "Rıza Kulu Mirza",
-            "mother": "",
-            "note": "Gözleri kör edildi",
-            "certainty": "kesin"
           }
         ],
+        "familyNotes": [],
         "wars": [
           {
             "name": "Tebriz ve Azerbaycan Seferi",
             "when": "1603",
-            "foe": "Osmanlı Devleti (Cigalazâde Sinan Paşa)",
+            "foe": "Osmanlı Devleti",
             "result": "zafer",
             "note": "Tebriz, Nahçıvan ve Erivan geri alındı."
           },
           {
             "name": "Bağdat'ın Zaptı",
             "when": "1624",
-            "foe": "Osmanlı Bağdat garnizonu",
+            "foe": "Osmanlı garnizonu",
             "result": "zafer",
             "note": "Irak ve kutsal türbeler Safevî eline geçti."
-          },
-          {
-            "name": "Hürmüz Seferi",
-            "when": "1622",
-            "foe": "Portekiz Krallığı",
-            "result": "zafer",
-            "note": "İngiliz donanması desteğiyle Portekiz kalesi fethedildi, Benderabbas limanı kuruldu."
           }
         ],
-        "legends": [
-          "'İsfahan nısf-ı cihanest' (İsfahan cihanın yarısıdır) darb-ı meseli onun inşa ettirdiği muazzam meydan ve saraylar için söylenmiştir."
-        ],
+        "legends": [],
         "sources": [
           {
             "title": "TDV İslâm Ansiklopedisi, ABBAS I",
             "url": "https://islamansiklopedisi.org.tr/abbas-i"
+          }
+        ]
+      },
+      {
+        "id": "safevi-safi-i",
+        "name": "Şah I. Safî",
+        "aliases": [
+          "Şah Safî",
+          "Sam Mirza",
+          "Safî I"
+        ],
+        "title": "şah",
+        "birth": 1611,
+        "birthNote": "TDV'ye göre 1642'de 31 yaşında öldüğüne bakılırsa 1611'de doğdu",
+        "death": 1642,
+        "deathNote": "12 Mayıs 1642'de beklenmedik şekilde öldü",
+        "reign": [
+          1629,
+          1642
+        ],
+        "reignNote": "",
+        "claim": false,
+        "summary": "I. Abbas'ın torunu (Safî Mirza'nın oğlu). Dedesinin şüpheci yönetimini sürdürüp devlet adamlarını ve şehzadeleri idam ettirdi. Azerbaycan'ı geri aldıysa da 1638'de Bağdat'ı kaybetti; 1639 Kasrışîrin Antlaşması ile Osmanlı-İran sınırı belirlendi.",
+        "traits": [
+          "acımasız",
+          "içine kapanık"
+        ],
+        "contribution": "Kasrışîrin Antlaşması ile uzun süreli bir barış döneminin temeli atıldı.",
+        "harm": "Acımasız tasfiyeleri ve toprak kayıpları, I. Abbas döneminde başlayan çöküşü hızlandırdı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. Abbas",
+            "mother": "",
+            "note": "Sonraki şah",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Bağdat'ın Kaybı",
+            "when": "1638",
+            "foe": "Osmanlı Devleti (IV. Murad)",
+            "result": "yenilgi",
+            "note": "Bağdat Osmanlıların eline geçti."
+          },
+          {
+            "name": "Kasrışîrin (Zühâb) Antlaşması",
+            "when": "1639",
+            "foe": "Osmanlı Devleti",
+            "result": "antlasma",
+            "note": "Bugünkü Türkiye-İran sınırının esası çizildi."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SAFEVÎLER",
+            "url": "https://islamansiklopedisi.org.tr/safeviler"
+          }
+        ]
+      },
+      {
+        "id": "safevi-abbas-ii",
+        "name": "Şah II. Abbas",
+        "aliases": [
+          "Abbas II",
+          "Muhammed Mirza"
+        ],
+        "title": "şah",
+        "birth": 1633,
+        "birthNote": "20 Aralık 1633'te Kazvin'de doğdu",
+        "death": 1666,
+        "deathNote": "26 Ekim 1666'da Damgan'da öldü, Kum kasabasına gömüldü",
+        "reign": [
+          1642,
+          1666
+        ],
+        "reignNote": "",
+        "claim": false,
+        "summary": "Şah Safî'nin oğlu; on yaşında tahta çıktı. Saltanatı genel olarak iç huzur ve refah dönemi oldu; Kasrışîrin barışını korudu, 1648'de Bâbürlülerden Kandehar'ı bizzat geri aldı. İpek ticareti gelişti; saraylar, köprüler ve köşklerle İsfahan'ı imara devam etti.",
+        "traits": [
+          "müsamahakâr",
+          "sanatsever",
+          "avcılığa ve eğlenceye düşkün"
+        ],
+        "contribution": "Kandehar'ı geri aldı; Hollanda ve Fransa ile ticari ilişkileri genişletti; İsfahan'ın imarını sürdürdü.",
+        "harm": "Aşırı içki ve eğlence düşkünlüğü sebebiyle devlet idaresinde gevşeme başladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Şah Süleyman",
+            "mother": "",
+            "note": "Safî Mirza, bir sonraki şah",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Kandehar Seferi",
+            "when": "1648",
+            "foe": "Bâbürlüler (Şah Cihan)",
+            "result": "zafer",
+            "note": "Kandehar geri alındı; Bâbürlü karşı taarruzları püskürtüldü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ABBAS II",
+            "url": "https://islamansiklopedisi.org.tr/abbas-ii"
+          }
+        ]
+      },
+      {
+        "id": "safevi-suleyman-i",
+        "name": "Şah I. Süleyman",
+        "aliases": [
+          "Şah Safî II",
+          "Safî Mirza",
+          "Süleyman I"
+        ],
+        "title": "şah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1694,
+        "deathNote": "1694'te (1105) İsfahan'da öldü",
+        "reign": [
+          1666,
+          1694
+        ],
+        "reignNote": "Önce Safî II adıyla tahta çıktı; uğursuzluk görüldüğünden 1668'de Şah Süleyman unvanıyla yeniden tahta oturtuldu.",
+        "claim": false,
+        "summary": "II. Abbas'ın oğlu; önce Safî II adıyla tahta çıktı, ardından uğursuzluk sebebiyle Süleyman adını aldı. Barışçı bir dış siyaset izledi, savaştan kaçındı; Hollandalıların Kişm adasını işgaline müzakereyle karşılık verdi. Ancak saray entrikaları ve zevk düşkünlüğü çöküş sürecini hızlandırdı.",
+        "traits": [
+          "içine kapanık",
+          "harem entrikalarına açık",
+          "zevk düşkünü"
+        ],
+        "contribution": "Dış savaşlardan uzak durarak ülkeyi uzun süreli barış içinde tuttu.",
+        "harm": "Devlet idaresini harem ağalarına ve vezirlere bıraktı; ordunun disiplini ve askerî güç çöktü.",
+        "wives": [],
+        "children": [
+          {
+            "name": "Sultan Hüseyin Mirza",
+            "mother": "",
+            "note": "Bir sonraki şah",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SAFEVÎLER",
+            "url": "https://islamansiklopedisi.org.tr/safeviler"
+          }
+        ]
+      },
+      {
+        "id": "safevi-huseyin-mirza",
+        "name": "Şah Sultan Hüseyin",
+        "aliases": [
+          "Hüseyin Mirza",
+          "Molla Hüseyin",
+          "Sultan Hüseyin Şah"
+        ],
+        "title": "şah",
+        "birth": 1668,
+        "birthNote": "TDV'ye göre 1668 veya 1669'da doğdu",
+        "death": 1726,
+        "deathNote": "1726'da (1139) Eşref Han tarafından İsfahan'da öldürüldü",
+        "reign": [
+          1694,
+          1722
+        ],
+        "reignNote": "1722'de İsfahan Afganlılar tarafından kuşatılınca tahttan feragat edip Mîr Mahmûd'a teslim oldu.",
+        "claim": false,
+        "summary": "Şah Süleyman'ın büyük oğlu. Mollaların ve Şeyhülislâm Meclisî'nin etkisi altında hüküm sürdü. Dindar kişiliği sebebiyle 'Molla Hüseyin' olarak anıldı. İsfahan 1722'de Afgan Mîr Mahmûd tarafından kuşatılınca teslim oldu; Safevî Devleti fiilen çöktü.",
+        "traits": [
+          "sofu dindar",
+          "zayıf iradeli",
+          "eğlenceye düşkün"
+        ],
+        "contribution": "Osmanlılarla iyi ilişkileri sürdürdü; 1697-98'de Basra'yı Arap isyancılardan kurtarıp Osmanlılara iade etti.",
+        "harm": "Devletin çöküşünü hazırladı; Sünnî Afgan aşiretlerinin isyanını bastıramadı ve başkent İsfahan'ın düşmesine yol açtı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "II. Tahmasb",
+            "mother": "",
+            "note": "Afgan işgali sırasında şahlığını ilan eden oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "Gülnâbâd Muharebesi",
+            "when": "1722",
+            "foe": "Gılzey Afganları (Mîr Mahmûd)",
+            "result": "yenilgi",
+            "note": "Safevî ordusu ağır hezimete uğradı; İsfahan kuşatıldı ve düştü."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, HÜSEYİN MİRZA",
+            "url": "https://islamansiklopedisi.org.tr/huseyin-mirza"
+          }
+        ]
+      },
+      {
+        "id": "safevi-tahmasb-ii",
+        "name": "Şah II. Tahmasb",
+        "aliases": [
+          "Tahmasb II"
+        ],
+        "title": "şah",
+        "birth": null,
+        "birthNote": "kayıtlarda yok",
+        "death": 1740,
+        "deathNote": "1740'ta Nâdir Şah'ın oğlu Rıza Kulu Mirza tarafından Sabzevar'da öldürüldü",
+        "reign": [
+          1722,
+          1732
+        ],
+        "reignNote": "1722'de Kazvin'de şahlığını ilan etti; 1732'de Nâdir Han tarafından tahttan indirildi.",
+        "claim": false,
+        "summary": "Sultan Hüseyin'in oğlu. 1722'de İsfahan düşmeden Kazvin'e kaçarak şahlığını ilan etti. Nâdir Han Avşar'ı ordusunun başına getirdi; Nâdir, Afganlıları İsfahan'dan çıkardı. Ancak Tahmasb'ın Osmanlılara karşı başarısız seferi bahane edilerek 1732'de Nâdir tarafından tahttan indirildi.",
+        "traits": [
+          "iradesiz",
+          "zevk ve sefaya düşkün"
+        ],
+        "contribution": "Afgan işgaline karşı Safevî direnişinin bayrağı oldu ve Nâdir'in yükselişine zemin hazırladı.",
+        "harm": "Osmanlılarla yaptığı 1732 antlaşmasıyla toprak kaybederek Nâdir'in darbesine zemin hazırladı.",
+        "wives": [],
+        "children": [
+          {
+            "name": "III. Abbas",
+            "mother": "",
+            "note": "Bebek yaşta tahta çıkarılan oğlu",
+            "certainty": "kesin"
+          }
+        ],
+        "familyNotes": [],
+        "wars": [
+          {
+            "name": "İran-Osmanlı Savaşı",
+            "when": "1731",
+            "foe": "Osmanlı Devleti",
+            "result": "yenilgi",
+            "note": "Tahmasb bizzat katıldığı seferde yenildi; Erivan ve Gürcistan Osmanlılarda kaldı."
+          }
+        ],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, SAFEVÎLER",
+            "url": "https://islamansiklopedisi.org.tr/safeviler"
+          }
+        ]
+      },
+      {
+        "id": "safevi-abbas-iii",
+        "name": "Şah III. Abbas",
+        "aliases": [
+          "Abbas III"
+        ],
+        "title": "şah",
+        "birth": 1732,
+        "birthNote": "1732'de doğdu",
+        "death": 1740,
+        "deathNote": "1740'ta babası II. Tahmasb ile birlikte öldürüldü",
+        "reign": [
+          1732,
+          1736
+        ],
+        "reignNote": "Bebek yaşta sembolik hükümdarlık; Nâdir Şah'ın 1736 Mugan kurultayında şahlığını ilan etmesiyle son buldu.",
+        "claim": false,
+        "summary": "II. Tahmasb'ın sekiz aylık oğlu. Nâdir Han Avşar tarafından babası devrildikten sonra sembolik olarak tahta çıkarıldı; Nâdir 'nâibü's-saltana' oldu. 1736'da Nâdir'in Mugan sahrasında şahlığını ilan etmesiyle tahttan indirildi; böylece Safevî Devleti resmen sona erdi.",
+        "traits": [
+          "sembolik çocuk hükümdar"
+        ],
+        "contribution": "",
+        "harm": "",
+        "wives": [],
+        "children": [],
+        "familyNotes": [],
+        "wars": [],
+        "legends": [],
+        "sources": [
+          {
+            "title": "TDV İslâm Ansiklopedisi, ABBAS III",
+            "url": "https://islamansiklopedisi.org.tr/abbas-iii"
           }
         ]
       }

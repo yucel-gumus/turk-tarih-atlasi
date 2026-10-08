@@ -244,158 +244,800 @@
       }
     ],
     "rulers": [
-      {
-        "id": "babur-imparatorlugu-babur",
-        "name": "Bâbür Şah",
-        "aliases": [
-          "Zahîrüddin Muhammed Bâbür"
-        ],
-        "title": "Padişah / Şehinşah",
-        "birth": 1483,
-        "birthNote": "1483'te Fergana'da Andican'da doğdu",
-        "death": 1530,
-        "deathNote": "Agra'da vefat etti, vasiyeti üzerine Kabil'deki Bâbür Bahçesi'ne defnedildi",
-        "reign": [
-          1526,
-          1530
-        ],
-        "reignNote": "1526'da Panipat ile Hindistan tahtını kurdu.",
-        "summary": "İmparatorluğun kurucusu, büyük fatih ve edebiyatçı. Fergana'dan sürülmesine rağmen Kabil'i ve ardından Hindistan'ı fethetti. Doğu Türkçesiyle yazdığı hatıratı Bâbürnâme, samimiyeti, coğrafi gözlemleri ve edebi zarafetiyle dünya edebiyatının şaheseridir.",
-        "traits": [
-          "Eşsiz edebiyatçı",
-          "Askerî teşkilatçı",
-          "Tabiat aşığı ve samimi"
-        ],
-        "contribution": "Hindistan'da 330 yıl sürecek muazzam bir Türk imparatorluğu kurdu; Bâbürnâme'yi Türk kültürüne kazandırdı.",
-        "harm": "Kayıtlarda belirgin bir zararı geçmez.",
-        "wives": [
-          {
-            "name": "Mâhım Begüm",
-            "note": "Hümâyun'un annesi, baş hatun",
-            "certainty": "kesin"
-          }
-        ],
-        "children": [
-          {
-            "name": "Hümâyun",
-            "mother": "Mâhım Begüm",
-            "note": "İkinci imparator",
-            "certainty": "kesin"
-          },
-          {
-            "name": "Kâmrân Mirza",
-            "mother": "",
-            "note": "Kabil valisi",
-            "certainty": "kesin"
-          },
-          {
-            "name": "Gülbeden Begüm",
-            "mother": "",
-            "note": "Hümâyunnâme yazarı ünlü prenses",
-            "certainty": "kesin"
-          }
-        ],
-        "wars": [
-          {
-            "name": "Panipat Meydan Muharebesi",
-            "when": "1526",
-            "foe": "Delhi Lûdî Sultanlığı (İbrâhim Lûdî)",
-            "result": "zafer",
-            "note": "Sayıca kat kat üstün Hint ordusu topçu ateşiyle bozguna uğratıldı, Delhi fethedildi."
-          },
-          {
-            "name": "Kanhua (Khanwa) Muharebesi",
-            "when": "1527",
-            "foe": "Racput Konfederasyonu (Rana Sanga)",
-            "result": "zafer",
-            "note": "Racput süvarileri imha edildi, Kuzey Hindistan hakimiyeti kesinleşti."
-          }
-        ],
-        "legends": [
-          "Oğlu Hümâyun ölümcül bir hastalığa yakalandığında yatağının etrafında üç kez dönüp 'Onun canını bana ver, ona şifa ihsan eyle' diye dua ettiği ve oğlunun iyileşip kendisinin hastalanarak vefat ettiği tarihi bir fedakarlık destanıdır."
-        ],
-        "sources": [
-          {
-            "title": "TDV İslâm Ansiklopedisi, BÂBÜR",
-            "url": "https://islamansiklopedisi.org.tr/babur"
-          }
-        ]
-      },
-      {
-        "id": "babur-imparatorlugu-sah-cihan",
-        "name": "Şah Cihan",
-        "aliases": [
-          "Şihâbüddin Muhammed Şah Cihan",
-          "Hurrem"
-        ],
-        "title": "Padişah / Sahipkıran",
-        "birth": 1592,
-        "birthNote": "1592'de Lahor'da doğdu",
-        "death": 1666,
-        "deathNote": "Agra Kalesi'nde mahpusken Tac Mahal'e bakarak vefat etti, Tac Mahal'dedir",
-        "reign": [
-          1628,
-          1658
-        ],
-        "reignNote": "30 yıllık mimarlık ve refah mucizesi.",
-        "summary": "Cihangir'in oğlu. İmparatorluğu iktisadi ve mimari zirvesine taşıdı. Erken yaşta kaybettiği eşi Mümtaz Mahal için 22 yılda 20 bin işçi ve mimarla Tac Mahal'i yaptırdı; Delhi'de Cuma Camii ve Şahcihanabad'ı kurdu. Oğlu Evrengzib tarafından tahttan indirilip Agra kalesine hapsedildi.",
-        "traits": [
-          "Büyük mimar hükümdar",
-          "Aşk ve sanat timsali",
-          "Estetik deha"
-        ],
-        "contribution": "Tac Mahal, Agra Kalesi, Delhi Moti Mescid gibi dünya harikalarını inşa ettirdi.",
-        "harm": "Devasa inşaat projeleri devlet hazinesini tüketti; oğulları arasında kanlı taht kavgasını engelleyemedi.",
-        "wives": [
-          {
-            "name": "Ercümend Bânû Begüm (Mümtaz Mahal)",
-            "note": "Adına Tac Mahal yaptırılan efsanevi eşi",
-            "certainty": "kesin"
-          }
-        ],
-        "children": [
-          {
-            "name": "Dârâ Şükûh",
-            "mother": "Mümtaz Mahal",
-            "note": "Âlim veliaht, Evrengzib tarafından katledildi",
-            "certainty": "kesin"
-          },
-          {
-            "name": "Evrengzib (Alemgîr)",
-            "mother": "Mümtaz Mahal",
-            "note": "İmparatorluğu devralan oğul",
-            "certainty": "kesin"
-          },
-          {
-            "name": "Cihanâra Begüm",
-            "mother": "Mümtaz Mahal",
-            "note": "Babasını hapiste yalnız bırakmayan vefakar kızı",
-            "certainty": "kesin"
-          }
-        ],
-        "wars": [
-          {
-            "name": "Dekken Seferleri",
-            "when": "1630-1636",
-            "foe": "Güney Hindistan Sultanlıkları (Ahmednagar, Bicapur)",
-            "result": "zafer",
-            "note": "Dekken bölgesi haraca bağlandı."
-          }
-        ],
-        "legends": [
-          "Ömrünün son sekiz yılını Agra Kalesi'nin zindanında pencereden Yamuna nehri kıyısındaki Tac Mahal'i seyrederek geçirdiği anlatılır."
-        ],
-        "sources": [
-          {
-            "title": "TDV İslâm Ansiklopedisi, ŞAH CİHAN",
-            "url": "https://islamansiklopedisi.org.tr/sah-cihan"
-          },
-          {
-            "title": "TDV İslâm Ansiklopedisi, TAC MAHAL",
-            "url": "https://islamansiklopedisi.org.tr/tac-mahal"
-          }
-        ]
-      }
+  {
+    "id": "babur-imparatorlugu-babur",
+    "name": "Bâbür Şah",
+    "aliases": ["Zahîrüddin Muhammed Bâbür"],
+    "title": "Padişah / Şehinşah",
+    "birth": 1483,
+    "birthNote": "1483'te Fergana'da Andican'da doğdu",
+    "death": 1530,
+    "deathNote": "Agra'da vefat etti, vasiyeti üzerine Kabil'deki Bâbür Bahçesi'ne defnedildi",
+    "reign": [1526, 1530],
+    "reignNote": "1526'da Panipat ile Hindistan tahtını kurdu.",
+    "summary": "İmparatorluğun kurucusu, büyük fatih ve edebiyatçı. Fergana'dan sürülmesine rağmen Kabil'i ve ardından Hindistan'ı fethetti. Doğu Türkçesiyle yazdığı hatıratı Bâbürnâme, samimiyeti, coğrafi gözlemleri ve edebi zarafetiyle dünya edebiyatının şaheseridir.",
+    "traits": ["Eşsiz edebiyatçı", "Askerî teşkilatçı", "Tabiat aşığı ve samimi"],
+    "contribution": "Hindistan'da 330 yıl sürecek muazzam bir Türk imparatorluğu kurdu; Bâbürnâme'yi Türk kültürüne kazandırdı.",
+    "harm": "Kayıtlarda belirgin bir zararı geçmez.",
+    "wives": [
+      {"name": "Mâhım Begüm", "note": "Hümâyun'un annesi, baş hatun", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Hümâyun", "mother": "Mâhım Begüm", "note": "İkinci imparator", "certainty": "kesin"},
+      {"name": "Kâmrân Mirza", "mother": "", "note": "Kabil valisi", "certainty": "kesin"},
+      {"name": "Gülbeden Begüm", "mother": "", "note": "Hümâyunnâme yazarı ünlü prenses", "certainty": "kesin"}
+    ],
+    "wars": [
+      {"name": "Panipat Meydan Muharebesi", "when": "1526", "foe": "Delhi Lûdî Sultanlığı (İbrâhim Lûdî)", "result": "zafer", "note": "Sayıca kat kat üstün Hint ordusu topçu ateşiyle bozguna uğratıldı, Delhi fethedildi."},
+      {"name": "Kanhua (Khanwa) Muharebesi", "when": "1527", "foe": "Racput Konfederasyonu (Rana Sanga)", "result": "zafer", "note": "Racput süvarileri imha edildi, Kuzey Hindistan hakimiyeti kesinleşti."}
+    ],
+    "legends": ["Oğlu Hümâyun ölümcül bir hastalığa yakalandığında yatağının etrafında üç kez dönüp 'Onun canını bana ver, ona şifa ihsan eyle' diye dua ettiği ve oğlunun iyileşip kendisinin hastalanarak vefat ettiği tarihi bir fedakarlık destanıdır."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜR", "url": "https://islamansiklopedisi.org.tr/babur"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-humayun",
+    "name": "Nasîrüddin Hümâyun",
+    "aliases": ["Hümâyun Şah", "Nasîrüddin Muhammed"],
+    "title": "Padişah",
+    "birth": 1508,
+    "birthNote": "6 Mart 1508'de Kâbil'de doğdu",
+    "death": 1556,
+    "deathNote": "28 Ocak 1556'da Delhi'de kütüphane merdivenlerinden düşerek vefat etti",
+    "reign": [1530, 1556],
+    "reignNote": "İlk saltanatı 1530-1540; Şîr Şah Sûrî'ye yenilip İran'a sığındı. Safevî desteğiyle 1555'te tahtı geri aldı.",
+    "claim": false,
+    "summary": "Bâbür'ün oğlu ve ikinci hükümdar. Şîr Şah Sûrî karşısında tahtını kaybederek 15 yıl Safevî Devleti'nde sürgünde yaşadı; Şah I. Tahmasb'ın desteğiyle 1555'te Delhi'yi yeniden fethetti ancak birkaç ay sonra kazaen öldü.",
+    "traits": ["Astronomiye ve ilme meraklı", "Sebatkar", "Hoşgörülü"],
+    "contribution": "Hanedanın Hindistan'daki hakimiyetini sürgünden dönerek yeniden tesis etti; Safevî sarayından getirdiği minyatür ustalarıyla Bâbürlü sanat ekolünü başlattı.",
+    "harm": "Kardeşleriyle çekişmeleri ve kararsızlığı nedeniyle devleti 15 yıl Sûrîler'e kaptırdı.",
+    "wives": [
+      {"name": "Hamîde Bânû Begüm", "note": "Ekber Şah'ın annesi", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Ekber Şah", "mother": "Hamîde Bânû Begüm", "note": "Üçüncü imparator", "certainty": "kesin"},
+      {"name": "Mirza Muhammed Hakîm", "mother": "", "note": "Kabil valisi", "certainty": "kesin"}
+    ],
+    "familyNotes": ["Kardeşleri Kâmrân, Askerî ve Hindal mirzalarla taht mücadelesi yaşadı."],
+    "wars": [
+      {"name": "Çavsa Muharebesi", "when": "1539", "foe": "Sûrî Devleti (Şîr Şah)", "result": "yenilgi", "note": "Gece baskınıyla Bâbür ordusu ağır hezimete uğradı."},
+      {"name": "Kannevc (Bilgram) Muharebesi", "when": "1540", "foe": "Sûrî Devleti (Şîr Şah)", "result": "yenilgi", "note": "Bâbürlüler Agra ve Delhi'yi kaybederek Hindistan'dan sürüldü."},
+      {"name": "Sirhind Muharebesi", "when": "1555", "foe": "Sûrî Devleti (İskender Şah Sûrî)", "result": "zafer", "note": "Delhi ve Agra geri alınarak Bâbür devleti yeniden kuruldu."}
+    ],
+    "legends": ["Ölümü, ezan sesini duyunca kütüphane merdivenlerinde diz çökmeye çalışırken cübbesine basıp düşmesiyle anlatılır."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, HÜMÂYUN", "url": "https://islamansiklopedisi.org.tr/humayun--baburlu"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-ekber",
+    "name": "Celâleddin Ekber Şah",
+    "aliases": ["Büyük Ekber", "Ekber-i Âzam"],
+    "title": "Padişah / Şehinşah",
+    "birth": 1542,
+    "birthNote": "14 Ekim 1542'de Sind'deki Ömerkût Kalesi'nde doğdu",
+    "death": 1605,
+    "deathNote": "27 Ekim 1605'te Agra'da dizanteriden vefat etti; Sikandra'daki türbesindedir",
+    "reign": [1556, 1605],
+    "reignNote": "13 yaşında tahta geçti; atalığı Bayram Han'ın vesayetinden sonra idareyi bizzat üstlendi.",
+    "claim": false,
+    "summary": "İmparatorluğun gerçek teşkilatçısı ve en büyük hükümdarı. Hindistan alt kıtasının büyük kısmını fethetti, mansabdarlık ve vergi reformlarıyla merkezi idareyi kurdu; farklı dinler arasında hoşgörü ortamı oluşturdu.",
+    "traits": ["Büyük teşkilatçı fatih", "Dini ve felsefi arayışlar sahibi", "Kuvvetli idareci"],
+    "contribution": "İmparatorluğu cihan devleti haline getirdi; mansabdarlık sistemini kurdu, Fetihpûr Sikri'yi inşa ettirdi.",
+    "harm": "Dîn-i İlâhî adlı senkretik inanç teşebbüsü geleneksel ulema ve muhafazakar kesimlerin tepkisini çekti.",
+    "wives": [
+      {"name": "Meryem ez-Zamânî (Harkha Bai)", "note": "Racput prensesi, Cihangir'in annesi", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Cihangir (Selim)", "mother": "Meryem ez-Zamânî", "note": "Dördüncü imparator", "certainty": "kesin"},
+      {"name": "Murad Mirza", "mother": "", "note": "Dekken valisi", "certainty": "kesin"},
+      {"name": "Dânyâl Mirza", "mother": "", "note": "Şehzade", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "II. Panipat Muharebesi", "when": "1556", "foe": "Hemu (Adil Şah Sûrî'nin veziri)", "result": "zafer", "note": "Hemu mağlup edildi, Delhi ve Agra Bâbürlü hakimiyetine kesin olarak bağlandı."},
+      {"name": "Çitor Kuşatması", "when": "1567-1568", "foe": "Mevar Racput Krallığı", "result": "zafer", "note": "Müstahkem Çitor Kalesi düşürüldü, Racputlar Bâbürlü üstünlüğünü tanıdı."},
+      {"name": "Haldighati Muharebesi", "when": "1576", "foe": "Mevar Racası Maharana Pratap", "result": "zafer", "note": "Bâbür ordusu komutanı Man Singh Racput direnişini kırdı."}
+    ],
+    "legends": ["Okuma yazma bilmemesine rağmen sarayında dev kütüphane kurup her gün kitap okuttuğu bilinir."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, EKBER ŞAH", "url": "https://islamansiklopedisi.org.tr/ekber-sah"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-cihangir",
+    "name": "Nûreddin Cihangir",
+    "aliases": ["Şehzade Selim", "Şeyhû Baba"],
+    "title": "Padişah / Nûreddin Cihangir Padişah Gāzî",
+    "birth": 1569,
+    "birthNote": "30 Ağustos 1569'da Fetihpûr Sikri'de doğdu",
+    "death": 1627,
+    "deathNote": "7 Kasım 1627'de Keşmir'den Lahor'a dönerken vefat etti; Lahor Şah Dârâ'daki türbesindedir",
+    "reign": [1605, 1627],
+    "reignNote": "Babasının vefatıyla tahta geçti.",
+    "claim": false,
+    "summary": "Ekber Şah'ın oğlu. Adalet zinciri (Zencîr-i Adl) uygulamasıyla halkın şikayetlerini bizzat dinledi; Farsça hatıratı Tüzük-i Cihângîrî ile tanınır. Saltanatının son döneminde idare büyük ölçüde eşi Nurcihan Begüm'ün eline geçti.",
+    "traits": ["Sanat ve tabiat aşığı", "Adalet timsali", "Hatırat yazarı"],
+    "contribution": "Minyatür ve bahçe sanatında altın çağı yaşattı; Şâlimâr Bahçeleri'ni kurdurdu.",
+    "harm": "Saltanatının sonlarında saray entrikalarını önleyemedi; oğulları Hüsrev ve Hürrem'in isyanları istikrarı sarstı.",
+    "wives": [
+      {"name": "Nurcihan Begüm (Mihrünnisâ)", "note": "Sarayda fiili iktidarı yöneten ünlü baş hatun", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Hüsrev Mirza", "mother": "", "note": "Babasına isyan edip hapsedildi", "certainty": "kesin"},
+      {"name": "Pervîz Mirza", "mother": "", "note": "Şehzade", "certainty": "kesin"},
+      {"name": "Şah Cihan (Hürrem)", "mother": "Manmati", "note": "Beşinci imparator", "certainty": "kesin"},
+      {"name": "Şehriyâr", "mother": "", "note": "Nurcihan'ın damadı", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Mevar Seferi", "when": "1615", "foe": "Mevar Racalığı (Amar Singh)", "result": "zafer", "note": "Şehzade Hürrem komutasında Racputlar barışa mecbur edildi."},
+      {"name": "Kandehar Kuşatması", "when": "1622", "foe": "Safevî Devleti (Şah Abbas)", "result": "yenilgi", "note": "Kandehar Safevîler'in eline geçti."}
+    ],
+    "legends": ["Sarayına bağlattığı altın çan ve adalet zinciriyle en sıradan tebaanın bile padişaha doğrudan ulaşabilmesini sağladığı meşhurdur."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, CİHANGİR", "url": "https://islamansiklopedisi.org.tr/cihangir"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-daver-bahs",
+    "name": "Dâver Bahş",
+    "aliases": ["Bûlâkī", "Dâver Bahş Bûlâkī"],
+    "title": "Padişah",
+    "birth": 1607,
+    "birthNote": "Hüsrev Mirza'nın oğlu",
+    "death": 1628,
+    "deathNote": "1628'de Lahor'da Şah Cihan'ın emriyle idam edildi (bazı rivayetlere göre İran'a kaçtı)",
+    "reign": [1627, 1628],
+    "reignNote": "Kasım 1627 - Ocak 1628 arası geçici taht sahibi ('kurbanlık koyun padişah').",
+    "claim": true,
+    "summary": "Cihangir'in torunu. Cihangir'in ölümü üzerine vezir Âsaf Han tarafından Şehriyâr'ın tahta geçmesini engellemek için geçici olarak tahta çıkarıldı; Şah Cihan Agra'ya ulaşınca tahttan indirildi.",
+    "traits": ["Geçici hükümdar", "Siyasi piyon"],
+    "contribution": "",
+    "harm": "Kısa süreli taht çekişmesine alet oldu.",
+    "wives": [],
+    "children": [],
+    "familyNotes": ["Cihangir'in isyankar oğlu Hüsrev Mirza'nın oğludur."],
+    "wars": [
+      {"name": "Lahor Çarpışması", "when": "1627", "foe": "Şehzade Şehriyâr taraftarları", "result": "zafer", "note": "Âsaf Han komutasındaki ordu Şehriyâr'ı yenilgiye uğrattı."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, ŞAH CİHAN", "url": "https://islamansiklopedisi.org.tr/sah-cihan"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-sah-cihan",
+    "name": "Şah Cihan",
+    "aliases": ["Şihâbüddin Muhammed Şah Cihan", "Hurrem"],
+    "title": "Padişah / Sahipkıran",
+    "birth": 1592,
+    "birthNote": "1592'de Lahor'da doğdu",
+    "death": 1666,
+    "deathNote": "Agra Kalesi'nde mahpusken Tac Mahal'e bakarak vefat etti, Tac Mahal'dedir",
+    "reign": [1628, 1658],
+    "reignNote": "30 yıllık mimarlık ve refah mucizesi.",
+    "summary": "Cihangir'in oğlu. İmparatorluğu iktisadi ve mimari zirvesine taşıdı. Erken yaşta kaybettiği eşi Mümtaz Mahal için 22 yılda 20 bin işçi ve mimarla Tac Mahal'i yaptırdı; Delhi'de Cuma Camii ve Şahcihanabad'ı kurdu. Oğlu Evrengzib tarafından tahttan indirilip Agra kalesine hapsedildi.",
+    "traits": ["Büyük mimar hükümdar", "Aşk ve sanat timsali", "Estetik deha"],
+    "contribution": "Tac Mahal, Agra Kalesi, Delhi Moti Mescid gibi dünya harikalarını inşa ettirdi.",
+    "harm": "Devasa inşaat projeleri devlet hazinesini tüketti; oğulları arasında kanlı taht kavgasını engelleyemedi.",
+    "wives": [
+      {"name": "Ercümend Bânû Begüm (Mümtaz Mahal)", "note": "Adına Tac Mahal yaptırılan efsanevi eşi", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Dârâ Şükûh", "mother": "Mümtaz Mahal", "note": "Âlim veliaht, Evrengzib tarafından katledildi", "certainty": "kesin"},
+      {"name": "Evrengzib (Alemgîr)", "mother": "Mümtaz Mahal", "note": "İmparatorluğu devralan oğul", "certainty": "kesin"},
+      {"name": "Cihanâra Begüm", "mother": "Mümtaz Mahal", "note": "Babasını hapiste yalnız bırakmayan vefakar kızı", "certainty": "kesin"}
+    ],
+    "wars": [
+      {"name": "Dekken Seferleri", "when": "1630-1636", "foe": "Güney Hindistan Sultanlıkları (Ahmednagar, Bicapur)", "result": "zafer", "note": "Dekken bölgesi haraca bağlandı."}
+    ],
+    "legends": ["Ömrünün son sekiz yılını Agra Kalesi'nin zindanında pencereden Yamuna nehri kıyısındaki Tac Mahal'i seyrederek geçirdiği anlatılır."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, ŞAH CİHAN", "url": "https://islamansiklopedisi.org.tr/sah-cihan"},
+      {"title": "TDV İslâm Ansiklopedisi, TAC MAHAL", "url": "https://islamansiklopedisi.org.tr/tac-mahal"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-murad-bahs",
+    "name": "Murad Bahş",
+    "aliases": ["Muhammed Murad Bahş"],
+    "title": "Padişah / Şehzade",
+    "birth": 1624,
+    "birthNote": "Şah Cihan ve Mümtaz Mahal'in en küçük oğlu",
+    "death": 1661,
+    "deathNote": "Gvaliyor Kalesi'nde Evrengzib'in emriyle kazaen katlettirildi",
+    "reign": [1657, 1658],
+    "reignNote": "1657'de Gucerât'ta kendi adına hutbe okutup sikke kestirdi; Evrengzib tarafından hapsedildi.",
+    "claim": true,
+    "summary": "Şah Cihan'ın oğlu. Babasının hastalığında Gucerât'ta padişahlığını ilan etti; Samugarh'ta Evrengzib ile ittifak kurup Dârâ Şükûh'u yendikten sonra Evrengzib tarafından tutuklandı ve Gvaliyor'da katledildi.",
+    "traits": ["Cesur cengaver", "Siyasette saf", "Hırslı"],
+    "contribution": "",
+    "harm": "Kardeş kavgasına katılarak imparatorluk iç savaşını derinleştirdi.",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Dharmat Muharebesi", "when": "1658", "foe": "İmparatorluk Ordusu (Raca Jaswant Singh)", "result": "zafer", "note": "Evrengzib ile birleşik kuvvetler imparatorluk ordusunu yendi."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, EVRENGZÎB", "url": "https://islamansiklopedisi.org.tr/evrengzib"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-sah-suca",
+    "name": "Şah Şücâ‘",
+    "aliases": ["Şehzade Şücâ"],
+    "title": "Padişah / Şehzade",
+    "birth": 1616,
+    "birthNote": "Şah Cihan ve Mümtaz Mahal'in ikinci oğlu",
+    "death": 1661,
+    "deathNote": "Arakan'da (Burma) yerel hükümdarla çatışmada öldürüldü",
+    "reign": [1657, 1658],
+    "reignNote": "Bengal'de kendini padişah ilan etti, sikke kestirdi.",
+    "claim": true,
+    "summary": "Şah Cihan'ın ikinci oğlu. Bengal valisiyken 1657'de hükümdarlığını ilan etti; Hacva Muharebesi'nde Evrengzib'e yenilip Arakan'a kaçtı ve orada hayatını kaybetti.",
+    "traits": ["Sanatsever", "Lüks düşkünü", "Hırslı"],
+    "contribution": "",
+    "harm": "Taht kavgasıyla devleti iç savaşa sürükledi.",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Bahadırpûr Muharebesi", "when": "1658", "foe": "Süleyman Şükûh kuvvetleri", "result": "yenilgi", "note": "Dârâ Şükûh'un oğlu tarafından yenilgiye uğratıldı."},
+      {"name": "Hacva Muharebesi", "when": "1659", "foe": "Evrengzib ordusu", "result": "yenilgi", "note": "Ağır yenilgi alıp Bengal ve oradan Arakan'a kaçtı."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, EVRENGZÎB", "url": "https://islamansiklopedisi.org.tr/evrengzib"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-evrengzib",
+    "name": "Muhyiddin Evrengzîb Âlemgîr",
+    "aliases": ["I. Âlemgîr", "Evrengzib Şah"],
+    "title": "Padişah / Âlemgîr Padişah Gāzî",
+    "birth": 1618,
+    "birthNote": "3 Kasım 1618'de Mâlvâ'da (Dhod) doğdu",
+    "death": 1707,
+    "deathNote": "3 Mart 1707'de Ahmednagar'da vefat etti; Huldâbâd'daki sade kabrindedir",
+    "reign": [1658, 1707],
+    "reignNote": "Kardeşlerini bertaraf edip babasını hapsederek 49 yıl hüküm sürdü.",
+    "claim": false,
+    "summary": "Bâbürlüler'in son büyük cihan padişahı. İmparatorluğun sınırlarını güneyde Dekken ve Tamil topraklarına kadar genişleterek en geniş coğrafyaya ulaştırdı; meşhur Hanefî fıkıh külliyatı el-Fetâvâ'l-Hindiyye'yi hazırlattı. Maratalar'la ömrünün son 25 yılını cephede geçirdi.",
+    "traits": ["Zahit ve dindar", "Askeri deha", "Tavizsiz idareci", "Çalışkan"],
+    "contribution": "İmparatorluğu alt kıtanın tamamına yaydı; Fetâvâ-yı Hindiyye'yi ilim dünyasına kazandırdı; Lahor Padişahî Camii'ni yaptırdı.",
+    "harm": "Cizye vergisini geri getirmesi ve Racputlar ile Şiî sultanlıkları ezmesi iç huzuru zedeledi; bitmek bilmeyen Marata savaşları hazineyi tüketti.",
+    "wives": [
+      {"name": "Dilras Bânû Begüm", "note": "Safevî prensesi, baş hatun", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "I. Bahadır Şah (Muazzam)", "mother": "Rahmetünnisâ Nevâb-Baî", "note": "Halefi", "certainty": "kesin"},
+      {"name": "Muhammed Âzam Şah", "mother": "Dilras Bânû Begüm", "note": "Kısa süre tahta geçti", "certainty": "kesin"},
+      {"name": "Muhammed Kâm Bahş", "mother": "", "note": "Bicapur'da hutbe okuttu", "certainty": "kesin"},
+      {"name": "Zîbünnisâ Begüm", "mother": "Dilras Bânû Begüm", "note": "Ünlü şair prenses", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Samugarh Muharebesi", "when": "1658", "foe": "Dârâ Şükûh ordusu", "result": "zafer", "note": "Taht verasetini belirleyen kesin zafer kazanıldı."},
+      {"name": "Bicapur Kuşatması", "when": "1685-1686", "foe": "Âdilşâhîler Hanedanı", "result": "zafer", "note": "Bicapur fethedildi ve Bâbürlü eyaleti yapıldı."},
+      {"name": "Gûlkünde Kuşatması", "when": "1687", "foe": "Kutubşâhîler Hanedanı", "result": "zafer", "note": "Sekiz aylık kuşatma sonrası kale fethedildi, hanedana son verildi."}
+    ],
+    "legends": ["Kendi geçimini bizzat el yazısıyla yazdığı Kur'an nüshalarını satarak ve takke örerek sağladığı rivayet edilir."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, EVRENGZÎB", "url": "https://islamansiklopedisi.org.tr/evrengzib"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-azam-sah",
+    "name": "Muhammed Âzam Şah",
+    "aliases": ["A‘zam Şah"],
+    "title": "Padişah",
+    "birth": 1653,
+    "birthNote": "Evrengzib'in oğlu",
+    "death": 1707,
+    "deathNote": "Cacav Muharebesi'nde savaş meydanında vefat etti",
+    "reign": [1707, 1707],
+    "reignNote": "Mart - Haziran 1707 arası yaklaşık 3 ay hükümdarlık sürdü.",
+    "claim": true,
+    "summary": "Evrengzib'in oğlu. Babasının ölümü üzerine tahta çıktıysa da kardeşi Şehzade Muazzam (I. Bahadır Şah) ile yaptığı Cacav Muharebesi'nde mağlup olup oğullarıyla birlikte hayatını kaybetti.",
+    "traits": ["Cesur asker", "Kısa süreli hükümdar"],
+    "contribution": "",
+    "harm": "Veraset savaşında devlet kuvvetlerinin kırılmasına yol açtı.",
+    "wives": [],
+    "children": [
+      {"name": "Bîdâr Baht", "mother": "", "note": "Babasıyla birlikte Cacav'da şehit düştü", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Cacav (Jajau) Muharebesi", "when": "1707", "foe": "I. Bahadır Şah (Muazzam)", "result": "yenilgi", "note": "Ağır yenilgiye uğrayarak tahtı kaybetti ve öldü."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, BAHADIR ŞAH I", "url": "https://islamansiklopedisi.org.tr/bahadir-sah-i"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-kam-bahs",
+    "name": "Muhammed Kâm Bahş",
+    "aliases": ["Kâm Bahş"],
+    "title": "Padişah / Pâdişâh-ı Dînpenâh",
+    "birth": 1667,
+    "birthNote": "Evrengzib'in en küçük oğlu",
+    "death": 1709,
+    "deathNote": "Haydarâbâd yakınlarında aldığı savaş yaralarıyla vefat etti",
+    "reign": [1707, 1709],
+    "reignNote": "Bicapur sûbedarı iken adına hutbe okutup para bastırdı.",
+    "claim": true,
+    "summary": "Evrengzib'in oğlu. Babasının vefatı sonrası Dekken'de bağımsızlığını ilan edip hutbe okuttu; I. Bahadır Şah ile Haydarâbâd yakınlarında yaptığı savaşta yaralanarak vefat etti.",
+    "traits": ["Hırslı şehzade", "Kısa ömürlü iddiacı"],
+    "contribution": "",
+    "harm": "Dekken bölgesinde kanlı taht kavgasını sürdürdü.",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Haydarâbâd Muharebesi", "when": "1709", "foe": "I. Bahadır Şah ordusu", "result": "yenilgi", "note": "Mağlup oldu ve aldığı yaralardan öldü."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, BAHADIR ŞAH I", "url": "https://islamansiklopedisi.org.tr/bahadir-sah-i"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-bahadir-sah-i",
+    "name": "I. Bahadır Şah",
+    "aliases": ["Şâh Âlem I", "Kutbüddin Muhammed Muazzam"],
+    "title": "Padişah / Şâh Âlem Bahâdır Şâh Gāzî",
+    "birth": 1643,
+    "birthNote": "14 Ekim 1643'te Burhânpûr'da doğdu",
+    "death": 1712,
+    "deathNote": "27 Şubat 1712'de Lahor'da vefat etti; Delhi Moti Mescid yanına defnedildi",
+    "reign": [1707, 1712],
+    "reignNote": "Kardeşleri Âzam ve Kâm Bahş'ı yenerek 63 yaşında tahta oturdu.",
+    "claim": false,
+    "summary": "Evrengzib'in oğlu. Babasının sert politikalarını yumuşatarak Racputlar ve Maratalar ile uzlaşma aradı; Pencap'ta isyan eden Sih lideri Banda Singh Bahadur üzerine bizzat sefere çıktı.",
+    "traits": ["Yumuşak huylu (Şâh-ı Bîhabar)", "Hafız ve alim", "Tecrübeli kumandan"],
+    "contribution": "İmparatorluk içinde uzlaşma siyaseti güttü; Sih isyanını bastırarak dağlık bölgelere püskürttü.",
+    "harm": "Aşırı cömertliği ve gevşek idaresi hazineyi tüketti, merkezi otoritenin zayıflamasını hızlandırdı.",
+    "wives": [
+      {"name": "Rahmetünnisâ", "note": "", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Cihandar Şah", "mother": "", "note": "Halefi", "certainty": "kesin"},
+      {"name": "Azîmüşşân", "mother": "", "note": "Ferruhsiyer'in babası", "certainty": "kesin"},
+      {"name": "Refîuşşân", "mother": "", "note": "Refîüdderecât'ın babası", "certainty": "kesin"},
+      {"name": "Cihan Şah", "mother": "", "note": "Muhammed Şah'ın babası", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Cacav Meydan Muharebesi", "when": "1707", "foe": "Muhammed Âzam Şah", "result": "zafer", "note": "Kardeşini yenerek imparatorluğunu ilan etti."},
+      {"name": "Lohgarh Kuşatması", "when": "1710", "foe": "Sihler (Banda Singh Bahadur)", "result": "zafer", "note": "Sih kalesi fethedildi, asiler dağlara sürüldü."}
+    ],
+    "legends": ["Devlet işlerine aşırı müsamahakar yaklaştığı için halk arasında 'Şâh-ı Bîhabar' (habersiz padişah) lakabıyla anılmıştır."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BAHADIR ŞAH I", "url": "https://islamansiklopedisi.org.tr/bahadir-sah-i"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-azimuth-san",
+    "name": "Azîmüşşân",
+    "aliases": ["Azîm-üş-Şân"],
+    "title": "Padişah / Şehzade",
+    "birth": 1664,
+    "birthNote": "I. Bahadır Şah'ın oğlu",
+    "death": 1712,
+    "deathNote": "Lahor yakınlarında Ravi nehrinde boğularak vefat etti",
+    "reign": [1712, 1712],
+    "reignNote": "Babasının ölümü üzerine taht ilan etti, kardeşlerinin ittifakıyla yenildi.",
+    "claim": true,
+    "summary": "I. Bahadır Şah'ın ikinci oğlu ve Ferruhsiyer'in babası. Bengal valiliği yaptı; babasının ölümü üzerine tahtın en güçlü varisiyken vezir Zülfikar Han ve üç kardeşinin ittifakıyla yenilerek Ravi nehrinde boğuldu.",
+    "traits": ["Dirayetli idareci", "Talihsiz veliaht"],
+    "contribution": "Bengal valiliği sırasında Kalküta'nın gelişmesine ve bölge ekonomisine katkı sağladı.",
+    "harm": "Taht kavgası imparatorluk ordusunun bölünmesine yol açtı.",
+    "wives": [],
+    "children": [
+      {"name": "Ferruhsiyer", "mother": "", "note": "Onuncu imparator", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Lahor Veraset Savaşı", "when": "1712", "foe": "Cihandar Şah ve kardeşler koalisyonu", "result": "yenilgi", "note": "Ordusu dağıldı, filinin vurulmasıyla Ravi nehrine düşüp boğuldu."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, CİHANDAR ŞAH", "url": "https://islamansiklopedisi.org.tr/cihandar-sah"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-cihandar-sah",
+    "name": "Muizzüddin Cihandar Şah",
+    "aliases": ["Cihandar Şah"],
+    "title": "Padişah / Ebü'l-Feth Muizzüddin Cihandar Şah",
+    "birth": 1661,
+    "birthNote": "1661'de Dekken'de doğdu",
+    "death": 1713,
+    "deathNote": "11 Şubat 1713'te Delhi Kalesi'nde Ferruhsiyer'in emriyle boğduruldu",
+    "reign": [1712, 1713],
+    "reignNote": "Zülfikar Han'ın desteğiyle 11 ay saltanat sürdü.",
+    "claim": false,
+    "summary": "I. Bahadır Şah'ın büyük oğlu. Vezir Zülfikar Han'ın desteğiyle kardeşlerini bertaraf edip tahta çıktı; zevk ve sefahate dalarak devleti vezirine ve metresi Lâl Künver'e bıraktı. Yeğeni Ferruhsiyer tarafından devrilip boğduruldu.",
+    "traits": ["Zevk ve eğlenceye düşkün", "Kukla hükümdar", "Zayıf iradeli"],
+    "contribution": "",
+    "harm": "Devlet hazinesini müsrifçe tüketti, asker maaşları ödenemedi, Bâbürlü itibarını ayaklar altına aldı.",
+    "wives": [
+      {"name": "Lâl Künver (İmtiyaz Mahal)", "note": "Rakkase kökenli nüfuzlu metresi/eşi", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "II. Âlemgîr (Azîzüddin)", "mother": "", "note": "Sonraki padişah", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Agra Muharebesi", "when": "1713", "foe": "Ferruhsiyer ve Barhe Seyyidleri", "result": "yenilgi", "note": "Ordusu dağıldı, Delhi'ye kaçtı ve esir alındı."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, CİHANDAR ŞAH", "url": "https://islamansiklopedisi.org.tr/cihandar-sah"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-ferruhsiyer",
+    "name": "Ferruhsiyer",
+    "aliases": ["Ebü'l-Muzaffer Muhammed Muînüddin Ferruhsiyer"],
+    "title": "Padişah",
+    "birth": 1683,
+    "birthNote": "11 Eylül 1683'te Evrengâbâd'da doğdu",
+    "death": 1719,
+    "deathNote": "19 Nisan 1719'da Delhi Kalesi'nde kör edildikten sonra Barhe Seyyidleri tarafından boğduruldu",
+    "reign": [1713, 1719],
+    "reignNote": "Barhe Seyyidleri'nin (Seyyid Kardeşler) desteğiyle tahta çıktı ve onların eliyle tahttan indirildi.",
+    "claim": false,
+    "summary": "Azîmüşşân'ın oğlu. 'Kral yapıcılar' olarak bilinen Barhe Seyyidleri (Abdullah Han ve Hüseyin Ali Han) sayesinde amcası Cihandar Şah'ı devirerek tahta oturdu. İngiliz Doğu Hindistan Şirketi'ne Bengal'de gümrüksüz ticaret fermanı (1717) verdi. Seyyidler'den kurtulmaya çalışırken gözlerine mil çekilip öldürüldü.",
+    "traits": ["Kararsız", "Korkak ve entrikacı", "Seyyidlerin kuklası"],
+    "contribution": "Sih lideri Banda Singh Bahadur'u yakalatıp idam ettirerek Pencap'ta sükuneti geçici olarak sağladı.",
+    "harm": "İngiliz Doğu Hindistan Şirketi'ne bahşettiği gümrüksüz ticaret imtiyazı İngiliz sömürgeciliğinin Hindistan'ı yutmasının kapısını açtı.",
+    "wives": [
+      {"name": "İndira Kanwar", "note": "Marvar Racput prensesi", "certainty": "kesin"}
+    ],
+    "children": [],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Gurdaspur Kuşatması", "when": "1715", "foe": "Sihler (Banda Singh Bahadur)", "result": "zafer", "note": "Sihler teslim alındı ve Delhi'de teşhir edilerek idam edildi."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, FERRUHSİYER", "url": "https://islamansiklopedisi.org.tr/ferruhsiyer"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-refiudderecat",
+    "name": "Şemseddin Refîüdderecât",
+    "aliases": ["Refîüdderecât"],
+    "title": "Padişah",
+    "birth": 1699,
+    "birthNote": "I. Bahadır Şah'ın torunu, Refîuşşân'ın oğlu",
+    "death": 1719,
+    "deathNote": "13 Haziran 1719'da Agra'da veremden (tüberküloz) vefat etti",
+    "reign": [1719, 1719],
+    "reignNote": "28 Şubat 1719 - 6 Haziran 1719 arası 3 ay 8 gün saltanat sürdü.",
+    "claim": false,
+    "summary": "Refîuşşân'ın oğlu. Barhe Seyyidleri tarafından Ferruhsiyer'in tahttan indirilmesi üzerine 20 yaşında kukla hükümdar olarak tahta çıkarıldı; ağır verem hastası olduğu için birkaç ay sonra tahttan feragat edip vefat etti.",
+    "traits": ["Hasta ve zayıf", "Kukla padişah"],
+    "contribution": "",
+    "harm": "Seyyid kardeşlerin mutlak diktatoryasına meşruiyet kılıfı oldu.",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, FERRUHSİYER", "url": "https://islamansiklopedisi.org.tr/ferruhsiyer"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-refiuddevle",
+    "name": "Refîüddevle II. Şah Cihan",
+    "aliases": ["II. Şah Cihan", "Şah Cihan-ı Sânî"],
+    "title": "Padişah",
+    "birth": 1696,
+    "birthNote": "Refîuşşân'ın oğlu, Refîüdderecât'ın ağabeyi",
+    "death": 1719,
+    "deathNote": "17 Eylül 1719'da Fetihpûr Sikri yakınında Bidyâpûr'da tüberkülozdan vefat etti",
+    "reign": [1719, 1719],
+    "reignNote": "6 Haziran 1719 - 17 Eylül 1719 arası yaklaşık 3 ay tahtta kaldı.",
+    "claim": false,
+    "summary": "Refîüdderecât'ın ağabeyi. Kardeşinin ölümü üzerine Seyyid Kardeşler tarafından tahta oturtuldu; saraydan dışarı çıkmasına dahi izin verilmeyen bir gölge hükümdar olarak birkaç ay sonra veremden öldü.",
+    "traits": ["Gölge hükümdar", "Ağır hasta"],
+    "contribution": "",
+    "harm": "",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-nikusiyer",
+    "name": "Nîkûsiyer",
+    "aliases": ["Muhammed Nîkûsiyer"],
+    "title": "Padişah / Şehzade",
+    "birth": 1679,
+    "birthNote": "Evrengzib'in isyankar oğlu Şehzade Muhammed Ekber'in oğlu",
+    "death": 1723,
+    "deathNote": "Delhi'de Selimkurt zindanında mahpusken vefat etti",
+    "reign": [1719, 1719],
+    "reignNote": "Mayıs - Ağustos 1719'da Agra Kalesi'nde isyancılarca tahta çıkarıldı.",
+    "claim": true,
+    "summary": "Evrengzib'in torunu. 1719 kargaşasında Agra garnizonu tarafından Barhe Seyyidleri'ne karşı tahta çıkarıldı; Seyyidler Agra Kalesi'ni kuşatarak kaleyi düşürdü, Nîkûsiyer esir edilip Delhi'ye hapsedildi.",
+    "traits": ["Talihsiz iddiacı", "Ömrü zindanda geçmiş şehzade"],
+    "contribution": "",
+    "harm": "",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Agra Kuşatması", "when": "1719", "foe": "Barhe Seyyidleri ordusu", "result": "yenilgi", "note": "Kale açlık sebebiyle teslim oldu, şehzade esir alındı."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-muhammed-sah",
+    "name": "Nâsırüddin Muhammed Şah",
+    "aliases": ["Rûşen-ahter", "Muhammed Şah Rangila"],
+    "title": "Padişah / Ebü'l-Feth Nâsırüddin Muhammed Şah",
+    "birth": 1702,
+    "birthNote": "1702'de Gazne'de doğdu; Cihan Şah'ın oğlu",
+    "death": 1748,
+    "deathNote": "16 Nisan 1748'de Delhi'de vefat etti; Nizâmeddin Evliyâ Türbesi yanındadır",
+    "reign": [1719, 1748],
+    "reignNote": "Seyyid Kardeşler'in vesayetini Nizamülmülk'ün yardımıyla kırarak 29 yıl hüküm sürdü.",
+    "claim": false,
+    "summary": "I. Bahadır Şah'ın torunu. Çın Kılıç Han (Nizamülmülk) ve Sadat Han'ın yardımıyla despot Barhe Seyyidleri'ni tasfiye etti; sanat ve musikiye düşkünlüğü sebebiyle 'Rangila' (zevk ehli) diye anıldı. Saltanatında 1739'da İran Şahı Nadir Şah Delhi'yi işgal edip yağmaladı ve meşhur Tavus Kuşu Tahtı ile Koh-i Noor elmasını alıp götürdü.",
+    "traits": ["Sanat ve musiki aşığı", "Zevk ve eğlence düşkünü", "Siyasette pasif"],
+    "contribution": "Hint klasik musikisi ve Urdu şiirinin sarayda himaye edilip gelişmesini sağladı.",
+    "harm": "Nadir Şah'ın 1739 Delhi istilasını ve katliamını engelleyemedi; imparatorluğun hazineleri yağmalandı, Haydarabad ve Bengal gibi eyaletler fiilen koptu.",
+    "wives": [
+      {"name": "Badşah Begüm", "note": "Ferruhsiyer'in kızı", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Ahmed Şah Bahadır", "mother": "Udam Bai", "note": "Halefi", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Karnal Muharebesi", "when": "1739", "foe": "Afşar İmparatorluğu (Nâdir Şah)", "result": "yenilgi", "note": "Bâbür ordusu birkaç saatte bozguna uğradı; Delhi işgal edildi."},
+      {"name": "Manupur Muharebesi", "when": "1748", "foe": "Dürrânîler (Ahmed Şah Dürrânî)", "result": "zafer", "note": "Veliaht Ahmed Şah komutasındaki ordu Afgan istilasını durdurdu."}
+    ],
+    "legends": ["Zevkine düşkünlüğü ve gamsız tavrı sebebiyle kendisine 'Rangila' (renkli/neşeli) lakabı takılmıştı."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, NÂDİR ŞAH", "url": "https://islamansiklopedisi.org.tr/nadir-sah--iran"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-ahmed-sah-bahadir",
+    "name": "Ahmed Şah Bahadır",
+    "aliases": ["Mücâhidüddin Ebû Nasr Ahmed Şah Bahadır"],
+    "title": "Padişah",
+    "birth": 1725,
+    "birthNote": "Delhi'de doğdu; Muhammed Şah ile dansçı kökenli Udam Bai'nin oğlu",
+    "death": 1775,
+    "deathNote": "1775'te Delhi'de Selimkurt zindanında kör ve mahpus olarak vefat etti",
+    "reign": [1748, 1754],
+    "reignNote": "Vezir Safder Ceng ve annesi Kudsiye Begüm'ün tesirinde 6 yıl tahtta kaldı.",
+    "claim": false,
+    "summary": "Muhammed Şah'ın oğlu. Tecrübesiz ve zayıf idaresi sırasında devlet yönetimi annesi Udam Bai ve harem ağası Câvid Han'ın eline geçti; Dürrânîler Pencap'ı istila etti. 1754'te vezir İmâdülmülk tarafından gözlerine mil çekilerek tahttan indirildi.",
+    "traits": ["Tecrübesiz", "Zevke düşkün", "Harem tesirinde"],
+    "contribution": "",
+    "harm": "Pencap Dürrânîler'e terk edildi, vezirlerin iç çekişmesiyle başkent Delhi yağmalandı.",
+    "wives": [],
+    "children": [
+      {"name": "Bîdâr Baht", "mother": "", "note": "1788'de kısa süre tahta çıkarılan şehzade", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Delhi İç Savaşı", "when": "1753", "foe": "Vezir Safder Ceng ile İmâdülmülk çekişmesi", "result": "sonucsuz", "note": "Başkent sokak çatışmalarıyla harabeye döndü."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-alemgir-ii",
+    "name": "Azîzüddin II. Âlemgîr",
+    "aliases": ["II. Âlemgîr"],
+    "title": "Padişah / Azîzüddin Âlemgîr-i Sânî",
+    "birth": 1699,
+    "birthNote": "Cihandar Şah'ın oğlu",
+    "death": 1759,
+    "deathNote": "29 Kasım 1759'da vezir İmâdülmülk tarafından Kotla Fîrûz Şah'ta suikastla öldürüldü",
+    "reign": [1754, 1759],
+    "reignNote": "Vezir İmâdülmülk Gāziddin'in vesayetinde 5 yıl hüküm sürdü.",
+    "claim": false,
+    "summary": "Cihandar Şah'ın oğlu. 55 yaşına kadar zindanda yaşadıktan sonra vezir İmâdülmülk tarafından kukla hükümdar yapıldı; saltanatı Dürrânîler ve Maratalar'ın Delhi'yi işgal ve yağmalarıyla geçti. Vezir İmâdülmülk tarafından bir komployla katledildi.",
+    "traits": ["Dindar ve zahit", "Siyaseten çaresiz", "Kukla padişah"],
+    "contribution": "",
+    "harm": "1757 Plassey Muharebesi ile Bengal İngiliz Doğu Hindistan Şirketi'nin fiili hakimiyetine girdi.",
+    "wives": [],
+    "children": [
+      {"name": "Şah Âlem II (Ali Cevher)", "mother": "", "note": "Halefi", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Delhi Kuşatması", "when": "1757", "foe": "Dürrânîler (Ahmed Şah Dürrânî)", "result": "yenilgi", "note": "Delhi Afganlar tarafından işgal ve yağma edildi."}
+    ],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-sah-cihan-iii",
+    "name": "III. Şah Cihan",
+    "aliases": ["Muhyîü'l-Millet"],
+    "title": "Padişah",
+    "birth": 1711,
+    "birthNote": "Evrengzib'in oğlu Kâm Bahş'ın torunu",
+    "death": 1772,
+    "deathNote": "Delhi'de vefat etti",
+    "reign": [1759, 1760],
+    "reignNote": "Aralık 1759 - Ekim 1760 arası yaklaşık 10 ay hüküm sürdü.",
+    "claim": true,
+    "summary": "Evrengzib'in torununun oğlu. Vezir İmâdülmülk tarafından II. Âlemgîr'in katlinden sonra tahta çıkarıldı; Sadashivrao Bhau komutasındaki Marata ordusu Delhi'yi ele geçirince tahttan indirildi ve yerine II. Şah Âlem getirildi.",
+    "traits": ["Geçici kukla", "Vezir piyonu"],
+    "contribution": "",
+    "harm": "",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-sah-alem-ii",
+    "name": "Celâleddin II. Şah Âlem",
+    "aliases": ["Ali Cevher", "Şâh Âlem-i Sânî"],
+    "title": "Padişah / Celâleddin Şâh Âlem Padişah",
+    "birth": 1728,
+    "birthNote": "25 Haziran 1728'de Delhi'de doğdu; II. Âlemgîr'in oğlu",
+    "death": 1806,
+    "deathNote": "19 Kasım 1806'da Delhi'de vefat etti; Mehdiyân Kabristanı'ndadır",
+    "reign": [1760, 1806],
+    "reignNote": "1788'de Gulam Kadir Rohilla tarafından tahttan indirilip gözleri kör edildi; kısa süre sonra Maratalar desteğiyle tekrar tahta oturdu.",
+    "claim": false,
+    "summary": "II. Âlemgîr'in oğlu. 1764 Baksar Muharebesi'ndeki yenilgi sonrası 1765 Allahabad Antlaşması ile Bengal, Bihar ve Orissa'nın divan (vergi toplama) hakkını İngiliz Doğu Hindistan Şirketi'ne devrederek İngiliz himayesini kabul etti. 1788'de Gulam Kadir tarafından gözleri kör edildi; 1803'te İngilizler Delhi'yi ele geçirince tamamen İngiliz maaşlı sembolik hükümdara dönüştü.",
+    "traits": ["Trajik hükümdar", "Şair (Aftab mahlasıyla)", "Talihsiz"],
+    "contribution": "Urdu edebiyatında şairliğiyle tanınır; Divan ve Acaibü'l-Kısas adlı eserleri yazdı.",
+    "harm": "Allahabad Antlaşması ile imparatorluğun en zengin vilayetlerinin egemenliğini İngilizler'e teslim etti; Bâbürlüler'i İngiliz vesayetine soktu.",
+    "wives": [],
+    "children": [
+      {"name": "II. Ekber Şah", "mother": "", "note": "Halefi", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "Baksar (Buxar) Muharebesi", "when": "1764", "foe": "İngiliz Doğu Hindistan Şirketi (Hector Munro)", "result": "yenilgi", "note": "Bengal Nevvabı ve Avadh Nevvabı ile birleşik Bâbür ordusu hezimete uğradı; Hindistan'ın kaderi değişti."},
+      {"name": "Delhi Kuşatması (Gulam Kadir İsyanı)", "when": "1788", "foe": "Rohilla Afganları (Gulam Kadir)", "result": "yenilgi", "note": "Saray yağmalandı, padişahın gözlerine mil çekildi."}
+    ],
+    "legends": ["Gözleri kör edildikten sonra 'Aftab' mahlasıyla yazdığı içli mersiyeler Urdu edebiyatının hüzün abideleridir."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-bidar-baht",
+    "name": "Bîdâr Baht",
+    "aliases": ["Cihancıhan Şah Bîdâr Baht"],
+    "title": "Padişah / Şehzade",
+    "birth": 1749,
+    "birthNote": "Ahmed Şah Bahadır'ın oğlu",
+    "death": 1790,
+    "deathNote": "1790'da Delhi'de öldürüldü",
+    "reign": [1788, 1788],
+    "reignNote": "Temmuz - Ekim 1788 arası Gulam Kadir tarafından tahta oturtuldu.",
+    "claim": true,
+    "summary": "Ahmed Şah Bahadır'ın oğlu. Delhi'yi basıp II. Şah Âlem'in gözlerini kör eden Rohilla lideri Gulam Kadir tarafından kukla padişah ilan edildi; Mahadji Shinde komutasındaki Maratalar Delhi'yi kurtarınca tahttan indirilip hapsedildi.",
+    "traits": ["Kukla hükümdar", "Entrika kurbanı"],
+    "contribution": "",
+    "harm": "",
+    "wives": [],
+    "children": [],
+    "familyNotes": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-ekber-sah-ii",
+    "name": "Muînüddin II. Ekber Şah",
+    "aliases": ["II. Ekber", "Ekber Şah-ı Sânî"],
+    "title": "Padişah / Muînüddin Muhammed Ekber Şah",
+    "birth": 1760,
+    "birthNote": "22 Nisan 1760'ta Mukundpur'da doğdu; II. Şah Âlem'in oğlu",
+    "death": 1837,
+    "deathNote": "28 Eylül 1837'de Delhi Kızıl Kale'de vefat etti; Mehdiyân Kabristanı'ndadır",
+    "reign": [1806, 1837],
+    "reignNote": "31 yıl boyunca İngiliz Doğu Hindistan Şirketi'nin denetiminde saltanat sürdü.",
+    "claim": false,
+    "summary": "II. Şah Âlem'in oğlu. Hükümranlığı yalnızca Delhi'deki Kızıl Kale surları içinde geçerli olan sembolik bir hükümdardı; İngiliz Doğu Hindistan Şirketi'nden emekli maaşı aldı. Ünlü Hint düşünürü Ram Mohan Roy'a 'Raca' unvanını verip maaşının artırılması ricasıyla Londra'ya elçi gönderdi.",
+    "traits": ["Sembolik hükümdar", "Kültür ve gelenek koruyucusu"],
+    "contribution": "Delhi'de Hindu ve Müslümanların birlikte kutladığı 'Phool Walon Ki Sair' festivalini başlattı.",
+    "harm": "Bâbürlü egemenliğinin tükenişine engel olamadı; İngilizler 1835'te sikkelerden Bâbür padişahının adını kaldırdı.",
+    "wives": [
+      {"name": "Lâl Bâî", "note": "II. Bahadır Şah'ın annesi", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "II. Bahadır Şah (Zafar)", "mother": "Lâl Bâî", "note": "Son imparator", "certainty": "kesin"},
+      {"name": "Mirza Cihangir", "mother": "", "note": "Şehzade", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [],
+    "legends": [],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"},
+      {"title": "TDV İslâm Ansiklopedisi, BAHADIR ŞAH II", "url": "https://islamansiklopedisi.org.tr/bahadir-sah-ii"}
+    ]
+  },
+  {
+    "id": "babur-imparatorlugu-bahadir-sah-ii",
+    "name": "Sirâceddin II. Bahadır Şah",
+    "aliases": ["Bahadır Şah Zafer", "II. Bahadır Şah"],
+    "title": "Padişah / Ebü'l-Muzaffer Sirâcüddin Muhammed Bahadır Şah Gāzî",
+    "birth": 1775,
+    "birthNote": "23 Ekim 1775'te Delhi'de doğdu; II. Ekber Şah'ın oğlu",
+    "death": 1862,
+    "deathNote": "6 Kasım 1862'de sürgünde bulunduğu Rangun'da (Burma) vefat etti ve oraya defnedildi",
+    "reign": [1837, 1858],
+    "reignNote": "1857 Sipahi İsyanı'nın ardından İngilizlerce tahttan indirilip Burma'ya sürüldü.",
+    "claim": false,
+    "summary": "Son Bâbürlü padişahı ve büyük Urdu şairi ('Zafer' mahlasıyla). 1857'de İngiliz sömürgeciliğine karşı patlak veren Büyük Hint İsyanı'nda (Sipahi Ayaklanması) isyancılar tarafından Hindistan İmparatoru ilan edildi; isyan kanlı şekilde bastırılınca oğulları gözleri önünde kurşuna dizildi, kendisi Rangun'a (Birmanya) sürgüne gönderilerek 332 yıllık Bâbür hanedanına son verildi.",
+    "traits": ["Usta Urdu şairi", "Hattat ve mutasavvıf", "Mirasın hüzünlü son şahidi"],
+    "contribution": "Urdu edebiyatına dört ciltlik divan kazandırdı; sarayında Gālib ve Zevk gibi devrin en büyük şairlerini himaye etti.",
+    "harm": "Askeri ve siyasi liderlik sergileyemedi; isyanın sevk ve idaresinde zayıf kaldı.",
+    "wives": [
+      {"name": "Zînet Mahal", "note": "En sevdiği eşi, sürgünde yanında bulundu", "certainty": "kesin"}
+    ],
+    "children": [
+      {"name": "Mirza Fethülmülk", "mother": "", "note": "Veliaht şehzade", "certainty": "kesin"},
+      {"name": "Mirza Mugal", "mother": "", "note": "1857 isyanında İngiliz Yüzbaşı Hodson tarafından kurşuna dizildi", "certainty": "kesin"},
+      {"name": "Mirza Hızır Sultan", "mother": "", "note": "İngilizlerce kurşuna dizildi", "certainty": "kesin"},
+      {"name": "Cevan Baht", "mother": "Zînet Mahal", "note": "Rangun sürgününe eşlik etti", "certainty": "kesin"}
+    ],
+    "familyNotes": [],
+    "wars": [
+      {"name": "1857 Hint Ayaklanması (Sipahi İsyanı / Delhi Kuşatması)", "when": "1857", "foe": "Büyük Britanya Doğu Hindistan Şirketi ordusu", "result": "yenilgi", "note": "Delhi düştü, Kızıl Kale işgal edildi, hanedan mensupları katledildi."}
+    ],
+    "legends": ["Sürgündeki mezar taşı için yazdığı 'İki arşın toprak bile nasip olmadı yârin diyarında' mısraı içeren gazeli dillerde destandır."],
+    "sources": [
+      {"title": "TDV İslâm Ansiklopedisi, BAHADIR ŞAH II", "url": "https://islamansiklopedisi.org.tr/bahadir-sah-ii"},
+      {"title": "TDV İslâm Ansiklopedisi, BÂBÜRLÜLER", "url": "https://islamansiklopedisi.org.tr/baburluler"}
+    ]
+  }
     ]
   },
   {
