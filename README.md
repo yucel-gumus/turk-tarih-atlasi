@@ -2,7 +2,7 @@
 
 Türkçe, kaynak bağlantılı bir tarih atlası. Devletler başlangıç ve bitiş yıllarına göre kronolojik şeritte gösterilir. Bölge süzgeçleri, devlet listesi ve tüm kayıtları kapsayan arama ile bir devletin, hükümdarın, savaşın veya kişi kaydının sayfasına gidilebilir.
 
-Atlasın kapsamı bugün **80 devlet, 713 hükümdar, 791 savaş, 190 eş kaydı ve 763 çocuk kaydıdır**. Ayrıca bir okuma rehberi vardır; devlet sayısına ve şeride girmez. Eş ve çocuk kartları yalnız tekil kişi kayıtlarıdır; kimliği belirlenemeyen topluluklar hükümdar sayfasındaki aile notlarında açıklanır ve bu sayılara katılmaz. Tekil bir kişinin adı bilinmiyorsa kayıtta bu belirsizlik gösterilir. Atlas, eksiksiz soy ağacı iddiasında bulunmaz.
+Atlasın kapsamı bugün **80 devlet, 713 hükümdar, 791 savaş kaydı, 190 eş kaydı ve 763 çocuk kaydıdır**. Ayrıca bir okuma rehberi vardır; devlet sayısına ve şeride girmez. Eş ve çocuk kartları yalnız tekil kişi kayıtlarıdır; kimliği belirlenemeyen topluluklar hükümdar sayfasındaki aile notlarında açıklanır ve bu sayılara katılmaz. Tekil bir kişinin adı bilinmiyorsa kayıtta bu belirsizlik gösterilir. Atlas, eksiksiz soy ağacı iddiasında bulunmaz.
 
 ## Çalıştırma
 

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { groupScreenMarkers } from '../lib/data/marker-groups';
+  import YearInput from '../components/ui/YearInput.svelte';
   import { clampAtlasYear } from '../lib/data/dates';
   import { onMount, onDestroy, tick } from 'svelte';
   import L from 'leaflet';
@@ -32,6 +34,28 @@
   const basemapController = new AbortController();
   let resizeObserver: ResizeObserver | null = null;
   let activeMarker = $state<GeoStateMarker | null>(null);
+  let selectedGroup = $state<GeoStateMarker[]>([]);
+  let cameraRevision = $state(0);
+  let listQuery = $state('');
+  const listGroups = $derived(DEVLET_REGIONS.map(region => ({ region, markers: filteredMarkers.filter(marker => marker.state.region === region.id && `${marker.state.name} ${marker.geo.capitalName}`.toLocaleLowerCase('tr').includes(listQuery.trim().toLocaleLowerCase('tr'))) })).filter(group => group.markers.length));
+  function revealMap() {
+    mapElement?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' });
+  }
+  async function selectMarker(marker: GeoStateMarker, move = false) {
+    activeMarker = marker;
+    selectedGroup = [];
+    if (move) {
+      map?.setView([marker.geo.lat, marker.geo.lon], 6);
+    }
+    revealMap();
+    await tick();
+    document.getElementById('map-state-title')?.focus({ preventScroll: true });
+  }
+  function zoomGroup() {
+    if (!map || !selectedGroup.length) return;
+    map.fitBounds(L.latLngBounds(selectedGroup.map(marker => [marker.geo.lat, marker.geo.lon])), { padding: [48, 48], maxZoom: 7, animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches });
+  }
+
 
   // Önemli dönüm noktası yılları
   const timePresets = [
@@ -60,53 +84,58 @@
     });
   });
 
+  function closeSelection() {
+    activeMarker = null;
+    selectedGroup = [];
+    map?.getContainer().focus({ preventScroll: true });
+  }
+
   function renderMarkers() {
     if (!map || !markersLayer) return;
 
     markersLayer.clearLayers();
 
-    for (const m of filteredMarkers) {
+    const groups = groupScreenMarkers(filteredMarkers, marker => map!.latLngToLayerPoint([marker.geo.lat, marker.geo.lon]));
+    for (const group of groups) {
+      const m = group[0];
+      const isGroup = group.length > 1;
       const color = REGION_MAP[m.state.region]?.color ?? '#b5651d';
       const isSelected = activeMarker?.state.id === m.state.id;
-
-      const customIcon = L.divIcon({
+      const icon = L.divIcon({
         className: 'atlas-custom-pin-wrap',
-        html: `
-          <div class="atlas-pin-node ${isSelected ? 'selected' : ''}" style="--pin-color: ${color};">
-            <div class="pin-ring"></div>
-            <div class="pin-dot"></div>
-          </div>
-        `,
-        iconSize: [22, 22],
-        iconAnchor: [11, 11],
-        popupAnchor: [0, -12],
+        html: isGroup ? `<div class="atlas-cluster">${group.length}</div>` : `<div class="atlas-pin-node ${isSelected ? 'selected' : ''}" style="--pin-color: ${color};"><div class="pin-ring"></div><div class="pin-dot"></div></div>`,
+        iconSize: [44, 44], iconAnchor: [22, 22], popupAnchor: [0, -22],
       });
-
-      const leafletMarker = L.marker([m.geo.lat, m.geo.lon], { icon: customIcon, title: m.state.name, alt: m.state.name });
-
-      // Şık, minimalist tooltip (üzerine gelince belirir, haritayı boğmaz)
+      const lat = group.reduce((sum, marker) => sum + marker.geo.lat, 0) / group.length;
+      const lon = group.reduce((sum, marker) => sum + marker.geo.lon, 0) / group.length;
+      const label = isGroup ? `${group.length} devlet konumu; seçim listesini aç` : m.state.name;
+      const leafletMarker = L.marker([lat, lon], { icon, title: label, alt: label });
       const tooltip = document.createElement('div');
-      const name = document.createElement('strong');
-      name.textContent = m.state.name;
-      const capital = document.createElement('div');
-      capital.textContent = m.geo.capitalName;
-      tooltip.append(name, capital);
-      leafletMarker.bindTooltip(tooltip, {
-        direction: 'top', offset: [0, -10], className: 'atlas-map-tooltip',
-      });
-
+      tooltip.textContent = isGroup ? `${group.length} yakın konum · seçmek için tıklayın` : `${m.state.name} · ${m.geo.capitalName}`;
+      leafletMarker.bindTooltip(tooltip, { direction: 'top', offset: [0, -16], className: 'atlas-map-tooltip' });
       leafletMarker.on('click', () => {
-        activeMarker = m;
+        if (isGroup) {
+          activeMarker = null;
+          selectedGroup = group;
+          revealMap();
+          void tick().then(() => document.getElementById('map-group-title')?.focus({ preventScroll: true }));
+        } else void selectMarker(m);
       });
-
       markersLayer.addLayer(leafletMarker);
+      leafletMarker.getElement()?.setAttribute('aria-label', label);
     }
+  }
+
+  function fitAllMarkers() {
+    map?.fitBounds(L.latLngBounds(allMarkers.map(marker => [marker.geo.lat, marker.geo.lon])), { padding: [30, 30], maxZoom: 3.5, animate: false });
   }
 
   // Bölge değişince kamera otomatik uçsun
   function handleRegionChange(regId: string | 'all') {
+    selectedGroup = [];
     selectedRegion = regId;
     if (!map) return;
+    if (regId === 'all') { fitAllMarkers(); return; }
 
     const regionCenters: Record<string, { center: [number, number]; zoom: number }> = {
       anadolu: { center: [38.8, 35.5], zoom: 6 },
@@ -123,11 +152,13 @@
   }
 
   function resetView() {
+    selectedGroup = [];
+    listQuery = '';
     selectedRegion = 'all';
     filterByYear = false;
     activeMarker = null;
     if (map) {
-      map.flyTo([41.0, 55.0], 3.5, { duration: 1.0, animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches });
+      fitAllMarkers();
     }
   }
 
@@ -137,12 +168,14 @@
     map = L.map(mapElement, {
       center: [41.0, 55.0],
       zoom: 3.5,
-      minZoom: 2.5,
+      minZoom: 1.5,
       maxZoom: 7,
       zoomControl: true,
       scrollWheelZoom: true,
     });
 
+    fitAllMarkers();
+    map.on('moveend', () => cameraRevision += 1);
     map.attributionControl.addAttribution('<a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a> · günümüz sınırları');
     // Local vector data prevents a tile provider's HTTP 200 watermark from
     // silently replacing the actual map. Abort the request on navigation.
@@ -183,6 +216,8 @@
     // Svelte 5 dependency tracking
     const _ = filteredMarkers;
     const __ = activeMarker;
+    const camera = cameraRevision;
+    if (selectedGroup.some(marker => !filteredMarkers.some(item => item.state.id === marker.state.id))) selectedGroup = [];
     if (activeMarker && !filteredMarkers.some((m) => m.state.id === activeMarker?.state.id)) {
       activeMarker = null;
     }
@@ -193,8 +228,8 @@
 <Breadcrumb items={[{ label: 'Atlas', href: hrefHome() }, { label: 'Coğrafi Harita' }]} />
 
 <PageHeader
-  eyebrow="Gerçek Dünya Kartografisi"
-  title="Avrasya Coğrafi Tarih Haritası"
+  eyebrow="Devletlerin yaklaşık merkezleri"
+  title="Avrasya Devlet Konumları"
   subtitle={`${allMarkers.length} devletin başkent veya odak konumu; işaretler yaklaşık konumları gösterir.`}
 >
   {#snippet badges()}
@@ -205,8 +240,12 @@
   {/snippet}
 </PageHeader>
 
+<svelte:window onkeydown={(event) => { if (event.key === 'Escape' && (activeMarker || selectedGroup.length)) closeSelection(); }} />
+
 <!-- Harita Kontrol Araç Çubuğu -->
-<SectionBox title="Harita Süzgeçleri ve Zaman Makinesi">
+<details class="reading-note map-filter-disclosure">
+  <summary>Harita filtreleri · {selectedRegion === 'all' ? 'Tüm bölgeler' : REGION_MAP[selectedRegion]?.name}{filterByYear ? ` · ${yearLabel(currentYear)}` : ''}</summary>
+<SectionBox title="Bölge ve yıl seçimi">
   <div class="map-controls">
     <!-- Bölge Seçici & Hızlı Uçuş -->
     <div class="control-row">
@@ -247,6 +286,7 @@
       </label>
 
       {#if filterByYear}
+        <YearInput year={currentYear} onSelect={(year) => currentYear = year} label="Harita yılı girin" />
         <div class="year-slider-box">
           <span class="active-year-display">{yearLabel(currentYear)}</span>
           <input
@@ -280,18 +320,35 @@
     </div>
   </div>
 </SectionBox>
+</details>
 
-<p class="honesty-note">Her devlet için bir başkent veya odak konumu gösterilir. Başkent değişimleri, tarihî sınırlar ve yaklaşık konumların belirsizliği bu haritada modellenmez; zemin haritası günümüz coğrafyasını gösterir. Aynı konumdaki devletlere aşağıdaki listeden erişebilirsiniz.</p>
+<details class="reading-note"><summary>Konumlar nasıl okunur?</summary><p class="honesty-note">Her devlet için bir başkent veya odak konumu gösterilir. Başkent değişimleri, tarihî sınırlar ve yaklaşık konumların belirsizliği bu haritada modellenmez; zemin haritası günümüz coğrafyasını gösterir. Yakın konumlar sayılı gruplarda gösterilir; gruba tıklayarak devlet seçebilirsiniz.</p></details>
 {#if !basemapReady && !basemapError}
   <p role="status">Coğrafi zemin yükleniyor…</p>
 {/if}
 {#if basemapError}
   <p class="honesty-note" role="status">Harita zemini yüklenemedi. Devlet konumları ve aşağıdaki liste kullanılabilir. Yeniden denemek için sayfayı yenileyin.</p>
 {/if}
+<p class="map-context">Yaklaşık merkezler · Günümüz sınırları</p>
 <!-- Leaflet Harita Sahnesi -->
 <div class="map-stage-wrapper">
   <div class="leaflet-container-box" bind:this={mapElement}></div>
 
+  {#if selectedGroup.length}
+    <div class="active-state-drawer cluster-drawer" role="region" aria-labelledby="map-group-title">
+      <div class="drawer-header">
+        <h3 id="map-group-title" tabindex="-1">Bu gruptaki {selectedGroup.length} devlet</h3>
+        <button type="button" class="close-drawer-btn" aria-label="Konum grubunu kapat" onclick={closeSelection}>✕</button>
+      </div>
+      <p>Yakın konumlar birlikte gösterilir. Bir devlet seçin veya haritayı yakınlaştırın.</p>
+      <button type="button" class="drawer-link-btn" onclick={zoomGroup}>Gruba yakınlaştır</button>
+      <div class="cluster-choices">
+        {#each selectedGroup as marker (marker.state.id)}
+          <button type="button" onclick={() => selectMarker(marker)}>{marker.state.name}<small>{yearLabel(marker.state.start)} – {yearLabel(marker.state.end)} · {marker.geo.capitalName}</small></button>
+        {/each}
+      </div>
+    </div>
+  {/if}
   <!-- Seçili Devlet Bilgi Kartı (Floating Drawer) -->
   {#if activeMarker}
     <div class="active-state-drawer" role="region" aria-labelledby="map-state-title">
@@ -309,7 +366,7 @@
         <button
           type="button"
           class="close-drawer-btn"
-          onclick={() => (activeMarker = null)}
+          onclick={closeSelection}
           aria-label="Kapat"
         >
           ✕
@@ -354,21 +411,40 @@
 </div>
 
 <SectionBox title={`Haritadaki Devletler · ${filteredMarkers.length}`}>
+  <label class="map-list-search">Listedeki devletlerde ara
+    <input type="search" aria-label="Harita listesindeki devletlerde ara" placeholder="Devlet veya merkez adı" bind:value={listQuery} />
+  </label>
+  {#if listQuery.trim()}<p class="list-match-count" aria-live="polite">{listGroups.reduce((count, group) => count + group.markers.length, 0)} eşleşme · {filteredMarkers.length} konum arasında</p>{/if}
   <div class="map-state-list">
-    {#each filteredMarkers as marker (marker.state.id)}
-      <button type="button" aria-pressed={activeMarker?.state.id === marker.state.id} onclick={() => {
-        activeMarker = marker;
-        map?.setView([marker.geo.lat, marker.geo.lon], 6);
-        mapElement?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center' });
-        void tick().then(() => document.getElementById('map-state-title')?.focus({ preventScroll: true }));
-      }}>{marker.state.name} · {marker.geo.capitalName}</button>
+    {#each listGroups as group (group.region.id)}
+      <section class="map-region-group" aria-label={group.region.name}>
+        <h3>{group.region.name} · {group.markers.length}</h3>
+        {#each group.markers as marker (marker.state.id)}
+          <button type="button" aria-pressed={activeMarker?.state.id === marker.state.id} onclick={() => selectMarker(marker, true)}>{marker.state.name} · {marker.geo.capitalName}</button>
+        {/each}
+      </section>
     {:else}
-      <p role="status">Bu bölge ve yıl için devlet kaydı bulunamadı.</p>
+      <p role="status">Bu filtrelerle eşleşen devlet kaydı yok.</p>
+      <button type="button" onclick={() => { listQuery = ''; resetView(); }}>Filtreleri temizle</button>
     {/each}
   </div>
 </SectionBox>
 
 <style>
+  .list-match-count { margin: 0; font-size: 13px; color: var(--ink-muted); }
+  .map-context { margin: 0; font-size: 13px; color: var(--ink); font-weight: 600; }
+  .map-filter-disclosure :global(.section-box) { margin-top: 10px; box-shadow: none; padding: 10px; }
+  .map-list-search { display: grid; gap: 6px; font-size: 13px; color: var(--ink); }
+  .map-list-search input { min-height: 44px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-1); color: var(--ink); }
+  .map-region-group { display: flex; flex-direction: column; gap: 6px; }
+  .map-region-group h3 { margin: 8px 0; font-size: 13px; color: var(--ink); }
+  .cluster-drawer h3 { font-size: 16px; margin: 0; padding-right: 8px; }
+  .cluster-drawer p { font-size: 13px; color: var(--ink-muted); }
+  .cluster-choices { display: grid; gap: 6px; margin-top: 10px; }
+  .cluster-choices button { min-height: 44px; padding: 10px; text-align: left; border: 1px solid var(--border); border-radius: 8px; color: var(--ink); background: var(--surface-1); }
+  .cluster-choices small { display: block; margin-top: 4px; font-size: 12px; }
+  :global(.atlas-cluster) { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--accent); border: 3px solid white; color: white; font-size: 16px; font-weight: 700; box-shadow: var(--shadow-md); }
+
   .map-state-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 6px; }
   .map-state-list button { text-align: left; padding: 10px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; color: var(--ink); }
   .map-state-list button[aria-pressed="true"] { border-color: var(--accent); }
@@ -548,6 +624,8 @@
   :global(.atlas-custom-pin-wrap) {
     background: transparent;
     border: none;
+    display: grid;
+    place-items: center;
   }
 
   :global(.atlas-pin-node) {
@@ -669,7 +747,9 @@
     font-size: 14px;
     color: var(--ink-dim);
     cursor: pointer;
-    padding: 2px 6px;
+    padding: 6px;
+    min-width: 44px;
+    min-height: 44px;
     border-radius: 4px;
   }
 
@@ -720,7 +800,8 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
-    padding: 7px 12px;
+    padding: 10px 12px;
+    min-height: 44px;
     background: var(--accent);
     color: #ffffff;
     border-radius: 6px;

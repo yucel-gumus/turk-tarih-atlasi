@@ -21,7 +21,7 @@
     <div>
       <a class="brand-title" href={hrefHome()}>TÜRK DEVLETLERİ ATLASI</a>
       <p class="brand-subtitle">
-        {toplam.devlet} devlet · {toplam.hukumdar} hükümdar · {toplam.savas} savaş
+        {toplam.devlet} devlet · {toplam.hukumdar} hükümdar · {toplam.savas} savaş kaydı
       </p>
     </div>
   </div>
@@ -37,7 +37,7 @@
       title="Kronolojik Zaman Şeridi"
     >
       <BookOpen size={13} aria-hidden="true" />
-      <span>Şerit</span>
+      <span>Zaman Şeridi</span>
     </a>
     <a
       class="nav-pill glass-pill"
@@ -183,13 +183,16 @@
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .hud-root {
       top: 8px;
       left: 8px;
       right: 8px;
       height: auto;
       min-height: 92px;
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      background: var(--surface-1);
       flex-wrap: wrap;
       gap: 8px;
       padding: 9px 12px;
@@ -204,19 +207,32 @@
     .brand-subtitle { font-size: 9px; }
     .logo-mark { width: 28px; height: 28px; }
     .controls-group {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--surface-1);
+      box-shadow: 0 -4px 18px rgba(40, 33, 20, .08);
+      padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
+      min-height: 64px;
       gap: 4px;
       width: 100%;
       justify-content: space-around;
       order: 3;
-      padding-top: 4px;
       border-top: 1px solid var(--border);
     }
     .nav-pill span {
       display: inline;
-      font-size: 11px;
+      font-size: 10px;
     }
     .nav-pill {
-      padding: 4px 8px;
+      padding: 6px 4px;
+      min-width: 44px;
+      min-height: 48px;
+      flex: 1;
+      flex-direction: column;
+      gap: 4px;
+      border-radius: 10px;
     }
   }
 </style>

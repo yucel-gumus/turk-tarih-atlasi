@@ -79,10 +79,10 @@
 <PageHeader
   eyebrow="Tarihsel Çatışmalar ve Seferler"
   title="Büyük Savaşlar ve Meydan Muharebeleri"
-  subtitle={`${atlasIndex().toplam.devlet} devletin ${stats.total} savaş, sefer ve antlaşma kaydı; tarihler kaynağın kesinlik düzeyiyle gösterilir.`}
+  subtitle={`${atlasIndex().toplam.devlet} devletin ${stats.total} savaş kaydı, sefer ve antlaşma kaydı; tarihler kaynağın kesinlik düzeyiyle gösterilir.`}
 >
   {#snippet badges()}
-    <span class="meta-pill"><Swords size={13} aria-hidden="true" /> {stats.total} Savaş</span>
+    <span class="meta-pill"><Swords size={13} aria-hidden="true" /> {stats.total} Savaş kaydı</span>
     <span class="result-badge zafer">Zafer · {stats.byResult.zafer}</span>
     <span class="result-badge yenilgi">Yenilgi · {stats.byResult.yenilgi}</span>
     <span class="result-badge antlasma">Antlaşma · {stats.byResult.antlasma}</span>
@@ -298,7 +298,7 @@
     {#if displayLimit < filteredBattles.length}
       <div class="load-more-row">
         <button type="button" class="load-more-btn" onclick={loadMore}>
-          Daha Fazla Göster ({filteredBattles.length - displayLimit} savaş kaldı)
+          Daha Fazla Göster ({filteredBattles.length - displayLimit} kayıt kaldı)
         </button>
       </div>
     {/if}

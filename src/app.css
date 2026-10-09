@@ -425,3 +425,16 @@ a:focus-visible,
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* Shared disclosure and section navigation; keep long explanations available. */
+.reading-note { border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; background: var(--surface-1); }
+.reading-note summary { cursor: pointer; color: var(--ink); font-size: 13px; font-weight: 600; min-height: 24px; }
+.reading-note .honesty-note { margin: 10px 0 0; }
+.section-nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.section-nav button { min-height: 44px; padding: 8px 14px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface-1); color: var(--ink); font-size: 13px; }
+@media (max-width: 700px) {
+  main button, main select, main summary, main input[type="search"], main .region-pill { min-height: 44px; }
+  main .step-btn { min-width: 44px; }
+  main input[type="search"] { font-size: 16px; }
+  .section-box, #devlet-listesi { scroll-margin-top: 120px; }
+}

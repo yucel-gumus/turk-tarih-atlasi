@@ -81,7 +81,7 @@
       {#if warTotals.total > 0}
         <span class="meta-pill">
           <Swords size={12} class="icon-war" aria-hidden="true" />
-          {warTotals.total} savaş
+          {warTotals.total} savaş kaydı
         </span>
       {/if}
       {#if ruler.wives.length + ruler.children.length > 0}

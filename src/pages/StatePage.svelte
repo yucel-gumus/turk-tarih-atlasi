@@ -11,12 +11,24 @@
   import SourceList from '../components/ui/SourceList.svelte';
   import WarRow from '../components/ui/WarRow.svelte';
   import DynastyTree from '../components/ui/DynastyTree.svelte';
+  import { tick } from 'svelte';
   import Crown from '@lucide/svelte/icons/crown';
   import Swords from '@lucide/svelte/icons/swords';
 
   let { stateId }: { stateId: string } = $props();
 
   let rulerViewMode = $state<'cards' | 'tree'>('cards');
+  async function jumpToSection(id: string, tree = false) {
+    if (tree) rulerViewMode = 'tree';
+    await tick();
+    const target = document.getElementById(id);
+    target?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    target?.focus({ preventScroll: true });
+  }
+  function shortSummary(text: string) {
+    return text.split(/(?<=[.!?])\s+(?=[A-ZÇĞİÖŞÜ])/u).slice(0, 2).join(' ');
+  }
+
 
   const index = atlasIndex();
   /**
@@ -84,7 +96,7 @@
       {#if page.warSummary.total > 0}
         <span class="meta-pill">
           <Swords size={12} class="icon-war" aria-hidden="true" />
-          {page.warSummary.total} savaş
+          {page.warSummary.total} savaş kaydı
         </span>
       {/if}
       {#if page.state.confidence !== 'kayit'}
@@ -99,6 +111,20 @@
     <p class="honesty-note">{page.state.confidenceNote}</p>
   {/if}
 
+  {#if page.state.summary}
+    <div class="state-intro">
+      <p class="body-text">{shortSummary(page.state.summary)}</p>
+      {#if shortSummary(page.state.summary) !== page.state.summary}
+        <details><summary>Özetin tamamını oku</summary><p class="body-text">{page.state.summary}</p></details>
+      {/if}
+    </div>
+  {/if}
+  <nav class="section-nav" aria-label="Devlet sayfası bölümleri">
+    <button type="button" onclick={() => jumpToSection('state-rulers')}>Hükümdarlar</button>
+    <button type="button" onclick={() => jumpToSection('state-wars')}>Savaşlar</button>
+    <button type="button" onclick={() => jumpToSection('state-rulers', true)}>Hanedan</button>
+    <button type="button" onclick={() => jumpToSection('state-sources')}>Kaynaklar</button>
+  </nav>
   <div class="meta-section">
     <MetaCard
       label="Tarih Aralığı"
@@ -109,29 +135,21 @@
       value={page.state.capital || 'Kayıtta yok'}
       note={page.state.capital ? undefined : 'Bu kayıtta başkent alanı boş; "bilinmiyor" demek değil.'}
     />
-    <MetaCard label="İnanç" value={page.state.religion} />
+    <MetaCard label="İnanç" value={page.state.religion.split('(')[0].trim()} />
     <MetaCard label="Bölge" value={page.region.name} />
     <MetaCard label="Diğer adları" value={page.state.aliases.join(' · ')} />
   </div>
 
-  {#if page.state.startNote || page.state.endNote}
-    <SectionBox title="Tarih Aralığı Notları">
-      {#if page.state.startNote}
-        <p class="body-text">{page.state.startNote}</p>
-      {/if}
-      {#if page.state.endNote}
-        <p class="body-text">{page.state.endNote}</p>
-      {/if}
-    </SectionBox>
+  {#if page.state.startNote || page.state.endNote || page.state.religion.includes('(')}
+    <details class="reading-note">
+      <summary>Tarih ve inanç bilgisine ilişkin kaynak notları</summary>
+      {#if page.state.startNote}<p class="body-text">{page.state.startNote}</p>{/if}
+      {#if page.state.endNote}<p class="body-text">{page.state.endNote}</p>{/if}
+      {#if page.state.religion.includes('(')}<p class="body-text">İnanç: {page.state.religion}</p>{/if}
+    </details>
   {/if}
 
-  {#if page.state.summary}
-    <SectionBox title="Özet">
-      <p class="body-text">{page.state.summary}</p>
-    </SectionBox>
-  {/if}
-
-  <SectionBox title={`Hükümdarlar · ${page.state.rulers.length}`}>
+  <SectionBox id="state-rulers" title={`Hükümdarlar · ${page.state.rulers.length}`}>
     {#snippet icon()}
       <Crown size={14} class="icon-ruler" aria-hidden="true" />
     {/snippet}
@@ -175,7 +193,7 @@
   </SectionBox>
 
   {#if page.warSummary.total > 0}
-    <SectionBox title="Savaş Kaydı">
+    <SectionBox id="state-wars" title="Savaş Kaydı">
       {#snippet icon()}
         <Swords size={14} class="icon-war" aria-hidden="true" />
       {/snippet}
@@ -191,7 +209,7 @@
       <!-- `when` serbest metin olduğu için (504 savaşın 172'si tek yıl değil) liste
            tarihe göre değil, hükümdar sırasına göre dizilir. -->
       <details class="war-details">
-        <summary>{page.warSummary.total} savaşın tamamını göster</summary>
+        <summary>{page.warSummary.total} savaş kaydının tamamını göster</summary>
         <div class="war-list-all">
           {#each page.wars as entry (entry.ruler.id + entry.index)}
             <WarRow
@@ -204,7 +222,7 @@
       </details>
     </SectionBox>
   {:else}
-    <SectionBox title="Savaş Kaydı">
+    <SectionBox id="state-wars" title="Savaş Kaydı">
       {#snippet icon()}
         <Swords size={14} class="icon-war" aria-hidden="true" />
       {/snippet}
@@ -234,12 +252,18 @@
     </SectionBox>
   {/if}
 
-  <SectionBox title="Kaynaklar">
+  <SectionBox id="state-sources" title="Kaynaklar">
     <SourceList sources={page.state.sources} />
   </SectionBox>
 {/if}
 
 <style>
+  .state-intro p { margin: 0; max-width: 78ch; font-size: 16px; }
+  .state-intro details { margin-top: 8px; }
+  .state-intro summary { cursor: pointer; font-size: 13px; color: var(--accent-strong); }
+  .state-intro details p { margin-top: 10px; }
+  .reading-note p { max-width: 78ch; margin-top: 12px; }
+
   .ruler-view-switcher {
     display: flex;
     gap: 6px;

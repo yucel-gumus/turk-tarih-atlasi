@@ -31,6 +31,7 @@
     lanes,
     onBarHover,
     onBarLeave,
+    onBarSelect,
   }: {
     surfaceWidth: number;
     headHeight: number;
@@ -44,6 +45,7 @@
     lanes: Lane[];
     onBarHover: (state: State, pos: { clientX: number; clientY: number }) => void;
     onBarLeave: () => void;
+    onBarSelect: (state: State) => void;
   } = $props();
 </script>
 
@@ -104,6 +106,7 @@
             height={bar.height}
             onHover={onBarHover}
             onLeave={onBarLeave}
+            onSelect={onBarSelect}
           />
         {/each}
       </div>

@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { State } from '../schemas/atlas.schema';
   import { atlasIndex, filterStates } from '../lib/data/lookup';
-  import { DEVLET_REGIONS, MILESTONES, yearLabel, type RealRegion } from '../lib/data/atlas';
-  import { hrefGuide, hrefHome } from '../lib/router/route';
+  import { DEVLET_REGIONS, REGION_MAP, MILESTONES, yearLabel, type RealRegion } from '../lib/data/atlas';
+  import { hrefGuide, hrefHome, hrefState } from '../lib/router/route';
   import PageHeader from '../components/layout/PageHeader.svelte';
   import TimelineSurface, { type Bar, type Lane } from '../components/ui/TimelineSurface.svelte';
   import TimelineToolbar, { type EraPreset } from '../components/ui/TimelineToolbar.svelte';
@@ -22,11 +22,11 @@
    * 1× tüm tarihi ekrana sığdırır; 24× en kısa ömürlü beylikleri bile rahatça inceler.
    */
   const SCALES = [1, 1.5, 2, 3, 5, 8, 12, 16, 24];
-  const BAR_H = 34;
+  const BAR_H = 44;
   const BAR_GAP = 4;
   const LANE_PAD = 6;
   /** Kısa süren devletler erişilebilir dokunma/tıklama boyutu kazansın diye en küçük çubuk genişliği (WCAG 2.5.8). */
-  const MIN_BAR_PX = 24;
+  const MIN_BAR_PX = 44;
   const END_PAD = 16;
   /** Yüzyıl etiketinin sığması için gereken yüz yıllık genişlik. */
   const CENTURY_LABEL_PX = 46;
@@ -38,6 +38,7 @@
   let scaleIndex = $state(0);
   let activeEraId = $state<string>('all');
   let query = $state('');
+  let selectedPreview = $state<State | null>(null);
   let scroller = $state<HTMLDivElement | null>(null);
   let laneWidth = $state(0);
   let scrollLeft = $state(0);
@@ -191,7 +192,7 @@
    * - Shift + tekerlek veya trackpad yatay kaydırma: Doğal yatay kaydırmaya izin verir.
    */
   function handleWheel(e: WheelEvent) {
-    if (!scroller) return;
+    if (!scroller || !e.ctrlKey) return;
 
     if (e.shiftKey || (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 4)) {
       return;
@@ -420,23 +421,14 @@
   {#snippet badges()}
     <span class="meta-pill rulers-count">{index.toplam.devlet} devlet</span>
     <span class="meta-pill">{index.toplam.hukumdar} hükümdar</span>
-    <span class="meta-pill">{index.toplam.savas} savaş</span>
+    <span class="meta-pill">{index.toplam.savas} savaş kaydı</span>
     <span class="meta-pill">{index.toplam.es + index.toplam.cocuk} aile kaydı</span>
   {/snippet}
 </PageHeader>
 
-{#if index.rehber}
-  <a class="guide-strip glass-panel" href={hrefGuide()}>
-    <span class="guide-eyebrow">Rehber</span>
-    <span class="guide-title">{index.rehber.name}</span>
-    <span class="guide-sub">
-      Kapsam, kaynaklar ve tarihsel belirsizlikler
-    </span>
-    <ChevronRight size={16} aria-hidden="true" />
-  </a>
-{/if}
-
-<div class="filters no-print">
+<details class="filter-disclosure no-print">
+  <summary>Filtreler · {region ? REGION_MAP[region].name : 'Tüm bölgeler'}{query ? ` · ${query}` : ''}</summary>
+<div class="filters">
   <div class="region-pills">
     <a class="region-pill" class:active={region === null} href={hrefHome()}>
       Tüm bölgeler · {index.devletler.length}
@@ -460,13 +452,14 @@
       id="timeline-search-filter"
       name="timeline-search"
       type="search"
-      aria-label="Şeritteki devletleri süz"
-      placeholder="Devlet, diğer ad ya da hükümdar ara"
+      aria-label="Bu şeritte devletleri filtrele"
+      placeholder="Bu şeritte devletleri filtrele"
       bind:value={query}
     />
   </label>
 </div>
 
+</details>
 <div class="timeline" role="region" aria-label="Kronolojik zaman şeridi">
   <!-- Gelişmiş Araç Çubuğu (Pan, Zoom, Dönem Çipleri) -->
   <TimelineToolbar
@@ -482,6 +475,7 @@
   />
 
   <!-- Zaman Gezgini (İnteraktif Minimap) -->
+  <details class="overview-disclosure"><summary>Tüm tarihe genel bakış</summary>
   <TimelineMinimap
     {bounds}
     states={index.devletler}
@@ -490,6 +484,7 @@
     onJumpToYear={handleJumpToYear}
     onPanByRatio={handlePanByRatio}
   />
+  </details>
 
   <!-- Zaman Şeridi Gövdesi -->
   <div class="timeline-body">
@@ -546,6 +541,7 @@
         {lanes}
         onBarHover={handleBarHover}
         onBarLeave={handleBarLeave}
+        onBarSelect={(state) => { tooltipVisible = false; selectedPreview = state; }}
       />
     </div>
   </div>
@@ -566,10 +562,38 @@
   visible={tooltipVisible && !isDragging}
 />
 
+{#if selectedPreview}
+  <aside class="timeline-selection" aria-label="Seçilen devlet">
+    <button type="button" aria-label="Devlet önizlemesini kapat" onclick={() => selectedPreview = null}>✕</button>
+    <strong>{selectedPreview.name}</strong>
+    <span>{yearLabel(selectedPreview.start)} – {yearLabel(selectedPreview.end)}</span>
+    <a href={hrefState(selectedPreview.id)}>Devlet detayını aç →</a>
+  </aside>
+{/if}
+{#if index.rehber}
+  <a class="guide-strip glass-panel" href={hrefGuide()}>
+    <span class="guide-eyebrow">Rehber</span>
+    <span class="guide-title">{index.rehber.name}</span>
+    <span class="guide-sub">
+      Kapsam, kaynaklar ve tarihsel belirsizlikler
+    </span>
+    <ChevronRight size={16} aria-hidden="true" />
+  </a>
+{/if}
+
+
 <!-- Ayrıştırılmış Devletler Listesi Izgarası -->
 <StateGrid states={filtered} />
 
 <style>
+  .filter-disclosure, .overview-disclosure { font-size: 13px; color: var(--ink); }
+  summary { cursor: pointer; padding: 8px 0; }
+  .filter-disclosure .filters { padding-top: 10px; }
+  .timeline-selection { position: fixed; bottom: calc(80px + env(safe-area-inset-bottom)); left: 12px; right: 12px; max-width: 400px; z-index: 40; display: grid; gap: 8px; background: var(--surface-1); border: 1px solid var(--accent); border-radius: 12px; padding: 16px; box-shadow: var(--shadow-lg); }
+  .timeline-selection button { position: absolute; right: 4px; top: 4px; width: 44px; height: 44px; }
+  .timeline-selection strong { padding-right: 32px; }
+  .timeline-selection a { min-height: 44px; display: flex; align-items: center; color: var(--accent-strong); font-weight: 600; }
+
   .guide-strip {
     display: flex;
     align-items: center;

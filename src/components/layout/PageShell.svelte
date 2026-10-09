@@ -33,9 +33,9 @@
     max-width: 100%;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .page-main {
-      padding: 156px 12px 64px;
+      padding: 120px 12px calc(100px + env(safe-area-inset-bottom));
       gap: 14px;
     }
   }

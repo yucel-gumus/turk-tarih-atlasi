@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-09",
+  "scope": "Implementation of all eight findings from the UI/UX assessment",
+  "implemented": [
+    "Collapsed region filters and advanced timeline tools; moved guide after the timeline",
+    "Explicit period selection; larger timeline targets and readable touch previews",
+    "Compact mobile/tablet header and fixed bottom navigation with 44px or larger targets",
+    "Short state introduction, compact metadata, expandable source notes and focused section navigation",
+    "Validated direct year entry on the time machine and map; optional slider and milestone exploration",
+    "Permanent approximate-centers/current-borders label, screen-space marker groups, group choices and fit-to-all opening view",
+    "Clearly separated atlas search, timeline filtering and searchable map region lists",
+    "Consistent war-record counts, explicit timeline navigation label and neutralized editorial phrasing"
+  ],
+  "dataIntegrity": {
+    "editorialProseFieldsChanged": 34,
+    "allOtherFieldsPreserved": true,
+    "states": 80,
+    "rulers": 713,
+    "battleRecords": 791,
+    "historicalClaimsIndependentlyResearched": false
+  },
+  "verification": {
+    "schemaValidation": "passed",
+    "svelteCheckErrors": 0,
+    "svelteCheckWarnings": 0,
+    "unitTestsPassed": 33,
+    "fullBrowserSuitePassed": 53,
+    "desktopOnlySkipOfTouchScenario": 1,
+    "automatedAccessibilityViolationsInScannedStates": 0,
+    "npmAuditVulnerabilities": 0,
+    "manualScenarios": ["Mobile first screen and navigation", "Direct selection of year 1071", "State search and section navigation", "Map group selection"],
+    "releaseVerification": "Verify the successful Pages run and live release.json after publication"
+  },
+  "limits": [
+    "Browser viewport checks and touch emulation are not field research with recruited users",
+    "Map coordinates remain static approximate centers over current country boundaries",
+    "Battle counts describe ruler-attached records, not deduplicated historical events"
+  ]
+}

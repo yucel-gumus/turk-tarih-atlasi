@@ -15,6 +15,7 @@
     height,
     onHover,
     onLeave,
+    onSelect,
   }: {
     state: State;
     color: string;
@@ -24,6 +25,7 @@
     height: number;
     onHover?: (state: State, pos: { clientX: number; clientY: number }) => void;
     onLeave?: () => void;
+    onSelect?: (state: State) => void;
   } = $props();
 
   const rulerCount = $derived(state.rulers.length);
@@ -51,8 +53,9 @@
   class="timeline-bar"
   href={hrefState(state.id)}
   style="left: {left}px; width: {width}px; top: {top}px; height: {height}px; --bar-color: {color};"
-  title="{state.name} ({yearLabel(state.start)} – {yearLabel(state.end)}) · {rulerCount} hükümdar · {warCount} savaş"
-  aria-label={!showsLabel && !showsCompactLabel ? `${state.name} (${yearLabel(state.start)} – ${yearLabel(state.end)}), ${rulerCount} hükümdar, ${warCount} savaş` : undefined}
+  title="{state.name} ({yearLabel(state.start)} – {yearLabel(state.end)}) · {rulerCount} hükümdar · {warCount} savaş kaydı"
+  aria-label={!showsLabel && !showsCompactLabel ? `${state.name} (${yearLabel(state.start)} – ${yearLabel(state.end)}), ${rulerCount} hükümdar, ${warCount} savaş kaydı` : undefined}
+  onclick={(event) => { if (window.matchMedia('(pointer: coarse)').matches && onSelect) { event.preventDefault(); onSelect(state); } }}
   ondragstart={(e) => e.preventDefault()}
   onmouseenter={handleMouse}
   onmousemove={handleMouse}
@@ -65,7 +68,7 @@
     <span class="bar-meta">
       {yearLabel(state.start)} – {yearLabel(state.end)} · {rulerCount} hükümdar
       {#if warCount > 0}
-        <span class="sr-only"> · {warCount} savaş</span>
+        <span class="sr-only"> · {warCount} savaş kaydı</span>
       {/if}
     </span>
   {:else if showsCompactLabel}

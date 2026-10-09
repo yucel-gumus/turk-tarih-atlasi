@@ -68,9 +68,10 @@ test('map list resolves overlapping markers and clears stale selection', async (
   await expect(list.locator('button')).toHaveCount(80);
   await list.getByRole('button', { name: /^Osmanlı/ }).click();
   await expect(page.locator('.drawer-title')).toContainText('Osmanlı');
+  await page.locator('.map-filter-disclosure > summary').click();
   await page.getByRole('button', { name: /Bozkır ve İç Asya/ }).click();
   await expect(page.locator('.active-state-drawer')).toHaveCount(0);
-  await page.getByRole('link', { name: 'Şerit', exact: true }).click();
+  await page.getByRole('link', { name: 'Zaman Şeridi', exact: true }).click();
   await expect(page.locator('h1')).toHaveText('Türk Devletleri Atlası');
 });
 
@@ -81,7 +82,7 @@ test('keyboard search and skip navigation', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'İçeriğe geç' })).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('main')).toBeFocused();
-  const search = page.getByRole('combobox', { name: 'Atlasta ara' });
+  const search = page.getByRole('combobox', { name: 'Tüm atlasta ara' });
   await search.fill('osmanli');
   await expect(page.getByRole('listbox')).toBeVisible();
   await search.press('Escape');
@@ -133,11 +134,89 @@ test('small mobile controls fit at 320 pixels', async ({ page }) => {
 
 test('timeline shortcuts leave other keyboard controls alone', async ({ page }) => {
   await page.goto('#/');
-  const search = page.getByRole('combobox', { name: 'Atlasta ara' });
+  const search = page.getByRole('combobox', { name: 'Tüm atlasta ara' });
   await search.focus();
   await search.press('0');
   await expect(search).toHaveValue('0');
   await page.locator('.timeline-scroll').focus();
   await page.locator('.timeline-scroll').press('+');
   await expect(page.locator('.timeline-surface')).toHaveCSS('width', /px/);
+});
+
+test('direct year selection validates and persists the exact year', async ({ page }) => {
+  await page.goto('#/zaman-makinesi');
+  const input = page.getByRole('spinbutton', { name: 'Tarih yılı girin' });
+  await input.fill('0');
+  await page.getByRole('button', { name: 'Göster', exact: true }).click();
+  await expect(page.getByRole('alert')).toContainText('Yıl sıfır yoktur');
+  await expect(page.locator('.year-huge')).toHaveText('1453');
+  await input.fill('1071');
+  await page.getByRole('button', { name: 'Göster', exact: true }).click();
+  await expect(page).toHaveURL(/zaman-makinesi\/1071$/);
+  await page.reload();
+  await expect(input).toHaveValue('1071');
+});
+
+test('period selection and disclosures keep exploration available', async ({ page }) => {
+  await page.goto('#/');
+  await expect(page.locator('.filter-disclosure')).not.toHaveAttribute('open', '');
+  await page.getByRole('combobox', { name: 'İncelenecek dönem' }).selectOption('gokturk');
+  await expect.poll(() => page.locator('.timeline-scroll').evaluate(e => e.scrollLeft)).toBeGreaterThan(0);
+  await page.locator('.filter-disclosure > summary').click();
+  await page.getByRole('searchbox', { name: 'Bu şeritte devletleri filtrele' }).fill('osmanli');
+  await expect(page.locator('.timeline-bar')).toHaveCount(1);
+});
+
+test('map groups expose every choice and searchable region lists', async ({ page, isMobile }) => {
+  await page.goto('#/harita');
+  const cluster = page.locator('.atlas-custom-pin-wrap').filter({ has: page.locator('.atlas-cluster') }).first();
+  await cluster.click();
+  const choices = page.locator('.cluster-choices button');
+  await expect(choices.first()).toBeVisible();
+  expect(await choices.count()).toBeGreaterThan(1);
+  if (isMobile) {
+    await expect.poll(() => page.locator('.cluster-drawer').evaluate(e => e.getBoundingClientRect().bottom)).toBeLessThanOrEqual(760);
+  }
+  const audit = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
+  expect(audit.violations.map(v => v.id)).toEqual([]);
+  const selected = (await choices.first().innerText()).split('\n')[0];
+  await choices.first().click();
+  await expect(page.locator('.drawer-title')).toHaveText(selected);
+  await page.getByRole('searchbox', { name: 'Harita listesindeki devletlerde ara' }).fill('Osmanlı');
+  await expect(page.locator('.map-state-list button')).toHaveCount(1);
+  await page.locator('.map-state-list button').click();
+  await expect(page.locator('.drawer-title')).toHaveText('Osmanlı Devleti');
+});
+
+test('state introduction precedes notes and section buttons focus destinations', async ({ page }) => {
+  await page.goto('#/devlet/osmanli');
+  await expect(page.locator('.state-intro')).toBeVisible();
+  await expect(page.locator('.reading-note')).not.toHaveAttribute('open', '');
+  await page.getByRole('button', { name: 'Kaynaklar', exact: true }).click();
+  await expect(page.locator('#state-sources')).toBeFocused();
+  await page.getByRole('button', { name: 'Hanedan', exact: true }).click();
+  await expect(page.getByRole('searchbox', { name: 'Hanedan aile kayıtlarında ara' })).toBeVisible();
+});
+
+test('mobile navigation has large targets and content stays above it', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('#/');
+  await expect(page.locator('h1')).toBeVisible();
+  const targets = await page.locator('nav[aria-label="Ana Gezinme"] a').evaluateAll(elements => elements.map(e => {
+    const r = e.getBoundingClientRect(); return { width: r.width, height: r.height, bottom: r.bottom };
+  }));
+  expect(targets.every(r => r.width >= 44 && r.height >= 44 && r.bottom <= 844)).toBe(true);
+  const top = await page.locator('.timeline-body').evaluate(e => e.getBoundingClientRect().top);
+  expect(top).toBeLessThan(760);
+});
+
+
+test('touch timeline selection opens a readable preview before navigation', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'Touch behavior is tested with the mobile pointer profile.');
+  await page.goto('#/');
+  await page.locator('.timeline-bar').first().tap();
+  await expect(page.getByRole('complementary', { name: 'Seçilen devlet' })).toBeVisible();
+  await expect(page).toHaveURL(/#\/$/);
+  await page.getByRole('link', { name: 'Devlet detayını aç →', exact: true }).click();
+  await expect(page).toHaveURL(/devlet\/asya-hun$/);
 });

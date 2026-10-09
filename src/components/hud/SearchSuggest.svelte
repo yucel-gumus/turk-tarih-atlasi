@@ -76,7 +76,7 @@
       bind:this={inputEl}
       type="search"
       role="combobox"
-      placeholder="Devlet, hükümdar, savaş veya kişi ara..."
+      placeholder="Tüm atlasta ara"
       bind:value={query}
       onfocus={() => { clearTimeout(blurTimer); isOpen = true; }}
       oninput={() => {
@@ -85,7 +85,7 @@
       }}
       onblur={handleBlur}
       onkeydown={onKeyDown}
-      aria-label="Atlasta ara"
+      aria-label="Tüm atlasta ara"
       aria-autocomplete="list"
       aria-haspopup="listbox"
       aria-controls={isOpen && filtered.length > 0 ? "search-suggestions" : undefined}
@@ -167,7 +167,7 @@
 
   input {
     width: 100%;
-    height: 38px;
+    height: 44px;
     background: var(--surface-1);
     border: 1px solid var(--border);
     border-radius: 9999px;
@@ -199,7 +199,7 @@
     right: 0;
     border-radius: 12px;
     overflow-y: auto;
-    max-height: min(70vh, 520px);
+    max-height: min(58vh, 520px);
     padding: 6px;
     z-index: 100;
     background: var(--surface-1);
@@ -280,7 +280,7 @@
     font-size: 12px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .search-container {
       order: 3;
       width: 100%;

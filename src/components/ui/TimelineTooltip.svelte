@@ -68,7 +68,7 @@
       </span>
       <span class="stat-item" title="Kayıtlı savaş sayısı">
         <Swords size={12} class="icon-war" aria-hidden="true" />
-        {warCount} savaş
+        {warCount} savaş kaydı
       </span>
       {#if state.capital}
         <span class="stat-item capital" title="Başkent">

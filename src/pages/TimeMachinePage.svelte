@@ -9,6 +9,7 @@
   import Breadcrumb from '../components/layout/Breadcrumb.svelte';
   import PageHeader from '../components/layout/PageHeader.svelte';
   import SectionBox from '../components/ui/SectionBox.svelte';
+  import YearInput from '../components/ui/YearInput.svelte';
   import Clock from '@lucide/svelte/icons/clock';
   import Landmark from '@lucide/svelte/icons/landmark';
   import Crown from '@lucide/svelte/icons/crown';
@@ -107,16 +108,17 @@
     <span class="meta-pill"><Landmark size={13} aria-hidden="true" /> {activeStates.length} Aktif Devlet</span>
     <span class="meta-pill"><Crown size={13} aria-hidden="true" /> {activeRulers.length} Hükümdar Tahtta</span>
     {#if yearBattles.length > 0}
-      <span class="result-badge zafer"><Swords size={12} aria-hidden="true" /> {yearBattles.length} Savaş</span>
+      <span class="result-badge zafer"><Swords size={12} aria-hidden="true" /> {yearBattles.length} Savaş kaydı</span>
     {/if}
   {/snippet}
 </PageHeader>
 
-<p class="honesty-note">Devlet ve saltanat tarihleri yıl düzeyindedir; geçiş yılında birden fazla hükümdar görünebilir. İki saltanat sınırı da kayıtlı hükümdarlar listelenir. Savaşlarda açık yıllar ve yıl aralıkları kullanılır; yaklaşık tarihler bir yıla atanmaz. Tarihsel takvimde yıl sıfır yoktur.</p>
+<details class="reading-note"><summary>Bu yılın kayıtları nasıl okunur?</summary><p class="honesty-note">Devlet ve saltanat tarihleri yıl düzeyindedir; geçiş yılında birden fazla hükümdar görünebilir. İki saltanat sınırı da kayıtlı hükümdarlar listelenir. Savaşlarda açık yıllar ve yıl aralıkları kullanılır; yaklaşık tarihler bir yıla atanmaz. Tarihsel takvimde yıl sıfır yoktur.</p></details>
 
 <!-- Zaman Seçici Panel -->
 <SectionBox title="Tarih Çizelgesi ve Yıl Seçimi">
   <div class="time-machine-controls">
+    <YearInput year={selectedYear} onSelect={setYear} label="Tarih yılı girin" />
     <div class="year-display-row">
       <div class="year-stepper">
         <button type="button" class="step-btn" title="10 Yıl Geri" onclick={() => stepYear(-10)}>-10</button>
@@ -138,6 +140,8 @@
       </div>
     </div>
 
+    <details class="year-exploration">
+      <summary>Kaydırıcı ve önemli tarihler</summary>
     <!-- Kaydırıcı -->
     <div class="slider-wrapper">
       <input
@@ -180,6 +184,7 @@
         {/each}
       </div>
     </div>
+    </details>
   </div>
 </SectionBox>
 
@@ -244,7 +249,7 @@
 
           {#if ruler.wars && ruler.wars.length > 0}
             <div class="ruler-wars-count">
-              <Swords size={12} aria-hidden="true" /> {ruler.wars.length} Savaş
+              <Swords size={12} aria-hidden="true" /> {ruler.wars.length} Savaş kaydı
             </div>
           {/if}
         </a>
@@ -287,6 +292,9 @@
 </SectionBox>
 
 <style>
+  .year-exploration summary { cursor: pointer; color: var(--ink); font-size: 13px; padding: 10px 0; }
+  .year-exploration .slider-wrapper { margin-top: 14px; }
+
   .time-machine-controls {
     display: flex;
     flex-direction: column;
@@ -655,7 +663,9 @@
     padding: 16px 0;
   }
   @media (max-width: 480px) {
-    .year-display-row { gap: 8px; }
+    .year-display-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .current-year-badge { grid-column: 1 / -1; grid-row: 1; }
+    .year-stepper { justify-content: center; }
     .current-year-badge { min-width: 90px; }
     .year-huge { font-size: 28px; }
     .step-btn { width: 32px; }
