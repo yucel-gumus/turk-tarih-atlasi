@@ -18,7 +18,11 @@ try {
   for (const file of readdirSync(releaseDir)) {
     if (file !== '.git') rmSync(path.join(releaseDir, file), { recursive: true, force: true });
   }
-  for (const file of readdirSync(path.join(root, 'dist'))) cpSync(path.join(root, 'dist', file), path.join(releaseDir, file), { recursive: true });
+  for (const file of readdirSync(path.join(root, 'dist'))) {
+    // Legacy deployments initialized a Git repository inside dist. Never copy
+    // that metadata into the publication checkout.
+    if (file !== '.git') cpSync(path.join(root, 'dist', file), path.join(releaseDir, file), { recursive: true });
+  }
   writeFileSync(path.join(releaseDir, '.nojekyll'), '');
   writeFileSync(path.join(releaseDir, 'release.json'), JSON.stringify({ revision, publishedAt: new Date().toISOString() }, null, 2) + '\n');
   run(['add', '-A'], releaseDir);

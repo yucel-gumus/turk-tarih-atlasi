@@ -123,14 +123,15 @@
       "errors": 0,
       "warnings": 0
     },
-    "unitTestsPassed": 29,
+    "unitTestsPassed": 30,
     "browserTestsPassed": 42,
     "finalMapFamilyRegressionTestsPassed": 8,
     "automatedAccessibilityViolationsInScannedStates": 0,
     "productionBuild": "passed",
     "npmAuditVulnerabilities": 0,
     "gitDiffCheck": "passed",
-    "indexedDestinationRoundTrips": "All 2538 records: 80 states + 1 guide + 713 rulers + 791 wars + 190 wives + 763 children"
+    "indexedDestinationRoundTrips": "All 2538 records: 80 states + 1 guide + 713 rulers + 791 wars + 190 wives + 763 children",
+    "deploymentIntegrationTest": "Passed against isolated bare remote: retained history, ignored legacy dist/.git, verified release revision and rejected dirty source."
   },
   "dataCounts": {
     "states": 80,
