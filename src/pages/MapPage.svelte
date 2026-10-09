@@ -538,6 +538,12 @@
     background: #e8eef3;
   }
 
+  /* SVG paths receive mouse focus in Chromium; their native outline spans
+     the country's entire bounding box. Retain the keyboard focus indicator. */
+  :global(.atlas-base-land:focus:not(:focus-visible)) {
+    outline: none;
+  }
+
   /* Custom Leaflet Pin Styling */
   :global(.atlas-custom-pin-wrap) {
     background: transparent;
