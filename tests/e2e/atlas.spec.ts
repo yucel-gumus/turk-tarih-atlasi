@@ -76,6 +76,7 @@ test('map list resolves overlapping markers and clears stale selection', async (
 
 test('keyboard search and skip navigation', async ({ page }) => {
   await page.goto('#/');
+  await expect(page.locator('h1')).toBeVisible();
   await page.keyboard.press('Tab');
   await expect(page.getByRole('link', { name: 'İçeriğe geç' })).toBeFocused();
   await page.keyboard.press('Enter');
