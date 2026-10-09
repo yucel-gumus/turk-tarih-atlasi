@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { State, Ruler } from '../../schemas/atlas.schema';
+  import type { State } from '../../schemas/atlas.schema';
   import { hrefPerson, hrefRuler } from '../../lib/router/route';
   import { reignLabel } from '../../lib/data/lookup';
-  import { canon } from '../../lib/text';
+  import { canon, isPlaceholderName } from '../../lib/text';
   import Crown from '@lucide/svelte/icons/crown';
   import Heart from '@lucide/svelte/icons/heart';
   import Users from '@lucide/svelte/icons/users';
@@ -35,11 +35,9 @@
   });
 
   function isChildEnthroned(childName: string): boolean {
-    const c = canon(childName);
-    for (const rName of rulerNameSet) {
-      if (rName.includes(c) || c.includes(rName)) return true;
-    }
-    return false;
+    if (isPlaceholderName(childName)) return false;
+    const key = canon(childName.trim());
+    return !!key && rulerNameSet.has(key);
   }
 
   const filteredRulers = $derived.by(() => {
@@ -74,11 +72,14 @@
       <input
         type="search"
         class="tree-search-input"
+        aria-label="Hanedan aile kayıtlarında ara"
         placeholder="Hükümdar, valide veya şehzade ara..."
         bind:value={filterText}
       />
     </div>
   </div>
+
+  <p class="honesty-note">Aile kartları kayıtlı ilişkileri gösterir; çizginin sırası bir soy bağı iddiası değildir. “Aynı adlı hükümdar” etiketi ad eşleşmesini belirtir, kişinin tahta çıktığını kanıtlamaz.</p>
 
   {#if filteredRulers.length === 0}
     <div class="empty-tree">Arama kriterinize uygun hanedan üyesi bulunamadı.</div>
@@ -166,7 +167,7 @@
                             {child.name}
                           </span>
                           {#if enthroned}
-                            <span class="enthroned-tag">Tahta Çıktı</span>
+                            <span class="enthroned-tag">Aynı adlı hükümdar</span>
                           {:else if child.note}
                             <span class="member-sub">{child.note}</span>
                           {/if}

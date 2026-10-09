@@ -273,10 +273,11 @@ export function resolveWife(ruler: Ruler, mother: string): Person | null {
   // yani bu dal veriyle tetiklenmiyor; kayıt değişirse sessizce yanlış bağ kurulmaz.
   if (isPlaceholderName(raw)) return null;
   const wives = ruler.wives ?? [];
-  const exact = wives.find((wife) => canon(wife.name) === canon(raw));
-  if (exact) return exact;
+  const exact = wives.filter((wife) => canon(wife.name) === canon(raw));
+  if (exact.length) return exact.length === 1 ? exact[0] : null;
   const loose = looseKey(raw);
-  return loose ? (wives.find((wife) => looseKey(wife.name) === loose) ?? null) : null;
+  const matches = loose ? wives.filter((wife) => looseKey(wife.name) === loose) : [];
+  return matches.length === 1 ? matches[0] : null;
 }
 
 /**

@@ -34,8 +34,8 @@ export const CertaintyEnum = z.enum([
 export type Certainty = z.infer<typeof CertaintyEnum>;
 
 export const SourceSchema = z.object({
-  title: z.string(),
-  url: z.string(),
+  title: z.string().trim().min(1),
+  url: z.string().url().refine((value) => new URL(value).protocol === 'https:', 'Kaynak HTTPS olmalı'),
 });
 export type Source = z.infer<typeof SourceSchema>;
 
@@ -57,15 +57,15 @@ export const PersonSchema = z.object({
 export type Person = z.infer<typeof PersonSchema>;
 
 export const RulerSchema = z.object({
-  id: z.string(),
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   name: z.string(),
   aliases: z.array(z.string()).optional().default([]),
   title: z.string().optional().default(''),
-  birth: z.number().nullable().optional(),
+  birth: z.number().int().nullable().optional(),
   birthNote: z.string().optional().default(''),
-  death: z.number().nullable().optional(),
+  death: z.number().int().nullable().optional(),
   deathNote: z.string().optional().default(''),
-  reign: z.tuple([z.number().nullable(), z.number().nullable()]),
+  reign: z.tuple([z.number().int().nullable(), z.number().int().nullable()]),
   reignNote: z.string().optional().default(''),
   claim: z.boolean().optional().default(false),
   summary: z.string().optional().default(''),
@@ -85,13 +85,13 @@ export const RulerSchema = z.object({
 export type Ruler = z.infer<typeof RulerSchema>;
 
 export const StateSchema = z.object({
-  id: z.string(),
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
   name: z.string(),
   short: z.string().optional(),
   aliases: z.array(z.string()).optional().default([]),
   region: RegionEnum,
-  start: z.number(),
-  end: z.number(),
+  start: z.number().int(),
+  end: z.number().int(),
   startNote: z.string().optional().default(''),
   endNote: z.string().optional().default(''),
   capital: z
@@ -114,7 +114,7 @@ export const StateSchema = z.object({
 export type State = z.infer<typeof StateSchema>;
 
 export const MilestoneSchema = z.object({
-  year: z.number(),
+  year: z.number().int(),
   label: z.string(),
 });
 export type Milestone = z.infer<typeof MilestoneSchema>;

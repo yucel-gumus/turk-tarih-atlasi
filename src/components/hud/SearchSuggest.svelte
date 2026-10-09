@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onDestroy } from 'svelte';
   import { atlasIndex, searchItems, type SearchItem } from '../../lib/data/lookup';
   import { router } from '../../lib/router/router.svelte';
   import { hrefSearch } from '../../lib/router/route';
@@ -15,6 +16,7 @@
   let query = $state('');
   let isOpen = $state(false);
   let activeIndex = $state(0);
+  let blurTimer: ReturnType<typeof setTimeout> | undefined;
   let inputEl: HTMLInputElement | null = null;
 
   /** Açılır liste ekrana sığsın diye sınırlıdır; kırpma gizlenmez, yazılır. */
@@ -37,7 +39,6 @@
   function onKeyDown(e: KeyboardEvent) {
     if (e.key === 'Escape') {
       isOpen = false;
-      inputEl?.blur();
       return;
     }
 
@@ -58,10 +59,12 @@
 
   function handleBlur() {
     // Öneri düğmesine tıklamanın kaydolması için kapanma kısa süre geciktirilir.
-    setTimeout(() => {
+    clearTimeout(blurTimer);
+    blurTimer = setTimeout(() => {
       isOpen = false;
     }, 150);
   }
+  onDestroy(() => clearTimeout(blurTimer));
 </script>
 
 <div class="search-container">
@@ -75,7 +78,7 @@
       role="combobox"
       placeholder="Devlet, hükümdar, savaş veya kişi ara..."
       bind:value={query}
-      onfocus={() => (isOpen = true)}
+      onfocus={() => { clearTimeout(blurTimer); isOpen = true; }}
       oninput={() => {
         isOpen = true;
         activeIndex = 0;
@@ -85,7 +88,7 @@
       aria-label="Atlasta ara"
       aria-autocomplete="list"
       aria-haspopup="listbox"
-      aria-controls="search-suggestions"
+      aria-controls={isOpen && filtered.length > 0 ? "search-suggestions" : undefined}
       aria-expanded={isOpen && filtered.length > 0}
       aria-activedescendant={isOpen && filtered.length > 0 ? `search-option-${activeIndex}` : undefined}
     />
@@ -131,9 +134,9 @@
         </button>
           {/each}
         </div>
-        {#if hiddenCount > 0}
+        {#if matched.length > 0}
           <a class="suggest-more" href={hrefSearch(query)} onclick={() => (isOpen = false)}>
-            {matched.length} sonucun tamamını göster →
+            {matched.length} sonucun tamamını göster →{hiddenCount > 0 ? ` (+${hiddenCount})` : ''}
           </a>
         {/if}
       {:else}
@@ -195,7 +198,8 @@
     left: 0;
     right: 0;
     border-radius: 12px;
-    overflow: hidden;
+    overflow-y: auto;
+    max-height: min(70vh, 520px);
     padding: 6px;
     z-index: 100;
     background: var(--surface-1);

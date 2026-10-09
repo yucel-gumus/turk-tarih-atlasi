@@ -11,7 +11,7 @@
   import StateGrid from '../components/ui/StateGrid.svelte';
   import ChevronRight from '@lucide/svelte/icons/chevron-right';
   import Search from '@lucide/svelte/icons/search';
-  import { tick } from 'svelte';
+  import { tick, onDestroy } from 'svelte';
 
   let { region }: { region: RealRegion | null } = $props();
 
@@ -220,7 +220,7 @@
    * rAF ile 60 FPS'e kilitlenir ve layout thrashing önlenir.
    */
   function handlePointerDown(e: PointerEvent) {
-    if (e.button !== 0 || !scroller) return;
+    if (e.pointerType !== 'mouse' || e.button !== 0 || !scroller) return;
     isPointerDown = true;
     startX = e.clientX;
     startY = e.clientY;
@@ -379,6 +379,7 @@
 
   function handleKeyDown(e: KeyboardEvent) {
     const target = e.target as HTMLElement;
+    if (!scroller?.contains(target)) return;
     if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) {
       return;
     }
@@ -406,6 +407,7 @@
       setScale(0);
     }
   }
+  onDestroy(() => { if (rafPointerId !== null) cancelAnimationFrame(rafPointerId); });
 </script>
 
 <svelte:window onkeydown={handleKeyDown} />
@@ -704,7 +706,7 @@
     z-index: 2;
     cursor: grab;
     user-select: none;
-    touch-action: pan-y;
+    touch-action: pan-x pan-y;
   }
 
   .lane-label {
@@ -769,7 +771,7 @@
     overflow-y: hidden;
     padding-bottom: 6px;
     cursor: grab;
-    touch-action: pan-y;
+    touch-action: pan-x pan-y;
   }
 
   .lane-labels.is-dragging,

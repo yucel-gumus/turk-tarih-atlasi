@@ -1,0 +1,11 @@
+{
+  "dataset": "Natural Earth 1:110m admin 0 countries",
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+  "retrievedAt": "2026-10-09",
+  "originalSha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+  "license": "Public domain",
+  "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "transformation": "Geometry retained; metadata reduced to Turkish display name with English fallback.",
+  "features": 177,
+  "purpose": "Modern generalized basemap, not historical borders or precise city geography."
+}

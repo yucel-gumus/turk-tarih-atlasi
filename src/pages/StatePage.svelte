@@ -146,6 +146,7 @@
           type="button"
           class="view-toggle-btn"
           class:active={rulerViewMode === 'cards'}
+          aria-pressed={rulerViewMode === 'cards'}
           onclick={() => (rulerViewMode = 'cards')}
         >
           Kronolojik Kartlar ({page.state.rulers.length})
@@ -154,6 +155,7 @@
           type="button"
           class="view-toggle-btn"
           class:active={rulerViewMode === 'tree'}
+          aria-pressed={rulerViewMode === 'tree'}
           onclick={() => (rulerViewMode = 'tree')}
         >
           Hanedan Soyağacı

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onDestroy } from 'svelte';
   import type { State } from '../../schemas/atlas.schema';
   import { DEVLET_REGIONS, yearLabel } from '../../lib/data/atlas';
   import Compass from '@lucide/svelte/icons/compass';
@@ -108,6 +109,7 @@
       // Ignore if capture was already released
     }
   }
+  onDestroy(() => { if (rafLensId !== null) cancelAnimationFrame(rafLensId); });
 </script>
 
 <div class="minimap-container no-print" role="group" aria-label="Zaman gezgini ve genel bakış">

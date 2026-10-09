@@ -95,6 +95,9 @@ for (const file of files) {
       if (r.reign[0] != null && r.reign[1] != null && r.reign[0] > r.reign[1]) {
         error(rulerLocation, 'Saltanat başlangıcı bitişinden sonra.');
       }
+      if (r.birth != null && r.death != null && r.birth > r.death) error(rulerLocation, 'Doğum ölümden sonra.');
+      if (r.birth != null && r.reign[0] != null && r.reign[0] < r.birth) error(rulerLocation, 'Saltanat doğumdan önce.');
+      if (r.death != null && r.reign[1] != null && r.reign[1] > r.death) error(rulerLocation, 'Saltanat ölümden sonra.');
       checkSources(rulerLocation, r.sources);
       checkSlugs(`${rulerLocation}/savas`, r.wars.map((war) => war.name));
       checkSlugs(`${rulerLocation}/es`, r.wives.map((wife) => wife.name));

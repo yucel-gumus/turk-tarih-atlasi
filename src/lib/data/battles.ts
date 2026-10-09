@@ -1,6 +1,7 @@
-import type { BattleResult, Region, State, War } from '../../schemas/atlas.schema';
+import type { BattleResult, Region } from '../../schemas/atlas.schema';
 import { atlasIndex } from './lookup';
 import { hrefWar } from '../router/route';
+import { parseHistoricalDate, compareBattleYears, type HistoricalDate } from './dates';
 import { canon } from '../text';
 
 export type FoeCategory =
@@ -18,7 +19,8 @@ export interface BattleItem {
   id: string;
   name: string;
   when: string;
-  year: number;
+  year: number | null;
+  date: HistoricalDate;
   foe: string;
   foeCategory: FoeCategory;
   result: BattleResult;
@@ -33,46 +35,17 @@ export interface BattleItem {
   href: string;
 }
 
-export function parseWhenYear(when: string, fallbackReign?: [number | null, number | null]): number {
-  if (when) {
-    const moMatch = when.match(/MÖ\s*(\d+)/i);
-    if (moMatch) return -parseInt(moMatch[1], 10);
-    const match = when.match(/(\d{3,4})/);
-    if (match) return parseInt(match[1], 10);
-    const roman = when.match(/\b(IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)\b/i);
-    if (roman) {
-      const romanMap: Record<string, number> = {
-        iv: 350,
-        v: 450,
-        vi: 550,
-        vii: 650,
-        viii: 750,
-        ix: 850,
-        x: 950,
-        xi: 1050,
-        xii: 1150,
-        xiii: 1250,
-        xiv: 1350,
-        xv: 1450,
-        xvi: 1550,
-        xvii: 1650,
-        xviii: 1750,
-        xix: 1850,
-        xx: 1950,
-      };
-      const found = romanMap[roman[1].toLowerCase()];
-      if (found !== undefined) return found;
-    }
-  }
-  return fallbackReign?.[0] ?? 1000;
+/** Returns a sorting hint, never a guessed reign year. */
+export function parseWhenYear(when: string): number | null {
+  return parseHistoricalDate(when).start;
 }
 
 export function categorizeFoe(foe: string, stateName: string): FoeCategory {
   const f = canon(foe);
-  if (f.includes('bizans') || f.includes('rum') || f.includes('dogu roma') || f.includes('trabzon')) return 'Bizans';
+  if (/\b(?:bizans|rum|dogu roma|trabzon)\b/.test(f)) return 'Bizans';
   if (f.includes('hacli') || f.includes('frank') || f.includes('antakya prens') || f.includes('trablus kont') || f.includes('kudus kral')) return 'Haçlılar';
   if (f.includes('mogol') || f.includes('ilhanli') || f.includes('culgu') || f.includes('kalmuk') || f.includes('cungar') || f.includes('cuci')) return 'Moğollar';
-  if (f.includes('cin') || f.includes('tang') || f.includes('han ') || f.includes('song') || f.includes('ming') || f.includes('qing') || f.includes('wei') || f.includes('tabgac')) return 'Çin';
+  if (/\b(?:cin|tang|song|ming|qing|wei|tabgac)\b/.test(f)) return 'Çin';
   if (f.includes('rus') || f.includes('kiev') || f.includes('moskova') || f.includes('kazak knez') || f.includes('novgorod')) return 'Rus';
   if (f.includes('safevi') || f.includes('iran') || f.includes('sasani') || f.includes('samani') || f.includes('buye') || f.includes('kacar') || f.includes('avsar')) return 'Safevî / İran';
   if (
@@ -125,7 +98,7 @@ export function getAllBattles(): BattleItem[] {
     for (const ruler of state.rulers ?? []) {
       (ruler.wars ?? []).forEach((war, i) => {
         const warIndex = i + 1;
-        const year = parseWhenYear(war.when, ruler.reign);
+        const year = parseWhenYear(war.when);
         const foeCategory = categorizeFoe(war.foe, state.name);
 
         list.push({
@@ -133,6 +106,7 @@ export function getAllBattles(): BattleItem[] {
           name: war.name,
           when: war.when,
           year,
+          date: parseHistoricalDate(war.when),
           foe: war.foe,
           foeCategory,
           result: war.result,
@@ -151,7 +125,7 @@ export function getAllBattles(): BattleItem[] {
   }
 
   // Varsayılan: kronolojik sıra (en eskiden en yeniye)
-  list.sort((a, b) => a.year - b.year || a.name.localeCompare(b.name, 'tr'));
+  list.sort((a, b) => compareBattleYears(a.year, b.year) || a.name.localeCompare(b.name, 'tr'));
   cachedBattles = list;
   return list;
 }

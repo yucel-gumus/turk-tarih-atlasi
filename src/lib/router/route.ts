@@ -5,6 +5,7 @@
 // Yol parçaları Türkçe (kullanıcıya görünür), alan adları İngilizce.
 
 import { DEVLET_REGIONS, type RealRegion } from '../data/atlas';
+import { validAtlasYear } from '../data/dates';
 import { slug } from '../text';
 
 /** Kişi kaydının iki rolü; hem URL parçası hem sayfa etiketi buradan türer. */
@@ -56,7 +57,7 @@ function parseIndexSlug(segment: string): { index: number; slug: string } | null
   const m = /^(\d+)-(.+)$/.exec(segment);
   if (!m) return null;
   const index = Number(m[1]);
-  return index >= 1 ? { index, slug: m[2] } : null;
+  return Number.isSafeInteger(index) && index >= 1 ? { index, slug: m[2] } : null;
 }
 
 /** `?bolge=` süzgeci: tanınmayan bölge hata değil, süzgeçsiz açılış demektir. */
@@ -100,8 +101,9 @@ export function parseHash(hash: string): Route {
 
   if (head === SEG.timeMachine) {
     if (rest.length === 0) return { name: 'timeMachine' };
+    if (rest.length !== 1 || !/^-?\d+$/.test(rest[0])) return notFound(hash);
     const parsedYear = Number(rest[0]);
-    return Number.isFinite(parsedYear) ? { name: 'timeMachine', year: parsedYear } : { name: 'timeMachine' };
+    return validAtlasYear(parsedYear) ? { name: 'timeMachine', year: parsedYear } : notFound(hash);
   }
 
   if (head === SEG.search) {

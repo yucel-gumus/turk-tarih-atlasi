@@ -1,6 +1,9 @@
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte';
+  import { clampAtlasYear } from '../lib/data/dates';
+  import { onMount, onDestroy, tick } from 'svelte';
   import L from 'leaflet';
+  import worldGeoURL from '../lib/data/world.geo.json?url';
+  import type { GeoJsonObject } from 'geojson';
   import 'leaflet/dist/leaflet.css';
   import { getAllStateGeoMarkers, type GeoStateMarker } from '../lib/data/geo';
   import { DEVLET_REGIONS, REGION_MAP, yearLabel } from '../lib/data/atlas';
@@ -10,7 +13,6 @@
   import SectionBox from '../components/ui/SectionBox.svelte';
   import Compass from '@lucide/svelte/icons/compass';
   import MapPin from '@lucide/svelte/icons/map-pin';
-  import Landmark from '@lucide/svelte/icons/landmark';
   import Crown from '@lucide/svelte/icons/crown';
   import ChevronRight from '@lucide/svelte/icons/chevron-right';
   import Clock from '@lucide/svelte/icons/clock';
@@ -25,6 +27,10 @@
   let selectedRegion = $state<string | 'all'>('all');
   let filterByYear = $state(false);
   let currentYear = $state(1299);
+  let basemapError = $state(false);
+  let basemapReady = $state(false);
+  const basemapController = new AbortController();
+  let resizeObserver: ResizeObserver | null = null;
   let activeMarker = $state<GeoStateMarker | null>(null);
 
   // Önemli dönüm noktası yılları
@@ -76,17 +82,18 @@
         popupAnchor: [0, -12],
       });
 
-      const leafletMarker = L.marker([m.geo.lat, m.geo.lon], { icon: customIcon });
+      const leafletMarker = L.marker([m.geo.lat, m.geo.lon], { icon: customIcon, title: m.state.name, alt: m.state.name });
 
       // Şık, minimalist tooltip (üzerine gelince belirir, haritayı boğmaz)
-      leafletMarker.bindTooltip(
-        `<b>${m.state.name}</b><br><span style="font-size:11px; opacity:0.85;">${m.geo.capitalName}</span>`,
-        {
-          direction: 'top',
-          offset: [0, -10],
-          className: 'atlas-map-tooltip',
-        }
-      );
+      const tooltip = document.createElement('div');
+      const name = document.createElement('strong');
+      name.textContent = m.state.name;
+      const capital = document.createElement('div');
+      capital.textContent = m.geo.capitalName;
+      tooltip.append(name, capital);
+      leafletMarker.bindTooltip(tooltip, {
+        direction: 'top', offset: [0, -10], className: 'atlas-map-tooltip',
+      });
 
       leafletMarker.on('click', () => {
         activeMarker = m;
@@ -112,7 +119,7 @@
     };
 
     const target = regionCenters[regId] ?? regionCenters.all;
-    map.flyTo(target.center, target.zoom, { duration: 1.2 });
+    map.flyTo(target.center, target.zoom, { duration: 1.2, animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches });
   }
 
   function resetView() {
@@ -120,7 +127,7 @@
     filterByYear = false;
     activeMarker = null;
     if (map) {
-      map.flyTo([41.0, 55.0], 3.5, { duration: 1.0 });
+      map.flyTo([41.0, 55.0], 3.5, { duration: 1.0, animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches });
     }
   }
 
@@ -131,24 +138,40 @@
       center: [41.0, 55.0],
       zoom: 3.5,
       minZoom: 2.5,
-      maxZoom: 10,
+      maxZoom: 7,
       zoomControl: true,
       scrollWheelZoom: true,
     });
 
-    // CartoDB Voyager: Tarihi atlas havasına tam uyan parşömen/açık tonlu dünya haritası
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19,
-    }).addTo(map);
+    map.attributionControl.addAttribution('<a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a> · günümüz sınırları');
+    // Local vector data prevents a tile provider's HTTP 200 watermark from
+    // silently replacing the actual map. Abort the request on navigation.
+    void fetch(worldGeoURL, { signal: basemapController.signal })
+      .then(async (response) => {
+        if (!response.ok) throw new Error('Basemap request failed');
+        const geography = await response.json() as GeoJsonObject;
+        if (!map) return;
+        L.geoJSON(geography, {
+          style: { color: '#b9b2a3', weight: 0.8, fillColor: '#f1eee5', fillOpacity: 1, className: 'atlas-base-land' },
+          onEachFeature(feature, layer) {
+            const label = document.createElement('span');
+            label.textContent = String(feature.properties?.name ?? '');
+            layer.bindTooltip(label, { sticky: true, className: 'atlas-map-tooltip' });
+          },
+        }).addTo(map);
+        basemapReady = true;
+      })
+      .catch(() => { if (!basemapController.signal.aborted) basemapError = true; });
 
+    resizeObserver = new ResizeObserver(() => map?.invalidateSize());
+    resizeObserver.observe(mapElement);
     markersLayer = L.layerGroup().addTo(map);
     renderMarkers();
   });
 
   onDestroy(() => {
+    basemapController.abort();
+    resizeObserver?.disconnect();
     if (map) {
       map.remove();
       map = null;
@@ -160,6 +183,9 @@
     // Svelte 5 dependency tracking
     const _ = filteredMarkers;
     const __ = activeMarker;
+    if (activeMarker && !filteredMarkers.some((m) => m.state.id === activeMarker?.state.id)) {
+      activeMarker = null;
+    }
     renderMarkers();
   });
 </script>
@@ -169,10 +195,10 @@
 <PageHeader
   eyebrow="Gerçek Dünya Kartografisi"
   title="Avrasya Coğrafi Tarih Haritası"
-  subtitle="80 Türk devletinin başkentleri ve odak coğrafyaları gerçek dünya haritası üzerinde"
+  subtitle={`${allMarkers.length} devletin başkent veya odak konumu; işaretler yaklaşık konumları gösterir.`}
 >
   {#snippet badges()}
-    <span class="meta-pill"><Compass size={13} aria-hidden="true" /> {filteredMarkers.length} Başkent Gösteriliyor</span>
+    <span class="meta-pill"><Compass size={13} aria-hidden="true" /> {filteredMarkers.length} Konum Gösteriliyor</span>
     {#if filterByYear}
       <span class="meta-pill"><Clock size={13} aria-hidden="true" /> {yearLabel(currentYear)} Yılı Odaklı</span>
     {/if}
@@ -190,6 +216,7 @@
           type="button"
           class="map-pill"
           class:active={selectedRegion === 'all'}
+          aria-pressed={selectedRegion === 'all'}
           onclick={() => handleRegionChange('all')}
         >
           Tüm Avrasya ({allMarkers.length})
@@ -199,6 +226,7 @@
             type="button"
             class="map-pill"
             class:active={selectedRegion === reg.id}
+          aria-pressed={selectedRegion === reg.id}
             onclick={() => handleRegionChange(reg.id)}
           >
             <span class="pill-dot" style="background: {reg.color}"></span>
@@ -215,7 +243,7 @@
     <div class="control-row year-toggle-row">
       <label class="checkbox-label">
         <input type="checkbox" bind:checked={filterByYear} />
-        <span class="toggle-text">Zaman filtresini etkinleştir (O yılda yaşayan başkentler)</span>
+        <span class="toggle-text">Zaman filtresini etkinleştir (O yılda var olan devletler)</span>
       </label>
 
       {#if filterByYear}
@@ -227,7 +255,10 @@
             min="-220"
             max="1925"
             step="1"
-            bind:value={currentYear}
+            value={currentYear}
+            oninput={(e) => currentYear = clampAtlasYear(Number(e.currentTarget.value))}
+            aria-label="Harita zaman filtresi yılı"
+            aria-valuetext={yearLabel(currentYear)}
           />
         </div>
 
@@ -237,6 +268,7 @@
               type="button"
               class="preset-pill"
               class:active={currentYear === p.year}
+          aria-pressed={currentYear === p.year}
               onclick={() => (currentYear = p.year)}
               title={p.desc}
             >
@@ -249,13 +281,20 @@
   </div>
 </SectionBox>
 
+<p class="honesty-note">Her devlet için bir başkent veya odak konumu gösterilir. Başkent değişimleri, tarihî sınırlar ve yaklaşık konumların belirsizliği bu haritada modellenmez; zemin haritası günümüz coğrafyasını gösterir. Aynı konumdaki devletlere aşağıdaki listeden erişebilirsiniz.</p>
+{#if !basemapReady && !basemapError}
+  <p role="status">Coğrafi zemin yükleniyor…</p>
+{/if}
+{#if basemapError}
+  <p class="honesty-note" role="status">Harita zemini yüklenemedi. Devlet konumları ve aşağıdaki liste kullanılabilir. Yeniden denemek için sayfayı yenileyin.</p>
+{/if}
 <!-- Leaflet Harita Sahnesi -->
 <div class="map-stage-wrapper">
   <div class="leaflet-container-box" bind:this={mapElement}></div>
 
   <!-- Seçili Devlet Bilgi Kartı (Floating Drawer) -->
   {#if activeMarker}
-    <div class="active-state-drawer">
+    <div class="active-state-drawer" role="region" aria-labelledby="map-state-title">
       <div class="drawer-header">
         <div class="drawer-title-group">
           <span
@@ -263,7 +302,7 @@
             style="background: {REGION_MAP[activeMarker.state.region]?.color ?? '#b5651d'}"
           ></span>
           <div>
-            <h3 class="drawer-title">{activeMarker.state.name}</h3>
+            <h3 class="drawer-title" id="map-state-title" tabindex="-1">{activeMarker.state.name}</h3>
             <span class="drawer-region">{REGION_MAP[activeMarker.state.region]?.name}</span>
           </div>
         </div>
@@ -314,7 +353,26 @@
   {/if}
 </div>
 
+<SectionBox title={`Haritadaki Devletler · ${filteredMarkers.length}`}>
+  <div class="map-state-list">
+    {#each filteredMarkers as marker (marker.state.id)}
+      <button type="button" aria-pressed={activeMarker?.state.id === marker.state.id} onclick={() => {
+        activeMarker = marker;
+        map?.setView([marker.geo.lat, marker.geo.lon], 6);
+        mapElement?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center' });
+        void tick().then(() => document.getElementById('map-state-title')?.focus({ preventScroll: true }));
+      }}>{marker.state.name} · {marker.geo.capitalName}</button>
+    {:else}
+      <p role="status">Bu bölge ve yıl için devlet kaydı bulunamadı.</p>
+    {/each}
+  </div>
+</SectionBox>
+
 <style>
+  .map-state-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 6px; }
+  .map-state-list button { text-align: left; padding: 10px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; color: var(--ink); }
+  .map-state-list button[aria-pressed="true"] { border-color: var(--accent); }
+
   .map-controls {
     display: flex;
     flex-direction: column;
@@ -343,6 +401,8 @@
     overflow-x: auto;
     padding-bottom: 2px;
     flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
     align-items: center;
   }
 
@@ -462,6 +522,7 @@
 
   .map-stage-wrapper {
     position: relative;
+    isolation: isolate;
     width: 100%;
     height: 600px;
     background: var(--surface-1);
@@ -558,6 +619,8 @@
     padding: 14px 16px;
     box-shadow: var(--shadow-lg);
     z-index: 1000;
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
   }
 
   .drawer-header {

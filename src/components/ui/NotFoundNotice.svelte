@@ -3,10 +3,11 @@
 
   /** Adres sözdizimi hatalı ya da kayıt bulunamadı — ikisi de aynı bildirimi görür. */
   let { raw }: { raw?: string } = $props();
+  $effect(() => { document.title = 'Kayıt bulunamadı · Türk Devletleri Atlası'; });
 </script>
 
 <div class="notice glass-panel">
-  <h2 class="notice-title">Bu adres bir kayda karşılık gelmiyor</h2>
+  <h1 class="notice-title">Bu adres bir kayda karşılık gelmiyor</h1>
   <p class="body-text">
     Bağlantı eksik ya da bozuk olabilir. Adres sessizce başka bir sayfaya yönlendirilmez,
     çünkü o zaman kırık bağlantı fark edilmezdi.

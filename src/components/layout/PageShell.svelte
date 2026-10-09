@@ -5,13 +5,16 @@
   let { children }: { children: Snippet } = $props();
 </script>
 
+<a class="skip-link" href="#main-content" onclick={(event) => { event.preventDefault(); document.getElementById('main-content')?.focus(); }}>İçeriğe geç</a>
 <HUD />
 
-<main class="page-main">
+<main id="main-content" tabindex="-1" class="page-main">
   {@render children()}
 </main>
 
 <style>
+  .page-main:focus { outline: none; }
+
   .page-main {
     position: relative;
     z-index: 1;
@@ -32,7 +35,7 @@
 
   @media (max-width: 700px) {
     .page-main {
-      padding: 126px 12px 64px;
+      padding: 156px 12px 64px;
       gap: 14px;
     }
   }

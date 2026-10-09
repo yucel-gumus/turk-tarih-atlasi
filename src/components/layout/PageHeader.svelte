@@ -7,6 +7,7 @@
     subtitle,
     badges,
   }: { eyebrow?: string; title: string; subtitle?: string; badges?: Snippet } = $props();
+  $effect(() => { document.title = `${title} · Türk Devletleri Atlası`; });
 </script>
 
 <header class="page-header">

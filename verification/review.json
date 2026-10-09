@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-09",
+  "scope": [
+    "All application routes and Svelte components",
+    "Data loaders, lookup, schemas, URL grammar and chronology",
+    "Dependency audit, production build and GitHub Pages publication",
+    "Desktop Chrome, 390px mobile and 320px controls",
+    "WCAG A/AA automated scans and keyboard flows"
+  ],
+  "fixedFindings": [
+    {
+      "priority": "P1",
+      "area": "Actual map imagery",
+      "problem": "CARTO returned HTTP 200 images containing KEY REQUIRED instead of geographic tiles.",
+      "resolution": "Replaced external tile service with local public-domain Natural Earth country vectors rendered by Leaflet; verified real land polygons visually and with tests."
+    },
+    {
+      "priority": "P1",
+      "area": "Historical dates",
+      "problem": "Century expressions and unknown dates became fabricated exact years; one and two digit CE dates fell back to reign years.",
+      "resolution": "Precision-aware date parser, explicit ranges, unknown-last sorting; no invented fallback years."
+    },
+    {
+      "priority": "P1",
+      "area": "Time machine",
+      "problem": "Unknown reign end was inferred as state end; selected year was not persisted in URL.",
+      "resolution": "Only complete reign ranges participate; selected year is shareable and survives refresh."
+    },
+    {
+      "priority": "P1",
+      "area": "Family identity",
+      "problem": "Substring name matching asserted a child became ruler; ambiguous mother names selected the first wife.",
+      "resolution": "Exact names only, a neutral name-match label, no ambiguous mother resolution."
+    },
+    {
+      "priority": "P1",
+      "area": "Security",
+      "problem": "source-map-js dependency had high severity GHSA-68fv-2mgg-jv7q.",
+      "resolution": "Updated dependency lock; audit reports zero vulnerabilities."
+    },
+    {
+      "priority": "P1",
+      "area": "Publication",
+      "problem": "Deploy deleted output Git metadata and force pushed a fresh gh-pages history without verification.",
+      "resolution": "Verify gate, clean source check, temporary checkout, retained history, normal push and revision manifest."
+    },
+    {
+      "priority": "P2",
+      "area": "Search",
+      "problem": "A selected result kind could hide all controls after changing queries.",
+      "resolution": "Filters remain visible for matching queries and reset when query changes."
+    },
+    {
+      "priority": "P2",
+      "area": "Battle filters",
+      "problem": "Uncertain filter count included inconclusive records but list excluded them.",
+      "resolution": "Filter and count use the same result set; list limit resets after filter changes."
+    },
+    {
+      "priority": "P2",
+      "area": "Foe classification",
+      "problem": "Generic Han title classified non-Chinese rulers as China; substrings also created false matches.",
+      "resolution": "Removed generic title rule, added word boundaries and documented heuristic categories."
+    },
+    {
+      "priority": "P2",
+      "area": "Map",
+      "problem": "Leaflet layers covered fixed navigation; overlapping locations were unreachable; stale filtered selections remained.",
+      "resolution": "Isolated stacking context, complete keyboard-accessible list, selection clearing and selected-card focus."
+    },
+    {
+      "priority": "P2",
+      "area": "Map resilience",
+      "problem": "Tile failures were silent; resizing did not update map dimensions; tooltips used interpolated HTML.",
+      "resolution": "Local basemap failure notice and usable fallback list, ResizeObserver cleanup, text-node tooltips."
+    },
+    {
+      "priority": "P2",
+      "area": "Mobile",
+      "problem": "Header obscured content, rigid grids and year controls exceeded small viewports; touch pan was restricted.",
+      "resolution": "Mobile header spacing, adaptive grids, compact 320px controls and native touch scrolling."
+    },
+    {
+      "priority": "P2",
+      "area": "Accessibility",
+      "problem": "Missing input labels, toggle state, active navigation, skip link and one main heading; selected milestone text failed contrast.",
+      "resolution": "Semantic labels and state, focus handling, main headings, corrected contrast and reduced motion."
+    },
+    {
+      "priority": "P2",
+      "area": "Keyboard lifecycle",
+      "problem": "Global timeline shortcuts intercepted unrelated controls; RAF/blur timers survived page teardown.",
+      "resolution": "Scoped shortcuts and explicit lifecycle cleanup; Escape retains search focus."
+    },
+    {
+      "priority": "P2",
+      "area": "Routing",
+      "problem": "Time routes accepted extra segments, fractions, out-of-range years and year zero; index accepted unsafe integers.",
+      "resolution": "Strict route grammar and bounded integer years; BCE-to-CE step skips zero."
+    },
+    {
+      "priority": "P2",
+      "area": "Runtime data",
+      "problem": "Normalization trusted any raw JSON despite existing validation schema.",
+      "resolution": "Single runtime schema parse with safe IDs, HTTPS sources and integer chronology."
+    },
+    {
+      "priority": "P2",
+      "area": "Performance",
+      "problem": "Leaflet shipped in every opening page.",
+      "resolution": "Lazy map component and CSS; entry gzip decreased from 104.98kB to 69.59kB."
+    },
+    {
+      "priority": "P3",
+      "area": "Metadata and documentation",
+      "problem": "Static counts were outdated; loading was blank; titles were identical across pages.",
+      "resolution": "Current README counts, data-derived page counts, loading/noscript states and contextual document titles."
+    }
+  ],
+  "verification": {
+    "schemaValidation": "passed, including birth/reign/death order",
+    "svelteCheck": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "unitTestsPassed": 29,
+    "browserTestsPassed": 42,
+    "finalMapFamilyRegressionTestsPassed": 8,
+    "automatedAccessibilityViolationsInScannedStates": 0,
+    "productionBuild": "passed",
+    "npmAuditVulnerabilities": 0,
+    "gitDiffCheck": "passed",
+    "indexedDestinationRoundTrips": "All 2538 records: 80 states + 1 guide + 713 rulers + 791 wars + 190 wives + 763 children"
+  },
+  "dataCounts": {
+    "states": 80,
+    "guide": 1,
+    "rulers": 713,
+    "battleRecords": 791,
+    "wives": 190,
+    "children": 763
+  },
+  "sourceHTTPCheck": {
+    "totalUnique": 316,
+    "HTTP200": 99,
+    "HTTP403": 32,
+    "HTTP429": 80,
+    "HTTP503": 105,
+    "confirmed404or410": 0,
+    "limitation": "217 addresses were not confirmed accessible. Access restrictions and service errors are not proof that a historical source or URL is incorrect."
+  },
+  "limits": [
+    "Automated tests and review cannot prove absence of every possible defect.",
+    "Historical claims were not independently re-researched in full; original records remain intact.",
+    "Map uses static approximate focus coordinates over modern geography, not changing historical borders or year-specific capitals.",
+    "Battle totals count ruler-attached records, not deduplicated historical events."
+  ],
+  "publication": {
+    "target": "https://yucel-gumus.github.io/turk-tarih-atlasi/",
+    "sourceBranch": "main",
+    "outputBranch": "gh-pages",
+    "revisionVerification": "Live release.json must match the source Git revision; post-publication checks are reported separately."
+  }
+}

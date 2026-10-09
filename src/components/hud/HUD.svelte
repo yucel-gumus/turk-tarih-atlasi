@@ -32,6 +32,7 @@
     <a
       class="nav-pill glass-pill"
       class:active={currentRoute === 'home'}
+      aria-current={currentRoute === 'home' ? 'page' : undefined}
       href={hrefHome()}
       title="Kronolojik Zaman Şeridi"
     >
@@ -41,6 +42,7 @@
     <a
       class="nav-pill glass-pill"
       class:active={currentRoute === 'map'}
+      aria-current={currentRoute === 'map' ? 'page' : undefined}
       href={hrefMap()}
       title="Avrasya Coğrafi Haritası"
     >
@@ -50,6 +52,7 @@
     <a
       class="nav-pill glass-pill"
       class:active={currentRoute === 'timeMachine'}
+      aria-current={currentRoute === 'timeMachine' ? 'page' : undefined}
       href={hrefTimeMachine()}
       title="Tarihsel Zaman Makinesi"
     >
@@ -59,6 +62,7 @@
     <a
       class="nav-pill glass-pill"
       class:active={currentRoute === 'battles'}
+      aria-current={currentRoute === 'battles' ? 'page' : undefined}
       href={hrefBattles()}
       title="Büyük Savaşlar Gezgini"
     >

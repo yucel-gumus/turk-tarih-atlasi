@@ -123,40 +123,9 @@ export const STATE_GEO_POINTS: Record<string, StateGeoPoint> = {
   'osmanli': { stateId: 'osmanli', capitalName: 'Söğüt / Bursa / Edirne / İstanbul', lat: 41.01, lon: 28.98, modernCountry: 'Türkiye' },
 };
 
-/**
- * Avrasya odaklı SVG projeksiyonu.
- * Enlem (Lat): 15°N ile 65°N
- * Boylam (Lon): 12°E ile 118°E
- * Genişlik: 1000px, Yükseklik: 550px
- */
-export function projectGeoToSvg(
-  lat: number,
-  lon: number,
-  width: number = 1000,
-  height: number = 550
-): { x: number; y: number } {
-  const minLon = 12;
-  const maxLon = 118;
-  const minLat = 18;
-  const maxLat = 62;
-
-  // Sınır koruması
-  const clampedLon = Math.max(minLon, Math.min(maxLon, lon));
-  const clampedLat = Math.max(minLat, Math.min(maxLat, lat));
-
-  const x = ((clampedLon - minLon) / (maxLon - minLon)) * width;
-  const y = ((maxLat - clampedLat) / (maxLat - minLat)) * height;
-
-  return {
-    x: Math.round(x * 10) / 10,
-    y: Math.round(y * 10) / 10,
-  };
-}
-
 export interface GeoStateMarker {
   state: State;
   geo: StateGeoPoint;
-  svgPos: { x: number; y: number };
 }
 
 export function getAllStateGeoMarkers(): GeoStateMarker[] {
@@ -169,7 +138,6 @@ export function getAllStateGeoMarkers(): GeoStateMarker[] {
       markers.push({
         state,
         geo,
-        svgPos: projectGeoToSvg(geo.lat, geo.lon),
       });
     }
   }

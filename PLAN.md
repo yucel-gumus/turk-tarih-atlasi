@@ -2,7 +2,7 @@
 
 ## Ürün amacı
 
-Atlas, Türk tarihiyle ilişkili siyasi yapıları zaman ve bölge üzerinden keşfetmeyi; her devletin hükümdar, savaş ve aile kayıtlarına inip kaynak bağlantılarını görmeyi sağlar. Coğrafi sınır haritası veya bütün tarihsel kişilerin eksiksiz envanteri olduğunu iddia etmez.
+Atlas, Türk tarihiyle ilişkili siyasi yapıları zaman ve bölge üzerinden keşfetmeyi; her devletin hükümdar, savaş ve aile kayıtlarına inip kaynak bağlantılarını görmeyi sağlar. Tarihî sınır haritası veya bütün tarihsel kişilerin eksiksiz envanteri olduğunu iddia etmez.
 
 ## Tamamlanan temel işler
 
@@ -26,4 +26,4 @@ Atlas, Türk tarihiyle ilişkili siyasi yapıları zaman ve bölge üzerinden ke
 
 ## İçerik için ayrı karar
 
-Proje sahibi önceliği mevcut atlası sağlamlaştırmak olarak seçti. Eş/çocuk aile denetiminin kapsamı ve açık sınırları `data/FAMILY_AUDIT.md` içinde. Yayına alma istenirse hedef barındırma ortamı ayrıca seçilir; `dist/` statik çıktı hazırdır.
+Eş/çocuk aile denetiminin kapsamı ve açık sınırları `data/FAMILY_AUDIT.md` içinde. Yayın hedefi GitHub Pages olarak belirlenmiştir. 2026-10-09 kod incelemesi, test kapsamı ve içerik sınırlamaları `verification/review.json` içinde; yayın komutu ve canlı sürüm doğrulaması README içinde belgelenmiştir.

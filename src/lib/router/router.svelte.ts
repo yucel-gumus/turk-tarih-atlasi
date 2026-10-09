@@ -1,3 +1,4 @@
+import { tick } from 'svelte';
 import { parseHash, type Route } from './route';
 
 /**
@@ -22,7 +23,11 @@ class Router {
     }
 
     window.addEventListener('hashchange', () => {
+      const previous = this.route;
       this.route = parseHash(window.location.hash);
+      if (!(previous.name === 'home' && this.route.name === 'home')) {
+        void tick().then(() => document.getElementById('main-content')?.focus({ preventScroll: true }));
+      }
       // Her rota ayrı bir sayfadır; önceki sayfanın kaydırma konumu taşınmaz.
       window.scrollTo(0, 0);
     });

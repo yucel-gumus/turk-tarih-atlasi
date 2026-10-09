@@ -9,6 +9,7 @@
   const items = atlasIndex().arama;
   const kinds: SearchItem['kind'][] = ['Devlet', 'Hükümdar', 'Savaş', 'Eş', 'Çocuk', 'Rehber'];
   let kind = $state<SearchItem['kind'] | 'Tümü'>('Tümü');
+  $effect(() => { query; kind = 'Tümü'; });
   const normalized = $derived(canon(query.trim()));
   const matches = $derived(searchItems(items, query));
   const results = $derived(kind === 'Tümü' ? matches : matches.filter((item) => item.kind === kind));
@@ -23,17 +24,17 @@
 
 {#if normalized.length < 2}
   <p class="honesty-note">Aramak için en az iki karakter yazın.</p>
-{:else if results.length === 0}
+{:else if matches.length === 0}
   <p class="honesty-note">Bu aramayla eşleşen kayıt bulunamadı. Başka bir ad veya yazım deneyin.</p>
 {:else}
   <div class="kind-filters" aria-label="Sonuç türü">
-    <button type="button" class:active={kind === 'Tümü'} onclick={() => (kind = 'Tümü')}>
+    <button type="button" class:active={kind === 'Tümü'} aria-pressed={kind === 'Tümü'} onclick={() => (kind = 'Tümü')}>
       Tümü · {matches.length}
     </button>
     {#each kinds as option (option)}
       {@const count = matches.filter((item) => item.kind === option).length}
       {#if count > 0}
-        <button type="button" class:active={kind === option} onclick={() => (kind = option)}>
+        <button type="button" class:active={kind === option} aria-pressed={kind === option} onclick={() => (kind = option)}>
           {option} · {count}
         </button>
       {/if}

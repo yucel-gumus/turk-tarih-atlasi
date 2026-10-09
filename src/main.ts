@@ -17,6 +17,7 @@ const appRoot: HTMLElement = target;
 async function bootstrap(): Promise<void> {
   try {
     await preloadAtlas();
+    appRoot.replaceChildren();
     mount(App, { target: appRoot });
   } catch (err) {
     console.error('[AtlasBootstrap] Atlas verisi yüklenirken hata oluştu:', err);

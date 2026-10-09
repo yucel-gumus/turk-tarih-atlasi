@@ -12,6 +12,8 @@
   import ShieldAlert from '@lucide/svelte/icons/shield-alert';
   import Scroll from '@lucide/svelte/icons/scroll';
   import ChevronRight from '@lucide/svelte/icons/chevron-right';
+  import { compareBattleYears } from '../lib/data/dates';
+  import { atlasIndex } from '../lib/data/lookup';
   import { canon } from '../lib/text';
 
   const allBattles = getAllBattles();
@@ -40,7 +42,7 @@
 
     return allBattles
       .filter((b) => {
-        if (selectedResult !== 'all' && b.result !== selectedResult) return false;
+        if (selectedResult !== 'all' && (selectedResult === 'belirsiz' ? !['belirsiz', 'sonucsuz'].includes(b.result) : b.result !== selectedResult)) return false;
         if (selectedFoe !== 'all' && b.foeCategory !== selectedFoe) return false;
         if (q.length > 0) {
           const text = canon(`${b.name} ${b.foe} ${b.when} ${b.stateName} ${b.rulerName} ${b.note}`);
@@ -49,11 +51,13 @@
         return true;
       })
       .sort((a, b) => {
-        if (sortOrder === 'asc') return a.year - b.year || a.name.localeCompare(b.name, 'tr');
-        if (sortOrder === 'desc') return b.year - a.year || a.name.localeCompare(b.name, 'tr');
+        if (sortOrder === 'asc') return compareBattleYears(a.year, b.year) || a.name.localeCompare(b.name, 'tr');
+        if (sortOrder === 'desc') return compareBattleYears(a.year, b.year, true) || a.name.localeCompare(b.name, 'tr');
         return a.name.localeCompare(b.name, 'tr');
       });
   });
+
+  $effect(() => { searchQuery; selectedResult; selectedFoe; sortOrder; displayLimit = 40; });
 
   const visibleBattles = $derived(filteredBattles.slice(0, displayLimit));
 
@@ -75,7 +79,7 @@
 <PageHeader
   eyebrow="Tarihsel Çatışmalar ve Seferler"
   title="Büyük Savaşlar ve Meydan Muharebeleri"
-  subtitle="80 Türk devletinin katıldığı 791 savaşın hasımları, sonuçları ve tarihsel kayıtları"
+  subtitle={`${atlasIndex().toplam.devlet} devletin ${stats.total} savaş, sefer ve antlaşma kaydı; tarihler kaynağın kesinlik düzeyiyle gösterilir.`}
 >
   {#snippet badges()}
     <span class="meta-pill"><Swords size={13} aria-hidden="true" /> {stats.total} Savaş</span>
@@ -84,6 +88,8 @@
     <span class="result-badge antlasma">Antlaşma · {stats.byResult.antlasma}</span>
   {/snippet}
 </PageHeader>
+
+<p class="honesty-note">Sayılar hükümdarlara bağlı kayıtlardır; aynı olay farklı hükümdarlarda tekrar yer alabilir. Hasım kategorileri aramayı kolaylaştıran metin sınıflandırmalarıdır. Tarihi bilinmeyen kayıtlar kronolojik sıralamanın sonunda gösterilir.</p>
 
 <!-- İstatistik Panosu -->
 <div class="stats-grid">
@@ -136,6 +142,7 @@
       <input
         type="search"
         class="search-field"
+        aria-label="Savaş kayıtlarında ara"
         placeholder="Savaş adı, hasım birlik, hükümdar veya şehir ara..."
         bind:value={searchQuery}
       />
@@ -152,6 +159,7 @@
           type="button"
           class="filter-pill"
           class:active={selectedResult === 'all'}
+          aria-pressed={selectedResult === 'all'}
           onclick={() => (selectedResult = 'all')}
         >
           Tümü ({stats.total})
@@ -160,6 +168,7 @@
           type="button"
           class="filter-pill zafer-pill"
           class:active={selectedResult === 'zafer'}
+          aria-pressed={selectedResult === 'zafer'}
           onclick={() => (selectedResult = 'zafer')}
         >
           Zafer ({stats.byResult.zafer})
@@ -168,6 +177,7 @@
           type="button"
           class="filter-pill yenilgi-pill"
           class:active={selectedResult === 'yenilgi'}
+          aria-pressed={selectedResult === 'yenilgi'}
           onclick={() => (selectedResult = 'yenilgi')}
         >
           Yenilgi ({stats.byResult.yenilgi})
@@ -176,6 +186,7 @@
           type="button"
           class="filter-pill antlasma-pill"
           class:active={selectedResult === 'antlasma'}
+          aria-pressed={selectedResult === 'antlasma'}
           onclick={() => (selectedResult = 'antlasma')}
         >
           Antlaşma ({stats.byResult.antlasma})
@@ -184,6 +195,7 @@
           type="button"
           class="filter-pill"
           class:active={selectedResult === 'belirsiz'}
+          aria-pressed={selectedResult === 'belirsiz'}
           onclick={() => (selectedResult = 'belirsiz')}
         >
           Belirsiz ({stats.byResult.belirsiz + stats.byResult.sonucsuz})
@@ -199,6 +211,7 @@
           type="button"
           class="filter-pill"
           class:active={selectedFoe === 'all'}
+          aria-pressed={selectedFoe === 'all'}
           onclick={() => (selectedFoe = 'all')}
         >
           Tüm Hasımlar
@@ -208,6 +221,7 @@
             type="button"
             class="filter-pill"
             class:active={selectedFoe === foe}
+          aria-pressed={selectedFoe === foe}
             onclick={() => (selectedFoe = foe)}
           >
             {foe} ({stats.byFoe[foe]})
@@ -520,7 +534,7 @@
 
   .battles-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
     gap: 12px;
   }
 

@@ -3,3 +3,5 @@ dist/
 .DS_Store
 screenshot*.png
 .staging/
+test-results/
+playwright-report/

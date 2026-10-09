@@ -1,8 +1,10 @@
 <script lang="ts">
+  import { router } from '../lib/router/router.svelte';
+  import { battleOccursInYear, clampAtlasYear } from '../lib/data/dates';
   import { atlasIndex, reignLabel } from '../lib/data/lookup';
-  import { hrefHome, hrefRuler, hrefState, hrefWar } from '../lib/router/route';
+  import { hrefHome, hrefRuler, hrefState, hrefTimeMachine } from '../lib/router/route';
   import { REGION_MAP, RESULT_MAP, yearLabel } from '../lib/data/atlas';
-  import { getAllBattles, type BattleItem } from '../lib/data/battles';
+  import { getAllBattles } from '../lib/data/battles';
   import type { Ruler, State } from '../schemas/atlas.schema';
   import Breadcrumb from '../components/layout/Breadcrumb.svelte';
   import PageHeader from '../components/layout/PageHeader.svelte';
@@ -22,9 +24,7 @@
   let selectedYear = $state(1453);
 
   $effect(() => {
-    if (initialYear !== undefined) {
-      selectedYear = initialYear;
-    }
+    selectedYear = initialYear ?? 1453;
   });
 
   // Önemli tarihsel dönemeçler listesi
@@ -48,11 +48,13 @@
   ];
 
   function setYear(y: number) {
-    selectedYear = Math.max(-220, Math.min(1925, y));
+    if (!Number.isFinite(y)) return;
+    selectedYear = clampAtlasYear(y);
+    router.replace(hrefTimeMachine(selectedYear));
   }
 
   function stepYear(delta: number) {
-    setYear(selectedYear + delta);
+    setYear(selectedYear === -1 && delta === 1 ? 1 : selectedYear === 1 && delta === -1 ? -1 : selectedYear + delta);
   }
 
   // Seçilen yılda varlığını sürdüren devletler
@@ -79,12 +81,6 @@
           if (rStart <= selectedYear && rEnd >= selectedYear) {
             list.push({ ruler, state });
           }
-        } else if (rStart !== null) {
-          // Bitiş null ise devletin yıkılışına veya rStart civarına bak
-          const endYear = state.end ?? rStart + 20;
-          if (rStart <= selectedYear && selectedYear <= endYear) {
-            list.push({ ruler, state });
-          }
         }
       }
     }
@@ -94,7 +90,7 @@
   // Seçilen yılda (veya civarında) yapılan savaşlar
   const yearBattles = $derived.by(() => {
     return allBattles.filter((b) => {
-      return b.year === selectedYear;
+      return battleOccursInYear(b.date, selectedYear);
     });
   });
 </script>
@@ -115,6 +111,8 @@
     {/if}
   {/snippet}
 </PageHeader>
+
+<p class="honesty-note">Devlet ve saltanat tarihleri yıl düzeyindedir; geçiş yılında birden fazla hükümdar görünebilir. İki saltanat sınırı da kayıtlı hükümdarlar listelenir. Savaşlarda açık yıllar ve yıl aralıkları kullanılır; yaklaşık tarihler bir yıla atanmaz. Tarihsel takvimde yıl sıfır yoktur.</p>
 
 <!-- Zaman Seçici Panel -->
 <SectionBox title="Tarih Çizelgesi ve Yıl Seçimi">
@@ -145,6 +143,8 @@
       <input
         type="range"
         class="year-slider"
+        aria-label="Tarih yılı"
+        aria-valuetext={yearLabel(selectedYear)}
         min="-220"
         max="1925"
         step="1"
@@ -153,7 +153,7 @@
       />
       <div class="slider-ticks">
         <span>MÖ 220</span>
-        <span>0</span>
+        <span>MS 1</span>
         <span>500</span>
         <span>1000</span>
         <span>1500</span>
@@ -170,6 +170,7 @@
             type="button"
             class="milestone-pill"
             class:active={selectedYear === m.year}
+          aria-pressed={selectedYear === m.year}
             title={m.desc}
             onclick={() => setYear(m.year)}
           >
@@ -184,7 +185,7 @@
 
 <!-- O Yılda Yaşanan Savaşlar -->
 {#if yearBattles.length > 0}
-  <SectionBox title={`${yearLabel(selectedYear)} Yılında Gerçekleşen Savaşlar · ${yearBattles.length}`}>
+  <SectionBox title={`${yearLabel(selectedYear)} Yılını Kapsayan Savaş Kayıtları · ${yearBattles.length}`}>
     {#snippet icon()}
       <Swords size={14} class="icon-war" aria-hidden="true" />
     {/snippet}
@@ -193,6 +194,7 @@
         <a class="battle-mini-card" href={b.href}>
           <div class="mini-header">
             <span class="mini-name">{b.name}</span>
+            <small>{b.when}{!b.date.exact ? ' · tarih aralığı' : ''}</small>
             <span class="result-badge {b.result}">{RESULT_MAP[b.result]}</span>
           </div>
           <div class="mini-parties">
@@ -216,11 +218,11 @@
   {/snippet}
   {#if activeRulers.length === 0}
     <p class="empty-notice">
-      {yearLabel(selectedYear)} yılında kayıtlara geçmiş kesin bir taht hükümdarı bulunmuyor veya bu yıl geçiş/fetret dönemine denk geliyor.
+      {yearLabel(selectedYear)} yılında kayıtlara geçmiş başlangıç ve bitiş yılları bilinen bir hükümdar bulunmuyor veya bu yıl geçiş/fetret dönemine denk geliyor.
     </p>
   {:else}
     <div class="rulers-grid">
-      {#each activeRulers as { ruler, state } (ruler.id)}
+      {#each activeRulers as { ruler, state } (state.id + ruler.id)}
         <a class="ruler-live-card" href={hrefRuler(state.id, ruler.id)}>
           <div class="card-head">
             <div class="ruler-identity">
@@ -423,7 +425,7 @@
   }
 
   .milestone-pill.active .pill-desc {
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffff;
   }
 
   .pill-desc {
@@ -433,7 +435,7 @@
 
   .battles-mini-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
     gap: 10px;
   }
 
@@ -472,6 +474,7 @@
     color: var(--ink-soft);
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 6px;
   }
 
@@ -650,5 +653,13 @@
     color: var(--ink-dim);
     font-style: italic;
     padding: 16px 0;
+  }
+  @media (max-width: 480px) {
+    .year-display-row { gap: 8px; }
+    .current-year-badge { min-width: 90px; }
+    .year-huge { font-size: 28px; }
+    .step-btn { width: 32px; }
+    .year-stepper { gap: 3px; }
+    .mini-header { flex-wrap: wrap; gap: 6px; }
   }
 </style>

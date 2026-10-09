@@ -6,7 +6,7 @@
   import SearchPage from './pages/SearchPage.svelte';
   import BattlesPage from './pages/BattlesPage.svelte';
   import TimeMachinePage from './pages/TimeMachinePage.svelte';
-  import MapPage from './pages/MapPage.svelte';
+  const mapPage = () => import('./pages/MapPage.svelte');
   import StatePage from './pages/StatePage.svelte';
   import RulerPage from './pages/RulerPage.svelte';
   import WarPage from './pages/WarPage.svelte';
@@ -31,7 +31,13 @@
   {:else if route.name === 'timeMachine'}
     <TimeMachinePage year={route.year} />
   {:else if route.name === 'map'}
-    <MapPage />
+    {#await mapPage()}
+      <p role="status">Harita yükleniyor…</p>
+    {:then module}
+      <module.default />
+    {:catch}
+      <p role="alert">Harita yüklenemedi. Bağlantınızı kontrol edip sayfayı yenileyin.</p>
+    {/await}
   {:else if route.name === 'search'}
     <SearchPage query={route.query} />
   {:else if route.name === 'state'}

@@ -26,3 +26,7 @@ Tam metin: https://creativecommons.org/licenses/by/4.0/legalcode
 - Atlasın atıf verdiği üçüncü taraf kaynakların (TDV İslâm Ansiklopedisi,
   Britannica, Vikipedi ve akademik yayınlar) metinleri kendi lisanslarına
   tabidir; burada yalnızca bağlantı verilir.
+
+## Coğrafi zemin verisi istisnası
+
+`src/lib/data/world.geo.json`, Natural Earth 1:110m ülke verisinden türetilmiştir ve kamu malıdır (public domain). Tarihsel atlas içeriğinin CC BY 4.0 lisansından ayrı değerlendirilir. Kökeni `data/MAP_PROVENANCE.json` içinde, kullanım koşulları https://www.naturalearthdata.com/about/terms-of-use/ adresindedir.
