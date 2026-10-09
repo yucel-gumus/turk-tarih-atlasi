@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { onMount, onDestroy } from 'svelte';
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
   import { getAllStateGeoMarkers, type GeoStateMarker } from '../lib/data/geo';
   import { DEVLET_REGIONS, REGION_MAP, yearLabel } from '../lib/data/atlas';
   import { hrefHome, hrefState } from '../lib/router/route';
@@ -11,13 +14,33 @@
   import Crown from '@lucide/svelte/icons/crown';
   import ChevronRight from '@lucide/svelte/icons/chevron-right';
   import Clock from '@lucide/svelte/icons/clock';
+  import RotateCcw from '@lucide/svelte/icons/rotate-ccw';
 
   const allMarkers = getAllStateGeoMarkers();
+
+  let mapElement: HTMLDivElement | null = $state(null);
+  let map: L.Map | null = null;
+  let markersLayer: L.LayerGroup | null = null;
 
   let selectedRegion = $state<string | 'all'>('all');
   let filterByYear = $state(false);
   let currentYear = $state(1299);
   let activeMarker = $state<GeoStateMarker | null>(null);
+
+  // Önemli dönüm noktası yılları
+  const timePresets = [
+    { year: -209, label: 'MÖ 209', desc: 'Asya Hun' },
+    { year: 552, label: '552', desc: 'Göktürk' },
+    { year: 751, label: '751', desc: 'Talas' },
+    { year: 840, label: '840', desc: 'Uygur/Karahanlı' },
+    { year: 1071, label: '1071', desc: 'Malazgirt' },
+    { year: 1243, label: '1243', desc: 'Kösedağ' },
+    { year: 1299, label: '1299', desc: 'Osmanlı' },
+    { year: 1402, label: '1402', desc: 'Ankara' },
+    { year: 1453, label: '1453', desc: 'İstanbul' },
+    { year: 1526, label: '1526', desc: 'Mohaç / Babür' },
+    { year: 1922, label: '1922', desc: 'Kurtuluş' },
+  ];
 
   const filteredMarkers = $derived.by(() => {
     return allMarkers.filter((m) => {
@@ -31,20 +54,125 @@
     });
   });
 
-  function selectMarker(m: GeoStateMarker) {
-    activeMarker = m;
+  function renderMarkers() {
+    if (!map || !markersLayer) return;
+
+    markersLayer.clearLayers();
+
+    for (const m of filteredMarkers) {
+      const color = REGION_MAP[m.state.region]?.color ?? '#b5651d';
+      const isSelected = activeMarker?.state.id === m.state.id;
+
+      const customIcon = L.divIcon({
+        className: 'atlas-custom-pin-wrap',
+        html: `
+          <div class="atlas-pin-node ${isSelected ? 'selected' : ''}" style="--pin-color: ${color};">
+            <div class="pin-ring"></div>
+            <div class="pin-dot"></div>
+          </div>
+        `,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -12],
+      });
+
+      const leafletMarker = L.marker([m.geo.lat, m.geo.lon], { icon: customIcon });
+
+      // Şık, minimalist tooltip (üzerine gelince belirir, haritayı boğmaz)
+      leafletMarker.bindTooltip(
+        `<b>${m.state.name}</b><br><span style="font-size:11px; opacity:0.85;">${m.geo.capitalName}</span>`,
+        {
+          direction: 'top',
+          offset: [0, -10],
+          className: 'atlas-map-tooltip',
+        }
+      );
+
+      leafletMarker.on('click', () => {
+        activeMarker = m;
+      });
+
+      markersLayer.addLayer(leafletMarker);
+    }
   }
+
+  // Bölge değişince kamera otomatik uçsun
+  function handleRegionChange(regId: string | 'all') {
+    selectedRegion = regId;
+    if (!map) return;
+
+    const regionCenters: Record<string, { center: [number, number]; zoom: number }> = {
+      anadolu: { center: [38.8, 35.5], zoom: 6 },
+      turkistan: { center: [41.5, 68.0], zoom: 5 },
+      bozkir: { center: [46.5, 100.0], zoom: 4.5 },
+      bati: { center: [47.0, 32.0], zoom: 5 },
+      kuzey: { center: [52.0, 52.0], zoom: 4.5 },
+      iran: { center: [33.0, 58.0], zoom: 5 },
+      all: { center: [41.0, 55.0], zoom: 3.5 },
+    };
+
+    const target = regionCenters[regId] ?? regionCenters.all;
+    map.flyTo(target.center, target.zoom, { duration: 1.2 });
+  }
+
+  function resetView() {
+    selectedRegion = 'all';
+    filterByYear = false;
+    activeMarker = null;
+    if (map) {
+      map.flyTo([41.0, 55.0], 3.5, { duration: 1.0 });
+    }
+  }
+
+  onMount(() => {
+    if (!mapElement) return;
+
+    map = L.map(mapElement, {
+      center: [41.0, 55.0],
+      zoom: 3.5,
+      minZoom: 2.5,
+      maxZoom: 10,
+      zoomControl: true,
+      scrollWheelZoom: true,
+    });
+
+    // CartoDB Voyager: Tarihi atlas havasına tam uyan parşömen/açık tonlu dünya haritası
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+    }).addTo(map);
+
+    markersLayer = L.layerGroup().addTo(map);
+    renderMarkers();
+  });
+
+  onDestroy(() => {
+    if (map) {
+      map.remove();
+      map = null;
+    }
+  });
+
+  // Reaktif olarak filtre değişimlerinde pinleri güncelle
+  $effect(() => {
+    // Svelte 5 dependency tracking
+    const _ = filteredMarkers;
+    const __ = activeMarker;
+    renderMarkers();
+  });
 </script>
 
 <Breadcrumb items={[{ label: 'Atlas', href: hrefHome() }, { label: 'Coğrafi Harita' }]} />
 
 <PageHeader
-  eyebrow="Jeopolitik Boyut"
+  eyebrow="Gerçek Dünya Kartografisi"
   title="Avrasya Coğrafi Tarih Haritası"
-  subtitle="80 Türk devletinin başkentleri, odak coğrafyaları ve Avrasya bozkırlarındaki göç yolları"
+  subtitle="80 Türk devletinin başkentleri ve odak coğrafyaları gerçek dünya haritası üzerinde"
 >
   {#snippet badges()}
-    <span class="meta-pill"><Compass size={13} aria-hidden="true" /> {filteredMarkers.length} Başkent & Merkez</span>
+    <span class="meta-pill"><Compass size={13} aria-hidden="true" /> {filteredMarkers.length} Başkent Gösteriliyor</span>
     {#if filterByYear}
       <span class="meta-pill"><Clock size={13} aria-hidden="true" /> {yearLabel(currentYear)} Yılı Odaklı</span>
     {/if}
@@ -52,39 +180,42 @@
 </PageHeader>
 
 <!-- Harita Kontrol Araç Çubuğu -->
-<SectionBox title="Harita Süzgeçleri ve Zaman Kaydırıcısı">
+<SectionBox title="Harita Süzgeçleri ve Zaman Makinesi">
   <div class="map-controls">
-    <!-- Bölge Seçici -->
+    <!-- Bölge Seçici & Hızlı Uçuş -->
     <div class="control-row">
-      <span class="control-label">Bölge:</span>
+      <span class="control-label">Bölgeye Odaklan:</span>
       <div class="pills-scroll">
         <button
           type="button"
           class="map-pill"
           class:active={selectedRegion === 'all'}
-          onclick={() => (selectedRegion = 'all')}
+          onclick={() => handleRegionChange('all')}
         >
-          Tüm Coğrafya ({allMarkers.length})
+          Tüm Avrasya ({allMarkers.length})
         </button>
         {#each DEVLET_REGIONS as reg (reg.id)}
           <button
             type="button"
             class="map-pill"
             class:active={selectedRegion === reg.id}
-            onclick={() => (selectedRegion = reg.id)}
+            onclick={() => handleRegionChange(reg.id)}
           >
             <span class="pill-dot" style="background: {reg.color}"></span>
             {reg.name}
           </button>
         {/each}
+        <button type="button" class="reset-view-btn" onclick={resetView} title="Görünümü Sıfırla">
+          <RotateCcw size={12} aria-hidden="true" /> Sıfırla
+        </button>
       </div>
     </div>
 
-    <!-- Tarihe Göre Canlı Filtre -->
+    <!-- Tarihe Göre Canlı Süzgeç (Zaman Kaydırıcısı) -->
     <div class="control-row year-toggle-row">
       <label class="checkbox-label">
         <input type="checkbox" bind:checked={filterByYear} />
-        <span class="toggle-text">Zaman filtresini etkinleştir (O yılda var olan başkentler)</span>
+        <span class="toggle-text">Zaman filtresini etkinleştir (O yılda yaşayan başkentler)</span>
       </label>
 
       {#if filterByYear}
@@ -99,129 +230,30 @@
             bind:value={currentYear}
           />
         </div>
+
+        <div class="presets-row">
+          {#each timePresets as p (p.year)}
+            <button
+              type="button"
+              class="preset-pill"
+              class:active={currentYear === p.year}
+              onclick={() => (currentYear = p.year)}
+              title={p.desc}
+            >
+              {p.label}
+            </button>
+          {/each}
+        </div>
       {/if}
     </div>
   </div>
 </SectionBox>
 
-<!-- İnteraktif SVG Harita -->
+<!-- Leaflet Harita Sahnesi -->
 <div class="map-stage-wrapper">
-  <div class="map-viewport">
-    <svg viewBox="0 0 1000 550" class="historical-svg-map" preserveAspectRatio="xMidYMid meet">
-      <defs>
-        <!-- Su zemin deseni / gölgesi -->
-        <filter id="pin-glow" x="-50%" y="-50%" width="200%" height="200%">
-          <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="rgba(0,0,0,0.4)" />
-        </filter>
-      </defs>
+  <div class="leaflet-container-box" bind:this={mapElement}></div>
 
-      <!-- Deniz / Su Tabanı -->
-      <rect width="1000" height="550" class="ocean-bg" />
-
-      <!-- Stilize Avrasya ve Kuzey Afrika Kara Kütleleri -->
-      <g class="landmasses">
-        <!-- Avrupa ve İskandinavya -->
-        <path d="M 50,80 Q 120,60 180,90 T 260,130 L 250,220 L 160,250 L 100,200 Z" class="land-path" />
-        <!-- Akdeniz Kuzeyi ve Balkanlar -->
-        <path d="M 120,240 Q 200,220 280,250 L 250,330 L 140,320 Z" class="land-path" />
-        <!-- Anadolu -->
-        <path d="M 230,280 Q 320,270 380,290 L 370,350 L 250,340 Z" class="land-path focus-anatolia" />
-        <!-- Kafkaslar ve Hazar Çevresi -->
-        <path d="M 370,240 Q 450,220 480,270 L 450,340 L 360,320 Z" class="land-path" />
-        <!-- Orta Asya / Maveraünnehir / Bozkır -->
-        <path d="M 450,150 Q 650,120 850,140 L 820,320 L 520,340 L 450,260 Z" class="land-path focus-steppe" />
-        <!-- Moğolistan / Orhun / İç Asya -->
-        <path d="M 780,120 Q 920,110 980,160 L 960,280 L 800,280 Z" class="land-path focus-mongolia" />
-        <!-- İran ve Horasan -->
-        <path d="M 380,330 Q 550,320 620,360 L 580,450 L 420,430 Z" class="land-path" />
-        <!-- Hint Alt Kıtası -->
-        <path d="M 580,390 Q 680,380 720,450 L 650,530 L 570,460 Z" class="land-path" />
-        <!-- Mısır ve Kuzey Afrika -->
-        <path d="M 60,360 Q 200,350 260,370 L 250,470 L 80,480 Z" class="land-path" />
-        <!-- Çin İçleri -->
-        <path d="M 820,280 Q 960,270 990,360 L 920,460 L 760,400 Z" class="land-path" />
-
-        <!-- Göller & İç Denizler -->
-        <!-- Karadeniz -->
-        <ellipse cx="270" cy="270" rx="42" ry="18" class="water-body" />
-        <!-- Hazar Denizi -->
-        <ellipse cx="420" cy="275" rx="22" ry="48" class="water-body" />
-        <!-- Aral Gölü -->
-        <ellipse cx="505" cy="265" rx="14" ry="20" class="water-body" />
-        <!-- Balkaş Gölü -->
-        <ellipse cx="650" cy="225" rx="26" ry="9" class="water-body" />
-        <!-- Baykal Gölü -->
-        <ellipse cx="820" cy="140" rx="8" ry="24" class="water-body" />
-        <!-- Isık Göl -->
-        <ellipse cx="650" cy="275" rx="10" ry="6" class="water-body" />
-      </g>
-
-      <!-- Coğrafi Bölge Etiketleri (Silik) -->
-      <g class="geo-labels" aria-hidden="true">
-        <text x="820" y="195">ÖTÜKEN / ORHUN</text>
-        <text x="610" y="240">TÜRKİSTAN</text>
-        <text x="510" y="220">DEŞT-İ KIPÇAK</text>
-        <text x="280" y="315">ANADOLU</text>
-        <text x="470" y="380">İRAN & HORASAN</text>
-        <text x="620" y="440">HİNDİSTAN</text>
-        <text x="180" y="410">MISIR</text>
-        <text x="170" y="190">AVRUPA / BALKAN</text>
-      </g>
-
-      <!-- Başkent ve Odak Noktası İşaretçileri (Pins) -->
-      <g class="pins-layer">
-        {#each filteredMarkers as m (m.state.id)}
-          {@const isSelected = activeMarker?.state.id === m.state.id}
-          {@const color = REGION_MAP[m.state.region]?.color ?? '#b5651d'}
-          <g
-            class="pin-group"
-            class:selected={isSelected}
-            transform="translate({m.svgPos.x}, {m.svgPos.y})"
-            onclick={() => selectMarker(m)}
-            onkeydown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                selectMarker(m);
-              }
-            }}
-            role="button"
-            tabindex="0"
-            aria-label="{m.state.name} ({m.geo.capitalName})"
-          >
-            <!-- Tıklama / Dokunma Alanı (Görünmez Geniş Daire) -->
-            <circle r="14" class="hit-area" />
-
-            <!-- Dış Halka -->
-            <circle
-              r={isSelected ? 9 : 5}
-              fill={color}
-              stroke="#ffffff"
-              stroke-width={isSelected ? 2.5 : 1.5}
-              filter="url(#pin-glow)"
-              class="pin-circle"
-            />
-
-            <!-- Merkez Nokta -->
-            {#if isSelected}
-              <circle r="3" fill="#ffffff" />
-            {/if}
-
-            <!-- Başkent Adı Etiketi -->
-            <text
-              y={isSelected ? -12 : -8}
-              text-anchor="middle"
-              class="pin-label"
-              class:selected-label={isSelected}
-            >
-              {m.state.short || m.state.name}
-            </text>
-          </g>
-        {/each}
-      </g>
-    </svg>
-  </div>
-
-  <!-- Seçili Devlet Bilgi Kartı (Floating Drawer / Card) -->
+  <!-- Seçili Devlet Bilgi Kartı (Floating Drawer) -->
   {#if activeMarker}
     <div class="active-state-drawer">
       <div class="drawer-header">
@@ -252,14 +284,21 @@
         </div>
 
         <div class="drawer-meta-item">
-          <span class="meta-name"><MapPin size={12} aria-hidden="true" /> Başkent / Merkez:</span>
+          <span class="meta-name"><MapPin size={12} aria-hidden="true" /> Başkent:</span>
           <span class="meta-val"><b>{activeMarker.geo.capitalName}</b></span>
         </div>
 
         <div class="drawer-meta-item">
-          <span class="meta-name">Günümüz Konumu:</span>
+          <span class="meta-name">Günümüz Ülkesi:</span>
           <span class="meta-val">{activeMarker.geo.modernCountry}</span>
         </div>
+
+        {#if activeMarker.state.rulers && activeMarker.state.rulers.length > 0}
+          <div class="drawer-meta-item">
+            <span class="meta-name"><Crown size={12} aria-hidden="true" /> Hükümdar:</span>
+            <span class="meta-val">{activeMarker.state.rulers.length} hükümdar</span>
+          </div>
+        {/if}
 
         {#if activeMarker.state.summary}
           <p class="drawer-summary">{activeMarker.state.summary}</p>
@@ -304,6 +343,7 @@
     overflow-x: auto;
     padding-bottom: 2px;
     flex-grow: 1;
+    align-items: center;
   }
 
   .map-pill {
@@ -339,10 +379,31 @@
     border-radius: 50%;
   }
 
+  .reset-view-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 10px;
+    font-size: 11px;
+    background: var(--surface-3);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--ink-dim);
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .reset-view-btn:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+  }
+
   .year-toggle-row {
     padding-top: 10px;
     border-top: 1px solid var(--border);
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
   .checkbox-label {
@@ -358,18 +419,17 @@
   .year-slider-box {
     display: flex;
     align-items: center;
-    gap: 10px;
-    flex-grow: 1;
-    max-width: 320px;
+    gap: 12px;
+    width: 100%;
+    max-width: 480px;
   }
 
   .active-year-display {
     font-family: var(--font-serif);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--accent);
-    min-width: 70px;
-    text-align: right;
+    min-width: 75px;
   }
 
   .map-slider {
@@ -378,9 +438,32 @@
     cursor: pointer;
   }
 
+  .presets-row {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .preset-pill {
+    padding: 3px 8px;
+    font-size: 11px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+
+  .preset-pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #ffffff;
+  }
+
   .map-stage-wrapper {
     position: relative;
     width: 100%;
+    height: 600px;
     background: var(--surface-1);
     border: 1px solid var(--border);
     border-radius: 14px;
@@ -388,106 +471,93 @@
     box-shadow: var(--shadow-md);
   }
 
-  .map-viewport {
+  .leaflet-container-box {
     width: 100%;
-    height: auto;
+    height: 100%;
+    background: #e8eef3;
+  }
+
+  /* Custom Leaflet Pin Styling */
+  :global(.atlas-custom-pin-wrap) {
+    background: transparent;
+    border: none;
+  }
+
+  :global(.atlas-pin-node) {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
     position: relative;
-  }
-
-  .historical-svg-map {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .ocean-bg {
-    fill: #e8eef3;
-  }
-
-  .landmasses .land-path {
-    fill: #f5f1e8;
-    stroke: #d9d1c1;
-    stroke-width: 1.5;
-  }
-
-  .focus-anatolia {
-    fill: #f4ecdc;
-  }
-
-  .focus-steppe {
-    fill: #f7efe1;
-  }
-
-  .focus-mongolia {
-    fill: #f3ebd8;
-  }
-
-  .water-body {
-    fill: #dbe4ec;
-    stroke: #ccd9e3;
-    stroke-width: 1;
-  }
-
-  .geo-labels text {
-    font-family: var(--font-sans);
-    font-size: 11px;
-    font-weight: 700;
-    fill: #b3a996;
-    letter-spacing: 0.12em;
-    user-select: none;
-    pointer-events: none;
-  }
-
-  .pin-group {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
-  .pin-group:hover {
-    transform: scale(1.3);
+  :global(.atlas-pin-node:hover),
+  :global(.atlas-pin-node.selected) {
+    transform: scale(1.4);
+    z-index: 1000 !important;
   }
 
-  .hit-area {
-    fill: transparent;
+  :global(.atlas-pin-node .pin-dot) {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--pin-color, #b5651d);
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
   }
 
-  .pin-circle {
-    transition: all 0.2s ease;
-  }
-
-  .pin-label {
-    font-family: var(--font-sans);
-    font-size: 8.5px;
-    font-weight: 600;
-    fill: var(--ink);
-    opacity: 0.85;
+  :global(.atlas-pin-node .pin-ring) {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--pin-color, #b5651d);
+    opacity: 0.4;
     pointer-events: none;
-    text-shadow: 0 1px 2px #ffffff, 0 -1px 2px #ffffff, 1px 0 2px #ffffff, -1px 0 2px #ffffff;
   }
 
-  .pin-group:hover .pin-label,
-  .selected-label {
-    font-size: 10.5px;
-    font-weight: 700;
-    opacity: 1;
-    fill: var(--accent-strong);
+  :global(.atlas-pin-node.selected .pin-ring) {
+    border-width: 2.5px;
+    opacity: 0.9;
+    animation: pulse 1.8s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.4); opacity: 0.2; }
+    100% { transform: scale(1); opacity: 0.9; }
+  }
+
+  :global(.atlas-map-tooltip) {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    background: var(--surface-1);
+    color: var(--ink);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    box-shadow: var(--shadow-sm);
   }
 
   /* Aktif Devlet Bilgi Kartı */
   .active-state-drawer {
     position: absolute;
-    bottom: 16px;
-    right: 16px;
-    width: 320px;
-    max-width: calc(100% - 32px);
+    bottom: 20px;
+    right: 20px;
+    width: 330px;
+    max-width: calc(100% - 40px);
     background: var(--surface-translucent);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     border: 1px solid var(--border-strong);
     border-radius: 12px;
     padding: 14px 16px;
     box-shadow: var(--shadow-lg);
-    z-index: 10;
+    z-index: 1000;
   }
 
   .drawer-header {
@@ -581,7 +651,7 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
-    padding: 6px 12px;
+    padding: 7px 12px;
     background: var(--accent);
     color: #ffffff;
     border-radius: 6px;
@@ -593,5 +663,18 @@
 
   .drawer-link-btn:hover {
     background: var(--accent-strong);
+  }
+
+  @media (max-width: 700px) {
+    .map-stage-wrapper {
+      height: 480px;
+    }
+    .active-state-drawer {
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
+      width: auto;
+      max-width: none;
+    }
   }
 </style>
