@@ -24,7 +24,7 @@ Bu klasördeki `raw/*.json` dosyalarının her biri **devlet nesnelerinden oluş
 | `name` | string | ✓ | tam ad |
 | `short` | string | ✓ | haritada/etiketlerde çıkacak kısa ad |
 | `aliases` | string[] | | arama için diğer adlar |
-| `region` | string | ✓ | `giris` (atlas rehberi için), `bozkir`, `turkistan`, `bati`, `kuzey`, `iran`, `anadolu`, `diger` |
+| `region` | string | ✓ | `bozkir`, `turkistan`, `bati`, `kuzey`, `iran`, `anadolu`, `diger`, `gunumuz` (bugün süren devletler) |
 | `start`, `end` | number | ✓ | kuruluş / yıkılış yılı (MÖ negatif) |
 | `startNote`, `endNote` | string | | tarih tartışmalıysa alternatifler |
 | `capital` | string | | merkez; yoksa "sabit merkez kayıtlarda yok" gibi |
@@ -35,7 +35,7 @@ Bu klasördeki `raw/*.json` dosyalarının her biri **devlet nesnelerinden oluş
 | `legacy` | string | | tarihe bıraktığı iz |
 | `essay` | string[] | | uzun anlatı paragrafları (büyük devletlerde ve kurucu dönüm noktası yapılarda, 2-6 paragraf) |
 | `sources` | kaynak[] | ✓ | `{title, url}` |
-| `rulers` | hükümdar[] | ✓ | kronolojik sıra (yalnızca `giris` kartında boş olabilir) |
+| `rulers` | hükümdar[] | ✓ | kronolojik sıra |
 
 ## Hükümdar nesnesi
 

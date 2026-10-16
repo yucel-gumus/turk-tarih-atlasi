@@ -8,23 +8,23 @@ Bu doküman, `data/raw/*.json` dosyalarının kökenini ve harici kaynakları (`
 
 | Ham Dosya (`data/raw/`) | Devlet Sayısı | Hükümdar | Durum & Notlar |
 |---|---|---|---|
-| `a-giris.json` | — | 0 | Giriş / Okuma yönergesi kaydı (`id: okuma`). Türk devleti değildir; zaman şeridine ve sayımlara girmez. |
-| `a-bati.json` | 9 | 36 | Avrupa Hun, Avar, Hazar, Bulgar, Peçenek, Kıpçak. |
+| `a-bati.json` | 9 | 43 | Avrupa Hun, Avar, Hazar, Bulgar, Peçenek, Kıpçak. |
 | `b-bozkir-hun.json` | 3 | 50 | Asya Hun, Kuzey Hun, Güney Hun (`asya-hun-teoman` vb.). |
-| `c-gokturk.json` | 6 | 19 | Göktürk kağanlıkları, Türgiş, Karluk. |
+| `c-gokturk.json` | 6 | 29 | Göktürk kağanlıkları, Türgiş, Karluk. |
 | `d-uygur-kirgiz.json` | 4 | 28 | Uygur, Yenisey Kırgız, Kimek, İdikut (Koço). |
 | `e-turkistan-islam.json`| 3 | 37 | Karahanlı, Gazneli, Harzemşah. Metin kaynakları `data/sources/e-turkistan-islam/` içinde. |
-| `f-altin-orda.json` | 4 | 25 | Altın Orda, Kazak, Nogay, Ak Orda. |
-| `g-kuzey-hanliklari.json`| 6 | 22 | Kırım, Kazan, Astrahan, Sibir, Kasım, Delhi. |
-| `h-timur-ortaasya.json` | 7 | 79 | Timur, Bâbür, Özbek, Buhara, Hive, Hokand, Çağatay. |
-| `i-iran-selcuklu.json` | 7 | 35 | Büyük Selçuklu, Kirman Selçuklu, Suriye Selçuklu, İldeniz, Salgur, Tolun, İhşid. Kaynaklar `data/sources/i-iran-selcuklu/`. |
-| `j-iran-gec.json` | 5 | 8 | Akkoyunlu, Karakoyunlu, Safevî, Avşar, Kaçar. |
-| `k-ilhanli-memluk.json` | 5 | 23 | İlhanlı, Memlük, Zengî, Eftalit, Celâyirli. |
-| `l-anadolu-selcuklu.json`| 7 | 56 | Anadolu Selçuklu, Dânişmendli, Saltuklu, Mengücek, Artuklu, Ahlatşah, Çaka. |
+| `f-altin-orda.json` | 4 | 37 | Altın Orda, Kazak, Nogay, Ak Orda. |
+| `g-kuzey-hanliklari.json`| 6 | 44 | Kırım, Kazan, Astrahan, Sibir, Kasım, Delhi. |
+| `h-timur-ortaasya.json` | 7 | 117 | Timur, Bâbür, Özbek, Buhara, Hive, Hokand, Çağatay. |
+| `i-iran-selcuklu.json` | 7 | 45 | Büyük Selçuklu, Kirman Selçuklu, Suriye Selçuklu, İldeniz, Salgur, Tolun, İhşid. Kaynaklar `data/sources/i-iran-selcuklu/`. |
+| `j-iran-gec.json` | 5 | 50 | Akkoyunlu, Karakoyunlu, Safevî, Avşar, Kaçar. |
+| `k-ilhanli-memluk.json` | 5 | 29 | İlhanlı, Memlük, Zengî, Eftalit, Celâyirli. |
+| `l-anadolu-selcuklu.json`| 7 | 73 | Anadolu Selçuklu, Dânişmendli, Saltuklu, Mengücek, Artuklu, Ahlatşah, Çaka. |
 | `m-beylikler-bati.json` | 8 | 46 | Batı Anadolu Beylikleri (Karesi, Saruhan, Aydın, Menteşe, Germiyan, Hamid, Eşref, Teke). |
-| `n-beylikler-dogu.json` | 5 | 21 | Karaman, Dulkadir, Ramazan, Candar, Eretna. |
+| `n-beylikler-dogu.json` | 5 | 45 | Karaman, Dulkadir, Ramazan, Candar, Eretna. |
 | `o-osmanli.json` | 1 | 40 | Osmanlı Devleti (36 padişah + 4 taht iddiacısı). |
-| **TOPLAM** | **80 devlet + 1 rehber** | **525** | **504 savaş, 148 eş, 556 çocuk** |
+| `p-gunumuz.json` | 7 | 35 | Günümüz Türk devletleri ve devlet başkanları (Türkiye, KKTC, Azerbaycan, Kazakistan, Özbekistan, Türkmenistan, Kırgızistan). Kaynak: Britannica ülke maddeleri. |
+| **TOPLAM** | **87 devlet** | **748** | **798 savaş, 190 eş, 763 çocuk** |
 
 ---
 

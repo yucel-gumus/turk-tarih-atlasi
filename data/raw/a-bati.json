@@ -2,7 +2,7 @@
   {
     "id": "avrupa-hun",
     "name": "Avrupa Hunları",
-    "short": "İdil'i aşıp IV-V. yüzyılda Orta Avrupa'da kurulan bozkır birliği",
+    "short": "Avrupa Hun",
     "aliases": ["Batı Hunları", "Hun İmparatorluğu"],
     "region": "bati",
     "start": 375,
@@ -213,7 +213,7 @@
   {
     "id": "avar-kaganligi",
     "name": "Avar Kağanlığı",
-    "short": "Karpat havzasında 567'den VIII. yüzyıl sonuna kadar süren kağanlık",
+    "short": "Avar",
     "aliases": ["Avar Hakanlığı", "Panonya Avarları"],
     "region": "bati",
     "start": 567,
@@ -323,7 +323,7 @@
   {
     "id": "hazar-kaganligi",
     "name": "Hazar Kağanlığı",
-    "short": "VII-X. yüzyıllarda Kuzey Kafkasya, İdil ve Karadeniz kuzeyinde ticaret devleti",
+    "short": "Hazar",
     "aliases": ["Hazar Hakanlığı", "Hazarlar"],
     "region": "bati",
     "start": 630,
@@ -524,7 +524,7 @@
   {
     "id": "buyuk-bulgarya",
     "name": "Büyük Bulgarya",
-    "short": "Kubrat'ın Karadeniz kuzeyinde kurduğu kısa ömürlü Bulgar birliği",
+    "short": "Büyük Bulgarya",
     "aliases": ["Magna Bulgaria", "Büyük Bulgar Devleti", "Patria Onoguria"],
     "region": "bati",
     "start": 630,
@@ -611,7 +611,7 @@
   {
     "id": "tuna-bulgar",
     "name": "Tuna Bulgar Devleti",
-    "short": "Asparuh'tan Boris'in vaftizine kadar Türkçe han dönemi",
+    "short": "Tuna Bulgar",
     "aliases": ["Birinci Bulgar Devleti", "Tuna Bulgar Hanlığı"],
     "region": "bati",
     "start": 681,
@@ -823,7 +823,7 @@
   {
     "id": "itil-bulgar",
     "name": "İtil Bulgar Devleti",
-    "short": "Orta İdil'de İslâm'ı resmen kabul eden Bulgar hanlığı, 1236'ya kadar",
+    "short": "İtil Bulgar",
     "aliases": ["İdil Bulgar Hanlığı", "Volga Bulgarları"],
     "region": "kuzey",
     "start": 922,
@@ -945,7 +945,7 @@
   {
     "id": "oguz-yabgu",
     "name": "Oğuz Yabgu Devleti",
-    "short": "Aşağı Seyhun'da yabgu unvanlı Oğuz birliği",
+    "short": "Oğuz Yabgu",
     "aliases": ["Oğuz Yabguluğu", "Yenikent Oğuzları"],
     "region": "turkistan",
     "start": 775,
@@ -1115,7 +1115,7 @@
   {
     "id": "pecenek",
     "name": "Peçenek birliği",
-    "short": "Merkezi krallığı olmayan, boy beylerinden oluşan bozkır birliği",
+    "short": "Peçenek",
     "aliases": ["Becenâk", "Patzinak"],
     "region": "bati",
     "start": 895,
@@ -1243,7 +1243,7 @@
   {
     "id": "kipcak-kuman",
     "name": "Kıpçak-Kuman birliği",
-    "short": "Deşt-i Kıpçak'ta tek devleti olmayan boylar birliği",
+    "short": "Kıpçak-Kuman",
     "aliases": ["Kumanlar", "Polovets", "Deşt-i Kıpçak"],
     "region": "bati",
     "start": 1054,
