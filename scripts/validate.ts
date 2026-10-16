@@ -1,15 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { StateSchema, type State } from '../src/schemas/atlas.schema.ts';
+import { StateSchema, LineageSchema, type State } from '../src/schemas/atlas.schema.ts';
 import { slug } from '../src/lib/text.ts';
 
 const rawDir = path.resolve(import.meta.dirname, '../data/raw');
 const files = fs.readdirSync(rawDir).filter((f) => f.endsWith('.json')).sort();
 
-// Rehber kaydı (region: 'giris') ayrı sayılır: Türk devleti değildir, hükümdarı
-// yoktur ve sayımlara girmemelidir. Ayrım yapılmadan "77 devlet" deniyordu.
 let totalDevlet = 0;
-let totalRehber = 0;
 let totalRulers = 0;
 let totalWars = 0;
 let totalWives = 0;
@@ -61,7 +58,6 @@ for (const file of files) {
   const items: unknown[] = Array.isArray(content) ? content : [content];
 
   let fileDevlet = 0;
-  let fileRehber = 0;
   let fileRulers = 0;
   let fileWars = 0;
   let fileWives = 0;
@@ -83,8 +79,7 @@ for (const file of files) {
     if (!state.summary.trim()) error(location, 'Devlet özeti boş.');
     if (state.start > state.end) error(location, 'Başlangıç yılı bitiş yılından sonra.');
     checkSources(location, state.sources);
-    if (state.region === 'giris') fileRehber++;
-    else fileDevlet++;
+    fileDevlet++;
     const rulers = state.rulers || [];
     fileRulers += rulers.length;
     for (const r of rulers) {
@@ -117,22 +112,46 @@ for (const file of files) {
   }
 
   totalDevlet += fileDevlet;
-  totalRehber += fileRehber;
   totalRulers += fileRulers;
   totalWars += fileWars;
   totalWives += fileWives;
   totalChildren += fileChildren;
 
-  const rehberPart = fileRehber > 0 ? ` + ${fileRehber} rehber` : '';
   console.log(
-    `${file}: ${fileDevlet} devlet${rehberPart}, ${fileRulers} hükümdar, ${fileWars} savaş, ${fileWives} eş, ${fileChildren} çocuk`
+    `${file}: ${fileDevlet} devlet, ${fileRulers} hükümdar, ${fileWars} savaş, ${fileWives} eş, ${fileChildren} çocuk`
   );
 }
 
-if (totalRehber !== 1) error('atlas', `Tam olarak bir rehber bekleniyor; bulunan: ${totalRehber}`);
+// Soy ağacı: her devlet tam olarak bir kez ve tek bir üst düğümle ağaçta yer almalı.
+const lineage = LineageSchema.parse(
+  JSON.parse(fs.readFileSync(path.resolve(import.meta.dirname, '../data/lineage.json'), 'utf-8'))
+);
+const treeIds = new Set([...stateIds, ...lineage.contextNodes.map((c) => c.id)]);
+const parentOf = new Map<string, string>();
+for (const e of lineage.edges) {
+  if (!treeIds.has(e.parent)) error('lineage', `Bilinmeyen üst düğüm: ${e.parent}`);
+  if (!treeIds.has(e.child)) error('lineage', `Bilinmeyen alt düğüm: ${e.child}`);
+  if (parentOf.has(e.child)) error('lineage', `${e.child} iki kez bağlanmış.`);
+  parentOf.set(e.child, e.parent);
+}
+if (!stateIds.has(lineage.root)) error('lineage', `Kök devlet bulunamadı: ${lineage.root}`);
+for (const id of treeIds) {
+  if (id === lineage.root) continue;
+  const seen = new Set<string>();
+  let cur: string | undefined = id;
+  while (cur && cur !== lineage.root) {
+    if (seen.has(cur)) {
+      error('lineage', `Döngü: ${id}`);
+      break;
+    }
+    seen.add(cur);
+    cur = parentOf.get(cur);
+  }
+  if (cur !== lineage.root) error('lineage', `${id} köke bağlanmıyor.`);
+}
 
 console.log(
-  `\nTOPLAM: ${totalDevlet} devlet + ${totalRehber} rehber (${totalDevlet + totalRehber} kayıt), ` +
+  `\nTOPLAM: ${totalDevlet} devlet, ${lineage.edges.length} soy ağacı bağı, ` +
     `${totalRulers} hükümdar, ${totalWars} savaş, ${totalWives} eş, ${totalChildren} çocuk`
 );
 
@@ -140,6 +159,6 @@ if (hasError) {
   console.error('\nDoğrulama başarısız!');
   process.exit(1);
 } else {
-  console.log('✅ Şema, tekil kimlikler, bağlantı slugları, tarihler ve kaynaklar doğrulandı.');
+  console.log('✅ Şema, soy ağacı, tekil kimlikler, bağlantı slugları, tarihler ve kaynaklar doğrulandı.');
   process.exit(0);
 }

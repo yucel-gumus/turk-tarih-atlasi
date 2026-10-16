@@ -1,0 +1,117 @@
+{
+  "root": "asya-hun",
+  "contextNodes": [
+    {
+      "id": "abbasi-turkleri",
+      "name": "Abbâsî ordusundaki Türkler",
+      "short": "Hilafet ordusundaki Türkler",
+      "start": 836,
+      "end": 977,
+      "summary": "IX. yüzyıldan itibaren Mâverâünnehir ve Yedisu'dan gelen Türk askerler Abbâsî ve Sâmânî ordularının çekirdeğini oluşturdu. Halife Mu'tasım 836'da Türk muhafızlar için Sâmerrâ'yı kurdu. Bu çevreden yetişen komutanlar Mısır'da Tolunoğulları ve İhşîdîler'i, Horasan'da Gazneliler'i kurdu. Bu düğüm bir devlet değil, bu devletlerin ortak çıkış ortamını gösteren bir bağlamdır.",
+      "sources": [
+        { "title": "TDV İslâm Ansiklopedisi, Sâmerrâ", "url": "https://islamansiklopedisi.org.tr/samerra" }
+      ]
+    }
+  ],
+  "edges": [
+    { "parent": "asya-hun", "child": "gokturk", "kind": "miras", "note": "Çin kaynakları Aşina soyunu Hunların bir kolu olarak anar. Bağ hanedan sürekliliği değil, bozkır devlet geleneğinin mirasıdır." },
+    { "parent": "asya-hun", "child": "kuzey-hun", "kind": "kol", "note": "48'de Hun birliği kuzey ve güney diye ikiye bölündü." },
+    { "parent": "asya-hun", "child": "guney-hun", "kind": "kol", "note": "48'de Çin sınırına yerleşen güney kolu; zamanla Çin içinde eridi." },
+    { "parent": "asya-hun", "child": "eftalit", "kind": "miras", "note": "Ak Hunlar Hun adını taşır; kökenleri ve Asya Hunlarıyla bağları tartışmalıdır." },
+    { "parent": "kuzey-hun", "child": "avrupa-hun", "kind": "miras", "note": "Batıya çekilen Hun topluluklarının IV. yüzyılda İdil'i aşan Hunlarla bağı kaynaklarda tartışmalıdır." },
+    { "parent": "avrupa-hun", "child": "avar-kaganligi", "kind": "miras", "note": "Hunlardan sonra Karpat havzasında kurulan ikinci bozkır devleti. Avarlar doğudan, Göktürk baskısıyla geldi; Hunlardan soy olarak türemedi." },
+
+    { "parent": "gokturk", "child": "dogu-gokturk", "kind": "kol", "note": "581-603 arasında kağanlık doğu ve batı diye ayrıldı." },
+    { "parent": "gokturk", "child": "bati-gokturk", "kind": "kol", "note": "İstemi Yabgu soyunun batı kanadı bağımsız kağanlık oldu." },
+
+    { "parent": "dogu-gokturk", "child": "ikinci-gokturk", "kind": "devam", "note": "630'daki Tang egemenliğinden sonra Kutluk 682'de Göktürk devletini yeniden kurdu." },
+    { "parent": "ikinci-gokturk", "child": "oguz-yabgu", "kind": "miras", "note": "Göktürk ve Uygur çağında Moğolistan'daki Oğuz boyları zamanla batıya, Seyhun boylarına göçtü." },
+    { "parent": "ikinci-gokturk", "child": "uygur-kaganligi", "kind": "devam", "note": "744'te Uygur, Karluk ve Basmıl ittifakı Göktürk kağanlığını yıktı; Ötüken Uygurlara geçti." },
+
+    { "parent": "uygur-kaganligi", "child": "idikut-uygur", "kind": "devam", "note": "840'tan sonra Uygurların bir kolu Turfan-Beşbalık bölgesine göçüp İdikut devletini kurdu." },
+    { "parent": "uygur-kaganligi", "child": "yenisey-kirgiz", "kind": "miras", "note": "Kırgızlar 840'ta Uygur başkentini aldı ve Ötüken'e hâkim oldu." },
+    { "parent": "uygur-kaganligi", "child": "kimek", "kind": "miras", "note": "Uygur kağanlığının çöküşünden sonra İrtiş boyunda Kimek boy birliği güçlendi." },
+    { "parent": "kimek", "child": "kipcak-kuman", "kind": "devam", "note": "XI. yüzyılda Kimek birliğinin batı kolu Kıpçaklar Deşt-i Kıpçak'a yayıldı." },
+
+    { "parent": "bati-gokturk", "child": "hazar-kaganligi", "kind": "kol", "note": "Batı Göktürk çözülürken Kuzey Kafkasya'da Aşina soyundan gelen bir hanedanla kuruldu." },
+    { "parent": "bati-gokturk", "child": "buyuk-bulgarya", "kind": "kol", "note": "Kubrat, Batı Göktürk ve Avar egemenliğinden ayrılarak Bulgar boylarını birleştirdi." },
+    { "parent": "bati-gokturk", "child": "turges", "kind": "devam", "note": "Yedisu'da Batı Göktürk boylarından Türgişler kağanlığı devraldı." },
+    { "parent": "turges", "child": "karluk", "kind": "devam", "note": "766'da Karluklar Yedisu'yu ve Türgiş topraklarını aldı." },
+    { "parent": "karluk", "child": "karahanli", "kind": "devam", "note": "Karluk, Yağma ve Çiğil boylarının oluşturduğu birlik ilk Müslüman Türk hanedanını çıkardı." },
+    { "parent": "karluk", "child": "abbasi-turkleri", "kind": "miras", "note": "Mâverâünnehir ve Yedisu'dan Abbâsî ve Sâmânî ordularına giden Türk askerler." },
+
+    { "parent": "abbasi-turkleri", "child": "tulun", "kind": "kol", "note": "Buharalı Türk asker Tolun'un oğlu Ahmed Mısır'da bağımsızlaştı." },
+    { "parent": "abbasi-turkleri", "child": "ihsid", "kind": "kol", "note": "Fergana kökenli Türk komutan Muhammed b. Tugc Mısır'da hanedan kurdu." },
+    { "parent": "abbasi-turkleri", "child": "gazneli", "kind": "kol", "note": "Sâmânî ordusundaki Türk komutanlar Alp Tegin ve Sebük Tegin Gazne'de devlet kurdu." },
+    { "parent": "gazneli", "child": "delhi-turk-sultanligi", "kind": "miras", "note": "Kuzey Hindistan'daki Türk kölemen komutan geleneği Gazneli ve Gurlu dönemlerinden Delhi Sultanlığı'na uzandı." },
+
+    { "parent": "buyuk-bulgarya", "child": "tuna-bulgar", "kind": "kol", "note": "Kubrat'ın oğlu Asparuh Tuna'yı geçerek Balkanlar'da devlet kurdu." },
+    { "parent": "buyuk-bulgarya", "child": "itil-bulgar", "kind": "kol", "note": "Bulgarların bir kolu Orta İdil'e çekildi." },
+
+    { "parent": "oguz-yabgu", "child": "buyuk-selcuklu", "kind": "devam", "note": "Oğuzların Kınık boyundan Selçuk ailesi Yabgu çevresinden ayrılıp devlet kurdu." },
+    { "parent": "oguz-yabgu", "child": "pecenek", "kind": "miras", "note": "Oğuz ve Kimek baskısıyla batıya itilen boylar; Oğuzlarla akraba sayılırlar." },
+
+    { "parent": "buyuk-selcuklu", "child": "anadolu-selcuklu", "kind": "kol", "note": "Kutalmışoğlu Süleyman Şah 1075'te İznik merkezli Türkiye Selçuklu devletini kurdu." },
+    { "parent": "buyuk-selcuklu", "child": "kirman-selcuklu", "kind": "kol", "note": "Çağrı Bey'in oğlu Kavurd'un kolu." },
+    { "parent": "buyuk-selcuklu", "child": "suriye-selcuklu", "kind": "kol", "note": "Tutuş'un kolu." },
+    { "parent": "buyuk-selcuklu", "child": "harzemsah", "kind": "kol", "note": "Selçuklu valisi Anuş Tegin'in soyu Harezm'de bağımsızlaştı." },
+    { "parent": "buyuk-selcuklu", "child": "danismendli", "kind": "kol", "note": "Malazgirt'ten sonra Anadolu'da kurulan ilk beyliklerden." },
+    { "parent": "buyuk-selcuklu", "child": "saltuklu", "kind": "kol", "note": "Malazgirt'ten sonra Erzurum'da kurulan beylik." },
+    { "parent": "buyuk-selcuklu", "child": "mengucek", "kind": "kol", "note": "Malazgirt'ten sonra Erzincan-Divriği'de kurulan beylik." },
+    { "parent": "buyuk-selcuklu", "child": "caka-beyligi", "kind": "kol", "note": "İzmir'de denizci Türk beyliği." },
+    { "parent": "buyuk-selcuklu", "child": "artuklu", "kind": "kol", "note": "Selçuklu komutanı Artuk Bey'in oğulları Diyarbekir ve Mardin'de beylik kurdu." },
+    { "parent": "buyuk-selcuklu", "child": "ahlatsah", "kind": "kol", "note": "Selçuklu komutanı Sökmen el-Kutbî Ahlat'ta beylik kurdu." },
+    { "parent": "buyuk-selcuklu", "child": "zengi", "kind": "kol", "note": "Selçuklu atabeyliği olarak Musul ve Halep'te doğdu." },
+    { "parent": "buyuk-selcuklu", "child": "ildenizli", "kind": "kol", "note": "Selçuklu atabeyliği olarak Azerbaycan'da doğdu." },
+    { "parent": "buyuk-selcuklu", "child": "salgurlu", "kind": "kol", "note": "Selçuklu atabeyliği olarak Fars'ta doğdu." },
+
+    { "parent": "harzemsah", "child": "ilhanli", "kind": "miras", "note": "Moğol istilası Harezmşah devletini yıktı; İran'da kurulan İlhanlı yönetimi Türk ve Moğol unsurlarını birleştirdi. Hanedan Moğol'dur." },
+    { "parent": "ilhanli", "child": "celayirli", "kind": "devam", "note": "İlhanlı çöküşünden sonra Bağdat ve Tebriz'de Celâyir hanedanı." },
+    { "parent": "ilhanli", "child": "eretna", "kind": "kol", "note": "İlhanlı Anadolu valisi Eretna 1335'ten sonra bağımsızlaştı." },
+    { "parent": "ilhanli", "child": "akkoyunlu", "kind": "miras", "note": "İlhanlı sonrası Doğu Anadolu'da Bayındır boyu önderliğindeki Türkmen birliği." },
+    { "parent": "celayirli", "child": "karakoyunlu", "kind": "devam", "note": "Celâyirlilere bağlı Karakoyunlu Türkmenleri Tebriz ve Bağdat'ı aldı." },
+    { "parent": "akkoyunlu", "child": "safevi", "kind": "devam", "note": "Safevîler 1501'de Akkoyunlu Tebriz'ini aldı; ordunun çekirdeği Kızılbaş Türkmen boylarıydı." },
+    { "parent": "safevi", "child": "avsar", "kind": "devam", "note": "Avşar boyundan Nâdir Şah Safevî tahtını devraldı." },
+    { "parent": "avsar", "child": "kacar", "kind": "devam", "note": "Kaçar boyundan Ağa Muhammed Han İran'ı yeniden birleştirdi." },
+    { "parent": "kacar", "child": "azerbaycan", "kind": "miras", "note": "1813 Gülistan ve 1828 Türkmençay antlaşmalarıyla Kuzey Azerbaycan Rusya'ya geçti; 1918'deki Azerbaycan Halk Cumhuriyeti'nden ve Sovyet döneminden sonra 1991'de bağımsızlık geldi." },
+
+    { "parent": "anadolu-selcuklu", "child": "osmanli", "kind": "kol", "note": "Selçuklu-İlhanlı uç bölgesinde Söğüt çevresinde doğan beylik." },
+    { "parent": "anadolu-selcuklu", "child": "karamanoglu", "kind": "kol", "note": "Selçuklu çözülürken kurulan Türkmen beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "germiyan", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "karesi", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "saruhan", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "aydin", "kind": "kol", "note": "Germiyan çevresinden doğan Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "mentese", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "hamid", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "hamid", "child": "teke", "kind": "kol", "note": "Hamîdoğulları'nın Antalya kolu." },
+    { "parent": "anadolu-selcuklu", "child": "esref", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "candaroglu", "kind": "kol", "note": "Selçuklu uç beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "dulkadir", "kind": "kol", "note": "Selçuklu sonrası Maraş-Elbistan'da, Memlük himayesinde kurulan Türkmen beyliği." },
+    { "parent": "anadolu-selcuklu", "child": "ramazanoglu", "kind": "kol", "note": "Selçuklu sonrası Adana'da, Memlük himayesinde kurulan Türkmen beyliği." },
+    { "parent": "osmanli", "child": "turkiye", "kind": "devam", "note": "Kurtuluş Savaşı'nı TBMM yönetti; saltanat 1922'de kaldırıldı ve Türkiye Cumhuriyeti 29 Ekim 1923'te ilan edildi." },
+    { "parent": "turkiye", "child": "kktc", "kind": "kol", "note": "1974 Kıbrıs Barış Harekâtı'ndan sonra Kıbrıs Türk Federe Devleti, 1983'te Kuzey Kıbrıs Türk Cumhuriyeti ilan edildi." },
+
+    { "parent": "kipcak-kuman", "child": "memluk", "kind": "miras", "note": "Mısır'da Eyyûbîlerin aldığı Kıpçak kölemen askerler 1250'de iktidarı aldı." },
+    { "parent": "kipcak-kuman", "child": "altin-orda", "kind": "miras", "note": "Moğol istilasından sonra Deşt-i Kıpçak'ta Cuci ulusu kuruldu; hanedan Cengiz soyundandır, halk ve dil Kıpçak Türkçesidir." },
+    { "parent": "altin-orda", "child": "ak-orda", "kind": "kol", "note": "Cuci ulusunun doğu (sol) kanadı." },
+    { "parent": "altin-orda", "child": "nogay-ordasi", "kind": "kol", "note": "Altın Orda beylerbeyi Edigü'nün Mangıt soyu." },
+    { "parent": "altin-orda", "child": "kirim-hanligi", "kind": "kol", "note": "Hacı Giray Altın Orda'dan ayrılarak Kırım'da hanlık kurdu." },
+    { "parent": "altin-orda", "child": "kazan-hanligi", "kind": "kol", "note": "Uluğ Muhammed Han Kazan'da hanlık kurdu." },
+    { "parent": "kazan-hanligi", "child": "kasim-hanligi", "kind": "kol", "note": "Uluğ Muhammed'in oğlu Kasım'ın Moskova'ya bağlı hanlığı." },
+    { "parent": "altin-orda", "child": "astrahan-hanligi", "kind": "kol", "note": "Altın Orda'nın aşağı İdil'deki son parçalarından." },
+    { "parent": "altin-orda", "child": "sibir-hanligi", "kind": "kol", "note": "Cuci soyundan hanlar Batı Sibirya'da hanlık kurdu." },
+    { "parent": "ak-orda", "child": "ozbek-hanligi", "kind": "devam", "note": "Cuci'nin oğlu Şiban soyundan Ebu'l-Hayr Han Ak Orda topraklarında Özbek birliğini kurdu." },
+    { "parent": "ak-orda", "child": "kazak-hanligi", "kind": "kol", "note": "Ak Orda hanı Urus Han'ın soyundan Kerey ve Canibek, Ebu'l-Hayr'dan ayrılıp 1465'te Kazak Hanlığı'nı kurdu." },
+    { "parent": "kazak-hanligi", "child": "kazakistan", "kind": "miras", "note": "Kazak cüzleri XVIII-XIX. yüzyıllarda Rus egemenliğine girdi; Sovyet döneminden sonra 1991'de bağımsızlık ilan edildi." },
+    { "parent": "ozbek-hanligi", "child": "buhara-hanligi", "kind": "devam", "note": "Şeybânî Han 1500'de Mâverâünnehir'i Timurlulardan aldı." },
+    { "parent": "ozbek-hanligi", "child": "hive-hanligi", "kind": "kol", "note": "Şiban soyunun Arapşahî kolu 1511'de Harezm'de hanlık kurdu." },
+    { "parent": "buhara-hanligi", "child": "hokand-hanligi", "kind": "kol", "note": "Fergana'daki Ming boyu 1710 dolayında Buhara'dan ayrıldı." },
+    { "parent": "buhara-hanligi", "child": "ozbekistan", "kind": "miras", "note": "Buhara, Hive ve Hokand Rus egemenliğine girdi; 1924'te Sovyet sınırlarıyla Özbek SSC kuruldu, 1991'de bağımsızlık ilan edildi." },
+    { "parent": "hive-hanligi", "child": "turkmenistan", "kind": "miras", "note": "Hive'ye ve kendi boy beylerine bağlı Türkmen boyları XIX. yüzyılda Rus egemenliğine girdi; 1924'te Türkmen SSC kuruldu, 1991'de bağımsızlık ilan edildi." },
+    { "parent": "hokand-hanligi", "child": "kirgizistan", "kind": "miras", "note": "Kırgız boyları Hokand Hanlığı'na bağlıydı; 1876'da Rus egemenliğine girdi, 1936'da Kırgız SSC kuruldu, 1991'de bağımsızlık ilan edildi." },
+
+    { "parent": "karahanli", "child": "cagatay-hanligi", "kind": "miras", "note": "Moğol istilasından sonra Mâverâünnehir ve Yedisu Türkleri Cengiz'in oğlu Çağatay'ın ulusunda kaldı ve hanedan zamanla Türkleşti." },
+    { "parent": "cagatay-hanligi", "child": "timur-imparatorlugu", "kind": "devam", "note": "Çağatay ulusundaki Barlas boyundan Timur, 1370'te Mâverâünnehir'e hâkim oldu." },
+    { "parent": "timur-imparatorlugu", "child": "babur-imparatorlugu", "kind": "devam", "note": "Timur soyundan Bâbür, Fergana'dan Kâbil'e, oradan Hindistan'a geçti." }
+  ]
+}

@@ -1,7 +1,6 @@
 import { z } from 'zod';
 
 export const RegionEnum = z.enum([
-  'giris',
   'bozkir',
   'turkistan',
   'bati',
@@ -9,6 +8,7 @@ export const RegionEnum = z.enum([
   'iran',
   'anadolu',
   'diger',
+  'gunumuz',
 ]);
 export type Region = z.infer<typeof RegionEnum>;
 
@@ -113,8 +113,31 @@ export const StateSchema = z.object({
 });
 export type State = z.infer<typeof StateSchema>;
 
-export const MilestoneSchema = z.object({
-  year: z.number().int(),
-  label: z.string(),
+/** Soy ağacı: her devletin tek bir üst düğümü ve o bağın türü vardır. */
+export const EdgeKindEnum = z.enum(['devam', 'kol', 'miras']);
+export type EdgeKind = z.infer<typeof EdgeKindEnum>;
+
+export const LineageSchema = z.object({
+  root: z.string(),
+  contextNodes: z.array(
+    z.object({
+      id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+      name: z.string(),
+      short: z.string(),
+      start: z.number().int(),
+      end: z.number().int(),
+      summary: z.string().min(1),
+      sources: z.array(SourceSchema).min(1),
+    })
+  ),
+  edges: z.array(
+    z.object({
+      parent: z.string(),
+      child: z.string(),
+      kind: EdgeKindEnum,
+      note: z.string().min(1),
+    })
+  ),
 });
-export type Milestone = z.infer<typeof MilestoneSchema>;
+export type Lineage = z.infer<typeof LineageSchema>;
+export type ContextNode = Lineage['contextNodes'][number];

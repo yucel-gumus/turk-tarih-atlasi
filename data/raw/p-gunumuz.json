@@ -1,0 +1,995 @@
+[
+  {
+    "id": "turkiye",
+    "name": "Türkiye Cumhuriyeti",
+    "short": "Türkiye",
+    "aliases": [
+      "Türkiye",
+      "Turkey"
+    ],
+    "region": "gunumuz",
+    "start": 1923,
+    "end": 2026,
+    "endNote": "Bugün sürüyor.",
+    "capital": "Ankara",
+    "religion": "Laik devlet; nüfusun çoğunluğu Müslüman",
+    "summary": "Osmanlı Devleti'nin Birinci Dünya Savaşı'ndaki yenilgisinden sonra Anadolu'da TBMM önderliğinde yürütülen Kurtuluş Savaşı, 1923 Lozan Antlaşması ile sonuçlandı. Türkiye Cumhuriyeti 29 Ekim 1923'te ilan edildi; saltanat 1922'de, hilâfet 1924'te kaldırıldı.",
+    "legacy": "Osmanlı mirasını devralan ulus devlet; laiklik, harf ve hukuk inkılaplarıyla yeni bir devlet düzeni kurdu.",
+    "sources": [
+      {
+        "title": "Britannica, Turkey",
+        "url": "https://www.britannica.com/place/Turkey"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "turkiye-ataturk",
+        "name": "Mustafa Kemal Atatürk",
+        "title": "Cumhurbaşkanı",
+        "birth": 1881,
+        "death": 1938,
+        "reign": [
+          1923,
+          1938
+        ],
+        "summary": "Kurtuluş Savaşı'nın önderi ve Türkiye Cumhuriyeti'nin kurucusu. TBMM Başkomutanı olarak Sakarya ve Büyük Taarruz zaferlerini yönetti; cumhurbaşkanı olarak hilâfetin kaldırılması, harf inkılabı, medeni kanun ve kadınlara seçme-seçilme hakkı gibi köklü reformları gerçekleştirdi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Sakarya Meydan Muharebesi",
+            "when": "1921",
+            "foe": "Yunanistan",
+            "result": "zafer",
+            "note": "23 Ağustos-13 Eylül 1921 arasında, 22 gün 22 gece sürdü. TBMM ordusunun başkomutanı olarak yönetti; Yunan ordusunun Ankara yönündeki ilerleyişi durduruldu. Cumhuriyet ilanından önce, TBMM Hükümeti dönemindedir."
+          },
+          {
+            "name": "Büyük Taarruz",
+            "when": "1922",
+            "foe": "Yunanistan",
+            "result": "zafer",
+            "note": "26-30 Ağustos 1922. Başkomutanlık Meydan Muharebesi ile Yunan ordusu yenildi; 9 Eylül'de İzmir alındı. Mudanya Ateşkesi ve Lozan Antlaşması bu zaferin sonucudur."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-inonu",
+        "name": "İsmet İnönü",
+        "title": "Cumhurbaşkanı",
+        "birth": 1884,
+        "death": 1973,
+        "reign": [
+          1938,
+          1950
+        ],
+        "summary": "Kurtuluş Savaşı'nda Batı Cephesi komutanı ve Lozan'da baş delege. Cumhurbaşkanı olarak Türkiye'yi II. Dünya Savaşı'nın dışında tuttu ve çok partili hayata geçişi yönetti.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-bayar",
+        "name": "Celâl Bayar",
+        "title": "Cumhurbaşkanı",
+        "birth": 1883,
+        "death": 1986,
+        "reign": [
+          1950,
+          1960
+        ],
+        "summary": "Demokrat Parti iktidarının cumhurbaşkanı. Döneminde Türkiye NATO'ya girdi; 27 Mayıs 1960 darbesiyle görevden uzaklaştırıldı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Kore Savaşı",
+            "when": "1950-1953",
+            "foe": "Kuzey Kore ve Çin",
+            "result": "sonucsuz",
+            "note": "Türk Tugayı BM saflarında savaştı; Kunuri ve Vegas muharebeleri en bilinenleridir. Savaş 1953 ateşkesiyle sona erdi."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-gursel",
+        "name": "Cemal Gürsel",
+        "title": "Devlet Başkanı, Cumhurbaşkanı",
+        "birth": 1895,
+        "death": 1966,
+        "reign": [
+          1960,
+          1966
+        ],
+        "reignNote": "1960 darbesinden sonra Millî Birlik Komitesi başkanı ve devlet başkanı; 1961'de cumhurbaşkanı seçildi.",
+        "summary": "27 Mayıs 1960 darbesinden sonra devlet başkanı oldu, 1961 Anayasası'ndan sonra cumhurbaşkanı seçildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-sunay",
+        "name": "Cevdet Sunay",
+        "title": "Cumhurbaşkanı",
+        "birth": 1899,
+        "death": 1982,
+        "reign": [
+          1966,
+          1973
+        ],
+        "summary": "Genelkurmay başkanlığından cumhurbaşkanlığına geçti; 12 Mart 1971 muhtırası döneminde görevdeydi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-koruturk",
+        "name": "Fahri Korutürk",
+        "title": "Cumhurbaşkanı",
+        "birth": 1903,
+        "death": 1987,
+        "reign": [
+          1973,
+          1980
+        ],
+        "summary": "Emekli oramiral. Görev süresinde 1974 Kıbrıs Barış Harekâtı yapıldı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Kıbrıs Barış Harekâtı",
+            "when": "1974",
+            "foe": "Kıbrıs Rum Millî Muhafız Ordusu ve Yunan cuntası destekli kuvvetler",
+            "result": "zafer",
+            "note": "20 Temmuz-16 Ağustos 1974, iki aşamada. Yunan cuntasının desteklediği darbeye karşı garantör sıfatıyla başladı; adanın kuzeyi Türk kontrolüne geçti. Harekâtın siyasi kararı Başbakan Bülent Ecevit hükümetince alındı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-evren",
+        "name": "Kenan Evren",
+        "title": "Devlet Başkanı, Cumhurbaşkanı",
+        "birth": 1917,
+        "death": 2015,
+        "reign": [
+          1980,
+          1989
+        ],
+        "reignNote": "12 Eylül 1980 darbesiyle devlet başkanı; 1982 Anayasası halkoylamasıyla cumhurbaşkanı.",
+        "summary": "12 Eylül 1980 askerî darbesinin lideri. 1982 Anayasası onun döneminde hazırlandı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-ozal",
+        "name": "Turgut Özal",
+        "title": "Cumhurbaşkanı",
+        "birth": 1927,
+        "death": 1993,
+        "reign": [
+          1989,
+          1993
+        ],
+        "summary": "Başbakanlığında (1983-1989) dışa açık ekonomi politikası uyguladı; cumhurbaşkanıyken görevde öldü.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-demirel",
+        "name": "Süleyman Demirel",
+        "title": "Cumhurbaşkanı",
+        "birth": 1924,
+        "death": 2015,
+        "reign": [
+          1993,
+          2000
+        ],
+        "summary": "Yedi kez başbakanlık yaptıktan sonra cumhurbaşkanı seçildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-sezer",
+        "name": "Ahmet Necdet Sezer",
+        "title": "Cumhurbaşkanı",
+        "birth": 1941,
+        "death": null,
+        "reign": [
+          2000,
+          2007
+        ],
+        "summary": "Anayasa Mahkemesi başkanıyken cumhurbaşkanı seçildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-gul",
+        "name": "Abdullah Gül",
+        "title": "Cumhurbaşkanı",
+        "birth": 1950,
+        "death": null,
+        "reign": [
+          2007,
+          2014
+        ],
+        "summary": "TBMM tarafından seçilen son cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      },
+      {
+        "id": "turkiye-erdogan",
+        "name": "Recep Tayyip Erdoğan",
+        "title": "Cumhurbaşkanı",
+        "birth": 1954,
+        "death": null,
+        "reign": [
+          2014,
+          null
+        ],
+        "reignNote": "2003-2014 başbakan; 2014'ten beri halk oyuyla seçilen cumhurbaşkanı. 2018'den beri Cumhurbaşkanlığı hükümet sistemi uygulanıyor.",
+        "summary": "Halk oyuyla seçilen ilk cumhurbaşkanı. 2017 halkoylamasıyla Cumhurbaşkanlığı hükümet sistemine geçildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkey",
+            "url": "https://www.britannica.com/place/Turkey"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kktc",
+    "name": "Kuzey Kıbrıs Türk Cumhuriyeti",
+    "short": "KKTC",
+    "aliases": [
+      "Kuzey Kıbrıs"
+    ],
+    "region": "gunumuz",
+    "start": 1983,
+    "end": 2026,
+    "endNote": "Bugün sürüyor. Uluslararası alanda yalnız Türkiye tarafından tanınır.",
+    "capital": "Lefkoşa",
+    "religion": "Laik devlet",
+    "summary": "1974 Kıbrıs Barış Harekâtı'ndan sonra 1975'te Kıbrıs Türk Federe Devleti ilan edildi; 15 Kasım 1983'te Kuzey Kıbrıs Türk Cumhuriyeti adıyla bağımsızlık ilan edildi. Devleti yalnız Türkiye tanır.",
+    "sources": [
+      {
+        "title": "Britannica, Cyprus",
+        "url": "https://www.britannica.com/place/Cyprus"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kktc-denktas",
+        "name": "Rauf Denktaş",
+        "title": "Cumhurbaşkanı",
+        "birth": 1924,
+        "death": 2012,
+        "reign": [
+          1983,
+          2005
+        ],
+        "summary": "Kıbrıs Türk toplumunun uzun süreli lideri ve KKTC'nin kurucu cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      },
+      {
+        "id": "kktc-talat",
+        "name": "Mehmet Ali Talat",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2005,
+          2010
+        ],
+        "summary": "2004 Annan Planı sürecinden sonra seçilen cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      },
+      {
+        "id": "kktc-eroglu",
+        "name": "Derviş Eroğlu",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2010,
+          2015
+        ],
+        "summary": "Uzun yıllar başbakanlık yaptıktan sonra cumhurbaşkanı seçildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      },
+      {
+        "id": "kktc-akinci",
+        "name": "Mustafa Akıncı",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2015,
+          2020
+        ],
+        "summary": "Federal çözüm yanlısı politikasıyla bilinen cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      },
+      {
+        "id": "kktc-tatar",
+        "name": "Ersin Tatar",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2020,
+          2025
+        ],
+        "summary": "İki devletli çözüm politikasını savunan cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      },
+      {
+        "id": "kktc-erhurman",
+        "name": "Tufan Erhürman",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2025,
+          null
+        ],
+        "summary": "Ekim 2025 seçimini kazanarak cumhurbaşkanı oldu.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Cyprus",
+            "url": "https://www.britannica.com/place/Cyprus"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "azerbaycan",
+    "name": "Azerbaycan Cumhuriyeti",
+    "short": "Azerbaycan",
+    "aliases": [
+      "Azerbaijan"
+    ],
+    "region": "gunumuz",
+    "start": 1991,
+    "end": 2026,
+    "startNote": "İlk bağımsız devlet 28 Mayıs 1918'de kurulan Azerbaycan Halk Cumhuriyeti'dir; 1920'de Sovyet işgaliyle sona erdi. Bugünkü devlet 1991'de bağımsızlığını ilan etti.",
+    "endNote": "Bugün sürüyor.",
+    "capital": "Bakü",
+    "religion": "Laik devlet; nüfusun çoğunluğu Şiî Müslüman",
+    "summary": "Kuzey Azerbaycan 1813 Gülistan ve 1828 Türkmençay antlaşmalarıyla Kaçar İran'ından Rusya'ya geçti. 1918-1920 Azerbaycan Halk Cumhuriyeti Müslüman dünyasının ilk cumhuriyetlerindendi. Sovyet döneminden sonra 1991'de bağımsızlık ilan edildi; Karabağ sorunu 2020 ve 2023'te askerî olarak çözüldü.",
+    "sources": [
+      {
+        "title": "Britannica, Azerbaijan",
+        "url": "https://www.britannica.com/place/Azerbaijan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "azerbaycan-mutellibov",
+        "name": "Ayaz Mütellibov",
+        "title": "Cumhurbaşkanı",
+        "birth": 1938,
+        "death": 2022,
+        "reign": [
+          1991,
+          1992
+        ],
+        "summary": "Bağımsız Azerbaycan'ın ilk cumhurbaşkanı; Hocalı katliamından sonra istifa etti.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Azerbaijan",
+            "url": "https://www.britannica.com/place/Azerbaijan"
+          }
+        ]
+      },
+      {
+        "id": "azerbaycan-elcibey",
+        "name": "Ebulfez Elçibey",
+        "title": "Cumhurbaşkanı",
+        "birth": 1938,
+        "death": 2000,
+        "reign": [
+          1992,
+          1993
+        ],
+        "summary": "Halk Cephesi lideri; Türkçülük ve Türkiye ile yakınlaşma politikası izledi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Azerbaijan",
+            "url": "https://www.britannica.com/place/Azerbaijan"
+          }
+        ]
+      },
+      {
+        "id": "azerbaycan-haydar-aliyev",
+        "name": "Haydar Aliyev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1923,
+        "death": 2003,
+        "reign": [
+          1993,
+          2003
+        ],
+        "summary": "Sovyet dönemi Azerbaycan liderliğinden sonra 1993'te iktidara geldi; 1994 ateşkesini ve Bakü-Tiflis-Ceyhan petrol projesini gerçekleştirdi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "Birinci Karabağ Savaşı",
+            "when": "1988-1994",
+            "foe": "Ermenistan ve Karabağ Ermeni kuvvetleri",
+            "result": "yenilgi",
+            "note": "Sovyet döneminin sonunda başladı, Mütellibov ve Elçibey dönemlerini de kapsar. Mayıs 1994 Bişkek ateşkesiyle bitti; Dağlık Karabağ ve çevresindeki yedi rayon Ermeni işgalinde kaldı."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Britannica, Azerbaijan",
+            "url": "https://www.britannica.com/place/Azerbaijan"
+          }
+        ]
+      },
+      {
+        "id": "azerbaycan-ilham-aliyev",
+        "name": "İlham Aliyev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1961,
+        "death": null,
+        "reign": [
+          2003,
+          null
+        ],
+        "summary": "Haydar Aliyev'in oğlu. Döneminde 2020 savaşıyla işgal altındaki topraklar geri alındı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [
+          {
+            "name": "İkinci Karabağ Savaşı",
+            "when": "2020",
+            "foe": "Ermenistan",
+            "result": "zafer",
+            "note": "27 Eylül-10 Kasım 2020, 44 gün sürdü. Şuşa'nın alınmasından sonra 10 Kasım üçlü bildirisiyle sona erdi; işgal altındaki rayonlar Azerbaycan'a döndü."
+          },
+          {
+            "name": "Karabağ antiterör operasyonu",
+            "when": "2023",
+            "foe": "Karabağ'daki Ermeni silahlı kuvvetleri",
+            "result": "zafer",
+            "note": "19-20 Eylül 2023, yaklaşık bir gün sürdü. Karabağ'ın tamamı Azerbaycan denetimine geçti."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Britannica, Azerbaijan",
+            "url": "https://www.britannica.com/place/Azerbaijan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kazakistan",
+    "name": "Kazakistan Cumhuriyeti",
+    "short": "Kazakistan",
+    "aliases": [
+      "Kazakhstan"
+    ],
+    "region": "gunumuz",
+    "start": 1991,
+    "end": 2026,
+    "endNote": "Bugün sürüyor.",
+    "capital": "Astana",
+    "religion": "Laik devlet; nüfusun çoğunluğu Sünnî Müslüman",
+    "summary": "Kazak Hanlığı'nın cüzleri XVIII-XIX. yüzyıllarda Rus egemenliğine girdi. 1920'lerde Sovyet içinde özerk, 1936'da birlik cumhuriyeti oldu. 16 Aralık 1991'de bağımsızlığını ilan eden son Sovyet cumhuriyetidir.",
+    "sources": [
+      {
+        "title": "Britannica, Kazakhstan",
+        "url": "https://www.britannica.com/place/Kazakhstan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kazakistan-nazarbayev",
+        "name": "Nursultan Nazarbayev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1940,
+        "death": null,
+        "reign": [
+          1991,
+          2019
+        ],
+        "summary": "Bağımsız Kazakistan'ın ilk cumhurbaşkanı; başkenti 1997'de Almatı'dan Astana'ya taşıdı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kazakhstan",
+            "url": "https://www.britannica.com/place/Kazakhstan"
+          }
+        ]
+      },
+      {
+        "id": "kazakistan-tokayev",
+        "name": "Kasım-Cömert Tokayev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1953,
+        "death": null,
+        "reign": [
+          2019,
+          null
+        ],
+        "summary": "2019'da Nazarbayev'in istifasıyla göreve geldi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kazakhstan",
+            "url": "https://www.britannica.com/place/Kazakhstan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ozbekistan",
+    "name": "Özbekistan Cumhuriyeti",
+    "short": "Özbekistan",
+    "aliases": [
+      "Uzbekistan"
+    ],
+    "region": "gunumuz",
+    "start": 1991,
+    "end": 2026,
+    "endNote": "Bugün sürüyor.",
+    "capital": "Taşkent",
+    "religion": "Laik devlet; nüfusun çoğunluğu Sünnî Müslüman",
+    "summary": "Buhara Emirliği, Hive ve Hokand hanlıkları XIX. yüzyılda Rus egemenliğine girdi. 1924'te Sovyet sınır düzenlemesiyle Özbek SSC kuruldu; 31 Ağustos 1991'de bağımsızlık ilan edildi.",
+    "sources": [
+      {
+        "title": "Britannica, Uzbekistan",
+        "url": "https://www.britannica.com/place/Uzbekistan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "ozbekistan-kerimov",
+        "name": "İslam Kerimov",
+        "title": "Cumhurbaşkanı",
+        "birth": 1938,
+        "death": 2016,
+        "reign": [
+          1991,
+          2016
+        ],
+        "summary": "Bağımsız Özbekistan'ın ilk cumhurbaşkanı; görevde öldü.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Uzbekistan",
+            "url": "https://www.britannica.com/place/Uzbekistan"
+          }
+        ]
+      },
+      {
+        "id": "ozbekistan-mirziyoyev",
+        "name": "Şevket Mirziyoyev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1957,
+        "death": null,
+        "reign": [
+          2016,
+          null
+        ],
+        "summary": "Kerimov'un ölümünden sonra cumhurbaşkanı oldu; ekonomiyi dışa açma reformları yaptı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Uzbekistan",
+            "url": "https://www.britannica.com/place/Uzbekistan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "turkmenistan",
+    "name": "Türkmenistan",
+    "short": "Türkmenistan",
+    "aliases": [
+      "Turkmenistan"
+    ],
+    "region": "gunumuz",
+    "start": 1991,
+    "end": 2026,
+    "endNote": "Bugün sürüyor.",
+    "capital": "Aşkabat",
+    "religion": "Laik devlet; nüfusun çoğunluğu Sünnî Müslüman",
+    "summary": "Hive Hanlığı'na ve kendi boy beylerine bağlı Türkmen boyları 1881 Gökdepe yenilgisinden sonra Rus egemenliğine girdi. 1924'te Türkmen SSC kuruldu; 27 Ekim 1991'de bağımsızlık ilan edildi. 1995'ten beri BM tarafından tanınan daimî tarafsızlık statüsü vardır.",
+    "sources": [
+      {
+        "title": "Britannica, Turkmenistan",
+        "url": "https://www.britannica.com/place/Turkmenistan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "turkmenistan-niyazov",
+        "name": "Saparmurat Niyazov",
+        "title": "Devlet Başkanı",
+        "birth": 1940,
+        "death": 2006,
+        "reign": [
+          1991,
+          2006
+        ],
+        "summary": "\"Türkmenbaşı\" unvanıyla yönetti; görevde öldü.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkmenistan",
+            "url": "https://www.britannica.com/place/Turkmenistan"
+          }
+        ]
+      },
+      {
+        "id": "turkmenistan-g-berdimuhamedov",
+        "name": "Gurbanguli Berdimuhamedov",
+        "title": "Devlet Başkanı",
+        "birth": 1957,
+        "death": null,
+        "reign": [
+          2006,
+          2022
+        ],
+        "reignNote": "Aralık 2006'da vekil, Şubat 2007'den itibaren seçilmiş devlet başkanı.",
+        "summary": "Niyazov'dan sonra devlet başkanı oldu; 2022'de görevi oğluna bıraktı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkmenistan",
+            "url": "https://www.britannica.com/place/Turkmenistan"
+          }
+        ]
+      },
+      {
+        "id": "turkmenistan-s-berdimuhamedov",
+        "name": "Serdar Berdimuhamedov",
+        "title": "Devlet Başkanı",
+        "birth": 1981,
+        "death": null,
+        "reign": [
+          2022,
+          null
+        ],
+        "summary": "2022 seçimiyle babasının yerine devlet başkanı oldu.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Turkmenistan",
+            "url": "https://www.britannica.com/place/Turkmenistan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kirgizistan",
+    "name": "Kırgız Cumhuriyeti",
+    "short": "Kırgızistan",
+    "aliases": [
+      "Kırgızistan",
+      "Kyrgyzstan"
+    ],
+    "region": "gunumuz",
+    "start": 1991,
+    "end": 2026,
+    "endNote": "Bugün sürüyor.",
+    "capital": "Bişkek",
+    "religion": "Laik devlet; nüfusun çoğunluğu Sünnî Müslüman",
+    "summary": "Kırgız boyları XIX. yüzyılda Hokand Hanlığı'na bağlıydı ve 1876'da Rus egemenliğine girdi. 1936'da Kırgız SSC kuruldu; 31 Ağustos 1991'de bağımsızlık ilan edildi. Kırgız adı Yenisey Kırgızlarına kadar uzanır; ancak bugünkü Tanrı Dağları Kırgızlarının Yenisey Kırgızlarıyla bağının nasıl kurulduğu tartışmalıdır.",
+    "sources": [
+      {
+        "title": "Britannica, Kyrgyzstan",
+        "url": "https://www.britannica.com/place/Kyrgyzstan"
+      }
+    ],
+    "rulers": [
+      {
+        "id": "kirgizistan-akayev",
+        "name": "Askar Akayev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1944,
+        "death": null,
+        "reign": [
+          1991,
+          2005
+        ],
+        "summary": "İlk cumhurbaşkanı; 2005 Lale Devrimi ile devrildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      },
+      {
+        "id": "kirgizistan-bakiyev",
+        "name": "Kurmanbek Bakiyev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1949,
+        "death": null,
+        "reign": [
+          2005,
+          2010
+        ],
+        "summary": "2010 ayaklanmasıyla devrildi.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      },
+      {
+        "id": "kirgizistan-otunbayeva",
+        "name": "Roza Otunbayeva",
+        "title": "Geçici Cumhurbaşkanı",
+        "birth": 1950,
+        "death": null,
+        "reign": [
+          2010,
+          2011
+        ],
+        "summary": "Orta Asya'nın ilk kadın devlet başkanı; geçiş dönemini yönetti.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      },
+      {
+        "id": "kirgizistan-atambayev",
+        "name": "Almazbek Atambayev",
+        "title": "Cumhurbaşkanı",
+        "birth": 1956,
+        "death": null,
+        "reign": [
+          2011,
+          2017
+        ],
+        "summary": "Barışçıl seçimle görevi devreden ilk Kırgız cumhurbaşkanı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      },
+      {
+        "id": "kirgizistan-ceenbekov",
+        "name": "Sooronbay Ceenbekov",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2017,
+          2020
+        ],
+        "summary": "2020 seçim protestolarından sonra istifa etti.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      },
+      {
+        "id": "kirgizistan-caparov",
+        "name": "Sadır Caparov",
+        "title": "Cumhurbaşkanı",
+        "birth": null,
+        "death": null,
+        "reign": [
+          2021,
+          null
+        ],
+        "summary": "2020 protestolarından sonra öne çıktı, Ocak 2021 seçimini kazandı.",
+        "traits": [],
+        "wives": [],
+        "children": [],
+        "wars": [],
+        "sources": [
+          {
+            "title": "Britannica, Kyrgyzstan",
+            "url": "https://www.britannica.com/place/Kyrgyzstan"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@
   {
     "id": "uygur-kaganligi",
     "name": "Uygur Kağanlığı",
-    "short": "Ötüken'de 744'te kurulan, Maniheizm'i resmî din yapan bozkır kağanlığı",
+    "short": "Uygur Kağanlığı",
     "aliases": [
       "Ötüken Uygur Kağanlığı",
       "Büyük Uygur Kağanlığı",
@@ -685,7 +685,7 @@
   {
     "id": "yenisey-kirgiz",
     "name": "Yenisey Kırgız Kağanlığı",
-    "short": "Yenisey kıyılarında kurulan, 840'ta Uygur Kağanlığı'nı yıkan devlet",
+    "short": "Yenisey Kırgız",
     "aliases": [
       "Kırgız Kağanlığı",
       "Eski Kırgızlar",
@@ -950,7 +950,7 @@
   {
     "id": "kimek",
     "name": "Kimek-Kıpçak Konfederasyonu",
-    "short": "İrtiş ve Ob arasında yedi boydan kurulan, Kıpçaklara devreden konfederasyon",
+    "short": "Kimek",
     "aliases": [
       "Kimek Kağanlığı",
       "Kimäk",

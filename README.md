@@ -1,70 +1,174 @@
-# Türk Devletleri Atlası
+<div align="center">
 
-Türkçe, kaynak bağlantılı bir tarih atlası. Devletler başlangıç ve bitiş yıllarına göre kronolojik şeritte gösterilir. Bölge süzgeçleri, devlet listesi ve tüm kayıtları kapsayan arama ile bir devletin, hükümdarın, savaşın veya kişi kaydının sayfasına gidilebilir.
+# 🌳 Türk Devletleri Soy Ağacı
 
-Atlasın kapsamı bugün **80 devlet, 713 hükümdar, 791 savaş kaydı, 190 eş kaydı ve 763 çocuk kaydıdır**. Ayrıca bir okuma rehberi vardır; devlet sayısına ve şeride girmez. Eş ve çocuk kartları yalnız tekil kişi kayıtlarıdır; kimliği belirlenemeyen topluluklar hükümdar sayfasındaki aile notlarında açıklanır ve bu sayılara katılmaz. Tekil bir kişinin adı bilinmiyorsa kayıtta bu belirsizlik gösterilir. Atlas, eksiksiz soy ağacı iddiasında bulunmaz.
+**Asya Hun Devleti'nden bugünkü Türk devletlerine 2.200 yılı tek bir piramit soy ağacında gör; her devlete, hükümdara ve savaşa tıklayarak in.**
 
-## Çalıştırma
+Asya Hun → Göktürk → Oğuz → Selçuklu → Osmanlı → Türkiye · ve Kazakistan, Özbekistan, Azerbaycan, Türkmenistan, Kırgızistan, KKTC
 
-Node.js 22.12 veya üzeri ve npm gereklidir.
+[![Canlı](https://img.shields.io/badge/canl%C4%B1-yucel--gumus.github.io-9a5d12?style=for-the-badge)](https://yucel-gumus.github.io/turk-tarih-atlasi/)
+[![Geliştiren](https://img.shields.io/badge/geli%C5%9Ftiren-Y%C3%BCcel%20G%C3%BCm%C3%BC%C5%9F-3d382f?style=for-the-badge)](https://yucelgumus.dev/)
+
+![Svelte](https://img.shields.io/badge/Svelte-5-3d382f?logo=svelte&logoColor=f5f1e8)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3d382f?logo=typescript&logoColor=f5f1e8)
+![Vite](https://img.shields.io/badge/Vite-8-3d382f?logo=vite&logoColor=f5f1e8)
+![Zod](https://img.shields.io/badge/veri-Zod%20%C5%9Femas%C4%B1-3d382f?logo=zod&logoColor=f5f1e8)
+![Testler](https://img.shields.io/badge/testler-Vitest%20%2B%20Playwright-3d382f?logo=playwright&logoColor=f5f1e8)
+![Lisans](https://img.shields.io/badge/lisans-MIT%20%2F%20CC%20BY%204.0-3d382f)
+
+[Canlı demo](https://yucel-gumus.github.io/turk-tarih-atlasi/) · [Özellikler](#-özellikler) · [Nasıl okunur](#-ağaç-nasıl-okunur) · [Kurulum](#-kurulum) · [Veri](#-veri-ve-kaynaklar) · [Mimari](#️-mimari)
+
+</div>
+
+---
+
+## ✨ Özellikler
+
+| | |
+|---|---|
+| 🌳 **Tek ekran, tek ağaç** | Açılışta yalnızca soy ağacı var. Başka sayfa, menü ya da buton yok |
+| 🔺 **Piramit yerleşim** | İlk devlet en tepede ortada, her kuşak kendi satırında, her devlet çocuklarının üstünde ortalı |
+| 🪟 **Üst üste modallar** | Devlet → hükümdar → savaş → karşı taraf… her tıklama yeni bir pencere açar; geri tuşu yalnız en üsttekini kapatır |
+| ⚔️ **Savaş ayrıntısı** | Kim kime karşı, hangi hükümdar, ne zaman, ne kadar sürdü, sonuç ve ne oldu; karşı tarafın aynı savaş kaydına bağlantı |
+| 👑 **Hükümdar kartı** | Saltanat, doğum/ölüm, katkısı ve bedeli, zafer/yenilgi sayımı, eşler, çocuklar (tahta çıkan çocuk kendi kaydına bağlanır) |
+| 🖱️ **Fare ve dokunma** | Sürükle, tekerlekle imlece yakınlaş, çift tıkla yakınlaş · telefonda kaydır, kıstır, çift dokun |
+| 📚 **Kaynaklı veri** | Her devlet ve hükümdarda en az bir kaynak (çoğunlukla TDV İslâm Ansiklopedisi) |
+| 🌗 **Açık / koyu tema** | Sistem temasını izler |
+
+## 📊 Kapsam
+
+| 87 devlet | 748 hükümdar / devlet başkanı | 798 savaş | 190 eş | 763 çocuk |
+|:---:|:---:|:---:|:---:|:---:|
+
+## 🧭 Ağaç nasıl okunur
+
+```text
+            Asya Hun                ← en tepede ilk devlet
+      ┌────────┴────────┐
+   Göktürk          Kuzey Hun       ← her satır bir kuşak
+      │                 │
+     ...               ...
+      │
+   Osmanlı
+      │                             ← düz aşağı: ardıllık (Osmanlı bitti, Türkiye devraldı)
+   Türkiye
+      └──┐
+        KKTC                        ← yana açılan dal: üst devlet yaşarken kuruldu
+```
+
+- **Düz aşağı inen çizgi** ardıllıktır: üstteki devlet sona erdi, alttaki onun yerine geçti.
+- **Yana açılan dal**, üstteki devlet hâlâ ayaktayken kurulan devlettir (Türkiye → KKTC, Hamîdoğulları → Teke).
+- Dalı olmayan çok sayıdaki kardeş (ör. Anadolu beylikleri) yan yana yayılmak yerine **alt alta listelenir**.
+- Kırmızı kutular **bugün süren** devletlerdir.
+
+Her bağın türü — *doğrudan devam*, *ayrılan kol* veya *halk ve toprak mirası* (hanedan sürekliliği olmayan ya da tartışmalı bağlar) — ve gerekçesi devlet penceresinde "Soy ağacındaki yeri" bölümünde yazar.
+
+### Modal akışı
+
+```mermaid
+flowchart LR
+  T[🌳 Soy ağacı] -->|devlete tıkla| D[Devlet<br/>özet · hükümdarlar · savaşlar]
+  D -->|hükümdar| H[Hükümdar<br/>saltanat · aile · savaşlar]
+  D -->|savaş| S[Savaş<br/>taraflar · süre · sonuç]
+  H -->|savaş| S
+  S -->|karşı taraf| D2[Karşı devlet / hükümdar]
+  S -->|aynı savaşın karşı kaydı| S2[Karşı taraftaki kayıt]
+  D -->|nereden geldi / ondan doğan| D3[Başka devlet]
+```
+
+## 🚀 Kurulum
+
+Node.js 22.12+ gerekir.
 
 ```bash
+git clone git@github.com:yucel-gumus/turk-tarih-atlasi.git
+cd turk-tarih-atlasi
 npm ci
-npm run dev
+npm run dev        # http://localhost:5173/turk-tarih-atlasi/
 ```
 
-Üretim çıktısı ve yerel önizleme:
+| Komut | Ne yapar |
+|---|---|
+| `npm run validate` | Veri şeması, soy ağacı bütünlüğü, tekil kimlikler, tarih sırası, kaynak URL'leri |
+| `npm run check` | Svelte + TypeScript tip denetimi |
+| `npm test` | Birim testleri (Vitest): ağaç, yerleşim, savaş eşleştirmeleri |
+| `npm run test:e2e` | Masaüstü ve mobil tarayıcı testleri (Playwright): modallar, fare, dokunma |
+| `npm run verify` | Hepsi + üretim derlemesi |
+
+> [!TIP]
+> İlk kullanımda `npx playwright install chromium` çalıştırın; macOS'ta kurulu Google Chrome varsa testler onu kullanır.
+
+<details>
+<summary><b>☁️ Yayına alma (GitHub Pages)</b></summary>
+
+Değişiklikleri commit edip `main` dalını push edin, ardından:
 
 ```bash
-npm run validate
-npm run check
-npm run build
-npm run preview
+npm run deploy
 ```
 
-Tam kalite kapısı: `npm run verify` (veri, Svelte/TypeScript, birim testleri, üretim derlemesi ve masaüstü/mobil tarayıcı testleri). İlk kullanımda `npx playwright install chromium` çalıştırın; macOS üzerinde kurulu Google Chrome varsa testler onu kullanır. `npm audit --audit-level=high` bağımlılık güvenlik kontrolüdür. GitHub Actions aynı kalite kapısını `main` push ve pull request üzerinde çalıştırır.
-
-Kod inceleme bulguları ve doğrulama kapsamı: [verification/review.json](verification/review.json).
-
-Uygulama Vite ile üretilen statik dosyalardan oluşur. Sayfa adresleri `#/...` biçiminde olduğundan statik bir sunucuda sunulabilir; `dist/` klasörü yayın çıktısıdır.
-
-Yayın: site GitHub Pages üzerinde yayınlanır — **https://yucel-gumus.github.io/turk-tarih-atlasi/**. Üretim derlemesi `gh-pages` dalına gönderilir; Vite `base` değeri bu proje alt yoluna göre ayarlıdır (`vite.config.ts`).
-
-## Yayına alma
-
-Önce değişiklikleri commit edin ve `main` dalını push edin; ardından `npm run deploy` çalıştırın. Yayın komutu kalite kapısını çalıştırır, temiz bir kaynak ağacı ister, `gh-pages` geçmişini koruyarak normal Git push yapar. Her yayında `release.json` kaynak commit kimliğini taşır. GitHub Pages derlemesi tamamlandıktan sonra canlı dosyadaki `revision` ile `git rev-parse HEAD` karşılaştırılmalı ve canlı tarayıcı testleri çalıştırılmalıdır:
+Komut kalite kapısını çalıştırır, temiz kaynak ağacı ister ve derlemeyi `gh-pages` dalına geçmişi koruyarak gönderir. Her yayındaki `release.json` kaynak commit kimliğini taşır. Canlı sürümü doğrulamak için:
 
 ```bash
 ATLAS_BASE_URL=https://yucel-gumus.github.io/turk-tarih-atlasi/ npm run test:e2e
 ```
 
-## Veri ve kaynaklar
+GitHub Actions aynı kalite kapısını her `main` push'unda ve pull request'te çalıştırır.
 
-- Kanonik kayıtlar: `data/raw/*.json`
-- Alanların açıklaması: `data/SCHEMA.md`
-- Veri kökeni ve kapsam: `data/PROVENANCE.md`
-- Veri kontrolü: `scripts/validate.ts`
+</details>
 
-Her devlet ve hükümdar kaydında en az bir kaynak bağlantısı bulunur. Savaş, eş ve çocuk kayıtlarının ayrı kaynak alanı yoktur; sayfaları bağlı hükümdarın kaynaklarını **ilgili kaynaklar** olarak gösterir. Bu bağlantıların her alt iddiayı tek tek kanıtladığı varsayılmamalıdır.
+## 📚 Veri ve kaynaklar
 
-Yeni kayıt eklerken mevcut JSON düzenini izleyin ve `npm run validate` çalıştırın. Doğrulama şemayı, tekil kimlikleri, URL adreslerini, tarih sırasını ve savaş/kişi bağlantılarının çakışmasını denetler. Tarihî doğruluk ise kaynak okuması gerektirir; otomatik denetim bunun yerine geçmez.
+| Dosya | İçerik |
+|---|---|
+| `data/raw/*.json` | Devletler, hükümdarlar, savaşlar, eşler, çocuklar (bölge bölge) |
+| `data/raw/p-gunumuz.json` | Günümüz Türk devletleri ve devlet başkanları |
+| `data/lineage.json` | Soy ağacı: her devletin üst devleti, bağ türü ve gerekçesi |
+| `data/SCHEMA.md` | Alanların açıklaması |
+| `data/PROVENANCE.md` · `data/FAMILY_AUDIT.md` | Veri kökeni ve aile kayıtları denetimi |
 
-Toplu ve adsız aile kayıtlarına ilişkin kararlar [denetim dosyasında](data/FAMILY_AUDIT.md) kaynaklarıyla listelenir.
+> [!NOTE]
+> Savaş, eş ve çocuk kayıtlarının ayrı kaynağı yoktur; pencereleri bağlı hükümdarın kaynaklarını **ilgili kaynaklar** olarak gösterir. Yaklaşık tarihler kesin yıla çevrilmez; savaş süresi yalnız kayıttaki yıl aralığından hesaplanır. "Karşı taraftaki kayıt" aynı adı taşıyan ve yılları örtüşen başka bir devletteki savaştır; tahta çıkan çocuk bağlantısı ad ve dönem eşleşmesidir. Otomatik denetim kaynak okumasının yerini tutmaz.
 
-## Tarih, harita ve aile kayıtlarının yorumu
+## 🏗️ Mimari
 
-Zaman makinesi açık yılları ve açık yıl aralıklarını kullanır. Yaklaşık tarih bir kesin yıla çevrilmez; iki saltanat sınırı da kayıtlı hükümdarlar listelenir. Yıl sıfır yoktur. Harita zemini proje içinde yayımlanan Natural Earth vektör verisinden çizilir; API anahtarı veya dış karo servisi gerekmez. Veri kökeni ve lisansı `data/MAP_PROVENANCE.json` içindedir. Harita her devlet için bir yaklaşık başkent veya odak konumu gösterir; başkent değişimlerini ve tarihî sınırları modellemez. Aile görünümündeki “Aynı adlı hükümdar” etiketi ad eşleşmesidir; bağımsız bir kimlik veya tahta çıkış kanıtı değildir. Savaş sayıları hükümdar kayıtları toplamıdır; aynı olay farklı hükümdarlarda geçebilir.
+<details>
+<summary><b>📁 Dosya yapısı</b></summary>
 
-## Uygulama yapısı
+```text
+src/
+  App.svelte                    Soy ağacı + modal yığını + yazar kartı
+  components/
+    FamilyTree.svelte           Ağaç ekranı: sürükleme, tekerlek/kıstırma, çift tık/dokunma
+    ModalStack.svelte           Açık pencerelerin yığını
+    Modal.svelte                Pencere kabuğu: geri, iz yolu, tümünü kapat
+    views/                      Devlet, hükümdar, savaş ve bağlam içerikleri
+    AuthorFooter.svelte         Alttaki yazar kartı
+  lib/
+    tree/layout.ts              Piramit yerleşimi (kenar çizgisi tabanlı sıkıştırma)
+    data/atlas.ts               Veri yükleme, ağaç kurulumu, savaş eşleştirmeleri
+    modals.svelte.ts            Modal yığını ↔ tarayıcı geçmişi
+  schemas/atlas.schema.ts       Zod veri şeması
+scripts/validate.ts             Veri doğrulama
+tests/unit · tests/e2e          Vitest ve Playwright testleri
+```
 
-- `src/pages/`: şerit, arama, rehber ve ayrıntı sayfaları
-- `src/lib/data/`: veri yükleme, sayımlar, arama ve kayıt çözümleme
-- `src/lib/router/`: paylaşılabilir hash adresleri
-- `src/schemas/`: çalışma zamanı veri şeması
+</details>
 
-Adres örnekleri: `#/`, `#/?bolge=anadolu`, `#/arama?q=sel%C3%A7uklu`, `#/devlet/osmanli`.
-
-## Lisans
+## 📄 Lisans
 
 - Kaynak kodu: [MIT](LICENSE)
 - Tarihsel içerik ve veri (`data/`, uygulamada gösterilen metinler): [CC BY 4.0](LICENSE-CONTENT.md)
+
+---
+
+<div align="center">
+
+### 👋 Geliştiren
+
+**Yücel Gümüş** · Full Stack Developer & Yazılım Mühendisi
+
+[![yucelgumus.dev](https://img.shields.io/badge/yucelgumus.dev-ki%C5%9Fisel%20web%20sitesi-9a5d12?style=for-the-badge&logo=googlechrome&logoColor=f5f1e8)](https://yucelgumus.dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-yucel--gumus-3d382f?style=for-the-badge&logo=github&logoColor=f5f1e8)](https://github.com/yucel-gumus)
+
+</div>

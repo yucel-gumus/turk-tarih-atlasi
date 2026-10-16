@@ -1,73 +1,43 @@
-import { StateSchema } from '../../schemas/atlas.schema';
+import { StateSchema, LineageSchema } from '../../schemas/atlas.schema';
 import type {
   State,
-  Milestone,
+  Ruler,
+  War,
   Region,
   BattleResult,
   Certainty,
   Confidence,
+  EdgeKind,
+  ContextNode,
+  Lineage,
 } from '../../schemas/atlas.schema';
+import lineageRaw from '../../../data/lineage.json';
+import { canon } from '../text';
+import { parseHistoricalDate } from './dates';
 
-export interface RegionInfo {
-  id: Region;
-  name: string;
-  color: string;
-  glow: string;
-}
+export const REGION_COLORS: Record<Region, string> = {
+  bozkir: '#b5651d',
+  turkistan: '#14776b',
+  bati: '#35558a',
+  kuzey: '#4f7a33',
+  iran: '#a83a5b',
+  anadolu: '#977a1c',
+  diger: '#6b6357',
+  gunumuz: '#c0392b',
+};
 
-const REGIONS: RegionInfo[] = [
-  { id: 'giris', name: 'Nasıl okunur', color: '#8a6a30', glow: 'rgba(138, 106, 48, 0.20)' },
-  { id: 'bozkir', name: 'Bozkır ve İç Asya', color: '#b5651d', glow: 'rgba(181, 101, 29, 0.20)' },
-  { id: 'turkistan', name: 'Türkistan', color: '#14776b', glow: 'rgba(20, 119, 107, 0.20)' },
-  { id: 'bati', name: 'Hazar, Karadeniz, Avrupa', color: '#35558a', glow: 'rgba(53, 85, 138, 0.20)' },
-  { id: 'kuzey', name: 'İdil, Kırım, kuzey hanlıkları', color: '#4f7a33', glow: 'rgba(79, 122, 51, 0.20)' },
-  { id: 'iran', name: 'İran, Horasan, Hindistan', color: '#a83a5b', glow: 'rgba(168, 58, 91, 0.20)' },
-  { id: 'anadolu', name: 'Anadolu, Ortadoğu, Mısır', color: '#977a1c', glow: 'rgba(151, 122, 28, 0.20)' },
-  { id: 'diger', name: 'Sınırda ve ilişkili yapılar', color: '#6b6357', glow: 'rgba(107, 99, 87, 0.20)' },
-];
+export const REGION_NAMES: Record<Region, string> = {
+  bozkir: 'Bozkır ve İç Asya',
+  turkistan: 'Türkistan',
+  bati: 'Hazar, Karadeniz, Avrupa',
+  kuzey: 'İdil, Kırım, kuzey hanlıkları',
+  iran: 'İran, Horasan, Hindistan',
+  anadolu: 'Anadolu',
+  diger: 'Mısır, Suriye, Hindistan',
+  gunumuz: 'Günümüz',
+};
 
-export const REGION_MAP = Object.fromEntries(REGIONS.map((r) => [r.id, r]));
-
-/**
- * Rehber kaydı ("Bu atlas nasıl okunur") bir Türk devleti değildir: hükümdarı,
- * başkenti, tarih aralığı yoktur ve JSON'daki start/end değerleri uydurmadır.
- * Bu ayrımı tip düzeyinde tutuyoruz ki sayımlar ve zaman şeridi yanlışlıkla
- * onu bir devlet gibi ele alamasın.
- */
-export type RealRegion = Exclude<Region, 'giris'>;
-
-export const DEVLET_REGIONS = REGIONS.filter(
-  (r): r is RegionInfo & { id: RealRegion } => r.id !== 'giris'
-);
-
-export const MILESTONES: Milestone[] = [
-  { year: -209, label: 'Mete' },
-  { year: 552, label: 'Göktürk' },
-  { year: 630, label: 'Batı Göktürk' },
-  { year: 744, label: 'Uygur' },
-  { year: 840, label: 'Karahanlı' },
-  { year: 963, label: 'Gazneli' },
-  { year: 1040, label: 'Selçuklu' },
-  { year: 1071, label: 'Malazgirt' },
-  { year: 1096, label: 'Haçlı' },
-  { year: 1206, label: 'Moğol' },
-  { year: 1243, label: 'Kösedağ' },
-  { year: 1299, label: 'Osmanlı' },
-  { year: 1402, label: 'Ankara' },
-  { year: 1453, label: 'İstanbul' },
-  { year: 1514, label: 'Çaldıran' },
-  { year: 1517, label: 'Mısır' },
-  { year: 1526, label: 'Babür' },
-  { year: 1571, label: 'İnebahtı' },
-  { year: 1683, label: 'Viyana' },
-  { year: 1699, label: 'Karlofça' },
-  { year: 1774, label: 'Küçük Kaynarca' },
-  { year: 1839, label: 'Tanzimat' },
-  { year: 1911, label: 'Trablusgarp' },
-  { year: 1922, label: 'Saltanat' },
-];
-
-export const RESULT_MAP: Record<BattleResult, string> = {
+export const RESULT_LABEL: Record<BattleResult, string> = {
   zafer: 'Zafer',
   yenilgi: 'Yenilgi',
   sonucsuz: 'Sonuçsuz',
@@ -75,8 +45,7 @@ export const RESULT_MAP: Record<BattleResult, string> = {
   antlasma: 'Antlaşma',
 };
 
-/** Kişi kaydının kesinlik derecesi etiketleri. */
-export const CERTAINTY_MAP: Record<Certainty, string> = {
+export const CERTAINTY_LABEL: Record<Certainty, string> = {
   kesin: 'Kesin',
   olasi: 'Olası',
   muhtemel: 'Muhtemel',
@@ -84,66 +53,279 @@ export const CERTAINTY_MAP: Record<Certainty, string> = {
   rivayet: 'Rivayet',
 };
 
-/** Devlet kaydının güvenilirlik derecesi etiketleri; devlet sayfası gösterir. */
-export const CONFIDENCE_MAP: Record<Confidence, string> = {
-  kayit: 'Kayıt',
+export const CONFIDENCE_LABEL: Record<Confidence, string> = {
+  kayit: 'Kayıtlarla sabit',
   tartismali: 'Tartışmalı',
-  rivayet: 'Rivayet',
+  rivayet: 'Rivayete dayalı',
+};
+
+export const EDGE_LABEL: Record<EdgeKind, string> = {
+  devam: 'Doğrudan devamı',
+  kol: 'Ayrılan kol',
+  miras: 'Halk ve toprak mirası',
 };
 
 export function yearLabel(n: number): string {
-  return n === 0 ? 'MÖ / MS' : n < 0 ? `MÖ ${-n}` : String(n);
+  return n < 0 ? `MÖ ${-n}` : String(n);
 }
 
-/**
- * `data/raw` altındaki bütün JSON dosyaları tek yükleme yolundan okunur.
- *
- * Dosyalar `import.meta.glob` ile **tembel** (eager olmayan) içe aktarılır: Vite
- * her JSON dosyasını ayrı bir parça (chunk) üretir, böylece girdi JavaScript
- * paketi 1,2 MB tarih verisini gömmez. `preloadAtlas()` bütün parçaları paralel
- * indirir ve sonucu önbelleğe alır; ondan sonraki okumalar senkrondur.
- */
-const modules = import.meta.glob('../../../data/raw/*.json') as Record<
-  string,
-  () => Promise<{ default: unknown }>
->;
-let cachedStates: State[] | null = null;
+export const CURRENT_YEAR = 2026;
 
-/** Veriyi bir kez yükler; ikinci çağrı önbellekten döner. */
+export function spanLabel(start: number, end: number | null, ongoing = false): string {
+  if (ongoing || end === null) return `${yearLabel(start)} – günümüz`;
+  return `${yearLabel(start)} – ${yearLabel(end)}`;
+}
+
+/* ------------------------------------------------------------------ yükleme */
+
+const modules = import.meta.glob('../../../data/raw/*.json') as Record<string, () => Promise<{ default: unknown }>>;
+
+let states: Map<string, State> | null = null;
+export const lineage: Lineage = LineageSchema.parse(lineageRaw);
+const contextById = new Map(lineage.contextNodes.map((c) => [c.id, c]));
+
 export async function preloadAtlas(): Promise<void> {
-  if (cachedStates) return;
-
-  const loaded = await Promise.all(
-    Object.entries(modules).map(async ([path, load]) => ({ path, mod: await load() }))
-  );
-
-  const allStates: State[] = [];
-  for (const { mod } of loaded) {
-    const rawContent = mod.default;
-    const array = Array.isArray(rawContent) ? rawContent : [rawContent];
-    for (const item of array) {
-      allStates.push(StateSchema.parse(item));
+  if (states) return;
+  const loaded = await Promise.all(Object.values(modules).map((load) => load()));
+  const map = new Map<string, State>();
+  for (const mod of loaded) {
+    const items = Array.isArray(mod.default) ? mod.default : [mod.default];
+    for (const item of items) {
+      const state = StateSchema.parse(item);
+      map.set(state.id, state);
     }
   }
-
-  // Bölge sırasına, sonra başlangıç yılına göre sırala
-  const regionOrder = REGIONS.map((r) => r.id);
-  allStates.sort((a, b) => {
-    const ra = regionOrder.indexOf(a.region);
-    const rb = regionOrder.indexOf(b.region);
-    if (ra !== rb) return ra - rb;
-    return a.start - b.start || a.id.localeCompare(b.id);
-  });
-
-  cachedStates = allStates;
+  states = map;
 }
 
-/** Önbellekteki kayıtları döndürür; `preloadAtlas()` beklenmeden çağrılamaz. */
-export function loadAllStates(): State[] {
-  if (!cachedStates) {
-    throw new Error(
-      '[AtlasLoader] Veri yüklenmeden loadAllStates() çağrıldı; önce preloadAtlas() beklenmelidir.'
-    );
+function all(): Map<string, State> {
+  if (!states) throw new Error('Atlas verisi yüklenmeden okunamaz; önce preloadAtlas() beklenmeli.');
+  return states;
+}
+
+export function allStates(): State[] {
+  return [...all().values()];
+}
+
+export function getState(id: string): State | undefined {
+  return all().get(id);
+}
+
+export function getContext(id: string): ContextNode | undefined {
+  return contextById.get(id);
+}
+
+export function getRuler(stateId: string, rulerId: string): Ruler | undefined {
+  return getState(stateId)?.rulers.find((r) => r.id === rulerId);
+}
+
+export function isOngoing(state: State): boolean {
+  return state.region === 'gunumuz';
+}
+
+/* --------------------------------------------------------------- soy ağacı */
+
+export interface TreeNode {
+  id: string;
+  kind: 'state' | 'context';
+  name: string;
+  short: string;
+  start: number;
+  end: number;
+  ongoing: boolean;
+  region: Region | null;
+  parent: TreeNode | null;
+  edgeKind: EdgeKind | null;
+  edgeNote: string;
+  children: TreeNode[];
+}
+
+let treeCache: { root: TreeNode; byId: Map<string, TreeNode> } | null = null;
+
+export function buildTree(): { root: TreeNode; byId: Map<string, TreeNode> } {
+  if (treeCache) return treeCache;
+  const byId = new Map<string, TreeNode>();
+  for (const s of all().values()) {
+    byId.set(s.id, {
+      id: s.id,
+      kind: 'state',
+      name: s.name,
+      short: (s.short || s.name).replace(/\s*\(.*\)$/, ''),
+      start: s.start,
+      end: s.end,
+      ongoing: isOngoing(s),
+      region: s.region,
+      parent: null,
+      edgeKind: null,
+      edgeNote: '',
+      children: [],
+    });
   }
-  return cachedStates;
+  for (const c of lineage.contextNodes) {
+    byId.set(c.id, {
+      id: c.id,
+      kind: 'context',
+      name: c.name,
+      short: c.short,
+      start: c.start,
+      end: c.end,
+      ongoing: false,
+      region: null,
+      parent: null,
+      edgeKind: null,
+      edgeNote: '',
+      children: [],
+    });
+  }
+  for (const e of lineage.edges) {
+    const parent = byId.get(e.parent);
+    const child = byId.get(e.child);
+    if (!parent || !child) throw new Error(`Soy ağacı bağı bilinmeyen düğüme gidiyor: ${e.parent} → ${e.child}`);
+    if (child.parent) throw new Error(`${e.child} düğümünün iki üst düğümü var.`);
+    child.parent = parent;
+    child.edgeKind = e.kind;
+    child.edgeNote = e.note;
+    parent.children.push(child);
+  }
+  const root = byId.get(lineage.root);
+  if (!root) throw new Error(`Soy ağacı kökü bulunamadı: ${lineage.root}`);
+  treeCache = { root, byId };
+  return treeCache;
+}
+
+/* ----------------------------------------------------------- savaş ilişkileri */
+
+export interface WarRef {
+  stateId: string;
+  rulerId: string;
+  index: number;
+}
+
+export interface WarEntry extends WarRef {
+  war: War;
+  state: State;
+  ruler: Ruler;
+  start: number | null;
+  end: number | null;
+}
+
+let warsCache: WarEntry[] | null = null;
+
+function allWars(): WarEntry[] {
+  if (warsCache) return warsCache;
+  const list: WarEntry[] = [];
+  for (const state of all().values()) {
+    for (const ruler of state.rulers) {
+      ruler.wars.forEach((war, index) => {
+        const d = parseHistoricalDate(war.when);
+        list.push({ stateId: state.id, rulerId: ruler.id, index, war, state, ruler, start: d.start, end: d.end ?? d.start });
+      });
+    }
+  }
+  warsCache = list;
+  return list;
+}
+
+export function getWar(ref: WarRef): WarEntry | undefined {
+  return allWars().find((w) => w.stateId === ref.stateId && w.rulerId === ref.rulerId && w.index === ref.index);
+}
+
+export function stateWars(stateId: string): WarEntry[] {
+  return allWars()
+    .filter((w) => w.stateId === stateId)
+    .sort((a, b) => (a.start ?? Infinity) - (b.start ?? Infinity));
+}
+
+const BATTLE_WORDS = /\b(savasi|savas|muharebesi|muharebe|kusatmasi|kusatma|seferi|sefer|meydan|zaferi|bozgunu|baskini|catismasi|ve|ile|i|ii|iii)\b/g;
+
+function battleKey(name: string): string {
+  return canon(name)
+    .replace(/\(.*?\)/g, ' ')
+    .replace(/[^a-z0-9 ]+/g, ' ')
+    .replace(BATTLE_WORDS, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** Aynı savaşın karşı tarafta (başka bir devletin hükümdarında) tutulan kaydı. */
+export function counterpartWars(entry: WarEntry): WarEntry[] {
+  const key = battleKey(entry.war.name);
+  if (key.length < 3) return [];
+  return allWars().filter((w) => {
+    if (w.stateId === entry.stateId) return false;
+    if (battleKey(w.war.name) !== key) return false;
+    if (entry.start === null || w.start === null) return true;
+    const aEnd = entry.end ?? entry.start;
+    const bEnd = w.end ?? w.start;
+    return w.start <= aEnd + 1 && entry.start <= bEnd + 1;
+  });
+}
+
+/** Savaşın karşı tarafındaki adın atlasta bir devlete ve mümkünse hükümdara karşılık gelip gelmediği. */
+export function foeMatches(entry: WarEntry): { state: State; ruler: Ruler | null }[] {
+  const foe = ` ${canon(entry.war.foe).replace(/[^a-z0-9]+/g, ' ')} `;
+  if (!foe.trim()) return [];
+  const found: { state: State; ruler: Ruler | null }[] = [];
+  for (const state of all().values()) {
+    if (state.id === entry.stateId) continue;
+    const keys = new Set<string>();
+    for (const n of [state.name, state.short ?? '', ...state.aliases]) {
+      const k = canon(n).replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
+      if (!k) continue;
+      keys.add(k);
+      keys.add(k.replace(/\b(devleti|hanligi|kaganligi|imparatorlugu|sultanligi|beyligi|birligi|ordasi)\b/g, '').trim());
+      keys.add(k.replace(/(lar|ler|lari|leri)$/, ''));
+      keys.add(k.replace(/ogullari$/, 'oglu'));
+    }
+    const hit = [...keys].some((k) => k.length >= 5 && foe.includes(` ${k}`));
+    if (!hit) continue;
+    const year = entry.start;
+    const ruler =
+      state.rulers.find((r) => {
+        const rn = canon(r.name).replace(/[^a-z0-9]+/g, ' ').trim();
+        if (rn.length < 5 || !foe.includes(` ${rn} `) && !foe.includes(` ${rn}`)) return false;
+        if (year === null) return true;
+        const [a, b] = r.reign;
+        return (a === null || a - 1 <= year) && (b === null || year <= b + 1);
+      }) ?? null;
+    found.push({ state, ruler });
+  }
+  return found;
+}
+
+/** Çocuk kaydının aynı devlette sonradan hükümdar olup olmadığı. */
+export function childAsRuler(state: State, father: Ruler, childName: string): Ruler | null {
+  const name = canon(childName).replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
+  if (name.length < 3) return null;
+  const from = father.reign[0] ?? -Infinity;
+  const until = (father.reign[1] ?? father.death ?? from) + 40;
+  const re = new RegExp(`(^| )${name}( |$)`);
+  return (
+    state.rulers.find((r) => {
+      if (r.id === father.id || r.reign[0] === null) return false;
+      if (r.reign[0] < from || r.reign[0] > until) return false;
+      return re.test(canon(r.name).replace(/[^a-z0-9]+/g, ' ').trim());
+    }) ?? null
+  );
+}
+
+export function warStats(wars: War[]): Record<BattleResult, number> {
+  const s: Record<BattleResult, number> = { zafer: 0, yenilgi: 0, sonucsuz: 0, belirsiz: 0, antlasma: 0 };
+  for (const w of wars) s[w.result]++;
+  return s;
+}
+
+export function durationLabel(start: number | null, end: number | null): string {
+  if (start === null) return 'Kayıtta kesin tarih yok';
+  if (end === null) return `${yearLabel(start)} dolayı; süre kayıtlarda yok`;
+  if (end === start) return `${yearLabel(start)} yılı içinde`;
+  const n = end - start;
+  return `${yearLabel(start)} – ${yearLabel(end)} · yaklaşık ${n} yıl`;
+}
+
+export function reignLabel(r: Ruler, ongoing = false): string {
+  const [a, b] = r.reign;
+  if (a === null) return 'Saltanat yılları kayıtlarda yok';
+  if (b === null) return ongoing ? `${yearLabel(a)} – günümüz` : `${yearLabel(a)} – ?`;
+  return a === b ? yearLabel(a) : `${yearLabel(a)} – ${yearLabel(b)}`;
 }
