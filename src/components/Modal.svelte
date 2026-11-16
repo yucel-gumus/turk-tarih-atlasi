@@ -9,9 +9,10 @@
     title: string;
     subtitle?: string;
     accent?: string;
+    accentText?: string;
     children: Snippet;
   }
-  const { depth, crumbs, kicker, title, subtitle = '', accent = 'var(--accent)', children }: Props = $props();
+  const { depth, crumbs, kicker, title, subtitle = '', accent = 'var(--accent)', accentText = 'var(--accent)', children }: Props = $props();
 
   let dialog: HTMLDialogElement;
   const top = $derived(depth === modals.items.length);
@@ -36,6 +37,7 @@
   bind:this={dialog}
   class="modal"
   style:--accent-c={accent}
+  style:--accent-text-c={accentText}
   style:--lvl={Math.min(depth - 1, 6)}
   aria-labelledby="modal-title-{depth}"
   oncancel={onCancel}
@@ -113,6 +115,7 @@
   }
   header {
     padding: 14px 24px 16px;
+    background: var(--surface-card);
     border-bottom: 1px solid var(--line);
   }
   .bar {
@@ -156,10 +159,10 @@
   .close {
     flex: none;
     border: 1px solid var(--line);
-    background: var(--surface-2);
+    background: var(--surface);
     border-radius: 999px;
     cursor: pointer;
-    color: var(--ink-soft);
+    color: var(--ink);
   }
   .back {
     padding: 4px 12px;
@@ -173,7 +176,7 @@
   }
   .back:hover,
   .close:hover {
-    background: var(--line);
+    background: var(--surface-2);
   }
   .kicker {
     margin: 0;
@@ -181,7 +184,7 @@
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--accent-c);
+    color: var(--accent-text-c, var(--accent));
   }
   h2 {
     margin: 2px 0 0;

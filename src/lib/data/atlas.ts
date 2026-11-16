@@ -16,14 +16,25 @@ import { canon } from '../text';
 import { parseHistoricalDate } from './dates';
 
 export const REGION_COLORS: Record<Region, string> = {
-  bozkir: '#b5651d',
-  turkistan: '#14776b',
-  bati: '#35558a',
-  kuzey: '#4f7a33',
-  iran: '#a83a5b',
-  anadolu: '#977a1c',
-  diger: '#6b6357',
-  gunumuz: '#c0392b',
+  bozkir: '#AB421C',
+  turkistan: '#3E5164',
+  bati: '#253341',
+  kuzey: '#BCC7D2',
+  iran: '#F2A488',
+  anadolu: '#EC7D55',
+  diger: '#3E5164',
+  gunumuz: '#AB421C',
+};
+
+export const REGION_TEXT_COLORS: Record<Region, string> = {
+  bozkir: '#AB421C',
+  turkistan: '#3E5164',
+  bati: '#253341',
+  kuzey: '#3E5164',
+  iran: '#AB421C',
+  anadolu: '#AB421C',
+  diger: '#3E5164',
+  gunumuz: '#AB421C',
 };
 
 export const REGION_NAMES: Record<Region, string> = {

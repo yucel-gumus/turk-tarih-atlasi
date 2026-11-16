@@ -14,6 +14,7 @@
     reignLabel,
     spanLabel,
     REGION_COLORS,
+    REGION_TEXT_COLORS,
     REGION_NAMES,
   } from '../lib/data/atlas';
 
@@ -23,6 +24,7 @@
     title: string;
     subtitle: string;
     accent: string;
+    accentText: string;
   }
 
   function head(e: ModalEntry): Head {
@@ -34,11 +36,19 @@
         title: s.name,
         subtitle: spanLabel(s.start, s.end, isOngoing(s)),
         accent: REGION_COLORS[s.region],
+        accentText: REGION_TEXT_COLORS[s.region],
       };
     }
     if (e.kind === 'context') {
       const c = getContext(e.id)!;
-      return { crumb: c.short, kicker: 'Bağlam', title: c.name, subtitle: spanLabel(c.start, c.end), accent: 'var(--ink-muted)' };
+      return {
+        crumb: c.short,
+        kicker: 'Bağlam',
+        title: c.name,
+        subtitle: spanLabel(c.start, c.end),
+        accent: 'var(--ink-muted)',
+        accentText: 'var(--ink-muted)',
+      };
     }
     const s = getState(e.stateId)!;
     const r = getRuler(e.stateId, e.rulerId)!;
@@ -49,6 +59,7 @@
         title: r.name,
         subtitle: reignLabel(r, isOngoing(s)),
         accent: REGION_COLORS[s.region],
+        accentText: REGION_TEXT_COLORS[s.region],
       };
     }
     const w = getWar(e)!;
@@ -58,6 +69,7 @@
       title: w.war.name,
       subtitle: w.war.when,
       accent: REGION_COLORS[s.region],
+      accentText: REGION_TEXT_COLORS[s.region],
     };
   }
 
@@ -73,6 +85,7 @@
     title={h.title}
     subtitle={h.subtitle}
     accent={h.accent}
+    accentText={h.accentText}
   >
     {#if entry.kind === 'state'}
       <StateView id={entry.id} />

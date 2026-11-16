@@ -31,7 +31,7 @@
     margin: 0;
     padding: 2px 10px;
     border-radius: 999px;
-    background: color-mix(in srgb, var(--paper) 85%, transparent);
+    background: rgba(237, 243, 238, 0.88);
     color: var(--ink-muted);
     font-size: 10.5px;
     font-weight: 600;
@@ -44,7 +44,7 @@
     align-items: center;
     gap: 12px;
     padding: 8px 8px 8px 8px;
-    background: var(--surface);
+    background: var(--surface-card);
     border: 1px solid var(--line);
     border-radius: 999px;
     box-shadow: var(--shadow);
@@ -53,7 +53,7 @@
     transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
   }
   .author:hover {
-    border-color: var(--accent);
+    border-color: var(--accent-cta);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
   }
@@ -68,8 +68,8 @@
     height: 40px;
     flex: none;
     border-radius: 50%;
-    background: var(--accent);
-    color: var(--surface);
+    background: var(--accent-cta);
+    color: var(--ink);
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.04em;
@@ -93,7 +93,7 @@
     margin-left: 4px;
     padding: 8px 14px;
     border-radius: 999px;
-    background: var(--accent-soft);
+    background: var(--surface);
     color: var(--accent);
     font-weight: 700;
     font-size: 13px;

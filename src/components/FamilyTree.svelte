@@ -288,15 +288,16 @@
   }
   .node:hover {
     transform: translateY(-1px);
-    box-shadow: var(--shadow), 0 0 0 3px color-mix(in srgb, var(--c) 18%, transparent);
+    box-shadow: var(--shadow), 0 0 0 3px rgba(236, 125, 85, 0.25);
   }
   .node.context {
-    background: var(--surface-2);
+    background: var(--surface-card);
     border-style: dashed;
+    border-color: var(--line-strong);
   }
   .node.modern {
-    border-color: color-mix(in srgb, var(--c) 45%, var(--line));
-    background: color-mix(in srgb, var(--c) 7%, var(--surface));
+    border-color: var(--accent-cta);
+    background: var(--surface-2);
   }
   .name {
     font-family: var(--serif);
@@ -322,7 +323,7 @@
     top: 14px;
     left: 16px;
     padding: 10px 16px 11px;
-    background: color-mix(in srgb, var(--surface) 88%, transparent);
+    background: rgba(220, 227, 234, 0.92);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid var(--line);
